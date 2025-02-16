@@ -11,29 +11,73 @@
 		<Description>%CategoryAnomalyQualityPositiveDescription</Description>
 		<Color Red="101" Green="164" Blue="95" Alpha="255"/>
 	</ExtendedGuiElement>
-
+	
 	<ExtendedGuiElement Name="CategoryAnomalyQualityNegative">
 		<Title>%CategoryAnomalyQualityNegativeTitle</Title>
 		<Description>%CategoryAnomalyQualityNegativeDescription</Description>
 		<Color Red="157" Green="92" Blue="87" Alpha="255"/>
 	</ExtendedGuiElement>
-
+	
 	<ExtendedGuiElement Name="CategoryAnomalyQualityReduced">
 		<Title>%CategoryAnomalyQualityReducedTitle</Title>
 		<Description>%CategoryAnomalyQualityReducedDescription</Description>
 		<Color Red="87" Green="115" Blue="157" Alpha="255"/>
 	</ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="CategoryAnomalyQualityMoon">
-    <Title>%CategoryAnomalyQualityMoonTitle</Title>
-    <Description>%CategoryAnomalyQualityMoonDescription</Description>
-    <Color Red="204" Green="150" Blue="0" Alpha="255"/>
-  </ExtendedGuiElement>
-
-  <GuiElement Name="CategoryRemains">
-    <Title>%CategoryAnomalyTitle</Title>
-    <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Curiosities/CuriosityTypeRemainsSmall" />
-    </Icons>
-  </GuiElement>
+	
+	<ExtendedGuiElement Name="CategoryAnomalyQualityMoon">
+		<Title>%CategoryAnomalyQualityMoonTitle</Title>
+		<Description>%CategoryAnomalyQualityMoonDescription</Description>
+		<Color Red="204" Green="150" Blue="0" Alpha="255"/>
+	</ExtendedGuiElement>
+	
+	<GuiElement Name="CategoryRemains">
+		<Title>%CategoryAnomalyTitle</Title>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Curiosities/CuriosityTypeRemainsSmall" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- SKILL TREES-->
+	
+	<GuiElement Name="CategoryHeroSkillTreeIndustrialist">
+		<Title>%CategoryHeroSkillTreeIndustrialistTitle</Title>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Politics/PoliticsIndustrialistSmall" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="CategoryHeroSkillTreeScientist">
+		<Title>%CategoryHeroSkillTreeScientistTitle</Title>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Politics/PoliticsScientistSmall" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="CategoryHeroSkillTreePacifist">
+		<Title>%CategoryHeroSkillTreePacifistTitle</Title>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Politics/PoliticsPacifistSmall" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="CategoryHeroSkillTreeEcologist">
+		<Title>%CategoryHeroSkillTreeEcologistTitle</Title>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Politics/PoliticsEcologistSmall" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="CategoryHeroSkillTreeReligious">
+		<Title>%CategoryHeroSkillTreeReligiousTitle</Title>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Politics/PoliticsReligiousSmall" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="CategoryHeroSkillTreeMilitarist">
+		<Title>%CategoryHeroSkillTreeMilitaristTitle</Title>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Politics/PoliticsMilitaristSmall" />
+		</Icons>
+	</GuiElement>
 </Datatable>
