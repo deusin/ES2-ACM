@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <GuiElement Name="StarSystemImprovementScience2Templars">
+    <Title>%StarSystemImprovementScience2TemplarsTitle</Title>
+    <Description>%StarSystemImprovementScience2TemplarsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementScience2TemplarsSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementScience2TemplarsLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="EmpireImprovementTemplarsFinalQuest1">
+    <Title>%EmpireImprovementQuestTemplars01Title</Title>
+    <Description>%EmpireImprovementQuestTemplars01Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementRelicsInfluenceSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementRelicsInfluenceLarge" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="StarSystemImprovementDefense3Templars">
+    <Title>%StarSystemImprovementDefense3TemplarsTitle</Title>
+    <Description>%StarSystemImprovementDefense3TemplarsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementDefense3TemplarsSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementDefense3TemplarsLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="StarSystemImprovementScience4Templars">
+    <Title>%StarSystemImprovementScience4Title</Title>
+    <Description>%StarSystemImprovementScience4Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementScience4TemplarsSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementScience4TemplarsLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="StarSystemImprovementScience6Templars">
+    <Title>%StarSystemImprovementScience6TemplarsTitle</Title>
+    <Description>%StarSystemImprovementScience6TemplarsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementScience6TemplarsSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementScience6TemplarsLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementHeroCravers">
+    <Title>%StarSystemImprovementHeroCraversTitle</Title>
+    <Description>%StarSystemImprovementHeroCraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementHeroCraversSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementHeroCraversLarge" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <!-- Filter Barges -->
+  <ExtendedGuiElement Name="StarSystemImprovementUniqueStrategicVaulters">
+    <Title>%StarSystemImprovementUniqueStrategicVaultersTitle</Title>
+    <Description>%StarSystemImprovementUniqueStrategicVaultersDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueStrategicVaultersSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueStrategicVaultersLarge" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementUniqueStrategicVaultersTooltip</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Resource Buildings GUI clarification -->
+  <ExtendedGuiElement Name="StarSystemImprovementResourceFactory1">
+    <Title>%StarSystemImprovementResourceFactory1Title</Title>
+    <Description>%StarSystemImprovementResourceFactory1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory1Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory1Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementResourceFactory2">
+    <Title>%StarSystemImprovementResourceFactory2Title</Title>
+    <Description>%StarSystemImprovementResourceFactory2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory2Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory2Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementResourceFactory3">
+    <Title>%StarSystemImprovementResourceFactory3Title</Title>
+    <Description>%StarSystemImprovementResourceFactory3Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory3Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory3Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementResourceFactory3TimeLords">
+    <Title>%StarSystemImprovementResourceFactory3TimeLordsTitle</Title>
+    <Description>%StarSystemImprovementResourceFactory3TimeLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory3TimeLordsSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory3TimeLordsLarge" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- UC Resource Buildings -->
+  <ExtendedGuiElement Name="StarSystemImprovementResourceFactory1UmbralChoir">
+    <Title>%StarSystemImprovementResourceFactory1Title</Title>
+    <Description>%StarSystemImprovementResourceFactory1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory1Small"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory1Large"/>
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementResourceFactory2UmbralChoir">
+    <Title>%StarSystemImprovementResourceFactory2Title</Title>
+    <Description>%StarSystemImprovementResourceFactory2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory2Small"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory2Large"/>
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementResourceFactory3UmbralChoir">
+    <Title>%StarSystemImprovementResourceFactory3Title</Title>
+    <Description>%StarSystemImprovementResourceFactory3Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory3Small"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementResourceFactory3Large"/>
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!--  Slag/Sludge  -->
+  <ExtendedGuiElement Name="PlanetImprovementResource1">
+    <Title>%PlanetImprovementResource1Title</Title>
+    <Description>%PlanetImprovementResource1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementResource1Small" />
+      <Icon Size="Medium" Path="Strategic01Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementResource1Large" />
+      <Icon Size="Category" Path="Bitmaps/Atlased/GameVariables/FIDSIResource" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+  <!--  Self-Mining NPO  -->
+  <ExtendedGuiElement Name="PlanetImprovementResource2">
+    <Title>%PlanetImprovementResource2Title</Title>
+    <Description>%PlanetImprovementResource2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementResource2Small" />
+      <Icon Size="Medium" Path="Strategic01Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementResource2Large" />
+      <Icon Size="Category" Path="Bitmaps/Atlased/GameVariables/FIDSIResource" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+  <!--  Deprecated  -->
+  <ExtendedGuiElement Name="PlanetImprovementResource3">
+    <Title>%PlanetImprovementResource3Title</Title>
+    <Description>%PlanetImprovementResource3Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementResource3Small" />
+      <Icon Size="Medium" Path="Strategic01Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementResource3Large" />
+      <Icon Size="Category" Path="Bitmaps/Atlased/GameVariables/FIDSIResource" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DepositValueScalesWithGameSpeed</EffectOverride>
+    </TooltipElement>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Arcological Administration -->
+  <ExtendedGuiElement Name="StarSystemImprovementInfluenceSink">
+    <Title>%StarSystemImprovementInfluenceSinkTitle</Title>
+    <Description>%StarSystemImprovementInfluenceSinkDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\InfluenceSinkSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\InfluenceSinkLarge.png" />
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementInfluenceSink_Alt">
+    <Title>%StarSystemImprovementInfluenceSinkTitle</Title>
+    <Description>%StarSystemImprovementInfluenceSinkDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\InfluenceSinkSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\InfluenceSinkLarge.png" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <!-- Temporal Stability -->
+  <ExtendedGuiElement Name="StarSystemImprovementTimeBubbleCounter">
+    <Title>%StarSystemImprovementTimeBubbleCounterTitle</Title>
+    <Description>%StarSystemImprovementTimeBubbleCounterDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementTimeBubbleCounterSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementTimeBubbleCounterLarge.png" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <!-- Sim Camps Part II -->
+  <ExtendedGuiElement Name="StarSystemImprovementCuriosity2B">
+    <Title>%StarSystemImprovementCuriosity2BTitle</Title>
+    <Description>%StarSystemImprovementCuriosity2BDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementCuriosity2BSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementCuriosity2BLarge.png" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <!-- SHIP -->
+  <ExtendedGuiElement Name="StarSystemImprovementShip1">
+    <Title>%StarSystemImprovementShip1Title</Title>
+    <Description>%StarSystemImprovementShip1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip1Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip1Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementShip1TooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementShip2">
+    <Title>%StarSystemImprovementShip2Title</Title>
+    <Description>%StarSystemImprovementShip2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip2Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip2Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementShip2TooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementShip2Cravers">
+    <Title>%StarSystemImprovementShip2CraversTitle</Title>
+    <Description>%StarSystemImprovementShip2CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip2Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip2Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementShip1CraversTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementUniqueShip1">
+    <Title>%StarSystemImprovementUniqueShip1Title</Title>
+    <Description>%StarSystemImprovementUniqueShip1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueShip1Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueShip1Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementUniqueShip1TooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementUniqueTerrans">
+    <Title>%StarSystemImprovementUniqueTerransTitle</Title>
+    <Description>%StarSystemImprovementUniqueTerransDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueTerransSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueTerransLarge" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <!-- Riftborn buildings -->
+  <GuiElement Name="StarSystemImprovementIndustry1TimeLords">
+    <Title>%StarSystemImprovementIndustry1TimeLordsTitle</Title>
+    <Description>%StarSystemImprovementIndustry1TimeLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementIndustry1TimeLordsSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementIndustry1TimeLordsLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementScience1TimeLords">
+    <Title>%StarSystemImprovementScience1TimeLordsTitle</Title>
+    <Description>%StarSystemImprovementScience1TimeLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementScience1TimeLordsSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementScience1TimeLordsLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementQuestTimeLords99">
+    <Title>%LawP00QuestTimeLords02ShortTitle</Title>
+    <Description>%LawP00QuestTimeLords02Description</Description>
+    <Icons>
+        <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementMothershipBaseSmall"/>
+        <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementMothershipBaseLarge"/>
+    </Icons>
+    <TooltipElement>
+        <EffectOverride>%LawEffectP00L02-QuestTimeLordsEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <GuiElement Name="StarSystemImprovementQuestTimeLords99Effect">
+    <Title>%LawP00QuestTimeLords02ShortTitle</Title>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementQuestTimeLords99EffectFakeforGUI">
+    <Title>%LawP00QuestTimeLords02ShortTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementCreateMajorPopulationFast">
+    <Title>%StarSystemImprovementCreateMajorPopulationTitle</Title>
+    <Description>%StarSystemImprovementCreateMajorPopulationDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCreateMajorPopulationSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCreateMajorPopulationLarge" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementCreateMajorPopulationFastEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementCreateMajorPopulationUmbralChoirFast">
+    <Title>%StarSystemImprovementCreateMajorPopulationTitle</Title>
+    <Description>%StarSystemImprovementCreateMajorPopulationDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCreateMajorPopulationSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCreateMajorPopulationLarge" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementCreateMajorPopulationFastEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementQuestTimeLords05Fast">
+    <Title>%StarSystemImprovementQuestTimeLords05Title</Title>
+    <Description>%StarSystemImprovementQuestTimeLords05Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCreateMajorPopulationSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCreateMajorPopulationLarge" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementCreateMajorPopulationFastEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementQuestTimeLords07Fast">
+    <Title>%StarSystemImprovementQuestTimeLords07Title</Title>
+    <Description>%StarSystemImprovementQuestTimeLords07Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCreateMajorPopulationSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCreateMajorPopulationLarge" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementCreateMajorPopulationFastEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Craver buildings -->
+  <GuiElement Name="StarSystemImprovementDust1Cravers">
+    <Title>%StarSystemImprovementDust1CraversTitle</Title>
+    <Description>%StarSystemImprovementDust1CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementDust1CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementDust1CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementFood2Cravers">
+    <Title>%StarSystemImprovementFood2CraversTitle</Title>
+    <Description>%StarSystemImprovementFood2CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementFood2CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementFood2CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementBuyout1Cravers">
+    <Title>%StarSystemImprovementBuyout1CraversTitle</Title>
+    <Description>%StarSystemImprovementBuyout1CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementBuyout1CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementBuyout1CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementInfluence1Cravers">
+    <Title>%StarSystemImprovementInfluence1CraversTitle</Title>
+    <Description>%StarSystemImprovementInfluence1CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementInfluence1CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementInfluence1CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementInfluence2Cravers">
+    <Title>%StarSystemImprovementInfluence2CraversTitle</Title>
+    <Description>%StarSystemImprovementInfluence2CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementInfluence2CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementInfluence2CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementScience6Cravers">
+    <Title>%StarSystemImprovementScience6CraversTitle</Title>
+    <Description>%StarSystemImprovementScience6CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementScience6CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementScience6CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementInfluence3Cravers">
+    <Title>%StarSystemImprovementInfluence3CraversTitle</Title>
+    <Description>%StarSystemImprovementInfluence3CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementInfluence3CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementInfluence3CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementIndustry5Cravers">
+    <Title>%StarSystemImprovementIndustry5CraversTitle</Title>
+    <Description>%StarSystemImprovementIndustry5CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementIndustry5CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementIndustry5CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementScienceOnGasCravers">
+    <Title>%StarSystemImprovementScienceOnGasCraversTitle</Title>
+    <Description>%StarSystemImprovementScienceOnGasCraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementScienceOnGasCraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementScienceOnGasCraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementDust7Cravers">
+    <Title>%StarSystemImprovementDust7CraversTitle</Title>
+    <Description>%StarSystemImprovementDust7CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementDust7CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementDust7CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementScience8Cravers">
+    <Title>%StarSystemImprovementScience8CraversTitle</Title>
+    <Description>%StarSystemImprovementScience8CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementScience8CraversSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementScience8CraversLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Unconditional Propaganda -->
+  <ExtendedGuiElement Name="StarSystemImprovementPropagandaPolitics01SLC">
+      <Title>%StarSystemImprovementPropagandaPolitics01Title</Title>
+      <Description>%StarSystemImprovementPropagandaPolitics01Description</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaIndustrialistSmall" />
+          <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaIndustrialistLarge" />
+      </Icons>
+      <TooltipElement>
+          <EffectOverride>%StarSystemImprovementPropagandaPolitics01EffectOverride</EffectOverride>
+      </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementPropagandaPolitics02SLC">
+      <Title>%StarSystemImprovementPropagandaPolitics02Title</Title>
+      <Description>%StarSystemImprovementPropagandaPolitics02Description</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaScientistSmall" />
+          <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaScientistLarge" />
+      </Icons>
+      <TooltipElement>
+          <EffectOverride>%StarSystemImprovementPropagandaPolitics02EffectOverride</EffectOverride>
+      </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementPropagandaPolitics03SLC">
+      <Title>%StarSystemImprovementPropagandaPolitics03Title</Title>
+      <Description>%StarSystemImprovementPropagandaPolitics03Description</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaPacifistSmall" />
+          <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaPacifistLarge" />
+      </Icons>
+      <TooltipElement>
+          <EffectOverride>%StarSystemImprovementPropagandaPolitics03EffectOverride</EffectOverride>
+      </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementPropagandaPolitics04SLC">
+      <Title>%StarSystemImprovementPropagandaPolitics04Title</Title>
+      <Description>%StarSystemImprovementPropagandaPolitics04Description</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaEcologistSmall" />
+          <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaEcologistLarge" />
+      </Icons>
+      <TooltipElement>
+          <EffectOverride>%StarSystemImprovementPropagandaPolitics04EffectOverride</EffectOverride>
+      </TooltipElement> 
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementPropagandaPolitics05SLC">
+      <Title>%StarSystemImprovementPropagandaPolitics05Title</Title>
+      <Description>%StarSystemImprovementPropagandaPolitics05Description</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaReligiousSmall" />
+          <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaReligiousLarge" />
+      </Icons>
+      <TooltipElement>
+          <EffectOverride>%StarSystemImprovementPropagandaPolitics05EffectOverride</EffectOverride>
+      </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="StarSystemImprovementPropagandaPolitics06SLC">
+      <Title>%StarSystemImprovementPropagandaPolitics06Title</Title>
+      <Description>%StarSystemImprovementPropagandaPolitics06Description</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaMilitaristSmall" />
+          <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPropagandaMilitaristLarge" />
+      </Icons>
+      <TooltipElement>
+          <EffectOverride>%StarSystemImprovementPropagandaPolitics06EffectOverride</EffectOverride>
+      </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!--Propaganda Sim Descriptors-->
+  <GuiElement Name="StarSystemImprovementPropagandaPolitics01Queued">
+    <Title>%StarSystemImprovementPropagandaPolitics01Title</Title>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementPropagandaPolitics02Queued">
+    <Title>%StarSystemImprovementPropagandaPolitics02Title</Title>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementPropagandaPolitics03Queued">
+    <Title>%StarSystemImprovementPropagandaPolitics03Title</Title>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementPropagandaPolitics04Queued">
+    <Title>%StarSystemImprovementPropagandaPolitics04Title</Title>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementPropagandaPolitics05Queued">
+    <Title>%StarSystemImprovementPropagandaPolitics05Title</Title>
+  </GuiElement>
+  <GuiElement Name="StarSystemImprovementPropagandaPolitics06Queued">
+    <Title>%StarSystemImprovementPropagandaPolitics06Title</Title>
+  </GuiElement>
+
+  <!--Create Major with Food-->
+  <ExtendedGuiElement Name="StarSystemImprovementCloneMajorPopulationWithFood">
+        <Title>%StarSystemImprovementCloneMajorPopulationWithFoodTitle</Title>
+        <Description>%StarSystemImprovementCloneMajorPopulationWithFoodDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementCloning1Small" />
+            <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementCloning1Large" />
+        </Icons>
+    </ExtendedGuiElement>
+  <GuiElement Name="QueuedDescriptorIncreasePopulation">
+      <Title>%QueuedDescriptorIncreasePopulationTitle</Title>
+      <Description>%QueuedDescriptorIncreasePopulationDescription</Description>
+  </GuiElement>
+
+  <!--Larger Chain Gang-->
+  <StarSystemResourceImprovementGuiElement Name="StarSystemImprovementEnrollmentLarge" HasVariablePopulationSymbol="true">
+    <Title>%StarSystemImprovementEnrollmentLargeTitle</Title>
+    <Description>%StarSystemImprovementEnrollmentDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementEnrollmentSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementEnrollmentLarge" />
+    </Icons>
+    <ResourcesDescription>%StarSystemImprovementEnrollmentLargeResourcesDescription</ResourcesDescription>
+  </StarSystemResourceImprovementGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementQuestTimeLords05">
+    <Title>%StarSystemImprovementQuestTimeLords05Title</Title>
+    <Description>%StarSystemImprovementQuestTimeLords05Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\EmpireImprovements\EmpireImprovementQuestTimeLords05Small.png" />
+      <Icon Size="Large" Path="Textures\EmpireImprovements\EmpireImprovementQuestTimeLords05Large.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementQuestTimeLords05Override</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="StarSystemImprovementQuestTimeLords06">
+    <Title>%StarSystemImprovementQuestTimeLords06Title</Title>
+    <Description>%StarSystemImprovementQuestTimeLords06Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\EmpireImprovements\EmpireImprovementQuestTimeLords06Small.png" />
+      <Icon Size="Large" Path="Textures\EmpireImprovements\EmpireImprovementQuestTimeLords06Large.png" />
+    </Icons>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementQuestTimeLords07">
+    <Title>%StarSystemImprovementQuestTimeLords07Title</Title>
+    <Description>%StarSystemImprovementQuestTimeLords07Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\EmpireImprovements\EmpireImprovementQuestTimeLords05Small.png" />
+      <Icon Size="Large" Path="Textures\EmpireImprovements\EmpireImprovementQuestTimeLords05Large.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementQuestTimeLords07Override</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="StarSystemImprovementQuestTimeLords08">
+    <Title>%StarSystemImprovementQuestTimeLords08Title</Title>
+    <Description>%StarSystemImprovementQuestTimeLords08Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\EmpireImprovements\EmpireImprovementQuestTimeLords06Small.png" />
+      <Icon Size="Large" Path="Textures\EmpireImprovements\EmpireImprovementQuestTimeLords06Large.png" />
+    </Icons>
+  </GuiElement>
+  
+  <ExtendedGuiElement Name="StarSystemImprovementVault">
+    <Title>%StarSystemImprovementVaultTitle</Title>
+    <Description>%StarSystemImprovementVaultDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementVaultSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementVaultLarge.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementVaultEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  
+  <!-- Curio Rewards -->
+  <GuiElement Name="StarSystemImprovementHasHangarUpgrade"/>
+  
+  <ExtendedGuiElement Name="StarSystemImprovementUniqueCurioBlockadeImmunity">
+    <Title>%StarSystemImprovementUniqueCurioBlockadeImmunityTitle</Title>
+    <Description>%StarSystemImprovementUniqueCurioBlockadeImmunityDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementUniqueCurioBlockadeImmunitySmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementUniqueCurioBlockadeImmunityLarge.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementUniqueCurioBlockadeImmunityEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="StarSystemImprovementUniqueCurioInvasionManpower">
+    <Title>%StarSystemImprovementUniqueCurioInvasionManpowerTitle</Title>
+    <Description>%StarSystemImprovementUniqueCurioInvasionManpowerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementUniqueCurioInvasionManpowerSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementUniqueCurioInvasionManpowerLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="StarSystemImprovementCurioPatrol">
+    <Title>%StarSystemImprovementCurioPatrolTitle</Title>
+    <Description>%StarSystemImprovementCurioPatrolDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementCurioPatrolSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementCurioPatrolLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="StarSystemImprovementUniqueCurioHero">
+    <Title>%StarSystemImprovementUniqueCurioHeroTitle</Title>
+    <Description>%StarSystemImprovementUniqueCurioHeroDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementUniqueCurioHeroSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementUniqueCurioHeroLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementUniqueCurioSenateUpgrade">
+    <Title>%StarSystemImprovementUniqueCurioSenateUpgradeTitle</Title>
+    <Description>%StarSystemImprovementUniqueCurioSenateUpgradeDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementUniqueCurioSenateUpgradeSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementUniqueCurioSenateUpgradeLarge.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementUniqueCurioSenateUpgradeEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementCurioHangarSpeed">
+    <Title>%StarSystemImprovementCurioHangarSpeedTitle</Title>
+    <Description>%StarSystemImprovementCurioHangarSpeedDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementCurioHangarSpeedSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementCurioHangarSpeedLarge.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementCurioHangarSpeedEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementCurioHangarHealth">
+    <Title>%StarSystemImprovementCurioHangarHealthTitle</Title>
+    <Description>%StarSystemImprovementCurioHangarHealthDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementCurioHangarHealthSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementCurioHangarHealthLarge.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementCurioHangarHealthEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementCurioHangarVision">
+    <Title>%StarSystemImprovementCurioHangarVisionTitle</Title>
+    <Description>%StarSystemImprovementCurioHangarVisionDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementCurioHangarVisionSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementCurioHangarVisionLarge.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementCurioHangarVisionEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementCurioHangarManpower">
+    <Title>%StarSystemImprovementCurioHangarManpowerTitle</Title>
+    <Description>%StarSystemImprovementCurioHangarManpowerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementCurioHangarManpowerSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementCurioHangarManpowerLarge.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementCurioHangarManpowerEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementUniquePortal">
+    <Title>%StarSystemImprovementUniquePortalTitle</Title>
+    <Description>%StarSystemImprovementUniquePortalDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\StarSystemImprovementUniquePortalSmall.png" />
+      <Icon Size="Large" Path="Textures\Constructibles\StarSystemImprovementUniquePortalLarge.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementUniquePortalEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+</Datatable>

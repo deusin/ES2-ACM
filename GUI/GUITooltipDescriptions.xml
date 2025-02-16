@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiTooltipDescription.xsd">
+  <GuiTooltipDescription TooltipClass="PlanetDefinition" TooltipWindow="TooltipWindow">
+    <AnchorOffset X="0" Y="0"/>
+    <PanelFeatureDescription Prefab="Prefabs/GUI/Tooltips/PanelFeatures/PanelFeatureHeader"/>
+    <PanelFeatureDescription Prefab="Prefabs/GUI/Tooltips/PanelFeatures/PanelFeatureDescription" HideInCompactMode="true"/>
+    <PanelFeatureDescription Prefab="Prefabs/GUI/Tooltips/PanelFeatures/PanelFeatureEffects">
+      <PropertyFilters>
+        <PropertyFilter PropertyName="PlanetInitialFood"/>
+        <PropertyFilter PropertyName="PlanetInitialIndustry"/>
+        <PropertyFilter PropertyName="PlanetInitialDust"/>
+        <PropertyFilter PropertyName="PlanetInitialScience"/>
+        <PropertyFilter PropertyName="PlanetInitialPrestige"/>
+        <PropertyFilter PropertyName="PlanetInitialFoodPerPopulation"/>
+        <PropertyFilter PropertyName="PlanetInitialIndustryPerPopulation"/>
+        <PropertyFilter PropertyName="PlanetInitialDustPerPopulation"/>
+        <PropertyFilter PropertyName="PlanetInitialSciencePerPopulation"/>
+        <PropertyFilter PropertyName="PlanetInitialPrestigePerPopulation"/>
+        <PropertyFilter PropertyName="PlanetRawFood"/>
+        <PropertyFilter PropertyName="PlanetRawIndustry"/>
+        <PropertyFilter PropertyName="PlanetRawDust"/>
+        <PropertyFilter PropertyName="PlanetRawScience"/>
+        <PropertyFilter PropertyName="PlanetRawPrestige"/>
+        <PropertyFilter PropertyName="Happiness"/>
+      </PropertyFilters>
+    </PanelFeatureDescription>
+  </GuiTooltipDescription>
+</Datatable>

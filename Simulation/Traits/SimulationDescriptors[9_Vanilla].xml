@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  <!-- Planet Mending -->
+  <!-- Repletion 1/2 -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryAntiDepletion00" Type="ClassPopulationPlanet">
+    <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Subtraction" Value="0.5" Path="FAKEFORGUI/./ClassPlanet"/>
+    <Modifier TargetProperty="RepletionPerTurn" Operation="Addition" Value="0.5" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryAntiDepletion00" Type="WithPopulationPlanet">
+	<Modifier       TargetProperty="PlanetDepletionPerTurn"	Operation="Subtraction" Value="0.5" Path="FAKEFORGUI/./ClassPlanet"/>
+	<BinaryModifier TargetProperty="RepletionPerTurn"		Operation="Addition"    Left="0.5"  BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetAntiDepletion00" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Subtraction" Value="0.5" Path="FAKEFORGUI/./ClassPlanet"/>
+    <Modifier TargetProperty="RepletionPerTurn" Operation="Addition" Value="0.5" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Repletion 1 -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryAntiDepletion01" Type="ClassPopulationPlanet">
+    <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Subtraction" Value="1" Path="FAKEFORGUI/./ClassPlanet"/>
+    <Modifier TargetProperty="RepletionPerTurn" Operation="Addition" Value="1" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryAntiDepletion01" Type="WithPopulationPlanet">
+	<Modifier       TargetProperty="PlanetDepletionPerTurn"	Operation="Subtraction" Value="1"   Path="FAKEFORGUI/./ClassPlanet"/>
+	<BinaryModifier TargetProperty="RepletionPerTurn"		Operation="Addition"    Left="1"    BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetAntiDepletion01" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Subtraction" Value="1" Path="FAKEFORGUI/./ClassPlanet"/>
+    <Modifier TargetProperty="RepletionPerTurn" Operation="Addition" Value="1" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Planet Stripping -->
+  <!-- Depletion 1/2 -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryDepletion00" Type="ClassPopulationPlanet">
+    <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Value="0.5" Path="FAKEFORGUI/./ClassPlanet"/>
+    <BinaryModifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Left="0.5" BinaryOperation="Multiplication" Right="$(PopulationCount)" Path="./ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Depletion 1 -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryDepletion01" Type="ClassPopulationPlanet">
+    <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Value="1" Path="FAKEFORGUI/./ClassPlanet"/>
+    <BinaryModifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(PopulationCount)" Path="./ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Cravers -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryDepletionFIDS" Type="ClassPopulationPlanet">
+    <Property Name="BonusFromDepletion" BaseValue="1"/>
+    <!--  Tells whether the population benefits from depletion or not.  -->
+    <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Value="1" Path="FAKEFORGUI/./ClassPlanet"/>
+    <BinaryModifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(PopulationCount)" Path="./ClassPlanet" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="BonusPopulationFIDSIPercent" Operation="Addition" Left="1.5" BinaryOperation="Multiplication" Right="$(BonusFromDepletion)" Path="FAKEFORGUI/./PopulationExploitingPlanetWhileDepleting"/>
+    <BinaryModifier TargetProperty="DepletingPopulation"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(PopulationCount)" Path="./ClassColonizedPlanet" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusFromDepletion" Operation="Force" Value="0" TooltipHidden="true" Priority="-1"/>
+    <!--  Property is at 1 by default for Tooltip purposes, and is set to 0 with this operation.  -->
+  </SimulationDescriptor>
+
+  <!--Sheredyn-->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryDefense" Type="ClassPopulationPlanet">
+    <Modifier TargetProperty="BonusPopulationDefense" Operation="Addition" Value="40"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryDefense" Type="WithPopulationPlanet">
+	<Modifier       TargetProperty="BonusPopulationDefense"		 Operation="Addition"    Value="40"  Path="FAKEFORGUI/./ClassPopulation"/>
+	<BinaryModifier TargetProperty="BonusPopulationDefense"		 Operation="Addition"    Left="40"   BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetDefense" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="BonusPopulationDefense" Operation="Addition" Value="20" Path="ClassPopulation"/>
+  </SimulationDescriptor>
+
+  <!-- Arphar's Mess -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceFertile" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="BonusPopulationPrestige"    Operation="Addition"    Value="2"   Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+    <BinaryModifier TargetProperty="BonusPopulationPrestige"    Operation="Addition"    Left="2"    BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryInfluenceFertile" Type="WithPopulationPlanet">
+    <Modifier       TargetProperty="BonusPopulationPrestige" Operation="Addition"    Value="2"   Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+    <BinaryModifier TargetProperty="PopulationAuxValue1"	 Operation="Addition"    Left="2"    BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="BonusPopulationPrestige" Operation="Addition"    Left="$(PopulationAuxValue1)"    BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryIDS" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="BonusPopulationIndustry"  Operation="Addition"    Value="4" Path="ClassPopulation"/>
+    <Modifier       TargetProperty="BonusPopulationDust"      Operation="Addition"    Value="4" Path="ClassPopulation"/>
+    <Modifier       TargetProperty="BonusPopulationScience"   Operation="Addition"    Value="4" Path="ClassPopulation"/>
+  </SimulationDescriptor>
+  
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryIDS" Type="WithPopulationPlanet">
+    <Modifier       TargetProperty="BonusPopulationIndustry"  Operation="Addition"    Value="4"   Path="FAKEFORGUI/./ClassPopulation"/>
+    <Modifier       TargetProperty="BonusPopulationDust"      Operation="Addition"    Value="4"   Path="FAKEFORGUI/./ClassPopulation"/>
+    <Modifier       TargetProperty="BonusPopulationScience"   Operation="Addition"    Value="4"   Path="FAKEFORGUI/./ClassPopulation"/>
+    <BinaryModifier TargetProperty="BonusPopulationIndustry"  Operation="Addition"    Left="4"    BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="BonusPopulationDust"      Operation="Addition"    Left="4"    BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="BonusPopulationScience"   Operation="Addition"    Left="4"    BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  
+  <!-- Processing Power -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryProcessingPower01" Type="ClassPopulationPlanet">
+    <Modifier TargetProperty="BonusPopulationProcessingPower"                           Operation="Addition" Value="1" Path="ClassPopulation"/>
+  </SimulationDescriptor>
+  
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryProcessingPower01" Type="WithPopulationPlanet">
+    <Modifier       TargetProperty="BonusPopulationProcessingPower"    Operation="Addition"  Value="1"   Path="FAKEFORGUI/./ClassPopulation"/>
+    <BinaryModifier TargetProperty="BonusPopulationProcessingPower"    Operation="Addition"  Left="1"    BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  
+  <!-- Happiness Defense Hissho -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessSterile" Type="ClassPopulationPlanet">
+    <Modifier   TargetProperty="BonusPopulationHappiness"           Operation="Addition"    Value="3"   Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <Modifier   TargetProperty="BonusPopulationDefenseHissho"       Operation="Addition"    Value="20"  Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <BinaryModifier   TargetProperty="BonusPopulationHappiness"     Operation="Addition"    Left="3"    BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
+    <BinaryModifier   TargetProperty="BonusPopulationDefenseHissho" Operation="Addition"    Left="20"   BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+	
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryHappinessSterile" Type="WithPopulationPlanet">
+    <Modifier       TargetProperty="BonusPopulationHappiness"       Operation="Addition"    Value="3"   Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <Modifier       TargetProperty="BonusPopulationDefenseHissho"   Operation="Addition"    Value="20"  Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <BinaryModifier TargetProperty="PopulationAuxValue1"			Operation="Addition"    Left="3"    BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="PopulationAuxValue1"			Operation="Addition"    Left="20"   BinaryOperation="Multiplication" Right="$(PopulationIsBoosted)" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="BonusPopulationHappiness"       Operation="Addition"    Left="$(PopulationAuxValue1)" BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="BonusPopulationDefenseHissho"   Operation="Addition"    Left="$(PopulationAuxValue1)" BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+	
+	
+</Datatable>

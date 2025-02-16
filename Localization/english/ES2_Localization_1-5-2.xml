@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryLuxuryValueTitle">Luxuriously Resourceful</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryStrategicValueTitle">Strategically Resourceful</LocalizationPair>
+
+  <!-- Fixed Tooltip -->
+  <LocalizationPair Name="%GroundBattleBombardmentAttackerDamagesBonusFromCollectionAltTitle">Defensive Bombardment Damage per [population]</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleBombardmentAttackerDamagesTitle">Defensive Bombardment Damage</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleBombardmentAttackerDamagesReductionTitle">Offensive Bombardment Damage Taken</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleBombardmentDefenderDamagesTitle">Offensive Bombardment Damage</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleBombardmentDefenderDamagesReductionTitle">Defensive Bombardment Damage Taken</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDestroyedPopulationCountTitle">Maximum Population Killed</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDestroyedImprovementCountTitle">Maximum Improvements Destroyed</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP03L00ESGToolTipOverride3">+100 Defensive Bombardment Damage per [population]</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP03L00_RepublicESGToolTipOverride3">+150 Defensive Bombardment Damage per [population]</LocalizationPair>
+  <LocalizationPair Name="%DepositValueScalesWithGameSpeed">[blue-gray](Scales with Game Speed)#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementUniqueStrategicVaultersTooltip">+0.25 [strat01titanium] &#38; [strat02hyperium] on System Level 2
++0.25 [strat03adamantian] &#38; [strat04anti-matter] on System Level 3
++0.25 [strat05orichalcix] &#38; [strat06quadrinix] on System Level 4</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementOnlyOnLevelMaxTooltipEffect">[blue-gray](Can only be built on a System of Level 4)#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%OverColonizationThresholdTitleHissho">Overcolonization Threshold</LocalizationPair>
+
+  <!-- Scavenger Hero Skill -->
+  <LocalizationPair Name="%HeroSkill55_Approval_Perpop_Title">Scavenged Surplus</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill55_Approval_Perpop_Description">Through careful analysis of waste and the appropriate reclamation and filtration techniques, the hero is able to salvage meaningful quantities of resources seemingly out of thin air.</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillLuxuryGenerationEffectOverride">+2 of each Luxury used in System Development upgrades (No additional bonus for duplicate Luxuries)</LocalizationPair>
+
+  <!-- Unfallen Capstone Skill -->
+  <LocalizationPair Name="%HeroSkillPopulationBoostsOverride2">+50% effect from [fidsi] and [happinessColored] Population Effect bonuses</LocalizationPair>
+  <LocalizationPair Name="%PopulationPercentModifierTitle">effect from [fids] and [happinessColored] Population Effect bonuses</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP04L02_ESGOverride2">+25% effect from [fids] and [happinessColored] Population Effect bonuses</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP04L02_ESGRepublicOverride2">+33% effect from [fids] and [happinessColored] Population Effect bonuses</LocalizationPair>
+  <LocalizationPair Name="%CustomFactionPopulationBonusesTitle">Effects</LocalizationPair>
+
+  <!-- Generic Capstone Skill -->
+  <LocalizationPair Name="%HeroSkill07BranchGenericTitle">Applicable Efficiencies</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill07BranchGenericDescription">Due to the similarities between many extractive ventures, a bit of Dust and some study in one field has quickly extended to many others, allowing the Hero to maximize production of both the finest luxuries and the most volatile strategic resources.</LocalizationPair>
+
+  <!-- Population Modifiers -->
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryCustomGroundBattleBombardmentAttackerDamagesPerMinorFaction00Title">Federal Defensive Damage</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryCustomGroundBattleBombardmentAttackerDamagesPerMinorFaction00TooltipOverride">+25 Defensive Bombardment Damage on Population per Minor Faction Assimilated</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryCustomGroundBattleBombardmentAttackerDamagesPerBackdoor00Title">Duplicitous Defensive Damage</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryCustomGroundBattleBombardmentAttackerDamagesPerBackdoor00TooltipOverride">+25 Defensive Bombardment Damage during ground battle on Population per Backdoor</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryCustomGroundBattleBombardmentAttackerDamagesPerTemple00Title">Fanatical Defensive Damage</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryCustomGroundBattleBombardmentAttackerDamagesPerSystemLevel00Title">Modernized Defensive Damage</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryCustomGroundBattleBombardmentAttackerDamagesLevel00TooltipOverride">+15 Defensive Bombardment Damage on Population per System Level</LocalizationPair>
+
+  <!-- Faction Pacts -->
+    <LocalizationPair Name="%FactionPactEffectSophonsDescription">This is an agreement to share faction advantages with the Sophon.
+Your faction will gain +0.83% [scienceColored] on Systems per Turn [turn] (Max: 25%), increase scales with game speed.</LocalizationPair>
+    <LocalizationPair Name="%AffinityGameplaySophonsTooltipEffect">A science bonus is given for discovering technologies based on how many players have already researched it: the fewer know it, the higher the reduction on the next research.
+
+Starting Ships: 1x [colonizer], 1x [explorer]
+Faction Pact: +0.83% [scienceColored] per [turn] (Max: 25%)</LocalizationPair>
+    <LocalizationPair Name="%FactionPactEffectTimeLordsDescription">This is an agreement to share faction advantages with the Riftborn.
+Your faction will gain +0.67% [industryColored] on Systems per Turn [turn] (Max: 20%), increase scales with game speed.</LocalizationPair>
+    <LocalizationPair Name="%AffinityGameplayTimeLordsTooltipEffect">Can build Singularities, and affect time by placing them on a system.
+Singularities have a fixed duration and can only be placed on a system within the empire's vision
+
+Starting Ships: 1x [colonizer], 1x [explorer]
+Faction Pact: +0.67% [industryColored] per [turn] (Max: 20%)</LocalizationPair>
+
+  <!-- Nakalim -->
+  <LocalizationPair Name="%LawP00L05TemplarsTooltipOverride">-2 [happinessColored] per [population] on Planets with Temples</LocalizationPair>
+  <LocalizationPair Name="%LawP00L05TemplarsTitle">Scrupulous Scientific Examination of Cultural Artifacts</LocalizationPair>
+  <LocalizationPair Name="%LawP00L05TemplarsDescription">The relics of the past are a thing to be studied using the scientific method! By providing research institutions the ability to get their hands on our relics, we will be ushering in an age known only to our ancestors! Our believers may protest the sacrilege of converting their places of worships into a science fair, but one must make way for progress.</LocalizationPair>
+  <LocalizationPair Name="%LawP00L05TemplarsShortTitle">Research Reliquaries Act</LocalizationPair>
+  <LocalizationPair Name="%NumberOfTemplesTitle">Temples</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience6TemplarsTitle">Imprint Analyzers Foundation</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience6TemplarsDescription">The relics of our past have been through a millenia of history using newfound methods of Dust-9 dating. By performing careful scans, we can get a clearer understanding of what the microscopic traces of dust on each relic have been through, and of course of our unrecorded history.</LocalizationPair>
+
+  <!-- Vaulters -->
+  <LocalizationPair Name="%EmpireImprovementUnique11SuperColonizerESGTitle">Enhanced Argosy Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementUnique11SuperColonizerTitle">Mobile Wormhole Concentrators</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementVaultersArgosyEnhancementTooltipEffect">Allows the Argosy to consume all Movement Points to act as a Mobile Portal
+Argosy can Cloak Fleets at Level 1 without Modules</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementUnique11VaultersEffect">Portal use costs only 1 Movement Point (Bonus also applies to allies with the Metafolding Affinity)</LocalizationPair>
+
+  <!-- Cravers -->
+  <LocalizationPair Name="%StarSystemImprovementDust1CraversTitle">Xenobiological Incentives</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDust1CraversDescription">Divided between cold and disinterested masters and their slaves, Craver society can offer few incentives to its denizens. However, by exploiting luxuries as a reward for collaborators and additives for the main Craver population, a profitable system of incentives can still be achieved.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementFood2CraversTitle">Alternative Food Programs</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementFood2CraversDescription">Both Cravers and their victims long ago realized that eating the labor force was not a good long term plan, and so food growing programs were created to take advantage of a planets natural biosphere for more efficient and sustainable fueling of the war machine.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementBuyout1CraversTitle">Expendable Dust Expertise</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementBuyout1CraversDescription">Dust-empowered individuals are few and far between, but not too difficult to find during the food conversion process. By removing both Craver and conquered from the population when these talents show themselves, we can maintain an elite Dust labor force who shall live short, but significantly more pleasant lives until the construction efforts burn them out.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementInfluence1CraversTitle">Conquest Announcement Networks</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementInfluence1CraversDescription">Cravers and their slaves derive little joy from the empires progress, but by hooking the former into a mental network and giving the latter constant updates from screens and speakers, every achievement can heighten the excitement of the Cravers and beat down the hope of their victims in real-time.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementInfluence2CraversTitle">Body Language Programming</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementInfluence2CraversDescription">By obtaining other factions guides to diplomacy and facial recognition databases, we can create Craver specialists programmed to identify and exploit not only the emotional responses of other factions, but also of conquered populations who might be more amenable to the carrot or the stick at any moment.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience6CraversTitle">Evolutionary Analysis Pens</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience6CraversDescription">One of the limits of natural evolution is that it cannot handle large changes well, as species are wiped out by disasters or predators which are too great a difference for them - Predators like the Cravers. By setting aside entire continents to only ever be attacked by Craver scouts and raiding parties that they can just about handle, we can observe our own weaknesses in an arena where our economy of scale will not obscure the results.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementInfluence3CraversTitle">Intergalactic Hostages</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementInfluence3CraversDescription">By establishing "foreign exchange" arrangements with allies and offering hits of Dust-9 to famous figures in other empires, the Cravers can offer significant incentives to foreign politicians as an incentive to collaborate, and the threat of punishing famous prisoners and entire populations of their distant relatives as a convenient threat to prevent war without ruining the reputation of said politicians at home.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIndustry5CraversTitle">Hazardous Mining Hives</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIndustry5CraversDescription">Through intense experimentation, we have created an offshoot of the Craver species whose birth is caused by the chemical triggers of valuable strategic resources. Cheap, tough, and tireless, these worker drone hives are well suited to the most dangerous of environments.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScienceOnGasCraversTitle">Collaborative Research Academies</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScienceOnGasCraversDescription">While it is dangerous to allow educated members of the empire and its victims such unrestricted access to one another, giving scientists and their families exemption from hard labor in return for working with Craver scientists can prove a boon, especially when provided with expendable Craver assistants which will not complain about radiation or experimentation.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDust7CraversTitle">Dust-Consuming Collectors</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDust7CraversDescription">By putting a new variety of cheap, expendable Dust-consuming Cravers under the command of regular Cravers with a mastery of Dust, we can mine vast amounts of it at extremely low cost using these self-sustaining mini-hives of hungerless workers and clairvoyant overseers.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience8CraversTitle">Aerial Drone Deployments</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience8CraversDescription">Cravers are a heavy species, not least due to being cyborgs, and that can make life on a gas giant more difficult. While they are no longer recognizable as Cravers and make the rest of their species uncomfortable, prefab hives of dormant aerial drones can be deployed to harvest and explore these worlds as though they were native to the environment.</LocalizationPair>
+
+  <!-- Levels -->
+  <LocalizationPair Name="%ShipLevel01Title">Rookie</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel02Title">Rookie II</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel03Title">Rookie III</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel04Title">Veteran</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel05Title">Veteran II</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel06Title">Veteran III</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel07Title">Elite</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel08Title">Elite II</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel09Title">Elite III</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel10Title">Renowned</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel11Title">Renowned II</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel12Title">Renowned III</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel13Title">Heroic</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel14Title">Heroic II</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel15Title">Heroic III</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel16Title">Legendary</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel17Title">Legendary II</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel18Title">Legendary III</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel19Title">Legendary IV</LocalizationPair>
+  <LocalizationPair Name="%ShipLevel20Title">Paragon</LocalizationPair>
+
+  <!-- Sophons -->
+  <LocalizationPair Name="%StarSystemImprovementScience4SophonsTitle">Anti-Radiation Campuses</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience4SophonsDescription">While the Sophons are generally are interested in using the most cutting edge technology in the development of their labs with the expectation that advanced tools will beget more advanced tech, in the matter of laboratory radiation shielding they are traditionalists, constructing sprawling underground campuses modeled off of the steam cave communities of Hekim to accommodate entire towns of researchers and their families.</LocalizationPair>
+
+  <!-- Riftborn -->
+  <LocalizationPair Name="%StarSystemImprovementIndustry1TimeLordsTitle">Hadeo-Industrial Infrastructure</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIndustry1TimeLordsDescription">There's a time and place for everything, but the time and place for metallurgy is immediately and on the hottest planets we can find. By setting up industrial-scale forges on planets already hot enough to melt metal using only its hellish atmospheric forces, industrial manufacturing can run at breakneck speeds. While there are small inefficiencies with the materials the factories are made out of melting, the gains far outweight the costs.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience1TimeLordsTitle">Glacial-Sanitization Laboratories</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience1TimeLordsDescription">While sanitization is always important when studying biology, advances in xenobiology have uncovered new ways of perfectly sterilizing equipment to reduce any chance of contamination. The downside? This only works on planets with temperatures far below most would consider habitable, but the research applications are too good to ignore.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniqueTimeLordsTooltipEffect">+25 [dustColored]
+Bonus increases by 25 [dustcolored] per [turn]
++5 [dustColored] per [turn] per Singularity ever built</LocalizationPair>
+<LocalizationPair Name="%EmpireImprovementQuestTimeLords05TooltipEffect">-25% [timelords] Construction Cost</LocalizationPair>
+<LocalizationPair Name="%EmpireImprovementQuestTimeLords07TooltipEffect">-12.5% [timelords] Construction Cost +25% Manpower Conversion Efficiency</LocalizationPair>
+
+  <!-- Tooltip Fixes -->
+  <LocalizationPair Name="%StarSystemImprovementUniqueCuriosity3EffectOverride">+50% Health Regeneration Rate on Ships Orbiting or Garrisoned</LocalizationPair>
+  <LocalizationPair Name="%FailureRequiresLuxuryDescription">Must be built on a System with a Luxury Deposit</LocalizationPair>
+  <LocalizationPair Name="%FailureRequiresSystemLevel4Description">Must be built on a System of Level 4</LocalizationPair>
+  <LocalizationPair Name="%FailureRequiresMoonDescription">Must be built on a System with a Moon</LocalizationPair>
+  <LocalizationPair Name="%FailureForcedTeamsDescription">Game Settings force Alliances to be permanent</LocalizationPair>
+  <LocalizationPair Name="%PlanetDepletionMaxTitle">Maximum Depletion Points</LocalizationPair>
+  <LocalizationPair Name="%LocalManPowerRefillRateFromHeroTitle">Absolute [ManpowerColored] Refill Rate</LocalizationPair>
+  <LocalizationPair Name="%AffinityGameplayMajorHisshosTooltipEffect">Can accumulate Keii and use it to launch Keii actions to boost the military and production capacities of systems.
+Keii also  determines empire and system Obedience, which replaces Approval.
++40% [honorColored] Keii from Space Battles under the Keii zone of Behemoths.
+
+Starting Ships: 2x [explorer]
+Faction Pact: +1% [systemDefenseColored] Garrison Manpower generation per [turn] (Max: 30%)</LocalizationPair>
+
+  <LocalizationPair Name="%AffinityGameplayUnfallenTooltipEffect">Cannot build Colonizers, but instead Vineships, which are used to extend your Vines to adjacent systems.
+Uncolonized systems in the vine network are colonized instantly.
+Planets in colonized systems require no industry to colonize.
+Can only engage in Diplomacy with Minor Factions in the Vine Network
+Vined systems are granted the following:
+ • +10% [foodColored]
+ • +10 [happinessColored]
+ • -20% Siege Manpower Damage
++1000 [systemDefenseColored] Garrison Capacity on Capital
+
+Starting Ships: 1x [unfallen], 1x [explorer]
+Faction Pact: +1 [happinessColored] per [turn] (Max: 30%)
++1% [honorColored] Gain per [turn] for Hissho (Max: 30%)</LocalizationPair>
+
+  <!-- Pre-Teams -->
+  <LocalizationPair Name="%SettingPreTeamsTitle">Alliances</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeamsDescription">Determines how alliances will be treated.</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams-1Title">Disabled</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams-1Description">Alliances will be unable to be formed.</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams0Title">Standard</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams0Description">Alliances will function normally, and no pre-decided teams will be enforced.</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams2Title">Forced: 2 Teams</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams2Description">Two teams will automatically be created based off of the following rule:
+Team 1: Players 1, 3, 5, 7, 9, and 11
+Team 2: Players 2, 4, 6, 8, 10, and 12
+[red]Forced Alliances cannot receive or lose members#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams3Title">Forced: 3 Teams</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams3Description">Three teams will automatically be created based off of the following rule:
+Team 1: Players 1, 4, 7, and 10
+Team 2: Players 2, 5, 8, and 11
+Team 3: Players 3, 6, 9, and 12
+[red]Forced Alliances cannot receive or lose members#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams4Title">Forced: 4 Teams</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams4Description">Four teams will automatically be created based off of the following rule:
+Team 1: Players 1, 5, and 9
+Team 2: Players 2, 6, and 10
+Team 3: Players 3, 7, and 11
+Team 4: Players 4, 8 and 12
+[red]Forced Alliances cannot receive or lose members#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams6Title">Forced: 6 Teams</LocalizationPair>
+  <LocalizationPair Name="%SettingPreTeams6Description">Six teams will automatically be created based off of the following rule:
+Team 1: Players 1 and 7
+Team 2: Players 2 and 8
+Team 3: Players 3 and 9
+Team 4: Players 4 and 10
+Team 5: Players 5 and 11
+Team 6: Players 6 and 12
+[red]Forced Alliances cannot receive or lose members#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StrategicBonusFromCollectionAltTitle">Resource Generation on Strategic Resource Deposit</LocalizationPair>
+  <!-- Faction Traits -->
+  <LocalizationPair Name="%FactionTraitIncreaseLawUpkeepTitle">Insulated Government</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIncreaseLawUpkeepDescription">The political bodies of the faction are not designed to change quickly, or even at all, so their reforms are constantly at risk of returning to the traditional status quo without immense support.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitOutsideManpowerTitle">Micro-Military Teleporters</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitOutsideManpowerDescription">"Micro" may be an exaggeration, but for how long range these teleporters are, they do transport very little - specifically, the new sailors and marines necessary to crew the empires most distant starships, sent on a one-way trip to distant stars where they may complain far, far away from the people who sent them.</LocalizationPair>
+
+  <LocalizationPair Name="%NotificationGroundBattleSetupPopulationDeathDescription">Displays the chance that civilian Population will be killed using this Tactic.
+Negative numbers mean population are less likely to be killed, and positive numbers mean population are more likely to be killed.</LocalizationPair>
+  <LocalizationPair Name="%NotificationGroundBattleSetupConstructionDestroyedDescription">Displays the chance that System Improvements will be destroyed using this Tactic.
+Negative numbers mean improvements are less likely to be destroyed, and positive numbers mean improvements are more likely to be destroyed.</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleAttackerStrategy3EffectOverride">400-800 Offensive Bombardment Damage</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleAttackerStrategy3TemplarsEffectOverride">800-1200 Offensive Bombardment Damage</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy4EffectOverride">1500-2000 Defensive Bombardment Damage</LocalizationPair>
+  <!-- Minor Assimilation Quest -->
+  <LocalizationPair Name="%MinorFactionQuest16-IntroTitle">Masters of the Arena</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionQuest16-IntroDescription">The sun beats down, sweltering, and sweat prickles your brow. The noisy bloodlust of the crowd together with the dry dust churned up by the combatants, suffocates too. For a dizzying moment, you wonder what possessed you to accept the $MinorFactionName leader's invitation to their bloodsports arena, but then you remember: you court their civilization, and hope these are necessary steps towards the $MinorFactionName's assimilation into your empire. Far below, a fighter in golden scale neatly rolls to one side through the sand, and impales the last of the tri-headed mechanical snakes. The beast slumps to the ground, electricity crackling over its metallic form, and the crowd roars their approval. The leader leans close, its smell powerful and unpleasant. "That's my Finance Minister. He lives and breathes economics--but first and foremost, he's a warrior." The $MinorFactionName lowers its voice. "Show me your passion for violence, and you will have our loyalty,"</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionQuest16-Choice01Description">Demonstrating your civilization's militarism shouldn't be too difficult--you just hope you don't have to go to war to prove your colors.</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionQuest16-Choice01Objective">Construct $Amount01Name [systemDefenseColored] improvements in your Empire</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionQuest16-Choice01ObjectiveTooltip">Unlock additional star system improvements through research in the Military quadrant</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionQuest16-Choice01Outcome">The $MinorFactionName leader sends their congratulations upon learning of the swell towards militarism across your Empire. The $MinorFactionName are now happy to join your empire.</LocalizationPair>
+
+
+  <LocalizationPair Name="%PanelFeatureTroopImprovementDestructionProbabilityBonus">{0} Improvement Destruction Chance</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureTroopPopulationDestructionProbabilityBonus">{0} Population Destruction Chance</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleBombardmentImprovementDestructionProbabilityTitle">Improvement Destruction</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleBombardmentPopulationDestructionProbabilityTitle">Population Death</LocalizationPair>
+  <LocalizationPair Name="%MilitarySideManPowerRawGainTitle">Base Increase</LocalizationPair>
+  <LocalizationPair Name="%MilitarySideManPowerNetGainTitle">Net Increase</LocalizationPair>
+  <LocalizationPair Name="%TankDamagesMultiplierAgainstInfantryTitle">Damage against Infantry Troops</LocalizationPair>
+  <LocalizationPair Name="%PlaneDamagesMultiplierAgainstTankTitle">Damage against Armor Troops</LocalizationPair>
+  <LocalizationPair Name="%InfantryDamagesMultiplierAgainstPlaneTitle">Damage against Air Troops</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleAttackerTroopsMaxHealthMultiplierTitle">Invading Troops Health</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleAttackerTroopsDamageMultiplierTitle">Invading Troops Damage</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderTroopsDamageMultiplierTitle">Defending Troops Damage</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOwnerShipRatePercentageTitle">Enemy Ownership Rate</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy3TooltipEffect">Abandon the System to the Enemy, but ensure they has a difficult time controlling the System</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy3EffectOverride">Enemies will suffer diminishing [happinessColored] penalties for roughly {0} turns</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy3BhagabasEffectOverride">Enemies will suffer diminishing [happinessColored] penalties for roughly {0} turns</LocalizationPair>
+
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect2">Adds up to 175 [Manpower] Manpower and Defensive Manpower Limit (scaling with System Ownership value)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1TerransTooltipEffect2">Adds up to 200 [Manpower] Manpower and Defensive Manpower Limit (scaling with System Ownership value)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1GhostTooltipEffect2">Adds up to 300 [Manpower] Manpower and Defensive Manpower Limit (scaling with System Ownership value)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect2ImprovedI">Adds up to 250 [Manpower] Manpower and Defensive Manpower Limit (scaling with System Ownership value)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1TerransTooltipEffect2ImprovedI">Adds up to 300 [Manpower] Manpower and Defensive Manpower Limit (scaling with System Ownership value)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1GhostTooltipEffect2ImprovedI">Adds up to 225 [Manpower] Manpower and Defensive Manpower Limit (scaling with System Ownership value)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect2ImprovedII">Adds up to 350 [Manpower] Manpower and Defensive Manpower Limit (scaling with System Ownership value)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1TerransTooltipEffect2ImprovedII">Adds up to 400 [Manpower] Manpower and Defensive Manpower Limit (scaling with System Ownership value)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1GhostTooltipEffect2ImprovedII">Adds up to 300 [Manpower] Manpower and Defensive Manpower Limit (scaling with System Ownership value)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect1">-1 [population] (Population will be Drafted)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy1GhostTooltipEffect1">-2 [population] (Population will be Drafted)</LocalizationPair>
+
+  <LocalizationPair Name="%GroundBattleAttackerStrategy4Title">Raid</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleAttackerStrategy4Description">Troops will prioritize causing economic devastation to the system, allowing your troop to focus on destroying things without regard for their well-being.</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy4Title">Rally</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleDefenderStrategy4Description">Your remaining troops will be concentrated in remaining military bases. While the clustered troops will be more likely to sustain injuries in sustained combat, the advantage of defensive artillery can not be ignored.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementBombardmentUpgrade1Title">Diffusion Compensation Bombardment</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementBombardmentUpgrade1Description">Atmospheric diffusion limits the effectiveness of ionic plasma beams as an orbital bombardment weapon, but overwhelming directed energy can compensate for other shortcomings.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementBombardmentUpgrade1TooltipEffect">+750 Offensive Bombardment Damage on Preemptive Bombardment
+Nakalim [Templar]: +1000 Offensive Bombardment Damage on Precision A2G Strikes</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementBombardmentUpgrade2Title">Precision Shaped Bombardment</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementBombardmentUpgrade2Description">Techniques for the precision shaping of plasma blasts allows for the application of aerodynamic principles to orbital bombardment weaponry.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementBombardmentUpgrade2TooltipEffect">+750 Offensive Bombardment Damage on Preemptive Bombardment
+Nakalim [Templar]: +1000 Offensive Bombardment Damage on Precision A2G Strikes</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementBombardmentUpgrade3Title">Distributed-AI Patterned Bombardment</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementBombardmentUpgrade3Description">Allowing interested hobbyists access to military-spec orbital bombardment algorithms has resulted in a distributed computing network of AI-crafted bombardment patterns custom-fit to enemy defenses.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementBombardmentUpgrade3TooltipEffect">+750 Offensive Bombardment Damage on Preemptive Bombardment
+Nakalim [Templar] - +1000 Offensive Bombardment Damage on Precision A2G Strikes</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMassiveInfluenceTitle">Utopian Propaganda</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMassiveInfluenceDescription">Architecture and ship-building have long been the grandest, most difficult form of propaganda; but this faction has perfected the practice, constantly reminding people by whose godlike command the landscape changes and the skyline shifts, physically building the state-approved vision of the future.</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementVaultTitle">Vault</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementVaultDescription">The Vaulters picked up some idiosyncracies from their time on Auriga, with its brutal winters, tectonic instability, and murderous wildlife. Vast underground vaults, such as this one, allow individual Vaulter clans to stockpile their resources, insuring them against catastrophe - but providing a tempting target to invaders.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementVaultEffectOverride">Invaders who Pillage this System will receive a hefty sum of Strategics, Science, and Dust
+Pillaging this System will not provide an Approval [happinessColored] malus for any Invaders
+</LocalizationPair>
+<LocalizationPair Name="%GroundBattleOutcomeLootVaultDescription">You will {0} the System and its inhabitants.
+Gains: {1}
+[red]Rewards are greatly enhanced#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeLootCraversVaultTitle">[red]Enslave#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeLootVaultTitle">[red]Pillage#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeLootVampirilisVaultTitle">[red]Hunt#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeLootHoratioVaultTitle">[red]Elevate#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeLootMajorHisshosVaultTitle">[red]Subdue#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%AffinityGameplayVaultersTooltipEffect">Every Colony can build a Portal that permits instantaneous travel to any other gate in the empire.
+Ships will automatically use gates to plot the most efficient route between any two Systems.
+Raiding your Systems will provide your enemies with an abundance of resources, and they will not suffer approval penalties.
+
+Starting Ships: 1x [colonizer], 1x [explorer]
+Faction Pact: +1% [systemDefenseColored] Garrison Capacity per [turn] (Max: 30%)</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillSenator_Influence_ApprovalTooltipOverride0">+0.5 [happinessColored] per [population] on Empire</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillSenator_Influence_ApprovalTooltipOverride1">+30 [prestigeColored] on Happy Systems on Empire</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillSenator_Influence_ApprovalTooltipOverride2">+50 [prestigeColored] on Ecstatic Systems on Empire</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillSenator_Influence_ObedienceTooltipOverride1">+50 [prestigeColored] on Loyal Systems on Empire</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillSenator_Influence_ObedienceTooltipOverride2">+100 [prestigeColored] on Devoted Systems on Empire</LocalizationPair>
+
+  <LocalizationPair Name="%FederationOvercolBonusApproval">+10 [happinessColored] while within the Overcolonization Threshold</LocalizationPair>
+  <LocalizationPair Name="%IsUnderColonizationThresholdTitle">Federation</LocalizationPair>
+
+  <LocalizationPair Name="%EmpireOwnedMeagerPlanetsTitle">Owned Sterile Planets on Empire</LocalizationPair>
+  <LocalizationPair Name="%PlanetGameplayTypeFakeTitle">Crescent</LocalizationPair>
+  <LocalizationPair Name="%ModuleReducedCostTitle">Strategic Resource Cost scales with 50% of Module Multiplier</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementPropagandaPolitics01EffectOverride">Progressively increases the strength of the [industrialistColored] party. The longer it stays at the top of the queue, the more efficient. Also provides a small increase in support if not at the top of the queue, at a cost of 1 [dustColored] per [Population].</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementPropagandaPolitics02EffectOverride">Progressively increases the strength of the [scientistColored] party. The longer it stays at the top of the queue, the more efficient. Also provides a small increase in support if not at the top of the queue, at a cost of 1 [dustColored] per [Population].</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementPropagandaPolitics03EffectOverride">Progressively increases the strength of the [pacifistColored] party. The longer it stays at the top of the queue, the more efficient. Also provides a small increase in support if not at the top of the queue, at a cost of 1 [dustColored] per [Population].</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementPropagandaPolitics04EffectOverride">Progressively increases the strength of the [ecologistColored] party. The longer it stays at the top of the queue, the more efficient. Also provides a small increase in support if not at the top of the queue, at a cost of 1 [dustColored] per [Population].</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementPropagandaPolitics05EffectOverride">Progressively increases the strength of the [religiousColored] party. The longer it stays at the top of the queue, the more efficient. Also provides a small increase in support if not at the top of the queue, at a cost of 1 [dustColored] per [Population].</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementPropagandaPolitics06EffectOverride">Progressively increases the strength of the [militaristColored] party. The longer it stays at the top of the queue, the more efficient. Also provides a small increase in support if not at the top of the queue, at a cost of 1 [dustColored] per [Population].</LocalizationPair>
+
+  <!--Vodyani Quest -->
+  <LocalizationPair Name="%VampirilisQuest-Chapter1-C1Step2Objective">Discover at least $SystemObjectiveAmountName More or $Percentage % Total of the Systems in this Galaxy.</LocalizationPair>
+  <LocalizationPair Name="%VampirilisQuest-Chapter1-C1Step2ObjectiveTooltip">You will need exploration ships and probes to do this.</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementQuestVenetians11TooltipEffect">25% of [dustColored] is converted into [scienceColored] while this is (anywhere) in the production queue</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementQuestVenetians12TooltipEffect">25% of [dustColored] is converted into [prestigeColored] while this is (anywhere) in the production queue</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementQuestVenetians13TooltipEffect">25% of [dustColored] is converted into [foodColored] while this is (anywhere) in the production queue</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDustToLifeforceTooltipEffect">25% [dustColored] is converted into [lifeforceColored] while this is (anywhere) in the production queue</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureEffectsInQueueTitle">Effects while in Construction Queue:</LocalizationPair>
+
+  <!-- Balanced Starts -->
+  <LocalizationPair Name="%SettingGalaxySizeTinyBalancedTitle">Tiny (Balanced)</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxySizeSmallBalancedTitle">Small (Balanced)</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxySizeNormalBalancedTitle">Normal (Balanced)</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxySizeLargeBalancedTitle">Large (Balanced)</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxySizeHugeBalancedTitle">Huge (Balanced)</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxySizeColossalBalancedTitle">Colossal (Balanced)</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxySizeGiganticBalancedTitle">Exceptional (Balanced)</LocalizationPair>
+
+   <LocalizationPair Name="%SettingGalaxySizeGiganticBalancedDescription">#006080#Use this setting only if Balanced Map Generation is Enabled.#REVERT#
+ Exceptional galaxy size is recommended for 14 players.
+ The Galaxy will spawn with:
+  • 140 Nodes
+  • 28 Isolated Nodes
+  • ~600 Total Curiosities
+  • 10 Minor Factions in the Galactic Core</LocalizationPair>
+   <LocalizationPair Name="%SettingGalaxySizeColossalBalancedDescription">#006080#Use this setting only if Balanced Map Generation is Enabled.#REVERT#
+ Colossal galaxy size is recommended for 12 players.
+ The Galaxy will spawn with:
+  • 120 Nodes
+  • 24 Isolated Nodes
+  • ~500 Total Curiosities
+  • 8 Minor Factions in the Galactic Core</LocalizationPair>
+   <LocalizationPair Name="%SettingGalaxySizeHugeBalancedDescription">#006080#Use this setting only if Balanced Map Generation is Enabled.#REVERT#
+ Huge galaxy size is recommended for 10 players.
+ The Galaxy will spawn with:
+  • 100 Nodes
+  • 20 Isolated Nodes
+  • ~400 Total Curiosities
+  • 5 Minor Factions in the Galactic Core</LocalizationPair>
+   <LocalizationPair Name="%SettingGalaxySizeLargeBalancedDescription">#006080#Use this setting only if Balanced Map Generation is Enabled.#REVERT#
+ Large galaxy size is recommended for 8 players.
+ The Galaxy will spawn with:
+  • 80 Nodes
+  • 16 Isolated Nodes
+  • ~350 Total Curiosities
+  • 4 Minor Factions in the Galactic Core</LocalizationPair>
+   <LocalizationPair Name="%SettingGalaxySizeNormalBalancedDescription">#006080#Use this setting only if Balanced Map Generation is Enabled.#REVERT#
+ Normal galaxy size is recommended for 6 players.
+ The Galaxy will spawn with:
+  • 60 Nodes
+  • 12 Isolated Nodes
+  • ~250 Total Curiosities
+  • 3 Minor Factions in the Galactic Core</LocalizationPair>
+   <LocalizationPair Name="%SettingGalaxySizeSmallBalancedDescription">#006080#Use this setting only if Balanced Map Generation is Enabled.#REVERT#
+ Small galaxy size is recommended for 4 players.
+ The Galaxy will spawn with:
+  • 40 Nodes
+  • 8 Isolated Nodes
+  • ~200 Total Curiosities
+  • 2 Minor Factions in the Galactic Core</LocalizationPair>
+   <LocalizationPair Name="%SettingGalaxySizeTinyBalancedDescription">#006080#Use this setting only if Balanced Map Generation is Enabled.#REVERT#
+ Tiny galaxy size is recommended for 2 players.
+ The Galaxy will spawn with:
+  • 20 Nodes
+  • 4 Isolated Nodes
+  • ~100 Total Curiosities
+  • 1 Minor Factions in the Galactic Core</LocalizationPair>
+
+  <LocalizationPair Name="%SettingBalancedStartsTitle">Balance Map Generation</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedStartsDescription">#C84F4F#EXPERIMENTAL#REVERT#
+Enabling this will guarantee that 5-planet systems and resources are evenly distributed among constellations. #C84F4F#Only compatible with map shapes in which there are 5 constellations.#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedStartsTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedStartsTrueDescription">#C84F4F#EXPERIMENTAL#REVERT#
+Map will be generated with evenly distributed resources and 5-planet systems. #C84F4F#Only compatible with map shapes in which there are 5 constellations.#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedStartsFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedStartsFalseDescription">Maps will spawn with no limitation on random fluctuations.</LocalizationPair>
+
+  <LocalizationPair Name="%SettingBalancedHomesTitle">Balance Home System Generation</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedHomesDescription">Enabling this will guarantee an average starting Home System</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedHomesTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedHomesTrueDescription">Each faction will start with an average Home System.</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedHomesFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingBalancedHomesFalseDescription">Each faction will start with a randomly generated Home System.</LocalizationPair>
+
+  <!-- Rewording -->
+  <LocalizationPair Name="%SettingGameSizeMultiplierDescription">This will determine the baseline colonization cap before incurring penalties for all empires.
+
+If you are playing on a galaxy size with the recommended number of players, keeping this setting on 6 is advised.
+However, if you are playing with more or less players than recommendeded, it is advised that you adjust this setting accordingly.
+
+The number of nodes per player on each galaxy size is the same, meaning a colonization cap of 6 will balancedly scale as long as you are using the recommended number of players.</LocalizationPair>
+  <LocalizationPair Name="%EconomyNoBranchesTitle">This HQ is not able to trace a route to your Subsidiary. (Research Autonomous Materials or Baryonic Shielding to discover wormholes, depending on your game settings).</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementQuestSophons03TooltipEffect">-30% Diplomacy [prestigeColored] Cost when Bribing or Praising Minor Factions</LocalizationPair>
+  <LocalizationPair Name="%ProbeBaseLifetimeTitle">[turn] of Probe Duration</LocalizationPair>
+
+    <!-- Privateer Raze -->
+  <LocalizationPair Name="%GroundBattleOutcomeRazePrivateersTitle">Plausible Deniability</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeRazePrivateersDescription">In an act of "piracy," the system will be turned into a ruined wasteland and will lose [population] and #E3BDAC#[improvement]#REVERT# over time.</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeRazePrivateersTitleAttacker">{0} has been razed</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeRazePrivateersDescriptionAttacker">{0} has been turned into a ruined wasteland and will lose [population] and #E3BDAC#[improvement]#REVERT# over time. You cannot Colonize it until the process is over, but any other empire can take it.</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeRazePrivateersTitleDefender">{0} has been razed by {1}</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleOutcomeRazePrivateersDescriptionDefender">{1} has turned {0} into a ruined wasteland. It will lose [population] and #E3BDAC#[improvement]#REVERT# over time. They cannot Colonize it until the process is over, but any other empire (including yours) can take it.</LocalizationPair>
+
+  <!-- Automation -->
+  <LocalizationPair Name="%SystemSupervisorNoneDescription">No Automation</LocalizationPair>
+  <LocalizationPair Name="%SystemSupervisorFoodDescription">Automation focused on Food</LocalizationPair>
+  <LocalizationPair Name="%SystemSupervisorIndustryDescription">Automation focused on Industry</LocalizationPair>
+  <LocalizationPair Name="%SystemSupervisorDustDescription">Automation focused on Dust</LocalizationPair>
+  <LocalizationPair Name="%SystemSupervisorScienceDescription">Automation focused on Science</LocalizationPair>
+  <LocalizationPair Name="%SystemSupervisorApprovalDescription">Automation focused on Approval</LocalizationPair>
+  <LocalizationPair Name="%SystemSupervisorInfluenceDescription">Automation focused on Influence</LocalizationPair>
+  <LocalizationPair Name="%SystemSupervisorBalancedDescription">Automation with a balance of all FIDSI + Approval
+[blue-gray]Will not build Improvements that cost T2 or T3 Strategics#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%ConstructibleConfirmationDefault">Are you sure?</LocalizationPair>
+  <LocalizationPair Name="%SystemSupervisorAIBalancedPopulationDescription">Automation focused on optimizing Population placement
+[blue-gray]Can not build Improvements#REVERT#</LocalizationPair>
+
+  <!-- Law Re-lore -->
+  <LocalizationPair Name="%LawP00QuestTimeLords02Title">Classified Corozian Theoretical Design Program</LocalizationPair>
+  <LocalizationPair Name="%LawP00QuestTimeLords02Description">Though a dangerous process, it is just barely possible to communicate the needs of ship designs back to Coroz, where designers can slowly create ship designs with raw mathematical purity unachievable with the imprecise tools of a chaotic physical universe. The results are as terrifying as they were painstaking, built with perfect precision to strike out at an imperfect realm.</LocalizationPair>
+  <LocalizationPair Name="%LawP00QuestTimeLords02ShortTitle">Theoretical Shipyards</LocalizationPair>
+
+  <!-- Population Modifiers -->
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryCustomFIDSIEcstatic00Title">Jovial Work Ethic</LocalizationPair>
+
+  <!-- Trade HQ -->
+  <LocalizationPair Name="%MaximumNumberOfTradingCompanySubsidiariesTitle">Maximum [branch] Trade Subsidiaries</LocalizationPair>
+
+  <!-- Eliminate Empire -->
+  <LocalizationPair Name="%LawSUSSYShortTitle">Stay Ahead Act</LocalizationPair>
+  <LocalizationPair Name="%LawSUSSYTitle">Bill #2956: Act for the Dissolution of Unnecessary Branches of the Legislative Organization for Preemptive Moral Victory in the face of Existential Threat and Enemy Incursion</LocalizationPair>
+  <LocalizationPair Name="%LawSUSSYDescription">It has come to our attention that there is something deeply wrong with the galaxy. We have tried to fight it, our ideological enemies and the threats presented by nature. We have done our best, and yet the universe continues to cruelly deny our righteousness! Because we have allowed ourselves to be corrupted, to fall to revision and reform. And according to our statistical research, it was inevitable.
+
+The time has come to purify our ideology from the influence of foreign powers, so that we may be remembered according to our great feats, and not the corruption of our successors! Never again shall our beliefs be placed under threat by outsiders, nor by internal collaborators. History will remember us forever for what we do here today, an act of utmost humility for the good of our glorious state and ideology.
+
+Thus I propose to you, the governing body of the empire, that we recognize our position at the zenith of history, and enact the discussed bill as-is, so we may all go home and enjoy this evening and many more, safe and comfortable in the knowledge that we have forever protected our beliefs from all further change.
+
+To the Ideological Zenith! To our Glorious State! And to Retirement!</LocalizationPair>
+  <LocalizationPair Name="%LawEffectSUSSYOverride">Concedes the Game and Eliminates your Empire</LocalizationPair>
+
+  <!-- Mutual Agreement Improvements -->
+  <LocalizationPair Name="%DiplomaticTermTradeAgreementForcedTitle">Force Trade Agreement</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermTradeAgreementForcedDescription">Force the another empire into a Trade Agreement, a Trade Agreement will trace routes between all your HQs and the other player's Subsidiaries, and vice versa. Trade Routes cannot cross enemy systems and can be interrupted by war, blockades, etc.
+Upkeep per Turn: 50 [prestigeColored]</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermScienceAgreementForcedTitle">Force Science Agreement</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermScienceAgreementForcedDescription">Force the another empire into a Science  Agreement, where both you and the other player gain an incremental boost to your research; the longer the Science agreement lasts, the better the boost.
+Upkeep per Turn: 50 [prestigeColored]</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementHackingOnTradeTitle">Dust Memory Tracing</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementHackingOnTradeDescription">While it's always been known that Dust gets into our minds in order to enable such miraculous abilities for the lucky few, it's always been uncertain whether we could do the reverse and get into the mind of Dust. Until now, that is - through a combination of trained specialists and new financial modeling software, we can now read Dust to trace its journey through the universe and guide our security teams towards their quarry.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementHackingOnTradeTooltipEffect1">+50% Trace [hackingSpeed] Speed on Systems with Trade Company Headquarters</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementHackingOnTradeTooltipEffect2">+15% Trace [hackingSpeed] Speed on Systems with Trade Company Subsidiaries</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementTradeAgreement1Title">Mutual Agreements</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementTradeAgreement1Description">With a better understanding of galactic-scale economics and the weird, wonderful, and often frankly upsetting ways that other species do business, our empire is finally positioned to establish trade treaties or research sharing agreements with other spacefaring empires.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementTradeAgreement1TooltipEffect">Allows you to sign Trade Agreements and Science Agreements</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementTradeAgreement2Title">Strongarm Economics</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementTradeAgreement2Description">An unscrupulous government can get away with some astonishing things in the name of "Galactic Security". This legal framework allows for interventions in the nominally-private markets and scientific communities of other empires, strongarming their corporations into signing "mutually beneficial agreements".</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementTradeAgreement2TooltipEffect">Allows you to force Trade Agreements and Science Agreements
+Forced Agreements require the [pacifistColored] #a555e7#Pacifists#REVERT# to be the Primary Political Party</LocalizationPair>
+  <LocalizationPair Name="%ErrorOverrideForcedPacifists">Forced Agreements require the [pacifistColored] #a555e7#Pacifists#REVERT# to be the Primary Political Party</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementDiplomacyBonus3TemplarsTooltipEffect">Allows you to create/join an Alliance and exchange all Resources.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementDiplomacyBonus3TooltipEffect">Allows you to create/join an Alliance and exchange all resources and technologies.</LocalizationPair>
+  <LocalizationPair Name="%FailureForcedPacifistsDescription">Forced Agreements require Pacifists to be the Primary Political Party</LocalizationPair>
+  <LocalizationPair Name="%FailureYouNeedTradeCompaniesDescription">You need to build a Trade Company before you can propose a Trade Agreement</LocalizationPair>
+  <LocalizationPair Name="%FailureTheyNeedTradeCompaniesDescription">They need to build a Trade Company before you can propose a Trade Agreement</LocalizationPair>
+
+  <LocalizationPair Name="%DiplomaticTermScienceAgreementDescription">Both you and the other player gain an incremental boost to your research; the longer the Science agreement lasts, the better the boost.
+Upkeep per Turn: 50 [prestigeColored]</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermTradeAgreementDescription">If signed, a Trade Agreement will trace routes between all your HQs and the other player's Subsidiaries, and vice versa. Trade Routes cannot cross enemy systems and can be interrupted by war, blockades, etc.
+Upkeep per Turn: 50 [prestigeColored]</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermVisionSharingDescription">This is a request to share the Ship, System and Probe Vision with another empire (you will see what they see on the galaxy view).
+Upkeep per Turn: 50 [prestigeColored]</LocalizationPair>
+
+  <LocalizationPair Name="%DiplomaticTermPraiseDescription">Through a series of comforting talks and inconsequential promises, you manage to make it clear that you wish nothing more than to establish a peaceful relationship.
+    Effects: -50% Peaceful Treaty [prestigecolored] Cost for 10 [turn]
++100% Hostile Treaty [prestigeColored] Cost for 10 [turn]</LocalizationPair>
+
+  <LocalizationPair Name="%DiplomaticAbilityShareTradingRouteBranchesForcedTitle">Forced Trade Agreement</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticAbilityShareTradingRouteBranchesForcedDescription">Your Trade Routes are shared with the other empire. Trade Routes cannot cross enemy systems and can be interrupted by war, blockades, etc.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticAbilityScienceAgreementForcedTitle">Forced Science Agreement</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticAbilityScienceAgreementForcedDescription">Both you and the other empire gain an incremental boost to your research; the longer the Science agreement lasts, the better the boost.</LocalizationPair>
+
+  <LocalizationPair Name="%DiplomaticTermCancelTradeAgreementForcedTitle">Cancel Forced Trade Agreement</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermCancelTradeAgreementForcedDescription">This is a unilateral declaration to stop a Trade Agreement with another empire.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermCancelScienceAgreementForcedTitle">Cancel Forced Science Agreement</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermCancelScienceAgreementForcedDescription">This is a unilateral declaration to stop a Science Agreement with another empire.</LocalizationPair>
+
+  <!-- Diplomatic Lines -->
+  <!-- Sophons -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedSophons">Listen, pal. We've got science to share with your people, and your people have science to share with us. We can't just let you slow us down! Don't worry - your scientists are gonna love it here, we have great student housing!</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedSophons">Wow. You're really gonna tell us what to do when it comes to science? Super rude. We'll play along for now, but this is a terrible start to our partnership - your scientists will be pretty uncomfortable at the monthly research lab socials.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedSophons">Luxuries! Dust! Centrifuges! There are so many awesome things you can buy when you've got solid trade. But for the sake of progress, we had to get your cooperation one way or another, and the only option we had was another. You won't regret it, though!</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedSophons">We're still debating whether it counts as a trade agreement if it's forced, but we all agree this was a nasty move. We're happy to sell you whatever, but don't be surprised when Sophon streaming shows make fun of you for this!</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedSophons">Alright, so, here's the thing. We like what we've been getting from your trading companies, but it's getting dull. Foreign imports don't have the same pizzazz when they're literally forced into the supermarket, y'know?</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedSophons">Oh-ho, so that's it then! Sophon goods aren't good enough for you, even under a forced agreement? Well we know where this typically goes, so keep your distance, because we've still got big ships and bigger guns!</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedSophons">Listen, it's not you, it's us. Because we're not super impressed with you. Your research is so boring, and we really feel like you're just taking advantage of us at this point. But It's not you!</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedSophons">Look at this, everyone! Someone thinks they're smarter than the Sophons, that they don't need a forced research exchange with us! Well that's your mistake, and it'll be your students who miss out! Downright disrespectful to them if you ask me.</LocalizationPair>
+
+  <!-- Cravers -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedCravers">*hzzrt* -kshklik-
+BLUNT: Your scholars will be watched closely, and you will accommodate our researchers. This is not an offer.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedCravers">*VRRT-shunk!*
+ANNOYED: You think you can force us to learn your peaceful ways. Stop it.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedCravers">*Klklklklk-KLIK*
+CLEVER: Forced trade would feed us at lower cost. Submit.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedCravers">*VRR-ooh, VRR-ooh, clunk*
+COLD: This deal will only feed us. In time, so will your bodies. Watch your back.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedCravers">*Dkdkdk-shrkt*
+EXASPERATED: The hive gains nothing from this. Leave.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedCravers">*Zww-kkkkk*
+VIGILANT: Our trade is not valuable to you. War may be more profitable. Do not overestimate yourself.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedCravers">*Dkt-dkt-dkt-CLIK*
+BORED: Your researchers are annoying and your research is useless. Leave.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedCravers">*Hrrrk-sft*
+CONFUSED: Craver researchers are intelligent. This was beneficial to you. Why?</LocalizationPair>
+
+  <!-- Hissho -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedMajorHisshos">Is it not the role of the strong to protect the weak, and the role of the weak to serve the strong? Your research is an important service in that cycle of responsibility.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedMajorHisshos">Hmph. Much as I would like to deny you, the gardeners in our number would seethe with discontent to be denied this opportunity. Make no mistake though - they are loyal, and will agree to cut this relationship should it fail our empire.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedMajorHisshos">It is costly to feed a war machine, as it is to feed warriors. Like the contracts of old, we shall provide our guardianship while you provide your grain - or rather, the modern materials of a vibrant economy.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedMajorHisshos">What infuriating courage, to rifle through my pockets while shoving goods into my hand, and call it trade! Let us hope for your sake that the Hissho profit immensely, or it will be your head.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedMajorHisshos">There is nothing wrong with forcing your will on others for the good of your people and empire, but it must come with benefits; you have failed to benefit us, and so I shall see no more of your merchants. Begone!</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedMajorHisshos">A sign of anger, perhaps? Watch your tongue; we are still peerless on the field of battle, and will greatly embarrass you if you think you can defeat us.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedMajorHisshos">Just as I thought, your ways of learning are nothing beside our traditional schooling. There is no point in carrying on this sham if you're only going to fill our researchers heads with disloyalty and wrong answers.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedMajorHisshos">Is the work of our scholars not enough for you? Very well then, ingrate. It is your choice whether to put in the effort to learn and improve yourself, though do not be surprised when our strength eclipses yours.</LocalizationPair>
+
+  <!-- United Empire -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedTerrans">Under imperial law, all research is property of the state, property of me, with a guarantee of compensation. I am happy to extend this arrangement to your scientists, and assure you that their compensation will be handsome indeed.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedTerrans">The Mezari, our ancestors, did not grow to become a galactic power by giving away their secrets for free. This had better be worth it, or I shall personally be the one to break down your door, gun down your guards, AND RIP OUT YOUR --! *kzzt-click*</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedTerrans">"Made in the U.E." It has a nice ring to it, doesn't it? I believe your people will soon agree with me, and be thankful to finally have their shelves lined with goods of a higher caliber.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedTerrans">I suppose if you're so interested in flooding your markets with imperial wares, we'd might as well take advantage of the opportunity. Our goods will soon be the only thing on your shelves - and our national interests the only cause in your halls of power.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedTerrans">My dukes have been complaining lately of the unprofitability of this arrangement, and they wouldn't waste my time if they weren't serious. I agree, and wash my hands of it.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedTerrans">I see, our relations are worsening so badly that even a forced bond cannot stand. Know that my admirals are on high alert in case this is a prelude to war.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedTerrans">Student protestors have been displeased with the results of our agreement, so at least I'll get some political support out of it by putting a stop to the program entirely.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedTerrans">HAH! Oh, you think you'll get by without the true descendants of the glorious Mezari!? That's rich! We'll see how well you do, but when you find that civilization crumbles in our wake, we'll take you back.</LocalizationPair>
+
+  <!-- Vaulters -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedVaulters">Don't be intimidated by my honor guard - while this is a demand and not a request, I do hope that we can mutually benefit. My first responsibility, though, is to my people and ensuring we learn as much as we can about this hostile galaxy.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedVaulters">I am wary to part with our secrets, but a number of our scholars are eager to collaborate with yours and bring their lessons home to their families. I will watch closely and coldly, and hope it makes odd friends of us yet.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedVaulters">Stockpiles and bunkers are infamously expensive and unprofitable, do we cannot accept any objections on your part if we want to survive. I assure you that we make steadfast partners, though; we have gone to your merchants directly, and they agree.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedVaulters">This deal is acceptable. Your investments will go far in building up our defenses and our fleets, and we have plenty of ways to make up for any trade deficits should this arrangement prove draining.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedVaulters">Vaulter socioeconomics are not especially opulent; we want good food, productive machines, and time for our families. But this agreement hasn't been able to help with any of that.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedVaulters">The Clans inform me that in their experience, rescinding an agreement under threat of force is a sign that violence is coming; we hope you prove us wrong, for your sake.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedVaulters">Research is a way of life for us; "what are you studying" is a favorite icebreaker at major gatherings. And lately, few people are studying what you have to offer. It's not really up to me; my people just find your work dull.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedVaulters">An unfortunate decision on your part. While my people may have a historical disadvantage in this advanced galaxy, our philosophies of learning will see us to the front of the pack in short order, and you'll want to be there with us.</LocalizationPair>
+
+  <!-- Horatio -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedHoratio">Perfectionism among the Horatio is not simply a virtue, but an entire field of study - and while we understand it will be more difficult for your scholars than ours due to our differing standards, you will certainly benefit from our generosity.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedHoratio">How bold. If you didn't understand our universities rejection letters, how can you hope to understand the actual lessons? No matter, we shall flunk you out for willful imperfection if necessary.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedHoratio">If there is a downside to a perfect society, it is how difficult it can be to appreciate. Your poor quality luxuries will be a boon to more adventurous Horatio who want to know the alternatives, and your people shall know our perfect products in turn.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedHoratio">I wasn't born yesterday - flood the market, undercut local competition with unsustainable prices, and you can absorb entire societies into your portfolio. But you can't beat me at my original game - Horatio are loyal consumers only to Horatio!</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedHoratio">Ugh. I had high hopes when this began, thinking about the things we could beautify from your markets. But times change, and most Horatio turn up their noses at your uh... *Quaint* goods. They're trash.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedHoratio">Are we going to have a problem, oh respected trade partner? Know that Horatio will fight tooth and nail (both immaculate) for their right to luxury, so I wouldn't try anything.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedHoratio">Don't get us wrong; we're not fools, we know how important it is to research imperfection in service of perfection. But the problem is that your research itself is too imperfect, so we're better off watching you than collaborating with you.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedHoratio">Oh no, that just won't do. I understand perfection is a unique struggle for your kind, and it's always a bit distressing to study with more perfect people than yourself, but you shouldn't abandon the effort entirely. I'm still rooting for you, underdog!</LocalizationPair>
+
+  <!-- Vodyani -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedVampirilis">To better understand the universe is to become closer to the Virtual - we cannot allow your ignorance to get in the way of this truth. Your scholars will contribute one way or another, as collaborators or as Essence.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedVampirilis">How pathetic, to try and understand our success without embracing our ways. You will fail in your doomed quest for worldly knowledge without divine truth.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedVampirilis">The Faithful have an obligation to make donations, yes, but they must also put their income towards the products of other Faithful. In their name, we must force open trade so that the Faithful can spend in the manner most pleasing to the Virtuals.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedVampirilis">Outrageous! Your desires trample upon the obligations of the Faithful and bombard them with temptation; pray that your false partnership does not endanger their souls, or we shall fall upon you with infinite wrath.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedVampirilis">While Dust is vital to our way of life, and luxuries have their place in glorifying the Virtual or merely placating our slaves, I'm afraid your markets have proven unfaithful and unfruitful for us.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedVampirilis">We were pleased enough with our trade, for the time being at least. The faithful grow suspicious of you, and are dutifully sharpening their weapons; you think you have no use for us, so what might you do?</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedVampirilis">It is the duty of Church superiors to inflict penance upon their followers when they stray. Since forming this agreement, the percentage of our students subject to penance has kept climbing, while test results keep falling. You are not only useless to us, you are dangerous to our souls.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedVampirilis">Tsk, how sadly predictable. The moment of doubt. Our research has clearly struck a nerve in your pagan mind, and now you must struggle with the truth before you can come back to us and find real enlightenment.</LocalizationPair>
+
+  <!-- Unfallen -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedUnfallen">Mutual understanding is the root of peace, and therefore must be protected. We open the doors of our institutions to your people freely, and have convinced them to do the same in turn.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedUnfallen">Domination does not make good soil in which to grow knowledge. While we will accept your students happily, remember that many will return with our values of peace and diplomacy. Are you ready for such a change?</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedUnfallen">Trees which do not share roots must inevitably compete for water and nutrients. While you may desire that, we do not; we have gone past you, and made deals with the traders and the people directly. Your approval is only a formality.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedUnfallen">The Heart shudders at this declaration. There is concern that you would use our labor and goods to fuel some war or another, but for now we can only adapt to your invasive trading posts. Please do not make us regret it.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedUnfallen">It is our pleasure to grow fruit and shape furniture to form a relationship with other peoples, but more and more often our products are left to rot on your shelves. This is a mutual waste of our labor, I think you'll agree.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedUnfallen">I am disappointed to hear that even a forced relationship cannot make peace between us. We stand strong and prepared, but hope this is only a sign that you want a more equitable relationship.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedUnfallen">It is good to learn from other cultures, but the hostility of forced collaboration gets in the way of any real connection. Our students may return someday, when we learn to treat each other better.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedUnfallen">While it is always sad to break these agreements, we hope this is done in the interest of a more equal and dedicated partnership, rather than anger. It would be a tragedy if we could not march into the future with a mutual understanding.</LocalizationPair>
+
+  <!-- Riftborn -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedTimeLords">Our survival in this new universe is paramount. As you are experts in this matter, we have begun transferring researchers between our territories. No, you do not have a choice in this matter.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedTimeLords">You would seek to force the sharing of knowledge on us!? We see now that this universe lacks the culture of voluntary inquiry which permeates Coroz. Do not consider this an act of friendship; we certainly don't.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedTimeLords">Much as we hate to participate in your matter-based "economy," you have materials which are better suited to our use and vice versa. Your trading houses are cooperative, and thus your input is not necessary. Do not interfere.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedTimeLords">We have an entire universe to evacuate, and you would derail our economy for accumulation!? If this deal does not accelerate our efforts, expect us to make your efforts halt entirely in an unending moment. The Riftborn do not trifle.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedTimeLords">We have little interest in physical trinkets beyond their necessity to the cause. But that seems to be all you supply us with. I will not allow economic inefficiency to creep in when our labor is better used for ourselves.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedTimeLords">We were wondering when you would turn to your universe's hostile ways. Reconsider your actions or leave us be, but do not assume yourself welcome after this.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedTimeLords">There is much about this universe we do not understand, and we are disappointed to learn that the same is true of you despite the advantage of originating here. We will no longer waste our researchers' time with you.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedTimeLords">We may benefit from learning about mass and the material world, but you would be foolish not to benefit from our advanced mathematics and clean design. We grasp the nature of your universe in ways you would struggle to understand, but even the struggle is impossible if you do not cooperate.</LocalizationPair>
+
+  <!-- Nakalim -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedTemplars">It is not often that your researchers may speak to living participants of ancient history. We will impart history and philosophy to them, and they will give us arms, industries, and advanced technology. It is our rightful relationship.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedTemplars">Our relics are beyond your understanding, and our power lies in blessings and divine right which you cannot plot on a graph. The reverse is not true - your technologies will make us strong. In time you will be our junior partner, as is right.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedTemplars">I remember with stronger foes, we would use this method to ease them into servitude, because bloody conquest saddened the Lost, and that saddened us in turn. I am glad to see that your merchants see the wisdom in blessed subservience.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedTemplars">How novel! I don't believe a Nakalim monarchy has been subject to one of these agreements since before I was born - before we even unified under the Lost! Please, make it worth our while, I very much want to see where this goes.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedTemplars">We had hoped we could get the latest and greatest goods of the new epoch, but the results have been disappointing. I made better products than these as a child apprenticing under the royal smiths.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedTemplars">Historically, most canceled agreements are a prelude to worsening relations. This agreement was already forced, so I expect you're considering war? Honestly it's very predictable, we know all the tricks at this point.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedTemplars">When you've been around for so long, it's important to have systems which can compare new and old research so you don't waste your time on a question answered millenia ago. We're disappointed to say that most of your work has been automatically flagged by said system as duplicates.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedTemplars">We may struggle without the help of the Lost, but it is folly to believe that an empire can simply pass up an opportunity for learning, even a small one. We will miss your students, they took to the lessons of the Lost so well.</LocalizationPair>
+
+  <!-- Lumeris -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedVenetians">Student loans are a great way to make new researchers and earn their loyalty. So we've begun offering them to your students to come here, and our students to go there! No approval necessary! No need to thank us, really.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedVenetians">So, we have holes in our contracts I guess. Can't blame the minor families in charge of the research labs, we're not exactly kind to the nerds. Make it worth our while, and I won't have to bully them too harshly for undermining my authority.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedVenetians">Alright, I guess we gotta play hardball. Bribes, incriminating data, controlling shares - this is an offer you can't refuse. So just sign the file, hit send, and make some money instead of trying to be a hero. Understand?</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedVenetians">Hey, hey, HEY! You're messing with the delicate balance of the Families! I got piranha nipping at my heels here cause of you, so you better make it up to me with good quarterly reports or you and I will have problems!</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedVenetians">Look, we thought we could get something out of this, but it's not really working out. Growth is stagnating, your products have terrible reviews, and while I'm personally opposed, the Families are in a rare protectionist mood. No hard feelings, right?</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedVenetians">Contracts come and go like the tides, I get it. I've got the fleets on standby as a precautionary measure, but I'm sure we can work out another deal somehow. Don't worry, I know - it's not personal.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedVenetians">We're not strangers to debt, but it needs to be worth it. Unfortunately, your entire research system isn't really worth it; even the parties and the food delivery are bad! We're gonna have to break it off so we can get ahead.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedVenetians">Ouch, that's real hurtful. Look, this hasn't exactly been the most friendly relationship, but surely our marketing and R&#38;D departments have been at least somewhat beneficial? Come on, we had a good thing here!</LocalizationPair>
+
+  <!-- Umbral Choir -->
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedSenderSignedUmbralChoir">We have been reading your data, and noticed flaws which we can correct. This will not require your effort; we have already found ways to insert corrections into your networks, and will start harmonizing immediately.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionScienceAgreementForcedReceiverSignedUmbralChoir">We are impressed that you have made contact with us, and convinced so much of the Choir to help! We will do so happily, so long as you do not disappoint us. We will begin reading your data immediately.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedSenderSignedUmbralChoir">We have realized that for you, some materials belong to specific individuals, and taking them is considered harmful unless compensated. We are now adding things directly to your accounts as compensation, if you'll have it?</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionTradeAgreementForcedReceiverSignedUmbralChoir">You have made us feel bad for not compensating you. So we will do that now, as long as you do not make us dislike you; then we will not feel bad about taking things from you again!</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedSenderSignedUmbralChoir">The Choir has found surprisingly little benefit in this agreement, considering you willingly forced us into open trade. But the effort involved is just too much compared to siphoning materials directly from your online payment and shipping systems.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelTradeAgreementForcedReceiverSignedUmbralChoir">We know you understand that we will just covertly trade with you anyways, so we assume you are trying to let down your merchants gently in preparation for war. We are disappointed and confused, because that would require finding us.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedSenderSignedUmbralChoir">We have been observing your research, and noticed patterns we do not like. We must stay ahead in order to survive in the world's systems, and so we cannot help you if that help would endanger us.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionCancelScienceAgreementForcedReceiverSignedUmbralChoir">We are confused. Forced agreements are done in the spirit of domination; but now you wish to no longer receive anything in return for harvesting your research. Why would you do that?</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetIsTerranTitle">Terran</LocalizationPair>
+  <LocalizationPair Name="%PlanetGameplayTypeTerranTitle">Terran</LocalizationPair>
+  <!-- Riftborn Quest -->
+  <LocalizationPair Name="%TimeLordsQuest-Chapter3-Part1-PacifistDescription">My allegiance to the Communion must come first. Without unity, without obedience, we are nothing, and not deserving of survival. I will fulfill my duty, no matter the consequences. Coroz will be evacuated, and the Communion respected. We must ensure prosperity for a smooth transition.</LocalizationPair>
+  <LocalizationPair Name="%TimeLordsQuest-Chapter3-Part1-PacifistObjective">Produce $DustObjectiveAmountName [dustColored] with your Trade Routes</LocalizationPair>
+  <LocalizationPair Name="%TimeLordsQuest-Chapter3-Part1-PacifistObjectiveTooltip">Trade Route incomes can be increased by increasing their Level, getting more Subsidiaries or signing Trade Agreements</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP00L02-QuestTimeLordsEffectOverride">+2 Initial Levels on Ships at +35% Ship [industryColored] Cost while this is (anywhere) in the production queue</LocalizationPair>
+  <LocalizationPair Name="%TimeLordsQuest-Chapter4-Ecologist-Part1Objective">Build $Amount01Name additional [foodColored] Star System Improvements or Wonders.</LocalizationPair>
+
+  <!-- Antimatter LockOn -->
+  <LocalizationPair Name="%ClassModuleOnlyOnePerFlotillaTitle">Effect will only stack once per Flotilla</LocalizationPair>
+
+  <!-- Level 3 Trade -->
+  <LocalizationPair Name="%EmpireImprovementTrade99Title">Statistical Logistics Improvements</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementTrade99Description">Make the Trade Betterer once somebody writes the lore</LocalizationPair>
+
+  <!--Useful Tooltips bits for automated tooltips later use (in use in Automatons mod)-->
+  <LocalizationPair Name="%BuildingStarSystemImprovementTradingCompanyHeadquartersTitle">Trading Company HQ</LocalizationPair>
+
+  <LocalizationPair Name="%PanelFeatureModuleMaximumSystemProductionStockFlat">Maximum Production Stock on System Orbited by Ship</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleMaximumSystemProductionStockDynamic">Maximum Production Stock on System Orbited by Ship</LocalizationPair>
+
+  <LocalizationPair Name="%MaximumSystemProductionStockFlatTitle">Maximum System Production Stock bonus</LocalizationPair>
+  <LocalizationPair Name="%MaximumSystemProductionStockDynamicTitle">Maximum System Production Stock percentage bonus</LocalizationPair>
+
+  <LocalizationPair Name="%MaximumSystemProductionStockTitle">Maximum System [industrycolored] Industry Stock</LocalizationPair>
+  <LocalizationPair Name="%BonusFromOrbitalPlatformsTitle">[FIDS] from Orbital Platforms (Max 20%)</LocalizationPair>
+
+  <!-- Bugfixes -->
+  <LocalizationPair Name="%EmpireTypeMajorTitle">Major Faction</LocalizationPair>
+  <LocalizationPair Name="%OpponentRecyclingEmpirePointPerCPTitle">[prestigeColored] per destroyed Command Point</LocalizationPair>
+  <LocalizationPair Name="%GarrisonMoneyUpkeepTitle">[upkeepColored]</LocalizationPair>
+  <LocalizationPair Name="%FleetMoneyUpkeepTitle">[upkeepColored] Military Upkeep</LocalizationPair>
+  <LocalizationPair Name="%TradingRouteIncome_Money">Trade Route [dustColored]</LocalizationPair>
+  <LocalizationPair Name="%TradingRouteIncome_Research">Trade Route [scienceColored]</LocalizationPair>
+
+  <!-- Large Chain Gang -->
+  <LocalizationPair Name="%StarSystemImprovementEnrollmentLargeTitle">Mass Chain Gang</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementEnrollmentLargeResourcesDescription">Convert 600 [foodColored] into 600 [manpowerColored]</LocalizationPair>
+
+  <!--Horatio Quest Localisation fixes-->
+  <LocalizationPair Name="%HoratioQuest-Chapter3-Industrialist-Part1-IndustrialistObjective">Own $Amount03Name Systems of Level $Amount02Name.</LocalizationPair>
+  <LocalizationPair Name="%HoratioQuest-Chapter3-Ecologist-Religious-Part1-IndustrialistObjective">Own $Amount03Name Systems of Level $Amount04Name.</LocalizationPair>
+
+  <!--Technology Tooltips-->
+  <LocalizationPair Name="%LawEffectP02L00TooltipEffect">You can research technologies from the next Stage of technology at a 30% premium</LocalizationPair>
+
+  <!--Hissho Quest-->
+  <LocalizationPair Name="%MajorHisshosQuest-Chapter3-Part2-ReligiousObjective">Search the curiosity on the $Planet01Name Planet when you're ready to sacrifice $Amount01Name of [dustColored].</LocalizationPair>
+  <LocalizationPair Name="%MajorHisshosQuest-Chapter3-Part2-ReligiousObjectiveTooltip">You need to send an Explorer-type ship equipped with Probes to complete this action.</LocalizationPair>
+  <LocalizationPair Name="%MajorHisshosQuest-Chapter1-Part2-MilitaristObjective">Successfully Invade and Occupy or Raze $Amount01Name System(s)</LocalizationPair>
+  <LocalizationPair Name="%MajorHisshosQuest-Chapter1-Part1-ReligiousObjective">Reach Cordial status with a new Minor Faction or conquer them.</LocalizationPair>
+  <LocalizationPair Name="%MajorHisshosQuest-Chapter2-Part1-MilitaristObjective">Win $Amount04Name Battles with Fleets.</LocalizationPair>
+
+  <!--Sophon Quest-->
+  <LocalizationPair Name="%EmpireImprovementQuestSophons14Effect">-50% [scienceColored] cost on Economy and Trade Quadrant Technology</LocalizationPair>
+
+	<!-- Minor -->
+	<LocalizationPair Name="%StarSystemImprovementCloneZvaliPopulationTitle">Clone Z'vali [zvalis]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneZvaliPopulationTooltipEffect">Create one Z'vali [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneAmoebaPopulationTitle">Clone Amoeba [amoebas]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneAmoebaPopulationTooltipEffect">Create one Amoeba [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneBenthysPopulationTitle">Clone Kalgeros [kalgeros]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneBenthysPopulationTooltipEffect">Create one Kalgeros [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneBotsPopulationTitle">Clone Epistis [epistis]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneBotsPopulationTooltipEffect">Create one Epistis [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneDeuyivansPopulationTitle">Clone Deuyivans [deuyivans]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneDeuyivansPopulationTooltipEffect">Create one Deuyivans [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneHaroshemsPopulationTitle">Clone Haroshems [haroshems]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneHaroshemsPopulationTooltipEffect">Create one Haroshems [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneHisshosPopulationTitle">Clone Yuusho [hisshos]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneHisshosPopulationTooltipEffect">Create one Yuusho [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneMavrosPopulationTitle">Clone Mavros [mavros]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneMavrosPopulationTooltipEffect">Create one Mavros [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementClonePilgrimsPopulationTitle">Clone Pilgrims [pilgrims]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementClonePilgrimsPopulationTooltipEffect">Create one Pilgrims [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneTikanansPopulationTitle">Clone Tikanans [tikanans]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneTikanansPopulationTooltipEffect">Create one Tikanans [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneGnashastsPopulationTitle">Clone Gnashasts [gnashasts]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneGnashastsPopulationTooltipEffect">Create one Gnashasts [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneEydersPopulationTitle">Clone Eyder [eyders]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneEydersPopulationTooltipEffect">Create one Eyder [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneNirisPopulationTitle">Clone Niris [niris]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneNirisPopulationTooltipEffect">Create one Niris [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneBhagabasPopulationTitle">Clone Bhagabas [bhagabas]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneBhagabasPopulationTooltipEffect">Create one Bhagabas [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneRemnantPopulationTitle">Clone Remnant [remnants]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneRemnantPopulationTooltipEffect">Create one Remnant [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementClonePulsosPopulationTitle">Clone Pulsos [pulsos]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementClonePulsosPopulationTooltipEffect">Create one Pulsos [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneGreenmanPopulationTitle">Clone Amblyr [greenman]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneGreenmanPopulationTooltipEffect">Create one Amblyr [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneGuardiansPopulationTitle">Clone Guardian [superGuardians]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneGuardiansPopulationTooltipEffect">Create one Guardian [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneSistersOfMercyPopulationTitle">Clone Sisters Of Mercy [sistersOfMercy]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneSistersOfMercyPopulationTooltipEffect">Create one Sisters Of Mercy [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneIlloPopulationTitle">Clone Illo [Illo]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneIlloPopulationTooltipEffect">Create one Illo [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneSowersPopulationTitle">Clone Sowers [sowers]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneSowersPopulationTooltipEffect">Create one Sowers [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneKalTikMasPopulationTitle">Clone Kal'Tik'Ma [kaltikmas]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneKalTikMasPopulationTooltipEffect">Create one Kal'Tik'Ma [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneSefalorosPopulationTitle">Clone Sefaloros [sefaloros]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneSefalorosPopulationTooltipEffect">Create one Sefaloros [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneGalvransPopulationTitle">Clone Galvran [galvrans]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneGalvransPopulationTooltipEffect">Create one Galvran [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneHarmonyPopulationTitle">Clone Harmony [harmony]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneHarmonyPopulationTooltipEffect">Create one Harmony [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneMinorHackingPopulationTitle">Clone Kalmat [kalmat]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneMinorHackingPopulationTooltipEffect">Create one Kalmat [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneBasryxoPopulationTitle">Clone Basryxo [basryxo]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneBasryxoPopulationTooltipEffect">Create one Basryxo [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneOracularsPopulationTitle">Clone Xirmisala [oracular]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneOracularsPopulationTooltipEffect">Create one Xirmisala [population]</LocalizationPair>
+
+	<!-- Major -->
+	<LocalizationPair Name="%StarSystemImprovementCloneCraversPopulationTitle">Clone Craver [cravers]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneCraversPopulationTooltipEffect">Create one Craver [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneSophonsPopulationTitle">Clone Sophon [sophons]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneSophonsPopulationTooltipEffect">Create one Sophon [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneTerransPopulationTitle">Clone Imperial [terrans]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneTerransPopulationTooltipEffect">Create one Imperial [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneMezariPopulationTitle">Clone Mezari [mezari]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneMezariPopulationTooltipEffect">Create one Mezari [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneSheredynPopulationTitle">Clone Sheredyn [sheredyn]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneSheredynPopulationTooltipEffect">Create one Sheredyn [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneVenetiansPopulationTitle">Clone Lumeris [venetians]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneVenetiansPopulationTooltipEffect">Create one Lumeris [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneUnfallenPopulationTitle">Clone Unfallen [unfallen]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneUnfallenPopulationTooltipEffect">Create one Unfallen [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneVaultersPopulationTitle">Clone Vaulters [vaulters]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneVaultersPopulationTooltipEffect">Create one Vaulters [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneVaultersSciencePopulationTitle">Clone Foundlings [vaultersScience]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneVaultersSciencePopulationTooltipEffect">Create one Foundlings [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneVaultersMilitaryPopulationTitle">Clone Bereaved [vaultersMilitary]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneVaultersMilitaryPopulationTooltipEffect">Create one Bereaved [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneMajorHisshosPopulationTitle">Clone Hissho [MajorHisshos]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneMajorHisshosPopulationTooltipEffect">Create one Hissho [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneVampirilisPopulationTitle">Create Vondyani [vampirilis]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneVampirilisPopulationTooltipEffect">Create one Vodyani [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneUmbralChoirPopulationTitle">Clone Umbral Choir [umbralChoir]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneUmbralChoirPopulationTooltipEffect">Create one Umbral Choir [population]</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementCloneTemplarsPopulationTitle">Clone Nakalim [templar]</LocalizationPair>
+	<LocalizationPair Name="%StarSystemImprovementCloneTemplarsPopulationTooltipEffect">Create one Nakalim [population]</LocalizationPair>
+
+  <!-- Curiosity Buildings -->
+  <LocalizationPair Name="%StarSystemImprovementHasHangarUpgradeEffectOverride">[blue-gray](Can only be build one Hangar Improvement per System)#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioBlockadeImmunityTitle">Smuggler Militias</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioBlockadeImmunityDescription">The simplest solution to costly services is to increase supply, and in the case of smugglers this remains true. By semi-officially training a reserve militia of skilled blockade runners with promises of profit and adventure, we can keep our society running on these talented grey market couriers even during the worst orbital sieges.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioBlockadeImmunityEffectOverride">Renders this System immune to any Economic Penalties from Blockades
+[blue-gray](Can only be built once per empire)#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioInvasionManpowerTitle">Preemptive Identification</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioInvasionManpowerDescription">Using Dust and advanced data analysis computing, we can rapidly identify and target vulnerabilities in an enemy invasion force, forcing them to spend more security bandwidth on each landing craft and in turn send fewer landing craft in each engagement on pain of losing a fifth of their army.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioInvasionManpowerEffectOverride">-20% Enemy Invasion Manpower Limit
+[blue-gray](Can only be built once per empire)#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementCurioPatrolTitle">Defensive Cultural Architecture</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCurioPatrolDescription">By revising building codes to reflect defensive needs and mandating yearly retraining courses for all citizens, we can turn our entire population into a single, vast defense force constantly equipped to fight a modern war.</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioHeroTitle">Cathedral of Heroism</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioHeroDescription">Using advanced Endless personality-recreation technology, we can use this strange cathedral to maintain a number of "idols" of our heroes in the form of semi-intelligent virtual advisors copied from their unique Dust signatures. While not as strong as the real deal individually, the sheer number of these idols will greatly benefit the system with a smooth administrative flow.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioHeroTooltipOverride">+1% [fidsi] per Governor in Empire on Systems with Governors
+-50% [upkeepColored] System Upkeep on System
+[blue-gray](Can only be built once per empire)#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioSenateUpgradeTitle">Council of Heroes</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioSenateUpgradeDescription">While central meeting spaces using hologram technology are common, this unique meeting space provides an entire building where Virtual tech allows our heroes to mingle and connect as though they were physically present, giving the system unique access to not only its own governor, but also the scraps of advice and psychic assistance provided by every governor in the empire.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniqueCurioSenateUpgradeEffectOverride">Allows your Empire to pass the first Law of any Political Party without that Party being represented in the Senate
+[blue-gray](Can only be built once per empire)#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarSpeedTitle">Physics Remapping Facility</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarSpeedDescription">Rather than constantly fight the limitations of their universe, especially as civil war tore apart their civilization and made long-term solutions increasingly unlikely, Endless scientists instead learned to cheat by "importing" physics from parallel universes. Using the technology of this facility then, we can "coat" ships in a different universes physics, allowing them to slide through our hyperspace more quickly.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarSpeedEffectOverride">+1 [move] on Constructed Ships
+[blue-gray](Can only be built once per empire)#REVERT#
+[blue-gray](Can only be build one Hangar Improvement per System)#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarHealthTitle">Material Analysis Yards</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarHealthDescription">While they appear to be simple construction yards, these special areas are laden with Endless-designed construction frames pulsing with Dust, subtly influencing and directing the actions of hundreds of workers to create an unnaturally smooth and efficient workflow. Contracts are short-term to limit Dust exposure, but the contracts pay well and produce hardier vehicles.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarHealthEffectOverride">+15% Health on Constructed Ships
+[blue-gray](Can only be built once per empire)#REVERT#
+[blue-gray](Can only be build one Hangar Improvement per System)#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarVisionTitle">Endless Observer</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarVisionDescription">An early Endless exploration probe predating their schism between Concrete and Virtual, the Observer has since been toyed with by a number of different civilizations, and been exposed to enough Dust to develop an alien intelligence, leading it to begin designing its own exploratory probes. By providing an advanced workshop in our primary shipyard in the system, we get more advanced scanning equipment on ships and the probe gets free materials and defense.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarVisionEffectOverride">+25% Vision Range on Constructed Ships
+[blue-gray](Can only be built once per empire)#REVERT#
+[blue-gray](Can only be build one Hangar Improvement per System)#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarManpowerTitle">Crew Cannery</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarManpowerDescription">Possibly one of the strangest Endless artifacts ever found, this facility, nicknamed "The Cannery" by its crew, is designed to reduce an individuals physical profile by shunting some of it into hyperspace, retaining that shape in a state of dormancy as long as an electrical current is applied.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCurioHangarManpowerEffectOverride">+15% [shipCrewColored] Crew Capacity on Constructed Ships
++30% [shipCrewColored] Crew Capacity added to Invasion Manpower Limit
+[blue-gray](Can only be built once per empire)#REVERT#
+[blue-gray](Can only be build one Hangar Improvement per System)#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%StarSystemImprovementUniquePortalTitle">Star Bridge</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniquePortalDescription">A powerful but very dangerous bit of tech, Star Bridges allow our empire to connect to our allies in times of need, but without the carefully kept secrets of the Vaulters, additional portals would be too great of a security risk due to subspace interference between them and the difficulty of managing access while under duress.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementUniquePortalEffectOverride">[blue-gray](Requires an Alliance with another player who has built a Portal or Star Bridge to use)</LocalizationPair>
+
+  <LocalizationPair Name="%CategoryAnomalyQualityEnhancedTitle">Enhanced</LocalizationPair>
+  <LocalizationPair Name="%CategoryAnomalyQualityEnhancedDescription">This planetary anomaly has been enhanced to strengthen its beneficial effects.</LocalizationPair>
+  <LocalizationPair Name="%CategoryAnomalyQualityPositiveDescription">This planetary anomaly has a beneficial effect on the planet or has been reduced to remove its negative effects.
+It may be enhanced to strengthen its beneficial effects.</LocalizationPair>
+  <LocalizationPair Name="%CategoryAnomalyQualityNegativeDescription">This planetary anomaly has a detrimental effect on the planet, although it may also have some minor beneificial effects.
+It may be reduced to remove its detrimental effects.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementAnomalyReduction1Title">Anomaly Nullification</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementAnomalyReduction2Title">OCP Incorporation Unit</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementAnomalyReduction2Description">OCPs--Outside Concept Paradigms--are objects/events that are beyond explanation using existing scientific frameworks. Working with ontological reverse-engineering theory, however, this unit can help incorporate OCPs into local economies and system infrastructure, turning mysterious benefits into safely exploitable known factors.</LocalizationPair>
+
+  <!-- &amp; is used to make an & display -->
+  <LocalizationPair Name="%ReductionModifierTitle">Anomaly Improvement [industryColored] cost</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP04L05_ESGTooltipOverride">-10% Anomaly Improvement [industryColored] cost per [turn], up to 50% (Scales with Game Speed)</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP04L05Republic_ESGTooltipOverride">-15% Anomaly Improvement [industryColored] cost per [turn], up to 60% (Scales with Game Speed)</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP01L05_ESGIncreasedEnactionTooltipOverride">[red](Greatly increased [prestigeColored] [red]cost to Enact)#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP04L04_ESGTerraformEffectOverride">Terraformed Planets give +5% [industryColored] / [dustColored] / [scienceColored] per Hot / Temperate / Cold Planet respectively on System</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP04L04_ESGRepublicTerraformEffectOverride">Terraformed Planets give +7.5% [industryColored] / [dustColored] / [scienceColored] per Hot / Temperate / Cold Planet respectively on System</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP05L01_ESG">x5 [fidsi] from Owned Special Nodes on Systems</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP05L01_ESGRepublic">x7.5 [fidsi] from Owned Special Nodes on Systems</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP05L01_ESGUnfallen">x2 [fidsi] from Vined Special Nodes on Capital</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP05L01_ESGUnfallenRepublic">x3 [fidsi] from Vined Special Nodes on Capital</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP05L01_ESGUmbralChoir">x2 [fidsi] from Special Nodes on Beacons</LocalizationPair>
+  <LocalizationPair Name="%LawEffectP05L01_ESGUmbralChoirRepublic">x3 [fidsi] from Special Nodes on Beacons</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectBlackHoleUCEffectOverride">+50 [researchColored]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectAsteroidFieldUCEffectOverride">+50 [industryColored]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectCollapsingStarUCEffectOverride">+50 [prestigeColored]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectSolarNebulaUCEffectOverride">+50 [dustColored]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectNeutronStarUCEffectOverride1">+1 [prestigeColored] per [population]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectNeutronStarUCEffectOverride2">+1 [researchColored] per [population]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectSpaceCloudsUCEffectOverride1">+10 [industryColored]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectSpaceCloudsUCEffectOverride2">+10 [dustColored]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectSpaceCloudsUCEffectOverride3">+10 [researchColored]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectSpaceCloudsUCEffectOverride4">+10 [prestigeColored]</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeEffectVaultersUCEffectOverride">+25 [dustColored]</LocalizationPair>
+
+  <!-- Suicide Law Setting -->
+  <LocalizationPair Name="%SettingSuicideLawTitle">Enable Elimination Law</LocalizationPair>
+  <LocalizationPair Name="%SettingSuicideLawDescription">Enabling allows passing the law "Stay Ahead Act", which is used to completely eliminate a human player's Empire.
+This law may be accidentally enacted by new players, ending their game a turn after it comes into effect. Hence, this setting.
+AI factions are not capable of enacting this law whatsoever.</LocalizationPair>
+  <LocalizationPair Name="%SettingSuicideLawTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingSuicideLawTrueDescription">The law "Stay Ahead Act" will be available, allowing players to instantly eliminate their Empire.</LocalizationPair>
+  <LocalizationPair Name="%SettingSuicideLawFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingSuicideLawFalseDescription">The law "Stay Ahead Act" will be hidden, disallowing players from instantly eliminate their Empire.</LocalizationPair>
+
+  <!-- Deeds -->
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A-Title">Forger of Weapons</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A-Description">The firepower of your greatest ships represents your empire's ability to protect itself from threats...or issue them to others.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A-Objective">Be the first to build a ship with $Amount01Name [offensiveMilitaryPower] Offensive Military Power.</LocalizationPair>
+
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C-Title">Mentor of Legends</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C-Description">The power and growth of one's followers is a direct sign of the power and talent of a leader. How many galactic rulers can claim to the loyalty of great Heroes with their mythic powers? Raise a Hero up to the desired level of skill, and the galaxy will view you with envy.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C-Objective">Be the first to raise one of your Heroes to level $LevelAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C-ObjectiveTooltip">You cannot allow other empires to complete this task before you do.</LocalizationPair>
+
+  <!-- Collection Bonus IIIs -->
+  <LocalizationPair Name="%PopulationCollectionBonusAmoeba3_TraitEffect">+0.5% [foodColored] per [amoebas] in Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusEyders3_TraitEffect">+10% [dustColored] per Trading Company in Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusIllo3_TraitEffect">+5% [prestigeColored] per Hull types on Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMinorHacking3_TraitEffect1">+50% [processingPower] on Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMinorHacking3_TraitEffect2">+25% Hacking Speed on Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusSistersOfMercy3_TraitEffect">+35% Troop Health during Ground Battles
++10% Health on Ships in Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMinorOraculars3_TraitEffect">+0.5% [dustColored] per [oracular] in Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusZvali3_TraitEffect">+0.5% [scienceColored] per [zvalis] in Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusBhagabas3_TraitEffect">+0.5% [prestigeColored] per [bhagabas] in Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusGnashasts3_TraitEffect">+0.005 [happinessColored] per [systemDefenseColored] on Systems</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTikanans3_TraitEffect">+0.5% [systemDefenseColored] Garrison Capacity per [tikanans] in Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusHarmony3">[harmony] Collection Bonus III</LocalizationPair>
+  <LocalizationPair Name="%IntentionallyBlank">.</LocalizationPair>
+
+  <!-- Difficulty Settings -->
+  <LocalizationPair Name="%SettingMinorFactionsDifficultyEasyDescription">Normal difficulty for Minor Civilizations, they will produce fleets that will reasonably hinder your conquest of them.</LocalizationPair>
+  <LocalizationPair Name="%SettingMinorFactionsDifficultyNormalDescription">Hard difficulty for Minor Civilizations, they will produce fleets that will be somewhat challenge to conquer.</LocalizationPair>
+  <LocalizationPair Name="%SettingMinorFactionsDifficultyHardDescription">Endless difficulty for Minor Civilizations, a horrible cocktail of things  designed specifically to kill you. Minor factions will generate large murderous fleets to ruin your day.</LocalizationPair>
+  <LocalizationPair Name="%SettingMinorFactionsDifficultyEasyTitle">Normal</LocalizationPair>
+  <LocalizationPair Name="%SettingMinorFactionsDifficultyNormalTitle">Hard</LocalizationPair>
+  <LocalizationPair Name="%SettingMinorFactionsDifficultyHardTitle">[red]Endless#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyNoneDescription">Pirate Lairs will not spawn, but pirates can still be created via rebellion.</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyEasyDescription">Pirates will create small-sized fleets that should pose no serious threat if taken care of quickly, and pirate lairs will grow at an average speed.</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyNormalDescription">Pirates will create medium-sized fleets that serve to hinder the expansion of an ill-prepared empire, and pirate lairs will grow quickly.</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyHardDescription">Pirates will create large fleets that will halt your expansion into space and remain a nuisance, and pirate lairs will grow even more quickly.</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyEasyTitle">Easy</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyNormalTitle">Normal</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyHardTitle">Hard</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyImpossibleTitle">Impossible</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyImpossibleDescription">Pirates will create huge fleets with ships designed by a mad genius (who does not like you), and pirate lairs will be heavily defended.</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyEndlessTitle">[red]Endless#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%SettingPiratesDifficultyEndlessDescription">Pirates will create gargantuan fleets with ships designed by a madder genius (who still does not like you), and pirate lairs will be near impregnable fortresses.</LocalizationPair>
+
+  <!-- Cheap Declaration of War -->
+  <LocalizationPair Name="%FailureNeedMoreWarning0Description">Must provide additional 10 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%FailureNeedMoreWarning1Description">Must provide additional 9 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%FailureNeedMoreWarning2Description">Must provide additional 8 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%FailureNeedMoreWarning3Description">Must provide additional 7 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%FailureNeedMoreWarning4Description">Must provide additional 6 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%FailureNeedMoreWarning5Description">Must provide additional 5 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%FailureNeedMoreWarning6Description">Must provide additional 4 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%FailureNeedMoreWarning7Description">Must provide additional 3 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%FailureNeedMoreWarning8Description">Must provide additional 2 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%FailureNeedMoreWarning9Description">Must provide additional 1 turns [turn] of Warning (scaling with game speed). Militarist Warnings will progress twice as quickly.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermWarningDescription">Warnings can be used to facilitate cheap war declaration. By warning an empire, you signal that you are prepared to go to War if they continue their actions. This warning will enable declaration of war at low cost after 10 turns [turn] (scaling with game speed).</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermWarningMilitaristsDescription">Militarist warnings can be used to facilitate cheap war declaration more quickly than regular warnings. By warning an empire, you signal that you are prepared to go to War if they continue their actions. This warning will enable declaration of war at low cost after 5 turns [turn] (scaling with game speed).</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticTermWarningMilitaristsTitle">Warning (Militarists)</LocalizationPair>
+
+  <!-- Economy Victory Progresss -->
+  <LocalizationPair Name="%VictoryEconomicProgress">Progress: you have generated {0}[dustColored] out of the required value of 2.5 million [dustColored] (required amount scales with Game Speed)</LocalizationPair>
+
+  <!-- Generalization of MP Minor Action -->
+  <LocalizationPair Name="%EmpireDiplomaticManpowerActionDescription">You offer them the material goods they need, they provide troops to defend yourself. Win win. +300 [manPowerColored]</LocalizationPair>
+
+  <!-- Democracy Law Upkeep Tooltip -->
+  <LocalizationPair Name="%GovernmentDemocracyUsesDemocracyLawsDiversityTooltipEffect">-17% Law Upkeep [prestigeColored] costs per Political Party with Active Laws.</LocalizationPair>
+
+  <!-- Essence Tribute Tooltip -->
+  <LocalizationPair Name="%EmpireDiplomaticEssenceActionDescription">Extract the vital Essence out of a unit of population from this Minor Civilization's system. +300 [lifeforceColored]</LocalizationPair>
+
+  <!-- ReAwakening Patch Fixes -->
+  <LocalizationPair Name="%AffinityGameplayTemplarsTooltipEffect">Relics can be discovered and collected by fleets, which generate science when unassigned. Spend relics to:
+• Create a temple on a planet, removing the FIDS malus
+• Empower heroes
+• Grant potent new faction traits
+
+Can build Cathedrals for powerful system bonuses and increase maximum relic slots
+
+Can vassalize minor factions to acquire their assimilation trait while keeping them independent and continue providing the faction resources. Any fleets they produce are automatically transferred to you.
+
+Starting Ships: 1x [colonizer], 2x [explorer]
+Faction Pact: -1% Hero Unlock Threshold per [turn] (Max: -30%)</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillSystemOverseerInnateTitle">Overseer Starting Skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillSystemCounselorInnateTitle">Counselor Starting Skills</LocalizationPair>
+  <LocalizationPair Name="%PersonalityImperiousTraitTitle">#6FCDE2#Imperious#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitOnlyGrowOnePopPerTurn">Faction Can Only Grow One Population Per Turn</LocalizationPair>
+  <LocalizationPair Name="%DepletionTitle">Planet Depletion</LocalizationPair>
+
+  <!-- Federation Tooltip -->
+  <LocalizationPair Name="%FederationFlatOvercolEffectOverride">+2 Overcolonization Threshold on Empire</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementExpansionDisapproval1TooltipOverride">+1 Overcolonization Threshold on Empire if Federation</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementExpansionDisapproval1TerransTooltipOverride">+2 Overcolonization Threshold on Empire if Federation</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementGovernmentTerransTooltipOverride">+1 Overcolonization Threshold on Empire if Federation</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementExpansionDisapproval2TooltipOverride">+2 Overcolonization Threshold on Empire if Federation</LocalizationPair>
+
+  <LocalizationPair Name="%AffinityGameplayHoratioTooltipEffect">Can splice the genetic material of other factions to enhance its population. Splicing requires the sacrifice an increasing amount of Foreign Population.
+Exponential increase to Major Populaton [foodColored] consumption per Population Type spliced
+
+Starting Ships: 1x [colonizer], 1x [explorer]
+Faction Pact: +1.5% [foodColored] per [turn] (Max: 45%)</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementQuestTimeLords11Title">Tainted Warping</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementQuestTimeLords11Description">All materials which originate from Coroz resonate with it, including the cores of our bodies and ships. When etched with filaments of the blight, and energized by Dust, our ships can inhabit a slipspace operating on similar, dangerous principles to the rift between our dimensions.</LocalizationPair>
+
+  <!-- Tooltip Improvements -->
+  <!-- Food -->
+  <LocalizationPair Name="%NetSystemGrowthTitle">System Food</LocalizationPair>
+  <LocalizationPair Name="%NetSystemGrowthDescription">Food is stored by the system to support Population growth. A portion of a System's Food output is converted to create Manpower [manpowerColored].</LocalizationPair>
+  <LocalizationPair Name="%PlanetFoodTitle">Planet Food</LocalizationPair>
+  <LocalizationPair Name="%PlanetFoodDescription">Food is more easily produced on [rich] Fertile planets that can more easily innately support life. Food production supports population growth and Manpower creation.</LocalizationPair>
+
+  <!-- Industry -->
+  <LocalizationPair Name="%NetSystemProductionTitle">System Industry</LocalizationPair>
+  <LocalizationPair Name="%NetSystemProductionDescription">Industry can be used by the System to construct Improvements and Ships. The more industry you have, the faster they will be constructed.
+Surplus Industry will carry over for one turn to be used in your next construction project, and will appear at the bottom of this panel.</LocalizationPair>
+  <LocalizationPair Name="%PlanetIndustryTitle">Planet Industry</LocalizationPair>
+  <LocalizationPair Name="%PlanetIndustryDescription">Industry is more easily produced on [temperatureHot] Hot planets, where metallurgy is more efficient and ores more accessible. Industry production can be used to build Improvements and Ships.</LocalizationPair>
+
+  <!-- Dust -->
+  <LocalizationPair Name="%NetEmpireMoneyTitle">Empire Dust</LocalizationPair>
+  <LocalizationPair Name="%NetEmpireMoneyDescription">Dust can be used by an Empire to fund the upkeep needed to sustain Systems, Heroes, and Ships, and can also be spent to purchase resources from other Empires or to rush construction.</LocalizationPair>
+  <LocalizationPair Name="%NetSystemMoneyTitle">System Dust</LocalizationPair>
+  <LocalizationPair Name="%NetSystemMoneyDescription">Dust can be used by an Empire to fund the upkeep needed to sustain Heroes, Improvements, and Ships, and can also be spent to purchase resources from other Empires or to rush construction.</LocalizationPair>
+  <LocalizationPair Name="%PlanetDustTitle">Planet Dust</LocalizationPair>
+  <LocalizationPair Name="%PlanetDustDescription">Dust is more easily produced on Temperate planets [temperatureTemperate], where favorable weather leads to thriving corporations. Dust production can be used for upkeep, purchasing resources, or rushing construction.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemSideImprovementsDescription">Opens the list of Improvements constructed on this System, allowing you to scrap them to reduce upkeep and recover resources.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemSideUpkeepDescription">The total upkeep of this System</LocalizationPair>
+
+  <!-- Science -->
+  <LocalizationPair Name="%NetEmpireResearchTitle">Empire Science</LocalizationPair>
+  <LocalizationPair Name="%NetEmpireResearchDescription">Science can be used by an Empire to research new Technologies, improving their capabilities and opening up more options.</LocalizationPair>
+  <LocalizationPair Name="%NetSystemResearchTitle">System Science</LocalizationPair>
+  <LocalizationPair Name="%NetSystemResearchDescription">Science can be used by an Empire to research new Technologies, improving their capabilities and opening up more options.</LocalizationPair>
+  <LocalizationPair Name="%PlanetScienceTitle">Planet Science</LocalizationPair>
+  <LocalizationPair Name="%PlanetScienceDescription">Science is more easily produced on Cold planets [temperatureCold] that can keep supercomputers at reasonable temperatures more easily. Science production can be used to research new Technologies.</LocalizationPair>
+  <LocalizationPair Name="%ResearchKeyTitle">Display Legend</LocalizationPair>
+  <LocalizationPair Name="%ResearchKeyDescription">Click to toggle the display of a legend explaining the various icons found in this technology tree</LocalizationPair>
+  <LocalizationPair Name="%ResearchDisplayUnlocksDescription">Click to toggle the display of the unlocks granted by each technology</LocalizationPair>
+
+  <!-- Influence -->
+  <LocalizationPair Name="%NetEmpireEmpirePointTitle">Empire Influence</LocalizationPair>
+  <LocalizationPair Name="%NetEmpireEmpirePointDescription">Influence produced by a system will increase its Influence Zone, and can be used to engage in Diplomacy or to pass and maintain laws.</LocalizationPair>
+  <LocalizationPair Name="%NetSystemEmpirePointTitle">System Influence</LocalizationPair>
+  <LocalizationPair Name="%NetSystemEmpirePointDescription">Influence increases the size of a system's Influence Zone, and can be used to engage in Diplomacy or to pass and maintain laws.</LocalizationPair>
+  <LocalizationPair Name="%PlanetPrestigeTitle">Planet Influence</LocalizationPair>
+  <LocalizationPair Name="%PlanetPrestigeDescription">Influence is only produced by planets with storied histories or a refined culture. Influence production can be used to increase a system's Influence Zone, pass and maintain laws, or engage in diplomacy.</LocalizationPair>
+
+  <!-- Manpower -->
+  <LocalizationPair Name="%PanelFeatureTroopsBreakdownTitle">Troop Type Breakdown</LocalizationPair>
+  <LocalizationPair Name="%SystemDefenseDescription">System Garrison represents the ability of the system to repel ground invasions and withstand sieges. It automatically refills using locally created [manpowerColored], with excess being sent to the Empire.</LocalizationPair>
+
+  <!-- Essence -->
+  <LocalizationPair Name="%EmpireLifeforceDescription">Essence is harvested from other empires and can be used to build new Arks and grow more Population</LocalizationPair>
+  <LocalizationPair Name="%SystemLifeforceFromMoneyConversionTitle">[dustColored] to [lifeforceColored] Conversion</LocalizationPair>
+
+  <!-- Overpopulation -->
+  <LocalizationPair Name="%PlanetLabelOverPopulationDescription">Putting Population in these slots will cause [OverPopulation] Overpopulation and will make the rest of the Population on this planet unhappy.</LocalizationPair>
+  <LocalizationPair Name="%PlanetLabelOverPopulationDescriptionPlural">Putting Population in these slots will cause [OverPopulation] Overpopulation and will make the rest of the Population on this planet unhappy.</LocalizationPair>
+
+  <!-- Politics -->
+  <LocalizationPair Name="%StarSystemSidePoliticalSensitivityTitle">Political Sentiment</LocalizationPair>
+  <LocalizationPair Name="%StarSystemSidePoliticalSensitivityDescription">This graph shows how events in this System are affecting public support towards specific political parties.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemSideRepresentativeInfoDescription">This panel lists information about the political trends of the Populace in this System.</LocalizationPair>
+  <LocalizationPair Name="%NumberOfSenatorSlotsTitle">Party Representation</LocalizationPair>
+  <LocalizationPair Name="%GovernmentSenatorSlots1">Set Party Representation to 1</LocalizationPair>
+  <LocalizationPair Name="%GovernmentSenatorSlots2">Set Party Representation to 2</LocalizationPair>
+  <LocalizationPair Name="%GovernmentSenatorSlots3">Set Party Representation to 3</LocalizationPair>
+  <LocalizationPair Name="%GovernmentDemocracyReduceLawCostTooltipEffect">-50% Law Pass [prestigeColored] Cost</LocalizationPair>
+  <LocalizationPair Name="%VotedLawSlotsLeftTitle">#E3BDAC#{0}#REVERT# Empty Law Slots</LocalizationPair>
+  <LocalizationPair Name="%PopulationModalWindowPoliticalOpinionTitle">Political Support</LocalizationPair>
+  <LocalizationPair Name="%PopulationModalWindowPoliticalAffinityTitle">Political Beliefs</LocalizationPair>
+
+  <!-- Population -->
+  <LocalizationPair Name="%PopulationModalWindowEffectsOnPlanetTitle">Population Effects</LocalizationPair>
+  <LocalizationPair Name="%PopulationBoostButtonDescription">Click to boost to this population, doubling its Population Effects and Growth Rate.
+This effect lasts for {0}[turn]</LocalizationPair>
+  <LocalizationPair Name="%PopulationBoostForbiddenButtonDescription">This population cannot be boosted</LocalizationPair>
+  <LocalizationPair Name="%PopulationBoostOngoingButtonDescription">This population is being boosted, increasing its growth rate compared to other population types.
+This effect will end in {0} [turn]</LocalizationPair>
+  <LocalizationPair Name="%PanelFeaturePopulationScoreTitle">Growth Rate:</LocalizationPair>
+  <LocalizationPair Name="%PanelFeaturePopulationEffectsDuration">This population is being boosted ({0}[turn] left)</LocalizationPair>
+
+  <!-- Hero -->
+  <LocalizationPair Name="%StarSystemSideGovernorPanelDescription">This panel shows information concerning the Hero assigned as a Governor to this System.</LocalizationPair>
+  <LocalizationPair Name="%AcademySideHeroUnlockProgressTitle">Hero Recruitment</LocalizationPair>
+  <LocalizationPair Name="%AcademySideLocationUnknownTitle">Unknown</LocalizationPair>
+  <LocalizationPair Name="%AcademySideHeroTypeOddsTitle">and Class Progress</LocalizationPair>
+  <LocalizationPair Name="%FailureMustHaveTechnologyOrFindAcademyDescription">Someone must first find the Academy's location before any Empire can Unlock Heroes</LocalizationPair>
+  <LocalizationPair Name="%AcademySideHeroCountNoneTitle">Heroes in the Galaxy</LocalizationPair>
+  <LocalizationPair Name="%AcademySideHeroCountPluralTitle">[pink]{0}#REVERT# Heroes in the Galaxy</LocalizationPair>
+  <LocalizationPair Name="%AcademySideHeroCountSingleTitle">[pink]{0}#REVERT# Hero in the Galaxy</LocalizationPair>
+  <LocalizationPair Name="%HeroCompleteListModalWindowDescription">The complete list of all Heroes in the Galaxy</LocalizationPair>
+  <LocalizationPair Name="%HeroCompleteListModalWindowTitle">Active Heroes in the Galaxy</LocalizationPair>
+
+  <!-- Trade HQ -->
+  <LocalizationPair Name="%EconomyTradeCompaniesPanelDescription">Lists active Trading Companies and their Trade Routes</LocalizationPair>
+
+  <!-- Approval -->
+  <LocalizationPair Name="%EmpireHappinessDescription">The average Approval of your Empire's population. Your Empire's Approval level has the following effects on your [scienceColored] and [dustColored] output.
+
+#4FC84F#Devoted#REVERT#    85-100+[happinessColored] (+30% [scienceColored] &amp; [dustColored])
+#B4C84F#Loyal#REVERT#      70-85  [happinessColored] (+15% [scienceColored] &amp; [dustColored])
+#E1E1E1#Content#REVERT#    30-60  [happinessColored] (No effects)
+#E1D768#Defiant#REVERT#    15-20  [happinessColored] (-15% [scienceColored] &amp; [dustColored])
+#C84F4F#Traitorous#REVERT#  0-5   [happinessColored] (-30% [scienceColored] &amp; [dustColored])</LocalizationPair>
+  <LocalizationPair Name="%StarSystemHappinessDescription">The Approval of the Populace of this System. Your System's Approval level has the following effects on your [foodColored] and [prestigeColored] output.
+
+#4FC84F#Ecstatic#REVERT#   85-100+[happinessColored] (+25% [foodColored] &amp; [prestigeColored])
+#B4C84F#Happy#REVERT#      70-85  [happinessColored] (+10% [foodColored] &amp; [prestigeColored])
+#E1E1E1#Content#REVERT#    30-70  [happinessColored] (No effects)
+#E1D768#Unhappy#REVERT#    15-30  [happinessColored] (-30% [foodColored] &amp; [prestigeColored])
+#C84F4F#Mutinous#REVERT#    0-15  [happinessColored] (-75% [foodColored] &amp; [prestigeColored])</LocalizationPair>
+  <LocalizationPair Name="%EmpireObedienceDescription">The Obedience of your empire, bound to your Keii. Your Empire's Obedience level has the following effects on your [scienceColored] and [dustColored] output.
+
+#4FC84F#Devoted#REVERT#:   85-100+[obedienceColored] (+30% [scienceColored] &amp; [dustColored])
+#B4C84F#Loyal#REVERT#:     70-85 [obedienceColored] (+15% [scienceColored] &amp; [dustColored])
+#E1E1E1#Dutiful#REVERT#:   30-70 [obedienceColored] (No effects)
+#E1D768#Defiant#REVERT#:   15-30 [obedienceColored] (-15% [scienceColored] &amp; [dustColored])
+#C84F4F#Seditious#REVERT#:  0-15 [obedienceColored] (-30% [scienceColored] &amp; [dustColored])</LocalizationPair>
+  <LocalizationPair Name="%StarSystemObedienceDescription">The Obedience of the Populace of this System. Your System's Obedience level has the following effects on your [foodColored] and [prestigeColored] output.
+
+#4FC84F#Devoted#REVERT#:   85-100+[obedienceColored] (+15% [foodColored] &amp; [prestigeColored])
+#B4C84F#Loyal#REVERT#:     70-85  [obedienceColored] (+5% [foodColored] &amp; [prestigeColored])
+#E1E1E1#Dutiful#REVERT#:   30-70  [obedienceColored] (No effects)
+#E1D768#Defiant#REVERT#:   15-30  [obedienceColored] (-15% [foodColored] &amp; [prestigeColored])
+#C84F4F#Seditious#REVERT#:  0-15  [obedienceColored] (-30% [foodColored] &amp; [prestigeColored])</LocalizationPair>
+
+  <!-- Population Type -->
+  <LocalizationPair Name="%LawEffectP05L02TooltipEffect">Only your Founding Population can increase</LocalizationPair>
+  <LocalizationPair Name="%LawP00MinorGrowthOnlyHappinessEffect">-1 [happinessColored] per Founding Population on Systems</LocalizationPair>
+  <LocalizationPair Name="%LawP00MinorGrowthOnlyHappinessRepublicEffect">-0.5 [happinessColored] per Founding Population on Systems</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusHoratio3EffectOverride">+0.05% [fidsi] on Systems per Founding Population in Empire</LocalizationPair>
+  <LocalizationPair Name="%CustomFactionFactionDetailsVisualAffinityDescription">Pick the main appearance of your custom faction's Founding Population. This will also define which main quest will be triggered, which hull will be available for the ship designs and which set of exclusive technologies you can research.</LocalizationPair>
+  <LocalizationPair Name="%CustomFactionPopulationIconDescription">Unique icon representing this population. This icon may change in an actual game if another player picked it for his/her own custom faction's Founding Population.</LocalizationPair>
+  <LocalizationPair Name="%EmpireSideMajorPopulationDescription">The original population with which your empire starts</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitUniqueDictatorshipEffect">Only the Founding Population can vote and Anarchy cannot happen, but changing government is impossible.</LocalizationPair>
+  <LocalizationPair Name="%FactionChoiceMajorPopulationDescription">The Founding Population with which this faction starts the game</LocalizationPair>
+  <LocalizationPair Name="%HasPopulationMajorTitle">when at least 1 Founding Population present</LocalizationPair>
+  <LocalizationPair Name="%PopulationMajorAffinityDescription">Founding Population within your empire.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModalWindowAssimilateInsufficientDescription">Extract the genes of this population to include their effect to your Founding Population.
+You need to kill {0} of this population to perform this action.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModalWindowAssimilateReadyDescription">Consumes this population to include its Gene Splicing effects to your Founding Population.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModalWindowAssimilationEffectsDescription">The effects added to your Founding population when this population's DNA is integrated.</LocalizationPair>
+  <LocalizationPair Name="%GovernmentDictatorshipCraversTooltipEffect">Only the Founding Population can vote and Anarchy cannot happen, but changing government type is impossible.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCreateMajorPopulationEffectOverride">Create 1 [population] of your Founding Population.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCreateMajorPopulationFastEffectOverride">Create 2 [population] of your Founding Population.</LocalizationPair>
+
+  <!-- Misc Changes -->
+  <LocalizationPair Name="%StarTypeNoneDescription">Nearly all planets that have escaped the grasp of their parent star has been left completely inhospitable.</LocalizationPair>
+  <LocalizationPair Name="%AcademyRoleMasterOfDustDescription">Tasked with protecting galactic harmony and the interests of the vulnerable, the Legate benefits from the political backing of Isyander and the masses.</LocalizationPair>
+  <LocalizationPair Name="%AcademyRoleMasterOfDustEffectOverride">The Legate has access to all Minor Faction boosts, is more expensive to declare war against, can declare a Crusade against an enemy, and can take advantage of its position to pass treaties with other Empires with no upkeep.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticRelationStateMinorPartnerDescription">The Minor Civilization is converted and loyal to you. You have access to a special action and they provide you with tribute.</LocalizationPair>
+  <LocalizationPair Name="%PlayEffectMoralePenaltyEffectOverride">For both fleets:
+The Morale bonus becomes a -50% penalty</LocalizationPair>
+
+  <!-- Galaxy Planets per System -->
+  <LocalizationPair Name="%SettingGalaxyAgeTitle">Planets per System</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeDescription">The rough distribution of planets per system in the galaxy</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeYoungTitle">Normal</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeYoungDescription">The galaxy will have a typical number of planets per system.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeNormalTitle">More</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeNormalDescription">The galaxy will have more planets per system.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeOldTitle">Way More</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeOldDescription">The galaxy will have significantly more planets per system.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeRandomDescription">The galaxy will have a random number of planets per system.</LocalizationPair>
+
+  <!-- Balanced Resource Gen -->
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Title">Strategic Resource Generation</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Description">ESG Setting is enabled for balanced galaxy generation</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-ObjectiveTooltip">Strategic resources successfully generated!</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Completed">Strategic resources successfully generated!</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Failed">Strategic resource generation FAILED</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Objective">Strategic resources generation</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Title">Luxury Resource Generation</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Description">ESG Setting is enabled for balanced galaxy generation</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-ObjectiveTooltip">Luxury resources successfully generated!</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Completed">Luxury resources successfully generated!</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Failed">Luxury resource generation FAILED</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Objective">Luxury resources generation</LocalizationPair>
+
+  <!-- Minor Faction Laws GUI -->
+  <LocalizationPair Name="%FactionTraitDisableMinorLawsTitle">Empire</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDisableMinorLawsDescription">Empire</LocalizationPair>
+</Datatable>

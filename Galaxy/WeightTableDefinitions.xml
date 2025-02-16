@@ -1,0 +1,2754 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
+
+<!--RESOURCES ABUNDANCE-->
+  <GalaxyGeneratorWeightTable Name="ResourceDeposit_Rare">
+    <Entry Tag="DepositSizePoor"            Weight="15"/>
+    <Entry Tag="DepositSizeAverage"         Weight="5"/>
+    <Entry Tag="DepositSizeAbundant"        Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="ResourceDeposit_Normal">
+    <Entry Tag="DepositSizePoor"            Weight="5"/>
+    <Entry Tag="DepositSizeAverage"         Weight="20"/>
+    <Entry Tag="DepositSizeAbundant"        Weight="5"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="ResourceDeposit_Abundant">
+    <Entry Tag="DepositSizePoor"            Weight="3"/>
+    <Entry Tag="DepositSizeAverage"         Weight="15"/>
+    <Entry Tag="DepositSizeAbundant"        Weight="10"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Planet sizes-->
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasFrozen_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+        <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasCold_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+      <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasTemperate_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+       <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasWarm_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+       <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasHot_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+        <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasBurning_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+        <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+  
+  <!--GALAXY PLANETS PER SYSTEM-->
+  <GalaxyGeneratorWeightTable Name="StarTypes_Young">
+    <Entry Tag="StarTypeBlue"           Weight="20"/>
+    <Entry Tag="StarTypeWhite"          Weight="20"/>
+
+    <Entry Tag="StarTypeDouble"         Weight="20"/>
+    <Entry Tag="StarTypeYellow"         Weight="20"/>
+    <Entry Tag="StarTypeRedSupergiant"  Weight="20"/>
+
+    <Entry Tag="StarTypeDysonSphere"    Weight="10"/>
+    <Entry Tag="StarTypeRedDwarf"       Weight="10"/>
+    <Entry Tag="StarTypeWhiteDwarf"     Weight="10"/>
+
+    <Entry Tag="StarTypeArtificial"     Weight="6"/>
+    <Entry Tag="StarTypeProtostar"      Weight="6"/>
+    <Entry Tag="StarTypeNone"           Weight="6"/>
+
+    <Entry Tag="StarTypeTemplars"       Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="StarTypes_Normal">
+    <Entry Tag="StarTypeBlue"           Weight="30"/>
+    <Entry Tag="StarTypeWhite"          Weight="30"/>
+
+    <Entry Tag="StarTypeDouble"         Weight="20"/>
+    <Entry Tag="StarTypeYellow"         Weight="20"/>
+    <Entry Tag="StarTypeRedSupergiant"  Weight="20"/>
+
+    <Entry Tag="StarTypeDysonSphere"    Weight="10"/>
+    <Entry Tag="StarTypeRedDwarf"       Weight="10"/>
+    <Entry Tag="StarTypeWhiteDwarf"     Weight="10"/>
+
+    <Entry Tag="StarTypeArtificial"     Weight="2"/>
+    <Entry Tag="StarTypeProtostar"      Weight="2"/>
+    <Entry Tag="StarTypeNone"           Weight="2"/>
+
+    <Entry Tag="StarTypeTemplars"       Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="StarTypes_Old">
+    <Entry Tag="StarTypeBlue"           Weight="50"/>
+    <Entry Tag="StarTypeWhite"          Weight="50"/>
+
+    <Entry Tag="StarTypeDouble"         Weight="30"/>
+    <Entry Tag="StarTypeYellow"         Weight="30"/>
+    <Entry Tag="StarTypeRedSupergiant"  Weight="30"/>
+
+    <Entry Tag="StarTypeDysonSphere"    Weight="5"/>
+    <Entry Tag="StarTypeRedDwarf"       Weight="5"/>
+    <Entry Tag="StarTypeWhiteDwarf"     Weight="5"/>
+
+    <Entry Tag="StarTypeArtificial"     Weight="1"/>
+    <Entry Tag="StarTypeProtostar"      Weight="1"/>
+    <Entry Tag="StarTypeNone"           Weight="1"/>
+
+    <Entry Tag="StarTypeTemplars"       Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--STAR TYPE FOR HOME SYSTEMS-->
+  <GalaxyGeneratorWeightTable Name="HomeSystem_PlanetTypes">
+    <Entry Tag="PlanetTypeBarren"           Weight="20"/>
+    <Entry Tag="PlanetTypeArctic"           Weight="10"/>
+    <Entry Tag="PlanetTypeSteppes"          Weight="2"/>
+    <Entry Tag="PlanetTypeArid"             Weight="10"/>
+    <Entry Tag="PlanetTypeDesert"           Weight="20"/>
+    <Entry Tag="PlanetTypeAsh"              Weight="10"/>
+    <Entry Tag="PlanetTypeSnow"             Weight="2"/>
+    <Entry Tag="PlanetTypeSwamp"            Weight="2"/>
+    <Entry Tag="PlanetTypeJungle"           Weight="2"/>
+    <Entry Tag="PlanetTypeLava"             Weight="20"/>
+    <Entry Tag="PlanetTypeIce"              Weight="20"/>
+    <Entry Tag="PlanetTypeOcean"            Weight="10"/>
+    <Entry Tag="PlanetTypeGasFrozen"        Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold"          Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate"     Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm"          Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot"           Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning"       Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Academy Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeAcademy_PlanetQuantity">
+    <Entry Tag="PlanetQuantityTwo"          Weight="-1"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="-1"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="-1"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="999999"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="StarTypeAcademy_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran"           Weight="1"/>
+    <Entry Tag="PlanetTypeForest"           Weight="5"/>
+    <Entry Tag="PlanetTypeOcean"            Weight="1"/>
+    <Entry Tag="PlanetTypeAtoll"            Weight="1"/>
+    <Entry Tag="PlanetTypeBoreal"           Weight="1"/>
+    <Entry Tag="PlanetTypeJungle"           Weight="1"/>
+    <Entry Tag="PlanetTypeMonsoon"          Weight="1"/>
+    <Entry Tag="PlanetTypeTundra"           Weight="1"/>
+    <Entry Tag="PlanetTypeTropical"         Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt"            Weight="5"/>
+    <Entry Tag="PlanetTypeSteppes"          Weight="1"/>
+    <Entry Tag="PlanetTypeArid"             Weight="5"/>
+    <Entry Tag="PlanetTypeDesert"           Weight="15"/>
+    <Entry Tag="PlanetTypeSnow"             Weight="5"/>
+    <Entry Tag="PlanetTypeArctic"           Weight="0"/>
+    <Entry Tag="PlanetTypeAsh"              Weight="20"/>
+    <Entry Tag="PlanetTypeBarren"           Weight="0"/>
+    <Entry Tag="PlanetTypeSwamp"            Weight="0"/>
+    <Entry Tag="PlanetTypeLava"             Weight="20"/>
+    <Entry Tag="PlanetTypeIce"              Weight="0"/>
+
+    <Entry Tag="PlanetTypeGasFrozen"        Weight="0"/>
+    <Entry Tag="PlanetTypeGasCold"          Weight="0"/>
+    <Entry Tag="PlanetTypeGasTemperate"     Weight="0"/>
+    <Entry Tag="PlanetTypeGasWarm"          Weight="0"/>
+    <Entry Tag="PlanetTypeGasHot"           Weight="0"/>
+    <Entry Tag="PlanetTypeGasBurning"       Weight="0"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!-- ########################################## -->
+  <!-- ############## TIER 1 STARS ############## -->
+  <!-- ########################################## -->
+
+<!--Blue Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeBlue_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="3"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="50"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="30"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="StarTypeBlue_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran" Weight="1"/>
+    <Entry Tag="PlanetTypeForest" Weight="1"/>
+    <Entry Tag="PlanetTypeOcean" Weight="1"/>
+    <Entry Tag="PlanetTypeAtoll" Weight="1"/>
+    <Entry Tag="PlanetTypeBoreal" Weight="1"/>
+    <Entry Tag="PlanetTypeJungle" Weight="1"/>
+    <Entry Tag="PlanetTypeMonsoon" Weight="1"/>
+    <Entry Tag="PlanetTypeTundra" Weight="5"/>
+    <Entry Tag="PlanetTypeTropical" Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt" Weight="1"/>
+    <Entry Tag="PlanetTypeSteppes" Weight="1"/>
+    <Entry Tag="PlanetTypeArid" Weight="5"/>
+    <Entry Tag="PlanetTypeDesert" Weight="15"/>
+    <Entry Tag="PlanetTypeSnow" Weight="5"/>
+    <Entry Tag="PlanetTypeArctic" Weight="15"/>
+    <Entry Tag="PlanetTypeAsh" Weight="20"/>
+    <Entry Tag="PlanetTypeBarren" Weight="20"/>
+    <Entry Tag="PlanetTypeSwamp" Weight="0"/>
+    <Entry Tag="PlanetTypeLava" Weight="20"/>
+    <Entry Tag="PlanetTypeIce" Weight="20"/>
+    <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!--White Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeWhite_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="3"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="50"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="30"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="StarTypeWhite_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran" Weight="1"/>
+    <Entry Tag="PlanetTypeForest" Weight="1"/>
+    <Entry Tag="PlanetTypeOcean" Weight="1"/>
+    <Entry Tag="PlanetTypeAtoll" Weight="1"/>
+    <Entry Tag="PlanetTypeBoreal" Weight="1"/>
+    <Entry Tag="PlanetTypeJungle" Weight="1"/>
+    <Entry Tag="PlanetTypeMonsoon" Weight="1"/>
+    <Entry Tag="PlanetTypeTundra" Weight="5"/>
+    <Entry Tag="PlanetTypeTropical" Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt" Weight="1"/>
+    <Entry Tag="PlanetTypeSteppes" Weight="1"/>
+    <Entry Tag="PlanetTypeArid" Weight="15"/>
+    <Entry Tag="PlanetTypeDesert" Weight="15"/>
+    <Entry Tag="PlanetTypeSnow" Weight="15"/>
+    <Entry Tag="PlanetTypeArctic" Weight="15"/>
+    <Entry Tag="PlanetTypeAsh" Weight="20"/>
+    <Entry Tag="PlanetTypeBarren" Weight="20"/>
+    <Entry Tag="PlanetTypeSwamp" Weight="0"/>
+    <Entry Tag="PlanetTypeLava" Weight="20"/>
+    <Entry Tag="PlanetTypeIce" Weight="20"/>
+    <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!-- ########################################## -->
+  <!-- ############## TIER 2 STARS ############## -->
+  <!-- ########################################## -->
+
+  <!--Binary Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeDouble_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="10"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="40"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="15"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="StarTypeDouble_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran" Weight="1"/>
+    <Entry Tag="PlanetTypeForest" Weight="1"/>
+    <Entry Tag="PlanetTypeOcean" Weight="1"/>
+    <Entry Tag="PlanetTypeAtoll" Weight="1"/>
+    <Entry Tag="PlanetTypeBoreal" Weight="1"/>
+    <Entry Tag="PlanetTypeJungle" Weight="1"/>
+    <Entry Tag="PlanetTypeMonsoon" Weight="1"/>
+    <Entry Tag="PlanetTypeTundra" Weight="5"/>
+    <Entry Tag="PlanetTypeTropical" Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt" Weight="1"/>
+    <Entry Tag="PlanetTypeSteppes" Weight="1"/>
+    <Entry Tag="PlanetTypeArid" Weight="15"/>
+    <Entry Tag="PlanetTypeDesert" Weight="10"/>
+    <Entry Tag="PlanetTypeSnow" Weight="15"/>
+    <Entry Tag="PlanetTypeArctic" Weight="10"/>
+    <Entry Tag="PlanetTypeAsh" Weight="15"/>
+    <Entry Tag="PlanetTypeBarren" Weight="15"/>
+    <Entry Tag="PlanetTypeSwamp" Weight="12"/>
+    <Entry Tag="PlanetTypeLava" Weight="15"/>
+    <Entry Tag="PlanetTypeIce" Weight="15"/>
+    <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!--Yellow Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeYellow_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="10"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="40"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="15"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="StarTypeYellow_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran" Weight="2"/>
+    <Entry Tag="PlanetTypeForest" Weight="2"/>
+    <Entry Tag="PlanetTypeOcean" Weight="2"/>
+    <Entry Tag="PlanetTypeAtoll" Weight="2"/>
+    <Entry Tag="PlanetTypeBoreal" Weight="2"/>
+    <Entry Tag="PlanetTypeJungle" Weight="2"/>
+    <Entry Tag="PlanetTypeMonsoon" Weight="2"/>
+    <Entry Tag="PlanetTypeTundra" Weight="5"/>
+    <Entry Tag="PlanetTypeTropical" Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt" Weight="1"/>
+    <Entry Tag="PlanetTypeSteppes" Weight="1"/>
+    <Entry Tag="PlanetTypeArid" Weight="15"/>
+    <Entry Tag="PlanetTypeDesert" Weight="10"/>
+    <Entry Tag="PlanetTypeSnow" Weight="15"/>
+    <Entry Tag="PlanetTypeArctic" Weight="10"/>
+    <Entry Tag="PlanetTypeAsh" Weight="10"/>
+    <Entry Tag="PlanetTypeBarren" Weight="10"/>
+    <Entry Tag="PlanetTypeSwamp" Weight="12"/>
+    <Entry Tag="PlanetTypeLava" Weight="10"/>
+    <Entry Tag="PlanetTypeIce" Weight="10"/>
+    <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!--Red Supergiant Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeRedSupergiant_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="10"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="40"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="15"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="StarTypeRedSupergiant_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran" Weight="2"/>
+    <Entry Tag="PlanetTypeForest" Weight="2"/>
+    <Entry Tag="PlanetTypeOcean" Weight="2"/>
+    <Entry Tag="PlanetTypeAtoll" Weight="2"/>
+    <Entry Tag="PlanetTypeBoreal" Weight="2"/>
+    <Entry Tag="PlanetTypeJungle" Weight="2"/>
+    <Entry Tag="PlanetTypeMonsoon" Weight="2"/>
+    <Entry Tag="PlanetTypeTundra" Weight="5"/>
+    <Entry Tag="PlanetTypeTropical" Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt" Weight="1"/>
+    <Entry Tag="PlanetTypeSteppes" Weight="1"/>
+    <Entry Tag="PlanetTypeArid" Weight="5"/>
+    <Entry Tag="PlanetTypeDesert" Weight="5"/>
+    <Entry Tag="PlanetTypeSnow" Weight="5"/>
+    <Entry Tag="PlanetTypeArctic" Weight="5"/>
+    <Entry Tag="PlanetTypeAsh" Weight="5"/>
+    <Entry Tag="PlanetTypeBarren" Weight="5"/>
+    <Entry Tag="PlanetTypeSwamp" Weight="12"/>
+    <Entry Tag="PlanetTypeLava" Weight="5"/>
+    <Entry Tag="PlanetTypeIce" Weight="5"/>
+    <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!-- ########################################## -->
+  <!-- ############## TIER 3 STARS ############## -->
+  <!-- ########################################## -->
+
+  <!--Dyson Sphere Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeDysonSphere_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="30"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="20"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="10"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="StarTypeDysonSphere_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran" Weight="2"/>
+    <Entry Tag="PlanetTypeForest" Weight="2"/>
+    <Entry Tag="PlanetTypeOcean" Weight="2"/>
+    <Entry Tag="PlanetTypeAtoll" Weight="2"/>
+    <Entry Tag="PlanetTypeBoreal" Weight="2"/>
+    <Entry Tag="PlanetTypeJungle" Weight="2"/>
+    <Entry Tag="PlanetTypeMonsoon" Weight="2"/>
+    <Entry Tag="PlanetTypeTundra" Weight="5"/>
+    <Entry Tag="PlanetTypeTropical" Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt" Weight="1"/>
+    <Entry Tag="PlanetTypeSteppes" Weight="1"/>
+    <Entry Tag="PlanetTypeArid" Weight="5"/>
+    <Entry Tag="PlanetTypeDesert" Weight="5"/>
+    <Entry Tag="PlanetTypeSnow" Weight="5"/>
+    <Entry Tag="PlanetTypeArctic" Weight="5"/>
+    <Entry Tag="PlanetTypeAsh" Weight="5"/>
+    <Entry Tag="PlanetTypeBarren" Weight="5"/>
+    <Entry Tag="PlanetTypeSwamp" Weight="10"/>
+    <Entry Tag="PlanetTypeLava" Weight="5"/>
+    <Entry Tag="PlanetTypeIce" Weight="5"/>
+    <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!--Red Dwarf Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeRedDwarf_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="30"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="20"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="10"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="StarTypeRedDwarf_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran" Weight="2"/>
+    <Entry Tag="PlanetTypeForest" Weight="2"/>
+    <Entry Tag="PlanetTypeOcean" Weight="2"/>
+    <Entry Tag="PlanetTypeAtoll" Weight="2"/>
+    <Entry Tag="PlanetTypeBoreal" Weight="2"/>
+    <Entry Tag="PlanetTypeJungle" Weight="2"/>
+    <Entry Tag="PlanetTypeMonsoon" Weight="2"/>
+    <Entry Tag="PlanetTypeTundra" Weight="5"/>
+    <Entry Tag="PlanetTypeTropical" Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt" Weight="1"/>
+    <Entry Tag="PlanetTypeSteppes" Weight="1"/>
+    <Entry Tag="PlanetTypeArid" Weight="15"/>
+    <Entry Tag="PlanetTypeDesert" Weight="10"/>
+    <Entry Tag="PlanetTypeSnow" Weight="15"/>
+    <Entry Tag="PlanetTypeArctic" Weight="10"/>
+    <Entry Tag="PlanetTypeAsh" Weight="10"/>
+    <Entry Tag="PlanetTypeBarren" Weight="10"/>
+    <Entry Tag="PlanetTypeSwamp" Weight="12"/>
+    <Entry Tag="PlanetTypeLava" Weight="10"/>
+    <Entry Tag="PlanetTypeIce" Weight="10"/>
+    <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!--White Dwarf Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeWhiteDwarf_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="30"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="20"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="10"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="StarTypeWhiteDwarf_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran" Weight="2"/>
+    <Entry Tag="PlanetTypeForest" Weight="2"/>
+    <Entry Tag="PlanetTypeOcean" Weight="2"/>
+    <Entry Tag="PlanetTypeAtoll" Weight="2"/>
+    <Entry Tag="PlanetTypeBoreal" Weight="2"/>
+    <Entry Tag="PlanetTypeJungle" Weight="2"/>
+    <Entry Tag="PlanetTypeMonsoon" Weight="2"/>
+    <Entry Tag="PlanetTypeTundra" Weight="5"/>
+    <Entry Tag="PlanetTypeTropical" Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt" Weight="1"/>
+    <Entry Tag="PlanetTypeSteppes" Weight="1"/>
+    <Entry Tag="PlanetTypeArid" Weight="15"/>
+    <Entry Tag="PlanetTypeDesert" Weight="10"/>
+    <Entry Tag="PlanetTypeSnow" Weight="15"/>
+    <Entry Tag="PlanetTypeArctic" Weight="10"/>
+    <Entry Tag="PlanetTypeAsh" Weight="15"/>
+    <Entry Tag="PlanetTypeBarren" Weight="15"/>
+    <Entry Tag="PlanetTypeSwamp" Weight="12"/>
+    <Entry Tag="PlanetTypeLava" Weight="15"/>
+    <Entry Tag="PlanetTypeIce" Weight="15"/>
+    <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!-- ########################################## -->
+  <!-- ############## TIER 4 STARS ############## -->
+  <!-- ########################################## -->
+
+<!--Artificial Star-->
+<GalaxyGeneratorWeightTable Name="StarTypeArtificial_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="20"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="10"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="3"/>
+</GalaxyGeneratorWeightTable>
+<GalaxyGeneratorWeightTable Name="StarTypeArtificial_PlanetTypes">
+  <Entry Tag="PlanetTypeTerran" Weight="1"/>
+  <Entry Tag="PlanetTypeForest" Weight="1"/>
+  <Entry Tag="PlanetTypeOcean" Weight="1"/>
+  <Entry Tag="PlanetTypeAtoll" Weight="1"/>
+  <Entry Tag="PlanetTypeBoreal" Weight="1"/>
+  <Entry Tag="PlanetTypeJungle" Weight="1"/>
+  <Entry Tag="PlanetTypeMonsoon" Weight="1"/>
+  <Entry Tag="PlanetTypeTundra" Weight="5"/>
+  <Entry Tag="PlanetTypeTropical" Weight="5"/>
+  <Entry Tag="PlanetTypeVeldt" Weight="5"/>
+  <Entry Tag="PlanetTypeSteppes" Weight="5"/>
+  <Entry Tag="PlanetTypeArid" Weight="5"/>
+  <Entry Tag="PlanetTypeDesert" Weight="15"/>
+  <Entry Tag="PlanetTypeSnow" Weight="5"/>
+  <Entry Tag="PlanetTypeArctic" Weight="15"/>
+  <Entry Tag="PlanetTypeAsh" Weight="20"/>
+  <Entry Tag="PlanetTypeBarren" Weight="20"/>
+  <Entry Tag="PlanetTypeSwamp" Weight="0"/>
+  <Entry Tag="PlanetTypeLava" Weight="20"/>
+  <Entry Tag="PlanetTypeIce" Weight="20"/>
+  <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+  <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+  <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+  <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+  <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+  <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+</GalaxyGeneratorWeightTable>
+
+  <!--Protostar-->
+  <GalaxyGeneratorWeightTable Name="StarTypeProtostar_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="20"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="10"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="StarTypeProtostar_PlanetTypes">
+    <Entry Tag="PlanetTypeTerran" Weight="1"/>
+    <Entry Tag="PlanetTypeForest" Weight="1"/>
+    <Entry Tag="PlanetTypeOcean" Weight="1"/>
+    <Entry Tag="PlanetTypeAtoll" Weight="1"/>
+    <Entry Tag="PlanetTypeBoreal" Weight="1"/>
+    <Entry Tag="PlanetTypeJungle" Weight="1"/>
+    <Entry Tag="PlanetTypeMonsoon" Weight="1"/>
+    <Entry Tag="PlanetTypeTundra" Weight="5"/>
+    <Entry Tag="PlanetTypeTropical" Weight="5"/>
+    <Entry Tag="PlanetTypeVeldt" Weight="5"/>
+    <Entry Tag="PlanetTypeSteppes" Weight="5"/>
+    <Entry Tag="PlanetTypeArid" Weight="5"/>
+    <Entry Tag="PlanetTypeDesert" Weight="15"/>
+    <Entry Tag="PlanetTypeSnow" Weight="5"/>
+    <Entry Tag="PlanetTypeArctic" Weight="15"/>
+    <Entry Tag="PlanetTypeAsh" Weight="20"/>
+    <Entry Tag="PlanetTypeBarren" Weight="20"/>
+    <Entry Tag="PlanetTypeSwamp" Weight="0"/>
+    <Entry Tag="PlanetTypeLava" Weight="20"/>
+    <Entry Tag="PlanetTypeIce" Weight="20"/>
+    <Entry Tag="PlanetTypeGasFrozen" Weight="2"/>
+    <Entry Tag="PlanetTypeGasCold" Weight="2"/>
+    <Entry Tag="PlanetTypeGasTemperate" Weight="2"/>
+    <Entry Tag="PlanetTypeGasWarm" Weight="2"/>
+    <Entry Tag="PlanetTypeGasHot" Weight="2"/>
+    <Entry Tag="PlanetTypeGasBurning" Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!--None-->
+  <GalaxyGeneratorWeightTable Name="StarTypeNone_PlanetQuantity">
+    <Entry Tag="PlanetQuantityOne"          Weight="3"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="20"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="10"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+  <!--Planet Types for No Star-->
+  <GalaxyGeneratorWeightTable Name="StarTypeNone_PlanetTypes">
+        <Entry Tag="PlanetTypeGasFrozen"        Weight="20"/>
+        <Entry Tag="PlanetTypeGasCold"          Weight="15"/>
+        <Entry Tag="PlanetTypeGasHot"           Weight="15"/>
+        <Entry Tag="PlanetTypeGasBurning"       Weight="20"/>
+
+        <Entry Tag="PlanetTypeAsh"              Weight="10"/>
+        <Entry Tag="PlanetTypeBarren"           Weight="10"/>
+        <Entry Tag="PlanetTypeLava"             Weight="10"/>
+        <Entry Tag="PlanetTypeIce"              Weight="10"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--MINOR HOME SYSTEM-->
+  <GalaxyGeneratorWeightTable Name="MinorFactionBenthys_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="3"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="3"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="1"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="1"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="2"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="2"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="6"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="6"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="5"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="5"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="4"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="4"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="4"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionBots_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="3"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="1"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="1"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="3"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="3"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="4"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="4"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="4"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="4"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionDeuyivans_PlanetTypes">
+        <Entry Tag="PlanetTypeGasFrozen"             Weight="1"/>
+        <Entry Tag="PlanetTypeGasCold"               Weight="2"/>
+        <Entry Tag="PlanetTypeGasTemperate"          Weight="3"/>
+        <Entry Tag="PlanetTypeGasWarm"               Weight="3"/>
+        <Entry Tag="PlanetTypeGasHot"                Weight="2"/>
+        <Entry Tag="PlanetTypeGasBurning"            Weight="1"/>
+
+        <Entry Tag="PlanetTypeBarren"                Weight="1"/>
+        <Entry Tag="PlanetTypeLava"                  Weight="1"/>
+
+        <Entry Tag="PlanetTypeIce"                   Weight="1"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionHaroshems_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="4"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="4"/>
+
+        <Entry Tag="PlanetTypeIce"                   Weight="1"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="1"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="2"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="3"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="3"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="6"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="6"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="5"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="5"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="5"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="5"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="4"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="4"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="4"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="4"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionHisshos_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="3"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="3"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="1"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="1"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="2"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="2"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="4"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="4"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="4"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="4"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="4"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="4"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="4"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionMavros_PlanetTypes">
+        <Entry Tag="PlanetTypeGasFrozen"             Weight="1"/>
+        <Entry Tag="PlanetTypeGasCold"               Weight="1"/>
+        <Entry Tag="PlanetTypeGasTemperate"          Weight="2"/>
+        <Entry Tag="PlanetTypeGasWarm"               Weight="2"/>
+        <Entry Tag="PlanetTypeGasHot"                Weight="3"/>
+        <Entry Tag="PlanetTypeGasBurning"            Weight="3"/>
+
+        <Entry Tag="PlanetTypeSwamp"                 Weight="5"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="5"/>
+
+        <Entry Tag="PlanetTypeBarren"                Weight="2"/>
+        <Entry Tag="PlanetTypeLava"                  Weight="3"/>
+
+        <Entry Tag="PlanetTypeIce"                   Weight="4"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="6"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="4"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="6"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="4"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="6"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="5"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="5"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="4"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="6"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="4"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="7"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="5"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="4"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="5"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="4"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionBhagabas_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="1"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="1"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="2"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="2"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="2"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionTikanans_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="5"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="5"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="1"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="1"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="2"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="2"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="3"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="3"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="4"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="4"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="5"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="5"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="5"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="5"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionZvali_PlanetTypes">
+        <Entry Tag="PlanetTypeGasFrozen"             Weight="3"/>
+        <Entry Tag="PlanetTypeGasCold"               Weight="3"/>
+        <Entry Tag="PlanetTypeGasTemperate"          Weight="2"/>
+        <Entry Tag="PlanetTypeGasWarm"               Weight="2"/>
+        <Entry Tag="PlanetTypeGasHot"                Weight="1"/>
+        <Entry Tag="PlanetTypeGasBurning"            Weight="1"/>
+
+        <Entry Tag="PlanetTypeSwamp"                 Weight="5"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="5"/>
+
+        <Entry Tag="PlanetTypeBarren"                Weight="3"/>
+        <Entry Tag="PlanetTypeLava"                  Weight="2"/>
+
+        <Entry Tag="PlanetTypeIce"                   Weight="6"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="4"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="6"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="6"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="4"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="6"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="4"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="6"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="4"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="7"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="5"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="4"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="5"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="4"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionAmoeba_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="1"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="1"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="2"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="2"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="2"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionEyders_PlanetTypes">
+        <Entry Tag="PlanetTypeGasCold"               Weight="1"/>
+        <Entry Tag="PlanetTypeGasTemperate"          Weight="2"/>
+        <Entry Tag="PlanetTypeGasWarm"               Weight="2"/>
+        <Entry Tag="PlanetTypeGasHot"                Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionGnashasts_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="4"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="4"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="1"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="1"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="3"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="3"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="3"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="4"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="4"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionPulsos_PlanetTypes">
+        <Entry Tag="PlanetTypeGasCold"               Weight="1"/>
+        <Entry Tag="PlanetTypeGasTemperate"          Weight="2"/>
+        <Entry Tag="PlanetTypeGasWarm"               Weight="2"/>
+        <Entry Tag="PlanetTypeGasHot"                Weight="1"/>
+
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+
+        <Entry Tag="PlanetTypeBarren"                Weight="3"/>
+        <Entry Tag="PlanetTypeLava"                  Weight="3"/>
+
+        <Entry Tag="PlanetTypeIce"                   Weight="5"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="5"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="4"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="3"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="3"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="3"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="3"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="2"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="2"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="2"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="2"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionNiris_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="1"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="1"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="1"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="1"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="1"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="1"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="1"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="2"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="1"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionPilgrims_PlanetTypes">
+        <Entry Tag="PlanetTypeGasFrozen"             Weight="3"/>
+        <Entry Tag="PlanetTypeGasCold"               Weight="3"/>
+        <Entry Tag="PlanetTypeGasTemperate"          Weight="2"/>
+        <Entry Tag="PlanetTypeGasWarm"               Weight="2"/>
+        <Entry Tag="PlanetTypeGasHot"                Weight="1"/>
+        <Entry Tag="PlanetTypeGasBurning"            Weight="1"/>
+
+        <Entry Tag="PlanetTypeMonsoon"               Weight="5"/>
+        <Entry Tag="PlanetTypeSwamp"                 Weight="5"/>
+
+        <Entry Tag="PlanetTypeIce"                   Weight="6"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="4"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="6"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="6"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="4"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="6"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="4"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="6"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="4"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="6"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="5"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="5"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="5"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="5"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionRemnant_PlanetTypes">
+        <Entry Tag="PlanetTypeBarren"                Weight="5"/> 
+        <Entry Tag="PlanetTypeLava"                  Weight="5"/>
+
+        <Entry Tag="PlanetTypeIce"                   Weight="6"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="6"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="4"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="4"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="4"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="3"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="3"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="1"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="1"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="1"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="1"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="1"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionGreenman_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="4"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="3"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="1"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="1"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="2"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="2"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="2"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Untold Tales-->
+  <GalaxyGeneratorWeightTable Name="MinorFactionSowers_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="3"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="1"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="1"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="3"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="3"/>
+     
+        <Entry Tag="PlanetTypeForest"                Weight="4"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="4"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="4"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="4"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionKalTikMas_PlanetTypes">
+        <Entry Tag="PlanetTypeGasFrozen"             Weight="1"/>
+        <Entry Tag="PlanetTypeGasCold"               Weight="1"/>
+        <Entry Tag="PlanetTypeGasTemperate"          Weight="1"/>
+        <Entry Tag="PlanetTypeGasWarm"               Weight="1"/>
+        <Entry Tag="PlanetTypeGasHot"                Weight="1"/>
+        <Entry Tag="PlanetTypeGasBurning"            Weight="1"/>
+
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+
+        <Entry Tag="PlanetTypeBarren"                Weight="2"/>
+        <Entry Tag="PlanetTypeLava"                  Weight="2"/>
+
+        <Entry Tag="PlanetTypeAsh"                   Weight="2"/>
+        <Entry Tag="PlanetTypeIce"                   Weight="2"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="2"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="2"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="2"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="2"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="2"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="2"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="2"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="2"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="2"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionSefaloros_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="1"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="1"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="2"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="2"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="2"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="MinorFactionGalvrans_PlanetTypes">
+        <Entry Tag="PlanetTypeIce"                   Weight="1"/>
+        <Entry Tag="PlanetTypeArctic"                Weight="2"/>
+        <Entry Tag="PlanetTypeSnow"                  Weight="2"/>
+        <Entry Tag="PlanetTypeSteppes"               Weight="3"/>
+        <Entry Tag="PlanetTypeTundra"                Weight="3"/>
+        <Entry Tag="PlanetTypeBoreal"                Weight="4"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Lost Symphony-->
+  <GalaxyGeneratorWeightTable Name="MinorFactionHarmony_PlanetTypes">
+        <Entry Tag="PlanetTypeGasCold"               Weight="1"/>
+        <Entry Tag="PlanetTypeGasTemperate"          Weight="2"/>
+        <Entry Tag="PlanetTypeGasWarm"               Weight="2"/>
+        <Entry Tag="PlanetTypeGasHot"                Weight="1"/>
+
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+
+        <Entry Tag="PlanetTypeBarren"                Weight="3"/> 
+        <Entry Tag="PlanetTypeLava"                  Weight="3"/>
+
+        <Entry Tag="PlanetTypeIce"                   Weight="5"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="5"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="4"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="3"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="3"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="3"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="3"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="2"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="2"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="2"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="2"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Website-->
+  <GalaxyGeneratorWeightTable Name="MinorFactionBasryxo_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+
+        <Entry Tag="PlanetTypeIce"                   Weight="5"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="5"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="4"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="3"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="3"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="3"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="3"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="2"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="2"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="1"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="2"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Vaulters-->
+  <GalaxyGeneratorWeightTable Name="MinorFactionSistersOfMercy_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="3"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="3"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="1"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="1"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="2"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="2"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="3"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="3"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="3"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="3"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="4"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="4"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="3"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="3"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Supremacy-->
+  <GalaxyGeneratorWeightTable Name="MinorFactionIllo_PlanetTypes">
+        <Entry Tag="PlanetTypeGasFrozen"             Weight="1"/>
+        <Entry Tag="PlanetTypeGasCold"               Weight="1"/>
+        <Entry Tag="PlanetTypeGasTemperate"          Weight="1"/>
+        <Entry Tag="PlanetTypeGasWarm"               Weight="1"/>
+        <Entry Tag="PlanetTypeGasHot"                Weight="1"/>
+        <Entry Tag="PlanetTypeGasBurning"            Weight="1"/>
+
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+
+        <Entry Tag="PlanetTypeBarren"                Weight="2"/>
+        <Entry Tag="PlanetTypeLava"                  Weight="2"/>
+
+        <Entry Tag="PlanetTypeAsh"                   Weight="2"/>
+        <Entry Tag="PlanetTypeIce"                   Weight="2"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="2"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="2"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="2"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="2"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="2"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="2"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="2"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="2"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="2"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="2"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Penumbra-->
+  <GalaxyGeneratorWeightTable Name="MinorFactionMinorHacking_PlanetTypes">
+        <Entry Tag="PlanetTypeLava"                  Weight="3"/>
+        <Entry Tag="PlanetTypeAsh"                   Weight="2"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="1"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Awakening-->
+  <GalaxyGeneratorWeightTable Name="MinorFactionOraculars_PlanetTypes">
+        <Entry Tag="PlanetTypeSwamp"                 Weight="2"/>
+        <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+
+        <Entry Tag="PlanetTypeArctic"                Weight="1"/>
+        <Entry Tag="PlanetTypeDesert"                Weight="1"/>
+
+        <Entry Tag="PlanetTypeSnow"                  Weight="1"/>
+        <Entry Tag="PlanetTypeArid"                  Weight="1"/>
+
+        <Entry Tag="PlanetTypeSteppes"               Weight="2"/>
+        <Entry Tag="PlanetTypeVeldt"                 Weight="2"/>
+
+        <Entry Tag="PlanetTypeTundra"                Weight="2"/>
+        <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+
+        <Entry Tag="PlanetTypeBoreal"                Weight="3"/>
+        <Entry Tag="PlanetTypeJungle"                Weight="3"/>
+
+        <Entry Tag="PlanetTypeForest"                Weight="3"/>
+        <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
+        <Entry Tag="PlanetTypeTerran"                Weight="3"/>
+        <Entry Tag="PlanetTypeAtoll"                 Weight="3"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Major Faction Star Types (don't ever add the "none" star type here, it can't be obliterated and so that'd be very sussy) (also this very likely doesn't work with balanced start)-->
+  <GalaxyGeneratorWeightTable Name="FactionSophons_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="1"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+        <Entry Tag="StarTypeWhite"               Weight="1"/>
+        <Entry Tag="StarTypeYellow"              Weight="1"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="6"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+        <Entry Tag="StarTypeArtificial"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="FactionCravers_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="1"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="6"/>
+        <Entry Tag="StarTypeWhite"               Weight="1"/>
+        <Entry Tag="StarTypeYellow"              Weight="1"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+        <Entry Tag="StarTypeArtificial"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="FactionVenetians_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="1"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+        <Entry Tag="StarTypeWhite"               Weight="6"/>
+        <Entry Tag="StarTypeYellow"              Weight="1"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+        <Entry Tag="StarTypeArtificial"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="FactionUnfallen_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="1"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+        <Entry Tag="StarTypeWhite"               Weight="6"/>
+        <Entry Tag="StarTypeYellow"              Weight="1"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+        <Entry Tag="StarTypeArtificial"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="FactionVampirilis_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="1"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+        <Entry Tag="StarTypeWhite"               Weight="1"/>
+        <Entry Tag="StarTypeYellow"              Weight="6"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+        <Entry Tag="StarTypeArtificial"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="FactionTerrans_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="6"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+        <Entry Tag="StarTypeWhite"               Weight="1"/>
+        <Entry Tag="StarTypeYellow"              Weight="1"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+        <Entry Tag="StarTypeArtificial"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="FactionTimeLords_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="1"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+        <Entry Tag="StarTypeWhite"               Weight="1"/>
+        <Entry Tag="StarTypeYellow"              Weight="1"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="6"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+        <Entry Tag="StarTypeArtificial"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="FactionHoratio_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="6"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+        <Entry Tag="StarTypeWhite"               Weight="1"/>
+        <Entry Tag="StarTypeYellow"              Weight="1"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+        <Entry Tag="StarTypeArtificial"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="FactionMajorHisshos_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="1"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+        <Entry Tag="StarTypeWhite"               Weight="1"/>
+        <Entry Tag="StarTypeYellow"              Weight="1"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="6"/>
+        <Entry Tag="StarTypeArtificial"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="FactionTemplars_StarTypes">
+        <Entry Tag="StarTypeBlue"                Weight="1"/>
+        <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+        <Entry Tag="StarTypeWhite"               Weight="1"/>
+        <Entry Tag="StarTypeYellow"              Weight="1"/>
+        <Entry Tag="StarTypeProtostar"           Weight="1"/>
+        <Entry Tag="StarTypeDouble"              Weight="1"/>
+        <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+        <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+        <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+        <Entry Tag="StarTypeArtificial"          Weight="6"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Star names-->
+  <GalaxyGeneratorWeightTable Name="StarSystemNames">
+<!--Vanilla-->
+    <Entry Tag="%StarName1"           Weight="1"/>
+    <Entry Tag="%StarName2"           Weight="1"/>
+    <Entry Tag="%StarName3"           Weight="1"/>
+    <Entry Tag="%StarName4"           Weight="1"/>
+    <Entry Tag="%StarName5"           Weight="1"/>
+    <Entry Tag="%StarName6"           Weight="1"/>
+    <Entry Tag="%StarName7"           Weight="1"/>
+    <Entry Tag="%StarName8"           Weight="1"/>
+    <Entry Tag="%StarName9"           Weight="1"/>
+    <Entry Tag="%StarName10"          Weight="1"/>
+    <Entry Tag="%StarName11"          Weight="1"/>
+    <Entry Tag="%StarName12"          Weight="1"/>
+    <Entry Tag="%StarName13"          Weight="1"/>
+    <Entry Tag="%StarName14"          Weight="1"/>
+    <Entry Tag="%StarName15"          Weight="1"/>
+    <Entry Tag="%StarName16"          Weight="1"/>
+    <Entry Tag="%StarName17"          Weight="1"/>
+    <Entry Tag="%StarName18"          Weight="1"/>
+    <Entry Tag="%StarName19"          Weight="1"/>
+    <Entry Tag="%StarName20"          Weight="1"/>
+    <Entry Tag="%StarName21"          Weight="1"/>
+    <Entry Tag="%StarName22"          Weight="1"/>
+    <Entry Tag="%StarName23"          Weight="1"/>
+    <Entry Tag="%StarName24"          Weight="1"/>
+    <Entry Tag="%StarName25"          Weight="1"/>
+    <Entry Tag="%StarName26"          Weight="1"/>
+    <Entry Tag="%StarName27"          Weight="1"/>
+    <Entry Tag="%StarName28"          Weight="1"/>
+    <Entry Tag="%StarName29"          Weight="1"/>
+    <Entry Tag="%StarName30"          Weight="1"/>
+    <Entry Tag="%StarName31"          Weight="1"/>
+    <Entry Tag="%StarName32"          Weight="1"/>
+    <Entry Tag="%StarName33"          Weight="1"/>
+    <Entry Tag="%StarName34"          Weight="1"/>
+    <Entry Tag="%StarName35"          Weight="1"/>
+    <Entry Tag="%StarName36"          Weight="1"/>
+    <Entry Tag="%StarName37"          Weight="1"/>
+    <Entry Tag="%StarName38"          Weight="1"/>
+    <Entry Tag="%StarName39"          Weight="1"/>
+    <Entry Tag="%StarName40"          Weight="1"/>
+    <Entry Tag="%StarName41"          Weight="1"/>
+    <Entry Tag="%StarName42"          Weight="1"/>
+    <Entry Tag="%StarName43"          Weight="1"/>
+    <Entry Tag="%StarName44"          Weight="1"/>
+    <Entry Tag="%StarName45"          Weight="1"/>
+    <Entry Tag="%StarName46"          Weight="1"/>
+    <Entry Tag="%StarName47"          Weight="1"/>
+    <Entry Tag="%StarName48"          Weight="1"/>
+    <Entry Tag="%StarName49"          Weight="1"/>
+    <Entry Tag="%StarName50"          Weight="1"/>
+    <Entry Tag="%StarName51"          Weight="1"/>
+    <Entry Tag="%StarName52"          Weight="1"/>
+    <Entry Tag="%StarName53"          Weight="1"/>
+    <Entry Tag="%StarName54"          Weight="1"/>
+    <Entry Tag="%StarName55"          Weight="1"/>
+    <Entry Tag="%StarName56"          Weight="1"/>
+    <Entry Tag="%StarName57"          Weight="1"/>
+    <Entry Tag="%StarName58"          Weight="1"/>
+    <Entry Tag="%StarName59"          Weight="1"/>
+    <Entry Tag="%StarName60"          Weight="1"/>
+    <Entry Tag="%StarName61"          Weight="1"/>
+    <Entry Tag="%StarName62"          Weight="1"/>
+    <Entry Tag="%StarName63"          Weight="1"/>
+    <Entry Tag="%StarName64"          Weight="1"/>
+    <Entry Tag="%StarName65"          Weight="1"/>
+    <Entry Tag="%StarName66"          Weight="1"/>
+    <Entry Tag="%StarName67"          Weight="1"/>
+    <Entry Tag="%StarName68"          Weight="1"/>
+    <Entry Tag="%StarName69"          Weight="1"/>
+    <Entry Tag="%StarName70"          Weight="1"/>
+    <Entry Tag="%StarName71"          Weight="1"/>
+    <Entry Tag="%StarName72"          Weight="1"/>
+    <Entry Tag="%StarName73"          Weight="1"/>
+    <Entry Tag="%StarName74"          Weight="1"/>
+    <Entry Tag="%StarName75"          Weight="1"/>
+    <Entry Tag="%StarName76"          Weight="1"/>
+    <Entry Tag="%StarName77"          Weight="1"/>
+    <Entry Tag="%StarName78"          Weight="1"/>
+    <Entry Tag="%StarName79"          Weight="1"/>
+    <Entry Tag="%StarName80"          Weight="1"/>
+    <Entry Tag="%StarName81"          Weight="1"/>
+    <Entry Tag="%StarName82"          Weight="1"/>
+    <Entry Tag="%StarName83"          Weight="1"/>
+    <Entry Tag="%StarName84"          Weight="1"/>
+    <Entry Tag="%StarName85"          Weight="1"/>
+    <Entry Tag="%StarName86"          Weight="1"/>
+    <Entry Tag="%StarName87"          Weight="1"/>
+    <Entry Tag="%StarName88"          Weight="1"/>
+    <Entry Tag="%StarName89"          Weight="1"/>
+    <Entry Tag="%StarName90"          Weight="1"/>
+    <Entry Tag="%StarName91"          Weight="1"/>
+    <Entry Tag="%StarName92"          Weight="1"/>
+    <Entry Tag="%StarName93"          Weight="1"/>
+    <Entry Tag="%StarName94"          Weight="1"/>
+    <Entry Tag="%StarName95"          Weight="1"/>
+    <Entry Tag="%StarName96"          Weight="1"/>
+    <Entry Tag="%StarName97"          Weight="1"/>
+    <Entry Tag="%StarName98"          Weight="1"/>
+    <Entry Tag="%StarName99"          Weight="1"/>
+    <Entry Tag="%StarName100"         Weight="1"/>
+    <Entry Tag="%StarName101"         Weight="1"/>
+    <Entry Tag="%StarName102"         Weight="1"/>
+    <Entry Tag="%StarName103"         Weight="1"/>
+    <Entry Tag="%StarName104"         Weight="1"/>
+    <Entry Tag="%StarName105"         Weight="1"/>
+    <Entry Tag="%StarName106"         Weight="1"/>
+    <Entry Tag="%StarName107"         Weight="1"/>
+    <Entry Tag="%StarName108"         Weight="1"/>
+    <Entry Tag="%StarName109"         Weight="1"/>
+    <Entry Tag="%StarName110"         Weight="1"/>
+    <Entry Tag="%StarName111"         Weight="1"/>
+    <Entry Tag="%StarName112"         Weight="1"/>
+    <Entry Tag="%StarName113"         Weight="1"/>
+    <Entry Tag="%StarName114"         Weight="1"/>
+    <Entry Tag="%StarName115"         Weight="1"/>
+    <Entry Tag="%StarName116"         Weight="1"/>
+    <Entry Tag="%StarName117"         Weight="1"/>
+    <Entry Tag="%StarName118"         Weight="1"/>
+    <Entry Tag="%StarName119"         Weight="1"/>
+    <Entry Tag="%StarName120"         Weight="1"/>
+    <Entry Tag="%StarName121"         Weight="1"/>
+    <Entry Tag="%StarName122"         Weight="1"/>
+    <Entry Tag="%StarName123"         Weight="1"/>
+    <Entry Tag="%StarName124"         Weight="1"/>
+    <Entry Tag="%StarName125"         Weight="1"/>
+    <Entry Tag="%StarName126"         Weight="1"/>
+    <Entry Tag="%StarName127"         Weight="1"/>
+    <Entry Tag="%StarName128"         Weight="1"/>
+    <Entry Tag="%StarName129"         Weight="1"/>
+    <Entry Tag="%StarName130"         Weight="1"/>
+    <Entry Tag="%StarName131"         Weight="1"/>
+    <Entry Tag="%StarName132"         Weight="1"/>
+    <Entry Tag="%StarName133"         Weight="1"/>
+    <Entry Tag="%StarName134"         Weight="1"/>
+    <Entry Tag="%StarName135"         Weight="1"/>
+    <Entry Tag="%StarName136"         Weight="1"/>
+    <Entry Tag="%StarName137"         Weight="1"/>
+    <Entry Tag="%StarName138"         Weight="1"/>
+    <Entry Tag="%StarName139"         Weight="1"/>
+    <Entry Tag="%StarName140"         Weight="1"/>
+    <Entry Tag="%StarName141"         Weight="1"/>
+    <Entry Tag="%StarName142"         Weight="1"/>
+    <Entry Tag="%StarName143"         Weight="1"/>
+    <Entry Tag="%StarName144"         Weight="1"/>
+    <Entry Tag="%StarName145"         Weight="1"/>
+    <Entry Tag="%StarName146"         Weight="1"/>
+    <Entry Tag="%StarName147"         Weight="1"/>
+    <Entry Tag="%StarName148"         Weight="1"/>
+    <Entry Tag="%StarName149"         Weight="1"/>
+    <Entry Tag="%StarName150"         Weight="1"/>
+    <Entry Tag="%StarName151"         Weight="1"/>
+    <Entry Tag="%StarName152"         Weight="1"/>
+    <Entry Tag="%StarName153"         Weight="1"/>
+    <Entry Tag="%StarName154"         Weight="1"/>
+    <Entry Tag="%StarName155"         Weight="1"/>
+    <Entry Tag="%StarName156"         Weight="1"/>
+    <Entry Tag="%StarName157"         Weight="1"/>
+    <Entry Tag="%StarName158"         Weight="1"/>
+    <Entry Tag="%StarName159"         Weight="1"/>
+    <Entry Tag="%StarName160"         Weight="1"/>
+    <Entry Tag="%StarName161"         Weight="1"/>
+    <Entry Tag="%StarName162"         Weight="1"/>
+    <Entry Tag="%StarName163"         Weight="1"/>
+    <Entry Tag="%StarName164"         Weight="1"/>
+    <Entry Tag="%StarName165"         Weight="1"/>
+    <Entry Tag="%StarName166"         Weight="1"/>
+    <Entry Tag="%StarName167"         Weight="1"/>
+    <Entry Tag="%StarName168"         Weight="1"/>
+    <Entry Tag="%StarName169"         Weight="1"/>
+    <Entry Tag="%StarName170"         Weight="1"/>
+    <Entry Tag="%StarName171"         Weight="1"/>
+    <Entry Tag="%StarName172"         Weight="1"/>
+    <Entry Tag="%StarName173"         Weight="1"/>
+    <Entry Tag="%StarName174"         Weight="1"/>
+    <Entry Tag="%StarName175"         Weight="1"/>
+    <Entry Tag="%StarName176"         Weight="1"/>
+    <Entry Tag="%StarName177"         Weight="1"/>
+    <Entry Tag="%StarName178"         Weight="1"/>
+    <Entry Tag="%StarName179"         Weight="1"/>
+    <Entry Tag="%StarName180"         Weight="1"/>
+    <Entry Tag="%StarName181"         Weight="1"/>
+    <Entry Tag="%StarName182"         Weight="1"/>
+    <Entry Tag="%StarName183"         Weight="1"/>
+    <Entry Tag="%StarName184"         Weight="1"/>
+    <Entry Tag="%StarName185"         Weight="1"/>
+    <Entry Tag="%StarName186"         Weight="1"/>
+    <Entry Tag="%StarName187"         Weight="1"/>
+    <Entry Tag="%StarName188"         Weight="1"/>
+    <Entry Tag="%StarName189"         Weight="1"/>
+    <Entry Tag="%StarName190"         Weight="1"/>
+    <Entry Tag="%StarName191"         Weight="1"/>
+    <Entry Tag="%StarName192"         Weight="1"/>
+    <Entry Tag="%StarName193"         Weight="1"/>
+    <Entry Tag="%StarName194"         Weight="1"/>
+    <Entry Tag="%StarName195"         Weight="1"/>
+    <Entry Tag="%StarName196"         Weight="1"/>
+    <Entry Tag="%StarName197"         Weight="1"/>
+    <Entry Tag="%StarName198"         Weight="1"/>
+    <Entry Tag="%StarName199"         Weight="1"/>
+    <Entry Tag="%StarName200"         Weight="1"/>
+    <Entry Tag="%StarName201"         Weight="1"/>
+    <Entry Tag="%StarName202"         Weight="1"/>
+    <Entry Tag="%StarName203"         Weight="1"/>
+    <Entry Tag="%StarName204"         Weight="1"/>
+    <Entry Tag="%StarName205"         Weight="1"/>
+    <Entry Tag="%StarName206"         Weight="1"/>
+    <Entry Tag="%StarName207"         Weight="1"/>
+    <Entry Tag="%StarName208"         Weight="1"/>
+    <Entry Tag="%StarName209"         Weight="1"/>
+    <Entry Tag="%StarName210"         Weight="1"/>
+    <Entry Tag="%StarName211"         Weight="1"/>
+    <Entry Tag="%StarName212"         Weight="1"/>
+    <Entry Tag="%StarName213"         Weight="1"/>
+    <Entry Tag="%StarName214"         Weight="1"/>
+    <Entry Tag="%StarName215"         Weight="1"/>
+    <Entry Tag="%StarName216"         Weight="1"/>
+    <Entry Tag="%StarName217"         Weight="1"/>
+    <Entry Tag="%StarName218"         Weight="1"/>
+    <Entry Tag="%StarName219"         Weight="1"/>
+    <Entry Tag="%StarName220"         Weight="1"/>
+    <Entry Tag="%StarName221"         Weight="1"/>
+    <Entry Tag="%StarName222"         Weight="1"/>
+    <Entry Tag="%StarName223"         Weight="1"/>
+    <Entry Tag="%StarName224"         Weight="1"/>
+    <Entry Tag="%StarName225"         Weight="1"/>
+    <Entry Tag="%StarName226"         Weight="1"/>
+    <Entry Tag="%StarName227"         Weight="1"/>
+    <Entry Tag="%StarName228"         Weight="1"/>
+    <Entry Tag="%StarName229"         Weight="1"/>
+    <Entry Tag="%StarName230"         Weight="1"/>
+    <Entry Tag="%StarName231"         Weight="1"/>
+    <Entry Tag="%StarName232"         Weight="1"/>
+    <Entry Tag="%StarName233"         Weight="1"/>
+    <Entry Tag="%StarName234"         Weight="1"/>
+    <Entry Tag="%StarName235"         Weight="1"/>
+    <Entry Tag="%StarName236"         Weight="1"/>
+    <Entry Tag="%StarName237"         Weight="1"/>
+    <Entry Tag="%StarName238"         Weight="1"/>
+    <Entry Tag="%StarName239"         Weight="1"/>
+    <Entry Tag="%StarName240"         Weight="1"/>
+    <Entry Tag="%StarName241"         Weight="1"/>
+    <Entry Tag="%StarName242"         Weight="1"/>
+    <Entry Tag="%StarName243"         Weight="1"/>
+    <Entry Tag="%StarName244"         Weight="1"/>
+    <Entry Tag="%StarName245"         Weight="1"/>
+    <Entry Tag="%StarName246"         Weight="1"/>
+    <Entry Tag="%StarName247"         Weight="1"/>
+    <Entry Tag="%StarName248"         Weight="1"/>
+    <Entry Tag="%StarName249"         Weight="1"/>
+    <Entry Tag="%StarName250"         Weight="1"/>
+    <Entry Tag="%StarName251"         Weight="1"/>
+<!--ESG-->
+<!--Dune-->
+    <Entry Tag="%DuneStarName1"          Weight="1"/>
+    <Entry Tag="%DuneStarName2"          Weight="1"/>
+    <Entry Tag="%DuneStarName3"          Weight="1"/>
+    <Entry Tag="%DuneStarName4"          Weight="1"/>
+    <Entry Tag="%DuneStarName5"          Weight="1"/>
+    <Entry Tag="%DuneStarName6"          Weight="1"/>
+    <Entry Tag="%DuneStarName7"          Weight="1"/>
+    <Entry Tag="%DuneStarName8"          Weight="1"/>
+    <Entry Tag="%DuneStarName9"          Weight="1"/>
+    <Entry Tag="%DuneStarName10"         Weight="1"/>
+    <Entry Tag="%DuneStarName11"         Weight="1"/>
+<!--Fire Among the Deep-->
+    <Entry Tag="%FAtDStarName1"          Weight="1"/>
+    <Entry Tag="%FAtDStarName2"          Weight="1"/>
+    <Entry Tag="%FAtDStarName3"          Weight="1"/>
+    <Entry Tag="%FAtDStarName4"          Weight="1"/>
+<!--Battlestar Galactica-->
+    <Entry Tag="%BGStarName1"          Weight="1"/>
+    <Entry Tag="%BGStarName2"          Weight="1"/>
+<!--EVE-->
+    <Entry Tag="%EVEStarName1"          Weight="1"/>
+    <Entry Tag="%EVEStarName2"          Weight="1"/>
+    <Entry Tag="%EVEStarName3"          Weight="1"/>
+    <Entry Tag="%EVEStarName4"          Weight="1"/>
+    <Entry Tag="%EVEStarName5"          Weight="1"/>
+<!--Star Craft-->
+    <Entry Tag="%SCStarName1"          Weight="1"/>
+    <Entry Tag="%SCStarName2"          Weight="1"/>
+    <Entry Tag="%SCStarName3"          Weight="1"/>
+    <Entry Tag="%SCStarName4"          Weight="1"/>
+    <Entry Tag="%SCStarName5"          Weight="1"/>
+    <Entry Tag="%SCStarName6"          Weight="1"/>
+    <Entry Tag="%SCStarName7"          Weight="1"/>
+    <Entry Tag="%SCStarName8"          Weight="1"/>
+    <Entry Tag="%SCStarName9"          Weight="1"/>
+    <Entry Tag="%SCStarName10"         Weight="1"/>
+    <Entry Tag="%SCStarName11"         Weight="1"/>
+<!--As a way of thanking these people-->
+    <Entry Tag="%ESGStarName1"          Weight="1"/>
+    <Entry Tag="%ESGStarName2"          Weight="1"/>
+    <Entry Tag="%ESGStarName3"          Weight="1"/>
+    <Entry Tag="%ESGStarName4"          Weight="1"/>
+    <Entry Tag="%ESGStarName5"          Weight="1"/>
+    <Entry Tag="%ESGStarName6"          Weight="1"/>
+    <Entry Tag="%ESGStarName7"          Weight="1"/>
+    <Entry Tag="%ESGStarName8"          Weight="1"/>
+<!--Hitchhikers Guide to the Galaxy-->
+    <Entry Tag="%HGttGStarName1"          Weight="1"/>
+    <Entry Tag="%HGttGStarName2"          Weight="1"/>
+    <Entry Tag="%HGttGStarName3"          Weight="1"/>
+    <Entry Tag="%HGttGStarName4"          Weight="1"/>
+<!--W40K-->
+    <Entry Tag="%W40KStarName1"          Weight="1"/>
+    <Entry Tag="%W40KStarName2"          Weight="1"/>
+    <Entry Tag="%W40KStarName3"          Weight="1"/>
+    <Entry Tag="%W40KStarName4"          Weight="1"/>
+    <Entry Tag="%W40KStarName5"          Weight="1"/>
+    <Entry Tag="%W40KStarName6"          Weight="1"/>
+    <Entry Tag="%W40KStarName7"          Weight="1"/>
+    <Entry Tag="%W40KStarName8"          Weight="1"/>
+    <Entry Tag="%W40KStarName9"          Weight="1"/>
+<!--Greek Letters-->
+    <Entry Tag="%LetterStarName1"          Weight="1"/>
+    <Entry Tag="%LetterStarName2"          Weight="1"/>
+    <Entry Tag="%LetterStarName3"          Weight="1"/>
+    <Entry Tag="%LetterStarName4"          Weight="1"/>
+    <Entry Tag="%LetterStarName5"          Weight="1"/>
+    <Entry Tag="%LetterStarName6"          Weight="1"/>
+    <Entry Tag="%LetterStarName7"          Weight="1"/>
+    <Entry Tag="%LetterStarName8"          Weight="1"/>
+    <Entry Tag="%LetterStarName9"          Weight="1"/>
+    <Entry Tag="%LetterStarName10"         Weight="1"/>
+    <Entry Tag="%LetterStarName11"         Weight="1"/>
+    <Entry Tag="%LetterStarName12"         Weight="1"/>
+    <Entry Tag="%LetterStarName13"         Weight="1"/>
+    <Entry Tag="%LetterStarName14"         Weight="1"/>
+    <Entry Tag="%LetterStarName15"         Weight="1"/>
+    <Entry Tag="%LetterStarName16"         Weight="1"/>
+    <Entry Tag="%LetterStarName17"         Weight="1"/>
+    <Entry Tag="%LetterStarName18"         Weight="1"/>
+    <Entry Tag="%LetterStarName19"         Weight="1"/>
+    <Entry Tag="%LetterStarName20"         Weight="1"/>
+    <Entry Tag="%LetterStarName21"         Weight="1"/>
+    <Entry Tag="%LetterStarName22"         Weight="1"/>
+    <Entry Tag="%LetterStarName23"         Weight="1"/>
+    <Entry Tag="%LetterStarName24"         Weight="1"/>
+<!--Egyptian mythology--> 
+    <Entry Tag="%StarNameEgypt1"          Weight="1"/>
+    <Entry Tag="%StarNameEgypt2"          Weight="1"/>
+    <Entry Tag="%StarNameEgypt3"          Weight="1"/>
+    <Entry Tag="%StarNameEgypt4"          Weight="1"/>
+    <Entry Tag="%StarNameEgypt5"          Weight="1"/>
+    <Entry Tag="%StarNameEgypt6"          Weight="1"/>
+    <Entry Tag="%StarNameEgypt7"          Weight="1"/>
+    <Entry Tag="%StarNameEgypt8"          Weight="1"/>
+    <Entry Tag="%StarNameEgypt9"          Weight="1"/>
+    <Entry Tag="%StarNameEgypt10"         Weight="1"/>
+    <Entry Tag="%StarNameEgypt11"         Weight="1"/>
+<!--Norse mythology-->
+    <Entry Tag="%StarNameNorse1"          Weight="1"/>
+    <Entry Tag="%StarNameNorse2"          Weight="1"/>
+    <Entry Tag="%StarNameNorse3"          Weight="1"/>
+    <Entry Tag="%StarNameNorse4"          Weight="1"/>
+    <Entry Tag="%StarNameNorse5"          Weight="1"/>
+    <Entry Tag="%StarNameNorse6"          Weight="1"/>
+    <Entry Tag="%StarNameNorse7"          Weight="1"/>
+    <Entry Tag="%StarNameNorse8"          Weight="1"/>
+<!--Greek mythology-->
+    <Entry Tag="%StarNameGreek1"          Weight="1"/>
+    <Entry Tag="%StarNameGreek2"          Weight="1"/>
+    <Entry Tag="%StarNameGreek3"          Weight="1"/>
+    <Entry Tag="%StarNameGreek4"          Weight="1"/>
+    <Entry Tag="%StarNameGreek5"          Weight="1"/>
+    <Entry Tag="%StarNameGreek6"          Weight="1"/>
+    <Entry Tag="%StarNameGreek7"          Weight="1"/>
+    <Entry Tag="%StarNameGreek8"          Weight="1"/>
+    <Entry Tag="%StarNameGreek9"          Weight="1"/>
+<!--Starsector Stars-->
+    <Entry Tag="%StarNameStarsectorStar1"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar2"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar3"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar4"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar5"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar6"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar7"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar8"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar9"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar10"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar11"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar12"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar13"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar14"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar15"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorStar16"         Weight="1"/>
+<!--Starsector Planets-->
+    <Entry Tag="%StarNameStarsectorPlanet1"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet2"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet3"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet4"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet5"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet6"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet7"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet8"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet9"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet10"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet11"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet12"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet13"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet14"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet15"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet16"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet17"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet18"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet19"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet20"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet21"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet22"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet23"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet24"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet25"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet26"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet27"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet28"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet29"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet30"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet31"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet32"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet33"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet34"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet35"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet36"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet37"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet38"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet39"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet40"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet41"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet42"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet43"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet44"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet45"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet46"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet47"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet48"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet49"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet50"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet51"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet52"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet53"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet54"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet55"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet56"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet57"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet58"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet59"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet60"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet61"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet62"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet63"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet64"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet65"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet66"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet67"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet68"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet69"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet70"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet71"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet72"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet73"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet74"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet75"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet76"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet77"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet78"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet79"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet80"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet81"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet82"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet83"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet84"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet85"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet86"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet87"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet88"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet89"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet90"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet91"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet92"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorPlanet93"         Weight="1"/>
+<!--Starsector Ships-->
+    <Entry Tag="%StarNameStarsectorShip1"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip2"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip3"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip4"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip5"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip6"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip7"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip8"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip9"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip10"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip11"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip12"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip13"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip14"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip15"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip16"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip17"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip18"         Weight="1"/>
+    <Entry Tag="%StarNameStarsectorShip19"         Weight="1"/>
+<!--Starsector NPCs-->
+    <Entry Tag="%StarNameStarsectorNPC1"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorNPC2"          Weight="1"/>
+    <Entry Tag="%StarNameStarsectorNPC3"          Weight="1"/>
+<!--Into The Breach-->
+    <Entry Tag="%StarNameITB1"          Weight="1"/>
+    <Entry Tag="%StarNameITB2"          Weight="1"/>
+    <Entry Tag="%StarNameITB3"          Weight="1"/>
+    <Entry Tag="%StarNameITB4"          Weight="1"/>
+    <Entry Tag="%StarNameITB5"          Weight="1"/>
+    <Entry Tag="%StarNameITB6"          Weight="1"/>
+    <Entry Tag="%StarNameITB7"          Weight="1"/>
+<!--Rain World-->
+    <Entry Tag="%StarNameRW1"          Weight="1"/>
+    <Entry Tag="%StarNameRW2"          Weight="1"/>
+    <Entry Tag="%StarNameRW3"          Weight="1"/>
+    <Entry Tag="%StarNameRW4"          Weight="1"/>
+    <Entry Tag="%StarNameRW5"          Weight="1"/>
+    <Entry Tag="%StarNameRW6"          Weight="1"/>
+    <Entry Tag="%StarNameRW7"          Weight="1"/>
+    <Entry Tag="%StarNameRW8"          Weight="1"/>
+    <Entry Tag="%StarNameRW9"          Weight="1"/>
+<!--FTL-->
+    <Entry Tag="%StarNameFTL1"          Weight="1"/>
+    <Entry Tag="%StarNameFTL2"          Weight="1"/>
+    <Entry Tag="%StarNameFTL3"          Weight="1"/>
+    <Entry Tag="%StarNameFTL4"          Weight="1"/>
+    <Entry Tag="%StarNameFTL5"          Weight="1"/>
+    <Entry Tag="%StarNameFTL6"          Weight="1"/>
+    <Entry Tag="%StarNameFTL7"          Weight="1"/>
+    <Entry Tag="%StarNameFTL8"          Weight="1"/>
+    <Entry Tag="%StarNameFTL9"          Weight="1"/>
+    <Entry Tag="%StarNameFTL10"         Weight="1"/>
+    <Entry Tag="%StarNameFTL11"         Weight="1"/>
+    <Entry Tag="%StarNameFTL12"         Weight="1"/>
+    <Entry Tag="%StarNameFTL13"         Weight="1"/>
+<!--Enter The Gungeon-->
+    <Entry Tag="%StarNameETG1"          Weight="1"/>
+    <Entry Tag="%StarNameETG2"          Weight="1"/>
+    <Entry Tag="%StarNameETG3"          Weight="1"/>
+    <Entry Tag="%StarNameETG4"          Weight="1"/>
+<!--Outer Wilds-->
+    <Entry Tag="%StarNameOW1"          Weight="1"/>
+    <Entry Tag="%StarNameOW2"          Weight="1"/>
+    <Entry Tag="%StarNameOW3"          Weight="1"/>
+    <Entry Tag="%StarNameOW4"          Weight="1"/>
+    <Entry Tag="%StarNameOW5"          Weight="1"/>
+    <Entry Tag="%StarNameOW6"          Weight="1"/>
+    <Entry Tag="%StarNameOW7"          Weight="1"/>
+    <Entry Tag="%StarNameOW8"          Weight="1"/>
+    <Entry Tag="%StarNameOW9"          Weight="1"/>
+
+    <!--Actual stars-->
+     <Entry Tag="%ActualStarName1"          Weight="1"/>
+     <Entry Tag="%ActualStarName2"          Weight="1"/>
+     <Entry Tag="%ActualStarName3"          Weight="1"/>
+     <Entry Tag="%ActualStarName4"          Weight="1"/>
+     <Entry Tag="%ActualStarName5"          Weight="1"/>
+     <Entry Tag="%ActualStarName6"          Weight="1"/>
+     <Entry Tag="%ActualStarName7"          Weight="1"/>
+     <Entry Tag="%ActualStarName8"          Weight="1"/>
+     <Entry Tag="%ActualStarName9"          Weight="1"/>
+     <Entry Tag="%ActualStarName10"          Weight="1"/>
+     <Entry Tag="%ActualStarName11"          Weight="1"/>
+     <Entry Tag="%ActualStarName12"          Weight="1"/>
+     <Entry Tag="%ActualStarName13"          Weight="1"/>
+     <Entry Tag="%ActualStarName14"          Weight="1"/>
+     <Entry Tag="%ActualStarName15"          Weight="1"/>
+     <Entry Tag="%ActualStarName16"          Weight="1"/>
+     <Entry Tag="%ActualStarName17"          Weight="1"/>
+     <Entry Tag="%ActualStarName18"          Weight="1"/>
+     <Entry Tag="%ActualStarName19"          Weight="1"/>
+     <Entry Tag="%ActualStarName20"          Weight="1"/>
+     <Entry Tag="%ActualStarName21"          Weight="1"/>
+     <Entry Tag="%ActualStarName22"          Weight="1"/>
+     <Entry Tag="%ActualStarName23"          Weight="1"/>
+     <Entry Tag="%ActualStarName24"          Weight="1"/>
+     <Entry Tag="%ActualStarName25"          Weight="1"/>
+     <Entry Tag="%ActualStarName26"          Weight="1"/>
+     <Entry Tag="%ActualStarName27"          Weight="1"/>
+     <Entry Tag="%ActualStarName28"          Weight="1"/>
+     <Entry Tag="%ActualStarName29"          Weight="1"/>
+     <Entry Tag="%ActualStarName30"          Weight="1"/>
+     <Entry Tag="%ActualStarName31"          Weight="1"/>
+     <Entry Tag="%ActualStarName32"          Weight="1"/>
+     <Entry Tag="%ActualStarName33"          Weight="1"/>
+     <Entry Tag="%ActualStarName34"          Weight="1"/>
+     <Entry Tag="%ActualStarName35"          Weight="1"/>
+     <Entry Tag="%ActualStarName36"          Weight="1"/>
+     <Entry Tag="%ActualStarName37"          Weight="1"/>
+     <Entry Tag="%ActualStarName38"          Weight="1"/>
+     <Entry Tag="%ActualStarName39"          Weight="1"/>
+     <Entry Tag="%ActualStarName40"          Weight="1"/>
+     <Entry Tag="%ActualStarName41"          Weight="1"/>
+     <Entry Tag="%ActualStarName42"          Weight="1"/>
+     <Entry Tag="%ActualStarName43"          Weight="1"/>
+     <Entry Tag="%ActualStarName44"          Weight="1"/>
+     <Entry Tag="%ActualStarName45"          Weight="1"/>
+     <Entry Tag="%ActualStarName46"          Weight="1"/>
+     <Entry Tag="%ActualStarName47"          Weight="1"/>
+     <Entry Tag="%ActualStarName48"          Weight="1"/>
+     <Entry Tag="%ActualStarName49"          Weight="1"/>
+     <Entry Tag="%ActualStarName50"          Weight="1"/>
+     <Entry Tag="%ActualStarName51"          Weight="1"/>
+     <Entry Tag="%ActualStarName52"          Weight="1"/>
+     <Entry Tag="%ActualStarName53"          Weight="1"/>
+     <Entry Tag="%ActualStarName54"          Weight="1"/>
+     <Entry Tag="%ActualStarName55"          Weight="1"/>
+     <Entry Tag="%ActualStarName56"          Weight="1"/>
+     <Entry Tag="%ActualStarName57"          Weight="1"/>
+     <Entry Tag="%ActualStarName58"          Weight="1"/>
+     <Entry Tag="%ActualStarName59"          Weight="1"/>
+     <Entry Tag="%ActualStarName60"          Weight="1"/>
+     <Entry Tag="%ActualStarName61"          Weight="1"/>
+     <Entry Tag="%ActualStarName62"          Weight="1"/>
+     <Entry Tag="%ActualStarName63"          Weight="1"/>
+     <Entry Tag="%ActualStarName64"          Weight="1"/>
+     <Entry Tag="%ActualStarName65"          Weight="1"/>
+     <Entry Tag="%ActualStarName66"          Weight="1"/>
+     <Entry Tag="%ActualStarName67"          Weight="1"/>
+     <Entry Tag="%ActualStarName68"          Weight="1"/>
+     <Entry Tag="%ActualStarName69"          Weight="1"/>
+     <Entry Tag="%ActualStarName70"          Weight="1"/>
+     <Entry Tag="%ActualStarName71"          Weight="1"/>
+     <Entry Tag="%ActualStarName72"          Weight="1"/>
+     <Entry Tag="%ActualStarName73"          Weight="1"/>
+     <Entry Tag="%ActualStarName74"          Weight="1"/>
+     <Entry Tag="%ActualStarName75"          Weight="1"/>
+     <Entry Tag="%ActualStarName76"          Weight="1"/>
+     <Entry Tag="%ActualStarName77"          Weight="1"/>
+     <Entry Tag="%ActualStarName78"          Weight="1"/>
+     <Entry Tag="%ActualStarName79"          Weight="1"/>
+     <Entry Tag="%ActualStarName80"          Weight="1"/>
+     <Entry Tag="%ActualStarName81"          Weight="1"/>
+     <Entry Tag="%ActualStarName82"          Weight="1"/>
+     <Entry Tag="%ActualStarName83"          Weight="1"/>
+     <Entry Tag="%ActualStarName84"          Weight="1"/>
+     <Entry Tag="%ActualStarName85"          Weight="1"/>
+     <Entry Tag="%ActualStarName86"          Weight="1"/>
+     <Entry Tag="%ActualStarName87"          Weight="1"/>
+     <Entry Tag="%ActualStarName89"          Weight="1"/>
+     <Entry Tag="%ActualStarName90"          Weight="1"/>
+
+     <Entry Tag="%ActualStarName91"          Weight="1"/>
+     <Entry Tag="%ActualStarName92"          Weight="1"/>
+     <Entry Tag="%ActualStarName93"          Weight="1"/>
+     <Entry Tag="%ActualStarName94"          Weight="1"/>
+     <Entry Tag="%ActualStarName95"          Weight="1"/>
+     <Entry Tag="%ActualStarName96"          Weight="1"/>
+     <Entry Tag="%ActualStarName97"          Weight="1"/>
+     <Entry Tag="%ActualStarName98"          Weight="1"/>
+     <Entry Tag="%ActualStarName99"          Weight="1"/>
+     <Entry Tag="%ActualStarName100"         Weight="1"/>
+     <Entry Tag="%ActualStarName101"         Weight="1"/>
+     <Entry Tag="%ActualStarName102"         Weight="1"/>
+     <Entry Tag="%ActualStarName103"         Weight="1"/>
+     <Entry Tag="%ActualStarName104"         Weight="1"/>
+     <Entry Tag="%ActualStarName105"         Weight="1"/>
+     <Entry Tag="%ActualStarName106"         Weight="1"/>
+     <Entry Tag="%ActualStarName107"         Weight="1"/>
+     <Entry Tag="%ActualStarName108"         Weight="1"/>
+     <Entry Tag="%ActualStarName109"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName110"         Weight="1"/>
+     <Entry Tag="%ActualStarName111"         Weight="1"/>
+     <Entry Tag="%ActualStarName112"         Weight="1"/>
+     <Entry Tag="%ActualStarName113"         Weight="1"/>
+     <Entry Tag="%ActualStarName114"         Weight="1"/>
+     <Entry Tag="%ActualStarName115"         Weight="1"/>
+     <Entry Tag="%ActualStarName116"         Weight="1"/>
+     <Entry Tag="%ActualStarName117"         Weight="1"/>
+     <Entry Tag="%ActualStarName118"         Weight="1"/>
+     <Entry Tag="%ActualStarName119"         Weight="1"/>
+     <Entry Tag="%ActualStarName120"         Weight="1"/>
+     <Entry Tag="%ActualStarName121"         Weight="1"/>
+     <Entry Tag="%ActualStarName122"         Weight="1"/>
+     <Entry Tag="%ActualStarName123"         Weight="1"/>
+     <Entry Tag="%ActualStarName124"         Weight="1"/>
+     <Entry Tag="%ActualStarName125"         Weight="1"/>
+     <Entry Tag="%ActualStarName126"         Weight="1"/>
+     <Entry Tag="%ActualStarName127"         Weight="1"/>
+     <Entry Tag="%ActualStarName128"         Weight="1"/>
+     <Entry Tag="%ActualStarName129"         Weight="1"/>
+     <Entry Tag="%ActualStarName130"         Weight="1"/>
+     <Entry Tag="%ActualStarName131"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName132"         Weight="1"/>
+     <Entry Tag="%ActualStarName133"         Weight="1"/>
+     <Entry Tag="%ActualStarName134"         Weight="1"/>
+     <Entry Tag="%ActualStarName135"         Weight="1"/>
+     <Entry Tag="%ActualStarName136"          Weight="1"/>
+     <Entry Tag="%ActualStarName137"         Weight="1"/>
+     <Entry Tag="%ActualStarName138"         Weight="1"/>
+     <Entry Tag="%ActualStarName139"         Weight="1"/>
+     <Entry Tag="%ActualStarName140"         Weight="1"/>
+     <Entry Tag="%ActualStarName141"         Weight="1"/>
+     <Entry Tag="%ActualStarName142"         Weight="1"/>
+     <Entry Tag="%ActualStarName143"         Weight="1"/>
+     <Entry Tag="%ActualStarName144"         Weight="1"/>
+     <Entry Tag="%ActualStarName145"         Weight="1"/>
+     <Entry Tag="%ActualStarName146"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName147"         Weight="1"/>
+     <Entry Tag="%ActualStarName148"         Weight="1"/>
+     <Entry Tag="%ActualStarName149"         Weight="1"/>
+     <Entry Tag="%ActualStarName150"         Weight="1"/>
+     <Entry Tag="%ActualStarName151"         Weight="1"/>
+     <Entry Tag="%ActualStarName152"         Weight="1"/>
+     <Entry Tag="%ActualStarName153"         Weight="1"/>
+     <Entry Tag="%ActualStarName154"         Weight="1"/>
+     <Entry Tag="%ActualStarName155"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName156"         Weight="1"/>
+     <Entry Tag="%ActualStarName157"         Weight="1"/>
+     <Entry Tag="%ActualStarName158"         Weight="1"/>
+     <Entry Tag="%ActualStarName159"         Weight="1"/>
+     <Entry Tag="%ActualStarName160"         Weight="1"/>
+     <Entry Tag="%ActualStarName161"         Weight="1"/>
+     <Entry Tag="%ActualStarName162"         Weight="1"/>
+     <Entry Tag="%ActualStarName163"         Weight="1"/>
+     <Entry Tag="%ActualStarName164"         Weight="1"/>
+     <Entry Tag="%ActualStarName165"         Weight="1"/>
+     <Entry Tag="%ActualStarName166"         Weight="1"/>
+     <Entry Tag="%ActualStarName167"         Weight="1"/>
+     <Entry Tag="%ActualStarName168"         Weight="1"/>
+     <Entry Tag="%ActualStarName169"         Weight="1"/>
+     <Entry Tag="%ActualStarName170"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName171"         Weight="1"/>
+     <Entry Tag="%ActualStarName172"         Weight="1"/>
+     <Entry Tag="%ActualStarName173"         Weight="1"/>
+     <Entry Tag="%ActualStarName174"         Weight="1"/>
+     <Entry Tag="%ActualStarName175"         Weight="1"/>
+     <Entry Tag="%ActualStarName176"         Weight="1"/>
+     <Entry Tag="%ActualStarName177"         Weight="1"/>
+     <Entry Tag="%ActualStarName178"         Weight="1"/>
+     <Entry Tag="%ActualStarName179"         Weight="1"/>
+     <Entry Tag="%ActualStarName180"         Weight="1"/>
+     <Entry Tag="%ActualStarName181"         Weight="1"/>
+     <Entry Tag="%ActualStarName182"         Weight="1"/>
+     <Entry Tag="%ActualStarName183"         Weight="1"/>
+     <Entry Tag="%ActualStarName184"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName185"         Weight="1"/>
+     <Entry Tag="%ActualStarName186"         Weight="1"/>
+     <Entry Tag="%ActualStarName187"         Weight="1"/>
+     <Entry Tag="%ActualStarName188"         Weight="1"/>
+     <Entry Tag="%ActualStarName189"         Weight="1"/>
+     <Entry Tag="%ActualStarName190"         Weight="1"/>
+     <Entry Tag="%ActualStarName191"         Weight="1"/>
+     <Entry Tag="%ActualStarName192"         Weight="1"/>
+     <Entry Tag="%ActualStarName193"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName194"         Weight="1"/>
+     <Entry Tag="%ActualStarName195"         Weight="1"/>
+     <Entry Tag="%ActualStarName196"         Weight="1"/>
+     <Entry Tag="%ActualStarName197"         Weight="1"/>
+     <Entry Tag="%ActualStarName198"         Weight="1"/>
+     <Entry Tag="%ActualStarName199"         Weight="1"/>
+     <Entry Tag="%ActualStarName200"         Weight="1"/>
+     <Entry Tag="%ActualStarName201"         Weight="1"/>
+     <Entry Tag="%ActualStarName202"          Weight="1"/>
+
+     <Entry Tag="%ActualStarName203"         Weight="1"/>
+     <Entry Tag="%ActualStarName204"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName205"         Weight="1"/>
+     <Entry Tag="%ActualStarName206"         Weight="1"/>
+     <Entry Tag="%ActualStarName207"         Weight="1"/>
+     <Entry Tag="%ActualStarName208"         Weight="1"/>
+     <Entry Tag="%ActualStarName209"         Weight="1"/>
+     <Entry Tag="%ActualStarName210"         Weight="1"/>
+     <Entry Tag="%ActualStarName211"         Weight="1"/>
+     <Entry Tag="%ActualStarName212"         Weight="1"/>
+     <Entry Tag="%ActualStarName213"         Weight="1"/>
+     <Entry Tag="%ActualStarName214"         Weight="1"/>
+     <Entry Tag="%ActualStarName215"         Weight="1"/>
+     <Entry Tag="%ActualStarName216"         Weight="1"/>
+     <Entry Tag="%ActualStarName217"         Weight="1"/>
+     <Entry Tag="%ActualStarName218"         Weight="1"/>
+     <Entry Tag="%ActualStarName119"         Weight="1"/>
+     <Entry Tag="%ActualStarName120"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName221"          Weight="1"/>
+     <Entry Tag="%ActualStarName222"         Weight="1"/>
+     <Entry Tag="%ActualStarName223"         Weight="1"/>
+     <Entry Tag="%ActualStarName224"         Weight="1"/>
+     <Entry Tag="%ActualStarName225"         Weight="1"/>
+     <Entry Tag="%ActualStarName226"         Weight="1"/>
+     <Entry Tag="%ActualStarName227"         Weight="1"/>
+     <Entry Tag="%ActualStarName228"         Weight="1"/>
+     <Entry Tag="%ActualStarName229"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName230"         Weight="1"/>
+     <Entry Tag="%ActualStarName231"         Weight="1"/>
+     <Entry Tag="%ActualStarName232"         Weight="1"/>
+     <Entry Tag="%ActualStarName233"         Weight="1"/>
+     <Entry Tag="%ActualStarName234"         Weight="1"/>
+     <Entry Tag="%ActualStarName235"         Weight="1"/>
+     <Entry Tag="%ActualStarName236"         Weight="1"/>
+     <Entry Tag="%ActualStarName237"         Weight="1"/>
+     <Entry Tag="%ActualStarName238"         Weight="1"/>
+     <Entry Tag="%ActualStarName239"         Weight="1"/>
+     <Entry Tag="%ActualStarName240"         Weight="1"/>
+     <Entry Tag="%ActualStarName242"         Weight="1"/>
+     <Entry Tag="%ActualStarName243"         Weight="1"/>
+     <Entry Tag="%ActualStarName244"         Weight="1"/>
+     <Entry Tag="%ActualStarName245"         Weight="1"/>
+     <Entry Tag="%ActualStarName246"         Weight="1"/>
+     <Entry Tag="%ActualStarName247"         Weight="1"/>
+     <Entry Tag="%ActualStarName248"         Weight="1"/>
+     <Entry Tag="%ActualStarName249"         Weight="1"/>
+     <Entry Tag="%ActualStarName250"         Weight="1"/>
+     <Entry Tag="%ActualStarName251"         Weight="1"/>
+     <Entry Tag="%ActualStarName252"         Weight="1"/>
+     <Entry Tag="%ActualStarName253"         Weight="1"/>
+     <Entry Tag="%ActualStarName254"         Weight="1"/>
+     <Entry Tag="%ActualStarName255"         Weight="1"/>
+     <Entry Tag="%ActualStarName256"         Weight="1"/>
+     <Entry Tag="%ActualStarName257"         Weight="1"/>
+     <Entry Tag="%ActualStarName258"         Weight="1"/>
+     <Entry Tag="%ActualStarName259"         Weight="1"/>
+     <Entry Tag="%ActualStarName260"         Weight="1"/>
+     <Entry Tag="%ActualStarName261"         Weight="1"/>
+     <Entry Tag="%ActualStarName262"         Weight="1"/>
+     <Entry Tag="%ActualStarName263"         Weight="1"/>
+     <Entry Tag="%ActualStarName264"         Weight="1"/>
+     <Entry Tag="%ActualStarName265"         Weight="1"/>
+     <Entry Tag="%ActualStarName266"         Weight="1"/>
+     <Entry Tag="%ActualStarName267"         Weight="1"/>
+     <Entry Tag="%ActualStarName268"         Weight="1"/>
+     <Entry Tag="%ActualStarName269"         Weight="1"/>
+     <Entry Tag="%ActualStarName270"         Weight="1"/>
+     <Entry Tag="%ActualStarName271"         Weight="1"/>
+     <Entry Tag="%ActualStarName272"         Weight="1"/>
+     <Entry Tag="%ActualStarName273"         Weight="1"/>
+     <Entry Tag="%ActualStarName274"         Weight="1"/>
+     <Entry Tag="%ActualStarName275"         Weight="1"/>
+     <Entry Tag="%ActualStarName276"         Weight="1"/>
+     <Entry Tag="%ActualStarName277"         Weight="1"/>
+     <Entry Tag="%ActualStarName278"         Weight="1"/>
+     <Entry Tag="%ActualStarName279"         Weight="1"/>
+     <Entry Tag="%ActualStarName280"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName281"         Weight="1"/>
+     <Entry Tag="%ActualStarName282"         Weight="1"/>
+     <Entry Tag="%ActualStarName283"         Weight="1"/>
+     <Entry Tag="%ActualStarName284"         Weight="1"/>
+     <Entry Tag="%ActualStarName285"         Weight="1"/>
+     <Entry Tag="%ActualStarName286"         Weight="1"/>
+     <Entry Tag="%ActualStarName287"         Weight="1"/>
+     <Entry Tag="%ActualStarName288"         Weight="1"/>
+     <Entry Tag="%ActualStarName289"         Weight="1"/>
+     <Entry Tag="%ActualStarName290"         Weight="1"/>
+     <Entry Tag="%ActualStarName291"         Weight="1"/>
+     <Entry Tag="%ActualStarName292"         Weight="1"/>
+     <Entry Tag="%ActualStarName293"         Weight="1"/>
+     <Entry Tag="%ActualStarName294"         Weight="1"/>
+     <Entry Tag="%ActualStarName295"         Weight="1"/>
+     <Entry Tag="%ActualStarName296"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName297"         Weight="1"/>
+     <Entry Tag="%ActualStarName298"         Weight="1"/>
+     <Entry Tag="%ActualStarName299"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName300"         Weight="1"/>
+     <Entry Tag="%ActualStarName301"         Weight="1"/>
+     <Entry Tag="%ActualStarName302"         Weight="1"/>
+     <Entry Tag="%ActualStarName303"         Weight="1"/>
+     <Entry Tag="%ActualStarName304"         Weight="1"/>
+     <Entry Tag="%ActualStarName305"         Weight="1"/>
+     <Entry Tag="%ActualStarName306"         Weight="1"/>
+     <Entry Tag="%ActualStarName307"         Weight="1"/>
+     <Entry Tag="%ActualStarName308"         Weight="1"/>
+     <Entry Tag="%ActualStarName309"         Weight="1"/>
+     <Entry Tag="%ActualStarName310"         Weight="1"/>
+     <Entry Tag="%ActualStarName311"         Weight="1"/>
+     <Entry Tag="%ActualStarName312"         Weight="1"/>
+     <Entry Tag="%ActualStarName313"         Weight="1"/>
+     <Entry Tag="%ActualStarName314"         Weight="1"/>
+     <Entry Tag="%ActualStarName315"         Weight="1"/>
+     <Entry Tag="%ActualStarName316"         Weight="1"/>
+     <Entry Tag="%ActualStarName317"         Weight="1"/>
+     <Entry Tag="%ActualStarName318"         Weight="1"/>
+     <Entry Tag="%ActualStarName319"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName320"         Weight="1"/>
+     <Entry Tag="%ActualStarName321"         Weight="1"/>
+     <Entry Tag="%ActualStarName322"         Weight="1"/>
+     <Entry Tag="%ActualStarName323"         Weight="1"/>
+     <Entry Tag="%ActualStarName324"         Weight="1"/>
+     <Entry Tag="%ActualStarName325"         Weight="1"/>
+     <Entry Tag="%ActualStarName326"         Weight="1"/>
+     <Entry Tag="%ActualStarName327"         Weight="1"/>
+     <Entry Tag="%ActualStarName328"         Weight="1"/>
+     <Entry Tag="%ActualStarName329"         Weight="1"/>
+     <Entry Tag="%ActualStarName330"         Weight="1"/>
+     <Entry Tag="%ActualStarName331"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName332"         Weight="1"/>
+     <Entry Tag="%ActualStarName333"         Weight="1"/>
+     <Entry Tag="%ActualStarName335"         Weight="1"/>
+     <Entry Tag="%ActualStarName336"         Weight="1"/>
+     <Entry Tag="%ActualStarName337"         Weight="1"/>
+     <Entry Tag="%ActualStarName338"         Weight="1"/>
+     <Entry Tag="%ActualStarName339"         Weight="1"/>
+     <Entry Tag="%ActualStarName340"         Weight="1"/>
+     <Entry Tag="%ActualStarName341"         Weight="1"/>
+     <Entry Tag="%ActualStarName342"         Weight="1"/>
+     <Entry Tag="%ActualStarName343"         Weight="1"/>
+     <Entry Tag="%ActualStarName344"         Weight="1"/>
+     <Entry Tag="%ActualStarName345"         Weight="1"/>
+     <Entry Tag="%ActualStarName346"         Weight="1"/>
+     <Entry Tag="%ActualStarName347"         Weight="1"/>
+     <Entry Tag="%ActualStarName348"         Weight="1"/>
+     <Entry Tag="%ActualStarName349"         Weight="1"/>
+     <Entry Tag="%ActualStarName350"         Weight="1"/>
+     <Entry Tag="%ActualStarName351"         Weight="1"/>
+     <Entry Tag="%ActualStarName352"         Weight="1"/>
+     <Entry Tag="%ActualStarName353"         Weight="1"/>
+     <Entry Tag="%ActualStarName354"         Weight="1"/>
+     <Entry Tag="%ActualStarName355"         Weight="1"/>
+     <Entry Tag="%ActualStarName356"         Weight="1"/>
+     <Entry Tag="%ActualStarName357"         Weight="1"/>
+     <Entry Tag="%ActualStarName358"         Weight="1"/>
+     <Entry Tag="%ActualStarName359"         Weight="1"/>
+     <Entry Tag="%ActualStarName360"         Weight="1"/>
+     <Entry Tag="%ActualStarName361"         Weight="1"/>
+     <Entry Tag="%ActualStarName362"         Weight="1"/>
+     <Entry Tag="%ActualStarName363"         Weight="1"/>
+     <Entry Tag="%ActualStarName364"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName365"         Weight="1"/>
+     <Entry Tag="%ActualStarName366"         Weight="1"/>
+     <Entry Tag="%ActualStarName367"         Weight="1"/>
+     <Entry Tag="%ActualStarName368"         Weight="1"/>
+     <Entry Tag="%ActualStarName369"         Weight="1"/>
+     <Entry Tag="%ActualStarName370"         Weight="1"/>
+     <Entry Tag="%ActualStarName371"         Weight="1"/>
+     <Entry Tag="%ActualStarName372"         Weight="1"/>
+     <Entry Tag="%ActualStarName373"         Weight="1"/>
+     <Entry Tag="%ActualStarName374"         Weight="1"/>
+     <Entry Tag="%ActualStarName375"         Weight="1"/>
+     <Entry Tag="%ActualStarName376"         Weight="1"/>
+     <Entry Tag="%ActualStarName377"         Weight="1"/>
+     <Entry Tag="%ActualStarName378"         Weight="1"/>
+     <Entry Tag="%ActualStarName379"         Weight="1"/>
+     <Entry Tag="%ActualStarName380"         Weight="1"/>
+     <Entry Tag="%ActualStarName381"         Weight="1"/>
+     <Entry Tag="%ActualStarName382"         Weight="1"/>
+     <Entry Tag="%ActualStarName383"         Weight="1"/>
+     <Entry Tag="%ActualStarName384"         Weight="1"/>
+     <Entry Tag="%ActualStarName389"         Weight="1"/>
+     <Entry Tag="%ActualStarName390"         Weight="1"/>
+     <Entry Tag="%ActualStarName391"         Weight="1"/>
+     <Entry Tag="%ActualStarName392"         Weight="1"/>
+     <Entry Tag="%ActualStarName393"         Weight="1"/>
+     <Entry Tag="%ActualStarName394"         Weight="1"/>
+     <Entry Tag="%ActualStarName395"         Weight="1"/>
+     <Entry Tag="%ActualStarName396"         Weight="1"/>
+     <Entry Tag="%ActualStarName397"         Weight="1"/>
+     <Entry Tag="%ActualStarName398"         Weight="1"/>
+     <Entry Tag="%ActualStarName399"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName400"         Weight="1"/>
+     <Entry Tag="%ActualStarName401"         Weight="1"/>
+     <Entry Tag="%ActualStarName402"         Weight="1"/>
+     <Entry Tag="%ActualStarName403"         Weight="1"/>
+     <Entry Tag="%ActualStarName404"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName405"         Weight="1"/>
+     <Entry Tag="%ActualStarName406"         Weight="1"/>
+     <Entry Tag="%ActualStarName407"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName408"         Weight="1"/>
+     <Entry Tag="%ActualStarName409"         Weight="1"/>
+     <Entry Tag="%ActualStarName410"         Weight="1"/>
+     <Entry Tag="%ActualStarName411"         Weight="1"/>
+     <Entry Tag="%ActualStarName412"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName413"         Weight="1"/>
+     <Entry Tag="%ActualStarName414"         Weight="1"/>
+     <Entry Tag="%ActualStarName415"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName416"         Weight="1"/>
+     <Entry Tag="%ActualStarName417"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName418"         Weight="1"/>
+     <Entry Tag="%ActualStarName420"         Weight="1"/>
+     <Entry Tag="%ActualStarName421"         Weight="1"/>
+     <Entry Tag="%ActualStarName422"         Weight="1"/>
+     <Entry Tag="%ActualStarName423"         Weight="1"/>
+     <Entry Tag="%ActualStarName424"         Weight="1"/>
+     <Entry Tag="%ActualStarName425"         Weight="1"/>
+     <Entry Tag="%ActualStarName426"         Weight="1"/>
+     <Entry Tag="%ActualStarName427"         Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Constellations-->
+  <GalaxyGeneratorWeightTable Name="ConstellationNames">
+<!--Vanilla-->
+    <Entry Tag="%ConstellationName1"          Weight="1"/>
+    <Entry Tag="%ConstellationName2"          Weight="1"/>
+    <Entry Tag="%ConstellationName3"          Weight="1"/>
+    <Entry Tag="%ConstellationName4"          Weight="1"/>
+    <Entry Tag="%ConstellationName5"          Weight="1"/>
+    <Entry Tag="%ConstellationName6"          Weight="1"/>
+    <Entry Tag="%ConstellationName7"          Weight="1"/>
+    <Entry Tag="%ConstellationName8"          Weight="1"/>
+    <Entry Tag="%ConstellationName9"          Weight="1"/>
+    <Entry Tag="%ConstellationName10"         Weight="1"/>
+    <Entry Tag="%ConstellationName11"         Weight="1"/>
+    <Entry Tag="%ConstellationName12"         Weight="1"/>
+    <Entry Tag="%ConstellationName13"         Weight="1"/>
+    <Entry Tag="%ConstellationName14"         Weight="1"/>
+    <Entry Tag="%ConstellationName15"         Weight="1"/>
+    <Entry Tag="%ConstellationName16"         Weight="1"/>
+    <Entry Tag="%ConstellationName17"         Weight="1"/>
+    <Entry Tag="%ConstellationName18"         Weight="1"/>
+    <Entry Tag="%ConstellationName19"         Weight="1"/>
+    <Entry Tag="%ConstellationName20"         Weight="1"/>
+    <Entry Tag="%ConstellationName21"         Weight="1"/>
+    <Entry Tag="%ConstellationName22"         Weight="1"/>
+    <Entry Tag="%ConstellationName23"         Weight="1"/>
+    <Entry Tag="%ConstellationName24"         Weight="1"/>
+    <Entry Tag="%ConstellationName25"         Weight="1"/>
+    <Entry Tag="%ConstellationName26"         Weight="1"/>
+    <Entry Tag="%ConstellationName27"         Weight="1"/>
+    <Entry Tag="%ConstellationName28"         Weight="1"/>
+    <Entry Tag="%ConstellationName29"         Weight="1"/>
+    <Entry Tag="%ConstellationName30"         Weight="1"/>
+    <Entry Tag="%ConstellationName31"         Weight="1"/>
+    <Entry Tag="%ConstellationName32"         Weight="1"/>
+    <Entry Tag="%ConstellationName33"         Weight="1"/>
+    <Entry Tag="%ConstellationName34"         Weight="1"/>
+    <Entry Tag="%ConstellationName35"         Weight="1"/>
+    <Entry Tag="%ConstellationName36"         Weight="1"/>
+    <Entry Tag="%ConstellationName37"         Weight="1"/>
+    <Entry Tag="%ConstellationName38"         Weight="1"/>
+    <Entry Tag="%ConstellationName39"         Weight="1"/>
+    <Entry Tag="%ConstellationName40"         Weight="1"/>
+    <Entry Tag="%ConstellationName41"         Weight="1"/>
+    <Entry Tag="%ConstellationName42"         Weight="1"/>
+    <Entry Tag="%ConstellationName43"         Weight="1"/>
+    <Entry Tag="%ConstellationName44"         Weight="1"/>
+    <Entry Tag="%ConstellationName45"         Weight="1"/>
+    <Entry Tag="%ConstellationName46"         Weight="1"/>
+    <Entry Tag="%ConstellationName47"         Weight="1"/>
+    <Entry Tag="%ConstellationName48"         Weight="1"/>
+    <Entry Tag="%ConstellationName49"         Weight="1"/>
+    <Entry Tag="%ConstellationName50"         Weight="1"/>
+    <Entry Tag="%ConstellationName51"         Weight="1"/>
+    <Entry Tag="%ConstellationName52"         Weight="1"/>
+    <Entry Tag="%ConstellationName53"         Weight="1"/>
+    <Entry Tag="%ConstellationName54"         Weight="1"/>
+    <Entry Tag="%ConstellationName55"         Weight="1"/>
+    <Entry Tag="%ConstellationName56"         Weight="1"/>
+    <Entry Tag="%ConstellationName57"         Weight="1"/>
+    <Entry Tag="%ConstellationName58"         Weight="1"/>
+    <Entry Tag="%ConstellationName59"         Weight="1"/>
+    <Entry Tag="%ConstellationName60"         Weight="1"/>
+    <Entry Tag="%ConstellationName61"         Weight="1"/>
+    <Entry Tag="%ConstellationName62"         Weight="1"/>
+    <Entry Tag="%ConstellationName63"         Weight="1"/>
+    <Entry Tag="%ConstellationName64"         Weight="1"/>
+    <Entry Tag="%ConstellationName65"         Weight="1"/>
+    <Entry Tag="%ConstellationName66"         Weight="1"/>
+    <Entry Tag="%ConstellationName67"         Weight="1"/>
+    <Entry Tag="%ConstellationName68"         Weight="1"/>
+    <Entry Tag="%ConstellationName69"         Weight="1"/>
+    <Entry Tag="%ConstellationName70"         Weight="1"/>
+    <Entry Tag="%ConstellationName71"         Weight="1"/>
+    <Entry Tag="%ConstellationName72"         Weight="1"/>
+    <Entry Tag="%ConstellationName73"         Weight="1"/>
+    <Entry Tag="%ConstellationName74"         Weight="1"/>
+    <Entry Tag="%ConstellationName75"         Weight="1"/>
+    <Entry Tag="%ConstellationName76"         Weight="1"/>
+    <Entry Tag="%ConstellationName77"         Weight="1"/>
+    <Entry Tag="%ConstellationName78"         Weight="1"/>
+    <Entry Tag="%ConstellationName79"         Weight="1"/>
+    <Entry Tag="%ConstellationName80"         Weight="1"/>
+    <Entry Tag="%ConstellationName81"         Weight="1"/>
+<!--ESG-->
+<!--Famous characters-->
+    <Entry Tag="%CharacterConstellationName1"          Weight="1"/>
+    <Entry Tag="%CharacterConstellationName2"          Weight="1"/>
+    <Entry Tag="%CharacterConstellationName3"          Weight="1"/>
+<!--Famous people-->
+    <Entry Tag="%PeopleConstellationName1"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName2"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName3"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName4"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName5"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName6"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName7"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName8"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName9"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName10"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName11"         Weight="1"/>
+<!--irl constelations-->
+    <Entry Tag="%ConstellationConstellationName1"          Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName2"          Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName3"          Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName4"          Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName5"          Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName6"          Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName7"          Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName8"          Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName9"          Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName10"         Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName11"         Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName12"         Weight="1"/>
+    <Entry Tag="%ConstellationConstellationName13"         Weight="1"/>
+<!--US States (you asked for this)-->
+    <Entry Tag="%USConstellationName1"         Weight="1"/>
+    <Entry Tag="%USConstellationName2"         Weight="1"/>
+    <Entry Tag="%USConstellationName3"         Weight="1"/>
+    <Entry Tag="%USConstellationName4"         Weight="1"/>
+
+<!--Misc-->
+    <Entry Tag="%MiscConstellationName1"          Weight="1"/>
+    <Entry Tag="%MiscConstellationName2"          Weight="1"/>
+    <Entry Tag="%MiscConstellationName3"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Special Nodes-->
+  <GalaxyGeneratorWeightTable Name="SpecialNodeNames">
+<!--Vanilla-->
+    <Entry Tag="%SpecialNodeName1"          Weight="1"/>
+    <Entry Tag="%SpecialNodeName2"          Weight="1"/>
+    <Entry Tag="%SpecialNodeName3"          Weight="1"/>
+    <Entry Tag="%SpecialNodeName4"          Weight="1"/>
+    <Entry Tag="%SpecialNodeName5"          Weight="1"/>
+    <Entry Tag="%SpecialNodeName6"          Weight="1"/>
+    <Entry Tag="%SpecialNodeName7"          Weight="1"/>
+    <Entry Tag="%SpecialNodeName8"          Weight="1"/>
+    <Entry Tag="%SpecialNodeName9"          Weight="1"/>
+    <Entry Tag="%SpecialNodeName10"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName11"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName12"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName13"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName14"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName15"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName16"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName17"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName18"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName19"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName20"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName21"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName22"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName23"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName24"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName25"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName26"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName27"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName28"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName29"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName30"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName31"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName32"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName33"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName34"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName35"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName36"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName37"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName38"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName39"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName40"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName41"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName42"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName43"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName44"         Weight="1"/>
+    <Entry Tag="%SpecialNodeName45"         Weight="1"/>
+<!--ESG-->
+    <Entry Tag="%ESGSpecialNodeName1"          Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName2"          Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName3"          Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName4"          Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName5"          Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName6"          Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName7"          Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName8"          Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName9"          Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName10"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName11"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName12"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName13"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName14"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName15"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName16"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName17"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName18"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName19"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName20"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName21"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName22"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName23"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName24"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName25"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName26"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName27"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName28"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName29"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName30"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName31"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName32"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName33"         Weight="1"/>
+    <Entry Tag="%ESGSpecialNodeName34"         Weight="1"/>
+<!--Tat-->
+    <Entry Tag="%TatSpecialNodeName1"          Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName2"          Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName3"          Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName4"          Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName5"          Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName6"          Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName7"          Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName8"          Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName9"          Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName10"         Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName11"         Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName12"         Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName13"         Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName14"         Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName15"         Weight="1"/>
+    <Entry Tag="%TatSpecialNodeName16"         Weight="1"/>
+<!--Starsector-->
+    <Entry Tag="%SpecialNodeStarsector1"          Weight="1"/>
+    <Entry Tag="%SpecialNodeStarsector2"          Weight="1"/>
+    <Entry Tag="%SpecialNodeStarsector3"          Weight="1"/>
+    <Entry Tag="%SpecialNodeStarsector4"          Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Anomalies-->
+<!--Wonders-->
+  <GalaxyGeneratorWeightTable Name="AnomalyGenerationUnique_Default">
+    <Entry Tag="PlanetAnomalyNaturalWonder1"          Weight="10"/>
+    <Entry Tag="PlanetAnomalyNaturalWonder2"          Weight="10"/>
+    <Entry Tag="PlanetAnomalyNaturalWonder3"          Weight="10"/>
+    <Entry Tag="PlanetAnomalyNaturalWonder4"          Weight="10"/>
+    <Entry Tag="PlanetAnomalyNaturalWonder5"          Weight="10"/>
+    <Entry Tag="PlanetAnomalyNaturalWonder6"          Weight="10"/>
+<!--Garden of Eden-->
+    <Entry Tag="Curiosity_PlanetAnomaly01"            Weight="10"/>
+  </GalaxyGeneratorWeightTable>
+
+<!--Common-->
+  <GalaxyGeneratorWeightTable Name="AnomalyGeneration_Default">
+    <Entry Tag="Curiosity_PlanetAnomaly02"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly03"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly04"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly05"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly06"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly07"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly08"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly09"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly10"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly11"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly12"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly13"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly14"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly15"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly16"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly17"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly18"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly19"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly20"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly21"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly22"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly23"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly24"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly25"         Weight="3"/>
+    <Entry Tag="Curiosity_PlanetAnomaly25Alt"      Weight="1"/>
+    <Entry Tag="Curiosity_PlanetAnomaly26"         Weight="3"/>
+    <Entry Tag="Curiosity_PlanetAnomaly26Alt"      Weight="1"/>
+    <Entry Tag="Curiosity_PlanetAnomaly27"         Weight="3"/>
+    <Entry Tag="Curiosity_PlanetAnomaly27Alt"      Weight="1"/>
+    <Entry Tag="Curiosity_PlanetAnomaly28"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly29"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly30"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly31"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly32"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly33"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly34"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly35"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly36"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly37"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly38"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly39"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly40"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly41"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly42"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly43"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly44"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly45"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly46"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly47"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly48"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly49"         Weight="10"/>
+<!--UPDATE5-->
+    <Entry Tag="Curiosity_PlanetAnomaly50"         Weight="30"/>
+    <Entry Tag="Curiosity_PlanetAnomaly51"         Weight="30"/>
+    <Entry Tag="Curiosity_PlanetAnomaly52"         Weight="25"/>
+    <Entry Tag="Curiosity_PlanetAnomaly53"         Weight="25"/>
+    <Entry Tag="Curiosity_PlanetAnomaly54"         Weight="25"/>
+    <Entry Tag="Curiosity_PlanetAnomaly55"         Weight="25"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="AnomalyVisibleGeneration_Default">
+    <Entry Tag="PlanetAnomaly02"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly03"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly04"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly05"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly06"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly07"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly08"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly09"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly10"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly11"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly12"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly13"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly14"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly15"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly16"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly17"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly18"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly19"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly20"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly21"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly22"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly23"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly24"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly25"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly25Alt"      Weight="10"/>
+    <Entry Tag="PlanetAnomaly26"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly26Alt"      Weight="10"/>
+    <Entry Tag="PlanetAnomaly27"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly27Alt"      Weight="10"/>
+    <Entry Tag="PlanetAnomaly28"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly29"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly30"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly31"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly32"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly33"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly34"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly35"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly36"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly37"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly38"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly39"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly40"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly41"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly42"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly43"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly44"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly45"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly46"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly47"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly48"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly49"         Weight="10"/>
+<!--UPDATE5-->
+    <Entry Tag="PlanetAnomaly50"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly51"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly52"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly53"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly54"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly55"         Weight="10"/>
+  </GalaxyGeneratorWeightTable>
+</Datatable>

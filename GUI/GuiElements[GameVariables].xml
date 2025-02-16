@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+<!-- Shield regeneration per second - Flat rate, on flotilla -->
+  <ExtendedGuiElement Name="ShieldRegeneratePerSecond">
+    <Title>%ShieldRegeneratePerSecondTitle</Title>
+    <Description>%ShieldRegeneratePerSecondDescription</Description>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <GuiElement Name="ClassModuleIgnoresArmor">
+    <Title>%ClassModuleIgnoresArmorTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassModuleIgnoresShields">
+    <Title>%ClassModuleIgnoresShieldsTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="SystemResearchRelics">
+    <Title>%ResearchRelicsTitle</Title>
+    <Description>%ResearchRelicsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/RelicSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/RelicLarge" />
+    </Icons>
+    <SymbolString>[relic]</SymbolString>
+    <Color Red="10" Green="205" Blue="180" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <GuiElement Name="SpaceportCapacity">
+    <Title>%SpaceportCapacityTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="SystemLifeforceFromP05L01">
+    <Title>%SystemLifeforceFromP05L01Title</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="SystemLifeforceFromP04L01">
+    <Title>%SystemLifeforceFromP05L01Title</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="SystemLifeforceFromP01L01">
+    <Title>%SystemLifeforceFromP05L01Title</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="EmpireLifeforceFromMoneyConversion">
+    <Title>%StarSystemImprovementDustToLifeforceTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="EmpireLifeforceFromP05L01">
+    <Title>%LawP05L01ESGShortTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="EmpireLifeforceFromP04L01">
+    <Title>%LawP04L01ShortTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="EmpireLifeforceFromP01L01">
+    <Title>%LawP01L01VampirilisShortTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="RecipeIngredientEffectTier1Luxury1Bis">
+    <Title>%SystemLifeforceFromLuxTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="RecipeIngredientEffectTier2Luxury9Bis">
+    <Title>%SystemLifeforceFromLuxTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="SystemLifeforceFromLux">
+    <Title>%SystemLifeforceFromLuxTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="EmpireLifeforceFromLux">
+    <Title>%EmpireLifeforceFromLuxTitle</Title>
+  </ExtendedGuiElement>
+
+  <!-- Remnants Trait -->
+  <ExtendedGuiElement Name="UniqueBuildingProductionCostReduction">
+    <Title>%UniqueBuildingProductionCostReductionTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <!-- System Development Effects -->
+  <ExtendedGuiElement Name="RecipeIngredientEffect16">
+    <Title>%StarSystemLevelEffectTitle</Title>
+    <Description>%StarSystemLevelEffectDescription</Description>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectATier2Luxury16">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+    <Description>%SystemEmpirePointDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIEmpire" />
+    </Icons>
+    <SymbolString>[prestige]</SymbolString>
+    <Color Red="165" Green="85" Blue="231" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectBTier2Luxury16" >
+    <Title>%TradingRouteIncomeModifierTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectATier3Luxury22">
+    <Title>%HappinessOverColonizationPenalties</Title>
+    <SymbolString>[FIDS]</SymbolString>
+    <TooltipElement Percent="true"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectBTier3Luxury22">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+    <Description>%HappinessDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="ApprovalSmall"/>
+    </Icons>
+    <SymbolString>[happiness]</SymbolString>
+    <Color Red="241" Green="104" Blue="206" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectATier3Luxury24" >
+    <Title>%TradingRouteIncomeModifierTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectBTier3Luxury24">
+    <Title>%RecipeIngredientEffectBTier3Luxury24Title</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectCTier3Luxury24">
+    <Title>%ShipBuyoutReductionTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetFIDSIDevelopment">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+    <SymbolString>[FIDSI]</SymbolString>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SystemFIDSIFlatDevelopment">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+    <SymbolString>[FIDSI]</SymbolString>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SystemFIDSIPercentDevelopment">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+    <SymbolString>[FIDSI]</SymbolString>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <!-- Hisshos GUI Fix -->
+  <ExtendedGuiElement Name="RecipeIngredientEffectTier1Luxury6FIDSHisshos">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+    <Description>%SystemFIDSFlatTitle</Description>
+    <SymbolString>[FIDS]</SymbolString>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectTier3Luxury22FIDSHisshos">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+    <Description>%SystemFIDSPercentTitle</Description>
+    <SymbolString>[FIDS]</SymbolString>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <!--Craver Influence Raze-->
+  <ExtendedGuiElement Name="EmpirePointFromConsume">
+    <Title>%EmpirePointFromConsumeTitle</Title>
+    <SymbolString>[prestigeColored]</SymbolString>
+  </ExtendedGuiElement>
+
+  <!--Craver Science Raze-->
+  <ExtendedGuiElement Name="ScienceFromConsume">
+    <Title>%EmpirePointFromConsumeTitle</Title>
+    <SymbolString>[scienceColored]</SymbolString>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="MoraleBonusEvasion">
+    <Title>%MoraleBonusEvasionTitle</Title>
+    <Description>%MoraleBonusEvasionDescription</Description>
+    <TooltipElement Percent="true"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Trade -->
+  <GuiElement Name="TradingRouteSystemBaseIncome_EmpireResearch">
+    <Title>%TradingRouteSystemBaseIncome_EmpireResearchTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="TradingRouteSystemBaseIncome_EmpireMoney">
+    <Title>%TradingRouteSystemBaseIncome_EmpireMoneyTitle</Title>
+  </GuiElement>
+
+<!-- Shield regeneration per second - percentage based, self-only -->
+  <ExtendedGuiElement Name="ShieldRegeneratePerSecondDynamic">
+    <Title>%ShieldRegeneratePerSecondDynamicTitle</Title>
+    <TooltipElement Percent="true"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ShipManpowerKillAbsorption">
+    <Title>%ShipManpowerKillAbsorptionTitle</Title>
+    <TooltipElement Percent="true"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Encounter -->
+  <ExtendedGuiElement Name="EncounterDamageExplosives">
+    <Title>%DamageExplosivesTitle</Title>
+    <TooltipElement Percent="true"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="EncounterCriticalExplosives">
+    <Title>%CriticalExplosivesTitle</Title>
+    <TooltipElement Percent="true"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <GuiElement Name="OpponentRecyclingStrategic1PerCP">
+    <Title>%OpponentRecyclingStrategic1PerCPTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="OpponentRecyclingStrategic2PerCP">
+    <Title>%OpponentRecyclingStrategic2PerCPTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="RetrofitCost">
+    <Title>%RetrofitCostReductionTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="RepairCost">
+    <Title>%RepairCostReductionTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="OpponentRecyclingManpowerPerCP">
+    <Title>%OpponentRecyclingManpowerPerCPTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="OpponentRecyclingManpowerPerCPFlotilla">
+    <Title>%OpponentRecyclingManpowerPerCPTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ShipRoleBehemoth">
+    <Title>%ShipRoleBehemothTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="BlockadeResourceImpactFactor">
+    <Title>%BlockadeResourceImpactFactorTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ConstellationFIDSIBonus">
+    <Title>%ConstellationFIDSIBonusTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SpecialNodeFIDSIMultiplier">
+    <Title>%SpecialNodeEffectMultiplierTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="PlayEffectManpowerAbsorptionIncrease">
+    <Title>%PlayEffectManpowerAbsorptionIncreaseTitle</Title>
+    <TooltipElement>
+      <EffectOverride>%PlayEffectManpowerAbsorptionIncreaseEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlayEffectCooldownIncrease">
+    <Title>%PlayEffectCooldownIncreaseTitle</Title>
+    <TooltipElement>
+      <EffectOverride>%PlayEffectCooldownIncreaseEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlayEffectShieldReload">
+    <Title>%PlayEffectShieldReloadTitle</Title>
+    <TooltipElement>
+      <EffectOverride>%PlayEffectShieldReloadEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlayEffectNoDamage">
+    <Title>%PlayEffectNoDamageTitle</Title>
+    <TooltipElement>
+      <EffectOverride>%PlayEffectBothSides</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Academy -->
+  <GuiElement Name="AffinityGameplayAcademyEmpire">
+    <Title>%AffinityGameplayAcademyEmpireTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="TotalNumberOfTemples">
+    <Title>%TotalNumberOfTemplesTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="NumberOfTemples">
+    <Title>%NumberOfTemplesTitle</Title>
+  </ExtendedGuiElement>
+
+  <!-- Fleet Screen -->
+  <EntityActionGuiElement Name="PrivateerQuestFleetAction">
+    <Title>%PrivateerFleetActionTitle</Title>
+    <Description>%PrivateerFleetActionDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/FleetActions/FleetActionPrivateerSmall" />
+    </Icons>
+  </EntityActionGuiElement>
+
+  <!-- Federation -->
+  <GuiElement Name="IsUnderColonizationThreshold">
+    <Title>%IsUnderColonizationThresholdTitle</Title>
+  </GuiElement>
+
+  <!-- Law Rework -->
+  <GuiElement Name="FlatLuxuryBoost">
+    <Title>%FlatLuxuryBoostTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="DynamicLuxuryBoost">
+    <Title>%DynamicLuxuryBoostTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="UnlockedTechnologyCount">
+    <Title>%UnlockedTechnologyCountTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="LuxuryDepositCount">
+    <Title>%LuxuryDepositCountTitle</Title>
+  </GuiElement>
+
+  <!-- Lumeris Quest -->
+  <GuiElement Name="SystemEmpirePointVenetians">
+    <Title>%EmpireImprovementQuestVenetians06Title</Title>
+  </GuiElement>
+
+  <!-- UC Quest -->
+  <GuiElement Name="FIDSperBW">
+    <Title>%EmpireImprovementFIDSperBWTitle</Title>
+  </GuiElement>
+  <GuiElement Name="HappinessFromTraitors">
+    <Title>%EmpireImprovementHappinessperSleeperTitle</Title>
+  </GuiElement>
+  <GuiElement Name="HappinessFromMinors">
+    <Title>%EmpireImprovementSciencePerTraitorTitle</Title>
+  </GuiElement>
+
+  <!-- Hacking Variables -->
+  <GuiElement Name="HackingWarpSpeed">
+    <Title>%HackingWarpSpeed</Title>
+  </GuiElement>
+  <GuiElement Name="HackingNonWarpSpeed">
+    <Title>%HackingNonWarpSpeed</Title>
+  </GuiElement>
+  <ExtendedGuiElement Name="HackingNodeSpeed">
+    <Title>%HackingNodeSpeed</Title>
+    <Description>%HackingSpeedDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/HackingSpeedSmall"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/HackingSpeedLarge"/>
+    </Icons>
+    <SymbolString>[hackingSpeed]</SymbolString>
+    <Color Red="249" Green="230" Blue="196" Alpha="255"/>
+  </ExtendedGuiElement>
+
+  <!-- Riftborn Senator Skill -->
+  <GuiElement Name="SystemProductionAnomalyPercentBonus">
+    <Title>%HeroSkill75_Industry_PerAnomaly_Title</Title>
+  </GuiElement>
+
+  <!-- Eusocial Senator Skill -->
+  <GuiElement Name="ApprovalPerPop">
+    <Title>%HeroSkill80_Influence_Perpop_Title</Title>
+  </GuiElement>
+  <GuiElement Name="BonusHeroSystemApproval">
+    <Title>%HeroSkill80_Influence_Perpop_Title</Title>
+  </GuiElement>
+  <GuiElement Name="FlatInfluenceHappy">
+    <Title>%HeroSkill80_Influence_Perpop_Title</Title>
+  </GuiElement>
+  <GuiElement Name="FlatInfluenceEcstatic">
+    <Title>%HeroSkill80_Influence_Perpop_Title</Title>
+  </GuiElement>
+
+  <!-- Luxury Rework -->
+  <ExtendedGuiElement Name="TargetEffectFoodIndustryDustScience">
+    <Title>%TargetEffectFoodIndustryTitle</Title>
+    <Description>%TargetEffectFoodIndustryDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FoodIndustry_24x24" />
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="TargetEffectSystemDevelopmentEffects">
+    <Title>%TargetEffectDustScienceTitle</Title>
+    <Description>%TargetEffectDustScienceDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DustScience_24x24" />
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Bugfixes -->
+  <GuiElement Name="FactionTraitEnableMinorLaws">
+    <Title>%FactionTraitEnableMinorLawsTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="false">
+    <Title>%false</Title>
+  </GuiElement>
+
+  <GuiElement Name="true">
+    <Title>%true</Title>
+  </GuiElement>
+
+  <GuiElement Name="PopulationPercentModifier">
+    <Title>%PopulationPercentModifierTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="WeeksChaosHasDelayed">
+    <Title>%WeeksChaosHasDelayedTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="FAKE">
+    <Title>%FAKE</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassHackingBeacon">
+    <Title>%ClassTransmigrationBeaconTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ShipFactionUmbralChoir">
+    <Title>%ShipFactionUmbralChoirTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="TotalIndustryCost">
+    <Title>%TotalIndustryCostTitle</Title>
+    <TooltipElement Ignore="true"/>
+  </ExtendedGuiElement>
+<!--
+  <ExtendedGuiElement Name="UselessForTooltip">
+    <Title>%REALLYBAD</Title>
+    <TooltipElement Ignore="true"/>
+  </ExtendedGuiElement>
+-->
+  <ExtendedGuiElement Name="HappinessStatusMinimumRebellionIndex">
+    <Title>%REALLYBAD</Title>
+    <TooltipElement Ignore="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="TradeRouteSystemBaseIncome_EmpireMoney">
+    <Title>%TradingRouteSystemBaseIncome_EmpireMoneyTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="TradeRouteSystemBaseIncome_EmpireResearch">
+    <Title>%TradingRouteSystemBaseIncome_EmpireResearchTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SenatorSkillEffectDictatorshipMultiplier">
+    <Title>%SenatorSkillEffectDictatorshipMultiplierTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectATier2Luxury15">
+    <Title>%RecipeIngredientEffectATier2Luxury15Title</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="FleetsBlockadingSpecialNodes">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SpecialNodesLaw_Boolean1">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SpecialNodesLaw_Boolean2">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SpecialNodesLaw_Boolean3">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SpecialNodesLaw">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AdmiralsInFriendlyTerritory">
+    <Title>%AdmiralsInFriendlyTerritoryTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="IsAtWar">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="IsAtPeace">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="IsInAlliance">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="TradeAgreementCost">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PercentageOfPlayersInYourAlliance">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AllianceSize">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+<!--
+  <ExtendedGuiElement Name="IsntImmuneToSpecialNodes">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+-->
+
+  <ExtendedGuiElement Name="HomeSystemPopulationHomeSystem">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="IsAIControlled">
+    <Title>%IsAIControlledTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AINumberOfCoreCrackers">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AICoreCrackerMaximum">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ColonizerCount">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="DiplomacyReworkDisabled">
+    <Title>%DiplomacyReworkDisabledTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ColonizeableCount">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PotentiallyOverColonizationThreshold">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="OwnedUniquePlanetAndGovernor">
+    <Title>%REALLYBAD</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="EmpireEmpireDevelopmentStage">
+    <Title>%EmpireEmpireDevelopmentStageTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="EmpireScienceStage">
+    <Title>%EmpireScienceStageTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="EmpireEconomyStage">
+    <Title>%EmpireEconomyStageTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="EmpireMilitaryStage">
+    <Title>%EmpireMilitaryStageTitle</Title>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="ClassExploitedStarSystem">
+    <Title>%ClassColonizedStarSystemTitle</Title>
+  </GuiElement>
+
+  <!-- The game doesn't seem to care that SubCategoryLawPolitics00Title doesn't exist? -->
+  <ExtendedGuiElement Name="SubCategoryLawPolitics00">
+    <Title>%SubCategoryLawPolitics00Title</Title>
+    <Color Red="227" Green="157" Blue="113" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SubCategoryPlanetTerraformationSize">
+    <Title>%PlanetTerraformationScienceTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <GuiElement Name="FleetInfluenceStateNeutral">
+    <Title>%FleetInfluenceStateNeutralTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="FleetInfluenceStateOwner">
+    <Title>%FleetInfluenceStateOwnerTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="FleetInfluenceStateFriendly">
+    <Title>%FleetInfluenceStateFriendlyTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="FleetInfluenceStateHostile">
+    <Title>%FleetInfluenceStateHostileTitle</Title>
+  </GuiElement>
+
+  <!-- Super Affinity -->
+  <GuiElement Name="SuperAffinitySophons">
+    <Title>%SuperAffinitySophonsTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityCravers">
+    <Title>%SuperAffinityCraversTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityVenetians">
+    <Title>%SuperAffinityVenetiansTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityVampirilis">
+    <Title>%SuperAffinityVampirilisTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityTerrans">
+    <Title>%SuperAffinityTerransTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityMezari">
+    <Title>%SuperAffinityMezariTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinitySheredyn">
+    <Title>%SuperAffinitySheredynTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityHoratio">
+    <Title>%SuperAffinityHoratioTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityTimeLords">
+    <Title>%SuperAffinityTimeLordsTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityUnfallen">
+    <Title>%SuperAffinityUnfallenTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityVaulters">
+    <Title>%SuperAffinityVaultersTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityMajorHisshos">
+    <Title>%SuperAffinityMajorHisshosTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityUmbralChoir">
+    <Title>%SuperAffinityUmbralChoirTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="SuperAffinityTemplars">
+    <Title>%SuperAffinityTemplarsTitle</Title>
+  </GuiElement>
+
+  <!-- Luxury Effect -->
+  <ExtendedGuiElement Name="RecipeIngredientEffect23">
+    <Title>%StarSystemLevelEffectTitle</Title>
+    <Description>%StarSystemLevelEffectDescription</Description>
+    <TooltipElement CustomTurnDuration="40">
+      <EffectOverride>%RecipeIngredient23-2Rework</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Trade Value -->
+  <ExtendedGuiElement Name="TradingRouteIncomeModifier" >
+    <Title>%TradingRouteIncomeModifierTitle</Title>
+    <TooltipElement Percent="true" />
+  </ExtendedGuiElement>
+
+  <!-- Overpopulation -->
+  <ExtendedGuiElement Name="OverPopulationPenaltiesReduction">
+    <Title>%HappinessOverPopulationPenalties</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <!-- Bandwidth Stock -->
+  <ExtendedGuiElement Name="MaximumEmpireProcessingPowerStockDevelopment">
+    <Title>%EmpireProcessingPowerTitle</Title>
+    <Description>%EmpireProcessingPowerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/ProcessingPowerSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/ProcessingPowerLarge" />
+    </Icons>
+    <SymbolString>[processingPower]</SymbolString>
+    <Color Red="249" Green="230" Blue="196" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="VisionRangeDevelopment">
+    <Title>%VisionRangeTitle</Title>
+    <Description>%VisionRangeDescription</Description>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Crescents -->
+  <GuiElement Name="OwnedFakePlanets">
+    <Title>%PlanetGameplayTypeFakeTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="PlanetGameplayTypeTerran">
+    <Title>%PlanetGameplayTypeTerranTitle</Title>
+  </GuiElement>
+
+  <!-- Planet % FIDSI -->
+  <ExtendedGuiElement Name="PlanetFoodDynamic">
+    <Title>%PlanetFoodDynamicTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetIndustryDynamic">
+    <Title>%PlanetIndustryDynamicTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetDustDynamic">
+    <Title>%PlanetDustDynamicTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetScienceDynamic">
+    <Title>%PlanetScienceDynamicTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetPrestigeDynamic">
+    <Title>%PlanetPrestigeDynamicTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="PlanetHasDepositLuxury">
+    <Title>%PlanetHasDepositLuxuryTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="PlanetHasDepositStrategic">
+    <Title>%PlanetHasDepositStrategicTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="ResearchRelics">
+    <Title>%ResearchRelicsTitle</Title>
+    <Description>%ResearchRelicsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/RelicSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/RelicLarge" />
+    </Icons>
+    <Color Red="10" Green="205" Blue="180" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectATier1Luxury8">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectBTier1Luxury8">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectCTier2Luxury16">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectDTier1Luxury7">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectETier1Luxury7">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectBTier2Luxury15">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectCTier2Luxury15">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectTier2Luxury14FIDSHisshos">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="RecipeIngredientEffectTier2Luxury14">
+    <Title>%EmpireImprovementLevelingSystemsTitle</Title>
+  </ExtendedGuiElement>
+
+  <!-- Collection Bonus -->
+  <ExtendedGuiElement Name="StrategicBonusFromCollection">
+    <Title>%StrategicBonusFromCollectionTitle</Title>
+    <TooltipElement Percent="true"/>
+    <AltTitle>%StrategicBonusFromCollectionAltTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="EmpireOwnedMeagerPlanets">
+    <Title>%EmpireOwnedMeagerPlanetsTitle</Title>
+  </GuiElement>
+
+  <!-- Ground Battle Variables -->
+  <ExtendedGuiElement Name="GroundBattleBombardmentAttackerDamageReduction">
+    <Title>%GroundBattleBombardmentDefenderDamagesReductionTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="GroundBattleBombardmentDefenderDamages">
+    <Title>%GroundBattleBombardmentDefenderDamagesTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="GroundBattleBombardmentDefensiveDamageReduction">
+    <Title>%GroundBattleBombardmentAttackerDamagesReductionTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="GroundBattleAttackerTroopsDamageMultiplier">
+    <Title>%GroundBattleAttackerTroopsDamageMultiplierTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="GroundBattleDefenderTroopsDamageMultiplier">
+    <Title>%GroundBattleDefenderTroopsDamageMultiplierTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="GroundBattleDestroyedPopulationCount">
+    <Title>%GroundBattleDestroyedPopulationCountTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="GroundBattleDestroyedImprovementCount">
+    <Title>%GroundBattleDestroyedImprovementCountTitle</Title>
+  </GuiElement>
+  <!-- Ship Level -->
+  <GuiElement Name="ShipLevel11">
+    <Title>%ShipLevel11Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="ShipLevel12">
+    <Title>%ShipLevel12Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="ShipLevel13">
+    <Title>%ShipLevel13Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="ShipLevel14">
+    <Title>%ShipLevel14Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="ShipLevel15">
+    <Title>%ShipLevel15Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="ShipLevel16">
+    <Title>%ShipLevel16Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="ShipLevel17">
+    <Title>%ShipLevel17Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="ShipLevel18">
+    <Title>%ShipLevel18Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="ShipLevel19">
+    <Title>%ShipLevel19Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="ShipLevel20">
+    <Title>%ShipLevel20Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Pictos/Wonder" />
+    </Icons>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="PlanetDepletionMax">
+    <Title>%PlanetDepletionMaxTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="GroundBattleBombardmentImprovementDestructionProbability">
+    <Title>%GroundBattleDestroyedImprovementCountTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="GroundBattleBombardmentPopulationDestructionProbability">
+    <Title>%GroundBattleDestroyedPopulationCountTitle</Title>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="MaximumNumberOfTradingCompanySubsidiaries">
+    <Title>%MaximumNumberOfTradingCompanySubsidiariesTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="BuildingStarSystemImprovementTradingCompanyHeadquarters">
+    <Title>%BuildingStarSystemImprovementTradingCompanyHeadquartersTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="MaximumSystemProductionStock">
+    <Title>%MaximumSystemProductionStockTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="BonusFromOrbitalPlatforms">
+    <Title>%BonusFromOrbitalPlatformsTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="EmpireTypeMajor">
+    <Title>%EmpireTypeMajorTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="OpponentRecyclingEmpirePointPerCP">
+    <Title>%OpponentRecyclingEmpirePointPerCPTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AdditionalOpponentRecyclingEmpirePointPerCP">
+    <Title>%OpponentRecyclingEmpirePointPerCPTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="GarrisonMoneyUpkeep">
+    <Title>%GarrisonMoneyUpkeepTitle</Title>
+    <AltTitle>%FleetMoneyUpkeepTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="OutpostActionStealGrowth2SelfTimeLordsEffect">
+    <Title>%OutpostActionStealGrowth2SelfEffectTitle</Title>
+  </ExtendedGuiElement>
+
+  <!--  TRADE ROUTES  -->
+  <ExtendedGuiElement Name="TradingRouteIncome_EmpireMoney">
+    <Title>%TradingRouteIncome_Money</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="TradingRouteIncome_EmpireResearch">
+    <Title>%TradingRouteIncome_Research</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="GroundBattlePopulationToManpowerPermanentConversionRate">
+    <Title>%GroundBattlePopulationToManPowerPermanentConversionRateTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ReductionModifier">
+    <Title>%ReductionModifierTitle</Title>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="BonusFromTerraformedHot">
+    <Title>%LawP04L04ShortTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="BonusFromTerraformedTemperate">
+    <Title>%LawP04L04ShortTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="BonusFromTerraformedCold">
+    <Title>%LawP04L04ShortTitle</Title>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="SettingPiratesDifficultyImpossible">
+    <Title>%SettingPiratesDifficultyImpossibleTitle</Title>
+    <Description>%SettingPiratesDifficultyImpossibleDescription</Description>
+  </GuiElement>
+
+  <GuiElement Name="SettingPiratesDifficultyEndless">
+    <Title>%SettingPiratesDifficultyEndlessTitle</Title>
+    <Description>%SettingPiratesDifficultyEndlessDescription</Description>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="PlanetFIDSFromMothership">
+    <Title>%ModuleSupportMothershipFIDSPerPopTitle</Title>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="PlanetDepletionFIDSPenaltyGUI">
+    <Title>%DepletionTitle</Title>
+  </GuiElement>
+  <GuiElement Name="DepletingAndParasitedBonusFIDS">
+    <Title>%DepletionTitle</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetDepletionMalus">
+    <Title>%DepletionTitle</Title>
+  </GuiElement>
+
+  <!-- Initial FIDSI -->
+  <ExtendedGuiElement Name="PlanetInitialFIDS">
+    <Icons>
+      <Icon Size="Small" Path="FIDSI" />
+    </Icons>
+    <SymbolString>[FIDS]</SymbolString>
+    <AltTitle>%PlanetInitialFIDSTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialFIDSI">
+    <Icons>
+      <Icon Size="Small" Path="FIDSI" />
+    </Icons>
+    <SymbolString>[FIDSI]</SymbolString>
+    <AltTitle>%PlanetInitialFIDSITitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialFood">
+    <Title>%PlanetFoodTitle</Title>
+    <Description>%PlanetFoodDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIFood" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIFoodLarge" />
+    </Icons>
+    <SymbolString>[foodColored]</SymbolString>
+    <Color Red="176" Green="198" Blue="93" Alpha="255" />
+    <AltTitle>%PlanetInitialFoodTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialIndustry">
+    <Title>%PlanetIndustryTitle</Title>
+    <Description>%PlanetIndustryDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIIndustry" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIIndustryLarge" />
+    </Icons>
+    <SymbolString>[industry]</SymbolString>
+    <Color Red="223" Green="130" Blue="105" Alpha="255" />
+    <AltTitle>%PlanetInitialIndustryTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialDust">
+    <Title>%PlanetDustTitle</Title>
+    <Description>%PlanetDustDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIDust" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIDustLarge" />
+    </Icons>
+    <SymbolString>[dust]</SymbolString>
+    <Color Red="230" Green="195" Blue="97" Alpha="255" />
+    <AltTitle>%PlanetInitialDustTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialScience">
+    <Title>%PlanetScienceTitle</Title>
+    <Description>%PlanetScienceDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIScience" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIScienceLarge" />
+    </Icons>
+    <SymbolString>[science]</SymbolString>
+    <Color Red="82" Green="201" Blue="231" Alpha="255" />
+    <AltTitle>%PlanetInitialScienceTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialPrestige">
+    <Title>%PlanetPrestigeTitle</Title>
+    <Description>%PlanetPrestigeDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIEmpire" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIEmpirePointLarge" />
+    </Icons>
+    <SymbolString>[prestige]</SymbolString>
+    <Color Red="165" Green="85" Blue="231" Alpha="255" />
+    <AltTitle>%PlanetInitialPrestigeTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <!-- Initial FIDSI per Population -->
+  <ExtendedGuiElement Name="PlanetInitialFoodPerPopulation">
+    <Title>%PlanetInitialFoodPerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIFood" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIFoodLarge" />
+    </Icons>
+    <Color Red="176" Green="198" Blue="93" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialIndustryPerPopulation">
+    <Title>%PlanetInitialIndustryPerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIIndustry" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIIndustryLarge" />
+    </Icons>
+    <Color Red="223" Green="130" Blue="105" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialDustPerPopulation">
+    <Title>%PlanetInitialDustPerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIDust" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIDustLarge" />
+    </Icons>
+    <Color Red="230" Green="195" Blue="97" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialSciencePerPopulation">
+    <Title>%PlanetInitialSciencePerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIScience" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIScienceLarge" />
+    </Icons>
+    <Color Red="82" Green="201" Blue="231" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialPrestigePerPopulation">
+    <Title>%PlanetInitialPrestigePerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIEmpire" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIEmpirePointLarge" />
+    </Icons>
+    <Color Red="165" Green="85" Blue="231" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialFIDSPerPopulation">
+    <Title>%PlanetInitialFIDSPerPopulationTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialFIDSIPerPopulation">
+    <Title>%PlanetInitialFIDSIPerPopulationTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SystemLifeforceFromMoneyConversion">
+    <Title>%SystemLifeforceFromMoneyConversionTitle</Title>
+  </ExtendedGuiElement>
+</Datatable>

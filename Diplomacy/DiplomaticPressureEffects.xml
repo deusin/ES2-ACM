@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/DiplomaticPressureEffectDefinition.xsd">
+  <!-- Praise -->
+  <DiplomaticPressureEffectDefinition_Turns Name="PressureReductionFromDiplomacy" Duration="10">
+    <SimulationDescriptorReferenceOnInitiator Name="PressureReductionFromDiplomacyInitiator"/>
+    <SimulationDescriptorReferenceOnInitiator Name="GeneratePressureTermActivate"/>
+    <SimulationDescriptorReferenceOnTarget Name="PressureReductionFromDiplomacyTarget"/>
+  </DiplomaticPressureEffectDefinition_Turns>
+
+  <!-- Warning -->
+  <DiplomaticPressureEffectDefinition_Turns Name="DiplomaticWarning" Duration="15">
+    <SimulationDescriptorReferenceOnInitiator  Name="DiplomaticWarningInitiator"/>
+  </DiplomaticPressureEffectDefinition_Turns>
+
+  <DiplomaticPressureEffectDefinition_Turns Name="DiplomaticWarningMilitarists" Duration="8">
+    <SimulationDescriptorReferenceOnInitiator  Name="DiplomaticWarningMilitaristsInitiator"/>
+  </DiplomaticPressureEffectDefinition_Turns>
+
+</Datatable>

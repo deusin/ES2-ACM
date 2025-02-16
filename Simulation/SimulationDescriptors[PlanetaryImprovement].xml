@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  <!-- Dust -->
+  <SimulationDescriptor Name="PlanetImprovementDust1" Type="PlanetImprovement">
+    <BinaryModifier TargetProperty="PlanetInitialDust"       Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true" Path="./ClassColonizedPlanet"/>
+    <BinaryModifier TargetProperty="PlanetInitialDust"       Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true" Path="./ClassColonizedPlanet,PlanetGameplayTypeTemperate"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="PlanetImprovementDust2" Type="PlanetImprovement">
+    <BinaryModifier TargetProperty="PlanetInitialDust"       Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true" Path="./ClassColonizedPlanet"/>
+    <BinaryModifier TargetProperty="PlanetInitialDust"       Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true" Path="./ClassColonizedPlanet,PlanetGameplayTypeTemperate"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="PlanetImprovementDust3" Type="PlanetImprovement">
+    <BinaryModifier TargetProperty="PlanetInitialDust"       Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true" Path="./ClassColonizedPlanet"/>
+    <BinaryModifier TargetProperty="PlanetInitialDust"       Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true" Path="./ClassColonizedPlanet,PlanetGameplayTypeTemperate"/>
+  </SimulationDescriptor>
+</Datatable>

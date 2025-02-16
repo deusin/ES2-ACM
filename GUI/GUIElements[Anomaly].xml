@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <ExtendedGuiElement Name="LawEffectCanAnomalyEnhance">
+    <Title>%LawP04L00ShortTitle</Title>
+    <TooltipElement>
+      <EffectOverride>%LawEffectCanAnomalyEnhanceEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  
+  <!-- Anomalies -->
+   <!--<ExtendedGuiElement Name="PlanetAnomaly01Enhanced"> 
+     <Title>%PlanetAnomaly01Title</Title> 
+     <Description>%PlanetAnomaly01Description</Description> 
+     <Icons> 
+       <Icon Size="Small" Path="Anomaly"/> 
+       <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly01Large"/> 
+     </Icons> 
+     <TooltipElement> 
+       <EffectOverride>%PlanetAnomaly01EnhancedEffect</EffectOverride> 
+     </TooltipElement> 
+     <Color Red="255" Green="255" Blue="255" Alpha="255" /> 
+   </ExtendedGuiElement> -->
+  
+
+    <!-- <ExtendedGuiElement Name="PlanetAnomalyEndlessWonder1Enhanced"> -->
+        <!-- <Title>%PlanetAnomalyEndlessWonder1Title</Title> -->
+        <!-- <Description>%PlanetAnomalyEndlessWonder1Description</Description> -->
+        <!-- <Icons> -->
+            <!-- <Icon Size="Small" Path="Anomaly"/> -->
+            <!-- <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyEndlessWonder1Large"/> -->
+        <!-- </Icons> -->
+        <!-- <Color Red="255" Green="255" Blue="255" Alpha="255" /> -->
+    <!-- </ExtendedGuiElement> -->
+
+    <!-- <ExtendedGuiElement Name="PlanetAnomalyEndlessWonder2Enhanced"> -->
+        <!-- <Title>%PlanetAnomalyEndlessWonder2Title</Title> -->
+        <!-- <Description>%PlanetAnomalyEndlessWonder2Description</Description> -->
+        <!-- <Icons> -->
+            <!-- <Icon Size="Small" Path="Anomaly"/> -->
+            <!-- <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyEndlessWonder2Large"/> -->
+        <!-- </Icons> -->
+        <!-- <Color Red="255" Green="255" Blue="255" Alpha="255" /> -->
+    <!-- </ExtendedGuiElement> -->
+
+    <ExtendedGuiElement Name="PlanetAnomaly01Enhanced">
+        <Title>%PlanetAnomaly01EnhancedTitle</Title>
+        <Description>%PlanetAnomaly01EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly01Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly02Enhanced">
+        <Title>%PlanetAnomaly02EnhancedTitle</Title>
+        <Description>%PlanetAnomaly02EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly02Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly03Enhanced">
+        <Title>%PlanetAnomaly03EnhancedTitle</Title>
+        <Description>%PlanetAnomaly03EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly03Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly04Enhanced">
+        <Title>%PlanetAnomaly04EnhancedTitle</Title>
+        <Description>%PlanetAnomaly04EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly04Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly05Enhanced">
+        <Title>%PlanetAnomaly05EnhancedTitle</Title>
+        <Description>%PlanetAnomaly05EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly05Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly06Enhanced">
+        <Title>%PlanetAnomaly06EnhancedTitle</Title>
+        <Description>%PlanetAnomaly06EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly06Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly07Enhanced">
+        <Title>%PlanetAnomaly07EnhancedTitle</Title>
+        <Description>%PlanetAnomaly07EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly07Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly08Enhanced">
+        <Title>%PlanetAnomaly08EnhancedTitle</Title>
+        <Description>%PlanetAnomaly08EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly08Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly09Enhanced">
+        <Title>%PlanetAnomaly09EnhancedTitle</Title>
+        <Description>%PlanetAnomaly09EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly09Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly10Enhanced">
+        <Title>%PlanetAnomaly10EnhancedTitle</Title>
+        <Description>%PlanetAnomaly10EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly10Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly11Enhanced">
+        <Title>%PlanetAnomaly11EnhancedTitle</Title>
+        <Description>%PlanetAnomaly11EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly11Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly12Enhanced">
+        <Title>%PlanetAnomaly12EnhancedTitle</Title>
+        <Description>%PlanetAnomaly12EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly12Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly13Enhanced">
+        <Title>%PlanetAnomaly13EnhancedTitle</Title>
+        <Description>%PlanetAnomaly13EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly13Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly14Enhanced">
+        <Title>%PlanetAnomaly14EnhancedTitle</Title>
+        <Description>%PlanetAnomaly14EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly14Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly15Enhanced">
+        <Title>%PlanetAnomaly15EnhancedTitle</Title>
+        <Description>%PlanetAnomaly15EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly15Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly16Enhanced">
+        <Title>%PlanetAnomaly16EnhancedTitle</Title>
+        <Description>%PlanetAnomaly16EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly16Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly17Enhanced">
+        <Title>%PlanetAnomaly17EnhancedTitle</Title>
+        <Description>%PlanetAnomaly17EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly17Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+  <!-- 18 is Long Season (Negative)  -->
+
+    <ExtendedGuiElement Name="PlanetAnomaly19Enhanced">
+        <Title>%PlanetAnomaly19EnhancedTitle</Title>
+        <Description>%PlanetAnomaly19EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly19Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+  <!-- 20 is Polar Tempests (Negative) -->
+  <!-- 21 is Strong Magnetic Field (Negative) -->
+  <!-- 22 is Kessler Syndrome (Negative) -->
+  <!-- 23 is Acid Rain (Negative) -->
+  <!-- 24 is Irradiated (Negative) -->
+  <!-- 25-27 are moons  -->
+    
+    <ExtendedGuiElement Name="PlanetAnomaly28Enhanced">
+        <Title>%PlanetAnomaly28EnhancedTitle</Title>
+        <Description>%PlanetAnomaly28EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly28Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly29Enhanced">
+        <Title>%PlanetAnomaly29EnhancedTitle</Title>
+        <Description>%PlanetAnomaly29EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly29Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly30Enhanced">
+        <Title>%PlanetAnomaly30EnhancedTitle</Title>
+        <Description>%PlanetAnomaly30EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly30Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly31Enhanced">
+        <Title>%PlanetAnomaly31EnhancedTitle</Title>
+        <Description>%PlanetAnomaly31EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly31Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly32Enhanced">
+        <Title>%PlanetAnomaly32EnhancedTitle</Title>
+        <Description>%PlanetAnomaly32EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly32Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly33Enhanced">
+        <Title>%PlanetAnomaly33EnhancedTitle</Title>
+        <Description>%PlanetAnomaly33EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly33Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly34Enhanced">
+        <Title>%PlanetAnomaly34EnhancedTitle</Title>
+        <Description>%PlanetAnomaly34EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly34Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly35Enhanced">
+        <Title>%PlanetAnomaly35EnhancedTitle</Title>
+        <Description>%PlanetAnomaly35EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly35Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly36Enhanced">
+        <Title>%PlanetAnomaly36EnhancedTitle</Title>
+        <Description>%PlanetAnomaly36EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly36Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly37Enhanced">
+        <Title>%PlanetAnomaly37EnhancedTitle</Title>
+        <Description>%PlanetAnomaly37EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly37Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly38Enhanced">
+        <Title>%PlanetAnomaly38EnhancedTitle</Title>
+        <Description>%PlanetAnomaly38EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly38Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly39Enhanced">
+        <Title>%PlanetAnomaly39EnhancedTitle</Title>
+        <Description>%PlanetAnomaly39EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly39Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly40Enhanced">
+        <Title>%PlanetAnomaly40EnhancedTitle</Title>
+        <Description>%PlanetAnomaly40EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly40Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly41Enhanced">
+        <Title>%PlanetAnomaly41EnhancedTitle</Title>
+        <Description>%PlanetAnomaly41EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly41Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly42Enhanced">
+        <Title>%PlanetAnomaly42EnhancedTitle</Title>
+        <Description>%PlanetAnomaly42EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly42Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <!-- 43 is Poor Soil (Negative)  -->
+	<!-- 44 is High Gravity (Negative)  -->
+
+    <ExtendedGuiElement Name="PlanetAnomaly45Enhanced">
+        <Title>%PlanetAnomaly45EnhancedTitle</Title>
+        <Description>%PlanetAnomaly45EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly45Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly46Enhanced">
+        <Title>%PlanetAnomaly46EnhancedTitle</Title>
+        <Description>%PlanetAnomaly46EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly46Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly47Enhanced">
+        <Title>%PlanetAnomaly47EnhancedTitle</Title>
+        <Description>%PlanetAnomaly47EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly47Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly48Enhanced">
+        <Title>%PlanetAnomaly48EnhancedTitle</Title>
+        <Description>%PlanetAnomaly48EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly48Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly49Enhanced">
+        <Title>%PlanetAnomaly49EnhancedTitle</Title>
+        <Description>%PlanetAnomaly49EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly49Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+  <!-- CRESCENT ANOMALIES -->
+
+    <ExtendedGuiElement Name="PlanetAnomaly50Enhanced">
+        <Title>%PlanetAnomaly50EnhancedTitle</Title>
+        <Description>%PlanetAnomaly50EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly50Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly51Enhanced">
+        <Title>%PlanetAnomaly51EnhancedTitle</Title>
+        <Description>%PlanetAnomaly51EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly51Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly52Enhanced">
+        <Title>%PlanetAnomaly52EnhancedTitle</Title>
+        <Description>%PlanetAnomaly52EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly52Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PlanetAnomaly53Enhanced">
+        <Title>%PlanetAnomaly53EnhancedTitle</Title>
+        <Description>%PlanetAnomaly53EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly53Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+	
+    <!-- NATURAL WONDERS -->
+    <GuiElement Name="PlanetAnomalyNaturalWonder1Enhanced">
+        <Title>%PlanetAnomalyNaturalWonder1EnhancedTitle</Title>
+        <Description>%PlanetAnomalyNaturalWonder1EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder1Large"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyNaturalWonder2Enhanced">
+        <Title>%PlanetAnomalyNaturalWonder2EnhancedTitle</Title>
+        <Description>%PlanetAnomalyNaturalWonder2EnhancedDescription</Description> 
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyNaturalWonder3Enhanced">
+        <Title>%PlanetAnomalyNaturalWonder3EnhancedTitle</Title>
+        <Description>%PlanetAnomalyNaturalWonder3EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder3Large"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyNaturalWonder4Enhanced">
+        <Title>%PlanetAnomalyNaturalWonder4EnhancedTitle</Title>
+        <Description>%PlanetAnomalyNaturalWonder4EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder4Large"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyNaturalWonder5Enhanced">
+        <Title>%PlanetAnomalyNaturalWonder5EnhancedTitle</Title>
+        <Description>%PlanetAnomalyNaturalWonder5EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder5Large"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyNaturalWonder6Enhanced">
+        <Title>%PlanetAnomalyNaturalWonder6EnhancedTitle</Title>
+        <Description>%PlanetAnomalyNaturalWonder6EnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder6Large"/>
+        </Icons>
+    </GuiElement>    
+
+  <!-- RUIN ANOMALIES - REDUCED -->
+
+    <GuiElement Name="PlanetAnomalyRemainsEncounterLargeReduced">
+        <Title>%PlanetAnomalyRemainsEncounterLargeReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsEncounterLargeReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsEncounterLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsEncounterMediumReduced">
+        <Title>%PlanetAnomalyRemainsEncounterMediumReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsEncounterMediumReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsEncounterLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsEncounterSmallReduced">
+        <Title>%PlanetAnomalyRemainsEncounterSmallReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsEncounterSmallReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsEncounterLarge"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyRemainsMinorFactionReduced">
+        <Title>%PlanetAnomalyRemainsMinorFactionReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsMinorFactionReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsMinorFactionLarge"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyRemainsPirateLairLargeReduced">
+        <Title>%PlanetAnomalyRemainsPirateLairLargeReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsPirateLairLargeReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsPirateLairLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsPirateLairMediumReduced">
+        <Title>%PlanetAnomalyRemainsPirateLairMediumReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsPirateLairMediumReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsPirateLairLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsPirateLairSmallReduced">
+        <Title>%PlanetAnomalyRemainsPirateLairSmallReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsPirateLairSmallReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsPirateLairLarge"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyRemainsGroundBattleLargeReduced">
+        <Title>%PlanetAnomalyRemainsGroundBattleLargeReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsGroundBattleLargeReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsGroundBattleLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsGroundBattleMediumReduced">
+        <Title>%PlanetAnomalyRemainsGroundBattleMediumReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsGroundBattleMediumReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsGroundBattleLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsGroundBattleSmallReduced">
+        <Title>%PlanetAnomalyRemainsGroundBattleSmallReducedTitle</Title>
+        <Description>%PlanetAnomalyRemainsGroundBattleSmallReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsGroundBattleLarge"/>
+        </Icons>
+    </GuiElement>
+	
+  <!-- RUIN ANOMALIES - ENHANCED -->
+
+    <GuiElement Name="PlanetAnomalyRemainsEncounterLargeEnhanced">
+        <Title>%PlanetAnomalyRemainsEncounterLargeEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsEncounterLargeEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsEncounterLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsEncounterMediumEnhanced">
+        <Title>%PlanetAnomalyRemainsEncounterMediumEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsEncounterMediumEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsEncounterLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsEncounterSmallEnhanced">
+        <Title>%PlanetAnomalyRemainsEncounterSmallEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsEncounterSmallEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsEncounterLarge"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyRemainsMinorFactionEnhanced">
+        <Title>%PlanetAnomalyRemainsMinorFactionEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsMinorFactionEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsMinorFactionLarge"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyRemainsPirateLairLargeEnhanced">
+        <Title>%PlanetAnomalyRemainsPirateLairLargeEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsPirateLairLargeEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsPirateLairLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsPirateLairMediumEnhanced">
+        <Title>%PlanetAnomalyRemainsPirateLairMediumEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsPirateLairMediumEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsPirateLairLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsPirateLairSmallEnhanced">
+        <Title>%PlanetAnomalyRemainsPirateLairSmallEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsPirateLairSmallEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsPirateLairLarge"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomalyRemainsGroundBattleLargeEnhanced">
+        <Title>%PlanetAnomalyRemainsGroundBattleLargeEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsGroundBattleLargeEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsGroundBattleLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsGroundBattleMediumEnhanced">
+        <Title>%PlanetAnomalyRemainsGroundBattleMediumEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsGroundBattleMediumEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsGroundBattleLarge"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="PlanetAnomalyRemainsGroundBattleSmallEnhanced">
+        <Title>%PlanetAnomalyRemainsGroundBattleSmallEnhancedTitle</Title>
+        <Description>%PlanetAnomalyRemainsGroundBattleSmallEnhancedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsGroundBattleLarge"/>
+        </Icons>
+    </GuiElement>
+  
+  <!-- Enhancements -->
+  <GuiElement Name="AnomalyEnhancement01">
+    <Title>%ToEnhancePlanetAnomaly01Title</Title>
+    <Description>%ToEnhancePlanetAnomaly01Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly01Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly01Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement02">
+    <Title>%ToEnhancePlanetAnomaly02Title</Title>
+    <Description>%ToEnhancePlanetAnomaly02Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly02Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly02Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement03">
+    <Title>%ToEnhancePlanetAnomaly03Title</Title>
+    <Description>%ToEnhancePlanetAnomaly03Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly03Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly03Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement04">
+    <Title>%ToEnhancePlanetAnomaly04Title</Title>
+    <Description>%ToEnhancePlanetAnomaly04Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly04Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly04Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement05">
+    <Title>%ToEnhancePlanetAnomaly05Title</Title>
+    <Description>%ToEnhancePlanetAnomaly05Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly05Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly05Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement06">
+    <Title>%ToEnhancePlanetAnomaly06Title</Title>
+    <Description>%ToEnhancePlanetAnomaly06Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly06Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly06Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement07">
+    <Title>%ToEnhancePlanetAnomaly07Title</Title>
+    <Description>%ToEnhancePlanetAnomaly07Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly07Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly07Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement08">
+    <Title>%ToEnhancePlanetAnomaly08Title</Title>
+    <Description>%ToEnhancePlanetAnomaly08Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly08Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly08Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement09">
+    <Title>%ToEnhancePlanetAnomaly09Title</Title>
+    <Description>%ToEnhancePlanetAnomaly09Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly09Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly09Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement10">
+    <Title>%ToEnhancePlanetAnomaly10Title</Title>
+    <Description>%ToEnhancePlanetAnomaly10Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly10Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly10Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement11">
+    <Title>%ToEnhancePlanetAnomaly11Title</Title>
+    <Description>%ToEnhancePlanetAnomaly11Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly11Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly11Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement12">
+    <Title>%ToEnhancePlanetAnomaly12Title</Title>
+    <Description>%ToEnhancePlanetAnomaly12Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly12Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly12Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement13">
+    <Title>%ToEnhancePlanetAnomaly13Title</Title>
+    <Description>%ToEnhancePlanetAnomaly13Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly13Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly13Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement14">
+    <Title>%ToEnhancePlanetAnomaly14Title</Title>
+    <Description>%ToEnhancePlanetAnomaly14Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly14Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly14Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement15">
+    <Title>%ToEnhancePlanetAnomaly15Title</Title>
+    <Description>%ToEnhancePlanetAnomaly15Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly15Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly15Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement16">
+    <Title>%ToEnhancePlanetAnomaly16Title</Title>
+    <Description>%ToEnhancePlanetAnomaly16Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly16Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly16Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement17">
+    <Title>%ToEnhancePlanetAnomaly17Title</Title>
+    <Description>%ToEnhancePlanetAnomaly17Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly17Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly17Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement18">
+    <Title>%ToEnhancePlanetAnomaly18Title</Title>
+    <Description>%ToEnhancePlanetAnomaly18Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly18Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly18Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement19">
+    <Title>%ToEnhancePlanetAnomaly19Title</Title>
+    <Description>%ToEnhancePlanetAnomaly19Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly19Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly19Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement20">
+    <Title>%ToEnhancePlanetAnomaly20Title</Title>
+    <Description>%ToEnhancePlanetAnomaly20Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly20Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly20Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement21">
+    <Title>%ToEnhancePlanetAnomaly21Title</Title>
+    <Description>%ToEnhancePlanetAnomaly21Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly21Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly21Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement22">
+    <Title>%ToEnhancePlanetAnomaly22Title</Title>
+    <Description>%ToEnhancePlanetAnomaly22Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly22Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly22Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement23">
+    <Title>%ToEnhancePlanetAnomaly23Title</Title>
+    <Description>%ToEnhancePlanetAnomaly23Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly23Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly23Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement24">
+    <Title>%ToEnhancePlanetAnomaly24Title</Title>
+    <Description>%ToEnhancePlanetAnomaly24Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly24Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly24Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement28">
+    <Title>%ToEnhancePlanetAnomaly28Title</Title>
+    <Description>%ToEnhancePlanetAnomaly28Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly28Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly28Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement29">
+    <Title>%ToEnhancePlanetAnomaly29Title</Title>
+    <Description>%ToEnhancePlanetAnomaly29Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly29Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly29Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement30">
+    <Title>%ToEnhancePlanetAnomaly30Title</Title>
+    <Description>%ToEnhancePlanetAnomaly30Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly30Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly30Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement31">
+    <Title>%ToEnhancePlanetAnomaly31Title</Title>
+    <Description>%ToEnhancePlanetAnomaly31Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly31Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly31Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement32">
+    <Title>%ToEnhancePlanetAnomaly32Title</Title>
+    <Description>%ToEnhancePlanetAnomaly32Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly32Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly32Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement33">
+    <Title>%ToEnhancePlanetAnomaly33Title</Title>
+    <Description>%ToEnhancePlanetAnomaly33Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly33Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly33Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement34">
+    <Title>%ToEnhancePlanetAnomaly34Title</Title>
+    <Description>%ToEnhancePlanetAnomaly34Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly34Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly34Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement35">
+    <Title>%ToEnhancePlanetAnomaly35Title</Title>
+    <Description>%ToEnhancePlanetAnomaly35Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly35Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly35Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement36">
+    <Title>%ToEnhancePlanetAnomaly36Title</Title>
+    <Description>%ToEnhancePlanetAnomaly36Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly36Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly36Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement37">
+    <Title>%ToEnhancePlanetAnomaly37Title</Title>
+    <Description>%ToEnhancePlanetAnomaly37Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly37Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly37Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement38">
+    <Title>%ToEnhancePlanetAnomaly38Title</Title>
+    <Description>%ToEnhancePlanetAnomaly38Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly38Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly38Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement39">
+    <Title>%ToEnhancePlanetAnomaly39Title</Title>
+    <Description>%ToEnhancePlanetAnomaly39Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly39Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly39Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement40">
+    <Title>%ToEnhancePlanetAnomaly40Title</Title>
+    <Description>%ToEnhancePlanetAnomaly40Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly40Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly40Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement41">
+    <Title>%ToEnhancePlanetAnomaly41Title</Title>
+    <Description>%ToEnhancePlanetAnomaly41Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly41Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly41Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement42">
+    <Title>%ToEnhancePlanetAnomaly42Title</Title>
+    <Description>%ToEnhancePlanetAnomaly42Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly42Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly42Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement43">
+    <Title>%ToEnhancePlanetAnomaly43Title</Title>
+    <Description>%ToEnhancePlanetAnomaly43Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly43Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly43Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement44">
+    <Title>%ToEnhancePlanetAnomaly44Title</Title>
+    <Description>%ToEnhancePlanetAnomaly44Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly36Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly36Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement45">
+    <Title>%ToEnhancePlanetAnomaly45Title</Title>
+    <Description>%ToEnhancePlanetAnomaly45Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly45Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly45Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement46">
+    <Title>%ToEnhancePlanetAnomaly46Title</Title>
+    <Description>%ToEnhancePlanetAnomaly46Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly46Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly46Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement47">
+    <Title>%ToEnhancePlanetAnomaly47Title</Title>
+    <Description>%ToEnhancePlanetAnomaly47Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly47Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly47Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement48">
+    <Title>%ToEnhancePlanetAnomaly48Title</Title>
+    <Description>%ToEnhancePlanetAnomaly48Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly48Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly48Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement49">
+    <Title>%ToEnhancePlanetAnomaly49Title</Title>
+    <Description>%ToEnhancePlanetAnomaly49Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly49Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly49Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement50">
+    <Title>%ToEnhancePlanetAnomaly50Title</Title>
+    <Description>%ToEnhancePlanetAnomaly50Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly50Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly50Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement51">
+    <Title>%ToEnhancePlanetAnomaly51Title</Title>
+    <Description>%ToEnhancePlanetAnomaly51Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly51Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly51Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement52">
+    <Title>%ToEnhancePlanetAnomaly52Title</Title>
+    <Description>%ToEnhancePlanetAnomaly52Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly52Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly52Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancement53">
+    <Title>%ToEnhancePlanetAnomaly53Title</Title>
+    <Description>%ToEnhancePlanetAnomaly53Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomaly53Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly53Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+    <!--Wonders-->
+  <GuiElement Name="AnomalyNaturalWonderEnhancement1">
+    <Title>%ToEnhancePlanetAnomalyNaturalWonder1Title</Title>
+    <Description>%ToEnhancePlanetAnomalyNaturalWonder1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyNaturalWonder1Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder1Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyNaturalWonderEnhancement2">
+    <Title>%ToEnhancePlanetAnomalyNaturalWonder2Title</Title>
+    <Description>%ToEnhancePlanetAnomalyNaturalWonder2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyNaturalWonder2Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyNaturalWonderEnhancement3">
+    <Title>%ToEnhancePlanetAnomalyNaturalWonder3Title</Title>
+    <Description>%ToEnhancePlanetAnomalyNaturalWonder3Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyNaturalWonder3Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder3Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyNaturalWonderEnhancement4">
+    <Title>%ToEnhancePlanetAnomalyNaturalWonder4Title</Title>
+    <Description>%ToEnhancePlanetAnomalyNaturalWonder4Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyNaturalWonder4Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder4Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyNaturalWonderEnhancement5">
+    <Title>%ToEnhancePlanetAnomalyNaturalWonder5Title</Title>
+    <Description>%ToEnhancePlanetAnomalyNaturalWonder5Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyNaturalWonder5Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder5Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyNaturalWonderEnhancement6">
+    <Title>%ToEnhancePlanetAnomalyNaturalWonder6Title</Title>
+    <Description>%ToEnhancePlanetAnomalyNaturalWonder6Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyNaturalWonder6Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder6Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <!--Ruinous Anomalies-->
+  <GuiElement Name="PlanetAnomalyRemainsEncounterLargeEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsEncounterLargeTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsEncounterLargeTitle</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly54Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly54Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PlanetAnomalyRemainsEncounterMediumEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsEncounterMediumTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsEncounterMediumTitle</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly54Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly54Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PlanetAnomalyRemainsEncounterSmallEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsEncounterSmallTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsEncounterSmallTitle</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly54Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly54Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PlanetAnomalyRemainsMinorFactionEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsMinorFactionTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsMinorFactionDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyNaturalWonder3Small.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder3Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PlanetAnomalyRemainsPirateLairLargeEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsPirateLairLargeTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsPirateLairLargeDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyRemainsPirateLairSmall.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsPirateLairLarge"/>
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PlanetAnomalyRemainsPirateLairMediumEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsPirateLairMediumTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsPirateLairMediumDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyRemainsPirateLairSmall.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsPirateLairLarge"/>
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PlanetAnomalyRemainsPirateLairSmallEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsPirateLairSmallTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsPirateLairSmallDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyRemainsPirateLairSmall.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsPirateLairLarge"/>
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="PlanetAnomalyRemainsGroundBattleLargeEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsGroundBattleLargeTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsGroundBattleLargeDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyRemainsGroundBattleSmall.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsGroundBattleLarge"/>
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PlanetAnomalyRemainsGroundBattleMediumEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsGroundBattleMediumTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsGroundBattleMediumDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyRemainsGroundBattleSmall.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsGroundBattleLarge"/>
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PlanetAnomalyRemainsGroundBattleSmallEnhancement">
+    <Title>%ToReducePlanetAnomalyRemainsGroundBattleSmallTitle</Title>
+    <Description>%ToReducePlanetAnomalyRemainsGroundBattleSmallDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Anomalies\PlanetAnomalyRemainsGroundBattleSmall.png" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyRemainsGroundBattleLarge"/>
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+  
+
+  <!--fix for anom displaying wrong shit-->
+  <GuiElement Name="PlanetAnomaly10Reduced">
+    <Title>%PlanetAnomaly10Title</Title>
+    <Description>%PlanetAnomaly10Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+		<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly10Large"/>
+    </Icons>
+  </GuiElement>
+
+  <!-- Reductions -->
+  <GuiElement Name="AnomalyReduction10">
+    <Title>%ToReduceAnomaly10Title</Title>
+    <Description>%ToReduceAnomaly10Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly10Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly10Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction11">
+    <Title>%ToReduceAnomaly11Title</Title>
+    <Description>%ToReduceAnomaly11Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly11Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly11Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction12">
+    <Title>%ToReduceAnomaly12Title</Title>
+    <Description>%ToReduceAnomaly12Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly12Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly12Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction13">
+    <Title>%ToReduceAnomaly13Title</Title>
+    <Description>%ToReduceAnomaly13Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly13Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly13Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction14">
+    <Title>%ToReduceAnomaly14Title</Title>
+    <Description>%ToReduceAnomaly14Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly14Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly14Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction15">
+    <Title>%ToReduceAnomaly15Title</Title>
+    <Description>%ToReduceAnomaly15Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly15Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly15Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction16">
+    <Title>%ToReduceAnomaly16Title</Title>
+    <Description>%ToReduceAnomaly16Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly16Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly16Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction17">
+    <Title>%ToReduceAnomaly17Title</Title>
+    <Description>%ToReduceAnomaly17Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly17Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly17Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction18">
+    <Title>%ToReduceAnomaly18Title</Title>
+    <Description>%ToReduceAnomaly18Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly18Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly18Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction19">
+    <Title>%ToReduceAnomaly19Title</Title>
+    <Description>%ToReduceAnomaly19Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly19Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly19Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction20">
+    <Title>%ToReduceAnomaly20Title</Title>
+    <Description>%ToReduceAnomaly20Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly20Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly20Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction21">
+    <Title>%ToReduceAnomaly21Title</Title>
+    <Description>%ToReduceAnomaly21Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly21Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly21Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction22">
+    <Title>%ToReduceAnomaly22Title</Title>
+    <Description>%ToReduceAnomaly22Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly22Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly22Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction23">
+    <Title>%ToReduceAnomaly23Title</Title>
+    <Description>%ToReduceAnomaly23Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly23Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly23Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction24">
+    <Title>%ToReduceAnomaly24Title</Title>
+    <Description>%ToReduceAnomaly24Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly24Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly24Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction25">
+    <Title>%AnomalyReduction25Title</Title>
+    <Description>%AnomalyReduction25Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly25Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction25Alt">
+    <Title>%AnomalyReduction25Title</Title>
+    <Description>%AnomalyReduction25Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly25Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction26">
+    <Title>%AnomalyReduction26Title</Title>
+    <Description>%AnomalyReduction26Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly26Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction26Alt">
+    <Title>%AnomalyReduction26Title</Title>
+    <Description>%AnomalyReduction26Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly26Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction27">
+    <Title>%AnomalyReduction27Title</Title>
+    <Description>%AnomalyReduction27Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly27Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction27Alt">
+    <Title>%AnomalyReduction27Title</Title>
+    <Description>%AnomalyReduction27Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly27Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+
+  <GuiElement Name="AnomalyReduction28">
+    <Title>%ToReduceAnomaly28Title</Title>
+    <Description>%ToReduceAnomaly28Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly28Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly28Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction39">
+    <Title>%ToReduceAnomaly39Title</Title>
+    <Description>%ToReduceAnomaly39Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly39Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly39Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction43">
+    <Title>%ToReduceAnomaly43Title</Title>
+    <Description>%ToReduceAnomaly43Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly43Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly43Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction44">
+    <Title>%ToReduceAnomaly44Title</Title>
+    <Description>%ToReduceAnomaly44Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly44Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly44Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction52">
+    <Title>%ToReduceAnomaly52Title</Title>
+    <Description>%ToReduceAnomaly52Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly52Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly52Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction53">
+    <Title>%ToReduceAnomaly53Title</Title>
+    <Description>%ToReduceAnomaly53Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly53Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly53Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction54">
+    <Title>%ToReduceAnomaly54Title</Title>
+    <Description>%ToReduceAnomaly54Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly54Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly54Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyReduction55">
+    <Title>%ToReduceAnomaly55Title</Title>
+    <Description>%ToReduceAnomaly55Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="PlanetAnomaly55Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly55Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+
+  <!-- Simulation Descriptors -->
+  <GuiElement Name="PlanetAnomaly01Regular">
+    <Title>%PlanetAnomaly01Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly02Regular">
+    <Title>%PlanetAnomaly02Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly06Regular">
+    <Title>%PlanetAnomaly06Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly07Regular">
+    <Title>%PlanetAnomaly07Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly08Regular">
+    <Title>%PlanetAnomaly08Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly10Regular">
+    <Title>%PlanetAnomaly10Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly11Regular">
+    <Title>%PlanetAnomaly11Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly12Regular">
+    <Title>%PlanetAnomaly12Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly13Regular">
+    <Title>%PlanetAnomaly13Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly14Regular">
+    <Title>%PlanetAnomaly14Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly15Regular">
+    <Title>%PlanetAnomaly15Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly16Regular">
+    <Title>%PlanetAnomaly16Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly19Regular">
+    <Title>%PlanetAnomaly19Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly20Regular">
+    <Title>%PlanetAnomaly20Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly21Regular">
+    <Title>%PlanetAnomaly21Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly22Regular">
+    <Title>%PlanetAnomaly22Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly30Regular">
+    <Title>%PlanetAnomaly30Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly38Regular">
+    <Title>%PlanetAnomaly38Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly48Regular">
+    <Title>%PlanetAnomaly48Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomaly49Regular">
+    <Title>%PlanetAnomaly49Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomalyNaturalWonder1Regular">
+    <Title>%PlanetAnomalyNaturalWonder1Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomalyNaturalWonder2Regular">
+    <Title>%PlanetAnomalyNaturalWonder2Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomalyNaturalWonder3Regular">
+    <Title>%PlanetAnomalyNaturalWonder3Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomalyNaturalWonder4Regular">
+    <Title>%PlanetAnomalyNaturalWonder4Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomalyNaturalWonder5Regular">
+    <Title>%PlanetAnomalyNaturalWonder5Title</Title>
+  </GuiElement>
+  <GuiElement Name="PlanetAnomalyNaturalWonder6Regular">
+    <Title>%PlanetAnomalyNaturalWonder6Title</Title>
+  </GuiElement>
+
+</Datatable>

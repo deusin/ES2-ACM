@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- Academy Anomaly Effect -->
+  <LocalizationPair Name="%PlanetAnomalyAcademyEffectOverride">+5 Experience per Turn on Heroes on Empire</LocalizationPair>
+
+  <!-- ESG Settings -->
+  <LocalizationPair Name="%AdvancedSettingsESGTitle">ESG Mod Settings</LocalizationPair>
+
+  <!-- Scale Supremacy -->
+  <LocalizationPair Name="%SettingScaleSupremacyVictoryTitle">Scale Supremacy Victory</LocalizationPair>
+  <LocalizationPair Name="%SettingScaleSupremacyVictoryDescription">Enabling this give defensive bonuses to players not in an alliance, so that it scales like all other victory types.</LocalizationPair>
+  <LocalizationPair Name="%SettingScaleSupremacyVictoryTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingScaleSupremacyVictoryTrueDescription">Home systems will gain defensive bonuses based off of number of players, and lose it per alliance member.</LocalizationPair>
+  <LocalizationPair Name="%SettingScaleSupremacyVictoryFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingScaleSupremacyVictoryFalseDescription">Home systems will not gain defensive bonuses based off of number of players, and lose it per alliance member.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementHomeSystemOverride">+100% Troop Health [moins] (% of Players in the galaxy in your Alliance)</LocalizationPair>
+
+  <!-- Tradeable Curiosity Techs-->
+  <LocalizationPair Name="%SettingSettingTradeableCuriosityTechsTitle">Tradeable Curiosity Techs</LocalizationPair>
+  <LocalizationPair Name="%SettingSettingTradeableCuriosityTechsDescription">Enabling this will allow you to trade rare modules and system improvements between players..</LocalizationPair>
+  <LocalizationPair Name="%SettingSettingTradeableCuriosityTechsTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingSettingTradeableCuriosityTechsTrueDescription">Curiosity technologies are tradeable.</LocalizationPair>
+  <LocalizationPair Name="%SettingSettingTradeableCuriosityTechsFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingSettingTradeableCuriosityTechsFalseDescription">Curiosity technologies are not tradeable.</LocalizationPair>
+
+  <!-- Terraform Size -->
+  <LocalizationPair Name="%SettingTerraformSizeTitle">Enable Size Terraformation</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformSizeDescription">Enabling this will allow you to terraform planets to increase size. Disabling this will make it just like vanilla. Enabling free terraformation with this enabled will allow you to terraform planet sizes down.</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformSizeTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformSizeTrueDescription">You will be able to terraform planet sizes.</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformSizeFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformSizeFalseDescription">You will not be able to terraform planet sizes.</LocalizationPair>
+
+  <!-- Terraform Jovian -->
+  <LocalizationPair Name="%SettingTerraformJovianTitle">Enable Jovian Terraformation</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformJovianDescription">Enabling this will allow you to terraform gas planets. Disabling this will make you unable to terraform gas planets. Enabling free terraformation with this enabled will allow you to terraform between telluric and jovian planets.</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformJovianTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformJovianTrueDescription">You will be able to terraform gas planets.</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformJovianFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingTerraformJovianFalseDescription">You will not be able to terraform gas planets.</LocalizationPair>
+
+  <!-- Create Sanctuary via Hacking -->
+  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsTitle">Enable Home-System Hacking Sanctuaries</LocalizationPair>
+  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsDescription">Enabling this will allow the Umbral Choir to hack Sanctuaries onto systems required for Supremacy Victory. Disabling will prevent any shenanigans trouble-maker players will start.</LocalizationPair>
+  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsTrueDescription">You will be able to create sanctuaries on major faction home-systems.</LocalizationPair>
+  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsFalseDescription">You will not be able to create sanctuaries on major faction home-systems.</LocalizationPair>
+
+  <!-- Enable ESG Content -->
+  <LocalizationPair Name="%SettingEnableESGContentTitle">Enable ESG Content</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableESGContentDescription">The ESG mod occasionally adds content rather than just rebalancing. Disabling this will allow you experience the game without any of this added content. This mostly includes modules, system improvements, and empire improvements.</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableESGContentTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableESGContentTrueDescription">You will be able to use ESG Mod content.</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableESGContentFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableESGContentFalseDescription">You will not be able to use ESG Mod content.</LocalizationPair>
+
+  <!-- Enable Alliances -->
+  <LocalizationPair Name="%SettingEnableAlliancesTitle">Enable Alliances</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableAlliancesDescription">Turning this setting off disallows anyone from creating or joining an alliance.</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableAlliancesTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableAlliancesTrueDescription">You will be able to create/join alliances.</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableAlliancesFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableAlliancesFalseDescription">You will not be able to create/join alliances.</LocalizationPair>
+
+  <!-- Personality Traits -->
+  <LocalizationPair Name="%PersonalityDescriptionTooltipOverride">This trait is used to customize AI behavior. Leaving a custom faction with no traits will make the AI act like a standard faction, with no preferences.</LocalizationPair>
+
+  <!-- Tooltip -->
+  <LocalizationPair Name="%PopulationCollectionBonusTimeLords3_TooltipEffect">Wormhole travel consumes only a half of a ship's remaining movement points</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetQuest-Chapter3B-Choice01Objective">Reach $Amount01Name [prestigeColored] per [turn] and $Amount02Name [happinessColored] in your Empire</LocalizationPair>
+  <LocalizationPair Name="%TimeLordsQuest-Chapter1-Part1-EcologistObjective">Explore $Amount01Name Curiosities.</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportJuggernautMiningStartingTitle">Basic Mining Probe</LocalizationPair>
+
+  <!-- Swamp -->
+  <LocalizationPair Name="%PlanetTypeSwampTitle">Swamp</LocalizationPair>
+  <LocalizationPair Name="%PlanetTypeSwampDescription">Favored by monsters and hermits, swamp worlds offer fetid bogs, thick mists, and decent yields of methane gas. Less widely known, however, is their capacity for producing incredible crops of funky, yet still edible, fungi, due to the perfect conditions of moisture and mulch.</LocalizationPair>
+  <LocalizationPair Name="%PlanetColonizationSwampTitle">Colonize Swamp</LocalizationPair>
+  <LocalizationPair Name="%PlanetColonizationSwampDescription">Colonization of Swamp-type planets relies on inventions that master the various systems needed for filtration and drainage, as deadly chemicals and radiation are often abundant in the atmosphere and soil. The environments are deadly and unforgiving if these processes are not executed perfectly.</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToSwampTitle">Terraform To Swamp</LocalizationPair>
+
+  <!-- Terraformation -->
+  <LocalizationPair Name="%PlanetTerraformationToGasBurningTitle">Terraform to Gas Burning</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasBurningDescription">As close as one can get to a livable star, these whirling storms of atmospheric silica can be developed through the application of space debris and ruthless high-energy bombardment, stirring the planet to ignition and creating a world of flaming skies.</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasHotTitle">Terraform to Gas Hot</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasHotDescription">Solar arrays and a layer of carefully organized greenhouse gases can turn a a Jovian planet into a kind of atmospheric oven, eventually turning into a self-sustaining celestial engine ready to drive heavy industrial arrays.</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasWarmTitle">Terraform to Gas Warm</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasWarmDescription">Planetary filters and invisible gases allow heat to be trapped without blocking sunlight, creating worlds with excellent solar exposure while retaining the unique industrial outputs of a planet practically made of easy-to-access materials.</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasTemperateTitle">Terraform to Gas Temperate</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasTemperateDescription">Beautiful and breezy, it takes a lot of asteroid mining to collect the ice necessary to create a water vapor atmosphere, but once the thawing is done the sapphire blue skies of a temperate Jovian make a life in the sky downright pleasant.</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasColdTitle">Terraform to Gas Cold</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasColdDescription">Sealed stations spray massive clouds of ammonia into the humid atmosphere to create these planets, balancing it with water vapor to accommodate floating research settlements capable of easy reconfiguration.</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasFrozenTitle">Terraform to Gas Frozen</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasFrozenDescription">The removal of water from an ammonia-heavy atmosphere allows for even lower temperatures, turning a Jovian planet into a celestial refrigerator suitable for all sorts of super-computer development projects, though life becomes even more difficult for their crews and science teams.</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasFrozenOverride">Can Terraform following Planets to Gas Frozen:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasColdOverride">Can Terraform following Planets to Gas Cold:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasTemperateOverride">Can Terraform following Planets to Gas Temperate:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasWarmOverride">Can Terraform following Planets to Gas Warm:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasHotOverride">Can Terraform following Planets to Gas Hot:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToGasBurningOverride">Can Terraform following Planets to Gas Burning:</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetTerraformationToHugeTitle">Terraform to Huge</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToLargeTitle">Terraform to Large</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToMediumTitle">Terraform to Medium</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToSmallTitle">Terraform to Small</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToTinyTitle">Terraform to Tiny</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToHugeOverride">Can Terraform following Planets to Huge:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToLargeOverride">Can Terraform following Planets to Large:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToMediumOverride">Can Terraform following Planets to Medium:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToSmallOverride">Can Terraform following Planets to Small:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToTinyOverride">Can Terraform following Planets to Tiny:</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationSizeIncreaseDescription">The simplest method of making a planet bigger is to simply smash it into another celestial object, and wait for the dust to settle. With the newest gravity manipulation tech though, this natural process can be scheduled and accelerated, drawing in asteroids and meteorite swarms for on-demand mountains and raw mass.</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationSizeDecreaseDescription">Making a planet smaller is a terrifying and violent ordeal, but by no means a creative or complex one. Simply find the densest celestial body available, and smash it into the planet at a shallow angle, blowing entire continents into space like planetary blood spatter before carving out the environment again. A small apocalypse, applied as mere infrastructure.</LocalizationPair>
+
+  <LocalizationPair Name="%EmpireImprovementJovianTerraformation1Title">Jovian Terraformation</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementJovianTerraformation1Description">Likely the simplest kind of terraforming, a gas planet only requires a shift in atmosphere, accomplished through networks of low orbit satellites which spray chemical additives to change temperature and weather hostility.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementJovianTerraformation1Override">Planet Terraformation between types of Gas Planets</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementJovianTerraformation2Title">Jovian-Telluric Conversion</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementJovianTerraformation2Description">The most difficult kind of terraforming, even the Endless struggled with the process of collapsing Jovian planets and dismantling Telluric ones, for a time anyways. Nanites, atmospheric manipulation, and old fashioned explosives can shred a planet into a cloud of particles, while hovering chemical plants and asteroid collection campaigns are necessary to turn a planets atmosphere to liquid seas and mold a solid core.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementJovianTerraformation2Override">Planet Terraformation between Gas and Telluric Planets</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSizeTerraformation1Title">Graviton Manipulators</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSizeTerraformation1Description">While advanced construction makes housing and infrastructure an increasingly minor concern, people will always want a bit more natural space. New tractor beam technology and gravitic manipulators will allow space debris to be gently lowered to a planets surface, then shaken apart and evenly redistributed to slowly increase a worlds overall mass. Finally, people can have more of the same worlds they love.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSizeTerraformation1Override">Planet Terraformation to increase Planet Size</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSizeTerraformation2Title">Cataclysmic Separation</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSizeTerraformation2Description">Quick and easy, the most difficult part of shrinking a planet is convincing it's inhabitants to participate in the destruction of their own home. There are few, if any, reasons to go along with such a plan, and even for the interstellar empire pulling the strings it will likely appear a nonsensical act of spite, like destroying a mountain as vengeance for an avalanche. Reverse psychology and new temporary orbital housing technology allow the people to be kept safe during the horrifying process of planet reduction, enabling this new and strange method to be applied.</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSizeTerraformation2Override">Planet Terraformation to decrease Planet Size</LocalizationPair>
+
+  <!-- Laws -->
+  <LocalizationPair Name="%PopulationCollectionBonusAmoeba3_TooltipEffect">"Thick Skins" Law Unlocked (-50% Diplomatic Pressure against your Empire)</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusBenthys3_TooltipEffect">"Happy Sardines" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusBots3_TooltipEffect">"Fast Clean-up" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDeuyivans3_TooltipEffect">"Good Science" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusEyders3_TooltipEffect">"Dust Diggers" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMavros3_TooltipEffect">"Crack Squads" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusNiris3_TooltipEffect">"Symbiotic Living" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPilgrims3_TooltipEffect">"Blindsight" Law Unlocked)</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPulsos3_TooltipEffect">"Coop Code" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusRemnant3_TooltipEffect">"Laser-Like Law" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusGuardians3_TooltipEffect">"Peace Prescription" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusHaroshems3_TooltipEffect">"Healthy Staples" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusHisshos3_TooltipEffect">"Bring 'Em, Break 'Em" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusZvali3_TooltipEffect">"Drop In, Tune Out" Law Unlocked (0% [fidsi] Penalty from Blockades)</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusGreenman3_TooltipEffect">"Drill Mill" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusSowers3_TooltipEffect">"Sow and Reap" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusKalTikMas3_TooltipEffect">"Moving Tributes" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusSefaloros3_TooltipEffect">"Bux for Lux" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusGalvrans3_TooltipEffect">"Quarks and Quarries" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusHarmony_TooltipEffect">"Happy Harmonies" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusIllo3_TooltipEffect">"Fists of Fear Edict" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMinorHacking3_TooltipEffect">"Societal Bandwidth" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMinorOraculars3_TooltipEffect">"Planet Paydirt" Law Unlocked (+50% [dustColored] on Systems with Unique Planets)</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusBasryxo3_TooltipEffect">"Footprint Formulary" Law Unlocked</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusSistersOfMercy3_TooltipEffect">"Blessings and Bandages" Law Unlocked</LocalizationPair>
+
+  <!-- Faction Traits -->
+  <LocalizationPair Name="%FactionTraitUnfallenColonizationTitle">Manifest Destiny</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitUnfallenColonizationDescription">A deep-rooted need for steady expansion means this faction spreads to new planets without requiring infrastructure to be constructed.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitUnfallenColonizationEffectOverride">Planet colonization doesn't use industry, and instead has a flat turn cost.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRiftbornTerraformationEffectOverride">Planet Terraformation is reversed, and goes from Fertile to Sterile.</LocalizationPair>
+
+  <!-- Negative/Mixed Anomalies -->
+  <!-- Ice-10 -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly10Title">Ice-10</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly10Description">This Empire was cursed with bad luck and begins its story with Ice-10 on their home planet.</LocalizationPair>
+
+  <!-- Permanent Monsoon -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly11Title">Permanent Monsoon</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly11Description">This Empire was cursed with bad luck and begins its story with a Permanent Monsoon on their home planet.</LocalizationPair>
+
+  <!-- Metallic Waters -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly12Title">Metallic Waters</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly12Description">This Empire was cursed with bad luck and begins its story with Metallic Waters on their home planet.</LocalizationPair>
+
+  <!-- Aurora Waves -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly13Title">Aurora Waves</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly13Description">This Empire was cursed with bad luck and begins its story with Aurora Waves on their home planet.</LocalizationPair>
+
+  <!-- Psychoactive Air -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly15Title">Psychoactive Air</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly15Description">This Empire was cursed with bad luck and begins its story with Psychoactive Air on their home planet.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly15EffectOverride">-1 [scienceColored] per [population]
++1 [dustColored] per [population]
++1 [happinessColored] per [population]</LocalizationPair>
+
+  <!-- Geothermic Activity -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly16Title">Geothermic Activity</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly16Description">This Empire was cursed with bad luck and begins its story with Geothermic Activity on their home planet.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly16EffectOverride">+1 [industryColored] per [population]
+-1 [scienceColored] per [population]</LocalizationPair>
+
+  <!-- Seismic Activity -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly17Title">Seismic Activity</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly17Description">This Empire was cursed with bad luck and begins its story with Seismic Activity on their home planet.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly17EffectOverride">-1 [dustColored] per [population]
++1 [scienceColored] per [population]
+-2 [happinessColored] per [population]</LocalizationPair>
+
+  <!-- Long Season -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly18Title">Long Season</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly18Description">This Empire was cursed with bad luck and begins its story with a Long Season on their home planet.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly18EffectOverride">-1 [dustColored] per [population]
+-1 [foodColored] per [population]</LocalizationPair>
+
+  <!-- Meteor Strikes -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly19Title">Meteor Strikes</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly19Description">This Empire was cursed with bad luck and begins its story with Meteor Strikes on their home planet.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly19EffectOverride">+1 [industryColored] per [population]
+-1 [scienceColored] per [population]
+-2 [happinessColored] per [population]</LocalizationPair>
+
+  <!-- Polar Tempests -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly20Title">Polar Tempests</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly20Description">This Empire was cursed with bad luck and begins its story with Polar Tempests on their home planet.</LocalizationPair>
+
+  <!-- Strong Magnetic Field -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly21Title">Strong Magnetic Field</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly21Description">This Empire was cursed with bad luck and begins its story with a Strong Magnetic Field on their home planet.</LocalizationPair>
+
+  <!-- Kessler Syndrome -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly22Title">Kessler Syndrome</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly22Description">This Empire was cursed with bad luck and begins its story with Kessler Syndrome on their home planet.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly22EffectOverride">-1 [dustColored] per [population]
+-1 [industryColored] per [population]
+-2 [scienceColored] per [population]</LocalizationPair>
+
+  <!-- Acid Rain -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly23Title">Acid Rain</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly23Description">This Empire was cursed with bad luck and begins its story with Acid Rain on their home planet.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly23EffectOverride">-2 [industryColored] per [population]
+-4 [happinessColored]</LocalizationPair>
+
+  <!-- Irradiated -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly24Title">Irradiated</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly24Description">This Empire was cursed with bad luck and begins its story with an Irradiated home planet.</LocalizationPair>
+
+  <!-- Hostile Fauna -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly28Title">Hostile Fauna</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly28Description">This Empire was cursed with bad luck and begins its story with Hostile Fauna on their home planet.</LocalizationPair>
+
+  <!-- Shattered Crust -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly39Title">Shattered Crust</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly39Description">This Empire was cursed with bad luck and begins its story with a Shattered Crust on their home planet.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly39EffectOverride">+2 [dustColored] per [population]
+-1 [industryColored] per [population]
+-2 [happinessColored] per [population]</LocalizationPair>
+
+  <!-- Poor Soil -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly43Title">Poor Soil</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly43Description">This Empire was cursed with bad luck and begins its story with Poor Soil on their home planet.</LocalizationPair>
+
+  <!-- High Gravity -->
+  <LocalizationPair Name="%FactionTraitStartingAnomaly44Title">High Gravity</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingAnomaly44Description">This Empire was cursed with bad luck and begins its story with High Gravity on their home planet.</LocalizationPair>
+
+  <!-- Shield regeneration - flat rate, flotilla-wide -->
+  <LocalizationPair Name="%ModuleSupportShieldRegenerate1Strategic4Title">Antimatter Flotilla Regenerator</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportShieldRegenerate1Strategic4Description">As the fleet takes damage in battle, this module is triggered to partially regenerate the shields of all ships.</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportShieldRegenerate2Strategic6Title">Quadrinix Flotilla Regenerator</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportShieldRegenerate2Strategic6Description">As the fleet takes damage in battle, this module is triggered to partially regenerate the shields of all ships.</LocalizationPair>
+
+  <!-- Shield reloader - percentage-based, self-only -->
+  <LocalizationPair Name="%ModuleSupportShieldReload1Strategic4Title">Antimatter Re-Shield Capacitor</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportShieldReload1Strategic4Description">After the ship has taken damage in battle, this module is triggered to partially regenerate its protective capability. The stronger the shield, the more effective it is.</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportShieldReload2Strategic6Title">Quadrinix Re-Shield Capacitor</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportShieldReload2Strategic6Description">After the ship has taken damage in battle, this module can be triggered to regenerate a significant percentage of its protective capability. The stronger the shield, the more effective it is.</LocalizationPair>
+
+  <!-- Coilgun -->
+  <LocalizationPair Name="%ClassModuleIgnoresArmorTitle">Weapon ignores Hull Plating</LocalizationPair>
+  <LocalizationPair Name="%ClassModuleIgnoresShieldsTitle">Weapon ignores Shields</LocalizationPair>
+  <LocalizationPair Name="%CategoryModuleWeaponEnergyCoilgunTitle">Coilgun</LocalizationPair>
+  <LocalizationPair Name="%CategoryModuleWeaponEnergyCoilgunDescription">Long range armor-shredding burst weaponry, fires once per phase with very high damage and reduces armor by 30%.</LocalizationPair>
+  <LocalizationPair Name="%ModuleWeaponEnergyCoilgun1Title">Basic Coilgun</LocalizationPair>
+  <LocalizationPair Name="%ModuleWeaponEnergyCoilgun2Title">Advanced Coilgun</LocalizationPair>
+  <LocalizationPair Name="%ModuleWeaponEnergyCoilgun3Title">Extreme Coilgun</LocalizationPair>
+  <LocalizationPair Name="%ModuleWeaponEnergyCoilgun1HyperiumTitle">Basic Ferrocene Coilgun</LocalizationPair>
+  <LocalizationPair Name="%ModuleWeaponEnergyCoilgun2AntimatterTitle">Advanced Ferrocene Coilgun</LocalizationPair>
+  <LocalizationPair Name="%ModuleWeaponEnergyCoilgun3QuadrinixTitle">Extreme Ferrocene Coilgun</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsArmorDestructionTitle">Armor shattered for Encounter</LocalizationPair>
+  <LocalizationPair Name="%DamageAppliedByCoilgunTitlePlayer">Damage caused by your Coilgun weapons: #E3BDAC#{0}#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%DamageAppliedByCoilgunDescriptionEnemy">Coilguns bypass defenses and shatter armor; stay on Short range as much as possible, they aren't very accurate outside of Long range.</LocalizationPair>
+  <LocalizationPair Name="%DamageAppliedByCoilgunDescriptionPlayer">Coilguns are especially powerful on Long range, stay away from enemies and let the guns do their work!</LocalizationPair>
+
+  <!-- Boarding pods -->
+  <LocalizationPair Name="%ClassModuleBoardingPodExplicationTitle">Boarding Pods reduce [manPower] of enemy Ships every second. The enemy Ship is captured if a Boarding Pod is active and the Ship reaches 0 [manPower].
+Manpower damage is impacted by relative Infantry strength, so Infantry upgrades will affect your damage.
+Boarding Pods will not target special ships.
+Boarding Pods will not consume manpower from the source ship.</LocalizationPair>
+
+  <!-- Hero Skills -->
+  <LocalizationPair Name="%HeroSkill08BranchCorporateTitle">Market Master</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill08BranchCorporateDescription">The hero learns to masterfully track the Stock Market, and can predict the most accurate investments for the system.</LocalizationPair>
+
+  <!-- Game Variables -->
+  <LocalizationPair Name="%SpaceportCapacityTitle">Spaceport Capacity</LocalizationPair>
+
+  <!-- Module Multiplier Coloring -->
+  <LocalizationPair Name="%ShipStatSizeModuleMultiplierDescription">When you add a module to a slot of this ship, #E3BDAC#{0}#REVERT# modules will actually be equipped (so the power and the cost is multiplied by the same amount).
+
+Module effects colored in #C48594#red#REVERT# scale with module multiplier.
+Module effects colored in #6999D5#blue#REVERT# scale with level and module multiplier.</LocalizationPair>
+
+  <LocalizationPair Name="%PanelFeatureModuleEffectsSquadronMaximumHealthTitle">#C48594#Health#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsDefenseHealthTitle">#6999D5#Health Bonus#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsDefenseShieldTitle">#6999D5#Shield Capacity#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%FleetDamageTitle">#C48594#Flotilla Damage#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsSquadronBaseUnitsCountTitle">#C48594#Units in Squadron#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleOpponentRecyclingSciencePerCPScalingTitle">[scienceColored] #C48594#per destroyed Command Point#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleOpponentRecyclingDustPerCPScalingTitle">[dustColored] #C48594#per destroyed Command Point#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleOpponentRecyclingEmpirePointPerCPTitle">[prestigeColored] #C48594#per destroyed Command Point#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleOpponentRecyclingStrategic1PerCPTitle">[Strat01titaniumColored] #C48594#per destroyed Command Point#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleOpponentRecyclingStrategic2PerCPTitle">[Strat02hyperiumColored] #C48594#per destroyed Command Point#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsSupportAdditionalManpowerTitle">#C48594#Additional Manpower#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsBoardingPodHealthTitle">Boarding Pod Health</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsMissileHealthTitle">Salvo Health</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsSupportNetShipMoneyTitle">[dustColored] #C48594#/ [turn] on Empire#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectManpowerDamageOverTimeTitle">#C48594#Manpower DPS#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleFlotillaMaximumShieldTitle">#6999D5#Flotilla Shield Capacity#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%PanelFeatureModuleEffectsRawDamageTitle">#C48594#Raw Damage#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%ShipStatSizeModuleMultiplierTitle"> #C48594#(Modules x{0})#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsNetTerraformationProductionTitle">[industryColored] for Planet Reformation</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleSiegePowerTitle">#C48594#Siege Power#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleOpponentRecyclingDustPerCPTitle">[dustColored] #C48594#per destroyed Command Point#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsDamageAOETitle">#C48594#Collateral Damage#REVERT#</LocalizationPair>
+
+  <!-- Failures -->
+  <LocalizationPair Name="%FailureCannotCloakPlanetCrackerDescription">Fleets with Planet Crackers can not be cloaked.</LocalizationPair>
+  <LocalizationPair Name="%FailureNoPlanetCrackersOnCloakingDescription">Ships with Cloaking can not equip Planet Crackers.</LocalizationPair>
+  <LocalizationPair Name="%FailureNoCloakingPlanetCrackersDescription">Ships with Planet Crackers can not be cloaked.</LocalizationPair>
+  <LocalizationPair Name="%FailureNoMeditationOnCrewDescription">Arks with Manpower modules may not equip Meditation modules.</LocalizationPair>
+  <LocalizationPair Name="%FailureNoCrewOnMeditationDescription">Arks with Meditation modules may not equip Manpower modules.</LocalizationPair>
+
+  <!-- Cravers -->
+  <LocalizationPair Name="%EmpireImprovementQuestCravers06Title">Artificial Hive Minds</LocalizationPair>
+  <LocalizationPair Name="%CraversQuest-Chapter2-Industry-C2Objective">While possessing 35 [Strat01titaniumColored] and 35 [Strat02hyperiumColored], explore the Curiosity on $PlanetName again</LocalizationPair>
+  <LocalizationPair Name="%CraversQuest-Chapter3-Industry-C2Objective">Use your highest level hero to search the Quest Curiosity on the Infinite Factory System.</LocalizationPair>
+  <LocalizationPair Name="%CraversQuest-Chapter3-Religious-C2Objective">Search the Quest Curiosity on the Infinite Factory System with $HeroVirtualName</LocalizationPair>
+
+  <LocalizationPair Name="%SophonsQuest-Chapter1-C2Objective">Take your exploration fleets and discover $Amount03Name Systems in a different Constellation.</LocalizationPair>
+</Datatable>

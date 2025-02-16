@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- Panel Text -->
+  <LocalizationPair Name="%PanelFeatureModuleEffectsPreparationDurationTitle">Czas Przygotowania</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsCooldownTitle">Odnawianie</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsShootingDurationTitle">Czas Ostrzału</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsSquadronSpeedTitle">Prędkość Eskadry</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleBuildingProductionCostReductionTitle">Ulepszenie Systemu w [industryColored] ma redukcję kosztu w Systemach, w których orbituje Behemot</LocalizationPair>
+
+  <!-- Minor Relations -->
+  <LocalizationPair Name="%FailureMustBeFriendlyRelationDescription">Stosunki dyplomatyczne muszą osiągnąć poziom 75 punktów.</LocalizationPair>
+
+  <!-- Hero Skills -->
+  <LocalizationPair Name="%HeroSkill91_Science_PerAnomalyFlat_EffectOverride">+20 [scienceColored] na skolonizowane planety z Anomaliami w Systemie</LocalizationPair>
+
+  <!-- Faction Traits -->
+  <!-- Collection Bonuses -->
+  <LocalizationPair Name="%PopulationCollectionBonusTraitVaultersMilitaryTitle">Zacięta kolekcja</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitVaultersMilitaryDescription">Ta kolekcja jest skupiona na nauce w czasie wojny.</LocalizationPair>
+
+  <LocalizationPair Name="%PopulationCollectionBonusTraitVaultersScienceTitle">Wojskowa kolekcja</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitVaultersScienceDescription">Ta kolekcja jest skupiona na bitwach naziemnych.</LocalizationPair>
+
+  <LocalizationPair Name="%PopulationCollectionBonusTraitSheredynTitle">Patriotyczna kolekcja</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitSheredynDescription">Ta kolekcja jest skupiona na liczebności wojskowej i wpływach.</LocalizationPair>
+
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMezariTitle">Naukowa kolekcja</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMezariDescription">Ta kolekcja jest skupiona na nauce.</LocalizationPair>
+
+  <!-- Tikanan -->
+  <LocalizationPair Name="%FactionTraitMinorSwarm01Title">Mrowie żołnierzy</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorSwarm01_TooltipEffect">15% więcej Żołnierzy podczas Inwazji</LocalizationPair>
+
+  <!-- Harmony -->
+  <LocalizationPair Name="%FactionTraitMinorMindOverBodyTooltipEffects">0.1 [scienceColored] na [foodColored] na Systemy</LocalizationPair>
+
+  <!-- Gnashast -->
+  <LocalizationPair Name="%FactionTraitMinorGnashastTooltipEffects1">+10% [health] dla żołnierzy</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorGnashastTooltipEffects2">+10% obrażeń zadawanych w czasie bitw naziemnych</LocalizationPair>
+
+  <!-- Z'vali -->
+  <LocalizationPair Name="%GamersBubbleExpansionEffect">+10% zasięgu wpływów</LocalizationPair>
+
+  <!-- Remnant -->
+  <LocalizationPair Name="%FactionTraitMinorWorldBuilders02TooltipEffects">Szansa że Ulepszenie Sustemu ulegnie zniszczeniu podczas Inwazji jest mniejsza o 35%</LocalizationPair>
+
+  <!-- Bhagaba -->
+  <LocalizationPair Name="%PopulationModifiersTraitBhagabaInfluenceTitle">Komfortowo i lojalnie</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDiplomats01Title">Osobliwa kuchnia</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDiplomats01Description">Bhagaba przedstawia metody, które przypadkowo wywołują zazdrość o wyjątkowo pyszne jedzenie.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorBhagabaTooltipEffects">0.05 [prestigeColored] na [foodColored], na Systemy</LocalizationPair>
+
+  <!-- Xirmisala -->
+  <LocalizationPair Name="%FactionTraitXirmisalaTraitTooltipEffects">+3 [dustColored] na [population], na planetach jałowych.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitXirmisalaTrait2TooltipEffects">Składki na Akademię są warte o 20% więcej</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorBonusDamageOnAcademyTitle">Dostojeństwo Pyłu</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorBonusDamageOnAcademyDescription">Historia zmian genetycznych dających wrażliwości na pył umożliwia pogłębianie znaczenia pyłu nawet na najbardziej bujnych i zielonych planetach.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorBonusContributionToAcademyDescription">Żarliwa wiara w misję Isyandera i Zagubionych zwiększa składki na Akademię o 20%</LocalizationPair>
+
+  <!-- Nakalim -->
+  <LocalizationPair Name="%EmpireImprovementTemplarsFinalQuest1TooltipEffect">Brak kary w [fids] na Świątynie</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitHeroAssignmentTemplarsTitle">Szybki desant</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitHeroAssignmentTemplarsDescription">Doskonała logistyka pozwala szybko rozmieścić bohaterów. Chociaż bohaterowie mogą nie doceniać twojej skuteczności to jest to naprawdę coś czego należy pozazdrościć.</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitTemplarsTitle">Staranna kolekcja</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitTemplarsDescription">Ta populacja skupia się na pyle i bitwach naziemnych</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTemplars3EffectOverride">Bitwa naziemna, strategia Nakalimów odblokowana: Precyzyjne uderzenia A2G (ulepszone 'Bombardowanie Prewencyjne', które pozwala na rozmieszczenie dodatkowych żołnierzy i zadanie dodatkowych obrażeń od bombardowania)
+Bitwa naziemna, strategia Nakalimów odblokowana: Manipulowanie Formacjami Taktycznymi (ulepszona 'Partyzantka' dająca więcej zdrowia żołnierzom i mniejszą karą do obrażeń od otrzymywanych od żołnierzy przeciwnika)</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleAttackerStrategy3TemplarsTitle">Precyzyjne uderzenia A2G</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleAttackerStrategy3TemplarsDescription">Wieloletnie doświadczenie w bombardowaniu orbitalnym pozwala na dokładniejsze rozmieszczanie sił zadając wrogowi większe szkody bez ryzyka ostrzału własnych żołnierzy.</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleAttackerStrategy1TemplarsTitle">Manipulowanie taktyką formacji</LocalizationPair>
+  <LocalizationPair Name="%GroundBattleAttackerStrategy1TemplarsDescription">Dopracowane do perfekcji, starożytne sztuki walki twojego imperium pozwalają na walkę z każdym typem wroga na każdym terenie bez znaczących strat.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience2TemplarsTitle">Echa przeszłości</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementScience2TemplarsDescription">Wiele anomalii czasoprzestrzennych odbiega od zwykłych i jest konsekwencją działań pradawnej rasy Endless z czasów ich świetności. Niektóre anomalie często ukazują pozostałości pierwotnego pyłu, a tym samym utajone fragmenty świadomości Endless. Ponieważ większość rodzimej „technologii” Nakalimów łączy się bezpośrednio z technologią Endless i ich pyłem, miejsca te mogą wywołać zaskakujące aktywacje „echa” wewnątrz wszelkich artefaktów z tamtej epoki, a wszystko to jest ogromną szansą na zdobycie wiedzy na ten temat.</LocalizationPair>
+  <LocalizationPair Name="%LostTemplarsQuest-Chapter4-Part1B-Ecologist2Objective">Odblokuj $TechToUnlock3 i $TechToUnlock4 technologie</LocalizationPair>
+  <LocalizationPair Name="%LostTemplarsQuest-Chapter4-Part1A-Ecologist2Objective">Odblokuj $TechToUnlock3 i $TechToUnlock4 technologie</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDefense3TemplarsTitle">Szkoły króla Kamdira</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDefense3TemplarsDescription">Założone przez nieżyjącego już króla Kamdira, szkoły te uczą miejscową ludność taktyk samoobrony i wychowują najlepszych z nich, aby stali się strażnikami świątyń. Po latach treningu i intensywnej rytualnej ekspozycji na zawartość niektórych relikwii, straż świątyni nie potrzebuje już mowy aby porozumiewać się ze swoimi towarzyszami podczas obrony świątyń i ich wyznawców.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDefense3TemplarsEffectOverride">+10% Zdrowia dla obrońców Świątyń w Systemie</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementQuestTemplars01Effect">+25 [prestigeColored] na planetę bez Świątyni w Systemie</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementQuestTemplars02Effect">+10 [happinessColored] na Świątynię w Systemie</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementQuestTemplars03Effect">+50 [industryColored] na Świątynię w Systemie</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementQuestTemplars04Effect">+50 [dustColored] na Świątynię w Systemie</LocalizationPair>
+  <LocalizationPair Name="%LostTemplarsQuest-Chapter4-Part1B-EcologistObjective">Odblokuj $TechToUnlock i $Tech2ToUnlock technologie</LocalizationPair>
+
+  <!-- Modules -->
+  <LocalizationPair Name="%ESCMEffectJuggernautEconomicModule1">
++15 [foodcolored] na System
++15 [industrycolored] na System</LocalizationPair>
+  <LocalizationPair Name="%ESCMEffectJuggernautEconomicModule2">
++10 [foodcolored] na System
++10 [industrycolored] na System
+-15% [industrycolored] podczas produkcji Ulepszenia Systemu</LocalizationPair>
+
+  <!-- Custom Module -->
+  <LocalizationPair Name="%ModuleSupportCrew-1Title">Irytator żołnierzy</LocalizationPair>
+  <LocalizationPair Name="%%ModuleSupportCrew-1EffectOverride">-75 [manpowerColored]</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportCrew-1Description">Ten moduł został stworzony specjalnie na potrzeby Akademii. Jest poświęcony marnowaniu jak największej ilości miejsca i sprawianiu żeby twoi żołnierze zawsze mieli jakieś zajęcie. Zmniejsza liczbę załogi statku bardziej obciążając załogę.</LocalizationPair>
+
+  <!-- Behemoth Hulls -->
+  <LocalizationPair Name="%HullJuggernaut01JuggernautsTitle">[juggernaut] Behemot</LocalizationPair>
+  <LocalizationPair Name="%HullJuggernaut01JuggernautsMilitaryTitle">[juggernaut] Behemot</LocalizationPair>
+  <LocalizationPair Name="%HullJuggernaut01JuggernautsMilitaryDescription">Ogromny wojskowy kadłub</LocalizationPair>
+  <LocalizationPair Name="%HullJuggernaut02JuggernautsTitle">[battleship] Kolos</LocalizationPair>
+  <LocalizationPair Name="%HullJuggernaut03JuggernautsTitle">[obliterator] Unicestwiacz</LocalizationPair>
+
+  <!-- Faction Hulls -->
+  <LocalizationPair Name="%HullSmall01SophonsTitle">[attacker] Klasa Kilo</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02SophonsTitle">[support] Klasa Deka</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03SophonsTitle">[colonizer] Klasa Hekto</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04SophonsTitle">[explorer] Klasa Decy</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05SophonsTitle">[lifeforce] Klasa Hekto</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06SophonsTitle">[unfallen] Klasa Hekto</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01SophonsTitle">[duel] Klasa Giga</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02SophonsTitle">[plating] Klasa Peta</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01SophonsTitle">[carrier] Klasa Jotta</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01CraversTitle">[attacker] Klasa Żołnierz</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02CraversTitle">[support] Klasa Robotnik</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03CraversTitle">[colonizer] Klasa Dron</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04CraversTitle">[explorer] Klasa Zbieracz</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05CraversTitle">[lifeforce] Klasa Dron</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06CraversTitle">[unfallen] Klasa Dron</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01CraversTitle">[duel] Klasa Biskup</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02CraversTitle">[plating] Klasa Strażnik</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01CraversTitle">[carrier] Klasa Królowa</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01VampirilisTitle">[attacker] Klasa Sluaym</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02VampirilisTitle">[support] Klasa Toisam</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03VampirilisTitle">[colonizer] Klasa Maium</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04VampirilisTitle">[explorer] Klasa Goaym</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04BVampirilisTitle">[carrier] Klasa Craeyl</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05VampirilisTitle">[lifeforce] Klasa Nayium</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06VampirilisTitle">[unfallen] Klasa Maium</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01VampirilisTitle">[duel] Klasa Jaium</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02VampirilisTitle">[plating] Klasa Letum</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00VampirilisTitle">[vampirilis] Klasa Halaym</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01VampirilisTitle">[carrier] Klasa Ortaam</LocalizationPair>
+  <LocalizationPair Name="%HullVampirilisMothershipTitle">[vampirilis] Klasa Arka</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01VenetiansTitle">[attacker] Klasa Velm</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02VenetiansTitle">[support] Klasa Drev</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03VenetiansTitle">[colonizer] Klasa Ordara</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04VenetiansTitle">[explorer] Klasa Arrakyo</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05VenetiansTitle">[lifeforce] Klasa Ordara</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06VenetiansTitle">[unfallen] Klasa Ordara</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01VenetiansTitle">[duel] Klasa Omokar</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02VenetiansTitle">[plating] Klasa Lancellum</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01VenetiansTitle">[carrier] Klasa Meos</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01UnfallenTitle">[attacker] Klasa Cierń</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02UnfallenTitle">[support] Klasa Ił</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03UnfallenTitle">[colonizer] Klasa Ziarno</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04UnfallenTitle">[explorer] Klasa Serce</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05UnfallenTitle">[lifeforce] Klasa Ziarno</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06UnfallenTitle">[unfallen] Klasa Pnącze</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01UnfallenTitle">[duel] Klasa Ogień</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02UnfallenTitle">[plating] Klasa Światło</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00UnfallenTitle">[vampirilis] Klasa Wzrost</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01UnfallenTitle">[carrier] Klasa Las</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01TerransTitle">[attacker] Klasa Egezrey</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02TerransTitle">[support] Klasa Yeranef</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03TerransTitle">[colonizer] Klasa Karga</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04TerransTitle">[explorer] Klasa Zolya</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05TerransTitle">[lifeforce] Klasa Karga</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06TerransTitle">[unfallen] Klasa Karga</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01TerransTitle">[duel] Klasa Sopron</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02TerransTitle">[plating] Klasa Sheredyn</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01TerransTitle">[carrier] Klasa Zelevas</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01HoratioTitle">[attacker] Klasa Marchio</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02HoratioTitle">[support] Klasa Baro</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03HoratioTitle">[colonizer] Klasa Cresce</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04HoratioTitle">[explorer] Klasa Coms</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05HoratioTitle">[lifeforce] Klasa Cresce</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06HoratioTitle">[unfallen] Klasa Cresce</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01HoratioTitle">[duel] Klasa Dux</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02HoratioTitle">[plating] Klasa Archidux</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01HoratioTitle">[carrier] Klasa Imperator</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01TimeLordsTitle">[attacker] Klasa Naturalna</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02TimeLordsTitle">[support] Klasa Wymierna</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03TimeLordsTitle">[colonizer] Klasa Niewymierna</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04TimeLordsTitle">[explorer] Klasa Urojona</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05TimeLordsTitle">[lifeforce] Klasa Niewymierna</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06TimeLordsTitle">[unfallen] Klasa Niewymierna</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01TimeLordsTitle">[duel] Klasa Trójkątna</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02TimeLordsTitle">[plating] Klasa Czworościenna</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01TimeLordsTitle">[carrier] Klasa Pierwsza</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01MajorHisshosTitle">[attacker] Klasa Szpon</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02MajorHisshosTitle">[support] Klasa Zawiśnięcie</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03MajorHisshosTitle">[colonizer] Klasa Grzęda</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04MajorHisshosTitle">[explorer] Klasa Szybowanie</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05MajorHisshosTitle">[lifeforce] Klasa Dziób</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06MajorHisshosTitle">[unfallen] Klasa Falowanie</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MajorHisshosTitle">[duel] Klasa Uderzenie</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02MajorHisshosTitle">[plating] Klasa Wzlot</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01MajorHisshosTitle">[carrier] Klasa Nur</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01UmbralChoirTitle">[attacker] Klasa Strofa</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02UmbralChoirTitle">[support] Klasa Madrygał</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03UmbralChoirTitle">[colonizer] Klasa Kantana</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04UmbralChoirTitle">[explorer] Klasa Sonata</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05UmbralChoirTitle">[lifeforce] Klasa Kameralna</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06UmbralChoirTitle">[unfallen] Klasa Opera</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01UmbralChoirTitle">[duel] Klasa Hymn</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02UmbralChoirTitle">[plating] Klasa Epika</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01UmbralChoirTitle">[carrier] Klasa Cykl</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01TemplarsTitle">[attacker] Klasa Zaklinacz</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02TemplarsTitle">[support] Klasa Zaproszenie</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03TemplarsTitle">[colonizer] Klasa Recytacja</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04TemplarsTitle">[explorer] Klasa Pozdrowienie</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05TemplarsTitle">[lifeforce] Klasa Kantyk</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06TemplarsTitle">[unfallen] Klasa Czytanie</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01TemplarsTitle">[duel] Klasa Pokłon</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02TemplarsTitle">[plating] Klasa Psalm</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01TemplarsTitle">[carrier] Klasa Inwokacja</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01VaultersTitle">[attacker] Klasa Strzała</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02VaultersTitle">[support] Klasa Bełt</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03VaultersTitle">[colonizer] Klasa Lufa</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04VaultersTitle">[explorer] Klasa Rzutka</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05VaultersTitle">[lifeforce] Klasa Lufa</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06VaultersTitle">[unfallen] Klasa Lufa</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01VaultersTitle">[duel] Klasa Arbalest</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02VaultersTitle">[plating] Klasa Kula</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01VaultersTitle">[carrier] Klasa Włócznia</LocalizationPair>
+  <LocalizationPair Name="%HullMedium03VaultersTitle">[supercolonizer] Klasa Galeon</LocalizationPair>
+
+  <!-- Hero Hulls -->
+  <LocalizationPair Name="%HullHeroSmall01explorerTitle">[admiral] Klasa Tamad</LocalizationPair>
+  <LocalizationPair Name="%HullHeroSmall02ExplorerTitle">[level] Klasa Fedez</LocalizationPair>
+  <LocalizationPair Name="%HullHeroSmall03SupporterTitle">[corporate] Klasa Gatas</LocalizationPair>
+  <LocalizationPair Name="%HullHeroSmall04DefenderTitle">[administrator] Klasa Muvel</LocalizationPair>
+
+  <!-- Minor Faction Hulls -->
+  <LocalizationPair Name="%HullAutomatedTitle">[population] Klasa Bazpingo</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01MinorFactionInsectoidTitle">[attacker] Klasa Jurh</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MinorFactionInsectoidTitle">[duel] Klasa Kharkhara</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01MinorFactionPiratesTitle">[attacker] Klasa Wróbel</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MinorFactionPiratesTitle">[duel] Klasa Szabrownik</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01MinorFactionPrimitiveTitle">[attacker] Klasa Pionier</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MinorFactionPrimitiveTitle">[duel] Klasa Orbiter</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01MinorFactionAdvancedTitle">[attacker] Klasa Stilio</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MinorFactionAdvancedTitle">[duel] Klasa Skorpion</LocalizationPair>
+
+  <!-- Academy Role Descriptions -->
+  <LocalizationPair Name="%AcademyRoleLibrarianDescription">Mając dostęp zarówno do starożytnych jak i najnowszych badań, Bibliotekarz może znaleźć odpowiedzi na trudne pytania, odkryć zaawansowane technologie i bardzo skutecznie infiltrować sieci.</LocalizationPair>
+  <LocalizationPair Name="%AcademyRoleLibrarianEffectOverride">Bibliotekarz może uzyskać dostęp do ukrytych informacji dostępnych tylko dla Akademii, takich jak dane o stanie bohaterów i innych imperiów, krytyczne luki hakerskie w protokołach sieciowych oraz pamięć podręczna informacji naukowych umożliwiająca badanie technologii o jeden stopień wyższych niż normalnie.</LocalizationPair>
+  <LocalizationPair Name="%AcademyRoleGrandAdmiralDescription">Włócznia Isyandera jest największą z flot Akademii i osobiście kieruje nią Mackowniak (jedną z największych strategów). Właściciel Włóczni Isyandera uzyskuje dostęp do strzelców Akademii i pilotów eskadr.</LocalizationPair>
+  <LocalizationPair Name="%AcademyRoleGrandAdmiralEffectOverride">Właściciel Włóczni Isyandera może bezpośrednio dowodzić atakiem nad flotą Akademii i zyskuje +5% obrażeń z modułów za każdą odblokowaną erę militarną.</LocalizationPair>
+  <LocalizationPair Name="%AcademyRoleVaultKeeperDescription">Strażnik Krypty nie strzeże skarbów Akademii ale zarządza rozległą i bezpieczną infrastrukturą, która śledzi zasady i przepisy galaktyki. To stanowisko zapewnia większe znaczenie polityczne.</LocalizationPair>
+  <LocalizationPair Name="%AcademyRoleVaultKeeperEffectOverride">Strażnik Krypty ma dostęp do wszystkich ustaw wybranej przez siebie dodatkowej partii (z wyjątkiem superustaw), a zasięg jego wpływów zwiększa się o 10% w całym imperium.</LocalizationPair>
+
+  <!-- Spelling fixes -->
+  <LocalizationPair Name="%DiplomaticInteractionAppeasementForcedPeaceFromColdWarAfraidVaulters">Spodziewałam się floty statków, a nie oferty pokoju. Nie będę ukrywać ulgi Auriganów.</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionEmpireDevelopment13Description">Konstrukcja nanomaszyn (nanitów), zdolnych do pracy w środowiskach płynnych o różnych warunkach zasolenia, temperatury, ciśnienia ma szereg potencjalnych zastosowań. Badania nad źródłami energii, lokomocją i samonaprawą umożliwiają opracowanie nowych systemów zawierających płynne nanity.</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionEmpireDevelopment13VampirilisTitle">Wodne nanoorganizmy</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionEmpireDevelopment13VampirilisDescription">Konstrukcja nanomaszyn (nanitów) zatwierdzonych przez Kościół, zdolnych do pracy w środowiskach płynnych o różnych warunkach zasolenia, temperatury, ciśnienia ma szereg potencjalnych zastosowań. Badania nad źródłami energii, lokomocją i samonaprawą umożliwiają opracowanie nowych systemów zawierających płynne nanity.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMiningExpertsOverride">Sondy Górnicze mogą zbierać ŻPPN z planety i dodawać je do systemu macierzystego.</LocalizationPair>
+  <LocalizationPair Name="%SiegePowerTitle">Placówka [foodColored]/[industryColored] Obrażenia podczas oblężenia zapasów / [turn]</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsOpponentCriticalHitDamagePercentTitle">otrzymanych Obrażeń Krytycznych</LocalizationPair>
+
+  <!-- Garrison Button -->
+  <LocalizationPair Name="%FleetDisbandDescription">Umieść flotę w przyjaznym systemie i przenieś ją do hangaru aby szybko naprawić i uzupełnić zapasy. Możesz obsadzić tylko swój własny system gwiezdny.</LocalizationPair>
+  <LocalizationPair Name="%FleetDisbandTitle">Garnizon</LocalizationPair>
+
+  <!-- Quest -->
+  <LocalizationPair Name="%SophonsQuest-Chapter2.1-Military-C1Step1Objective">Utrzymaj $AmountLoc Ustaw [militaristColored] #B82738#Militarystów#REVERT# przez $DurationName [turn].</LocalizationPair>
+  <LocalizationPair Name="%SophonsQuest-Chapter2.1-Military-C1Step1ObjectiveTooltip">Aby zwiększyć ideologię [militaristColored] #B82738#Militarystów#REVERT#: buduj statki, zwiększaj obronę i bądź agresywny w stosunku do innych frakcji.</LocalizationPair>
+
+  <!-- Tooltip Improvements -->
+  <!-- Weapon Types -->
+  <LocalizationPair Name="%WeaponTypeBroadsideTitle">Broń burtowa</LocalizationPair>
+  <LocalizationPair Name="%WeaponTypeBroadsideEffect">Automatyczna broń burtowa: Umieszczona tutaj broń będzie miała dwa łuki strzeleckie po 120 stopni wyśrodkowane bezpośrednio po lewej i prawej stronie statku.</LocalizationPair>
+  <LocalizationPair Name="%WeaponTypeTurretTitle">Broń wieżyczkowa</LocalizationPair>
+  <LocalizationPair Name="%WeaponTypeTurretEffect">Wieżyczka: Umieszczona tutaj broń będzie miała łuk rażenia 270 stopni wyśrodkowany bezpośrednio przed statkiem..</LocalizationPair>
+  <LocalizationPair Name="%WeaponTypeLargeTitle">Broń ciężka</LocalizationPair>
+  <LocalizationPair Name="%WeaponTypeLargeEffect">Ciężka broń automatyczna: Ciężkia bateria, która zadaje cztery razy większe obrażenia i o połowę szybciej strzela niż zwykłe działo, czyli dwukrotnie więcej obrażeń na sekundę. Broń Flak jest znacznie mniej skuteczna przeciwko pociskom i eskadrom w tym slocie.</LocalizationPair>
+
+  <!-- Spectator -->
+  <LocalizationPair Name="%FactionSpectatorTitle">Obserwator</LocalizationPair>
+  <LocalizationPair Name="%FactionSpectatorDescription">Niewidzialni, nieumarli, wszystkowidząca frakcja, która nic nie może zrobić.</LocalizationPair>
+
+  <!--Craver Raze Related-->
+  <LocalizationPair Name="%EmpirePointFromConsumeTitle">Siewcy strachu</LocalizationPair>
+
+  <!--Unfallen-->
+  <LocalizationPair Name="%StarSystemImprovementQuestUnfallen04TooltipsEffect">+30 [scienceColored] na typ [population].</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementQuestUnfallen05TooltipsEffect">+7 [happinessColored] na typ [population].</LocalizationPair>
+</Datatable>

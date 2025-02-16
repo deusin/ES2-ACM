@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/ShipConditionalConstructionEffectDefinition.xsd">
+
+
+
+    <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromStarSystemImprovementShip2">
+        <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem/StarSystemImprovementShip2</PathPrerequisite>
+        <SimulationDescriptorReference Name="ShipConstructionEffectIncreasedHealth"/>
+    </ShipConditionalConstructionEffectDefinition>
+
+    <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromStarSystemImprovementShip2Cravers">
+        <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem/StarSystemImprovementShip2Cravers</PathPrerequisite>
+        <SimulationDescriptorReference Name="ShipConstructionEffectIncreasedHealth"/>
+    </ShipConditionalConstructionEffectDefinition>
+
+    <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromHeroSkillShipHoratioSkill">
+        <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem, HeroSkillSystemHoratio_ShipStats_1</PathPrerequisite>
+        <SimulationDescriptorReference Name="ShipConstructionEffectIncreasedHealthHoratio"/>
+        <SimulationDescriptorReference Name="ShipConstructionEffectIncreasedDamageHoratio"/>
+        <SimulationDescriptorReference Name="ShipConstructionEffectIncreasedShieldCapacityHoratio"/>
+     </ShipConditionalConstructionEffectDefinition>
+
+    <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromStarSystemImprovementQuestVampirilis07">
+        <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem/StarSystemImprovementQuestVampirilis07</PathPrerequisite>
+        <SimulationDescriptorReference Name="ShipConstructionEffectIncreasedHealthAndShieldVampirilis"/>
+    </ShipConditionalConstructionEffectDefinition>
+
+  <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromStarSystemImprovementCurioHangarSpeed">
+    <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem/StarSystemImprovementCurioHangarSpeed</PathPrerequisite>
+    <SimulationDescriptorReference Name="ShipConstructionEffectHangarIncreasedSpeed"/>
+  </ShipConditionalConstructionEffectDefinition>
+
+  <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromStarSystemImprovementCurioHangarHealth">
+    <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem/StarSystemImprovementCurioHangarHealth</PathPrerequisite>
+    <SimulationDescriptorReference Name="ShipConstructionEffectHangarIncreasedHealth"/>
+  </ShipConditionalConstructionEffectDefinition>
+
+  <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromStarSystemImprovementCurioHangarVision">
+    <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem/StarSystemImprovementCurioHangarVision</PathPrerequisite>
+    <SimulationDescriptorReference Name="ShipConstructionEffectHangarIncreasedVision"/>
+  </ShipConditionalConstructionEffectDefinition>
+
+  <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromStarSystemImprovementCurioHangarManpower">
+    <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem/StarSystemImprovementCurioHangarManpower</PathPrerequisite>
+    <SimulationDescriptorReference Name="ShipConstructionEffectHangarIncreasedManpower"/>
+  </ShipConditionalConstructionEffectDefinition>
+  
+  
+</Datatable>
