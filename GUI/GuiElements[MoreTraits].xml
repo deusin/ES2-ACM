@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+	<!-- Trait Families -->
+	<GuiElement Name="FactionTraitFamilyPopulation">
+        <Title>%FactionTraitFamilyPopulationTitle</Title>
+        <Description>%FactionTraitFamilyPopulationDescription</Description>
+    </GuiElement>
+	<GuiElement Name="FactionTraitFamilyExtraHero">
+        <Title>%FactionTraitFamilyExtraHeroTitle</Title>
+        <Description>%FactionTraitFamilyExtraHeroDescription</Description>
+    </GuiElement>
+	
+	<!-- Extra Heroes -->
+	<ExtendedGuiElement Name="FactionTraitHeroSophons01">
+        <Title>%FactionTraitHeroSophons01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroSophons01L2">
+        <Title>%FactionTraitHeroSophons01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroSophons01L3">
+        <Title>%FactionTraitHeroSophons01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroTerrans01">
+        <Title>%FactionTraitHeroTerrans01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroTerrans01L2">
+        <Title>%FactionTraitHeroTerrans01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroTerrans01L3">
+        <Title>%FactionTraitHeroTerrans01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroHoratio01">
+        <Title>%FactionTraitHeroHoratio01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroHoratio01L2">
+        <Title>%FactionTraitHeroHoratio01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroHoratio01L3">
+        <Title>%FactionTraitHeroHoratio01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroTimeLords01">
+        <Title>%FactionTraitHeroTimeLords01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroTimeLords01L2">
+        <Title>%FactionTraitHeroTimeLords01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroTimeLords01L3">
+        <Title>%FactionTraitHeroTimeLords01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroUnfallen01">
+        <Title>%FactionTraitHeroUnfallen01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroUnfallen01L2">
+        <Title>%FactionTraitHeroUnfallen01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroUnfallen01L3">
+        <Title>%FactionTraitHeroUnfallen01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroCravers01">
+        <Title>%FactionTraitHeroCravers01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroCravers01L2">
+        <Title>%FactionTraitHeroCravers01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroCravers01L3">
+        <Title>%FactionTraitHeroCravers01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroVenetians01">
+        <Title>%FactionTraitHeroVenetians01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroCravers01L2">
+        <Title>%FactionTraitHeroVenetians01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroVenetians01L3">
+        <Title>%FactionTraitHeroVenetians01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroVampirilis01">
+        <Title>%FactionTraitHeroVampirilis01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroVampirilis01L2">
+        <Title>%FactionTraitHeroVampirilis01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroVampirilis01L3">
+        <Title>%FactionTraitHeroVampirilis01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroAmoeba01">
+        <Title>%FactionTraitHeroAmoeba01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroAmoeba01L2">
+        <Title>%FactionTraitHeroAmoeba01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroAmoeba01L3">
+        <Title>%FactionTraitHeroAmoeba01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroBenthys01">
+        <Title>%FactionTraitHeroBenthys01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroBenthys01L2">
+        <Title>%FactionTraitHeroBenthys01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroBenthys01L3">
+        <Title>%FactionTraitHeroBenthys01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroBots01">
+        <Title>%FactionTraitHeroBots01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroBots01L2">
+        <Title>%FactionTraitHeroBots01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroBots01L3">
+        <Title>%FactionTraitHeroBots01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroDeuyivans01">
+        <Title>%FactionTraitHeroDeuyivans01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroDeuyivans01L2">
+        <Title>%FactionTraitHeroDeuyivans01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroDeuyivans01L3">
+        <Title>%FactionTraitHeroDeuyivans01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroHaroshems01">
+        <Title>%FactionTraitHeroHaroshems01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroHaroshems01L2">
+        <Title>%FactionTraitHeroHaroshems01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroHaroshems01L3">
+        <Title>%FactionTraitHeroHaroshems01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroHisshos01">
+        <Title>%FactionTraitHeroHisshos01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroHisshos01L2">
+        <Title>%FactionTraitHeroHisshos01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroHisshos01L3">
+        <Title>%FactionTraitHeroHisshos01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroMavros01">
+        <Title>%FactionTraitHeroMavros01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroMavros01L2">
+        <Title>%FactionTraitHeroMavros01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroMavros01L3">
+        <Title>%FactionTraitHeroMavros01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroPilgrims01">
+        <Title>%FactionTraitHeroPilgrims01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroPilgrims01L2">
+        <Title>%FactionTraitHeroPilgrims01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroPilgrims01L3">
+        <Title>%FactionTraitHeroPilgrims01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroZvali01">
+        <Title>%FactionTraitHeroZvali01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroZvali01L2">
+        <Title>%FactionTraitHeroZvali01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroZvali01L3">
+        <Title>%FactionTraitHeroZvali01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroTikanans01">
+        <Title>%FactionTraitHeroTikanans01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroTikanans01L2">
+        <Title>%FactionTraitHeroTikanans01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroTikanans01L3">
+        <Title>%FactionTraitHeroTikanans01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroGnashasts01">
+        <Title>%FactionTraitHeroGnashasts01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroGnashasts01L2">
+        <Title>%FactionTraitHeroGnashasts01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroGnashasts01L3">
+        <Title>%FactionTraitHeroGnashasts01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroEyders01">
+        <Title>%FactionTraitHeroEyders01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroEyders01L2">
+        <Title>%FactionTraitHeroEyders01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroEyders01L3">
+        <Title>%FactionTraitHeroEyders01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroNiris01">
+        <Title>%FactionTraitHeroNiris01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroNiris01L2">
+        <Title>%FactionTraitHeroNiris01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroNiris01L3">
+        <Title>%FactionTraitHeroNiris01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroBhagabas01">
+        <Title>%FactionTraitHeroBhagabas01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroBhagabas01L2">
+        <Title>%FactionTraitHeroBhagabas01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroBhagabas01L3">
+        <Title>%FactionTraitHeroBhagabas01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroRemnant01">
+        <Title>%FactionTraitHeroRemnant01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroRemnant01L2">
+        <Title>%FactionTraitHeroRemnant01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroRemnant01L3">
+        <Title>%FactionTraitHeroRemnant01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroPulsos01">
+        <Title>%FactionTraitHeroPulsos01Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroPulsos01L2">
+        <Title>%FactionTraitHeroPulsos01L2Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="FactionTraitHeroPulsos01L3">
+        <Title>%FactionTraitHeroPulsos01L3Title</Title>
+        <Description>%FactionTraitExtraHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitExtraHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<!-- CUSTOM TRAITS -->
+	
+	<GuiElement Name="FactionTraitLegendaryHeroes3">
+        <Title>%FactionTraitLegendaryHeroes3Title</Title>
+        <Description>%FactionTraitLegendaryHeroesDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitVirtualTraining1">
+        <Title>%FactionTraitVirtualTraining1Title</Title>
+        <Description>%FactionTraitVirtualTrainingDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitVirtualTraining2">
+        <Title>%FactionTraitVirtualTraining2Title</Title>
+        <Description>%FactionTraitVirtualTrainingDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroLevel1">
+        <Title>%FactionTraitHeroLevel1Title</Title>
+        <Description>%FactionTraitHeroLevelDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitHeroLevel1Effect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroLevel2">
+        <Title>%FactionTraitHeroLevel2Title</Title>
+        <Description>%FactionTraiHeroLevelDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitHeroLevel2Effect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroLevel3">
+        <Title>%FactionTraitHeroLevel3Title</Title>
+        <Description>%FactionTraiHeroLevelDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitHeroLevel3Effect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroLevel4">
+        <Title>%FactionTraitHeroLevel4Title</Title>
+        <Description>%FactionTraiHeroLevelDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitHeroLevel4Effect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroLevel5">
+        <Title>%FactionTraitHeroLevel5Title</Title>
+        <Description>%FactionTraiHeroLevelDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitHeroLevel5Effect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitHeroAcePilot">
+        <Title>%FactionTraitHeroAcePilotTitle</Title>
+        <Description>%FactionTraitHeroAcePilotDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitHeroAcePilotEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<GuiElement Name="FactionTraitHeroGovernor">
+        <Title>%FactionTraitHeroGovernorTitle</Title>
+        <Description>%FactionTraitHeroGovernorDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitHeroDefender">
+        <Title>%FactionTraitHeroDefenderTitle</Title>
+        <Description>%FactionTraitHeroDefenderDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitHeroDies">
+        <Title>%FactionTraitHeroDiesTitle</Title>
+        <Description>%FactionTraitHeroDiesDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitBrilliantStrategists3">
+        <Title>%FactionTraitBrilliantStrategists3Title</Title>
+        <Description>%FactionTraitBrilliantStrategistsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitBrilliantStrategists4">
+        <Title>%FactionTraitBrilliantStrategists4Title</Title>
+        <Description>%FactionTraitBrilliantStrategistsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    
+	<GuiElement Name="FactionTraitBrilliantStrategists5">
+        <Title>%FactionTraitBrilliantStrategists5Title</Title>
+        <Description>%FactionTraitBrilliantStrategistsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+    <GuiElement Name="FactionTraitPoorStrategists3">
+        <Title>%FactionTraitPoorStrategists3Title</Title>
+        <Description>%FactionTraitPoorStrategistsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitPoorStrategists4">
+        <Title>%FactionTraitPoorStrategists4Title</Title>
+        <Description>%FactionTraitPoorStrategistsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitPoorStrategists5">
+        <Title>%FactionTraitPoorStrategists5Title</Title>
+        <Description>%FactionTraitPoorStrategistsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitFearlessWarriors3">
+        <Title>%FactionTraitFearlessWarriors3Title</Title>
+        <Description>%FactionTraitFearlessWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitFearlessWarriors4">
+        <Title>%FactionTraitFearlessWarriors4Title</Title>
+        <Description>%FactionTraitFearlessWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitFearlessWarriors5">
+        <Title>%FactionTraitFearlessWarriors5Title</Title>
+        <Description>%FactionTraitFearlessWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitFeebleWarriors3">
+        <Title>%FactionTraitFeebleWarriors3Title</Title>
+        <Description>%FactionTraitFeebleWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitFeebleWarriors4">
+        <Title>%FactionTraitFeebleWarriors4Title</Title>
+        <Description>%FactionTraitFeebleWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitFeebleWarriors5">
+        <Title>%FactionTraitFeebleWarriors5Title</Title>
+        <Description>%FactionTraitFeebleWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitGroundBattle1">
+        <Title>%FactionTraitGroundBattle1Title</Title>
+        <Description>%FactionTraitGroundBattleDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitGroundBattle2">
+        <Title>%FactionTraitGroundBattle2Title</Title>
+        <Description>%FactionTraitGroundBattleDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedWarriors1">
+        <Title>%FactionTraitEnhancedWarriors1Title</Title>
+        <Description>%FactionTraitEnhancedWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedWarriors2">
+        <Title>%FactionTraitEnhancedWarriors2Title</Title>
+        <Description>%FactionTraitEnhancedWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedWarriors3">
+        <Title>%FactionTraitEnhancedWarriors3Title</Title>
+        <Description>%FactionTraitEnhancedWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedWarriors4">
+        <Title>%FactionTraitEnhancedWarriors4Title</Title>
+        <Description>%FactionTraitEnhancedWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedWarriors5">
+        <Title>%FactionTraitEnhancedWarriors5Title</Title>
+        <Description>%FactionTraitEnhancedWarriorsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitOptimalDefense3">
+        <Title>%FactionTraitOptimalDefense3Title</Title>
+        <Description>%FactionTraitOptimalDefenseDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+       <TooltipElement>
+           <EffectOverride>%FactionTraitOptimalDefense3EffectOverride</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitOptimalDefense4">
+        <Title>%FactionTraitOptimalDefense4Title</Title>
+        <Description>%FactionTraitOptimalDefenseDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+       <TooltipElement>
+           <EffectOverride>%FactionTraitOptimalDefense4EffectOverride</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitOptimalDefense5">
+        <Title>%FactionTraitOptimalDefense5Title</Title>
+        <Description>%FactionTraitOptimalDefenseDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+       <TooltipElement>
+           <EffectOverride>%FactionTraitOptimalDefense5EffectOverride</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<GuiElement Name="FactionTraitDeadlyWeapons3">
+        <Title>%FactionTraitDeadlyWeapons3Title</Title>
+        <Description>%FactionTraitDeadlyWeaponsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitDeadlyWeapons4">
+        <Title>%FactionTraitDeadlyWeapons4Title</Title>
+        <Description>%FactionTraitDeadlyWeaponsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitDeadlyWeapons5">
+        <Title>%FactionTraitDeadlyWeapons5Title</Title>
+        <Description>%FactionTraitDeadlyWeaponsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedSpaceShips1">
+        <Title>%FactionTraitEnhancedSpaceShips1Title</Title>
+        <Description>%FactionTraitEnhancedSpaceShipsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedSpaceShips2">
+        <Title>%FactionTraitEnhancedSpaceShips2Title</Title>
+        <Description>%FactionTraitEnhancedSpaceShipsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedSpaceShips3">
+        <Title>%FactionTraitEnhancedSpaceShips3Title</Title>
+        <Description>%FactionTraitEnhancedSpaceShipsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedSpaceShips4">
+        <Title>%FactionTraitEnhancedSpaceShips4Title</Title>
+        <Description>%FactionTraitEnhancedSpaceShipsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitEnhancedSpaceShips5">
+        <Title>%FactionTraitEnhancedSpaceShips5Title</Title>
+        <Description>%FactionTraitEnhancedSpaceShipsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitUniqueDesign">
+        <Title>%FactionTraitUniqueDesignTitle</Title>
+        <Description>%FactionTraitUniqueDesignDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitStrongPopulation1">
+        <Title>%FactionTraitStrongPopulation1Title</Title>
+        <Description>%FactionTraitStrongPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    	<TooltipElement>
+           <EffectOverride>%FactionTraitStrongPopulation1Effect</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitStrongPopulation2">
+        <Title>%FactionTraitStrongPopulation2Title</Title>
+        <Description>%FactionTraitStrongPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    	<TooltipElement>
+           <EffectOverride>%FactionTraitStrongPopulation2Effect</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitStrongPopulation3">
+        <Title>%FactionTraitStrongPopulation3Title</Title>
+        <Description>%FactionTraitStrongPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    	<TooltipElement>
+           <EffectOverride>%FactionTraitStrongPopulation3Effect</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitStrongPopulation4">
+        <Title>%FactionTraitStrongPopulation4Title</Title>
+        <Description>%FactionTraitStrongPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    	<TooltipElement>
+           <EffectOverride>%FactionTraitStrongPopulation4Effect</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitStrongPopulation5">
+        <Title>%FactionTraitStrongPopulation5Title</Title>
+        <Description>%FactionTraitStrongPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+           <EffectOverride>%FactionTraitStrongPopulation5Effect</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+
+	<GuiElement Name="FactionTraitBankerPopulation1">
+        <Title>%FactionTraitBankerPopulation1Title</Title>
+        <Description>%FactionTraitBankerPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitBankerPopulation2">
+        <Title>%FactionTraitBankerPopulation2Title</Title>
+        <Description>%FactionTraitBankerPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitBankerPopulation3">
+        <Title>%FactionTraitBankerPopulation3Title</Title>
+        <Description>%FactionTraitBankerPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitLoyalPopulation1">
+        <Title>%FactionTraitLoyalPopulation1Title</Title>
+        <Description>%FactionTraitLoyalPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitLoyalPopulation2">
+        <Title>%FactionTraitLoyalPopulation2Title</Title>
+        <Description>%FactionTraitLoyalPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitLoyalPopulation3">
+        <Title>%FactionTraitLoyalPopulation3Title</Title>
+        <Description>%FactionTraitLoyalPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitProductivePopulation1">
+        <Title>%FactionTraitProductivePopulation1Title</Title>
+        <Description>%FactionTraitProductivePopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitProductivePopulation2">
+        <Title>%FactionTraitProductivePopulation2Title</Title>
+        <Description>%FactionTraitProductivePopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitProductivePopulation3">
+        <Title>%FactionTraitProductivePopulation3Title</Title>
+        <Description>%FactionTraitProductivePopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitAgriculturalPopulation1">
+        <Title>%FactionTraitAgriculturalPopulation1Title</Title>
+        <Description>%FactionTraitAgriculturalPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitAgriculturalPopulation2">
+        <Title>%FactionTraitAgriculturalPopulation2Title</Title>
+        <Description>%FactionTraitAgriculturalPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitAgriculturalPopulation3">
+        <Title>%FactionTraitAgriculturalPopulation3Title</Title>
+        <Description>%FactionTraitAgriculturalPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitThinkerPopulation1">
+        <Title>%FactionTraitThinkerPopulation1Title</Title>
+        <Description>%FactionTraitThinkerPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitThinkerPopulation2">
+        <Title>%FactionTraitThinkerPopulation2Title</Title>
+        <Description>%FactionTraitThinkerPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitThinkerPopulation3">
+        <Title>%FactionTraitThinkerPopulation3Title</Title>
+        <Description>%FactionTraitThinkerPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitMerchantPopulation">
+        <Title>%FactionTraitMerchantPopulationTitle</Title>
+        <Description>%FactionTraitMerchantPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitUnhappyPopulation">
+        <Title>%FactionTraitUnhappyPopulationTitle</Title>
+        <Description>%FactionTraitUnhappyPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+
+	<ExtendedGuiElement Name="FactionTraitInfamousPopulation">
+        <Title>%FactionTraitInfamousPopulationTitle</Title>
+        <Description>%FactionTraitInfamousPopulationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+           <EffectOverride>%FactionTraitInfamousPopulationEffect</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitWeakRace">
+        <Title>%FactionTraitWeakRaceTitle</Title>
+        <Description>%FactionTraitWeakRaceDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+           <EffectOverride>%FactionTraitWeakRaceEffect</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitWeakLifestile">
+        <Title>%FactionTraitWeakLifestileTitle</Title>
+        <Description>%FactionTraitWeakLifestileDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+           <EffectOverride>%FactionTraitWeakLifestileEffect</EffectOverride>
+       </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<GuiElement Name="PeacefulNegotiator">
+        <Title>%PeacefulNegotiatorTitle</Title>
+        <Description>%PeacefulNegotiatorDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitBlackThumb3">
+        <Title>%FactionTraitBlackThumb3Title</Title>
+        <Description>%FactionTraitBlackThumbDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitBlackThumb4">
+        <Title>%FactionTraitBlackThumb4Title</Title>
+        <Description>%FactionTraitBlackThumbDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitBlackThumb5">
+        <Title>%FactionTraitBlackThumb5Title</Title>
+        <Description>%FactionTraitBlackThumbDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<GuiElement Name="FactionTraitWonderBuilder">
+        <Title>%FactionTraitWonderBuilderTitle</Title>
+        <Description>%FactionTraitWonderBuilderDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitAncientArchitecture">
+        <Title>%FactionTraitAncientArchitectureTitle</Title>
+        <Description>%FactionTraitAncientArchitectureDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+           <EffectOverride>%FactionTraitAncientArchitectureEffect</EffectOverride>
+		</TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitEmpirePointBuyout">
+        <Title>%FactionTraitEmpirePointBuyoutTitle</Title>
+        <Description>%FactionTraitEmpirePointBuyoutDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+           <EffectOverride>%FactionTraitEmpirePointBuyoutEffect</EffectOverride>
+		</TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitBuyoutOutposts">
+        <Title>%FactionTraitBuyoutOutpostsTitle</Title>
+        <Description>%FactionTraitBuyoutOutpostsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+           <EffectOverride>%FactionTraitBuyoutOutpostsEffect</EffectOverride>
+		</TooltipElement>
+    </ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="FactionTraitMinorMezari">
+        <Title>%FactionTraitMinorMezariTitle</Title>
+        <Description>%FactionTraitMinorMezariDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+			<EffectOverride>%FactionTraitMinorMezariTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+	<ExtendedGuiElement Name="FactionTraitMinorSheredyn">
+        <Title>%FactionTraitMinorSheredynTitle</Title>
+        <Description>%FactionTraitMinorSheredynDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+			<EffectOverride>%FactionTraitMinorSheredynTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+	
+	<!-- HISSHO -->
+	<!--<AffinityGuiElement Name="AffinityMappingHisshosMinor" PreloadCount="3" >-->
+    <!--    <Title>%AffinityHisshosTitle</Title>-->
+    <!--    <Description>%AffinityHisshosDescription</Description>-->
+    <!--    <Icons>-->
+    <!--        <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityHisshosSmall" />-->
+    <!--        <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityHisshosMedium" />-->
+    <!--        <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHisshosMediumInverted" />-->
+    <!--        <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityHisshosLarge" />-->
+    <!--        <Icon Size="Leader" Path="Bitmaps/Dynamic/Affinities/AffinityTerransLeader" />-->
+    <!--        <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityHisshosMood" />-->
+    <!--        <Icon Size="SmallExtended" Path="Bitmaps/Atlased/Notifications/NotificationEmpireMet/NotificationMajorEmpireMetTerransSmall" />-->
+    <!--        <Icon Size="MediumExtended" Path="Bitmaps/Dynamic/Notifications/NotificationEmpireMet/NotificationMajorEmpireMetTerransMedium" />-->
+    <!--        <Icon Size="Loading" Path="Bitmaps/Dynamic/Moods/LoadingScreen05" />-->
+    <!--    </Icons>-->
+    <!--    <SymbolString>[hisshos]</SymbolString>-->
+    <!--    <Sounds>-->
+    <!--        <Sound EventName="Play_ES2_Voices_OUTRO_UnitedEmpire" Type="Outro"/>-->
+    <!--    </Sounds>-->
+    <!--    <Color Red="255" Green="255" Blue="255" Alpha="255" />-->
+    <!--    <Movies>-->
+    <!--        <Movie Path="Movies/Factions/Terrans_Intro.mp4" Type="Intro" />-->
+    <!--        <Movie Path="Movies/Factions/Terrans_Outro_UE.mp4" Type="Outro" />-->
+    <!--    </Movies>-->
+    <!--    <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitHisshos</ModelPath>-->
+    <!--</AffinityGuiElement>-->
+</Datatable>

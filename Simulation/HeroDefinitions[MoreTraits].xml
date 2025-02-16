@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+
+    <HeroDefinition Name="HeroHisshos02">
+        <Skill Name="HeroSkill01Hisshos01"/>
+        <Skill Name="HeroSkill02Hisshos01"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics06"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeEndless"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    
+
+</Datatable>

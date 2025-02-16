@@ -482,6 +482,7 @@
 
 			<DatabasePlugin DataType="FactionTraitCategoryDefinition, Assembly-CSharp">
 				<FilePath>Simulation/FactionTraitCategoryDefinitions.xml</FilePath>
+				<FilePath>Simulation/FactionTraitCategoryDefinition[MoreTraits].xml</FilePath>
 			</DatabasePlugin>
 
 			<!-- Personalities -->
