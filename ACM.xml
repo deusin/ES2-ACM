@@ -7,7 +7,7 @@
 		<Homepage></Homepage>
 		<PreviewImageFile>ACM.png</PreviewImageFile>
 		<ReleaseNotes></ReleaseNotes>
-		<Tags>AI,Balance,Buildings,Heroes,Gameplay,Improvements,MajorFactions,MinorFactions,Multiplayer,Other,Quests,Terrain,Units,Technologies</Tags>
+		<Tags>AI,Balance,Buildings,Heroes,Gameplay,Improvements,MajorFactions,MinorFactions,Multiplayer,Other,Quests,Technologies,Terrain,Units,UI</Tags>
 		<Plugins>
 			<!-- Registry -->
 			<RegistryPlugin>
@@ -435,6 +435,8 @@
 				</ExtraTypes>
 				<FilePath>GUI/GUIElements[*].xml</FilePath>
 				<FilePath>GUI/Screens/GUIElements[*].xml</FilePath>
+				<!-- Necessary to load this last for Political Skill trees colorizing correctly. Might be worth understanding where exactly the conflict lies later -->
+                <FilePath>Gui/GuiElements[Extended].xml</FilePath>
 			</DatabasePlugin>
 
       <DatabasePlugin DataType="LoadingTipGuiElement, Assembly-CSharp">
