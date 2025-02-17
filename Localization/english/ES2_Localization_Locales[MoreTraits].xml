@@ -178,6 +178,7 @@
 	<LocalizationPair Name="%FactionTraitGroundBattleDescription">Good tactics saves many lives.</LocalizationPair>
 	<LocalizationPair Name="%FactionTraitUniqueDesignTitle">#F0E68C#Unique Design#REVERT#</LocalizationPair>
 	<LocalizationPair Name="%FactionTraitUniqueDesignDescription">Better quality ships for the price of quantity.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevelDescription">Your heroes are trained at the Academy</LocalizationPair>
 	<LocalizationPair Name="%FactionTraitHeroLevel1Title">#F0E68C#Academy Training I#REVERT#</LocalizationPair>
 	<LocalizationPair Name="%FactionTraitHeroLevel1Effect">+1 Skill Point on Heroes.</LocalizationPair>
 	<LocalizationPair Name="%FactionTraitHeroLevel2Title">#F0E68C#Academy Training II#REVERT#</LocalizationPair>

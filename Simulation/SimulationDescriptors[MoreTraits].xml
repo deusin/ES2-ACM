@@ -75,7 +75,12 @@
 		<BinaryModifier TargetProperty="Happiness"							Operation="Subtraction"	Left="10"	BinaryOperation="Multiplication" 	Right="$(AssignedHero)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitHeroGovernor" Type="FactionTrait">
-		<BinaryModifier TargetProperty="PlanetRawFIDSI"					Operation="Addition"	Left="$(SystemLevel)"	BinaryOperation="Multiplication"	Right="$(AssignedHero)"		Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<!-- <BinaryModifier TargetProperty="PlanetRawFIDSI"					Operation="Addition"	Left="$(SystemLevel)"	BinaryOperation="Multiplication"	Right="$(AssignedHero)"		Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/> -->
+		<BinaryModifier TargetProperty="SystemGrowth"	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AssignedHeroLevel)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" />
+		<BinaryModifier TargetProperty="SystemProduction"	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AssignedHeroLevel)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+		<BinaryModifier TargetProperty="SystemMoney"	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AssignedHeroLevel)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+		<BinaryModifier TargetProperty="SystemResearch"	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AssignedHeroLevel)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+		<BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AssignedHeroLevel)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitHeroDefender" Type="FactionTrait">
 		<BinaryModifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"	Operation="Addition"	Left="100"	BinaryOperation="Multiplication"	Right="$(AssignedHero)"		Path="ClassEmpire/ClassColonizedStarSystem"/>

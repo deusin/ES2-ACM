@@ -794,7 +794,7 @@
 	
 	<ExtendedGuiElement Name="FactionTraitHeroLevel2">
         <Title>%FactionTraitHeroLevel2Title</Title>
-        <Description>%FactionTraiHeroLevelDescription</Description>
+        <Description>%FactionTraitHeroLevelDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
@@ -805,7 +805,7 @@
 	
 	<ExtendedGuiElement Name="FactionTraitHeroLevel3">
         <Title>%FactionTraitHeroLevel3Title</Title>
-        <Description>%FactionTraiHeroLevelDescription</Description>
+        <Description>%FactionTraitHeroLevelDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
@@ -816,7 +816,7 @@
 	
 	<ExtendedGuiElement Name="FactionTraitHeroLevel4">
         <Title>%FactionTraitHeroLevel4Title</Title>
-        <Description>%FactionTraiHeroLevelDescription</Description>
+        <Description>%FactionTraitHeroLevelDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
@@ -827,7 +827,7 @@
 	
 	<ExtendedGuiElement Name="FactionTraitHeroLevel5">
         <Title>%FactionTraitHeroLevel5Title</Title>
-        <Description>%FactionTraiHeroLevelDescription</Description>
+        <Description>%FactionTraitHeroLevelDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>

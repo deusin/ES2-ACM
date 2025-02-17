@@ -348,23 +348,23 @@
     </FactionTrait>
 	
 	<!--Hero Level Bonus-->
-	<FactionTrait Name="FactionTraitHeroLevel1" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="10">
+	<FactionTrait Name="FactionTraitHeroLevel1" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyHeroes" Level="1" Hidden="false" Custom="true" Cost="10">
         <SimulationDescriptorReference Name="FactionTraitHeroLevel1"/>
 		<Prerequisites>!FactionTraitStrongHeroes</Prerequisites>
     </FactionTrait>
-	<FactionTrait Name="FactionTraitHeroLevel2" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="20">
+	<FactionTrait Name="FactionTraitHeroLevel2" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyHeroes" Level="2" Hidden="false" Custom="true" Cost="20">
         <SimulationDescriptorReference Name="FactionTraitHeroLevel2"/>
 		<Prerequisites>!FactionTraitStrongHeroes</Prerequisites>
     </FactionTrait>
-	<FactionTrait Name="FactionTraitHeroLevel3" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="30">
+	<FactionTrait Name="FactionTraitHeroLevel3" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyHeroes" Level="3" Hidden="false" Custom="true" Cost="30">
         <SimulationDescriptorReference Name="FactionTraitHeroLevel3"/>
 		<Prerequisites>!FactionTraitStrongHeroes</Prerequisites>
     </FactionTrait>
-	<FactionTrait Name="FactionTraitHeroLevel4" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="40">
+	<FactionTrait Name="FactionTraitHeroLevel4" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyHeroes" Level="4" Hidden="false" Custom="true" Cost="40">
         <SimulationDescriptorReference Name="FactionTraitHeroLevel4"/>
 		<Prerequisites>!FactionTraitStrongHeroes</Prerequisites>
     </FactionTrait>
-	<FactionTrait Name="FactionTraitHeroLevel5" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyStartModifiers" Level="5" Hidden="false" Custom="true" Cost="50">
+	<FactionTrait Name="FactionTraitHeroLevel5" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroLevel" Family="FactionTraitFamilyHeroes" Level="5" Hidden="false" Custom="true" Cost="50">
         <SimulationDescriptorReference Name="FactionTraitHeroLevel5"/>
 		<Prerequisites>!FactionTraitStrongHeroes</Prerequisites>
     </FactionTrait>
