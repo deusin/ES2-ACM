@@ -1134,9 +1134,9 @@
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
-    	<TooltipElement>
+    	<!-- <TooltipElement>
            <EffectOverride>%FactionTraitStrongPopulation1Effect</EffectOverride>
-       </TooltipElement>
+       </TooltipElement> -->
     </ExtendedGuiElement>
 	
 	<ExtendedGuiElement Name="FactionTraitStrongPopulation2">
@@ -1145,9 +1145,9 @@
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
-    	<TooltipElement>
+    	<!-- <TooltipElement>
            <EffectOverride>%FactionTraitStrongPopulation2Effect</EffectOverride>
-       </TooltipElement>
+       </TooltipElement> -->
     </ExtendedGuiElement>
 	
 	<ExtendedGuiElement Name="FactionTraitStrongPopulation3">
@@ -1156,9 +1156,9 @@
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
-    	<TooltipElement>
+    	<!-- <TooltipElement>
            <EffectOverride>%FactionTraitStrongPopulation3Effect</EffectOverride>
-       </TooltipElement>
+       </TooltipElement> -->
     </ExtendedGuiElement>
 	
 	<ExtendedGuiElement Name="FactionTraitStrongPopulation4">
@@ -1167,9 +1167,9 @@
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
-    	<TooltipElement>
+    	<!-- <TooltipElement>
            <EffectOverride>%FactionTraitStrongPopulation4Effect</EffectOverride>
-       </TooltipElement>
+       </TooltipElement> -->
     </ExtendedGuiElement>
 	
 	<ExtendedGuiElement Name="FactionTraitStrongPopulation5">
@@ -1178,9 +1178,9 @@
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
-		<TooltipElement>
+		<!-- <TooltipElement>
            <EffectOverride>%FactionTraitStrongPopulation5Effect</EffectOverride>
-       </TooltipElement>
+       </TooltipElement> -->
     </ExtendedGuiElement>
 
 	<GuiElement Name="FactionTraitBankerPopulation1">
@@ -1336,9 +1336,9 @@
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
-		<TooltipElement>
+		<!-- <TooltipElement>
            <EffectOverride>%FactionTraitWeakRaceEffect</EffectOverride>
-       </TooltipElement>
+       </TooltipElement> -->
     </ExtendedGuiElement>
 	
 	<ExtendedGuiElement Name="FactionTraitWeakLifestile">

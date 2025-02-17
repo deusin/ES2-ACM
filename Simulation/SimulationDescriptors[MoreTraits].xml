@@ -296,110 +296,110 @@
     <!-- ######            POPULATION              ###### -->
     <!-- ################################################ -->
 	
+	<!-- There are several ways to accomplish this. Placing them in order of preference for behavior and tooltips below as examples -->
+	<!-- <BinaryModifier TargetProperty="PlanetDust" Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipOverride="%FactionTraitStrongPopulation1Effect"/> -->
+	<!-- <Modifier TargetProperty="BonusPopulationPrestige" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassPopulation"/> -->
+	<!-- <Modifier TargetProperty="PlanetInitialFoodPerPopulation" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true" /> -->
+	<!-- Using PlanetFIDSI instead of breaking them out makes the tooltip less useful, just says FIDSI Bonuses -->
+
 	<!--FIDSI-->
 	<SimulationDescriptor Name="FactionTraitStrongPopulation1"	Type="FactionTrait">
-        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
-		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="PlanetFood" 		Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetIndustry" 	Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetScience" 		Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitStrongPopulation2"	Type="FactionTrait">
-        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
-		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="PlanetFood" 		Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetIndustry" 	Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetScience" 		Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitStrongPopulation3"	Type="FactionTrait">
-        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
-		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="PlanetFood" 		Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetIndustry" 	Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetScience" 		Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitStrongPopulation4"	Type="FactionTrait">
-        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
-		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="PlanetFood" 		Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetIndustry" 	Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetScience" 		Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitStrongPopulation5"	Type="FactionTrait">
-        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
-		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="PlanetFood" 		Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetIndustry" 	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetScience" 		Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<!--Dust per Population-->
 	<SimulationDescriptor Name="FactionTraitBankerPopulation1"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitBankerPopulation2"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitBankerPopulation3"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<!--Influence per Population-->
 	<SimulationDescriptor Name="FactionTraitLoyalPopulation1"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitLoyalPopulation2"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitLoyalPopulation3"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<!--Industry per Population-->
 	<SimulationDescriptor Name="FactionTraitProductivePopulation1"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetIndustry" 	Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitProductivePopulation2"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetIndustry" 	Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitProductivePopulation3"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetIndustry" 	Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<!--Food per Population-->
 	<SimulationDescriptor Name="FactionTraitAgriculturalPopulation1"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetFood" 		Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitAgriculturalPopulation2"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetFood" 		Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitAgriculturalPopulation3"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetFood" 		Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<!--Science per Population-->
 	<SimulationDescriptor Name="FactionTraitThinkerPopulation1"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetScience" 		Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitThinkerPopulation2"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetScience" 		Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="FactionTraitThinkerPopulation3"	Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetScience" 		Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<!--System Trade Value per Population-->
 	<SimulationDescriptor Name="FactionTraitMerchantPopulation"    	Type="FactionTrait">
 		<BinaryModifier TargetProperty="TradingRouteIncomeModifier"	Operation="Percent"	Left="0.01"	BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<!--Minus FIDSI per Population-->
 	<SimulationDescriptor Name="FactionTraitWeakRace"    	Type="FactionTrait">
-		<!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
-		<Modifier TargetProperty="PlanetRawFood" 			Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawDust" 			Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawScience" 		Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="PlanetFood" 		Operation="Subtraction" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetIndustry" 	Operation="Subtraction" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetDust" 		Operation="Subtraction" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetScience" 		Operation="Subtraction" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Subtraction" Left="5" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
 	</SimulationDescriptor>
 	<!--Minus Happiness per Population-->
 	<SimulationDescriptor Name="FactionTraitUnhappyPopulation"    	Type="FactionTrait">
@@ -407,7 +407,7 @@
 	</SimulationDescriptor>
 	<!--Minus Influence and Diplomacy Penalties per Population-->
 	<SimulationDescriptor Name="FactionTraitInfamousPopulation"    Type="FactionTrait">
-		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Subtraction" 	Value="2"  			Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+		<BinaryModifier TargetProperty="PlanetPrestige" 	Operation="Subtraction" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
         <Modifier TargetProperty="DiplomacyCostReduction"	Operation="Addition"    Value="0.1"     	Path="ClassEmpire" TooltipHidden="true"/>
 		<Modifier TargetProperty="PeacefulTreatyCostReduction" 	Value="0.1"   	Operation="Addition" 	Path="ClassEmpire"/>
     </SimulationDescriptor>
