@@ -2,7 +2,23 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 	<RuntimeModule Name="ACM" Type="Extension" Version="1.6">
 		<Title>Amradyr Collective Mods</Title>
-		<Description>Mod collection combined: ESG, More Traits, Arkon, etc</Description>
+		<Description>Mod collection combined and integrated
+
+ESG 1.6
+More Traits (including fixes)
+Political Skill Trees
+Useful Skill Colors
+...
+  More to come and perhaps some custom factions
+
+Credit to original authors from above. I mostly resolved conflicts and fixed bugs.
+
+Built for myself and my son, might be useful for others
+You're welcome to report any issues you encounter or request an interesting integration
+
+https://github.com/deusin/ES2-ACM
+		
+		</Description>
 		<Author>Lord Deusin Amradyr</Author>
 		<Homepage></Homepage>
 		<PreviewImageFile>ACM.png</PreviewImageFile>
