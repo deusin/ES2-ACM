@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+  
+  <HeroDefinition Name="Samus">
+    <Skill Name="SupremeCommander"/>
+    <Skill Name="InspiringIcon"/>
+
+    <Affinity Name="HeroAffinityTerrans"/>
+    <Class Name="HeroClassAdmiral"/>
+    <Politics Name="HeroPolitics06"/>
+
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+    <SkillTree Name="HeroSkillTreePersonal"/>
+    <SkillTree Name="HeroSkillTreeScouting"/>
+    <SkillTree Name="HeroSkillTreeConquest"/>
+
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
+
+</Datatable>

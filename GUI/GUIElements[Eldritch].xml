@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <GuiElement Name="FactionTraitFamilyEldritch">
+    <Title>%FactionTraitFamilyEldritchTitle</Title>
+    <Description>%FactionTraitFamilyEldritchDescription</Description>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="FactionTraitEldritchSpeed">
+    <Title>%FactionTraitEldritchSpeedTitle</Title>
+    <Description>%FactionTraitEldritchSpeedDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/Traits/Exploration.png" />
+    </Icons>
+    <!-- <TooltipElement>
+      <EffectOverride>%FactionTraitScanningEffect</EffectOverride>
+    </TooltipElement> -->
+  </ExtendedGuiElement>
+
+	<!-- Extra Heroes -->
+	<ExtendedGuiElement Name="FactionTraitEldritchHero">
+        <Title>%FactionTraitEldritchHeroTitle</Title>
+        <Description>%FactionTraitEldritchHeroDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+		<TooltipElement>
+            <EffectOverride>%FactionTraitEldritchHeroEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+  <!-- Custom Hero Data -->
+  <HeroGuiElement Name="Samus">
+      <Title>%SamusTitle</Title>
+      <Description>%SamusDescription</Description>
+      <Icons>
+          <Icon Size="Medium" Path="Gui/SamusMedium"/>
+          <Icon Size="Large" Path="Gui/SamusLarge"/>
+          <Icon Size="Mood" Path="Gui/SamusMood"/>
+      </Icons>
+  </HeroGuiElement>
+
+  <ExtendedGuiElement Name="SupremeCommander">
+      <Title>%SupremeCommanderTitle</Title>
+      <Description>%SupremeCommanderDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill18_FleetDamage_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="InspiringIcon">
+      <Title>%InspiringIconTitle</Title>
+      <Description>%InspiringIconDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill5_SystemManpower_Flat_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+<!-- CUSTOM HERO SKILLS -->
+
+  <!-- HERO SKILL TREE PERSONAL -->
+  <ExtendedGuiElement Name="HeroSkillTreePersonal">
+      <Title>%HeroSkillTreePersonalTitle</Title>
+      <Description>%HeroSkillTreePersonalDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="/Atlased/Hero/HeroesHeroesSmall"/>
+      </Icons>
+      <Color Red="0" Green="250" Blue="154" Alpha="255"/>
+  </ExtendedGuiElement>
+  <GuiElement Name="CategoryHeroSkillTreePersonal">
+      <Title>%CategoryHeroSkillTreePersonalTitle</Title>
+      <Description>%CategoryHeroSkillTreePersonalDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="/Atlased/Hero/HeroesHeroesSmall"/>
+      </Icons>
+  </GuiElement>
+
+  <!-- STAGE ONE PERSONAL -->
+  <ExtendedGuiElement Name="RoutineCrewTraining">
+      <Title>%RoutineCrewTrainingTitle</Title>
+      <Description>%RoutineCrewTrainingDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill47_FleetExplorationFleetXP_Flat_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="CharismaticLeadership">
+      <Title>%CharismaticLeadershipTitle</Title>
+      <Description>%CharismaticLeadershipDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill8_SystemManpower_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- STAGE TWO PERSONAL -->
+  <ExtendedGuiElement Name="PhotonWall">
+      <Title>%PhotonWallTitle</Title>
+      <Description>%PhotonWallDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill26_FleetDefense_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="Eudaimonia">
+      <Title>%EudaimoniaTitle</Title>
+      <Description>%EudaimoniaDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill113_FleetExploration_Flat_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- STAGE THREE PERSONAL -->
+  <ExtendedGuiElement Name="SingularityMechanics">
+      <Title>%SingularityMechanicsTitle</Title>
+      <Description>%SingularityMechanicsDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill79_IndustryFood_Perpop_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SeductionProtocol">
+      <Title>%SeductionProtocolTitle</Title>
+      <Description>%SeductionProtocolDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill15_HeroUpkeep_Multiplier_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- STAGE FOUR PERSONAL -->
+  <ExtendedGuiElement Name="AllMight">
+      <Title>%AllMightTitle</Title>
+      <Description>%AllMightDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill19_FleetDamage_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- HERO SKILL TREE SCOUTING -->
+  <ExtendedGuiElement Name="HeroSkillTreeScouting">
+      <Title>%HeroSkillTreeScoutingTitle</Title>
+      <Description>%HeroSkillTreeScoutingDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="/Atlased/Hero/HeroClassAdventurerSmall"/>
+      </Icons>
+      <Color Red="0" Green="191" Blue="255" Alpha="255"/>
+  </ExtendedGuiElement>
+  <GuiElement Name="CategoryHeroSkillTreeScouting">
+      <Title>%CategoryHeroSkillTreeScoutingTitle</Title>
+      <Description>%CategoryHeroSkillTreeScoutingDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="/Atlased/Hero/HeroClassAdventurerSmall"/>
+      </Icons>
+  </GuiElement>
+
+  <!-- STAGE ONE SCOUTING -->
+  <ExtendedGuiElement Name="PhaseAmplification">
+      <Title>%PhaseAmplificationTitle</Title>
+      <Description>%PhaseAmplificationDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill34_FleetExploration_MultiplierFlat_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="MobilityDoctrine">
+      <Title>%MobilityDoctrineTitle</Title>
+      <Description>%MobilityDoctrineDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill44_FleetExplorationFleetDefense_PercentFlat_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- STAGE TWO SCOUTING -->
+  <ExtendedGuiElement Name="IndustrialAutomation">
+      <Title>%IndustrialAutomationTitle</Title>
+      <Description>%IndustrialAutomationDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill50_Approval_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="Nanometallurgy">
+      <Title>%NanometallurgyTitle</Title>
+      <Description>%NanometallurgyDescription</Description> 
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill91_Science_PerAnomalyFlat_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- STAGE THREE SCOUTING -->
+  <ExtendedGuiElement Name="TemporalMechanics">
+      <Title>%TemporalMechanicsTitle</Title>
+      <Description>%TemporalMechanicsDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill36_FleetExploration_Flat_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="Nanominiaturization">
+      <Title>%NanominiaturizationTitle</Title>
+      <Description>%NanominiaturizationDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill100_TradeCompanies_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="LudicrousSpeed">
+      <Title>%LudicrousSpeedTitle</Title>
+      <Description>%LudicrousSpeedDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill46_FleetExplorationFleetUpkeep_PercentFlat_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- STAGE FOUR SCOUTING -->
+  <ExtendedGuiElement Name="FanService">
+      <Title>%FanServiceTitle</Title>
+      <Description>%FanServiceDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill9_SystemManpower_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- HERO SKILL TREE CONQUEST -->
+  <ExtendedGuiElement Name="HeroSkillTreeConquest">
+      <Title>%HeroSkillTreeConquestTitle</Title>
+      <Description>%HeroSkillTreeConquestDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="/Atlased/Hero/HeroClassAdmiralSmall"/>
+      </Icons>
+      <Color Red="220" Green="20" Blue="60" Alpha="255"/>
+  </ExtendedGuiElement>
+  <GuiElement Name="CategoryHeroSkillTreeConquest">
+      <Title>%CategoryHeroSkillTreeConquestTitle</Title>
+      <Description>%CategoryHeroSkillTreeConquestDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="/Atlased/Hero/HeroClassAdmiralSmall"/>
+      </Icons>
+  </GuiElement>
+
+  <!-- STAGE ONE CONQUEST -->
+  <ExtendedGuiElement Name="QualityControl">
+      <Title>%QualityControlTitle</Title>
+      <Description>%QualityControlDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill23_FleetDefense_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SuperiorShieldEmitters">
+      <Title>%SuperiorShieldEmittersTitle</Title>
+      <Description>%SuperiorShieldEmittersDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill28_FleetDefense_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- STAGE TWO CONQUEST -->
+  <ExtendedGuiElement Name="KineticIntensifier">
+      <Title>%KineticIntensifierTitle</Title>
+      <Description>%KineticIntensifierDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill20_FleetDamage_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="SolarLance">
+      <Title>%SolarLanceTitle</Title>
+      <Description>%SolarLanceDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill111_FleetDamage_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- STAGE THREE CONQUEST -->
+  <ExtendedGuiElement Name="RepelonArmor">
+      <Title>%RepelonArmorTitle</Title>
+      <Description>%RepelonArmorDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill27_FleetDefense_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="MarkovEclipse">
+      <Title>%MarkovEclipseTitle</Title>
+      <Description>%MarkovEclipseDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill18_FleetDamage_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="FlawPerception">
+      <Title>%FlawPerceptionTitle</Title>
+      <Description>%FlawPerceptionDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill31_FleetDefense_PerCommandPoint_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+  <!-- STAGE FOUR CONQUEST -->
+  <ExtendedGuiElement Name="FinestHour">
+      <Title>%FinestHourTitle</Title>
+      <Description>%FinestHourDescription</Description>
+      <Icons>
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill49_FleetDefenseFleetDamage_Percent_Small"/>
+      </Icons>
+  </ExtendedGuiElement>
+
+</Datatable>

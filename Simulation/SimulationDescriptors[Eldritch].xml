@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  <SimulationDescriptor Name="FactionTraitEldritchSpeed" Type="FactionTrait">
+    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="2" Path="ClassEmpire/ClassGarrison/ClassShip"/>
+    <Modifier TargetProperty="FreeMovementSpeed" Operation="Multiplication" Value="1.2" Path="ClassEmpire/ClassGarrison/ClassShip"/>
+    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="2" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true"/>    
+    <Modifier TargetProperty="HackingWarpSpeed"     Value="0.20"  Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="HackingNonWarpSpeed"  Value="0.20"  Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="HackingNodeSpeed"     Value="0.20"  Operation="Percent" Path="ClassEmpire"/>
+  </SimulationDescriptor>
+
+<!-- UNIQUE HERO SKILLS -->
+
+  <SimulationDescriptor Name="SupremeCommander_FleetDamageFleetDefense_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipDamage" Operation="Addition" Value="0.25" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="FleetMaximumHealth" Operation="Addition" Value="0.25" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="FleetMaximumShield" Operation="Addition" Value="0.25" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="InspiringIcon_FleetSupport_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.25" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="MaximumShipManpower" Operation="Percent" Value="0.25" Path="./ClassGarrisonFleet/ClassShip"/>
+    <Modifier TargetProperty="FleetManpowerRefillRateModifier" Operation="Addition" Value="0.25" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- HERO SKILL TREE PERSONAL -->
+
+  <!-- STAGE ONE PERSONAL -->
+  <SimulationDescriptor Name="RoutineCrewTraining_ExpGainVision_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="5" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="VisionRange" Operation="Addition" Value="1" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="RoutineCrewTraining_ExpGainVision_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="10" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="VisionRange" Operation="Addition" Value="2" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CharismaticLeadership_ManpowerSiege_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="MaximumShipManpower" Operation="Percent" Value="0.25" Path="./ClassGarrisonFleet/ClassShip" Priority="1"/>
+    <Modifier TargetProperty="SiegePower" Operation="Percent" Value="0.15" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="CharismaticLeadership_ManpowerSiege_Percent_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="MaximumShipManpower" Operation="Percent" Value="0.50" Path="./ClassGarrisonFleet/ClassShip" Priority="1"/>
+    <Modifier TargetProperty="SiegePower" Operation="Percent" Value="0.30" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- STAGE TWO PERSONAL -->
+  <SimulationDescriptor Name="PhotonWall_HeroShipDefense_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="MaximumShield" Operation="Percent" Value="0.30" Path="ClassShip"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PhotonWall_HeroShipDefense_Percent_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="MaximumShield" Operation="Percent" Value="0.60" Path="ClassShip"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Eudaimonia_HeroUpkeepReduction_1" Type="HeroSkill" IsSerializable="false">
+    <Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.50" Path="ClassHero"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="Eudaimonia_HeroUpkeep_Multiplier_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="Upkeep" Operation="Multiplication" Value="0" Path="../ClassGarrisonFleet/ClassHero,HeroAssignedToFleet" TooltipOverride="%TooltipOverrideHeroSkillNoAdmiralUpkeep"/>
+  </SimulationDescriptor>
+
+  <!-- STAGE THREE PERSONAL -->
+  <SimulationDescriptor Name="SingularityMechanics_HeroShipDamage_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="Damage" Operation="Addition" Value="0.80" Path="ClassShip"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="SeductionProtocol_HeroCooldown_Percent_1" Type="HeroSkill" IsSerializable="false">
+    <Modifier TargetProperty="AssignmentCooldownBaseDuration" Operation="Percent" Value="-0.50" Path="ClassHero"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SeductionProtocol_HeroCooldown_Percent_1_OutOfTerritory" Type="HeroSkill" IsSerializable="false">
+    <Modifier TargetProperty="CanBeAssignedOutOfTerritory" Operation="Force" Value="1" Path="ClassHero" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- STAGE FOUR PERSONAL -->
+  <SimulationDescriptor Name="AllMight_HeroShipDamageFleetDefense_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="Damage" Operation="Addition" Value="0.80" Path="ClassShip"/>
+    <Modifier TargetProperty="FleetMaximumHealth" Operation="Addition" Value="0.50" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- HERO SKILL TREE SCOUTING -->
+
+  <!-- STAGE ONE SCOUTING -->
+  <SimulationDescriptor Name="PhaseAmplification_FleetExploration_MultiplierFlat_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="VisionRange" Operation="Addition" Value="1" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="FreeMovementSpeed" Operation="Multiplication" Value="2" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PhaseAmplification_FleetExploration_MultiplierFlat_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="VisionRange" Operation="Addition" Value="2" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="FreeMovementSpeed" Operation="Multiplication" Value="3" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="MobilityDoctrine_FleetExploration_Flat_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="VisionRange" Operation="Addition" Value="1" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="1" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MobilityDoctrine_FleetExploration_Flat_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="VisionRange" Operation="Addition" Value="2" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="2" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- STAGE TWO SCOUTING -->
+  <SimulationDescriptor Name="IndustrialAutomation_FleetExploration_Flat_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="2" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="2" Path="ClassShip"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="IndustrialAutomation_FleetExploration_Flat_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="4" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="4" Path="ClassShip"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Nanometallurgy_FleetExplorationFleetDefense_PercentFlat_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="2" Path="./ClassGarrisonFleet/ClassShip,ShipRoleExploration"/>
+    <Modifier TargetProperty="FleetMaximumHealth" Operation="Addition" Value="0.20" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="Nanometallurgy_FleetExplorationFleetDefense_PercentFlat_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="4" Path="./ClassGarrisonFleet/ClassShip,ShipRoleExploration"/>
+    <Modifier TargetProperty="FleetMaximumHealth" Operation="Addition" Value="0.40" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- STAGE THREE SCOUTING -->
+  <SimulationDescriptor Name="TemporalMechanics_FleetExplorationFleetDefense_PercentFlat_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="3" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="FleetMaximumShield" Operation="Addition" Value="0.30" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Nanominiaturization_FleetExplorationFleetUpkeep_PercentFlat_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="NetShipProbe" Operation="Addition" Value="0.50" Path="./ClassGarrisonFleet/ClassShip,ShipRoleExploration"/>
+    <Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.20" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="Nanominiaturization_FleetExplorationFleetUpkeep_PercentFlat_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="NetShipProbe" Operation="Addition" Value="1.00" Path="./ClassGarrisonFleet/ClassShip,ShipRoleExploration"/>
+    <Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.40" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="LudicrousSpeed_FleetExploration_Flat_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="9" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- STAGE FOUR SCOUTING -->
+  <SimulationDescriptor Name="FanService_SystemManpower_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="MaximumShipManpower" Operation="Percent" Value="0.50" Path="./ClassGarrisonFleet/ClassShip"/>
+    <Modifier TargetProperty="FleetManpowerRefillRateModifier" Operation="Addition" Value="0.50" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- HERO SKILL TREE CONQUEST -->
+
+  <!-- STAGE ONE CONQUEST -->
+  <SimulationDescriptor Name="QualityControl_FleetDefense_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="FleetMaximumHealth" Operation="Addition" Value="0.25" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="QualityControl_FleetDefense_Percent_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="FleetMaximumHealth" Operation="Addition" Value="0.50" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="SuperiorShieldEmitters_FleetDefense_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="FleetMaximumShield" Operation="Addition" Value="0.25" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SuperiorShieldEmitters_FleetDefense_Percent_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="FleetMaximumShield" Operation="Addition" Value="0.50" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- STAGE TWO CONQUEST -->
+  <SimulationDescriptor Name="KineticIntensifier_FleetDamage_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipDamageProjectile" Operation="Addition" Value="0.40" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="KineticIntensifier_FleetDamage_Percent_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipDamageProjectile" Operation="Addition" Value="0.80" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="SolarLance_FleetDamage_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipDamageEnergy" Operation="Addition" Value="0.40" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SolarLance_FleetDamage_Percent_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipDamageEnergy" Operation="Addition" Value="0.80" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- STAGE THREE CONQUEST -->
+  <SimulationDescriptor Name="RepelonArmor_FleetDefense_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipHullPlatingAbsorptionPercent" Operation="Addition" Value="0.40" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="ShipShieldAbsorptionPercent" Operation="Addition" Value="0.40" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="RepelonArmor_FleetDefense_Percent_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipHullPlatingAbsorptionPercent" Operation="Addition" Value="0.80" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="ShipShieldAbsorptionPercent" Operation="Addition" Value="0.80" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="MarkovEclipse_FleetDamage_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipDamage" Operation="Addition" Value="0.60" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FlawPerception_FleetDamage_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipHullPlatingPenetrationFactor" Operation="Addition" Value="0.40" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="ShipShieldPenetrationFactor" Operation="Addition" Value="0.40" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="FlawPerception_FleetDamage_Percent_2" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipHullPlatingPenetrationFactor" Operation="Addition" Value="0.80" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="ShipShieldPenetrationFactor" Operation="Addition" Value="0.80" Path="./ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- STAGE FOUR CONQUEST -->
+  <SimulationDescriptor Name="FinestHour_FleetDefenseFleetDamage_Percent_1" Type="HeroSkillShip" IsSerializable="false">
+    <Modifier TargetProperty="ShipDamage" Operation="Addition" Value="0.80" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="FleetMaximumHealth" Operation="Addition" Value="0.50" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="FleetMaximumShield" Operation="Addition" Value="0.50" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.50" Path="./ClassGarrisonFleet"/>
+    <Modifier TargetProperty="MaximumShipManpower" Operation="Percent" Value="0.50" Path="./ClassGarrisonFleet/ClassShip"/>
+    <Modifier TargetProperty="FleetManpowerRefillRateModifier" Operation="Addition" Value="0.50" Path="./ClassGarrisonFleet"/>
+    <BinaryModifier TargetProperty="ShipDamage" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(CommandPoints)"	Path="./ClassGarrisonFleet" SearchValueFromPath="true"/>
+    <BinaryModifier TargetProperty="FleetMaximumHealth" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(CommandPoints)"	Path="./ClassGarrisonFleet" SearchValueFromPath="true"/>
+    <BinaryModifier TargetProperty="FleetMaximumShield" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(CommandPoints)"	Path="./ClassGarrisonFleet" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+
+</Datatable>

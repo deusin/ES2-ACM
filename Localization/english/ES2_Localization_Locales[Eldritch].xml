@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <LocalizationPair Name="%FactionTraitFamilyEldritchTitle">Eldritch</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyEldritchDescription">Empire traits signifying use of Eldritch, forbidden, and dangerous methods</LocalizationPair>
+
+  <LocalizationPair Name="%FactionTraitEldritchSpeedTitle">Non-Euclidean Drift</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitEldritchSpeedDescription">This empire has employed eldritch methods of traveling faster and reaching farther by slipping through alternate geometries.</LocalizationPair>
+
+  <LocalizationPair Name="%FactionTraitEldritchHeroTitle">Eldritch Hero Samus</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitEldritchHeroDescription">Start with an Eldritch Hero.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitEldritchHeroEffect">Start with an Eldritch Hero.</LocalizationPair>
+
+  <!-- CUSTOM HERO DATA -->
+
+  <LocalizationPair Name="%SamusTitle">Samus Aran</LocalizationPair>
+  <LocalizationPair Name="%SamusDescription">Arguably the best bounty hunter in the known galaxy, Samus Aran is a stalwart officer who lends her services to the Galactic Federation at times. Although she possesses an exemplary military service record and well-decorated from her outstanding achievements, she is a lone wolf at heart, only taking Federation orders due to bounties or when their goals align. Even so, she holds a genuine care for the well-being of those serving under her command, ensuring that their survival is a top priority. This inevitably makes her well-received and be a source of inspiration by the crew. Samus is also one of the top graduates of the Academy, being one of the best users of Dust utilization.</LocalizationPair>
+
+  <LocalizationPair Name="%SupremeCommanderTitle">Supreme Commander</LocalizationPair>
+  <LocalizationPair Name="%SupremeCommanderDescription">Samus raises fleet morale with her encouraging yet commanding figure, maximizing crew performance and fleet capabilities.</LocalizationPair>
+
+  <LocalizationPair Name="%InspiringIconTitle">Inspiring Icon</LocalizationPair>
+  <LocalizationPair Name="%InspiringIconDescription">Samus instills hope in people under her command, inspiring them to give their utmost support for their cause.</LocalizationPair>
+
+  <!-- CUSTOM HERO SKILLS -->
+
+  <!-- HERO SKILL TREE PERSONAL -->
+  <LocalizationPair Name="%HeroSkillTreePersonalTitle">Personal Skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreePersonalDescription">This branch contains skills that enhance Samus and her ship's abilities.</LocalizationPair>
+
+  <LocalizationPair Name="%CategoryHeroSkillTreePersonalTitle">Personal Skill</LocalizationPair>
+  <LocalizationPair Name="%CategoryHeroSkillTreePersonalDescription">Skill in the "Personal" category.</LocalizationPair>
+
+  <!-- STAGE ONE PERSONAL -->
+  <LocalizationPair Name="%RoutineCrewTrainingTitle">Routine Crew Training</LocalizationPair>
+  <LocalizationPair Name="%RoutineCrewTrainingDescription">Samus subjects her fleet to perform drills on the regular to ensure that the crew's performance are in top shape. Knowing how brutal the realities of spacefaring are, it is imperative that the crew are trained well to be prepared for anything that comes their way.</LocalizationPair>
+
+  <LocalizationPair Name="%CharismaticLeadershipTitle">Charismatic Leadership</LocalizationPair>
+  <LocalizationPair Name="%CharismaticLeadershipDescription">Samus's dauntless presence on top of her stunning beauty motivates her crew with increased enthusiasm, leading to increased fleetwide manpower. Tales of her glamorous exploits increase popular support for military funding and enlistment under her command.</LocalizationPair>
+
+  <!-- STAGE TWO PERSONAL -->
+  <LocalizationPair Name="%PhotonWallTitle">Photon Wall</LocalizationPair>
+  <LocalizationPair Name="%PhotonWallDescription">Samus's understanding of photon/wave mechanics and her mastery over Dust field manipulation enables her to project a powerful aura around her ship, strengthening its defenses by diffusing and warping incoming intense particle and electromagnetic emissions.</LocalizationPair>
+
+  <LocalizationPair Name="%EudaimoniaTitle">Eudaimonia</LocalizationPair>
+  <LocalizationPair Name="%EudaimoniaDescription">An eudaimonic attitude encourages Samus to achieve happiness by striving to completely fulfill her potential, enabling her freedom, creativity, and individuality to flourish while commanding the fleet. Consequently, this type of outlook reduces her desire for monetary gain in favor of personal enrichment to better serve her ideals.</LocalizationPair>
+
+  <!-- STAGE THREE PERSONAL -->
+  <LocalizationPair Name="%SingularityMechanicsTitle">Singularity Mechanics</LocalizationPair>
+  <LocalizationPair Name="%SingularityMechanicsDescription">Breakthroughs in the study of controlled singularity allows Samus to squeeze an extra punch out of any ordnance on her personal craft using Dust singularity induction methods applied through a temporal boundary medium.</LocalizationPair>
+
+  <LocalizationPair Name="%SeductionProtocolTitle">Seduction Protocol</LocalizationPair>
+  <LocalizationPair Name="%SeductionProtocolDescription">Samus is no stranger to make use of her sexual appeal and bypass the dense thicket of bureaucratic regulations dictating her deployments, allowing her to be placed in previously prohibited zones and be reassigned in less than the normal time.</LocalizationPair>
+
+  <!-- STAGE FOUR PERSONAL -->
+  <LocalizationPair Name="%AllMightTitle">All Might</LocalizationPair>
+  <LocalizationPair Name="%AllMightDescription">There are times in battle where one must be able to go further beyond and therein lies the true essence of what it means to take on the mantle of the admiralty. This philosophy grants Samus the means to focus all of her strengths into an all-encompassing might that would smash through the opposition and triumph over her foes. Her actions also bolster her fleet's fortitude as crews work passionately to bring about their ships' plus ultra.</LocalizationPair>
+
+  <!-- HERO SKILL TREE SCOUTING -->
+  <LocalizationPair Name="%HeroSkillTreeScoutingTitle">Scouting Skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreeScoutingDescription">This branch contains skills that aid in mobility and exploration.</LocalizationPair>
+
+  <LocalizationPair Name="%CategoryHeroSkillTreeScoutingTitle">Scouting Skill</LocalizationPair>
+  <LocalizationPair Name="%CategoryHeroSkillTreeScoutingDescription">Skill in the "Scouting" category.</LocalizationPair>
+
+  <!-- STAGE ONE SCOUTING -->
+  <LocalizationPair Name="%PhaseAmplificationTitle">Phase Amplification</LocalizationPair>
+  <LocalizationPair Name="%PhaseAmplificationDescription">Insights in phase shift navigation allows for enhanced fleet vision and exploration capabilities.</LocalizationPair>
+
+  <LocalizationPair Name="%MobilityDoctrineTitle">Mobility Doctrine</LocalizationPair>
+  <LocalizationPair Name="%MobilityDoctrineDescription">The early colonists quickly learned the importance of reconnaissance and self-defense in the hostile conditions of deep space. The Mobility Doctrine formalizes these cornerstones of military might, representing the first attempts at an organized exploration and defense policy.</LocalizationPair>
+
+  <!-- STAGE TWO SCOUTING -->
+  <LocalizationPair Name="%IndustrialAutomationTitle">Industrial Automation</LocalizationPair>
+  <LocalizationPair Name="%IndustrialAutomationDescription">The creation of planetary networks and widespread adoption of industrial economics lead to rapid industrialization of the colonized worlds, prompting expeditionary fleets to invest more on exploration tools and startrekking instruction.</LocalizationPair>
+
+  <LocalizationPair Name="%NanometallurgyTitle">Nanometallurgy</LocalizationPair>
+  <LocalizationPair Name="%NanometallurgyDescription">Driven by the requirements of industrial automation and the mathematical models behind probability mechanics, nanometallurgy techniques allow engineers to manipulate metals at the molecular level. Practical applications have contributed to increased ship probe stocks as well as ship hull integrity.</LocalizationPair>
+
+  <!-- STAGE THREE SCOUTING -->
+  <LocalizationPair Name="%TemporalMechanicsTitle">Temporal Mechanics</LocalizationPair>
+  <LocalizationPair Name="%TemporalMechanicsDescription">Samus can project an aspect of her Dust-infused consciousness into the surrounding space, enabling the fleet to plot the smoothest course through the galaxy and raising shield strength by manipulating time itself.</LocalizationPair>
+
+  <LocalizationPair Name="%NanominiaturizationTitle">Nanominiaturization</LocalizationPair>
+  <LocalizationPair Name="%NanominiaturizationDescription">Technological advances in monopole magnets and organic superlubricants lead to a revolution in engineering: Nanominiaturization. Emphasizing new assembly methods and high-tensile strength materials, microscopic machine components can be constructed and all manner of bulky, heavy equipment can be shrunk to a fraction of its original size and allow for speedy manufacturing of materials onboard ships and the reduction of fleet upkeep.</LocalizationPair>
+
+  <LocalizationPair Name="%LudicrousSpeedTitle">Ludicrous Speed</LocalizationPair>
+  <LocalizationPair Name="%LudicrousSpeedDescription">Inspired by the legendary media known as "Spaceballs", Samus's crew are able to replicate the sensation of going into plaid by achieving ludicrous speed.</LocalizationPair>
+
+  <!-- STAGE FOUR SCOUTING -->
+  <LocalizationPair Name="%FanServiceTitle">Fan Service</LocalizationPair>
+  <LocalizationPair Name="%FanServiceDescription">By popular demand from her crew, Samus periodically does 'fan service' through various live performances along with other prominent female crew members, often in the form of burlesque and other types of light adult entertainment. As a result, crew morale and enlistment rate in her fleet are always high.</LocalizationPair>
+
+  <!-- HERO SKILL TREE CONQUEST -->
+  <LocalizationPair Name="%HeroSkillTreeConquestTitle">Conquest Skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreeConquestDescription">This branch contains skills that enhance fleet combat capabilities.</LocalizationPair>
+
+  <LocalizationPair Name="%CategoryHeroSkillTreeConquestTitle">Conquest Skill</LocalizationPair>
+  <LocalizationPair Name="%CategoryHeroSkillTreeConquestDescription">Skill in the "Conquest" category.</LocalizationPair>
+
+  <!-- STAGE ONE CONQUEST -->
+  <LocalizationPair Name="%QualityControlTitle">Quality Control</LocalizationPair>
+  <LocalizationPair Name="%QualityControlDescription">Samus personally oversees fleetwide reinforcement and inspection while dry-docked, hounding engineers and dockworkers to constantly ensure their ships will stand up to the worst of what lies out in deep space.</LocalizationPair>
+
+  <LocalizationPair Name="%SuperiorShieldEmittersTitle">Superior Shield Emitters</LocalizationPair>
+  <LocalizationPair Name="%SuperiorShieldEmittersDescription">Special shield generators powered by quantum engines emit a more powerful defensive wall, granting additional overall health in battle.</LocalizationPair>
+
+  <!-- STAGE TWO CONQUEST -->
+  <LocalizationPair Name="%KineticIntensifierTitle">Kinetic Intensifier</LocalizationPair>
+  <LocalizationPair Name="%KineticIntensifierDescription">Samus utilizes Dust synchronization to augment projectile-based weaponry and increase its lethality with improved acceleration and penetrative potential.</LocalizationPair>
+
+  <LocalizationPair Name="%SolarLanceTitle">Solar Lance</LocalizationPair>
+  <LocalizationPair Name="%SolarLanceDescription">Through careful analysis of any given fleet's critical energy needs, Samus can tweak energy weapon systems to draw higher power at the point of firing via solarite medium, increasing damage.</LocalizationPair>
+
+  <!-- STAGE THREE CONQUEST -->
+  <LocalizationPair Name="%RepelonArmorTitle">Repelon Armor</LocalizationPair>
+  <LocalizationPair Name="%RepelonArmorDescription">Insights from studying impact analysis allows the ship's crew to mitigate hull and shield damage, resulting in increased hull plating and shield absorption efficiency.</LocalizationPair>
+
+  <LocalizationPair Name="%MarkovEclipseTitle">Markov Eclipse</LocalizationPair>
+  <LocalizationPair Name="%MarkovEclipseDescription">With careful training, a human mind could be trained to operate in close harmony with certain classes of AI. From this finding came the Markov Eclipse, the superposition of the human mind on the AI. Utilizing such technology allows Samus to have closer coordination with the CIC's AI weapons systems and calculate unconventional firing strategies that take advantage of zero-g scenarios and boost the fleet's overall firepower.</LocalizationPair>
+
+  <LocalizationPair Name="%FlawPerceptionTitle">Flaw Perception</LocalizationPair>
+  <LocalizationPair Name="%FlawPerceptionDescription">Experience from hundreds of fights has enabled Samus to attain an immediate, intuitive feeling for an enemy fleet's weaknesses, increasing weapon penetration.</LocalizationPair>
+
+  <!-- STAGE FOUR CONQUEST -->
+  <LocalizationPair Name="%FinestHourTitle">Finest Hour</LocalizationPair>
+  <LocalizationPair Name="%FinestHourDescription">With a near flawless understanding of the ebbs and flows of the battlefield, Samus is able to raise the offensive and defensive capabilities of her fleet to its full potential. In addition, her resolve emboldens the crew of the ships under her command and bring about their finest battle performance.</LocalizationPair>
+
+</Datatable>

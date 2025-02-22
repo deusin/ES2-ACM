@@ -501,6 +501,7 @@ https://github.com/deusin/ES2-ACM
 			<DatabasePlugin DataType="FactionTraitCategoryDefinition, Assembly-CSharp">
 				<FilePath>Simulation/FactionTraitCategoryDefinitions.xml</FilePath>
 				<FilePath>Simulation/FactionTraitCategoryDefinition[MoreTraits].xml</FilePath>
+				<FilePath>Simulation/FactionTraitCategoryDefinition[Eldritch].xml</FilePath>
 			</DatabasePlugin>
 
 			<!-- Personalities -->
@@ -586,10 +587,12 @@ https://github.com/deusin/ES2-ACM
 
 			<DatabasePlugin DataType="HeroSkillTreeDefinition, Assembly-CSharp">
 				<FilePath>Simulation/HeroSkillTreeDefinitions.xml</FilePath>
+				<FilePath>Simulation/HeroSkillTreeDefinitions[Eldritch].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="HeroSkillDefinition, Assembly-CSharp">
 				<FilePath>Simulation/HeroSkillDefinitions.xml</FilePath>
+				<FilePath>Simulation/HeroSkillDefinitions[Eldritch].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="HeroDefinition, Assembly-CSharp">

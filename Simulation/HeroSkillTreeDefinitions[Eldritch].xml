@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillTreeDefinition.xsd">
+
+  <!-- HERO SKILL TREE PERSONAL -->
+  <HeroSkillTreeDefinition Name="HeroSkillTreePersonal">
+
+    <Stage Level="0">
+      <!-- From Cosmic Castaway enhanced to +5(+10) fleet experience per turn & +1(+2) fleet vision range -->
+      <Skill>
+        <SkillDefinition Name="RoutineCrewTraining"/>
+      </Skill>
+      <!-- From Authoritarian Leadership enhanced to +25%(+50%) fleet manpower stock & +15%(+30%) fleet siege damage -->
+      <Skill>
+        <SkillDefinition Name="CharismaticLeadership"/>
+      </Skill>
+    </Stage>
+
+    <Stage Level="4">
+      <!-- From Mantle Projection enhanced to +30%(+60%) hero ship shield capacity -->
+      <Skill>
+        <SkillDefinition Name="PhotonWall"/>
+      </Skill>
+      <!-- From Transcendental Outlook enhanced to -50% hero upkeep & no hero fleet upkeep -->
+      <Skill>
+        <SkillDefinition Name="Eudaimonia"/>
+      </Skill>
+    </Stage>
+
+    <Stage Level="8">
+      <!-- From Bespoke Arms +80% hero ship damage -->
+      <Skill>
+        <SkillDefinition Name="SingularityMechanics"/>
+      </Skill>
+      <!-- From Red Tape Scyther enhanced to -50% hero assignment duration & hero can be assigned on fleets outside of friendly territory -->
+      <Skill>
+        <SkillDefinition Name="SeductionProtocol"/>
+      </Skill>
+    </Stage>
+
+    <Stage Level="12">
+      <!-- From Righteousness of the Ordained enhanced to +80% hero ship damage & +50% fleet HP -->
+      <Skill>
+        <SkillDefinition Name="AllMight"/>
+      </Skill>
+    </Stage>
+
+  </HeroSkillTreeDefinition>
+
+  <!-- HERO SKILL TREE SCOUTING -->
+  <HeroSkillTreeDefinition Name="HeroSkillTreeScouting">
+
+    <Stage Level="0">
+      <!-- From Enhanced Astronavigation enhanced to +1(+2) fleet vision range & x2(x3) fleet warp movement -->
+      <Skill>
+        <SkillDefinition Name="PhaseAmplification"/>
+      </Skill>
+      <!-- From Galactic Sense +1(+2) fleet vision, +1(+2) fleet movement -->
+      <Skill>
+        <SkillDefinition Name="MobilityDoctrine"/>
+      </Skill>
+    </Stage>
+
+    <Stage Level="4">
+      <!-- From Startrekking Instruction enhanced to +2(+4) fleet movement & +2(+4) hero ship probe stock -->
+      <Skill>
+        <SkillDefinition Name="IndustrialAutomation"/>
+      </Skill>
+      <!-- From Slim Probe Model +2(+4) probe stock on exploration ships & +20%(40%) fleet HP -->
+      <Skill>
+        <SkillDefinition Name="Nanometallurgy"/>
+      </Skill>
+    </Stage>
+
+    <Stage Level="8">
+      <!-- From Prescient Guide enhanced to +3 fleet movement & +30% fleet shield capacity -->
+      <Skill>
+        <SkillDefinition Name="TemporalMechanics"/>
+      </Skill>
+      <!-- From Fleet Black Market +50%(+100%) probe recovery on exploration ships & -20%(-40%) fleet upkeep -->
+      <Skill>
+        <SkillDefinition Name="Nanominiaturization"/>
+      </Skill>
+      <!-- From Celestial Mechanics enhanced to +9 fleet movement -->
+      <Skill>
+        <SkillDefinition Name="LudicrousSpeed"/>
+      </Skill>
+    </Stage>
+
+    <Stage Level="12">
+      <!-- From Endless Charisma enhanced to +50% manpower capacity & refill rate -->
+      <Skill>
+        <SkillDefinition Name="FanService"/>
+      </Skill>
+    </Stage>
+
+  </HeroSkillTreeDefinition>
+
+  <!-- HERO SKILL TREE CONQUEST -->
+  <HeroSkillTreeDefinition Name="HeroSkillTreeConquest">
+
+    <Stage Level="0">
+      <!-- From By the Book enhanced to +25%(+50%) fleet HP -->
+      <Skill>
+        <SkillDefinition Name="QualityControl"/>
+      </Skill>
+      <!-- From Defensive AI Integration enhanced to +25%(+50%) fleet shield capacity -->
+      <Skill>
+        <SkillDefinition Name="SuperiorShieldEmitters"/>
+      </Skill>
+    </Stage>
+
+    <Stage Level="4">
+      <!-- From Blunt Force Trauma enhanced to +40%(+80%) fleet projectile weapon damage -->
+      <Skill>
+        <SkillDefinition Name="KineticIntensifier"/>
+      </Skill>
+      <!-- From The Burning Light enhanced to +40%(+80%) fleet energy weapon damage -->
+      <Skill>
+        <SkillDefinition Name="SolarLance"/>
+      </Skill>
+    </Stage>
+
+    <Stage Level="8">
+      <!-- From Iron Discipline & Protective Formations enhanced to +40%(+80%) fleet hull plating and shield absorption -->
+      <Skill>
+        <SkillDefinition Name="RepelonArmor"/>
+      </Skill>
+      <!-- From Post-Relativistic Targeting enhanced to +60% fleet damage -->
+      <Skill>
+        <SkillDefinition Name="MarkovEclipse"/>
+      </Skill>
+      <!-- From Blood Scent & Red Zone Overkill enhanced to +40%(+80%) fleet hull & shield penetration -->
+      <Skill>
+        <SkillDefinition Name="FlawPerception"/>
+      </Skill>
+    </Stage>
+
+    <Stage Level="12">
+      <!-- From Battlefield Grandmaster, Military Spine, Legendary Authority, and Symbiotic Repair -->
+      <Skill>
+        <SkillDefinition Name="FinestHour"/>
+      </Skill>
+    </Stage>
+
+  </HeroSkillTreeDefinition>
+
+</Datatable>

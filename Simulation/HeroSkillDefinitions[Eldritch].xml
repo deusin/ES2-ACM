@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+
+  <!-- UNIQUE HERO SKILLS -->
+
+  <HeroSkillDefinition Name="SupremeCommander">
+    <SkillLevel Name="SupremeCommander_1">
+      <ShipSimulationDescriptorReference Name="SupremeCommander_FleetDamageFleetDefense_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="InspiringIcon">
+    <SkillLevel Name="InspiringIcon_1">
+      <ShipSimulationDescriptorReference Name="InspiringIcon_FleetSupport_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- HERO SKILL TREE PERSONAL -->
+
+  <!-- STAGE ONE PERSONAL -->
+  <HeroSkillDefinition Name="RoutineCrewTraining">
+    <SkillLevel Name="RoutineCrewTraining_1">
+      <ShipSimulationDescriptorReference Name="RoutineCrewTraining_ExpGainVision_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="RoutineCrewTraining_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="RoutineCrewTraining_ExpGainVision_2"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="CharismaticLeadership">
+    <SkillLevel Name="CharismaticLeadership_1">
+      <ShipSimulationDescriptorReference Name="CharismaticLeadership_ManpowerSiege_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="CharismaticLeadership_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="CharismaticLeadership_ManpowerSiege_Percent_2"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- STAGE TWO PERSONAL -->
+  <HeroSkillDefinition Name="PhotonWall"> 
+    <SkillLevel Name="PhotonWall_1">
+      <ShipSimulationDescriptorReference Name="PhotonWall_HeroShipDefense_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="PhotonWall_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="PhotonWall_HeroShipDefense_Percent_2"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="Eudaimonia">
+    <SkillLevel Name="Eudaimonia_1">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <HeroSimulationDescriptorReference Name="Eudaimonia_HeroUpkeepReduction_1"/>
+      <ShipSimulationDescriptorReference Name="Eudaimonia_HeroUpkeep_Multiplier_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- STAGE THREE PERSONAL -->
+  <HeroSkillDefinition Name="SingularityMechanics">
+    <SkillLevel Name="SingularityMechanics_1">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="SingularityMechanics_HeroShipDamage_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="SeductionProtocol">
+    <SkillLevel Name="SeductionProtocol_1">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <HeroSimulationDescriptorReference Name="SeductionProtocol_HeroCooldown_Percent_1"/>
+      <HeroSimulationDescriptorReference Name="SeductionProtocol_HeroCooldown_Percent_1_OutOfTerritory"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- STAGE FOUR PERSONAL -->
+  <HeroSkillDefinition Name="AllMight">
+    <SkillLevel Name="AllMight_1">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="AllMight_HeroShipDamageFleetDefense_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- HERO SKILL TREE SCOUTING -->
+
+  <!-- STAGE ONE SCOUTING -->
+  <HeroSkillDefinition Name="PhaseAmplification">
+    <SkillLevel Name="PhaseAmplification_1">
+      <ShipSimulationDescriptorReference Name="PhaseAmplification_FleetExploration_MultiplierFlat_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="PhaseAmplification_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="PhaseAmplification_FleetExploration_MultiplierFlat_2"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="MobilityDoctrine">
+    <SkillLevel Name="MobilityDoctrine_1">
+      <ShipSimulationDescriptorReference Name="MobilityDoctrine_FleetExploration_Flat_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="MobilityDoctrine_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="MobilityDoctrine_FleetExploration_Flat_2"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- STAGE TWO SCOUTING -->
+  <HeroSkillDefinition Name="IndustrialAutomation">
+    <SkillLevel Name="IndustrialAutomation_1">
+      <ShipSimulationDescriptorReference Name="IndustrialAutomation_FleetExploration_Flat_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="IndustrialAutomation_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="IndustrialAutomation_FleetExploration_Flat_2"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="Nanometallurgy">
+    <SkillLevel Name="Nanometallurgy_1">
+      <ShipSimulationDescriptorReference Name="Nanometallurgy_FleetExplorationFleetDefense_PercentFlat_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="Nanometallurgy_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="Nanometallurgy_FleetExplorationFleetDefense_PercentFlat_2"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- STAGE THREE SCOUTING -->
+  <HeroSkillDefinition Name="TemporalMechanics">
+    <SkillLevel Name="TemporalMechanics_1">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="TemporalMechanics_FleetExplorationFleetDefense_PercentFlat_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="Nanominiaturization">
+    <SkillLevel Name="Nanominiaturization_1">
+      <ShipSimulationDescriptorReference Name="Nanominiaturization_FleetExplorationFleetUpkeep_PercentFlat_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="Nanominiaturization_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="Nanominiaturization_FleetExplorationFleetUpkeep_PercentFlat_2"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="LudicrousSpeed">
+    <SkillLevel Name="LudicrousSpeed_1">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="LudicrousSpeed_FleetExploration_Flat_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- STAGE FOUR SCOUTING -->
+  <HeroSkillDefinition Name="FanService">
+    <SkillLevel Name="FanService_1">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="FanService_SystemManpower_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- HERO SKILL TREE CONQUEST -->
+
+  <!-- STAGE ONE CONQUEST -->
+  <HeroSkillDefinition Name="QualityControl">
+    <SkillLevel Name="QualityControl_1">
+      <ShipSimulationDescriptorReference Name="QualityControl_FleetDefense_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="QualityControl_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="QualityControl_FleetDefense_Percent_2"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="SuperiorShieldEmitters">
+    <SkillLevel Name="SuperiorShieldEmitters_1">
+      <ShipSimulationDescriptorReference Name="SuperiorShieldEmitters_FleetDefense_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="SuperiorShieldEmitters_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="SuperiorShieldEmitters_FleetDefense_Percent_2"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- STAGE TWO CONQUEST -->
+  <HeroSkillDefinition Name="KineticIntensifier">
+    <SkillLevel Name="KineticIntensifier_1">
+      <ShipSimulationDescriptorReference Name="KineticIntensifier_FleetDamage_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="KineticIntensifier_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="KineticIntensifier_FleetDamage_Percent_2"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="SolarLance">
+    <SkillLevel Name="SolarLance_1">
+      <ShipSimulationDescriptorReference Name="SolarLance_FleetDamage_Percent_2"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="SolarLance_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="SolarLance_FleetDamage_Percent_3"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- STAGE THREE CONQUEST -->
+  <HeroSkillDefinition Name="RepelonArmor">
+    <SkillLevel Name="RepelonArmor_1">
+      <ShipSimulationDescriptorReference Name="RepelonArmor_FleetDefense_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="RepelonArmor_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="RepelonArmor_FleetDefense_Percent_2"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="MarkovEclipse">
+    <SkillLevel Name="MarkovEclipse_1">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="MarkovEclipse_FleetDamage_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="FlawPerception">
+    <SkillLevel Name="FlawPerception_1">
+      <ShipSimulationDescriptorReference Name="FlawPerception_FleetDamage_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="FlawPerception_2">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="FlawPerception_FleetDamage_Percent_2"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <!-- STAGE FOUR CONQUEST -->
+  <HeroSkillDefinition Name="FinestHour">
+    <SkillLevel Name="FinestHour_1">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="FinestHour_FleetDefenseFleetDamage_Percent_1"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+</Datatable>

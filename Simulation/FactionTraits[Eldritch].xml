@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  <FactionTrait Name="FactionTraitEldritchSpeed" SubCategory="FactionTrait" TraitCategory="TraitCategoryEldritch" TraitSubCategory="TraitSubcategoryEldritchMixed" Family="FactionTraitFamilyEldritch" Hidden="false" Custom="true" Cost="15">
+    <!-- <Prerequisites>!FactionTraitManualHomeSystem,!AffinityGameplayVampirilis</Prerequisites> -->
+    <SimulationDescriptorReference Name="FactionTraitEldritchSpeed" />
+  </FactionTrait>  
+
+  <!-- Eldritch Hero -->
+	<FactionTrait Name="FactionTraitEldritchHero" SubCategory="FactionTrait" TraitCategory="TraitCategoryEldritch" TraitSubCategory="TraitSubCategoryEldritchHero" Family="FactionTraitFamilyEldritch" Hidden="false" Custom="true" Cost="30">
+    <Command Name="RecruitHero"			Arguments="Samus,1" />
+		<SimulationDescriptorReference Name="FactionTraitExtraHero"/>
+  </FactionTrait>
+
+</Datatable>
