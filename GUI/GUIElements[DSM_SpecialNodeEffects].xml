@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+
+    
+	<!-- ##################################### -->
+	<!-- #######  SPECIAL NODE EFFECT  ####### -->
+	<!-- ##################################### -->
+
+	<!-- Black Hole -->
+	
+	<ExtendedGuiElement Name="SpecialNodeEffectBlackHole1">
+		<Title>%SpecialNodeEffectBlackHoleTitle</Title>
+	</ExtendedGuiElement>
+
+	<ExtendedGuiElement Name="SpecialNodeEffectBlackHole2">
+		<Title>%SpecialNodeEffectBlackHoleTitle</Title>
+	</ExtendedGuiElement>
+	
+	<!-- Asteroids -->
+	
+	<ExtendedGuiElement Name="SpecialNodeEffectAsteroidField1">
+		<Title>%SpecialNodeEffectAsteroidFieldTitle</Title>
+	</ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="SpecialNodeEffectAsteroidField2">
+		<Title>%SpecialNodeEffectAsteroidFieldTitle</Title>
+	</ExtendedGuiElement>
+
+	<ExtendedGuiElement Name="SpecialNodeEffectAsteroidField3">
+		<Title>%SpecialNodeEffectAsteroidFieldTitle</Title>
+	</ExtendedGuiElement>
+
+	<ExtendedGuiElement Name="SpecialNodeEffectAsteroidField4">
+		<Title>%SpecialNodeEffectAsteroidFieldTitle</Title>
+	</ExtendedGuiElement>
+
+	<ExtendedGuiElement Name="SpecialNodeEffectAsteroidField5">
+		<Title>%SpecialNodeEffectAsteroidFieldTitle</Title>
+	</ExtendedGuiElement>
+
+	<!-- Collapsing Star -->
+
+	<ExtendedGuiElement Name="SpecialNodeEffectCollapsingStar1">
+		<Title>%SpecialNodeEffectCollapsingSunTitle</Title>
+	</ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="SpecialNodeEffectCollapsingStar2">
+		<Title>%SpecialNodeEffectCollapsingSunTitle</Title>
+	</ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="SpecialNodeEffectCollapsingStar3">
+		<Title>%SpecialNodeEffectCollapsingSunTitle</Title>
+	</ExtendedGuiElement>
+	
+	<!-- Solar Nebula -->
+	
+	<ExtendedGuiElement Name="SpecialNodeEffectSolarNebula1">
+		<Title>%SpecialNodeEffectSolarNebulaTitle</Title>
+	</ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="SpecialNodeEffectSolarNebula2">
+		<Title>%SpecialNodeEffectSolarNebulaTitle</Title>
+	</ExtendedGuiElement>
+	
+	<!-- Neutron Star -->
+
+	<ExtendedGuiElement Name="SpecialNodeEffectNeutronStar1">
+		<Title>%SpecialNodeEffectNeutronStarTitle</Title>
+	</ExtendedGuiElement>
+	
+	<ExtendedGuiElement Name="SpecialNodeEffectNeutronStar2">
+		<Title>%SpecialNodeEffectNeutronStarTitle</Title>
+	</ExtendedGuiElement>
+	
+
+</Datatable>

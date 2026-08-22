@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+	
+	<!-- FleetOrbitingSpecialNodeBlackHole -->
+    <SimulationDescriptor Name="FleetOrbitingSpecialNodeBlackHole1"      Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="4" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="FleetOrbitingSpecialNodeBlackHole2"      Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="4" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<!-- FleetOrbitingSpecialNodeAsteroidField -->
+    <SimulationDescriptor Name="FleetOrbitingSpecialNodeAsteroidField1"  Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="FleetOrbitingSpecialNodeAsteroidField2"  Type="FleetOrbitingSpecialNode">		
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="3" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="FleetOrbitingSpecialNodeAsteroidField3"  Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="FleetOrbitingSpecialNodeAsteroidField4"  Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="3" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="FleetOrbitingSpecialNodeAsteroidField5"  Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	
+	<!-- FleetOrbitingSpecialNodeCollapsingStar -->
+    <SimulationDescriptor Name="FleetOrbitingSpecialNodeCollapsingStar1" Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="3" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="FleetOrbitingSpecialNodeCollapsingStar2" Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="3" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="FleetOrbitingSpecialNodeCollapsingStar3" Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="3" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<!-- FleetOrbitingSpecialNodeSolarNebula -->
+    <SimulationDescriptor Name="FleetOrbitingSpecialNodeSolarNebula1"    Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="5" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+    <SimulationDescriptor Name="FleetOrbitingSpecialNodeSolarNebula2"    Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="4" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<!-- FleetOrbitingSpecialNodeNeutronStar -->
+    <SimulationDescriptor Name="FleetOrbitingSpecialNodeNeutronStar1"    Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="3" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="FleetOrbitingSpecialNodeNeutronStar2"    Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="2" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="4" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<!-- FleetOrbitingSpecialNodeSpaceClouds -->
+    <SimulationDescriptor Name="FleetOrbitingSpecialNodeSpaceClouds"    Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+	
+	<!-- FleetOrbitingSpecialNodeVaulters -->
+    <SimulationDescriptor Name="FleetOrbitingSpecialNodeVaulters"       Type="FleetOrbitingSpecialNode">
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+	</SimulationDescriptor>
+
+
+
+</Datatable>

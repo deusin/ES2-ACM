@@ -1,0 +1,10 @@
+﻿# Files imported from workshop item 1263186686 (dsm) on 2019-04-28. Maintained by tools/Import-Upstream.ps1.
+Documentation\DeepSpaceMining-CHANGES.txt
+Galaxy\WeightTableDefinitions[DSM].xml
+GUI\GUIElements[DSM_SpecialNodeEffects].xml
+GUI\GUIElements[DSM_SpecialNodes].xml
+GUI\GUIElements[DSM_Strategics].xml
+Simulation\SimulationDescriptors[DSM_SpecialNodeEffect].xml
+Simulation\SimulationDescriptors[DSM_SpecialNodeEffectResources].xml
+Simulation\SimulationDescriptors[DSM_SpecialNodeOrbitResources].xml
+Simulation\SpecialNodeDefinitions[DSM].xml

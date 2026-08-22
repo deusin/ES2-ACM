@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
+
+
+    <GalaxyGeneratorWeightTable Name="SpecialNodeTypes_Normal">
+        <Entry Tag="SpecialNodeAsteroidField1"   Weight="9"/>
+		<Entry Tag="SpecialNodeAsteroidField2"   Weight="9"/>
+		<Entry Tag="SpecialNodeAsteroidField3"   Weight="9"/>
+		<Entry Tag="SpecialNodeAsteroidField4"   Weight="8"/>
+		<Entry Tag="SpecialNodeBlackHole1"       Weight="5"/>
+        <Entry Tag="SpecialNodeBlackHole2"       Weight="5"/>
+        <Entry Tag="SpecialNodeSpaceClouds"     Weight="14"/>
+		<Entry Tag="SpecialNodeSolarNebula1"     Weight="8"/>
+        <Entry Tag="SpecialNodeSolarNebula2"     Weight="8"/>
+        <Entry Tag="SpecialNodeCollapsingStar1"  Weight="4"/>
+		<Entry Tag="SpecialNodeCollapsingStar2"  Weight="3"/>
+		<Entry Tag="SpecialNodeCollapsingStar3"  Weight="3"/>
+		<Entry Tag="SpecialNodeNeutronStar1"	Weight="5"/>
+		<Entry Tag="SpecialNodeNeutronStar2"	Weight="5"/>
+    </GalaxyGeneratorWeightTable>
+	
+	<GalaxyGeneratorWeightTable Name="SpecialNodeTypes_ManualHomeSystem">
+        <Entry Tag="SpecialNodeVaulters"  Weight="10"/>
+    </GalaxyGeneratorWeightTable>
+
+
+    <GalaxyGeneratorWeightTable Name="HiddenSpecialNodeTypes_Normal">
+        <Entry Tag="SpecialNodeAsteroidFieldHidden1"  Weight="40"/>
+		<Entry Tag="SpecialNodeSpaceCloudsHidden1"  Weight="30"/>
+		<Entry Tag="SpecialNodeBlackHoleHidden1"  Weight="15"/>
+		<Entry Tag="SpecialNodeBlackHoleHidden2"  Weight="15"/>
+    </GalaxyGeneratorWeightTable>
+
+
+</Datatable>

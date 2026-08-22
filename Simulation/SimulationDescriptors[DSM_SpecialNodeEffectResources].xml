@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+	<!-- Black Hole -->
+
+    <SimulationDescriptor Name="SpecialNodeEffectBlackHole1" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemResearch" Operation="Addition" Value="100" />
+		<Modifier TargetProperty="SystemResearch" Operation="Addition" Value="100" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic4"        Value="4" Operation="Addition" />
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="4" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic6"        Value="2" Operation="Addition" />
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+    </SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialNodeEffectBlackHole2" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemResearch" Operation="Addition" Value="100" />
+		<Modifier TargetProperty="SystemResearch" Operation="Addition" Value="100" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic4"        Value="3" Operation="Addition" />		
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="3" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic6"        Value="3" Operation="Addition" />		
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="3" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>
+	
+	
+	<!-- Asteroids -->
+	
+    <SimulationDescriptor Name="SpecialNodeEffectAsteroidField1" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" />
+		<Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic2"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic3"        Value="1" Operation="Addition"  />			
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>		
+    </SimulationDescriptor>
+	
+    <SimulationDescriptor Name="SpecialNodeEffectAsteroidField2" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" />
+		<Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="3" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="3" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic2"        Value="2" Operation="Addition"  />	
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="SpecialNodeEffectAsteroidField3" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" />
+		<Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic2"        Value="1" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic3"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialNodeEffectAsteroidField4" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" />
+		<Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+
+		<Modifier TargetProperty="Strategic1"        Value="3" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="3" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic2"        Value="1" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+
+		<Modifier TargetProperty="Strategic3"        Value="1" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>
+	
+	<SimulationDescriptor Name="SpecialNodeEffectAsteroidField5" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" />
+		<Modifier TargetProperty="SystemProduction" Operation="Addition" Value="100" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic2"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic3"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>
+	
+	<!-- Collapsing Star -->
+	
+    <SimulationDescriptor Name="SpecialNodeEffectCollapsingStar1" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="50" />
+		<Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="50" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic3"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic5"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="3" Operation="Addition"  />		
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="3" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="SpecialNodeEffectCollapsingStar2" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="50" />
+		<Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="50" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+
+		<Modifier TargetProperty="Strategic3"        Value="3" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="3" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic5"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="2" Operation="Addition"  />		
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>	
+	
+	<SimulationDescriptor Name="SpecialNodeEffectCollapsingStar3" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="50" />
+		<Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="50" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic3"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic5"        Value="3" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="3" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="2" Operation="Addition"  />		
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>	
+	
+	<!-- Solar Nebula -->
+	
+    <SimulationDescriptor Name="SpecialNodeEffectSolarNebula1" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemMoney" Operation="Addition" Value="200" />
+		<Modifier TargetProperty="SystemMoney" Operation="Addition" Value="200" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic2"        Value="5" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="5" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="1" Operation="Addition"  />		
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>
+	
+    <SimulationDescriptor Name="SpecialNodeEffectSolarNebula2" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemMoney" Operation="Addition" Value="200" />
+		<Modifier TargetProperty="SystemMoney" Operation="Addition" Value="200" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic2"        Value="4" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="4" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="2" Operation="Addition"  />		
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>	
+
+	<!-- Neutron Star -->
+
+    <SimulationDescriptor Name="SpecialNodeEffectNeutronStar1" Type="SpecialNodeEffect" IsSerializable="false">
+		<BinaryModifier TargetProperty="SystemResearch"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
+		<BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
+		<BinaryModifier TargetProperty="SystemResearch"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic5"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic4"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic6"        Value="3" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="3" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+	</SimulationDescriptor>
+	
+    <SimulationDescriptor Name="SpecialNodeEffectNeutronStar2" Type="SpecialNodeEffect" IsSerializable="false">
+		<BinaryModifier TargetProperty="SystemResearch"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
+		<BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
+		<BinaryModifier TargetProperty="SystemResearch"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic5"        Value="2" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="2" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic4"        Value="1" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic6"        Value="4" Operation="Addition"  />	
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="4" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+	</SimulationDescriptor>	
+
+
+
+	<!-- Space Clouds -->
+
+    <SimulationDescriptor Name="SpecialNodeEffectSpaceClouds" Type="SpecialNodeEffect" IsSerializable="false">
+		<BinaryModifier TargetProperty="SystemMoney"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
+		<BinaryModifier TargetProperty="SystemResearch"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
+        <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
+		<BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
+		
+		<BinaryModifier TargetProperty="SystemMoney"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+        <BinaryModifier TargetProperty="SystemResearch"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+        <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>		
+		<BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic1"        Value="1" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic2"        Value="1" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic3"        Value="1" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+		
+		<Modifier TargetProperty="Strategic5"        Value="1" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>
+	
+	
+	<!-- Vaulters -->
+	<SimulationDescriptor Name="SpecialNodeEffectVaulters" Type="SpecialNodeEffect" IsSerializable="false">
+        <Modifier TargetProperty="SystemMoney" Operation="Addition" Value="250" />
+		<Modifier TargetProperty="Strategic4"        Value="1" Operation="Addition"  />
+		<Modifier TargetProperty="Strategic6"        Value="1" Operation="Addition"  />
+        <Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.2" TooltipHidden="true"/>
+        <Modifier TargetProperty="DockedFleetsHealthRegenerationRatio" Operation="Addition" Value="0.2"  TooltipOverride="%StarSystemImprovementUniqueCuriosity3EffectOverride"/>
+    </SimulationDescriptor>
+    
+    
+</Datatable>
