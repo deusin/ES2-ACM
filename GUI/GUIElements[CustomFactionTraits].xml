@@ -2651,6 +2651,18 @@
     </Icons>
   </GuiElement>
 
+  <!-- Auto-Ecologist (UC Colonize Anywhere) -->
+  <ExtendedGuiElement Name="FactionTraitColonizeAnywhere">
+      <Title>%FactionTraitColonizeAnywhereTitle</Title>
+      <Description>%FactionTraitColonizeAnywhereDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Textures/Traits/Economy.png" />
+      </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitColonizeAnywhereEffectOverride</EffectOverride>
+    </TooltipElement>
+    </ExtendedGuiElement>
+
   <!--Ghost Crew -->
   <GuiElement Name="FactionTraitGhostCrew">
     <Title>%FactionTraitGhostCrewTitle</Title>

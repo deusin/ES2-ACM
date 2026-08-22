@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
 <!--Constellations-->
+<!--Is Missing in Vanilla-->
+  <LocalizationPair Name="%ConstellationName8">Null Sector</LocalizationPair>
+
 <!--Famous characters-->
   <LocalizationPair Name="%CharacterConstellationName1">Olivaw</LocalizationPair> <!--R. Daneel Olivaw, Isaac Asimov character-->
   <LocalizationPair Name="%CharacterConstellationName2">Montag</LocalizationPair> <!--Guy Montag, protagonist of Fahrenheit 451-->
   <LocalizationPair Name="%CharacterConstellationName3">Muad'Dib</LocalizationPair> <!--Pseudonym of Paul Atreides, Dune protagonist-->
 
-<!--Famous people-->
-  <LocalizationPair Name="%PeopleConstellationName1">Heinlein</LocalizationPair> <!--Robert A. Heinlein, science fiction writer-->
-  <LocalizationPair Name="%PeopleConstellationName2">Asimov</LocalizationPair> <!--Isaac Asimov, science fiction writer-->
-  <LocalizationPair Name="%PeopleConstellationName3">Scalzi</LocalizationPair> <!--John Scalzi, science fiction writer-->
-  <LocalizationPair Name="%PeopleConstellationName4">Le'Guin</LocalizationPair> <!--Ursula K. Le Guin, speculative fiction writer-->
-  <LocalizationPair Name="%PeopleConstellationName5">McQuay</LocalizationPair> <!--Mike McQuay, science fiction writer (someone really likes their sci fi novels)-->
-  <LocalizationPair Name="%PeopleConstellationName6">Niven</LocalizationPair> <!--David Niven, did a whole bunch of stuff-->
-  <LocalizationPair Name="%PeopleConstellationName7">Clarke</LocalizationPair> <!--Pretty common sirname so idk who this is specifically-->
-  <LocalizationPair Name="%PeopleConstellationName8">Verne</LocalizationPair> <!--Jules Verne, science fiction writer-->
-  <LocalizationPair Name="%PeopleConstellationName9">Orwell</LocalizationPair> <!--Have you heard of Among Us Greggory?-->
-  <LocalizationPair Name="%PeopleConstellationName10">Vinge</LocalizationPair> <!--Vernor Vinge, science fiction writer-->
-  <LocalizationPair Name="%PeopleConstellationName11">Huxley</LocalizationPair> <!--Aldous Huxley, writer-->
+<!-- Sci-Fi Authors -->
+  <LocalizationPair Name="%PeopleConstellationName1">Heinlein</LocalizationPair> <!-- Robert A. Heinlein -->
+  <LocalizationPair Name="%PeopleConstellationName2">Asimov</LocalizationPair> <!-- Isaac Asimov -->
+  <LocalizationPair Name="%PeopleConstellationName3">Scalzi</LocalizationPair> <!-- John Scalzi -->
+  <LocalizationPair Name="%PeopleConstellationName4">Le'Guin</LocalizationPair> <!-- Ursula K. Le Guin -->
+  <LocalizationPair Name="%PeopleConstellationName5">McQuay</LocalizationPair> <!-- Mike McQuay -->
+  <LocalizationPair Name="%PeopleConstellationName6">Niven</LocalizationPair> <!-- David Niven -->
+  <LocalizationPair Name="%PeopleConstellationName7">Clarke</LocalizationPair> <!-- Arthur C. Clarke -->
+  <LocalizationPair Name="%PeopleConstellationName8">Verne</LocalizationPair> <!-- Jules Verne -->
+  <LocalizationPair Name="%PeopleConstellationName9">Orwell</LocalizationPair> <!-- George Orwell -->
+  <LocalizationPair Name="%PeopleConstellationName10">Vinge</LocalizationPair> <!-- Vernor Vinge-->
+  <LocalizationPair Name="%PeopleConstellationName11">Huxley</LocalizationPair> <!-- Aldous Huxley-->
 
 <!--irl constelations-->
   <LocalizationPair Name="%ConstellationConstellationName1">Tauros</LocalizationPair><!--Zodiac constelation in greek-->
@@ -651,8 +654,8 @@
   <LocalizationPair Name="%ActualStarName216">Koeia</LocalizationPair>
   <LocalizationPair Name="%ActualStarName217">Koit</LocalizationPair>
   <LocalizationPair Name="%ActualStarName218">Komondor</LocalizationPair>
-  <LocalizationPair Name="%ActualStarName119">Kornephoros</LocalizationPair>
-  <LocalizationPair Name="%ActualStarName120">Kosjenka</LocalizationPair>
+  <LocalizationPair Name="%ActualStarName219">Kornephoros</LocalizationPair>
+  <LocalizationPair Name="%ActualStarName220">Kosjenka</LocalizationPair>
 
   <LocalizationPair Name="%ActualStarName221">Superba</LocalizationPair>
   <LocalizationPair Name="%ActualStarName222">Larawag</LocalizationPair>
@@ -867,4 +870,7 @@
   <LocalizationPair Name="%ActualStarName424">Zubenelgenubi</LocalizationPair>
   <LocalizationPair Name="%ActualStarName425">Zubenelhakrabi</LocalizationPair>
   <LocalizationPair Name="%ActualStarName426">Zubeneschamali</LocalizationPair>
+  
+  <!-- Added later -->
+  <LocalizationPair Name="%ActualStarName427">Ophiucus</LocalizationPair>
 </Datatable>

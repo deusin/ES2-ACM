@@ -350,8 +350,8 @@ Pamiętaj, że jest wiele poziomów maskowania oraz wiele poziomów wykrywania m
   <LocalizationPair Name="%PanelFeatureModuleEffectsSupportMovementTitle">Punkty ruchu</LocalizationPair>
   <LocalizationPair Name="%HappinessOverPopulationPenalties">[Overpopulation] kary za przeludnienie</LocalizationPair>
   <LocalizationPair Name="%FleetMaximumShieldTitle">Wytrzymałość osłon floty</LocalizationPair>
-  <LocalizationPair Name="%PanelFeatureModuleFlotillaRepairAfterBattleTitle">Naprawy floty po bitwie</LocalizationPair>
-  <LocalizationPair Name="%PanelFeatureModuleFlotillaRepairAfterPhaseTitle">Naprawy floty po fazie</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleFleetRepairAfterBattleTitle">Naprawy floty po bitwie</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleFleetRepairAfterPhaseTitle">Naprawy floty po fazie</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsSupportMiningProbeLifetimeTitle">Żywotność sondy</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleMiningProbeDepositValueMultiplierTitle">Mnożnik wartości depozytu złoża</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleMiningProbePlanetStatsMultiplierTitle">Mnożnik wartości statystyk planety</LocalizationPair>
@@ -495,7 +495,7 @@ Cytadela zapewnia następujące bonusy w systemie, w którym się znajduje:
   <LocalizationPair Name="%ResourceBonusTitle">Generacja zasobów</LocalizationPair>
   <LocalizationPair Name="%LuxuryBonusFromCollectionAltTitle">Generacja zasobów na Złoże Zasobów Luksusowych</LocalizationPair>
   <LocalizationPair Name="%SubCategoryRecipeTitle">Plan modernizacji</LocalizationPair>
-  <LocalizationPair Name="%ClassModuleMediumSupportAndCarrierShipOnlyTitle">Może być zainstalowany tylko na średnich statkach [support] i [carrier].</LocalizationPair>
+  <LocalizationPair Name="%ClassModuleMediumSupportAndCarrierShipOnlyTitle">Może być zainstalowany tylko na średnich statkach [support] i [carrier]</LocalizationPair>
   <LocalizationPair Name="%OnTracedSystem">Na tropach:</LocalizationPair>
   <LocalizationPair Name="%OnHackingOperation">Na hakach i tropach:</LocalizationPair>
   <LocalizationPair Name="%OnHackingOperation_OnlyOperation">Na hakach:</LocalizationPair>
@@ -574,7 +574,6 @@ Przejęcie systemu może być przyspieszone przez wydanie dodatkowych wpływów 
 Naciśnij przycisk [diploStatePeace] aby przejąć system</LocalizationPair>
   <LocalizationPair Name="%ErrorOverrideDictatorshipExclusive">[red](Ustrojem musi być Dyktatura)</LocalizationPair>
 
-  <LocalizationPair Name="%ResearchRelicsTitle">Nieprzypisane relikty [relicColored]</LocalizationPair>
   <!-- Fix Scaling -->
   <LocalizationPair Name="%HoratioShipStats_1_ToolTipOverride">+50% kosztu Statków w produkcji [industrycolored]
 +25% Zdrowia i Wytrzymałości Tarcz podczas konstrowania Statków
@@ -796,8 +795,6 @@ Orbitujące floty będą zapewniać dodatkowe wsparcie piechoty: {3} [systemDefe
   <LocalizationPair Name="%CitadelDefenseTitle">Garnizon cytadeli</LocalizationPair>
   <LocalizationPair Name="%CitadelDefenseDescription">Garnizon cytadeli odpowiada za to samo co garnizon systemu dodatkowo chroniąc przed oblężeniem. Z liczebności imperium [manpowerColored] przywracana jest liczba poległych (jeśli to możliwe).</LocalizationPair>
   <LocalizationPair Name="%AssignmentCooldownBaseDurationTitle">Tury potrzebne do ponownego przypisania</LocalizationPair>
-  <!-- Nakalim -->
-  <LocalizationPair Name="%StarSystemImprovementScience2TemplarsTooltipEffect">+1 [scienceColored] na nieprzypisany relikt [relicColored] na Anomalię w Systemie</LocalizationPair>
 
   <!-- Luxury Rework -->
   <LocalizationPair Name="%RecipeIngredient23-2Rework">+{0}% [manpower] na Poziom Systemu w Systemie</LocalizationPair>

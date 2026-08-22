@@ -344,8 +344,8 @@ Ten en cuenta que hay múltiples niveles de camuflaje y, por lo tanto, múltiple
   <LocalizationPair Name="%PanelFeatureModuleEffectsSupportMovementTitle">Puntos de movimiento</LocalizationPair>
   <LocalizationPair Name="%HappinessOverPopulationPenalties">[Overpopulation] Penalización por sobrepoblación</LocalizationPair>
   <LocalizationPair Name="%FleetMaximumShieldTitle">Capacidad de escudos de flota</LocalizationPair>
-  <LocalizationPair Name="%PanelFeatureModuleFlotillaRepairAfterBattleTitle">Reparación de flota después de la batalla</LocalizationPair>
-  <LocalizationPair Name="%PanelFeatureModuleFlotillaRepairAfterPhaseTitle">Reparación de flota después de cada fase</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleFleetRepairAfterBattleTitle">Reparación de flota después de la batalla</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleFleetRepairAfterPhaseTitle">Reparación de flota después de cada fase</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsSupportMiningProbeLifetimeTitle">Duración de la sonda</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleMiningProbeDepositValueMultiplierTitle">Multiplicador del valor del depósito</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleMiningProbePlanetStatsMultiplierTitle">Multiplicador de estadísticas del planeta</LocalizationPair>
@@ -448,7 +448,6 @@ La Ciudadela otorgará las siguientes bonificaciones económicas al sistema en e
  • +800 [citadelDefense] Capacidad de la guarnición de la Ciudadela</LocalizationPair>
   <LocalizationPair Name="%SpaceBattleDamageMultiplierTitle">Daño de combate de la Ciudadela</LocalizationPair>
   <LocalizationPair Name="%GroundBattleDefenderManpowerLimitBonusTitle">Límite de personal del sistema durante invasión</LocalizationPair>
-  <LocalizationPair Name="%MaximumDamageBonusFromManpowerTitle">Daño contra tripulación infligido por módulos de armas</LocalizationPair>
   <LocalizationPair Name="%ClassResourceDepositMultipleTitle">Depósitos de recursos</LocalizationPair>
   <LocalizationPair Name="%ClassResourceDepositTitle">Depósito de recursos</LocalizationPair>
   <LocalizationPair Name="%ClassSectionTitle">Sección de naves</LocalizationPair>
@@ -482,7 +481,7 @@ La Ciudadela otorgará las siguientes bonificaciones económicas al sistema en e
   <LocalizationPair Name="%ResourceBonusTitle">Generación de recursos</LocalizationPair>
   <LocalizationPair Name="%LuxuryBonusFromCollectionAltTitle">Generación de recursos en depósito de recursos de lujo</LocalizationPair>
   <LocalizationPair Name="%SubCategoryRecipeTitle">Plan de modernización</LocalizationPair>
-  <LocalizationPair Name="%ClassModuleMediumSupportAndCarrierShipOnlyTitle">Solo se puede instalar en naves [support] de tamaño medio y [carrier].</LocalizationPair>
+  <LocalizationPair Name="%ClassModuleMediumSupportAndCarrierShipOnlyTitle">Solo se puede instalar en naves [support] de tamaño medio y [carrier]</LocalizationPair>
   <LocalizationPair Name="%OnTracedSystem">En rastreos:</LocalizationPair>
   <LocalizationPair Name="%OnHackingOperation">En todos los hackeos y rastreos:</LocalizationPair>
   <LocalizationPair Name="%OnHackingOperation_OnlyOperation">En todos los hackeos:</LocalizationPair>
@@ -561,7 +560,6 @@ La conversión se puede acelerar gastando [prestigeColored] Influencia
 Haz clic en el botón [diploStatePeace] para convertir un sistema</LocalizationPair>
   <LocalizationPair Name="%ErrorOverrideDictatorshipExclusive">[red](Debe ser una Dictadura para promulgar)</LocalizationPair>
 
-  <LocalizationPair Name="%ResearchRelicsTitle">[relicColored] Sin asignar</LocalizationPair>
   <!-- Fix Scaling -->
   <LocalizationPair Name="%HoratioShipStats_1_ToolTipOverride">+50% al coste de [industrycolored] en naves
 +25% Salud y capacidad de escudos en naves construidas
@@ -783,8 +781,6 @@ Las flotas en órbita proporcionarán una bonificación de personal de {3} [syst
   <LocalizationPair Name="%CitadelDefenseTitle">Guarnición de la Ciudadela</LocalizationPair>
   <LocalizationPair Name="%CitadelDefenseDescription">Estas tropas funcionan de manera similar a la guarnición del sistema, pero están protegidas contra el daño del asedio. Este personal se recargará una vez que la guarnición de su sistema esté llena y no contará para efectos como el de Campamento de simulación.</LocalizationPair>
   <LocalizationPair Name="%AssignmentCooldownBaseDurationTitle">Tiempo de espera de asignación</LocalizationPair>
-  <!-- Nakalim -->
-  <LocalizationPair Name="%StarSystemImprovementScience2TemplarsTooltipEffect">+1 [scienceColored] por [relicColored] sin asignar por anomalía en sistema</LocalizationPair>
 
   <!-- Luxury Rework -->
   <LocalizationPair Name="%RecipeIngredient23-2Rework">+{0}% [manpower] por nivel de sistema en sistemas</LocalizationPair>

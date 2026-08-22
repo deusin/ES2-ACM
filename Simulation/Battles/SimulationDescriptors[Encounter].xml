@@ -5,7 +5,7 @@
 		<!-- ESG Properties -->
 		<Property Name="OpponentRecyclingManpowerPerCP" BaseValue="0" Composition="Sum"/>
 		<Property Name="OpponentRecyclingManpowerPerCPFlotilla" BaseValue="0" Composition="Maximum"/>
-
+		
     <!-- Mavros Mod Properties -->
     <Property Name="ScrapPerCP" 	    BaseValue="0" Composition="Sum" />
 
@@ -41,10 +41,12 @@
     <Property Name="ExperienceBonusPercent" BaseValue="0"/>
     <Property Name="ExperiencePerLostCP" BaseValue="0"/>
     <Property Name="DestroyedCP" BaseValue="0" IsSealed="true"/>
+    <Property Name="DestroyedMilitaryPower" BaseValue="0" IsSealed="true"/>
     <Property Name="DestroyedShip" BaseValue="0" IsSealed="true"/>
     <Property Name="DestroyedManpowerForEssenceRecycling" BaseValue="0" IsSealed="true"/>
 
     <Property Name="LostCP" BaseValue="0" IsSealed="true"/>
+    <Property Name="LostMilitaryPower" BaseValue="0" IsSealed="true"/>
     <Property Name="LostShip" BaseValue="0" IsSealed="true"/>
 
     <Property Name="PlayerRecyclingDustPerCP" BaseValue="0" />
@@ -102,13 +104,12 @@
 
     <Property Name="VisionStrength" BaseValue="0" IsSealed="true"/>
     <Property Name="OpponentVisionStrength" BaseValue="0" IsSealed="true"/>
-    
+
     <!--Vanilla Modifiers-->
     <Modifier TargetProperty="OpponentRecyclingDustPerCP"         Operation="Addition"   Value="$(AdditionalOpponentRecyclingDustPerCP)"         Path="ClassGroup"/>
     <Modifier TargetProperty="OpponentRecyclingSciencePerCP"      Operation="Addition"   Value="$(AdditionalOpponentRecyclingSciencePerCP)"      Path="ClassGroup"/>
     <Modifier TargetProperty="OpponentRecyclingEmpirePointPerCP"  Operation="Addition"   Value="$(AdditionalOpponentRecyclingEmpirePointPerCP)"  Path="ClassGroup"/>
     <Modifier TargetProperty="OpponentRecyclingManpowerPerCP"     Operation="Addition"   Value="$(OpponentRecyclingManpowerPerCPFlotilla)"       Path="ClassGroup"/>
-
   </SimulationDescriptor>
 
   <!-- Ship in Battle -->
@@ -206,7 +207,8 @@
     <Property Name="BattleActionGain"               BaseValue="0" />
 
     <Property Name="EnergyWeaponAccuracyPercentFromOpponent"    IsSealed="true" MinValue="Negative"/>
-    <Property Name="CoilgunArmorDescructionPercentFromOpponent" IsSealed="true" MinValue="Negative"/>
+    <Property Name="ArmorDestructionPercentFromOpponent"        IsSealed="true" MinValue="Negative"/>
+    <Property Name="ArmorDestructionFlatFromOpponent"           IsSealed="true" MinValue="Negative"/>
     <Property Name="CooldownReductionPercentFromOpponent"       IsSealed="true"/>
 
     <Property Name="LastSquadronAttackCriticalDodge" BaseValue="0" IsSealed="true"/>
@@ -288,6 +290,9 @@
 
     <Modifier TargetProperty="HullPlatingAbsorptionPercent" Operation="Multiplication" Value="$(DefenseBonusIfOneShipEncounter)" Path="ClassShip"/>
     <Modifier TargetProperty="ShieldAbsorptionPercent"      Operation="Multiplication" Value="$(DefenseBonusIfOneShipEncounter)" Path="ClassShip"/>
+
+    <Modifier       TargetProperty="HullPlatingAbsorption" Operation="Subtraction" Value="$(HullPlatingAbsorptionDebuffFlat)"/>
+    <BinaryModifier TargetProperty="HullPlatingAbsorption" Operation="Percent"     Left="$(HullPlatingAbsorptionDebuffDynamic)" BinaryOperation="Multiplication" Right="-1"/>
   </SimulationDescriptor>
 
   <!-- Flotilla in Battle -->
@@ -295,7 +300,8 @@
 		<!-- ESG Properties -->
 		<Property Name="OpponentRecyclingManpowerPerCP" BaseValue="0" Composition="Sum"/>
 		<Property Name="OpponentRecyclingManpowerPerCPFlotilla" BaseValue="0" Composition="Maximum"/>
-
+    <Property Name="FlotillaShieldRegeneratePerSecondDynamic" BaseValue="0" Composition="Sum"/>
+    
     <!-- Mavros Mod Properties -->
     <Property Name="ScrapPerCP"  Composition="Sum" />
 
@@ -419,7 +425,7 @@
     <Modifier TargetProperty="FlakFireRate" Operation="Multiplication" Value="$(FlotillaFlakFireRateModifier)" Path="ClassFlotilla/ClassShip//ClassModuleWeapon,ClassModuleWeaponKinetic"/>
     <Modifier TargetProperty="DamageBonusPerTargetCommandPoints" Operation="Addition" Value="$(DamageBonusPerTargetCommandPointsFlotilla)" Path="ClassFlotilla/ClassShip"/>
     <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Addition" Value="$(FlotillaShieldReloadPerPhase)" Path="ClassFlotilla/ClassShip"/>
-    
+
     <!-- Vanilla -->
     <Modifier TargetProperty="MainRelativeMilitaryPower" Operation="Addition" Value="$(RelativeMilitaryPower)" Path="FlotillaTypeMain/./ClassGroup"/>
     <Modifier TargetProperty="ReinforcementRelativeMilitaryPower" Operation="Addition" Value="$(RelativeMilitaryPower)" Path="FlotillaTypeReinforcement/./ClassGroup"/>
@@ -437,6 +443,7 @@
     <Modifier TargetProperty="InitialMothershipsCount" Operation="Addition" Value="$(InitialMothershipsCount)" Path="./ClassGroup"/>
 
     <Modifier TargetProperty="CommandPoints" Operation="Addition" Value="$(CommandPoints)" Path="./ClassGroup"/>
+    <Modifier TargetProperty="ShieldRegeneratePerSecondDynamic" Operation="Addition" Value="$(FlotillaShieldRegeneratePerSecondDynamic)" Path="ClassFlotilla/ClassShip"/>
   </SimulationDescriptor>
 
   <!-- Weapon in Battle -->
@@ -486,8 +493,9 @@
     <Modifier   TargetProperty="DamageAbsorbedByShieldMultiplier"  Operation="Percent" Value="$(DamageAbsorbedByShieldMultiplier)"      Path="ClassModuleWeaponEncounter/ClassSalvo"/>
 
     <!-- Coilgun -->
-    <Modifier   TargetProperty="ArmorDestructionDynamic"  Operation="Addition" Value="$(ArmorDestructionDynamic)"   Path="ClassModuleWeaponEncounter/ClassSalvo"/>
-    <Modifier   TargetProperty="IsntImmuneToSpecialNodes"  Operation="Force" Value="$(IsntImmuneToSpecialNodes)"   Path="ClassModuleWeaponEncounter/ClassSalvo"/>
+    <Modifier   TargetProperty="ArmorDestructionDynamic"  Operation="Force"  Value="$(ArmorDestructionDynamic)"    Path="ClassModuleWeaponEncounter/ClassSalvo"/>
+    <Modifier   TargetProperty="ArmorDestructionFlat"     Operation="Force"  Value="$(ArmorDestructionFlat)"       Path="ClassModuleWeaponEncounter/ClassSalvo"/>
+    <Modifier   TargetProperty="IsntImmuneToSpecialNodes" Operation="Force"  Value="$(IsntImmuneToSpecialNodes)"   Path="ClassModuleWeaponEncounter/ClassSalvo"/>
   </SimulationDescriptor>
 
   <!-- Support module in battle -->
@@ -496,16 +504,14 @@
 		<Property Name="MaximumShield"                          BaseValue="0"  MinValue="Negative"/>
 		<Property Name="HullPlatingAbsorption"                  BaseValue="0"    MinValue="Negative"/>
 		<Property Name="ShieldAbsorption"                       BaseValue="0"    MinValue="Negative"/>
-		
+
 		<Property Name="DamageBonusPerTargetCommandPoints"      			BaseValue="0"  MinValue="Negative"/>
-		<Property Name="DamageBonusPerTargetCommandPoints_LockOnBasic"		BaseValue="0"  MinValue="Negative"/>
-		<Property Name="DamageBonusPerTargetCommandPoints_LockOnAdvanced"	BaseValue="0"  MinValue="Negative"/>
-		
+
 		<Property Name="RepairAfterBattle"                      BaseValue="0" MinValue="0"/>
 		<Property Name="RepairAfterPhase"                       BaseValue="0" MinValue="0"/>
 		<Property Name="ShipManpowerKillPerHitPercentEncounter" BaseValue="0"/>
 		<Property Name="MoraleBonus"                            BaseValue="0" MinValue="0"/>
-		
+
 		<Modifier TargetProperty="DamageIncreasePercent"   Operation="Addition"    Value="$(DamageIncreasePercent)"   Path="../ClassFlotilla/ClassShipEncounter"       Priority="1"/>
 
 		<Modifier TargetProperty="MaximumShield"            Operation="Addition" Value="$(FlotillaMaximumShield)"       Path="../ClassFlotilla"     Priority="1"/>
@@ -515,8 +521,6 @@
 		<Modifier TargetProperty="ShieldAbsorption"     Operation="Addition" Value="$(FlotillaDmgReductionAgainstEnergy)"   Path="../ClassFlotilla/ClassShipEncounter"  Priority="1"/>
 
 		<Modifier TargetProperty="DamageBonusPerTargetCommandPoints"				Operation="Addition" Value="$(DamageBonusPerTargetCommandPointsFlotilla)"				Path="../ClassFlotilla/ClassShipEncounter" />
-		<Modifier TargetProperty="DamageBonusPerTargetCommandPoints_LockOnBasic"	Operation="Addition" Value="$(DamageBonusPerTargetCommandPointsFlotilla_LockOnBasic)"	Path="../ClassFlotilla/ClassShipEncounter" />
-		<Modifier TargetProperty="DamageBonusPerTargetCommandPoints_LockOnAdvanced"     Operation="Addition" Value="$(DamageBonusPerTargetCommandPointsFlotilla_LockOnAdvanced)"   Path="../ClassFlotilla/ClassShipEncounter" />
 
 		<Modifier TargetProperty="RepairAfterBattle"           Operation="Addition" Value="$(FlotillaRepairAfterBattle)"       Path="../ClassFlotilla/ClassShipEncounter"     Priority="1"/>
 		<Modifier TargetProperty="RepairAfterPhase"            Operation="Addition" Value="$(FlotillaRepairAfterPhase)"        Path="../ClassFlotilla/ClassShipEncounter"     Priority="1"/>
