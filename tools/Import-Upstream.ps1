@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal', 'afhs', 'em', 'ea', 'dsm', 'worthydeeds')]
+    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal', 'afhs', 'em', 'ea', 'dsm', 'worthydeeds', 'kaizen')]
     [string]$Mod,
 
     # Stage and show the diff in the worktree but do not commit or remove the worktree.
@@ -195,6 +195,17 @@ $Mods = @{
                             '^Quests\\Droplists\\Droplists\[WorthyDeeds\]\.xml$'          { return 'Quests\Droplists\Droplists[WD].xml' }
                             '^Quests\\QuestDefinitions\[WorthyDeeds(.+)\]\.xml$'          { return "Quests\QuestDefinitions[WD_$($Matches[1])].xml" }
                             '^Simulation\\(.+)\[WorthyDeeds(.*)\]\.xml$'                  { return "Simulation\$($Matches[1])[WD$(if ($Matches[2]) { '_' + $Matches[2] })].xml" }
+                            default                                                        { return $rel }
+                        }
+                    } }
+    kaizen     = @{ Id = '1130687397'; Index = 'KaizenRejuvenation.xml';  IndexAs = $null;     KeepIcon = $false; Icon = 'KaizenRejuvenation.png'; Extra = @{}
+                    Rename = {
+                        param($rel)
+                        switch -Regex ($rel) {
+                            '^Gui\\GuiElements\.xml$'                                    { return 'GUI\GUIElements[Kaizen].xml' }
+                            '^Localization\\([^\\]+)\\(ES2_Localization_.+)\.xml$'       { return "Localization\$($Matches[1])\$($Matches[2])[Kaizen].xml" }
+                            '^Simulation\\SimulationDescriptors\.xml$'                   { return 'Simulation\SimulationDescriptors[Kaizen].xml' }
+                            '^Simulation\\StarSystemImprovements\.xml$'                  { return 'Simulation\ConstructibleElement_Industry[Kaizen].xml' }
                             default                                                        { return $rel }
                         }
                     } }

@@ -44,6 +44,7 @@ $Mods = [ordered]@{
     ea         = '3257341334'
     dsm        = '1263186686'
     worthydeeds = '1587659427'
+    kaizen     = '1130687397'
 }
 
 $body = @{ itemcount = $Mods.Count }
