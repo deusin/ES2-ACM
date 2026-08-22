@@ -61,7 +61,10 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
   renamed to `ACM-ELP.xml`; master's patches (index header, deleted
   `SimulationDescriptors[ColonizedStarSystem].xml`, vanilla-trait copies stripped from
   `FactionTraits[Minor].xml`, bug fixes) will conflict on the next merge — redo them; the README's
-  addon table lists each one.
+  addon table lists each one. `RuntimeModule Name` must be alphanumeric (module `ACMELP`): ES2 logs
+  `Invalid runtime module name 'ACM_ELP', discarding the module` for underscores and the mod never
+  appears in the Mods menu. When a module is missing, grep `Temporary Files\Diagnostics*.html` for
+  `runtime module`.
 
 ## Gotchas
 

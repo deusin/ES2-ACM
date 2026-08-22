@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
-  <RuntimeModule Name="ACM_ELP" Type="Extension" Version="4.5">
+  <RuntimeModule Name="ACMELP" Type="Extension" Version="4.5">
     <!-- This defines all the mod info displayed in game
         Just a note, Description overrides your mod description on steam
         Also, ignore anything with "Custom" in the name if you don't want faction traits, you can delete those -->

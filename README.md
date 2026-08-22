@@ -40,7 +40,9 @@ switch a minor faction or faction trait off), but also cannot run alongside ACM 
 live in `Addons/<name>/` as complete RuntimeModules with their own index XML, patched to coexist
 with ACM, and each has a vendor branch like the merged mods. ES2 only sees mods directly under
 `Community\`, so run `.\tools\Install-Addons.ps1` once — it junctions `Community\<name>` to
-`Addons\<name>` — and toggle them in the Mods menu.
+`Addons\<name>` — and toggle them in the Mods menu (main menu, not New Game; the game needs a
+restart after changing the selection). Module names must be alphanumeric — ES2 silently discards
+an index whose `RuntimeModule Name` contains `_` or `-`.
 
 | Addon | Source | What ACM changed |
 |---|---|---|
