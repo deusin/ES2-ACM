@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
+
+	<!--deeds-->
+	
+	<LocalizationPair Name="%Deeds_Wonder1-Objective">Build the wonder "Endless Research Park and EndlessWorld" in one of your star systems.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Wonder2-Objective">Build the wonder "Intergalactic Technology Center (ITER)" in one of your star systems.</LocalizationPair>
+	<!--<LocalizationPair Name="%Deeds_Wonder3-Objective">Build the wonder "Trade Clearing Bureau" in one of your star systems.</LocalizationPair>-->
+	<LocalizationPair Name="%Deeds_Wonder4-Objective">Build the wonder "Ministry of Truth" in one of your star systems.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A-Objective">Pass a law from each of the $LawAmount political parties from the beginning of the game.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B-Objective">Buyout $SystemAmount Systems by spending Influence.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A-Objective">Reach $PopulationAmount Population within your empire.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B-Objective">Unlock the 3rd Population Collection Bonus level within your Empire.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A-Objective">Succesfully search $CuriosityAmount curiosities.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B-Objective">Have $PlanetAmount planets colonized within your Empire.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A-Objective">Unlock $TechnologyAmount Technologies.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B-Objective">Unlock $TechnologyAmount Science and Exploration Technologies.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A-Objective">Have $ImprovementAmount Unique Star System Improvements in your Empire.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B-Objective">Produce $DustAmount Dust in a single star system.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A-Objective">Control at least $SystemAmount star systems in the same constellation.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B-Objective">Create $TradeCompaniesAmount trade companies.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_A-Objective">Raise one of your Heroes to level $LevelAmount.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_B-Objective">Win $BattleAmount battles.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_A-Objective">Invade $SystemAmount systems.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_B-Objective">Destroy $PlanetAmount planets.</LocalizationPair>
+
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C-Objective">Reach $HappinessObjectiveName [happinessColored] in your Empire.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C-Objective">Possess $Amount01Name anomalies in your Empire.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C-Objective">Possess $Amount01Name Star System Improvements in your Empire.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C-Objective">Reach Level $Amount01Name in one of your Systems.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_C-Objective">Have an Empire capacity of $Amount01Name [manPowerColored] #D0D0D0#Manpower#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_C-Objective">Reach $Amount01Name [Strat05orichalcixColored] #A75DFA#Orichalcix#REVERT# or [Strat06quadrinixColored] #1FBB71#Quadrinix#REVERT# Empire production.</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C-Objective">Explore $NeededPercentageName % of the Galaxy</LocalizationPair>
+
+	<LocalizationPair Name="%Deeds_Wonder1-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Wonder2-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<!--<LocalizationPair Name="%Deeds_Wonder3-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>-->
+	<LocalizationPair Name="%Deeds_Wonder4-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+
+	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
+
+	<LocalizationPair Name="%StarSystemImprovementResearchToLifeforceTitle">Erudite For Essence</LocalizationPair>
+  	<LocalizationPair Name="%StarSystemImprovementResearchToLifeforceDescription">Most souls give their essence freely, understanding they are contributing to a higher glory in their sacrifice. The Church of the Virtual Saints, however, is a lively religion and its hunger for essence is insatiable. The sacrifices alone are often never enough. Sometimes it is necessary to offer incentives to the scholastic, the studious, and the brainy. So we do.</LocalizationPair>
+  
+	<LocalizationPair Name="%StarSystemImprovementResearchToLifeforceTooltipEffect">50% [scienceColored] is consumed.
+25% [scienceColored] converted into [lifeforceColored]</LocalizationPair>
+
+	<LocalizationPair Name="%SystemResearchFromResearchConversionTitle">Science Conversion</LocalizationPair>
+
+</Datatable>
