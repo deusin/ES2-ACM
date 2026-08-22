@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Trait Families -->
+	<LocalizationPair Name="%FactionTraitFamilyPopulationTitle">#F0E68C#Population#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitFamilyPopulationDescription">Displays traits that will impact your Population</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitFamilyExtraHeroTitle">#F0E68C#Extra Heroes#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitFamilyExtraHeroDescription">Displays traits that will give another Hero</LocalizationPair>
+	
+	<!-- Extra Heroes -->
+	<LocalizationPair Name="%FactionTraitHeroSophons01Title">#FFFFFF#[sophons]#REVERT# #F0E68C#Sophon#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [industrialistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroSophons01L2Title">#FFFFFF#[sophons]#REVERT# #F0E68C#Sophon#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [industrialistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroSophons01L3Title">#FFFFFF#[sophons]#REVERT# #F0E68C#Sophon#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [industrialistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroTerrans01Title">#FFFFFF#[terrans]#REVERT# #F0E68C#Terran#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [ecologistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroTerrans01L2Title">#FFFFFF#[terrans]#REVERT# #F0E68C#Terran#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [ecologistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroTerrans01L3Title">#FFFFFF#[terrans]#REVERT# #F0E68C#Terran#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [ecologistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroHoratio01Title">#FFFFFF#[horatio]#REVERT# #F0E68C#Horatio#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [ecologistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroHoratio01L2Title">#FFFFFF#[horatio]#REVERT# #F0E68C#Horatio#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [ecologistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroHoratio01L3Title">#FFFFFF#[horatio]#REVERT# #F0E68C#Horatio#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [ecologistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroTimeLords01Title">#FFFFFF#[timelords]#REVERT# #F0E68C#Riftborn#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [industrialistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroTimeLords01L2Title">#FFFFFF#[timelords]#REVERT# #F0E68C#Riftborn#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [industrialistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroTimeLords01L3Title">#FFFFFF#[timelords]#REVERT# #F0E68C#Riftborn#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [industrialistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroUnfallen01Title">#FFFFFF#[unfallen]#REVERT# #F0E68C#Unfallen#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [scientistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroUnfallen01L2Title">#FFFFFF#[unfallen]#REVERT# #F0E68C#Unfallen#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [scientistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroUnfallen01L3Title">#FFFFFF#[unfallen]#REVERT# #F0E68C#Unfallen#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [scientistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroCravers01Title">#FFFFFF#[cravers]#REVERT# #F0E68C#Cravers#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [religiousColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroCravers01L2Title">#FFFFFF#[cravers]#REVERT# #F0E68C#Cravers#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [religiousColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroCravers01L3Title">#FFFFFF#[cravers]#REVERT# #F0E68C#Cravers#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [religiousColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroVenetians01Title">#FFFFFF#[venetians]#REVERT# #F0E68C#Lumeris#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [ecologistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroVenetians01L2Title">#FFFFFF#[venetians]#REVERT# #F0E68C#Lumeris#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [ecologistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroVenetians01L3Title">#FFFFFF#[venetians]#REVERT# #F0E68C#Lumeris#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [ecologistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroVampirilis01Title">#FFFFFF#[vampirilis]#REVERT# #F0E68C#Vodyani#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [religiousColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroVampirilis01L2Title">#FFFFFF#[vampirilis]#REVERT# #F0E68C#Vodyani#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [religiousColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroVampirilis01L3Title">#FFFFFF#[vampirilis]#REVERT# #F0E68C#Vodyani#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [religiousColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroAmoeba01Title">#FFFFFF#[amoebas]#REVERT# #F0E68C#Amoeba#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [ecologistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroAmoeba01L2Title">#FFFFFF#[amoebas]#REVERT# #F0E68C#Amoeba#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [ecologistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroAmoeba01L3Title">#FFFFFF#[amoebas]#REVERT# #F0E68C#Amoeba#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [ecologistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroBenthys01Title">#FFFFFF#[kalgeros]#REVERT# #F0E68C#Kalgeros#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [religiousColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroBenthys01L2Title">#FFFFFF#[kalgeros]#REVERT# #F0E68C#Kalgeros#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [religiousColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroBenthys01L3Title">#FFFFFF#[kalgeros]#REVERT# #F0E68C#Kalgeros#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [religiousColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroBots01Title">#FFFFFF#[epistis]#REVERT# #F0E68C#Epistis#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [ecologistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroBots01L2Title">#FFFFFF#[epistis]#REVERT# #F0E68C#Epistis#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [ecologistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroBots01L3Title">#FFFFFF#[epistis]#REVERT# #F0E68C#Epistis#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [ecologistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroDeuyivans01Title">#FFFFFF#[deuyivans]#REVERT# #F0E68C#Deuyivans#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [scientistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroDeuyivans01L2Title">#FFFFFF#[deuyivans]#REVERT# #F0E68C#Deuyivans#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [scientistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroDeuyivans01L3Title">#FFFFFF#[deuyivans]#REVERT# #F0E68C#Deuyivans#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [scientistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroHaroshems01Title">#FFFFFF#[haroshems]#REVERT# #F0E68C#Haroshem#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [pacifistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroHaroshems01L2Title">#FFFFFF#[haroshems]#REVERT# #F0E68C#Haroshem#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [pacifistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroHaroshems01L3Title">#FFFFFF#[haroshems]#REVERT# #F0E68C#Haroshem#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [pacifistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroHisshos01Title">#FFFFFF#[hisshos]#REVERT# #F0E68C#Hissho#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [militaristColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroHisshos01L2Title">#FFFFFF#[hisshos]#REVERT# #F0E68C#Hissho#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [militaristColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroHisshos01L3Title">#FFFFFF#[hisshos]#REVERT# #F0E68C#Hissho#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [militaristColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroMavros01Title">#FFFFFF#[mavros]#REVERT# #F0E68C#Mavros#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [industrialistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroMavros01L2Title">#FFFFFF#[mavros]#REVERT# #F0E68C#Mavros#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [industrialistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroMavros01L3Title">#FFFFFF#[mavros]#REVERT# #F0E68C#Mavros#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [industrialistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroPilgrims01Title">#FFFFFF#[pilgrims]#REVERT# #F0E68C#Pilgrims#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [religiousColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroPilgrims01L2Title">#FFFFFF#[pilgrims]#REVERT# #F0E68C#Pilgrims#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [religiousColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroPilgrims01L3Title">#FFFFFF#[pilgrims]#REVERT# #F0E68C#Pilgrims#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [religiousColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroZvali01Title">#FFFFFF#[zvalis]#REVERT# #F0E68C#Z'vali#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [scientistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroZvali01L2Title">#FFFFFF#[zvalis]#REVERT# #F0E68C#Z'vali#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [scientistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroZvali01L3Title">#FFFFFF#[zvalis]#REVERT# #F0E68C#Z'vali#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [scientistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroTikanans01Title">#FFFFFF#[tikanans]#REVERT# #F0E68C#Tikanan#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [militaristColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroTikanans01L2Title">#FFFFFF#[tikanans]#REVERT# #F0E68C#Tikanan#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [militaristColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroTikanans01L3Title">#FFFFFF#[tikanans]#REVERT# #F0E68C#Tikanan#REVERT# #FFFFFF#[Hero] [Admiral]#REVERT# [militaristColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroGnashasts01Title">#FFFFFF#[gnashasts]#REVERT# #F0E68C#Gnashast#REVERT# #FFFFFF#[Hero] [Adventurer][militaristColored]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroGnashasts01L2Title">#FFFFFF#[gnashasts]#REVERT# #F0E68C#Gnashast#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [militaristColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroGnashasts01L3Title">#FFFFFF#[gnashasts]#REVERT# #F0E68C#Gnashast#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [militaristColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroEyders01Title">#FFFFFF#[eyders]#REVERT# #F0E68C#Eyder#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [religiousColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroEyders01L2Title">#FFFFFF#[eyders]#REVERT# #F0E68C#Eyder#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [religiousColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroEyders01L3Title">#FFFFFF#[eyders]#REVERT# #F0E68C#Eyder#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [religiousColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroNiris01Title">#FFFFFF#[niris]#REVERT# #F0E68C#Niris#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [ecologistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroNiris01L2Title">#FFFFFF#[niris]#REVERT# #F0E68C#Niris#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [ecologistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroNiris01L3Title">#FFFFFF#[niris]#REVERT# #F0E68C#Niris#REVERT# #FFFFFF#[Hero] [Administrator]#REVERT# [ecologistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroBhagabas01Title">#FFFFFF#[bhagabas]#REVERT# #F0E68C#Bhagaba#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [pacifistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroBhagabas01L2Title">#FFFFFF#[bhagabas]#REVERT# #F0E68C#Bhagaba#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [pacifistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroBhagabas01L3Title">#FFFFFF#[bhagabas]#REVERT# #F0E68C#Bhagaba#REVERT# #FFFFFF#[Hero] [Corporate]#REVERT# [pacifistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroRemnant01Title">#FFFFFF#[remnants]#REVERT# #F0E68C#Remnant#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [industrialistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroRemnant01L2Title">#FFFFFF#[remnants]#REVERT# #F0E68C#Remnant#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [industrialistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroRemnant01L3Title">#FFFFFF#[remnants]#REVERT# #F0E68C#Remnant#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [industrialistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitHeroPulsos01Title">#FFFFFF#[pulsos]#REVERT# #F0E68C#Pulsos#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [industrialistColored]</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroPulsos01L2Title">#FFFFFF#[pulsos]#REVERT# #F0E68C#Pulsos#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [industrialistColored] #FFFFFF#[medal]#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroPulsos01L3Title">#FFFFFF#[pulsos]#REVERT# #F0E68C#Pulsos#REVERT# #FFFFFF#[Hero] [Adventurer]#REVERT# [industrialistColored] #FFFFFF#[medal] [medal]#REVERT#</LocalizationPair>
+	
+	<LocalizationPair Name="%FactionTraitExtraHeroDescription">Start with one more Hero.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitExtraHeroEffect">Start with one more Hero.</LocalizationPair>
+	
+	<!-- Minor Population -->
+	<LocalizationPair Name="%FactionTraitMinorMezariTitle">#F0E68C#Mezari Citizens#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitMinorMezariDescription">The faction starts with Mezari population on their home planet</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitMinorMezariTooltipEffect">+1 [mezari] on your home system</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitMinorSheredynTitle">#F0E68C#Sheredyn Citizens#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitMinorSheredynDescription">The faction starts with Sheredyn population on their home planet</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitMinorSheredynTooltipEffect">+1 [sheredyn] on your home system</LocalizationPair>
+	
+	<!-- Other Traits -->
+	<LocalizationPair Name="%FactionTraitEmpirePointBuyoutTitle">#F0E68C#Influence Buyout#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEmpirePointBuyoutDescription">Can use Influence to buyout Improvements, Technologies and Resources on the Market.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEmpirePointBuyoutEffect">Can use [prestigeColored] to buyout Improvements, Technologies and Resources on Market.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBuyoutOutpostsTitle">#F0E68C#Buyout Outposts#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBuyoutOutpostsDescription">Use [dustColored] to colonize instead of colonizers.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBuyoutOutpostsEffect">Use [dustColored] to colonize instead of colonizers.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedWarriors1Title">#F0E68C#Enhanced Warriors I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedWarriors2Title">#F0E68C#Enhanced Warriors II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedWarriors3Title">#F0E68C#Enhanced Warriors III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedWarriors4Title">#F0E68C#Enhanced Warriors IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedWarriors5Title">#F0E68C#Enhanced Warriors V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedWarriorsDescription">Troops are better in all way.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedSpaceShips1Title">#F0E68C#Enhanced Space Ships I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedSpaceShips2Title">#F0E68C#Enhanced Space Ships II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedSpaceShips3Title">#F0E68C#Enhanced Space Ships III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedSpaceShips4Title">#F0E68C#Enhanced Space Ships IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedSpaceShips5Title">#F0E68C#Enhanced Space Ships V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitEnhancedSpaceShipsDescription">Ships are better in all way.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBrilliantStrategists3Title">#F0E68C#Brilliant Strategists III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBrilliantStrategists4Title">#F0E68C#Brilliant Strategists IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBrilliantStrategists5Title">#F0E68C#Brilliant Strategists V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitPoorStrategists3Title">#F0E68C#Poor Strategists III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitPoorStrategists4Title">#F0E68C#Poor Strategists IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitPoorStrategists5Title">#F0E68C#Poor Strategists V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitFearlessWarriors3Title">#F0E68C#Fearless Warriors III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitFearlessWarriors4Title">#F0E68C#Fearless Warriors IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitFearlessWarriors5Title">#F0E68C#Fearless Warriors V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitFeebleWarriors3Title">#F0E68C#Feeble Warriors III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitFeebleWarriors4Title">#F0E68C#Feeble Warriors IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitFeebleWarriors5Title">#F0E68C#Feeble Warriors V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitLegendaryHeroes3Title">#F0E68C#Legendary Heroes III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBlackThumb3Title">#F0E68C#Black Thumb III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBlackThumb4Title">#F0E68C#Black Thumb IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBlackThumb5Title">#F0E68C#Black Thumb V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitDeadlyWeapons3Title">#F0E68C#Deadly Weapons III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitDeadlyWeapons4Title">#F0E68C#Deadly Weapons IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitDeadlyWeapons5Title">#F0E68C#Deadly Weapons V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%PeacefulNegotiatorTitle">#F0E68C#Expert Negotiator#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%InadeptNegotiatorTitle">#F0E68C#Inadept Negotiator#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitOptimalDefense3Title">#F0E68C#Optimal Defense III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitOptimalDefense3EffectOverride">+30% Maximum Health on Ships</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitOptimalDefense4Title">#F0E68C#Optimal Defense IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitOptimalDefense4EffectOverride">+40% Maximum Health on Ships</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitOptimalDefense5Title">#F0E68C#Optimal Defense V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitOptimalDefense5EffectOverride">+50% Maximum Health on Ships</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroDiesTitle">#F0E68C#Mortal Heroes#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroDiesDescription">Heroes won't return.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitWeakLifestileTitle">#F0E68C#Luxury Lifestile#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitWeakLifestileDescription">This race has high needs.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitWeakLifestileEffect">+100% [prestigeColored] costs on Laws and Election Actions</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitWonderBuilderTitle">#F0E68C#Wonder Builder#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitWonderBuilderDescription">Builds Wonders faster.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitAncientArchitectureTitle">#F0E68C#Ancient Architecture#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitAncientArchitectureDescription">Buildings are built slower.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitAncientArchitectureEffect">+15% [industryColored] cost on System Improvements</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitVirtualTraining1Title">#F0E68C#Virtual Training I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitVirtualTraining2Title">#F0E68C#Virtual Training II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitVirtualTrainingDescription">Good tactics saves many lives.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitGroundBattle1Title">#F0E68C#Ground Battle Tactician I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitGroundBattle2Title">#F0E68C#Ground Battle Tactician II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitGroundBattleDescription">Good tactics saves many lives.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitUniqueDesignTitle">#F0E68C#Unique Design#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitUniqueDesignDescription">Better quality ships for the price of quantity.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel1Title">#F0E68C#Academy Training I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel1Effect">+1 Skill Point on Heroes.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel2Title">#F0E68C#Academy Training II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel2Effect">+2 Skill Point on Heroes.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel3Title">#F0E68C#Academy Training III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel3Effect">+3 Skill Point on Heroes.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel4Title">#F0E68C#Academy Training IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel4Effect">+4 Skill Point on Heroes.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel5Title">#F0E68C#Academy Training V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroLevel5Effect">+5 Skill Point on Heroes.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraiHeroLevelDescription">Academy Training gives more skills to Heroes.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroAcePilotTitle">#F0E68C#[hero] Space Heroes#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroAcePilotDescription">Heroes are specialized to space combat.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroAcePilotEffect">+1 [prestigeColored][dustColored][scienceColored] per destroyed Command Point per Hero level on Hero Ship</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroGovernorTitle">#F0E68C#[hero] Governor Heroes#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroGovernorDescription">Heroes are excellent Governors.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroDefenderTitle">#F0E68C#[hero] Defender Heroes#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitHeroDefenderDescription">Heroes are excellent Ground Combatants.</LocalizationPair>
+
+	<!-- Population -->
+	<LocalizationPair Name="%FactionTraitStrongPopulation1Title">#F0E68C#Adaptive Population I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulation1Effect">+1 [FIDSI] per [population] on Planets</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulation2Title">#F0E68C#Adaptive Population II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulation2Effect">+2 [FIDSI] per [population] on Planets</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulation3Title">#F0E68C#Adaptive Population III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulation3Effect">+3 [FIDSI] per [population] on Planets</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulation4Title">#F0E68C#Adaptive Population IV#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulation4Effect">+4 [FIDSI] per [population] on Planets</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulation5Title">#F0E68C#Adaptive Population V#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulation5Effect">+5 [FIDSI] per [population] on Planets</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitStrongPopulationDescription">The Population can achieve more.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitWeakRaceTitle">#F0E68C#Weak Population#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitWeakRaceDescription">The Population is weak.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitWeakRaceEffect">-5 [FIDSI] per [population] on Planets</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBankerPopulation1Title">#F0E68C#Banker Citizens I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBankerPopulation2Title">#F0E68C#Banker Citizens II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBankerPopulation3Title">#F0E68C#Banker Citizens III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitBankerPopulationDescription">More Dust per population.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitLoyalPopulation1Title">#F0E68C#Loyal Citizens I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitLoyalPopulation2Title">#F0E68C#Loyal Citizens II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitLoyalPopulation3Title">#F0E68C#Loyal Citizens III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitLoyalPopulationDescription">More influence per population.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitProductivePopulation1Title">#F0E68C#Productive Citizens I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitProductivePopulation2Title">#F0E68C#Productive Citizens II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitProductivePopulation3Title">#F0E68C#Productive Citizens III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitProductivePopulationDescription">More Industry per population.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitAgriculturalPopulation1Title">#F0E68C#Agricultural Citizens I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitAgriculturalPopulation2Title">#F0E68C#Agricultural Citizens II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitAgriculturalPopulation3Title">#F0E68C#Agricultural Citizens III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitAgriculturalPopulationDescription">More Food per population.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitThinkerPopulation1Title">#F0E68C#Thinker Citizens I#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitThinkerPopulation2Title">#F0E68C#Thinker Citizens II#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitThinkerPopulation3Title">#F0E68C#Thinker Citizens III#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitThinkerPopulationDescription">More Science and less Industry per population.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitMerchantPopulationTitle">#F0E68C#Merchant Citizens#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitMerchantPopulationDescription">More Star System Trade Value and Dust per population.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitUnhappyPopulationTitle">#F0E68C#Unhappy Citizens#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitUnhappyPopulationDescription">Less Approval per population.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitInfamousPopulationTitle">#F0E68C#Infamous Citizens#REVERT#</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitInfamousPopulationDescription">The population has a bad reputation.</LocalizationPair>
+	<LocalizationPair Name="%FactionTraitInfamousPopulationEffect">+10% Diplomacy cost (including with Minor Empires) on Empire</LocalizationPair>
+	
+</Datatable>

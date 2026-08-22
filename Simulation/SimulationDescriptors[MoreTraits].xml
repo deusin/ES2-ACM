@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+	<!-- ############################################# -->
+    <!-- ######         HEROES MANAGEMENT       ###### -->
+    <!-- ############################################# -->
+	
+	<SimulationDescriptor Name="FactionTraitExtraHero" Type="FactionTrait" TooltipOverride="%FactionTraitExtraHeroEffect"/>
+	
+	<!-- ############################################# -->
+    <!-- ######         HEROES MANAGEMENT       ###### -->
+    <!-- ############################################# -->
+	
+    <!--More Hero XP and less Hero Upkeep-->
+	<SimulationDescriptor Name="FactionTraitLegendaryHeroes3" Type="FactionTrait">
+        <Modifier TargetProperty="Upkeep"               		Operation="Percent"   	Value="-0.5" 	Path="ClassEmpire/ClassGarrison/ClassHero"/>
+        <Modifier TargetProperty="ExperiencePerTurn"    		Operation="Addition"  	Value="5" 		Path="ClassEmpire/ClassGarrison/ClassHero"/>
+        <Modifier TargetProperty="ExperiencePerTurn"    		Operation="Addition"  	Value="5" 		Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+        <Modifier TargetProperty="Upkeep"               		Operation="Percent"   	Value="-0.5" 	Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="HeroUnlockThresholdModifier"  Operation="Addition" 	Value="0.05" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	
+	<!--Hero Academy Bonus-->
+	<SimulationDescriptor Name="FactionTraitHeroLevel1" Type="FactionTrait" TooltipOverride="FactionTraitHeroLevel1Effect">
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="1" 	Path="ClassEmpire/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="1" 	Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="1" 	Path="ClassEmpire/ClassGarrison/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="ExperienceMultiplier" 		Operation="Addition" Value="0.10" Path="ClassEmpire//ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.05" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.05" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitHeroLevel2" Type="FactionTrait">
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="2" 	Path="ClassEmpire/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="2" 	Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="2" 	Path="ClassEmpire/ClassGarrison/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="ExperienceMultiplier" 		Operation="Addition" Value="0.20" Path="ClassEmpire//ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.1"  Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitHeroLevel3" Type="FactionTrait">
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="3" 	Path="ClassEmpire/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="3" 	Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="3" 	Path="ClassEmpire/ClassGarrison/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="ExperienceMultiplier" 		Operation="Addition" Value="0.30" Path="ClassEmpire//ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.15" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.15" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitHeroLevel4" Type="FactionTrait">
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="4" 	Path="ClassEmpire/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="4" 	Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="4" 	Path="ClassEmpire/ClassGarrison/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="ExperienceMultiplier" 		Operation="Addition" Value="0.40" Path="ClassEmpire//ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.2"  Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitHeroLevel5" Type="FactionTrait">
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="5" 	Path="ClassEmpire/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="5" 	Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="SkillPoints" 			Operation="Addition"  Value="5" 	Path="ClassEmpire/ClassGarrison/ClassHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="ExperienceMultiplier" 		Operation="Addition" Value="0.50" Path="ClassEmpire//ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.25" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep"               		Operation="Percent"  Value="0.25" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	
+	<!--Hero Profession Bonus-->
+	<SimulationDescriptor Name="FactionTraitHeroAcePilot" Type="FactionTrait">
+		<BinaryModifier TargetProperty="Accuracy"					Operation="Percent"		Left="0.01"	BinaryOperation="Multiplication"	Right="$(Level)" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleHero"/>
+		<BinaryModifier TargetProperty="Evasion"					Operation="Addition"	Left="0.01"	BinaryOperation="Multiplication"	Right="$(Level)" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleHero"/>
+		<BinaryModifier TargetProperty="ShipHealth"					Operation="Percent"		Left="0.01"	BinaryOperation="Multiplication"	Right="$(Level)" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleHero"/>
+		<BinaryModifier TargetProperty="OffensiveMilitaryPower"		Operation="Addition"	Left="1"	BinaryOperation="Multiplication"	Right="$(Level)" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleHero" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="DefensiveMilitaryPower"		Operation="Addition"	Left="3"	BinaryOperation="Multiplication"	Right="$(Level)" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleHero" TooltipHidden="true"/>
+		<Modifier TargetProperty="MaximumShipProbeStock"					Operation="Addition"	Value="1"	Path="../ClassEmpire/ClassGarrisonFleet/ClassShip,ShipRoleHero"/>
+		<BinaryModifier TargetProperty="OpponentRecyclingDustPerCP"			Operation="Addition"	Left="1"	BinaryOperation="Multiplication"	Right="$(Level)" 		Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleHero" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="OpponentRecyclingSciencePerCP"		Operation="Addition"	Left="1"	BinaryOperation="Multiplication"	Right="$(Level)" 		Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleHero" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="OpponentRecyclingEmpirePointPerCP"	Operation="Addition"	Left="1"	BinaryOperation="Multiplication"	Right="$(Level)" 		Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleHero" TooltipHidden="true"/>
+		<BinaryModifier TargetProperty="Happiness"							Operation="Subtraction"	Left="10"	BinaryOperation="Multiplication" 	Right="$(AssignedHero)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitHeroGovernor" Type="FactionTrait">
+		<BinaryModifier TargetProperty="PlanetRawFIDSI"					Operation="Addition"	Left="$(SystemLevel)"	BinaryOperation="Multiplication"	Right="$(AssignedHero)"		Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitHeroDefender" Type="FactionTrait">
+		<BinaryModifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"	Operation="Addition"	Left="100"	BinaryOperation="Multiplication"	Right="$(AssignedHero)"		Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="AssignmentCooldownBaseDuration"		Operation="Percent"		Value="0.5"		Path="ClassHero"/>
+	</SimulationDescriptor>
+	
+	<!--Hero Dies-->
+	<SimulationDescriptor Name="FactionTraitHeroDies" Type="FactionTrait">
+        <Modifier TargetProperty="HealthPerTurn"	Operation="Percent"   Value="-1.0" Path="ClassEmpire/ClassHero"/>
+	</SimulationDescriptor>
+	
+	<!-- ############################################## -->
+    <!-- #######     GROUND BATTLE & MANPOWER     ##### -->
+    <!-- ############################################## -->
+	
+	<!--Troops Damage-->
+	 <SimulationDescriptor Name="FactionTraitBrilliantStrategists3" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="0.3" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="0.3" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.1" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitBrilliantStrategists4" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="0.4" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="0.4" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.2" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitBrilliantStrategists5" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="0.5" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="0.5" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.3" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<!--Troops Damage-->
+	<SimulationDescriptor Name="FactionTraitPoorStrategists3" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="-0.2" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="-0.2" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="-0.1" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitPoorStrategists4" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="-0.25" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="-0.25" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="-0.15" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitPoorStrategists5" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="-0.3" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="-0.3" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="-0.2" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<!--Troops Health-->
+	<SimulationDescriptor Name="FactionTraitFearlessWarriors3" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="0.3" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.1" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitFearlessWarriors4" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="0.4" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.2" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitFearlessWarriors5" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="0.5" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.3" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<!--Troops Health-->
+	<SimulationDescriptor Name="FactionTraitFeebleWarriors3" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="-0.3" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="-0.1" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitFeebleWarriors4" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="-0.4" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="-0.15" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitFeebleWarriors5" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="-0.5" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="-0.2" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<!--Troops Cost Reduction-->
+	<SimulationDescriptor Name="FactionTraitGroundBattle1" Type="FactionTrait">
+		<Modifier TargetProperty="ManpowerCostReduction" Operation="Addition" Value="-0.1" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitGroundBattle2" Type="FactionTrait">
+		<Modifier TargetProperty="ManpowerCostReduction" Operation="Addition" Value="-0.2" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<!--Troops Damage and Health-->
+	<SimulationDescriptor Name="FactionTraitEnhancedWarriors1"    Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" 			Operation="Percent" 	Value="0.05" 	Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" 			Operation="Percent" 	Value="0.05" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth"  			Operation="Percent" 	Value="0.05" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.05" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitEnhancedWarriors2"    Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" 			Operation="Percent" 	Value="0.1" 	Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" 			Operation="Percent" 	Value="0.1" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth"  			Operation="Percent" 	Value="0.1" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.1" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitEnhancedWarriors3"    Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" 			Operation="Percent" 	Value="0.15" 	Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" 			Operation="Percent" 	Value="0.15" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth"  			Operation="Percent" 	Value="0.15" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.15" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitEnhancedWarriors4"    Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" 			Operation="Percent" 	Value="0.2" 	Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" 			Operation="Percent" 	Value="0.2" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth"  			Operation="Percent" 	Value="0.2" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.2" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitEnhancedWarriors5"    Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" 			Operation="Percent" 	Value="0.25" 	Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" 			Operation="Percent" 	Value="0.25" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth"  			Operation="Percent" 	Value="0.25" 	Path="ClassEmpire"/>
+		<Modifier TargetProperty="ManpowerUpgradeCostReduction" Operation="Percent" 	Value="0.25" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	
+	<!-- ################################################ -->
+    <!-- #######        FLEET  MANAGEMENT           ##### -->
+    <!-- ################################################ -->
+	
+	<!--Ship Module Damage-->
+	<SimulationDescriptor Name="FactionTraitDeadlyWeapons3" Type="FactionTrait">
+        <Modifier TargetProperty="Damage"  Operation="Percent" Value="0.3" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+		<Modifier TargetProperty="GarrisonMoneyUpkeep"  Operation="Percent"  Value="0.01" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitDeadlyWeapons4" Type="FactionTrait">
+        <Modifier TargetProperty="Damage"  Operation="Percent" Value="0.4" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+		<Modifier TargetProperty="GarrisonMoneyUpkeep"  Operation="Percent"  Value="0.03" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitDeadlyWeapons5" Type="FactionTrait">
+        <Modifier TargetProperty="Damage"  Operation="Percent" Value="0.5" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+		<Modifier TargetProperty="GarrisonMoneyUpkeep"  Operation="Percent"  Value="0.05" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+    </SimulationDescriptor>
+	<!--Ship Health-->
+	<SimulationDescriptor Name="FactionTraitOptimalDefense3" Type="FactionTrait">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.3" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore" TooltipHidden="true"/>
+		<Modifier TargetProperty="ShipProductionCostReduction"	Operation="Addition" 	Value="0.01" 	Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="0.01" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitOptimalDefense4" Type="FactionTrait">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.4" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore" TooltipHidden="true"/>
+		<Modifier TargetProperty="ShipProductionCostReduction"	Operation="Addition" 	Value="0.03" 	Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="0.03" Path="ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitOptimalDefense5" Type="FactionTrait">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.5" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore" TooltipHidden="true"/>
+		<Modifier TargetProperty="ShipProductionCostReduction"	Operation="Addition" 	Value="0.05" 	Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="0.05" Path="ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<!--Ship Module Damage and Health-->
+	<SimulationDescriptor Name="FactionTraitUniqueDesign" Type="FactionTrait">
+        <Modifier TargetProperty="Damage"  				Operation="Percent" 	Value="0.05" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+		<Modifier TargetProperty="ShipHealth" 			Operation="Percent" 	Value="0.05" Path="ClassEmpire/ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="MaximumCommandPoints" Operation="Subtraction" Value="1" 	 Path="ClassEmpire"/>	
+    </SimulationDescriptor>
+	<!--Ship XP-->
+	<SimulationDescriptor Name="FactionTraitVirtualTraining1" Type="FactionTrait">
+        <Modifier TargetProperty="ExperiencePerTurn"    Operation="Addition"	Value="2"	 Path="ClassEmpire//ClassShip"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitVirtualTraining2" Type="FactionTrait">
+        <Modifier TargetProperty="ExperiencePerTurn"    Operation="Addition"	Value="4"	 Path="ClassEmpire//ClassShip"/>
+    </SimulationDescriptor>
+	<!--Ship Module Damage and Health-->
+	<SimulationDescriptor Name="FactionTraitEnhancedSpaceShips1"    Type="FactionTrait">
+        <Modifier TargetProperty="Damage"  						Operation="Percent" 	Value="0.05" 	Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+        <Modifier TargetProperty="ShipHealth" 					Operation="Percent" 	Value="0.05" 	Path="ClassEmpire/ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="ShipProductionCostReduction"	Operation="Addition" 	Value="0.02" 	Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="0.02" 	Path="ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitEnhancedSpaceShips2"    Type="FactionTrait">
+        <Modifier TargetProperty="Damage"  						Operation="Percent" 	Value="0.1" 	Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+        <Modifier TargetProperty="ShipHealth" 					Operation="Percent" 	Value="0.1" 	Path="ClassEmpire/ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="ShipProductionCostReduction"	Operation="Addition" 	Value="0.04" 	Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="0.04" 	Path="ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitEnhancedSpaceShips3"    Type="FactionTrait">
+        <Modifier TargetProperty="Damage"  						Operation="Percent" 	Value="0.15" 	Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+        <Modifier TargetProperty="ShipHealth" 					Operation="Percent" 	Value="0.15" 	Path="ClassEmpire/ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="ShipProductionCostReduction"	Operation="Addition" 	Value="0.06" 	Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="0.06" 	Path="ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitEnhancedSpaceShips4"    Type="FactionTrait">
+        <Modifier TargetProperty="Damage"  						Operation="Percent" 	Value="0.2" 	Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+        <Modifier TargetProperty="ShipHealth" 					Operation="Percent" 	Value="0.2" 	Path="ClassEmpire/ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="ShipProductionCostReduction"	Operation="Addition" 	Value="0.08" 	Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="0.08" 	Path="ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitEnhancedSpaceShips5"    Type="FactionTrait">
+        <Modifier TargetProperty="Damage"  						Operation="Percent" 	Value="0.25" 	Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+        <Modifier TargetProperty="ShipHealth" 					Operation="Percent" 	Value="0.25" 	Path="ClassEmpire/ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="ShipProductionCostReduction"	Operation="Addition" 	Value="0.1" 	Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="0.1" 	Path="ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	
+	<!-- ########################################## -->
+    <!-- #######          DIPLOMACY           ##### -->
+    <!-- ########################################## -->
+	
+	<SimulationDescriptor Name="PeacefulNegotiator" Type="FactionTrait">
+		<Modifier TargetProperty="PeacefulTreatyCostReduction" Operation="Addition" Value="-0.1"   Path="ClassEmpire"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="InadeptNegotiator" Type="FactionTrait">
+		<Modifier TargetProperty="PeacefulTreatyCostReduction" Operation="Addition" Value="0.1"   Path="ClassEmpire"/>
+	</SimulationDescriptor>
+	
+	<!-- ################################################ -->
+    <!-- ######         SYSTEM MANAGEMENT          ###### -->
+    <!-- ################################################ -->
+	
+	<!--Food-->
+	<SimulationDescriptor Name="FactionTraitBlackThumb3"    Type="FactionTrait">
+        <Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="-0.20" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitBlackThumb4"    Type="FactionTrait">
+        <Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="-0.25" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitBlackThumb5"    Type="FactionTrait">
+        <Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="-0.30" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+	
+	<!-- ################################################ -->
+    <!-- ######            POPULATION              ###### -->
+    <!-- ################################################ -->
+	
+	<!--FIDSI-->
+	<SimulationDescriptor Name="FactionTraitStrongPopulation1"	Type="FactionTrait">
+        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
+		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitStrongPopulation2"	Type="FactionTrait">
+        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
+		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="2"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitStrongPopulation3"	Type="FactionTrait">
+        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
+		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitStrongPopulation4"	Type="FactionTrait">
+        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
+		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="4"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitStrongPopulation5"	Type="FactionTrait">
+        <!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
+		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+	</SimulationDescriptor>
+	<!--Dust per Population-->
+	<SimulationDescriptor Name="FactionTraitBankerPopulation1"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitBankerPopulation2"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitBankerPopulation3"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<!--Influence per Population-->
+	<SimulationDescriptor Name="FactionTraitLoyalPopulation1"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitLoyalPopulation2"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitLoyalPopulation3"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<!--Industry per Population-->
+	<SimulationDescriptor Name="FactionTraitProductivePopulation1"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitProductivePopulation2"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitProductivePopulation3"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<!--Food per Population-->
+	<SimulationDescriptor Name="FactionTraitAgriculturalPopulation1"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitAgriculturalPopulation2"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitAgriculturalPopulation3"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawFood" 			Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<!--Science per Population-->
+	<SimulationDescriptor Name="FactionTraitThinkerPopulation1"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitThinkerPopulation2"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="3"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitThinkerPopulation3"	Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawScience" 		Operation="Addition" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<!--System Trade Value per Population-->
+	<SimulationDescriptor Name="FactionTraitMerchantPopulation"    	Type="FactionTrait">
+		<BinaryModifier TargetProperty="TradingRouteIncomeModifier"	Operation="Percent"	Left="0.01"	BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Addition" 	Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+	</SimulationDescriptor>
+	<!--Minus FIDSI per Population-->
+	<SimulationDescriptor Name="FactionTraitWeakRace"    	Type="FactionTrait">
+		<!--<Modifier TargetProperty="PlanetRawFIDSI" 			Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>-->
+		<Modifier TargetProperty="PlanetRawFood" 			Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawIndustry" 		Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawDust" 			Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawScience" 		Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Subtraction" 	Value="5"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true"/>
+	</SimulationDescriptor>
+	<!--Minus Happiness per Population-->
+	<SimulationDescriptor Name="FactionTraitUnhappyPopulation"    	Type="FactionTrait">
+		<BinaryModifier TargetProperty="Happiness"					Operation="Subtraction"	Left="1"	BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+	</SimulationDescriptor>
+	<!--Minus Influence and Diplomacy Penalties per Population-->
+	<SimulationDescriptor Name="FactionTraitInfamousPopulation"    Type="FactionTrait">
+		<Modifier TargetProperty="PlanetRawPrestige" 		Operation="Subtraction" 	Value="2"  			Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+        <Modifier TargetProperty="DiplomacyCostReduction"	Operation="Addition"    Value="0.1"     	Path="ClassEmpire" TooltipHidden="true"/>
+		<Modifier TargetProperty="PeacefulTreatyCostReduction" 	Value="0.1"   	Operation="Addition" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	
+	<!-- ########################################## -->
+    <!-- ######         EMPIRE MANAGEMENT    ###### -->
+    <!-- ########################################## -->
+	
+	<SimulationDescriptor Name="FactionTraitWonderBuilder"    Type="FactionTrait">
+        <Modifier TargetProperty="WonderProductionCostReduction" 	Operation="Subtraction" Value="0.2" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitAncientArchitecture"    Type="FactionTrait">
+		<Modifier TargetProperty="BuildingProductionCostReduction" 	Operation="Addition" Value="0.15" Path="ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	
+	<!-- ################################################ -->
+    <!-- ######           START MODIFIERS          ###### -->
+    <!-- ################################################ -->
+
+	<SimulationDescriptor Name="FactionTraitWeakLifestile"    Type="FactionTrait">
+        <Modifier TargetProperty="EmpireEmpirePointUpkeep" 		Operation="Percent" 	Value="1.0" 	Path="ClassEmpire" TooltipHidden="true"/>
+        <Modifier TargetProperty="ElectionActionCost"      		Operation="Percent" 	Value="1.0" 	Path="ClassEmpire/ClassSenate" TooltipHidden="true"/>
+		<Modifier TargetProperty="Happiness"        			Operation="Addition"  	Value="-10" 	Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="RecipeCostReduction" 			Operation="Percent" 	Value="0.5" 	Path="ClassEmpire"/>
+    </SimulationDescriptor>
+	
+	<!-- ################################################ -->
+    <!-- ######           MINOR FACTIONS           ###### -->
+    <!-- ################################################ -->
+	
+	<SimulationDescriptor Name="FactionTraitMinorMezari"    	Type="FactionTrait"/>
+	<SimulationDescriptor Name="FactionTraitMinorSheredyn"    	Type="FactionTrait"/>
+	
+	<!-- ################################################ -->
+    <!-- ######        CUSTOM RACE TRAITS          ###### -->
+    <!-- ################################################ -->
+	
+	<SimulationDescriptor Name="FactionTraitBuyoutOutposts"    Type="FactionTrait">
+        <Modifier TargetProperty="CanBuyoutOutposts" Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="FactionTraitHORATIO"    Type="FactionTrait">
+        <Modifier TargetProperty="HasAffinityGeneHunter"        Operation="Force"     Value="1"    Path="ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	
+</Datatable>

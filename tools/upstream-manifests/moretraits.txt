@@ -1,0 +1,7 @@
+﻿# Files imported from workshop item 932777803 (moretraits) on 2018-01-09. Maintained by tools/Import-Upstream.ps1.
+Gui\GuiElements[MoreTraits].xml
+Localization\english\ES2_Localization_Locales[MoreTraits].xml
+Simulation\FactionTraitCategoryDefinition[MoreTraits].xml
+Simulation\FactionTraits[MoreTraits].xml
+Simulation\HeroDefinitions[MoreTraits].xml
+Simulation\SimulationDescriptors[MoreTraits].xml
