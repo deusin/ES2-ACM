@@ -1,0 +1,2243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+    <HeroSkillDefinition Name="HeroSkillTree01BranchAmoeba" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchAmoeba01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemAmoeba01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchAmoeba02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemAmoeba01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchArchivist" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchArchivist01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemArchivist01Ship01"/>
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemArchivist01OnHostileOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchArchivist02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemArchivist01Ship02"/>
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemArchivist01OnHostileOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchBasryxo" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree01BranchBasryxo01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBasryxo01System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchBasryxo02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBasryxo01System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchBhagabas" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchBhagabas01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBhagabas01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchBhagabas02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBhagabas01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchBots" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchBots01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBots01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchBots02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBots01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchDeuyivans" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchDeuyivans01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemDeuyivans01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchDeuyivans02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemDeuyivans01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchEyders" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchEyders01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemEyders01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchEyders02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemEyders01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchFluffpetal" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchFluffpetal01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemFluffpetal01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchFluffpetal02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemFluffpetal01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchGalvrans" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchGalvrans01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGalvrans01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchGalvrans02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGalvrans01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchGnashasts" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchGnashasts01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGnashasts01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchGnashasts02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGnashasts01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchGreenman" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree01BranchGreenman01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGreenman01System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchGreenman02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGreenman01System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchHarmony" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree01BranchHarmony01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHarmony01System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchHarmony02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHarmony01System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchHaroshem" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree01BranchHaroshem01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHaroshem01System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchHaroshem02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHaroshem01System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchHisshos" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchHisshos01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHisshos01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchHisshos02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHisshos01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchIllo" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchIllo01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemIllo01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchIllo02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemIllo01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchKalTikMas" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchKalTikMas01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemKalTikMas01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchKalTikMas02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemKalTikMas01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchKalgeros" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchKalgeros01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemKalgeros01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchKalgeros02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemKalgeros01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchMavros" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchMavros01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemMavros01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchMavros02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemMavros01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchNiris" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchNiris01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemNiris01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchNiris02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemNiris01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchOpbot" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree01BranchOpbot01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOpbot01System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchOpbot02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOpbot01System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchOraculars" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree01BranchOraculars01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOraculars01System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchOraculars02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOraculars01System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchPilgrims" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree01BranchPilgrims01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPilgrims01System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchPilgrims02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPilgrims01System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchPlocynos" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchPlocynos01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPlocynos01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchPlocynos02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPlocynos01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchPulsos" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchPulsos01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPulsos01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchPulsos02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPulsos01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchRemnant" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchRemnant01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemRemnant01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchRemnant02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemRemnant01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchSefaloros" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchSefaloros01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSefaloros01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchSefaloros02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSefaloros01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchSistersOfMercy" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree01BranchSistersOfMercy01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy01System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchSistersOfMercy02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy01System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchSowers" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchSowers01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSowers01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchSowers02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSowers01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchTikanan" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchTikanan01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemTikanan01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchTikanan02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemTikanan01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchVirus" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchVirus01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemVirus01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchVirus02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemVirus01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree01BranchZvali" Cost="0">
+        <SkillLevel Name="HeroSkillTree01BranchZvali01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemZvali01Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree01BranchZvali02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemZvali01Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchAmoeba" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchAmoeba01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemAmoeba02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchAmoeba02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemAmoeba02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchArchivist" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchArchivist01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemArchivist02System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchArchivist02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemArchivist02System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchBasryxo" Cost="0">
+        <SkillLevel Name="HeroSkillTree02BranchBasryxo01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBasryxo02Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchBasryxo02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBasryxo02Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchBhagabas" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchBhagabas01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBhagabas02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchBhagabas02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBhagabas02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchBots" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchBots01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBots02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchBots02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBots02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchDeuyivans" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchDeuyivans01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemDeuyivans02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchDeuyivans02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemDeuyivans02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchEyders" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchEyders01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemEyders02System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchEyders02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemEyders02System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchFluffpetal" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchFluffpetal01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemFluffpetal02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchFluffpetal02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemFluffpetal02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchGalvrans" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchGalvrans01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGalvrans02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchGalvrans02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGalvrans02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchGnashasts" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchGnashasts01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGnashasts02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchGnashasts02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGnashasts02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchGreenman" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchGreenman01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGreenman02System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchGreenman02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGreenman02System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchHarmony" Cost="0">
+        <SkillLevel Name="HeroSkillTree02BranchHarmony01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHarmony02Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchHarmony02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHarmony02Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchHaroshem" Cost="0">
+        <SkillLevel Name="HeroSkillTree02BranchHaroshem01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHaroshem02Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchHaroshem02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHaroshem02Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchHisshos" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchHisshos01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHisshos02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchHisshos02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHisshos02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchIllo" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchIllo01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemIllo02System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchIllo02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemIllo02System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchKalTikMas" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchKalTikMas01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalTikMas02System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchKalTikMas02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalTikMas02System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchKalgeros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchKalgeros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalgeros02System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchKalgeros02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalgeros02System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchMavros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchMavros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemMavros02System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchMavros02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemMavros02System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchNiris" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchNiris01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemNiris02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchNiris02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemNiris02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchOpbot" Cost="0">
+        <SkillLevel Name="HeroSkillTree02BranchOpbot01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOpbot02Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchOpbot02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOpbot02Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchOraculars" Cost="0">
+        <SkillLevel Name="HeroSkillTree02BranchOraculars01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOraculars02Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchOraculars02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOraculars02Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchPilgrims" Cost="0">
+        <SkillLevel Name="HeroSkillTree02BranchPilgrims01">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemPilgrims02OnOwnedOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchPilgrims02">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemPilgrims02OnOwnedOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchPlocynos" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchPlocynos01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPlocynos02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchPlocynos02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPlocynos02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchPulsos" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchPulsos01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPulsos02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchPulsos02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPulsos02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchRemnant" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchRemnant01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemRemnant02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchRemnant02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemRemnant02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchSefaloros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchSefaloros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSefaloros02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchSefaloros02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSefaloros02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchSistersOfMercy" Cost="0">
+        <SkillLevel Name="HeroSkillTree02BranchSistersOfMercy01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy02Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchSistersOfMercy02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy02Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchSowers" Cost="0">
+        <SkillLevel Name="HeroSkillTree02BranchSowers01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSowers02Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchSowers02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSowers02Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchTikanan" Cost="0">
+        <SkillLevel Name="HeroSkillTree02BranchTikanan01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemTikanan02Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchTikanan02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemTikanan02Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchVirus" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchVirus01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemVirus02System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchVirus02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemVirus02System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree02BranchZvali" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree02BranchZvali01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemZvali02System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree02BranchZvali02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemZvali02System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchAmoeba" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchAmoeba01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemAmoeba03System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchAmoeba02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemAmoeba03System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchArchivist" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchArchivist01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemArchivist03Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchBasryxo" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchBasryxo01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBasryxo03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchBasryxo02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBasryxo03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchBhagabas" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchBhagabas01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBhagabas03System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchBhagabas02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBhagabas03System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchBots" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchBots01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBots03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchBots02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBots03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchDeuyivans" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchDeuyivans01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemDeuyivans03System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchDeuyivans02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemDeuyivans03System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchEyders" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchEyders01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemEyders03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchEyders02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemEyders03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchFluffpetal" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchFluffpetal01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemFluffpetal03System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchGalvrans" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchGalvrans01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGalvrans03Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchGalvrans02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGalvrans03Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchGnashasts" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchGnashasts01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemGnashasts03Empire01"/>
+            <SenateSimulationDescriptorReference Name="ChompingAtTheBitActive"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchGreenman" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchGreenman01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGreenman03Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchGreenman02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGreenman03Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchHarmony" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchHarmony01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemHarmony03Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchHarmony02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemHarmony03Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchHaroshem" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchHaroshem01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHaroshem03Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchHaroshem02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHaroshem03Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchHisshos" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchHisshos01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHisshos03Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchHisshos02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHisshos03Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchIllo" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchIllo01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemIllo03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchIllo02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemIllo03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchKalTikMas" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchKalTikMas01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalTikMas03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchKalTikMas02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalTikMas03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchKalgeros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchKalgeros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalgeros03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchKalgeros02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalgeros03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchMavros" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchMavros01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemMavros03Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchMavros02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemMavros03Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchNiris" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchNiris01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemNiris03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchNiris02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemNiris03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchOpbot" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchOpbot01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOpbot03Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchOpbot02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOpbot03Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchOraculars" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchOraculars01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOraculars03System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchOraculars02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOraculars03System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchPilgrims" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchPilgrims01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPilgrims03System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchPilgrims02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPilgrims03System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchPlocynos" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchPlocynos01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemPlocynos03Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchPlocynos02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemPlocynos03Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchPulsos" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchPulsos01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPulsos03System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchPulsos02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPulsos03System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchRemnant" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchRemnant01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemRemnant03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchRemnant02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemRemnant03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchSefaloros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchSefaloros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSefaloros03System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchSefaloros02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSefaloros03System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchSistersOfMercy" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchSistersOfMercy01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy03Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchSistersOfMercy02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy03Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchSowers" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchSowers01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSowers03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchSowers02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSowers03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchTikanan" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchTikanan01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemTikanan03System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchTikanan02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemTikanan03System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchVirus" Cost="0">
+        <SkillLevel Name="HeroSkillTree03BranchVirus01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemVirus03Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchVirus02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemVirus03Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree03BranchZvali" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree03BranchZvali01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemZvali03System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree03BranchZvali02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemZvali03System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchAmoeba" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchAmoeba01">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemAmoeba04OnOwnedOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchAmoeba02">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemAmoeba04OnOwnedOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchArchivist" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchArchivist01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemArchivist04System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchArchivist02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemArchivist04System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchBasryxo" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchBasryxo01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBasryxo04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchBasryxo02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBasryxo04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchBhagabas" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchBhagabas01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBhagabas04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchBhagabas02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBhagabas04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchBots" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchBots01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBots04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchBots02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBots04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchDeuyivans" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchDeuyivans01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemDeuyivans04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchDeuyivans02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemDeuyivans04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchEyders" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchEyders01">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemEyders04OnOwnedOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchEyders02">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemEyders04OnOwnedOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchFluffpetal" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchFluffpetal01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemFluffpetal04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchFluffpetal02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemFluffpetal04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchGalvrans" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchGalvrans01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGalvrans04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchGalvrans02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGalvrans04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchGnashasts" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchGnashasts01">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemGnashasts04OnHostileOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchGnashasts02">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemGnashasts04OnHostileOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchGreenman" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchGreenman01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGreenman04System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchGreenman02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGreenman04System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchHarmony" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchHarmony01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHarmony04System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchHarmony02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHarmony04System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchHaroshem" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchHaroshem01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHaroshem04System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchHaroshem02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHaroshem04System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchHisshos" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchHisshos01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHisshos04System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchHisshos02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHisshos04System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchIllo" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchIllo01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemIllo04Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchIllo02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemIllo04Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchKalTikMas" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchKalTikMas01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemKalTikMas04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchKalTikMas02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemKalTikMas04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchKalgeros" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchKalgeros01">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemKalgeros04OnOwnedOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchKalgeros02">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemKalgeros04OnOwnedOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchMavros" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchMavros01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemMavros04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchMavros02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemMavros04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchNiris" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchNiris01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemNiris04System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchNiris02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemNiris04System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchOpbot" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchOpbot01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOpbot04System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchOpbot02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOpbot04System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchOraculars" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchOraculars01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOraculars04System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchOraculars02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOraculars04System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchPilgrims" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchPilgrims01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPilgrims04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchPilgrims02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPilgrims04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchPlocynos" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchPlocynos01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPlocynos04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchPlocynos02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPlocynos04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchPulsos" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchPulsos01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPulsos04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchPulsos02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPulsos04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchRemnant" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchRemnant01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemRemnant04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchRemnant02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemRemnant04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchSefaloros" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchSefaloros01">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemSefaloros04OnOwnedOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchSefaloros02">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemSefaloros04OnOwnedOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchSistersOfMercy" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchSistersOfMercy01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy04System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchSistersOfMercy02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy04System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchSowers" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchSowers01">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemSowers04OnOwnedOrbit01"/>
+            <OnOwnedOrbitSimulationDescriptorReference Name="FreeColonization"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchSowers02">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemSowers04OnOwnedOrbit02"/>
+            <OnOwnedOrbitSimulationDescriptorReference Name="FreeColonization"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchTikanan" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchTikanan01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemTikanan04Empire01"/>
+            <SenateSimulationDescriptorReference Name="BellicosePheromoneActive"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchVirus" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree04BranchVirus01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemVirus04System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchVirus02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemVirus04System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree04BranchZvali" Cost="0">
+        <SkillLevel Name="HeroSkillTree04BranchZvali01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemZvali04Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree04BranchZvali02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemZvali04Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchAmoeba" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchAmoeba01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemAmoeba05System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchAmoeba02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemAmoeba05System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchArchivist" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchArchivist01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemArchivist05System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchArchivist02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemArchivist05System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchBasryxo" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchBasryxo01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBasryxo05System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchBasryxo02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBasryxo05System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchBhagabas" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchBhagabas01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBhagabas05System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchBhagabas02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBhagabas05System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchBots" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchBots01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemBots05Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchBots02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemBots05Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchDeuyivans" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchDeuyivans01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemDeuyivans05Empire01"/>
+            <SenateSimulationDescriptorReference Name="StratosphericCommunesActive"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchEyders" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchEyders01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemEyders05Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchEyders02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemEyders05Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchFluffpetal" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchFluffpetal01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemFluffpetal05Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchGalvrans" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchGalvrans01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGalvrans05System01"/>
+            <SystemSimulationDescriptorReference Name="DeepholdActive"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchGnashasts" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchGnashasts01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGnashasts05Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchGnashasts02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGnashasts05Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchGreenman" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchGreenman01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGreenman05Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchGreenman02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGreenman05Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchHarmony" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchHarmony01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHarmony05System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchHarmony02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHarmony05System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchHaroshem" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchHaroshem01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemHaroshem05Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchHaroshem02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemHaroshem05Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchHisshos" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchHisshos01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemHisshos05Empire01"/>
+            <SenateSimulationDescriptorReference Name="FuneralGamesActive"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchIllo" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchIllo01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemIllo05System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchIllo02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemIllo05System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchKalTikMas" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchKalTikMas01">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemKalTikMas05OnOwnedOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchKalTikMas02">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemKalTikMas05OnOwnedOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchKalgeros" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchKalgeros01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemKalgeros05Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchKalgeros02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemKalgeros05Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchMavros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchMavros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemMavros05System01"/>
+            <SystemSimulationDescriptorReference Name="ProvingGroundsActive"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchNiris" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchNiris01">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemNiris05OnOwnedOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchNiris02">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemNiris05OnOwnedOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchOpbot" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchOpbot01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOpbot05Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchOpbot02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOpbot05Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchOraculars" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchOraculars01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOraculars05Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchOraculars02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOraculars05Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchPilgrims" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchPilgrims01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPilgrims05Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchPilgrims02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPilgrims05Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchPlocynos" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchPlocynos01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPlocynos05Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchPlocynos02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPlocynos05Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchPulsos" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchPulsos01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemPulsos05Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchPulsos02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemPulsos05Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchRemnant" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchRemnant01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemRemnant05System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchRemnant02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemRemnant05System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchSefaloros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchSefaloros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSefaloros05System01"/>
+            <SystemSimulationDescriptorReference Name="GrandAquariumActive"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchSistersOfMercy" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchSistersOfMercy01">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy05OnHostileOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchSistersOfMercy02">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy05OnHostileOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchSowers" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchSowers01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSowers05System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchSowers02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSowers05System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchTikanan" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchTikanan01">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemTikanan05OnHostileOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchTikanan02">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemTikanan05OnHostileOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchVirus" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree05BranchVirus01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemVirus05System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchVirus02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemVirus05System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree05BranchZvali" Cost="0">
+        <SkillLevel Name="HeroSkillTree05BranchZvali01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemZvali05Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree05BranchZvali02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemZvali05Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchAmoeba" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchAmoeba01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemAmoeba06Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchAmoeba02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemAmoeba06Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchArchivist" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchArchivist01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemArchivist06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchArchivist02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemArchivist06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchBasryxo" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchBasryxo01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBasryxo06System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchBasryxo02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBasryxo06System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchBhagabas" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchBhagabas01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBhagabas06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchBhagabas02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBhagabas06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchBots" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchBots01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBots06Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchBots02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemBots06Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchDeuyivans" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchDeuyivans01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemDeuyivans06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchDeuyivans02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemDeuyivans06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchEyders" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchEyders01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemEyders06Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchEyders02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemEyders06Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchFluffpetal" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchFluffpetal01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemFluffpetal06Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchFluffpetal02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemFluffpetal06Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchGalvrans" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchGalvrans01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemGalvrans06Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchGalvrans02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemGalvrans06Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchGnashasts" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchGnashasts01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGnashasts06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchGnashasts02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGnashasts06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchGreenman" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchGreenman01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGreenman06System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchGreenman02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGreenman06System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchHarmony" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchHarmony01">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemHarmony06OnOwnedOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchHarmony02">
+            <OnOwnedOrbitSimulationDescriptorReference Name="HeroSkillSystemHarmony06OnOwnedOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchHaroshem" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchHaroshem01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHaroshem06Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchHaroshem02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHaroshem06Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchHisshos" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchHisshos01">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemHisshos06OnHostileOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchHisshos02">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemHisshos06OnHostileOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchIllo" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchIllo01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemIllo06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchIllo02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemIllo06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchKalTikMas" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchKalTikMas01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemKalTikMas06Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchKalTikMas02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemKalTikMas06Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchKalgeros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchKalgeros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalgeros06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchKalgeros02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalgeros06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchMavros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchMavros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemMavros06System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchMavros02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemMavros06System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchNiris" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchNiris01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemNiris06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchNiris02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemNiris06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchOpbot" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchOpbot01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOpbot06Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchOpbot02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemOpbot06Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchOraculars" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchOraculars01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOraculars06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchOraculars02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemOraculars06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchPilgrims" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchPilgrims01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemPilgrims06Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchPilgrims02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemPilgrims06Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchPlocynos" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchPlocynos01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPlocynos06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchPlocynos02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPlocynos06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchPulsos" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchPulsos01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPulsos06System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchPulsos02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPulsos06System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchRemnant" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchRemnant01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemRemnant06System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchRemnant02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemRemnant06System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchSefaloros" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchSefaloros01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSefaloros06System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchSefaloros02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSefaloros06System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchSistersOfMercy" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchSistersOfMercy01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchSistersOfMercy02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchSowers" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchSowers01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSowers06System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchSowers02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemSowers06System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchTikanan" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchTikanan01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemTikanan06System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchTikanan02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemTikanan06System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchVirus" Cost="0">
+        <SkillLevel Name="HeroSkillTree06BranchVirus01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemVirus06Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchVirus02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemVirus06Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree06BranchZvali" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree06BranchZvali01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemZvali06System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree06BranchZvali02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemZvali06System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchAmoeba" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchAmoeba01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemAmoeba07Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchAmoeba02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemAmoeba07Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchArchivist" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchArchivist01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemArchivist07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchArchivist02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemArchivist07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchBasryxo" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchBasryxo01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemBasryxo07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchBasryxo02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemBasryxo07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchBhagabas" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchBhagabas01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemBhagabas07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchBhagabas02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemBhagabas07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchBots" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree07BranchBots01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBots07System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchBots02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemBots07System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchDeuyivans" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree07BranchDeuyivans01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemDeuyivans07System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchDeuyivans02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemDeuyivans07System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchEyders" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree07BranchEyders01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemEyders07System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchEyders02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemEyders07System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchFluffpetal" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree07BranchFluffpetal01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemFluffpetal07System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchFluffpetal02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemFluffpetal07System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchGalvrans" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree07BranchGalvrans01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGalvrans07System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchGalvrans02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemGalvrans07System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchGnashasts" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchGnashasts01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGnashasts07Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchGnashasts02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemGnashasts07Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchGreenman" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchGreenman01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemGreenman07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchGreenman02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemGreenman07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchHarmony" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchHarmony01">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemHarmony07OnHostileOrbit01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchHarmony02">
+            <OnHostileOrbitSimulationDescriptorReference Name="HeroSkillSystemHarmony07OnHostileOrbit02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchHaroshem" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree07BranchHaroshem01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHaroshem07System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchHaroshem02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemHaroshem07System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchHisshos" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchHisshos01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHisshos07Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchHisshos02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemHisshos07Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchIllo" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchIllo01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemIllo07Ship01"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchIllo02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemIllo07Ship02"/>
+            <MasteryLevel Class="HeroMasteryCuriosity" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchKalTikMas" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree07BranchKalTikMas01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalTikMas07System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchKalTikMas02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemKalTikMas07System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchKalgeros" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchKalgeros01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemKalgeros07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchKalgeros02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemKalgeros07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchMavros" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchMavros01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemMavros07Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchMavros02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemMavros07Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchNiris" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchNiris01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemNiris07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchNiris02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemNiris07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchOpbot" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchOpbot01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemOpbot07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchOpbot02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemOpbot07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchOraculars" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchOraculars01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemOraculars07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchOraculars02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemOraculars07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchPilgrims" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree07BranchPilgrims01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPilgrims07System01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchPilgrims02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPilgrims07System02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchPlocynos" Cost="0">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkillTree07BranchPlocynos01">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPlocynos07System01"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchPlocynos02">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystemPlocynos07System02"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchPulsos" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchPulsos01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPulsos07Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchPulsos02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemPulsos07Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchRemnant" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchRemnant01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemRemnant07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchRemnant02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemRemnant07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchSefaloros" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchSefaloros01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemSefaloros07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchSefaloros02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemSefaloros07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchSistersOfMercy" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchSistersOfMercy01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchSistersOfMercy02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemSistersOfMercy07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchSowers" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchSowers01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemSowers07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchSowers02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemSowers07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchTikanan" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchTikanan01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemTikanan07Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchTikanan02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemTikanan07Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchVirus" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchVirus01">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemVirus07Empire01"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchVirus02">
+            <SenateSimulationDescriptorReference Name="HeroSkillSystemVirus07Empire02"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTree07BranchZvali" Cost="0">
+        <SkillLevel Name="HeroSkillTree07BranchZvali01">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemZvali07Ship01"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkillTree07BranchZvali02">
+            <ShipSimulationDescriptorReference Name="HeroSkillSystemZvali07Ship02"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+</Datatable>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="HeroUmbralChoir05" Hidden="true">
+        <Skill Name="HeroSkill01UmbralChoir05"/>
+        <Skill Name="HeroSkill02UmbralChoir05"/>
+        <Affinity Name="HeroAffinityPilgrims"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics02"/>
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+        <SkillTree Name="HeroSkillTreeScientist"/>
+        <SkillTree Name="HeroSkillTreePilgrims"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+</Datatable>

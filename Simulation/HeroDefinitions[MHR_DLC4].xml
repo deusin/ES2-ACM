@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="HeroOraculars01">
+        <Skill Name="HeroSkill01Illo01"/>
+        <Skill Name="HeroSkill02Eyders01"/>
+        <Affinity Name="HeroAffinityOraculars"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics05"/>
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+        <SkillTree Name="HeroSkillTreeReligious"/>
+        <SkillTree Name="HeroSkillTreeOraculars"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroTemplars03">
+        <Skill Name="HeroSkill01Terrans04"/>
+        <Skill Name="HeroSkill02Terrans04"/>
+        <Affinity Name="HeroAffinityRemnant"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics06"/>
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+        <SkillTree Name="HeroSkillTreeMilitarist"/>
+        <SkillTree Name="HeroSkillTreeRemnant"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroTemplars04">
+        <Skill Name="HeroSkill01Unfallen04"/>
+        <Skill Name="HeroSkill02Unfallen04"/>
+        <Affinity Name="HeroAffinityKalTikMas"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics02"/>
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+        <SkillTree Name="HeroSkillTreeScientist"/>
+        <SkillTree Name="HeroSkillTreeKalTikMas"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+</Datatable>

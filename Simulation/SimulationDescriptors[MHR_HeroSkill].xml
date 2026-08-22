@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor IsSerializable="false" Name="HeroSkillSystem61_Dust_Percent_2" Type="HeroSkillSystem">
+        <BinaryModifier Operation="Addition" TooltipHidden="true" TargetProperty="BonusHeroSystemDust" BinaryOperation="Multiplication" Left="$(SystemMoney)" Right="0.10"/>
+        <Modifier Operation="Percent" Path="ClassColonizedStarSystem" TargetProperty="SystemMoney" Value="0.10"/>
+        <Modifier Operation="Percent" Path="ClassColonizedStarSystem/ClassColonizedPlanet/ClassPopulationPlanet,ClassPopulationPlanetAffinityVampirilisCount/./ClassColonizedPlanet/./ClassColonizedStarSystem" TargetProperty="SystemMoney" Value="0.10"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor IsSerializable="false" Name="HeroSkillSystem61_Dust_Percent_3" Type="HeroSkillSystem">
+        <BinaryModifier Operation="Addition" TooltipHidden="true" TargetProperty="BonusHeroSystemDust" BinaryOperation="Multiplication" Left="$(SystemMoney)" Right="0.20"/>
+        <Modifier Operation="Percent" Path="ClassColonizedStarSystem" TargetProperty="SystemMoney" Value="0.20"/>
+        <Modifier Operation="Percent" Path="ClassColonizedStarSystem/ClassColonizedPlanet/ClassPopulationPlanet,ClassPopulationPlanetAffinityVampirilisCount/./ClassColonizedPlanet/./ClassColonizedStarSystem" TargetProperty="SystemMoney" Value="0.20"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor IsSerializable="false" Name="HeroSkillSystem66_Food_Perpop_3" Type="HeroSkillSystem">
+        <BinaryModifier SearchValueFromPath="true" Operation="Addition" Path="ClassColonizedStarSystem/ClassColonizedPlanet" TargetProperty="PlanetFood" BinaryOperation="Multiplication" Left="4" Right="$(Population)"/>
+        <BinaryModifier SearchValueFromPath="true" Operation="Addition" Path="ClassColonizedStarSystem/ClassPlanet" TargetProperty="PlanetPopulationFood" BinaryOperation="Multiplication" Left="4" Right="$(MajorPopulationCount)"/>
+        <BinaryModifier SearchValueFromPath="true" Operation="Addition" TooltipHidden="true" Path="ClassColonizedStarSystem/ClassColonizedPlanet" TargetProperty="BonusHeroPlanetFood" BinaryOperation="Multiplication" Left="4" Right="$(Population)"/>
+        <BinaryModifier SearchValueFromPath="true" Operation="Addition" TooltipHidden="true" Path="ClassColonizedStarSystem/ClassColonizedPlanet" TargetProperty="BonusHeroPlanetFood" BinaryOperation="Multiplication" Left="4" Right="$(MajorPopulationCount)"/>
+        <Modifier Operation="Addition" Path="ClassColonizedStarSystem/ClassColonizedPlanet/ClassPopulationPlanet,ClassPopulationPlanetAffinityHoratioCount/./ClassColonizedPlanet" TargetProperty="PlanetFood" Value="10"/>
+        <Modifier Operation="Addition" TooltipHidden="true" Path="ClassColonizedStarSystem/ClassColonizedPlanet/ClassPopulationPlanet,ClassPopulationPlanetAffinityHoratioCount/./ClassColonizedPlanet" TargetProperty="BonusHeroPlanetFood" Value="10"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor IsSerializable="false" Name="HeroSkillSystem66_Food_Perpop_4" Type="HeroSkillSystem">
+        <BinaryModifier SearchValueFromPath="true" Operation="Addition" Path="ClassColonizedStarSystem/ClassColonizedPlanet" TargetProperty="PlanetFood" BinaryOperation="Multiplication" Left="8" Right="$(Population)"/>
+        <BinaryModifier SearchValueFromPath="true" Operation="Addition" Path="ClassColonizedStarSystem/ClassPlanet" TargetProperty="PlanetPopulationFood" BinaryOperation="Multiplication" Left="8" Right="$(MajorPopulationCount)"/>
+        <BinaryModifier SearchValueFromPath="true" Operation="Addition" TooltipHidden="true" Path="ClassColonizedStarSystem/ClassColonizedPlanet" TargetProperty="BonusHeroPlanetFood" BinaryOperation="Multiplication" Left="8" Right="$(Population)"/>
+        <BinaryModifier SearchValueFromPath="true" Operation="Addition" TooltipHidden="true" Path="ClassColonizedStarSystem/ClassColonizedPlanet" TargetProperty="BonusHeroPlanetFood" BinaryOperation="Multiplication" Left="8" Right="$(MajorPopulationCount)"/>
+        <Modifier Operation="Addition" Path="ClassColonizedStarSystem/ClassColonizedPlanet/ClassPopulationPlanet,ClassPopulationPlanetAffinityHoratioCount/./ClassColonizedPlanet" TargetProperty="PlanetFood" Value="20"/>
+        <Modifier Operation="Addition" TooltipHidden="true" Path="ClassColonizedStarSystem/ClassColonizedPlanet/ClassPopulationPlanet,ClassPopulationPlanetAffinityHoratioCount/./ClassColonizedPlanet" TargetProperty="BonusHeroPlanetFood" Value="20"/>
+    </SimulationDescriptor>
+</Datatable>

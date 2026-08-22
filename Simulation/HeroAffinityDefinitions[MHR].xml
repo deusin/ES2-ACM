@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroAffinityDefinition.xsd">
+    <HeroAffinityDefinition Name="HeroAffinityArchivist" Affinity="AffinityArchivist">
+        <SimulationDescriptorReference Name="HeroAffinityArchivist"/>
+    </HeroAffinityDefinition>
+    <HeroAffinityDefinition Name="HeroAffinityFluffpetal" Affinity="AffinityFluffpetal">
+        <SimulationDescriptorReference Name="HeroAffinityFluffpetal"/>
+    </HeroAffinityDefinition>
+    <HeroAffinityDefinition Name="HeroAffinityHaroshem" Affinity="AffinityHaroshem">
+        <SimulationDescriptorReference Name="HeroAffinityHaroshem"/>
+    </HeroAffinityDefinition>
+    <HeroAffinityDefinition Name="HeroAffinityKalgeros" Affinity="AffinityKalgeros">
+        <SimulationDescriptorReference Name="HeroAffinityKalgeros"/>
+    </HeroAffinityDefinition>
+    <HeroAffinityDefinition Name="HeroAffinityOpbot" Affinity="AffinityOpbot">
+        <SimulationDescriptorReference Name="HeroAffinityOpbot"/>
+    </HeroAffinityDefinition>
+    <HeroAffinityDefinition Name="HeroAffinityPlocynos" Affinity="AffinityPlocynos">
+        <SimulationDescriptorReference Name="HeroAffinityPlocynos"/>
+    </HeroAffinityDefinition>
+    <HeroAffinityDefinition Name="HeroAffinityTikanan" Affinity="AffinityTikanan">
+        <SimulationDescriptorReference Name="HeroAffinityTikanan"/>
+    </HeroAffinityDefinition>
+    <HeroAffinityDefinition Name="HeroAffinityVirus" Affinity="AffinityVirus">
+        <SimulationDescriptorReference Name="HeroAffinityVirus"/>
+    </HeroAffinityDefinition>
+</Datatable>

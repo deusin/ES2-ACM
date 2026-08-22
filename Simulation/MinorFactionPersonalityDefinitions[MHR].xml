@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MinorFactionPersonalityDefinition.xsd">
+    <MinorFactionPersonalityDefinition Name="FactionPersonalityPlocynos">
+        <MajorTrait Name="PersonalityTraitPacifist"/>
+        <MinorTrait Weight="50">
+            <Trait Name="FactionTraitMinorDikeworks"/>
+        </MinorTrait>
+        <MinorTrait Weight="40">
+            <Trait Name="FactionTraitMinorHydraulicRefit"/>
+        </MinorTrait>
+    </MinorFactionPersonalityDefinition>
+</Datatable>

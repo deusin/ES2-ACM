@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/TemporaryEffectDefinition.xsd">
+    <TemporaryEffectDefinition Name="ConscriptGnashastsFrenzy" Category="ConscriptGnashasts" Duration="15">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="TemporaryEffectConscriptGnashastsFrenzy"/>
+    </TemporaryEffectDefinition>
+    <TemporaryEffectDefinition Name="FuneralGamesRites" Category="FuneralGames" Duration="15">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="TemporaryEffectFuneralGamesRites"/>
+    </TemporaryEffectDefinition>
+    <TemporaryEffectDefinition Name="SacrificeTikanansPheromone" Category="SacrificeTikanans" Duration="20">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="TemporaryEffectSacrificeTikanansPheromone"/>
+    </TemporaryEffectDefinition>
+</Datatable>

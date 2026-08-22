@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+    <PopulationModifiersTrait Name="PopulationModifiersTraitPlocynos" SubCategory="Affinity" ShowInCustom="false">
+        <Modifiers>
+            <Modifier Class="ClassPopulationEmpire">
+                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityPlocynos"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationStarSystem">
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityPlocynos"/>
+            </Modifier>
+        </Modifiers>
+        <AssimilatedModifiers>
+            <Modifier Class="ClassPopulationEmpire">
+                <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityPlocynos"/>
+            </Modifier>
+        </AssimilatedModifiers>
+    </PopulationModifiersTrait>
+    <PopulationModifiersTrait Name="PopulationModifiersTraitPlocynosCount" SubCategory="Count" ShowInCustom="false">
+        <Modifiers>
+            <Modifier Class="ClassPopulationPlanet">
+                <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityPlocynosCount"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationStarSystem">
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityPlocynosCount"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationEmpire">
+                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityPlocynosCount"/>
+            </Modifier>
+        </Modifiers>
+    </PopulationModifiersTrait>
+</Datatable>

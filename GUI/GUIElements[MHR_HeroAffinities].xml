@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <ExtendedGuiElement Name="HeroAffinityAmoeba">
+        <Title>%HeroAffinityAmoebaTitle</Title>
+        <Description>%HeroAffinityAmoebaDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityAmoebaSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityBasryxo">
+        <Title>%HeroAffinityBasryxoTitle</Title>
+        <Description>%HeroAffinityBasryxoDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityBasryxoSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityBhagabas">
+        <Title>%HeroAffinityBhagabasTitle</Title>
+        <Description>%HeroAffinityBhagabasDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityBhagabasSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityBots">
+        <Title>%HeroAffinityBotsTitle</Title>
+        <Description>%HeroAffinityBotsDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityTimebotsSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityDeuyivans">
+        <Title>%HeroAffinityDeuyivansTitle</Title>
+        <Description>%HeroAffinityDeuyivansDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityDeuyivansSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityEyders">
+        <Title>%HeroAffinityEydersTitle</Title>
+        <Description>%HeroAffinityEydersDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityEydersSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityGnashasts">
+        <Title>%HeroAffinityGnashastsTitle</Title>
+        <Description>%HeroAffinityGnashastsDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityGnashastsSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityGreenman">
+        <Title>%HeroAffinityGreenmanTitle</Title>
+        <Description>%HeroAffinityGreenmanDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityGreenmanSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityHisshos">
+        <Title>%HeroAffinityHisshosTitle</Title>
+        <Description>%HeroAffinityHisshosDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityHisshosSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityMavros">
+        <Title>%HeroAffinityMavrosTitle</Title>
+        <Description>%HeroAffinityMavrosDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityMavrosSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityNiris">
+        <Title>%HeroAffinityNirisTitle</Title>
+        <Description>%HeroAffinityNirisDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityNirisSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityPilgrims">
+        <Title>%HeroAffinityPilgrimsTitle</Title>
+        <Description>%HeroAffinityPilgrimsDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityPilgrimsSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityPulsos">
+        <Title>%HeroAffinityPulsosTitle</Title>
+        <Description>%HeroAffinityPulsosDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityPulsosSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityRemnant">
+        <Title>%HeroAffinityRemnantTitle</Title>
+        <Description>%HeroAffinityRemnantDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityRemnantSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroAffinityZvali">
+        <Title>%HeroAffinityZvaliTitle</Title>
+        <Description>%HeroAffinityZvaliDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityZvaliSmall" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+</Datatable>

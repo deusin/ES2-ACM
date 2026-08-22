@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillTreeDefinition.xsd">
+    <HeroSkillTreeDefinition Name="HeroSkillTreeAmoeba">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchAmoeba"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchAmoeba"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchAmoeba"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchAmoeba"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchAmoeba"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchAmoeba"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchAmoeba"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeArchivist">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchArchivist"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchArchivist"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchArchivist"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchArchivist"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchArchivist"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchArchivist"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchArchivist"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeBasryxo">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchBasryxo"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchBasryxo"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchBasryxo"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchBasryxo"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchBasryxo"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchBasryxo"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchBasryxo"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeBhagabas">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchBhagabas"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchBhagabas"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchBhagabas"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchBhagabas"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchBhagabas"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchBhagabas"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchBhagabas"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeBots">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchBots"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchBots"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchBots"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchBots"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchBots"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchBots"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchBots"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeDeuyivans">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchDeuyivans"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchDeuyivans"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchDeuyivans"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchDeuyivans"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchDeuyivans"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchDeuyivans"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchDeuyivans"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeEyders">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchEyders"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchEyders"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchEyders"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchEyders"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchEyders"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchEyders"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchEyders"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeFluffpetal">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchFluffpetal"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchFluffpetal"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchFluffpetal"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchFluffpetal"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchFluffpetal"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchFluffpetal"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchFluffpetal"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeGalvrans">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchGalvrans"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchGalvrans"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchGalvrans"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchGalvrans"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchGalvrans"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchGalvrans"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchGalvrans"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeGnashasts">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchGnashasts"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchGnashasts"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchGnashasts"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchGnashasts"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchGnashasts"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchGnashasts"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchGnashasts"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeGreenman">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchGreenman"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchGreenman"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchGreenman"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchGreenman"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchGreenman"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchGreenman"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchGreenman"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeHarmony">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchHarmony"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchHarmony"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchHarmony"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchHarmony"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchHarmony"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchHarmony"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchHarmony"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeHaroshem">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchHaroshem"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchHaroshem"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchHaroshem"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchHaroshem"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchHaroshem"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchHaroshem"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchHaroshem"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeHisshos">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchHisshos"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchHisshos"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchHisshos"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchHisshos"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchHisshos"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchHisshos"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchHisshos"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeIllo">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchIllo"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchIllo"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchIllo"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchIllo"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchIllo"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchIllo"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchIllo"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeKalTikMas">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchKalTikMas"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchKalTikMas"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchKalTikMas"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchKalTikMas"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchKalTikMas"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchKalTikMas"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchKalTikMas"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeKalgeros">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchKalgeros"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchKalgeros"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchKalgeros"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchKalgeros"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchKalgeros"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchKalgeros"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchKalgeros"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeMavros">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchMavros"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchMavros"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchMavros"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchMavros"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchMavros"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchMavros"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchMavros"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeNiris">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchNiris"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchNiris"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchNiris"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchNiris"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchNiris"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchNiris"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchNiris"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeOpbot">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchOpbot"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchOpbot"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchOpbot"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchOpbot"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchOpbot"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchOpbot"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchOpbot"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeOraculars">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchOraculars"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchOraculars"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchOraculars"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchOraculars"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchOraculars"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchOraculars"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchOraculars"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreePilgrims">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchPilgrims"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchPilgrims"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchPilgrims"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchPilgrims"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchPilgrims"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchPilgrims"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchPilgrims"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreePlocynos">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchPlocynos"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchPlocynos"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchPlocynos"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchPlocynos"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchPlocynos"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchPlocynos"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchPlocynos"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreePulsos">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchPulsos"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchPulsos"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchPulsos"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchPulsos"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchPulsos"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchPulsos"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchPulsos"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeRemnant">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchRemnant"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchRemnant"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchRemnant"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchRemnant"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchRemnant"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchRemnant"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchRemnant"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeSefaloros">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchSefaloros"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchSefaloros"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchSefaloros"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchSefaloros"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchSefaloros"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchSefaloros"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchSefaloros"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeSistersOfMercy">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchSistersOfMercy"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchSistersOfMercy"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchSistersOfMercy"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchSistersOfMercy"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchSistersOfMercy"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchSistersOfMercy"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchSistersOfMercy"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeSowers">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchSowers"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchSowers"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchSowers"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchSowers"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchSowers"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchSowers"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchSowers"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeTikanan">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchTikanan"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchTikanan"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchTikanan"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchTikanan"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchTikanan"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchTikanan"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchTikanan"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeVirus">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchVirus"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchVirus"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchVirus"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchVirus"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchVirus"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchVirus"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchVirus"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+    <HeroSkillTreeDefinition Name="HeroSkillTreeZvali">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree01BranchZvali"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree02BranchZvali"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree04BranchZvali"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree06BranchZvali"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree03BranchZvali"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree05BranchZvali"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTree07BranchZvali"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+</Datatable>

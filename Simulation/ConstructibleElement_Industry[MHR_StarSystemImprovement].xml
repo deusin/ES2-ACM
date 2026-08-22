@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+    <StarSystemImprovementDefinition Name="StarSystemImprovementDeephold" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt" AllowFastForward="false">
+        <QueuedSimulationDescriptorReference Name="BuildingStarSystemImprovementDeephold"/>
+        <Cost ResourceName="SystemProduction">4480</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,DeepholdActive</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,StarSystemImprovementDeephold</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementDeephold,!FastForwardedImprovement</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,BuildingStarSystemImprovementDeephold') and not(Path(Context,@'ClassStarSystem,BuildingStarSystemImprovementDeephold'))</InterpreterPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementDeephold"/>
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Normal"/>
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire"/>
+        <UniqueTags>StarSystemImprovementDeephold</UniqueTags>
+    </StarSystemImprovementDefinition>
+    <StarSystemImprovementDefinition Name="StarSystemImprovementGrandAquarium" SubCategory="SubCategoryApproval" ScoreProvider="StarSystemImprovementBuilt" AllowFastForward="false">
+        <QueuedSimulationDescriptorReference Name="BuildingStarSystemImprovementGrandAquarium"/>
+        <Cost ResourceName="SystemProduction">4480</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,GrandAquariumActive</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <InterpreterPrerequisite Flags="Prerequisite,Discard">Path(Context,@'ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeOcean') or Path(Context,@'ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeAtoll')</InterpreterPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,StarSystemImprovementGrandAquarium</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementGrandAquarium,!FastForwardedImprovement</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,BuildingStarSystemImprovementGrandAquarium') and not(Path(Context,@'ClassStarSystem,BuildingStarSystemImprovementGrandAquarium'))</InterpreterPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementGrandAquarium"/>
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Normal"/>
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire"/>
+        <UniqueTags>StarSystemImprovementGrandAquarium</UniqueTags>
+    </StarSystemImprovementDefinition>
+    <StarSystemImprovementDefinition Name="StarSystemImprovementProvingGrounds" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt" AllowFastForward="false">
+        <QueuedSimulationDescriptorReference Name="BuildingStarSystemImprovementProvingGrounds"/>
+        <Cost ResourceName="SystemProduction">4480</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ProvingGroundsActive</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,StarSystemImprovementProvingGrounds</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementProvingGrounds,!FastForwardedImprovement</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,BuildingStarSystemImprovementProvingGrounds') and not(Path(Context,@'ClassStarSystem,BuildingStarSystemImprovementProvingGrounds'))</InterpreterPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementProvingGrounds"/>
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Normal"/>
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire"/>
+        <UniqueTags>StarSystemImprovementProvingGrounds</UniqueTags>
+    </StarSystemImprovementDefinition>
+    <StarSystemImprovementDefinition Name="StarSystemImprovementStratosphericCommunes" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt" AllowFastForward="false">
+        <Cost ResourceName="SystemProduction">2240</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire//ClassHero,StratosphericCommunesActive</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/ClassColonizedPlanet,PlanetGameplayTypeGas</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementStratosphericCommunes,!FastForwardedImprovement</PathPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementStratosphericCommunes"/>
+        <SimulationDescriptorReference Name="ClassImprovementRequiresGasPlanet"/>
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Normal"/>
+    </StarSystemImprovementDefinition>
+</Datatable>

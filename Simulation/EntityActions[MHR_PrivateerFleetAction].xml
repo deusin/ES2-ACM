@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EntityActionDefinition.xsd">
+    <PrivateerFleetAction Name="PrivateerFleetActionPirateGovernor">
+        <EntityPrerequisites Location="OrbitEntities">
+            <PathPrerequisite Flags="Prerequisite">HeroSkillSystemPirate01System01</PathPrerequisite>
+        </EntityPrerequisites>
+        <EntityPrerequisites Location="Self">
+            <PathPrerequisite Inverted="true" Flags="Prerequisite,Disable,NoHeroesForPrivateers,CheckOnFleetCreation">ClassGarrisonFleet/ClassHero</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite,FleetNotInFriendlyOrbit">FleetInfluenceStateOwner</PathPrerequisite>
+            <PathPrerequisite Inverted="true" Flags="Prerequisite,CivilianShipsCannotCamouflage,CheckOnFleetCreation">ClassGarrisonFleet/ShipRoleSuperColonizer</PathPrerequisite>
+            <PathPrerequisite Inverted="true" Flags="Prerequisite,CivilianShipsCannotCamouflage,CheckOnFleetCreation">ClassGarrisonFleet/ShipRoleColonizer</PathPrerequisite>
+            <PathPrerequisite Inverted="true" Flags="Prerequisite,CivilianShipsCannotCamouflage,CheckOnFleetCreation">ClassGarrisonFleet/ShipRoleLeecher</PathPrerequisite>
+            <PathPrerequisite Inverted="true" Flags="Prerequisite,CivilianShipsCannotCamouflage,CheckOnFleetCreation">ClassGarrisonFleet/ShipRoleRootCreator</PathPrerequisite>
+            <PathPrerequisite Inverted="true" Flags="Prerequisite,CivilianShipsCannotCamouflage,CheckOnFleetCreation">ClassGarrisonFleet/ShipSizeJuggernaut</PathPrerequisite>
+        </EntityPrerequisites>
+        <EntityModifiers Location="Self">
+            <SimulationAlteration DescriptorReference="FleetActionPrivateer"/>
+            <SimulationAlteration DescriptorReference="FleetActionPrivateerUpkeep"/>
+        </EntityModifiers>
+        <PathPrerequisite Inverted="true" Flags="Discard">../ClassEmpire,FactionTraitCorsairs</PathPrerequisite>
+    </PrivateerFleetAction>
+</Datatable>
