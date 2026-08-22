@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+    <!--###########################################-->
+    <!--## the altered Exploration Ship Droplist ##-->
+    <!--###########################################-->
+
+
+<!--##  EXPLORATION 03     ##-->
+    <!--##   Attacker     ##-->
+
+
+<!--##  EXPLORATION 07     ##-->
+    <!--##   Attacker     ##-->
+
+
+<!--##   The Academy Quest Coop Enhanced Attacker     ##-->
+    <!-- the extremists Vodyani ships -->
+    <Droplist Name="DroplistShip-AcademyQuest03-A-Coop" Picks="1">
+        <Fleet>
+            <ShipDesign>ACDHERCARRIER_LargeCarrier</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+        </Fleet>
+        <Fleet>
+            <ShipDesign>ACDHERCARRIER_LargeCarrier</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+        </Fleet>
+        <Fleet>
+            <ShipDesign>ACDHERCARRIER_LargeCarrier</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+        </Fleet>
+        <Fleet>
+            <ShipDesign>ACDHERCARRIER_LargeCarrier</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>ACDHERMEDATT_MediumAttacker</ShipDesign>
+        </Fleet>
+    </Droplist>
+
+<!-- #DLC1# -->
+
+
+
+
+<!-- #DLC2# -->
+<!-- ###HISSHOS### -->
+
+
+<!-- #####################################-->
+<!-- #########     UPDATE 8    ###########-->
+<!-- #####################################-->
+
+<!-- ## REMOVED ## -->
+
+<!-- ############################## -->
+<!-- ### DLC1 The Pirate Leader ### -->
+<!-- ############################## -->
+    <Droplist Name="DroplistGlobalQuest11-Compet" Picks="1">
+        <Fleet>
+            <!-- the hero ship -->
+            <HeroDefinition>HeroPirateLeader01</HeroDefinition>
+            <!-- small attack vessels -->
+            <ShipDesign>PIRLEDSMLATT_SmallAttacker</ShipDesign>
+            <ShipDesign>PIRLEDSMLATT_SmallAttacker</ShipDesign>
+            <ShipDesign>PIRLEDSMLATT_SmallAttacker</ShipDesign>
+            <ShipDesign>PIRLEDSMLATT_SmallAttacker</ShipDesign>
+            <ShipDesign>PIRLEDSMLATT_SmallAttacker</ShipDesign>
+            <ShipDesign>PIRLEDSMLATT_SmallAttacker</ShipDesign>
+            <ShipDesign>PIRLEDSMLATT_SmallAttacker</ShipDesign>
+            <ShipDesign>PIRLEDSMLATT_SmallAttacker</ShipDesign>
+            <!-- cruiser attack ships -->
+            <ShipDesign>PIRLEDMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>PIRLEDMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>PIRLEDMEDATT_MediumAttacker</ShipDesign>
+            <ShipDesign>PIRLEDMEDATT_MediumAttacker</ShipDesign>
+        </Fleet>
+        
+    </Droplist>
+
+    <!--###############################-->
+    <!--##   MINOR FACTION Droplist  ##-->
+    <!--###############################-->
+
+    <!--## REWARDS ##-->
+
+
+    <!--## FLEET TO DROP ##-->
+
+
+    <!--CHAPTER 4 - CRAVERS INDUSTRY -->
+
+
+</Datatable>

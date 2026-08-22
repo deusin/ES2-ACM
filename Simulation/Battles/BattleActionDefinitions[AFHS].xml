@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<Datatable>
+
+    <BattleAction Name="HeroShip_Revive">
+        <EventPrerequisite EventType="Healing_Prepare"/>
+        <BattleEffectApplicationContext>
+            <TargetFilter>
+                <EntityFilter EntityRole="Owner" EntityType="Ship" EntityTags="Destroyed">
+                    <InterpreterPrerequisite>Path(Context, @'ShipFactionHeroes') or Path(Context, @'ShipFactionHeroesPirate') or Path(Context, @'ShipFactionHeroesUCHero05') or Path(Context, @'ShipFactionMinorFactionAdvanced') or Path(Context, @'ShipFactionMinorFactionPrimitive') or Path(Context, @'ShipFactionMinorFactionInsectoid') or Path(Context, @'ShipFactionMinorFactionPirates') or Path(Context, @'ShipFactionTemplars') or Path(Context, @'ShipFactionUmbralChoir') or Path(Context, @'ShipFactionMajorHisshos') or Path(Context, @'ShipFactionVaulters') or Path(Context, @'ShipFactionHoratio') or Path(Context, @'ShipFactionTimeLords') or Path(Context, @'ShipFactionTerrans') or Path(Context, @'ShipFactionVampirilis') or Path(Context, @'ShipFactionSophons') or Path(Context, @'ShipFactionVenetians') or Path(Context, @'ShipFactionUnfallen') or Path(Context, @'ShipFactionCravers')</InterpreterPrerequisite>
+                </EntityFilter>
+                <SubEntityFilter SelectionMethod="All">
+                    <EntityFilter EntityType="ShipSection">
+                        <PathPrerequisite Inverted="false">ClassSectionCore</PathPrerequisite>
+                    </EntityFilter>
+                </SubEntityFilter>
+            </TargetFilter>
+            <BattleEffectReference Name="Ship_Revive"/>
+        </BattleEffectApplicationContext>
+        <BattleEffectApplicationContext>
+            <TargetFilter>
+                <EntityFilter EntityRole="Owner" EntityType="Ship" EntityTags="Destroyed">
+                    <InterpreterPrerequisite>Path(Context, @'ShipFactionHeroes') or Path(Context, @'ShipFactionHeroesPirate') or Path(Context, @'ShipFactionHeroesUCHero05') or Path(Context, @'ShipFactionMinorFactionAdvanced') or Path(Context, @'ShipFactionMinorFactionPrimitive') or Path(Context, @'ShipFactionMinorFactionInsectoid') or Path(Context, @'ShipFactionMinorFactionPirates') or Path(Context, @'ShipFactionTemplars') or Path(Context, @'ShipFactionUmbralChoir') or Path(Context, @'ShipFactionMajorHisshos') or Path(Context, @'ShipFactionVaulters') or Path(Context, @'ShipFactionHoratio') or Path(Context, @'ShipFactionTimeLords') or Path(Context, @'ShipFactionTerrans') or Path(Context, @'ShipFactionVampirilis') or Path(Context, @'ShipFactionSophons') or Path(Context, @'ShipFactionVenetians') or Path(Context, @'ShipFactionUnfallen') or Path(Context, @'ShipFactionCravers')</InterpreterPrerequisite>
+                </EntityFilter>
+            </TargetFilter>
+            <BattleEffectReference Name="Ship_SetResurrected"/>
+        </BattleEffectApplicationContext>
+    </BattleAction>
+
+</Datatable>

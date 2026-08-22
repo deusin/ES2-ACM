@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- ### The HULLS ### -->
+<!-- The Major FACTIONs -->
+<!-- TITLES -->
+<!-- ATTACKER -->
+<!-- remove the PLACEHOLDER to use other NAMES as the in game ones -->
+    <LocalizationPair Name="%AFHERHullATTMedium01SophonsTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01TerransTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01TimeLordsTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01UnfallenTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01CraversTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01VenetiansTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01VampirilisTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01VaultersTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01MajorHisshosTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01UmbralChoirTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01TemplarsTitle">PLACEHOLDER</LocalizationPair>
+<!-- DEFENDER -->
+    <LocalizationPair Name="%AFHERHullDEFMedium01SophonsTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01TerransTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01HoratioTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01TimeLordsTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01UnfallenTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01CraversTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01VaultersTitle">PLACEHOLDER</LocalizationPair>
+<!-- SUPPORTER -->
+    <LocalizationPair Name="%AFHERHullSUPMedium02SophonsTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02TerransTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02HoratioTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02TimeLordsTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02VenetiansTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02VampirilisTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02MajorHisshosTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02UmbralChoirTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02TemplarsTitle">PLACEHOLDER</LocalizationPair>
+<!-- EXPLORER -->
+    <LocalizationPair Name="%AFHERHullEXPMedium02SophonsTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02HoratioTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02UnfallenTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02CraversTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02VenetiansTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02VampirilisTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02VaultersTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02MajorHisshosTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02UmbralChoirTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02TemplarsTitle">PLACEHOLDER</LocalizationPair>
+<!-- DESCRIPTIONS -->
+<!-- BLANK. To be filled with extra desrciption. -->
+    <LocalizationPair Name="%AFHERHullATTMedium01SophonsDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01TerransDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01TimeLordsDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01UnfallenDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01CraversDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01VenetiansDescription"> BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01VampirilisDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01VaultersDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01MajorHisshosDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01UmbralChoirDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullATTMedium01TemplarsDescription">BLANK</LocalizationPair>
+<!-- DEFENDER -->
+    <LocalizationPair Name="%AFHERHullDEFMedium01SophonsDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01TerransDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01HoratioDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01TimeLordsDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01UnfallenDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01CraversDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullDEFMedium01VaultersDescription">BLANK</LocalizationPair>
+<!-- SUPPORTER -->
+    <LocalizationPair Name="%AFHERHullSUPMedium02SophonsDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02TerransDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02HoratioDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02TimeLordsDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02VenetiansDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02VampirilisDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02MajorHisshosDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02UmbralChoirDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullSUPMedium02TemplarsDescription">BLANK</LocalizationPair>
+<!-- EXPLORER -->
+    <LocalizationPair Name="%AFHERHullEXPMedium02SophonsDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02HoratioDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02UnfallenDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02CraversDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02VenetiansDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02VampirilisDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02VaultersDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02MajorHisshosDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02UmbralChoirDescription">BLANK</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullEXPMedium02TemplarsDescription">BLANK</LocalizationPair>
+<!-- ## The MINOR FACs ## -->
+    <!-- unused section -->
+    <LocalizationPair Name="%AFHERHullMedium01MinorFactionInsectoidTitle">Kharkhara-class</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMedium01MinorFactionInsectoidDescription">Role: Hero Supporter</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMedium01MinorFactionPiratesTitle">Pillager-class</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMedium01MinorFactionPiratesDescription">Role: Hero Attacker</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMedium01MinorFactionPrimitiveTitle">Orbiter-class</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMedium01MinorFactionPrimitiveDescription">Role: Hero Explorer</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMedium01MinorFactionAdvancedTitle">Scorpio-class</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMedium01MinorFactionAdvancedDescription">Role: Hero Defender</LocalizationPair>
+    <!-- ## Pirates Leader Ship Hull ## -->
+    <LocalizationPair Name="%AFHERMinFacSP2_HullTitle">Plünderer A2</LocalizationPair>
+<!-- ### The SHIP DESIGNS ### -->
+<!-- The Major FACTIONs -->
+<!-- TITLES -->
+<!-- ATTACKER -->
+    <!-- MAVROS Hero -->
+    <LocalizationPair Name="%AFHERSophonsATTHeroTitle">Rache</LocalizationPair>
+    <LocalizationPair Name="%AFHERTerransATTHeroTitle">Furchtlos</LocalizationPair>
+    <LocalizationPair Name="%AFHERTimeLordsATTHeroTitle">Dimension</LocalizationPair>
+    <LocalizationPair Name="%AFHERUnfallenATTHeroTitle">Würgewurzel</LocalizationPair>
+    <LocalizationPair Name="%AFHERCraversATTHeroTitle">Raubtier</LocalizationPair>
+    <LocalizationPair Name="%AFHERVenetiansATTHeroTitle">Majusan</LocalizationPair>
+    <LocalizationPair Name="%AFHERVampirilisATTHeroTitle">Ransulo</LocalizationPair>
+    <LocalizationPair Name="%AFHERVaultersATTHeroTitle">Pevelo</LocalizationPair>
+    <LocalizationPair Name="%AFHERMajorHisshosATTHeroTitle">Rapanza</LocalizationPair>
+    <LocalizationPair Name="%AFHERUmbralChoirATTHeroTitle">Undalo</LocalizationPair>
+    <LocalizationPair Name="%AFHERTemplarsATTHeroTitle">Telosa</LocalizationPair>
+<!-- DEFENDER -->
+    <LocalizationPair Name="%AFHERSophonsDEFHeroTitle">Relout</LocalizationPair>
+    <LocalizationPair Name="%AFHERTerransDEFHeroTitle">Tapferkeit</LocalizationPair>
+    <LocalizationPair Name="%AFHERHoratioDEFHeroTitle">Reinheit</LocalizationPair>
+    <LocalizationPair Name="%AFHERTimeLordsDEFHeroTitle">Singularität</LocalizationPair>
+    <LocalizationPair Name="%AFHERUnfallenDEFHeroTitle">Purassi</LocalizationPair>
+    <LocalizationPair Name="%AFHERCraversDEFHeroTitle">Hunger</LocalizationPair>
+    <LocalizationPair Name="%AFHERVaultersDEFHeroTitle">Wendolui</LocalizationPair>
+<!-- SUPPORTER -->
+    <LocalizationPair Name="%AFHERSophonsSUPHeroTitle">Zuroloa</LocalizationPair>
+    <LocalizationPair Name="%AFHERTerransSUPHeroTitle">Der Standhafte</LocalizationPair>
+    <LocalizationPair Name="%AFHERHoratioSUPHeroTitle">Die Perfektion</LocalizationPair>
+    <LocalizationPair Name="%AFHERTimeLordsSUPHeroTitle">Quantum</LocalizationPair>
+    <LocalizationPair Name="%AFHERVenetiansSUPHeroTitle">Rutulo</LocalizationPair>
+    <LocalizationPair Name="%AFHERVampirilisSUPHeroTitle">Vasadila</LocalizationPair>
+    <LocalizationPair Name="%AFHERMajorHisshosSUPHeroTitle">Essoloss</LocalizationPair>
+    <LocalizationPair Name="%AFHERUmbralChoirSUPHeroTitle">Ereliug</LocalizationPair>
+    <LocalizationPair Name="%AFHERTemplarsSUPHeroTitle">Asenas</LocalizationPair>
+<!-- EXPLORER -->
+    <LocalizationPair Name="%AFHERSophonsEXPHeroTitle">Vanaup</LocalizationPair>
+    <LocalizationPair Name="%AFHERHoratioEXPHeroTitle">Makellos</LocalizationPair>
+    <LocalizationPair Name="%AFHERUnfallenEXPHeroTitle">Retharyan</LocalizationPair>
+    <LocalizationPair Name="%AFHERCraversEXPHeroTitle">Der Jäger</LocalizationPair>
+    <LocalizationPair Name="%AFHERVenetiansEXPHeroTitle">Benliffa</LocalizationPair>
+    <LocalizationPair Name="%AFHERVampirilisEXPHeroTitle">Berelas</LocalizationPair>
+    <LocalizationPair Name="%AFHERVaultersEXPHeroTitle">Yunda</LocalizationPair>
+    <LocalizationPair Name="%AFHERMajorHisshosEXPHeroTitle">Teremin</LocalizationPair>
+    <LocalizationPair Name="%AFHERUmbralChoirEXPHeroTitle">Panilius</LocalizationPair>
+    <LocalizationPair Name="%AFHERTemplarsEXPHeroTitle">Caramino</LocalizationPair>
+<!-- DESCRIPTIONS -->
+<!-- INFO PLACEHOLDER. To be filled with extra desrciption. -->
+    <LocalizationPair Name="%AFHERSophonsATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERTerransATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERTimeLordsATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERUnfallenATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERCraversATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERVenetiansATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERVampirilisATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERVaultersATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERMajorHisshosATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERUmbralChoirATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERTemplarsATTHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+<!-- DEFENDER -->
+    <LocalizationPair Name="%AFHERSophonsDEFHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERTerransDEFHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHoratioDEFHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERTimeLordsDEFHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERUnfallenDEFHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERCraversDEFHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERVaultersDEFHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+<!-- SUPPORTER -->
+    <LocalizationPair Name="%AFHERSophonsSUPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERTerransSUPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHoratioSUPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERTimeLordsSUPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERVenetiansSUPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERVampirilisSUPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERMajorHisshosSUPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERUmbralChoirSUPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERTemplarsSUPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+<!-- EXPLORER -->
+    <LocalizationPair Name="%AFHERSophonsEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERHoratioEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERUnfallenEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERCraversEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERVenetiansEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERVampirilisEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERVaultersEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERMajorHisshosEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERUmbralChoirEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERTemplarsEXPHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+<!-- ## The MINOR FACs ## -->
+    <LocalizationPair Name="%AFHERPiratesATTHeroTitle">Lupus Esuriit</LocalizationPair>
+    <LocalizationPair Name="%AFHERPiratesATTHeroDescription">Role: Attack</LocalizationPair>
+    <LocalizationPair Name="%AFHERMinorFactionPRMEXPHeroTitle">Citius Aquilae</LocalizationPair>
+    <LocalizationPair Name="%AFHERMinorFactionPRMEXPHeroDescription">Role: Exploration</LocalizationPair>
+    <LocalizationPair Name="%AFHERMinorFactionINSSUPHeroTitle">Morsus Cruentos</LocalizationPair>
+    <LocalizationPair Name="%AFHERMinorFactionINSSUPHeroDescription">Role: Support</LocalizationPair>
+    <LocalizationPair Name="%AFHERMinorFactionADVDEFHeroTitle">Ostiarius</LocalizationPair>
+    <LocalizationPair Name="%AFHERMinorFactionADVDEFHeroDescription">Role: Defense</LocalizationPair>
+<!-- ## The SPECIALs ## -->
+    <LocalizationPair Name="%AFHERMinFacSP1_MediumExplorerTitle">Lagula Deritor</LocalizationPair>
+    <!-- ## Pirates Leader ## -->
+    <LocalizationPair Name="%AFHERMinFacSP2_MediumAttackerTitle">Blutiger Höllenhund</LocalizationPair>
+    <LocalizationPair Name="%AFHERMinFacSP2_MediumAttackerDescription">Alptraum</LocalizationPair>
+    <LocalizationPair Name="%AFHERMinFacSP3_MediumDefenderTitle">Agera Telura</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMinFacSPEC01Title">Orbiter-class</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMinFacSPEC01Description">Role: Explorer</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMinFacSPEC02Title">Scorpio-class</LocalizationPair>
+    <LocalizationPair Name="%AFHERHullMinFacSPEC02Description">Role: Attacker</LocalizationPair>
+<!-- ## THE QUEST HERO SECTION ## -->
+    <LocalizationPair Name="%AFHERQuest1ATTMedium01TerransTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest2SUPMedium02TerransTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest3EXPMedium02TerransTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHEREndlessQuestATTMedium01CraversTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest1ATTMedium01TerransDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest2SUPMedium02TerransDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest3EXPMedium02TerransDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHEREndlessQuestATTMedium01CraversDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuestTER1_MediumAttackerTitle">Ritter der Gerechtigkeit</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuestTER2_MediumSupporterTitle">Glaubensbringer</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuestTER3_MediumExplorerTitle">Lichtbringer</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuestTER1_MediumAttackerDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuestTER2_MediumSupporterDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuestTER3_MediumExplorerDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest1ATTMedium01HoratioTitle">PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest1ATTMedium01HoratioDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQ1HORHeroTitle">Juwel der Reinheit</LocalizationPair>
+    <LocalizationPair Name="%AFHERQ1HORHeroDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHEREndlessQuest_MediumAttackerTitle">Echo des Schicksals</LocalizationPair>
+    <LocalizationPair Name="%AFHEREndlessQuest_MediumAttackerDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHEREndlessQuest_MediumDefenderTitle">Flammen der Bestimmmung</LocalizationPair>
+    <LocalizationPair Name="%AFHEREndlessQuest_MediumDefenderDescription">INFO PLACEHOLDER</LocalizationPair>
+    <LocalizationPair Name="%AFHERQ1TERHeroTitle">Ritter der Gerechtigkeit</LocalizationPair>
+    <LocalizationPair Name="%AFHERQ2TERHeroTitle">Glaubensbringer</LocalizationPair>
+    <LocalizationPair Name="%AFHERQ3TERHeroTitle">Lichtbringer</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest1TERHeroTitle">Ritter der Gerechtigkeit</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest2TERHeroTitle">Glaubensbringer</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest3TERHeroTitle">Lichtbringer</LocalizationPair>
+<!-- #DLC1# -->
+<!-- #The Pirate Leader Fleet -->
+    <LocalizationPair Name="%PIRLEDSMLATTTitle">Drachenhund</LocalizationPair>
+    <LocalizationPair Name="%PIRLEDMEDATTTitle">Cerberus</LocalizationPair>
+    <LocalizationPair Name="%PIRLEDSMLATT_SmallAttackerTitle">Drachenhund</LocalizationPair>
+    <LocalizationPair Name="%PIRLEDMEDATT_MediumAttackerTitle">Cerberus</LocalizationPair>
+<!-- missing info in base game-->
+    <LocalizationPair Name="%ModuleSupportExplorationQuest01Title">Horatio verbesserte Sonden</LocalizationPair>
+    <LocalizationPair Name="%PopulationQuest05-Failed">Mit dem verschwinden der letzten Craver in dem Imperium hat sich das Problem von selbst gelöst ...</LocalizationPair>
+<!-- The Academy Quest Coop 03 A -->
+    <!-- the hulls -->
+    <LocalizationPair Name="%ACDHERMEDATTTitle">Säuberung</LocalizationPair>
+    <LocalizationPair Name="%ACDHERCARRIERTTitle">Schicksal</LocalizationPair>
+    <!-- the designs -->
+    <LocalizationPair Name="%AcademyQuestCoop03A_MediumAttackTitle">Dark Jaium</LocalizationPair>
+    <LocalizationPair Name="%AcademyQuestCoop03A_LargeCarrierTitle">Dark Ortaam</LocalizationPair>
+    <LocalizationPair Name="%ACDHERMEDATT_MediumAttackerTitle">Säuberung</LocalizationPair>
+    <LocalizationPair Name="%ACDHERCARRIER_LargeCarrierTitle">Schicksal</LocalizationPair>
+<!-- Quest Exploration08 addition -->
+    <LocalizationPair Name="%ExplorationQuest08Choice01Outcome">An der zweiten Stelle wird das Expeditionsteam von einem seltsamen Anblick begrüßt. Die Drohne ist teilweise im Sumpf versunken, in der Nähe eines weiteren verlassenen Schiffs. Angesichts des Rankengewirrs, von dem das Raumschiff umgeben ist, muss sich das Schiff offensichtlich schon lange Zeit hier befinden. Du findest keine Spuren der Besatzung, aber es gelingt dir, das Schiff wieder zu reaktivieren. Es wird sich in deiner Flotte sicher als nützlich erweisen. Ebenso konnten die Baupläne des Schiffes in den alten Computer-Speicherbänken extrahiert werden.</LocalizationPair>
+<!-- Quest Exploration05 addition -->
+    <LocalizationPair Name="%ExplorationQuest05-Description">Angesichts des anstehenden Untergangs muss die Enklave der Horatio umgesiedelt werden. Zum Glück bringen die „Schönen“ auch ein paar nützliche Eigenschaften mit. Darunter auch die Baupläne des speziellen Horatio Schiffes.</LocalizationPair>
+<!-- CuriosityEffect -->
+    <LocalizationPair Name="%CuriosityEffectShipsCategoryTitle">Schiff und Baupläne</LocalizationPair>
+
+</Datatable>

@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<Datatable>
+
+<!-- ################## -->
+<!-- ###THE MOD GUIs### -->
+<!-- ################## -->
+<!-- NOTE -->
+<!-- The standard names from the base game are used for the heroes ship hulls. -->
+<!-- Since these are new ship hulls, it is of course possible to give them new names and descriptions. -->
+<!-- The placeholders for this can be found in the localization files. -->
+
+<!-- ######################### -->
+<!-- ### SHIP HULL SECTION ### -->
+<!-- ######################### -->
+
+<!-- THE FACTION HERO HULLLS -->
+<!-- ### SOPHONS ## -->
+<!-- ### Mavros ### -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01Sophons">
+    <Title>%HullMedium01SophonsTitle</Title>
+    <Description>%HullMedium01SophonsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MAV_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MAV_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Defender # -->
+  <GuiElement Name="AFHERHullDEFMedium01Sophons">
+    <Title>%HullMedium01SophonsTitle</Title>
+    <Description>%HullMedium01SophonsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/SOP_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/SOP_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02Sophons">
+    <Title>%HullMedium02SophonsTitle</Title>
+    <Description>%HullMedium02SophonsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/SOP_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/SOP_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHullSUPMedium02Sophons">
+    <Title>%HullMedium02SophonsTitle</Title>
+    <Description>%HullMedium02SophonsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/SOP_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/SOP_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### TERRANS ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERHullDEFMedium01Terrans">
+    <Title>%HullMedium01TerransTitle</Title>
+    <Description>%HullMedium01TerransDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01Terrans">
+    <Title>%HullMedium01TerransTitle</Title>
+    <Description>%HullMedium01TerransDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHullSUPMedium02Terrans">
+    <Title>%HullMedium02TerransTitle</Title>
+    <Description>%HullMedium02TerransDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_SUP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02Terrans">
+    <Title>%HullMedium02TerransTitle</Title>
+    <Description>%HullMedium02TerransDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### HORATIO ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERHullDEFMedium01Horatio">
+    <Title>%HullMedium01HoratioTitle</Title>
+    <Description>%HullMedium01HoratioDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HOR_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HOR_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02Horatio">
+    <Title>%HullMedium02HoratioTitle</Title>
+    <Description>%HullMedium02HoratioDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HOR_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HOR_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHullSUPMedium02Horatio">
+    <Title>%HullMedium02HoratioTitle</Title>
+    <Description>%HullMedium02HoratioDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HOR_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HOR_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### TIMELORDS ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERHullDEFMedium01TimeLords">
+    <Title>%HullMedium01TimeLordsTitle</Title>
+    <Description>%HullMedium01TimeLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TIM_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TIM_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01TimeLords">
+    <Title>%HullMedium01TimeLordsTitle</Title>
+    <Description>%HullMedium01TimeLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TIM_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TIM_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHullSUPMedium02TimeLords">
+    <Title>%HullMedium02TimeLordsTitle</Title>
+    <Description>%HullMedium02TimeLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TIM_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TIM_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### UNFALLEN ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERHullDEFMedium01Unfallen">
+    <Title>%HullMedium01UnfallenTitle</Title>
+    <Description>%HullMedium01UnfallenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UNF_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UNF_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02Unfallen">
+    <Title>%HullMedium02UnfallenTitle</Title>
+    <Description>%HullMedium02UnfallenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UNF_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UNF_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01Unfallen">
+    <Title>%HullMedium01UnfallenTitle</Title>
+    <Description>%HullMedium01UnfallenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UNF_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UNF_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### CRAVERS ## -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01Cravers">
+    <Title>%HullMedium01CraversTitle</Title>
+    <Description>%HullMedium01CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/CRA_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/CRA_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Defender # -->
+  <GuiElement Name="AFHERHullDEFMedium01Cravers">
+    <Title>%HullMedium01CraversTitle</Title>
+    <Description>%HullMedium01CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/CRA_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/CRA_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02Cravers">
+    <Title>%HullMedium02CraversTitle</Title>
+    <Description>%HullMedium02CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/CRA_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/CRA_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter -->
+  <GuiElement Name="AFHERHullSUPMedium02Cravers">
+    <Title>%HullMedium02CraversTitle</Title>
+    <Description>%HullMedium02CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/CRA_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/CRA_EXP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### VENETIANS ## -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01Venetians">
+    <Title>%HullMedium01VenetiansTitle</Title>
+    <Description>%HullMedium01VenetiansDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VEN_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VEN_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02Venetians">
+    <Title>%HullMedium02VenetiansTitle</Title>
+    <Description>%HullMedium02VenetiansDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VEN_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VEN_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHullSUPMedium02Venetians">
+    <Title>%HullMedium02VenetiansTitle</Title>
+    <Description>%HullMedium02VenetiansDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VEN_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VEN_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### VAMPIRILIS ## -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01Vampirilis">
+    <Title>%HullMedium01VampirilisTitle</Title>
+    <Description>%HullMedium01VampirilisDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAM_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAM_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02Vampirilis">
+    <Title>%HullMedium02VampirilisTitle</Title>
+    <Description>%HullMedium02VampirilisDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAM_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAM_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHullSUPMedium02Vampirilis">
+    <Title>%HullMedium02VampirilisTitle</Title>
+    <Description>%HullMedium02VampirilisDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAM_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAM_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### VAULTERS ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERHullDEFMedium01Vaulters">
+    <Title>%HullMedium01VaultersTitle</Title>
+    <Description>%HullMedium01VaultersDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAU_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAU_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02Vaulters">
+    <Title>%HullMedium02VaultersTitle</Title>
+    <Description>%HullMedium02VaultersDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAU_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAU_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01Vaulters">
+    <Title>%HullMedium01VaultersTitle</Title>
+    <Description>%HullMedium01VaultersDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAU_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAU_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### HISSHOS ## -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01MajorHisshos">
+    <Title>%HullMedium01MajorHisshosTitle</Title>
+    <Description>%HullMedium01MajorHisshosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HIS_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HIS_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02MajorHisshos">
+    <Title>%HullMedium02MajorHisshosTitle</Title>
+    <Description>%HullMedium02MajorHisshosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HIS_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HIS_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHullSUPMedium02MajorHisshos">
+    <Title>%HullMedium02MajorHisshosTitle</Title>
+    <Description>%HullMedium02MajorHisshosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HIS_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HIS_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### UMBRAL CHOIR ## -->
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02UmbralChoir">
+    <Title>%HullMedium02UmbralChoirTitle</Title>
+    <Description>%HullMedium02UmbralChoirDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UMB_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UMB_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHullSUPMedium02UmbralChoir">
+    <Title>%HullMedium02UmbralChoirTitle</Title>
+    <Description>%HullMedium02UmbralChoirDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UMB_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UMB_SUP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01UmbralChoir">
+    <Title>%HullMedium01UmbralChoirTitle</Title>
+    <Description>%HullMedium01UmbralChoirDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UMB_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UMB_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### TEMPLARS ## -->
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHullEXPMedium02Templars">
+    <Title>%HullMedium02TemplarsTitle</Title>
+    <Description>%HullMedium02TemplarsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TEM_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TEM_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHullSUPMedium02Templars">
+    <Title>%HullMedium02TemplarsTitle</Title>
+    <Description>%HullMedium02TemplarsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TEM_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TEM_SUP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERHullATTMedium01Templars">
+    <Title>%HullMedium01TemplarsTitle</Title>
+    <Description>%HullMedium01TemplarsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TEM_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TEM_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- THE MINOR FACTION ship hulls -->
+<!-- MINFACsup -->
+    <!-- the Medium Support hull -->
+<GuiElement Name="AFHERHullMedium01MinorFactionInsectoid">
+ <Title>%HullMedium01MinorFactionInsectoidTitle</Title>
+ <Description>%HullMedium01MinorFactionInsectoidDescription</Description>
+ <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- MINFACexp -->
+    <!-- the Medium Explorer hull -->
+  <GuiElement Name="AFHERHullMedium01MinorFactionPrimitive">
+    <Title>%HullMedium01MinorFactionPrimitiveTitle</Title>
+    <Description>%HullMedium01MinorFactionPrimitiveDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_EXP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- MINFACdef -->
+    <!-- the Medium Defender hull -->
+  <GuiElement Name="AFHERHullMedium01MinorFactionAdvanced">
+    <Title>%HullMedium01MinorFactionAdvancedTitle</Title>
+    <Description>%HullMedium01MinorFactionAdvancedDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_DEF_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- MINFACatt -->
+    <!-- the Medium Attacker hull -->
+  <GuiElement Name="AFHERHullMedium01MinorFactionPirates">
+    <Title>%HullMedium01MinorFactionPiratesTitle</Title>
+    <Description>%HullMedium01MinorFactionPiratesDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ###################### -->
+<!-- ### DESIGN SECTION ### -->
+<!-- ###################### -->
+
+<!-- THE FACTION HEROS -->
+<!-- ### SOPHONS ## -->
+<!-- ### The Mavros Hero ### -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERSophons_MediumAttacker">
+    <Title>%AFHERSophonsATTHeroTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MAV_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MAV_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Defender # -->
+  <GuiElement Name="AFHERSophons_MediumDefender">
+    <Title>%AFHERSophonsDEFHeroTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/SOP_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/SOP_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERSophons_MediumExplorer">
+    <Title>%AFHERSophonsEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/SOP_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/SOP_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERSophons_MediumSupporter">
+    <Title>%AFHERSophonsSUPHeroTitle</Title>
+    <Description>%%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/SOP_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/SOP_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### TERRANS ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERTerrans_MediumDefender">
+    <Title>%AFHERTerransDEFHeroTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERTerrans_MediumAttacker">
+    <Title>%AFHERTerransATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERTerrans_MediumSupporter">
+    <Title>%AFHERTerransSUPHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### HORATIO ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERHoratio_MediumDefender">
+    <Title>%AFHERHoratioDEFHeroTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HOR_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HOR_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERHoratio_MediumExplorer">
+    <Title>%AFHERHoratioEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HOR_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HOR_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERHoratio_MediumSupporter">
+    <Title>%AFHERHoratioSUPHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HOR_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HOR_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### TIMELORDS ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERTimeLords_MediumDefender">
+    <Title>%AFHERTimeLordsDEFHeroTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TIM_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TIM_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERTimeLords_MediumAttacker">
+    <Title>%AFHERTimeLordsATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TIM_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TIM_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERTimeLords_MediumSupporter">
+    <Title>%AFHERTimeLordsSUPHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TIM_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TIM_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### UNFALLEN ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERUnfallen_MediumDefender">
+    <Title>%AFHERUnfallenDEFHeroTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UNF_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UNF_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERUnfallen_MediumExplorer">
+    <Title>%AFHERUnfallenEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UNF_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UNF_RXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERUnfallen_MediumAttacker">
+    <Title>%AFHERUnfallenATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UNF_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UNF_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### CRAVERS ## -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERCravers_MediumAttacker">
+    <Title>%AFHERCraversATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/CRA_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/CRA_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Defender # -->
+  <GuiElement Name="AFHERCravers_MediumDefender">
+    <Title>%AFHERCraversDEFHeroTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/CRA_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/CRA_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERCravers_MediumExplorer">
+    <Title>%AFHERCraversEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/CRA_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/CRA_EXP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### VENETIANS ## -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERVenetians_MediumAttacker">
+    <Title>%AFHERVenetiansATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VEN_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VEN_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERVenetians_MediumExplorer">
+    <Title>%AFHERVenetiansEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VEN_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VEN_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERVenetians_MediumSupporter">
+    <Title>%AFHERVenetiansSUPHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VEN_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VEN_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### VAMPIRILIS ## -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERVampirilis_MediumAttacker">
+    <Title>%AFHERVampirilisATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAM_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAM_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERVampirilis_MediumExplorer">
+    <Title>%AFHERVampirilisEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAM_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAM_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERVampirilis_MediumSupporter">
+    <Title>%AFHERVampirilisSUPHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAM_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAM_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### VAULTERS ## -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHERVaulters_MediumDefender">
+    <Title>%AFHERVaultersDEFHeroTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAU_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAU_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERVaulters_MediumExplorer">
+    <Title>%AFHERVaultersEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAU_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAU_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERVaulters_MediumAttacker">
+    <Title>%AFHERVaultersATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAU_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAU_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### HISSHOS ## -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERMajorHisshos_MediumAttacker">
+    <Title>%AFHERMajorHisshosATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HIS_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HIS_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERMajorHisshos_MediumExplorer">
+    <Title>%AFHERMajorHisshosEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HIS_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HIS_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERMajorHisshos_MediumSupporter">
+    <Title>%AFHERMajorHisshosSUPHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HIS_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HIS_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### UMBRAL CHOIR ## -->
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERUmbralChoir_MediumExplorer">
+    <Title>%AFHERUmbralChoirEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UMB_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UMB_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERUmbralChoir_MediumSupporter">
+    <Title>%AFHERUmbralChoirSUPHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UMB_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UMB_SUP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERUmbralChoir_MediumAttacker">
+    <Title>%AFHERUmbralChoirATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/UMB_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/UMB_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### TEMPLARS ## -->
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERTemplars_MediumExplorer">
+    <Title>%AFHERTemplarsEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TEM_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TEM_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERTemplars_MediumSupporter">
+    <Title>%AFHERTemplarsSUPHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TEM_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TEM_SUP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERTemplars_MediumAttacker">
+    <Title>%AFHERTemplarsATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TEM_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TEM_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- THE MINOR FACTION ship designs -->
+<!-- MINFACsup -->
+    <!-- the Medium Support hull -->
+  <GuiElement Name="AFHERMinorFactionINS_MediumSupport">
+    <Title>%AFHERMinorFactionINSSUPHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_SUP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- MINFACexp -->
+    <!-- the Medium Explorer hull -->
+  <GuiElement Name="AFHERMinorFactionPRM_MediumExplorer">
+    <Title>%AFHERMinorFactionPRMEXPHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_EXP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- MINFACdef -->
+    <!-- the Medium Defender hull -->
+  <GuiElement Name="AFHERMinorFactionADV_MediumDefender">
+    <Title>%AFHERMinorFactionADVDEFHeroTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_DEF_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- MINFACatt -->
+    <!-- the Medium Attacker hull -->
+  <GuiElement Name="AFHERPirates_MediumAttacker">
+    <Title>%AFHERPiratesATTHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ##AFsp1## -->
+    <!-- The Special #01 hull -->
+  <GuiElement Name="AFHERHullMinFacSPEC01">
+    <Title>%HullMedium01MinorFactionPrimitiveTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_EXP_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ##AFsp2## -->
+    <!-- The Special #02 hull -->
+  <GuiElement Name="AFHERHullMinFacSPEC02">
+    <!-- Title>%HullMedium01MinorFactionPiratesTitle</Title -->
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Title>%AFHERMinFacSP2_HullTitle</Title>
+    <!-- Description>%AFHERMinFacSP2_MediumAttackerDescription</Description -->
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/PIR_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/PIR_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### THE QUEST HERO SECTION -->
+<!-- #HULLS# -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERQuest1ATTMedium01Terrans">
+    <Title>%HullMedium01TerransTitle</Title>
+    <Description>%HullMedium01TerransDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERQuest2SUPMedium02Terrans">
+    <Title>%HullMedium02TerransTitle</Title>
+    <Description>%HullMedium02TerransDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_SUP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERQuest3EXPMedium02Terrans">
+    <Title>%HullMedium02TerransTitle</Title>
+    <Description>%HullMedium02TerransDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_SUP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERQuest1ATTMedium01Horatio">
+    <Title>%HullMedium01HoratioTitle</Title>
+    <Description>%HullMedium01HoratioDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HOR_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HOR_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- Endless Quest -->
+<!-- #ENDHER# -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHEREndlessQuestATTMedium01Cravers">
+    <Title>%HullMedium01CraversTitle</Title>
+    <Description>%HullMedium01CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/END_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/END_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- #DESIGNS# -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERQuestTER1_MediumAttacker">
+    <Title>%AFHERQ1TERHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Supporter # -->
+  <GuiElement Name="AFHERQuestTER2_MediumSupporter">
+    <Title>%AFHERQ2TERHeroTitle</Title>
+    <Description>%HullHeroSmall03SupporterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_SUP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_SUP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERQuestTER3_MediumExplorer">
+    <Title>%AFHERQ3TERHeroTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/TER_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/TER_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- #HORQ01# -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERQuest1HOR_MediumAttacker">
+    <Title>%AFHERQ1HORHeroTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/HOR_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/HOR_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- #ENDHER1# -->
+<!-- Endless Quest -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHEREndlessQuest_MediumAttacker">
+    <Title>%AFHEREndlessQuest_MediumAttackerTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/END_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/END_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- #ENDHER2# -->
+<!-- Endless Quest -->
+<!-- # Defender # -->
+  <GuiElement Name="AFHEREndlessQuest_MediumDefender">
+    <Title>%AFHEREndlessQuest_MediumDefenderTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/END_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/END_DEF_Large" />
+    </Icons>
+  </GuiElement>
+<!-- SPECIAL DESIGNS -->
+<!-- # Attacker # -->
+  <GuiElement Name="AFHERMinFacSP2_MediumAttacker">
+    <Title>%AFHERMinFacSP2_MediumAttackerTitle</Title>
+    <Description>%HullHeroSmall01AttackerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/PIR_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/PIR_ATT_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Explorer # -->
+  <GuiElement Name="AFHERMinFacSP1_MediumExplorer">
+    <Title>%AFHERMinFacSP1_MediumExplorerTitle</Title>
+    <Description>%HullHeroSmall02ExplorerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_EXP_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_EXP_Large" />
+    </Icons>
+  </GuiElement>
+<!-- # Defender # -->
+  <GuiElement Name="AFHERMinFacSP3_MediumDefender">
+    <Title>%AFHERMinFacSP3_MediumDefenderTitle</Title>
+    <Description>%HullHeroSmall04DefenderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/MIN_DEF_Small" />
+      <Icon Size="Large" Path="Textures/SHP/MIN_DEF_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- ### Academy Quest Coop 03 A ## -->
+<!-- # Attacker # -->
+  <GuiElement Name="AcademyQuestCoop03A_MediumAttack">
+    <Title>%AcademyQuestCoop03A_MediumAttackTitle</Title>
+    <Description>%HullMedium01VampirilisDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/SHP/VAM_ATT_Small" />
+      <Icon Size="Large" Path="Textures/SHP/VAM_ATT_Large" />
+    </Icons>
+  </GuiElement>
+
+<!-- #Sophon Pirates# -->
+    <GuiElement Name="Pir_Sophon_ATT">
+        <Title>%ShipDesignSmall01AttackerSophonsTitle</Title>
+        <Description>%ShipDesignSmall01AttackerSophonsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsLarge" />
+        </Icons>
+    </GuiElement>
+
+   <GuiElement Name="Pir_Sophon_SUP">
+        <Title>%ShipDesignSmall02SupporterSophonsTitle</Title>
+        <Description>%ShipDesignSmall02SupporterSophonsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall02SophonsSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall02SophonsLarge" />
+        </Icons>
+   </GuiElement>
+
+<!-- DLC2# -->
+    <GuiElement Name="MILJuggernaut">
+        <Title>%ShipDesignJuggernautsMilitaryJuggernautTitle</Title>
+        <Description>%ShipDesignJuggernautsMilitaryJuggernautDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Juggernauts/ShipHullJuggernaut01JuggernautsSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Juggernauts/ShipHullJuggernaut01JuggernautsLarge" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="SUPJuggernaut">
+        <Title>%ShipDesignJuggernautsSupportJuggernautTitle</Title>
+        <Description>%ShipDesignJuggernautsSupportJuggernautDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Juggernauts/ShipHullJuggernaut01JuggernautsSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Juggernauts/ShipHullJuggernaut01JuggernautsLarge" />
+        </Icons>
+    </GuiElement>
+
+<!-- #Update8 -->
+    <GuiElement Name="PiratesMedATTQuest01">
+        <Title>%MFPiratesMediumAttackAvgQuest01Title</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Minor/ShipHullMedium01MinorFactionPiratesSmall"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Minor/ShipHullMedium01MinorFactionPiratesMedium"/>
+        </Icons>
+    </GuiElement>
+
+<!-- #DLC1# -->
+    <GuiElement Name="VODY_SmallAttack">
+        <Title>%ShipDesignSmall01AttackerVampirilisTitle</Title>
+        <Description>%ShipDesignSmall01AttackerVampirilisDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullSmall01VampirilisSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullSmall01VampirilisLarge" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="VODY_MediumAttack">
+        <Title>%ShipDesignMedium01AttackerVampirilisTitle</Title>
+        <Description>%ShipDesignMedium01AttackerVampirilisDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullMedium01VampirilisSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullMedium01VampirilisLarge" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="VODY_LargeCarrier">
+        <Title>%ShipDesignLarge01CarrierVampirilisTitle</Title>
+        <Description>%ShipDesignLarge01CarrierVampirilisDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullLarge01VampirilisSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullLarge01VampirilisLarge" />
+        </Icons>
+    </GuiElement>
+
+<!-- #DLC1 # -->
+
+    <GuiElement Name="PiratesLeaderMEDStrong">
+        <Title>%PiratesLeaderMEDStrongTitle</Title>
+        <Description>%ShipDesignMediumAttackerPirate01Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Textures/SHP/PIR_FLT_MED_Small"/>
+            <Icon Size="Large" Path="Textures/SHP/PIR_FLT_MED_Large"/>
+        </Icons>
+    </GuiElement>
+
+<!-- The Pirates Leader Fleet -->
+<!-- The Hulls -->
+     <GuiElement Name="PIRLEDSMLATT">
+        <Title>%PIRLEDSMLATTTitle</Title>
+        <Description>%ShipDesignSmallAttackerPirate01Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Textures/SHP/PIR_FLT_SML_Small"/>
+            <Icon Size="Large" Path="Textures/SHP/PIR_FLT_SML_Large"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PIRLEDMEDATT">
+        <Title>%PIRLEDMEDATTTitle</Title>
+        <Description>%ShipDesignMediumAttackerPirate01Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Textures/SHP/PIR_FLT_MED_V1_Small"/>
+            <Icon Size="Large" Path="Textures/SHP/PIR_FLT_MED_V1_Large"/>
+        </Icons>
+    </GuiElement>
+
+<!-- The Designs -->
+    <GuiElement Name="PIRLEDSMLATT_SmallAttacker">
+        <Title>%PIRLEDSMLATT_SmallAttackerTitle</Title>
+        <Description>%ShipDesignSmallAttackerPirate01Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Textures/SHP/PIR_FLT_SML_Small"/>
+            <Icon Size="Large" Path="Textures/SHP/PIR_FLT_SML_Large"/>
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PIRLEDMEDATT_MediumAttacker">
+        <Title>%PIRLEDMEDATT_MediumAttackerTitle</Title>
+        <Description>%ShipDesignMediumAttackerPirate01Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Textures/SHP/PIR_FLT_MED_V1_Small"/>
+            <Icon Size="Large" Path="Textures/SHP/PIR_FLT_MED_V1_Large"/>
+        </Icons>
+    </GuiElement>
+
+<!-- The Academy Quest Extremists Fleet -->
+<!-- The Hulls -->
+    <GuiElement Name="ACDHERMEDATT">
+      <Title>%ACDHERMEDATTTitle</Title>
+      <Description>%HullMedium01VampirilisDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Textures/SHP/ACD_HER_Small" />
+        <Icon Size="Large" Path="Textures/SHP/ACD_HER_Large" />
+      </Icons>
+    </GuiElement>
+    <GuiElement Name="ACDHERCARRIER">
+      <Title>%ACDHERCARRIERTitle</Title>
+      <Description>%HullMedium01VampirilisDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Textures/SHP/ACD_CAR_Small" />
+        <Icon Size="Large" Path="Textures/SHP/ACD_CAR_Large" />
+      </Icons>
+    </GuiElement>
+
+<!-- The Designs -->
+    <GuiElement Name="ACDHERMEDATT_MediumAttacker">
+       <Title>%ACDHERMEDATT_MediumAttackerTitle</Title>
+      <Description>%HullMedium01VampirilisDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Textures/SHP/ACD_HER_Small" />
+        <Icon Size="Large" Path="Textures/SHP/ACD_HER_Large" />
+      </Icons>
+    </GuiElement>
+    <GuiElement Name="ACDHERCARRIER_LargeCarrier">
+       <Title>%ACDHERCARRIER_LargeCarrierTitle</Title>
+      <Description>%HullMedium01VampirilisDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Textures/SHP/ACD_CAR_Small" />
+        <Icon Size="Large" Path="Textures/SHP/ACD_CAR_Large" />
+      </Icons>
+    </GuiElement>
+
+</Datatable>
