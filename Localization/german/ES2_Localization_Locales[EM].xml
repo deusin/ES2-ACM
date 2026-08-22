@@ -1372,4 +1372,5 @@ Durch eine Kombination aus spezialisierten Strukturen, fortschrittlichem Bergbau
         <LocalizationPair Name="%EmpireImprovementMoonExplorationDescription">Es ist zwar einfach, auf einem Mond zu landen, aber für die vollständige Erkundung sind spezialisierte Teams erforderlich, die komplette Oberflächenkartierungen und Mineralienscans sowie eine vollständige Analyse der Mondumgebung durchführen.
 Diese Technologie ermöglicht auch die Installation von Spezialausrüstung auf Helden- und Erkundungsschiffen, die die Erforschung von Monden in fernen Sternensystemen ermöglicht.</LocalizationPair>
 
+  <LocalizationPair Name="%Moon_TM_Title">Endless Moons</LocalizationPair><!-- ACM: key used by the EndlessMoonsEnabled GUI element but never defined upstream -->
 </Datatable>

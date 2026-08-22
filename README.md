@@ -147,6 +147,9 @@ upgradeable `…Regular` one), and both carry the same anomaly weight tables. Me
 ESG carries hooks for Endless Moons (`OwnedMoons`, `EndlessMoonsEnabled`), and EM's start quest tags every empire with that
 descriptor. `ACM.xml` gained `GuiTooltipDescription` and `GuiPlanetStatsModifier` plugins and an anomaly-reductions wildcard.
 Endless Moons is English/German, Endless Anomalies English only.
+Upstream slips fixed on the way: weight-table tags `Curiosity_CreepingAlgea` (typo) and `Curiosity_CrystallineWorld` (no such
+curiosity, dropped); `ShiftingGround` referenced the undefined `AnomalyTypeGround` (→ `PlanetAnomalyGround`); `HiddenVaults_R` referenced
+`CHiddenVaults_R`; `%Moon_TM_Title` (the hidden EndlessMoonsEnabled trait) was never defined.
 
 ## Working on the mod
 
