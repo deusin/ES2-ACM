@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
+
+<!-- Anomalies -->
+	<LocalizationPair Name="%SilentSands_Title">Silent Sands</LocalizationPair>
+	<LocalizationPair Name="%SilentSands_Desc">Vast stretches of this planet have peculiar sands that seem to absorb all sound, resulting in a rather disturbing experience for most inhabitants.
+While the sands are somewhat rich with dust, they are wholly unsuitable for most industries, save for some specialty audio applications.</LocalizationPair>
+	<LocalizationPair Name="%SilentSands_R_Title">Useful Sands</LocalizationPair>
+	<LocalizationPair Name="%SilentSands_R_Desc">Using large-scale mineral processing techniques, dust can now be efficiently extracted, and these sands have now found use in a number of different industries.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_SilentSands_Title">Sand Enrichment</LocalizationPair>
+	<LocalizationPair Name="%Reduction_SilentSands_Desc">Mixing and enriching the anomalous sands can improve their mineral value and reduce the negative acoustic effects.</LocalizationPair>
+
+	<LocalizationPair Name="%DustMountains_Title">Dust Mountains</LocalizationPair>
+	<LocalizationPair Name="%DustMountains_Desc">Much of the rugged terrain here has been discovered to have layers of dust rich minerals. Many industries were quick to exploit the more accessable ore and make a tidy profit. </LocalizationPair>
+
+	<LocalizationPair Name="%PerpetualSandstorms_Title">Perpetual Sandstorms</LocalizationPair>
+	<LocalizationPair Name="%PerpetualSandstorms_Desc">The weather patterns and loose sands here result in violent sandstorms that occur with disturbing frequency.
+This makes farming and industry particularly challenging on this unforgiving planet.</LocalizationPair>
+	<LocalizationPair Name="%PerpetualSandstorms_R_Title">Acceptable Winds</LocalizationPair>
+	<LocalizationPair Name="%PerpetualSandstorms_R_Desc">Careful climate adjusting has resulted in far less frequent wind storms. This has allowed the biome to replenish with plants, further solidifying the loose ground.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_PerpetualSandstorms_Title">Climate Engineering</LocalizationPair>
+	<LocalizationPair Name="%Reduction_PerpetualSandstorms_Desc">Changing the climate aspects that perpetually generate sandstorms can eliminate the vast majority of the sandstorms.</LocalizationPair>
+
+	<LocalizationPair Name="%ColossalMountain_Title">Colossal Mountain</LocalizationPair>
+	<LocalizationPair Name="%ColossalMountain_Desc">This planet features an unusually large mountain that reaches far higher than is typical.
+The geology here holds many areas to study, as well as being a rich source of valuable minerals.</LocalizationPair>
+
+	<LocalizationPair Name="%MassiveCrater_Title">Massive Crater</LocalizationPair>
+	<LocalizationPair Name="%MassiveCrater_Desc">The planet was subject to a massive impact sometime in its history, leaving an oversized impact crater. The result was to spread valuable and easily accessable minerals around the planet, as well as provide for interesting areas of scientific study.</LocalizationPair>
+
+	<LocalizationPair Name="%EnormousGysers_Title">Enormous Gysers</LocalizationPair>
+	<LocalizationPair Name="%EnormousGysers_Desc">A quirk of the geological layers has resulted in a condition where fluid pressure regularly builds up, to be released in the form of massive gysers around the planet.
+These regular eruptions spread water around the planet facilitating plant growth, as well as attracting visitors to see the spectacle.</LocalizationPair>
+
+	<LocalizationPair Name="%NaturalPatterns_Title">Natural Patterns</LocalizationPair>
+	<LocalizationPair Name="%NaturalPatterns_Desc">Upon the first discovery of these geometric patterns, they were assumed to be deliberately formed. However, further investigation has shown that they seem to form on their own - either as a result of some natural phenomena, or as some yet-to-be discovered effect.</LocalizationPair>
+
+	<LocalizationPair Name="%MinimalRotation_Title">Minimal Rotation</LocalizationPair>
+	<LocalizationPair Name="%MinimalRotation_Desc">This planet's rotation is so slow as to be nearly imperceptible. This has resulted in one half of the planet to be cold and dark, while the other is exposed to the sun at all times.
+This leaves a much lower output from the reduced farmable area, but does make for interesting scientific study.</LocalizationPair>
+	<LocalizationPair Name="%MinimalRotation_R_Title">Slow Rotation</LocalizationPair>
+	<LocalizationPair Name="%MinimalRotation_R_Desc">Using warp technology, the necessary power has been transfered to the angular momentum of the planet. It now has a regular, albeit slow, day and night cycle.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_MinimalRotation_Title">Rotation Engineering</LocalizationPair>
+	<LocalizationPair Name="%Reduction_MinimalRotation_Desc">Warp technology can be used to increase the rotation of this planet. It won't be much, just enough to produce a steady day and night cycle, and this will allow for increased land utilization of the previously dark side.</LocalizationPair>
+
+	<LocalizationPair Name="%FastRotation_Title">Fast Rotation</LocalizationPair>
+	<LocalizationPair Name="%FastRotation_Desc">The rotation period of this planet is unusually fast. This makes for a more consistant day-night temperature, as well as more consistency of sunlight. While most residents find the effect somewhat unsettling to live with, it does make for an interesting tourist destination.</LocalizationPair>
+	<LocalizationPair Name="%FastRotation_R_Title">Manageable Rotation</LocalizationPair>
+	<LocalizationPair Name="%FastRotation_R_Desc">Warp technology has been used to slow the rotation to a more manageable level, reducing the negative effects on the resident populations.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_FastRotation_Title">Rotation Engineering</LocalizationPair>
+	<LocalizationPair Name="%Reduction_FastRotation_Desc">Warp technology can be used to slow the brisk rotation of this planet. At least, just enough to make for a more manageable day and night cycle.</LocalizationPair>
+
+	<LocalizationPair Name="%MysteriousCairns_Title">Mysterious Cairns</LocalizationPair>
+	<LocalizationPair Name="%MysteriousCairns_Desc">Ancient cairns can be found dotting the landscape across the whole planet. Apparently made by a technologically advanced civilization, they seem to have no active purpose, and provide no clues as to why they were left, or to the nature of the society that left them. But that doesn't stop the imaginations of people across the empire speculating on their function.</LocalizationPair>
+
+	<LocalizationPair Name="%UndergroundTubes_Title">Underground Tubes</LocalizationPair>
+	<LocalizationPair Name="%UndergroundTubes_Desc">Formed millions of years in the past, great pressures resulted in the formation of deep and sprawling tubes throughout the crust of the planet.
+They provide easily accessable living space, and are used to conveniently reach otherwise difficult mining sites.</LocalizationPair>
+
+	<LocalizationPair Name="%DangerousFlora_Title">Dangerous Flora</LocalizationPair>
+	<LocalizationPair Name="%DangerousFlora_Desc">The plants on this world have adapted to become extremely dangerous in a variety of disturbing ways. From exploding caustic substances, to venomous thorns, to some that can even swallow a person whole.</LocalizationPair>
+	<LocalizationPair Name="%DangerousFlora_R_Title">Tamed Flora</LocalizationPair>
+	<LocalizationPair Name="%DangerousFlora_R_Desc">Through careful study and some genetic manipulation, the flora here has been largely tamed or moved to isolated areas.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_DangerousFlora_Title">Genetic Alteration</LocalizationPair>
+	<LocalizationPair Name="%Reduction_DangerousFlora_Desc">This project aims to reduce the more dangerous qualities of the flora here through genetic manipulation and the use of designated quarantine areas.</LocalizationPair>
+
+	<LocalizationPair Name="%NaturalIsotopes_Title">Natural Isotopes</LocalizationPair>
+	<LocalizationPair Name="%NaturalIsotopes_Desc">This world is replete with naturally occurring radioactive isotopes. Their abundance causes some problems for local farming, but do have many industrial and scientific applications.</LocalizationPair>
+	<LocalizationPair Name="%NaturalIsotopes_R_Title">Shielded Isotopes</LocalizationPair>
+	<LocalizationPair Name="%NaturalIsotopes_R_Desc">Strategic use of radiation shielding, as well as the development of standardized safe practices, has reduced the handeling and recognition of hazardous materials to a mundane routine.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_NaturalIsotopes_Title">Radiometric Shielding</LocalizationPair>
+	<LocalizationPair Name="%Reduction_NaturalIsotopes_Desc">This project will develop standardized safety protocols, and give grants for the creation of commodity shielding parts to protect living and work areas.</LocalizationPair>
+
+	<LocalizationPair Name="%DustInfusedLife_Title">Dust-Infused Life</LocalizationPair>
+	<LocalizationPair Name="%DustInfusedLife_Desc">Much of the life on this planet has incorporated the ever-present dust into their physiologies. It is yet unknown how and why this seems to have happened here, and why this isn't more common in the universe.</LocalizationPair>
+
+	<LocalizationPair Name="%CrystallineWorld_Title">Crystalline World</LocalizationPair>
+	<LocalizationPair Name="%CrystallineWorld_Desc">Much of the geology of this world is rich with crystalline structures. This results in many areas of study, as well as making for breath-taking scenery.</LocalizationPair>
+
+	<LocalizationPair Name="%LayeredAtmosphere_Title">Layered Atmosphere</LocalizationPair>
+	<LocalizationPair Name="%LayeredAtmosphere_Desc">The atmosphere of this planet is unusually complex and separated into distinct layers. This is of particular value to science and industry.</LocalizationPair>
+
+	<LocalizationPair Name="%ExtremePressure_Title">Extreme Pressure</LocalizationPair>
+	<LocalizationPair Name="%ExtremePressure_Desc">The atmosphere here creates unusually extreme pressures, and this causes all sorts of problems for colonization. Construction is difficult and requires extensive and costly reinforcement, and life outside is unforgiving and limited.</LocalizationPair>
+	<LocalizationPair Name="%ExtremePressure_R_Title">Manageable Pressure</LocalizationPair>
+	<LocalizationPair Name="%ExtremePressure_R_Desc">Wholescale capture and sequestration of atmosphere gasses has been able to bring down the ambient pressure markedly.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_ExtremePressure_Title">Gas Sequestration</LocalizationPair>
+	<LocalizationPair Name="%Reduction_ExtremePressure_Desc">Pulling out some of gas elements, and converting them new compounds with a solid form, will effectively reduce the available gasses contributing to the unusually high pressure of this world.</LocalizationPair>
+
+	<LocalizationPair Name="%GlobalWindstorms_Title">Global Windstorms</LocalizationPair>
+	<LocalizationPair Name="%GlobalWindstorms_Desc">Turbulent winds exist across this planet, resulting in windstorms forming constantly. This makes all areas of life and economic activity more difficult than they need to be.</LocalizationPair>
+	<LocalizationPair Name="%GlobalWindstorms_R_Title">Reduced Winds</LocalizationPair>
+	<LocalizationPair Name="%GlobalWindstorms_R_Desc">Carefully controlled climate change has resulted in much more stable weather patterns across the globe. Now the one fierce windstorms are a rare occurrence.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_GlobalWindstorms_Title">Climate Modification</LocalizationPair>
+	<LocalizationPair Name="%Reduction_GlobalWindstorms_Desc">Climate engineering will aim to change the temperature patterns that lead to constant windstorms, thus eliminating their prevalence.</LocalizationPair>
+
+	<LocalizationPair Name="%LivingMantle_Title">Living Mantle</LocalizationPair>
+	<LocalizationPair Name="%LivingMantle_Desc">Far beneath the surface, microbial life has formed, and is thriving within the mantle of the planet. There is also evidence of larger organisms, and some indicators of intelligence. This provides a whole new area of biological study, and has sparked the imagination of the populace.</LocalizationPair>
+
+	<LocalizationPair Name="%InterconnectedLife_Title">Interconnected Life</LocalizationPair>
+	<LocalizationPair Name="%InterconnectedLife_Desc">It was quickly discovered that all life on the planet, both plant and animal, seems to be linked by a spirit-like bond. Residents find themselves immersed into this world of connections, creating balance within their life.
+These connections are a fascinating area of study, but are unsurprisingly problematic when it comes to food production.</LocalizationPair>
+	<LocalizationPair Name="%InterconnectedLife_R_Title">Living Symbiosis</LocalizationPair>
+	<LocalizationPair Name="%InterconnectedLife_R_Desc">Extensive study of the connections and communication with the living beings on the planet has enabled a symbiosis that results in the safe exchange of edible nutrition.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_InterconnectedLife_Title">Symbiotic Study</LocalizationPair>
+	<LocalizationPair Name="%Reduction_InterconnectedLife_Desc">An extensive research project that aims to discover the exact nature of living connections. With better understanding, more of the biome can be safely utilized for food.</LocalizationPair>
+
+	<LocalizationPair Name="%VastCanyons_Title">Vast Canyons</LocalizationPair>
+	<LocalizationPair Name="%VastCanyons_Desc">Unusually large and sprawling canyons ring the planet and make for easy access to rich ores and minerals. According to the local population, these canyons also make for interesting exploration and have beautiful vistas.</LocalizationPair>
+
+	<LocalizationPair Name="%ExtinctionEvidence_Title">Mass Extinction Evidence</LocalizationPair>
+	<LocalizationPair Name="%ExtinctionEvidence_Desc">Life on this planet once underwent a mass extinction evet sometime in its past. This provides a robust area of scientific study.</LocalizationPair>
+
+	<LocalizationPair Name="%WarmZones_Title">Warm Zones</LocalizationPair>
+	<LocalizationPair Name="%WarmZones_Desc">Despite the cold temperatures that dominate the planet, there exist many areas that are surprisingly warm. These areas are quite useful for colonization, and are readily usable for farming and industry.</LocalizationPair>
+
+	<LocalizationPair Name="%FrozenRemnants_Title">Frozen Remnants</LocalizationPair>
+	<LocalizationPair Name="%FrozenRemnants_Desc">The frozen remains of plants and animals and can be found all over the planet. These remnants provide a rare glimpse into the history of the planet, and provide a rich source of scientific study.</LocalizationPair>
+
+	<LocalizationPair Name="%IceForest_Title">Ice Forest</LocalizationPair>
+	<LocalizationPair Name="%IceForest_Desc">Unusual towering formations here cluster into vast forests of ice and rock. While it's not clear how they are formed, they do make for a nice source of valuable minerals.</LocalizationPair>
+
+	<LocalizationPair Name="%FrostFlora_Title">Frost Flora</LocalizationPair>
+	<LocalizationPair Name="%FrostFlora_Desc">A strange variety of plant life here has seemed to have incorporated ice crystals into their very biology. These delicate structures nurture their edible and nutritions seeds contained below.</LocalizationPair>
+
+	<LocalizationPair Name="%DeadlyIcestorms_Title">Deadly Ice Storms</LocalizationPair>
+	<LocalizationPair Name="%DeadlyIcestorms_Desc">While cold planets are already subject to fierce winter storms, this one has ice storms of epic intensity. They rage unabated across the surface, deadly to everything in their path.</LocalizationPair>
+	<LocalizationPair Name="%DeadlyIcestorms_R_Title">Winter Storms</LocalizationPair>
+	<LocalizationPair Name="%DeadlyIcestorms_R_Desc">After much climate engineering, the worst of the icy storms barley rate above that of typical storms one would expect in the environment.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_DeadlyIcestorms_Title">Climate Modification</LocalizationPair>
+	<LocalizationPair Name="%Reduction_DeadlyIcestorms_Desc">By identifying the precursors to the most intense storms, this project will aim to reduce the severity of the storms.</LocalizationPair>
+	
+	<LocalizationPair Name="%BurningWasteland_Title">Burning Wasteland</LocalizationPair>
+	<LocalizationPair Name="%BurningWasteland_Desc">While most of this planet is already unpleasantly hot, huge swaths of land regularly explode into terrifying burning wastelands, completely hostile to industry and farming.</LocalizationPair>
+	<LocalizationPair Name="%BurningWasteland_R_Title">Ash Lands</LocalizationPair>
+	<LocalizationPair Name="%BurningWasteland_R_Desc">The worst of the firestoms have been tamed, and now there are many sprawling lands of ash in their place.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_BurningWasteland_Title">Biome Engineering</LocalizationPair>
+	<LocalizationPair Name="%Reduction_BurningWasteland_Desc">Changing the biomes responsible for kicking of the firestorms can reduce their occurrence, thereby making this place more livable.</LocalizationPair>
+
+	<LocalizationPair Name="%ThermophileOasis_Title">Thermophile Oasis</LocalizationPair>
+	<LocalizationPair Name="%ThermophileOasis_Desc">Many areas here have become host to an amazing variety of life that thrives in the intolerable heat of the planet. This creates opportunities for science and specialized farming.</LocalizationPair>
+
+	<LocalizationPair Name="%CinderColumns_Title">Cinder Columns</LocalizationPair>
+	<LocalizationPair Name="%CinderColumns_Desc">Minerals and ash are periodically pushed to the surface in tall columns of smoldering material. Once cooled, they become a convient source of valuable minerals.</LocalizationPair>
+
+	<LocalizationPair Name="%GlowingPlains_Title">Glowing Plains</LocalizationPair>
+	<LocalizationPair Name="%GlowingPlains_Desc">Expansive areas of this planet are covered in sheets of molten rock and active volcanic fissures. Good for study and as a source for ores, but the extent of these vast areas means less habitable area in this already hostile environment.</LocalizationPair>
+	<LocalizationPair Name="%GlowingPlains_R_Title">Mineral Plains</LocalizationPair>
+	<LocalizationPair Name="%GlowingPlains_R_Desc">Tectonic engineering has stabilized the planet somewhat, resulting in far less molten rock and ore on the surface.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_GlowingPlains_Title">Biome Engineering</LocalizationPair>
+	<LocalizationPair Name="%Reduction_GlowingPlains_Desc">Setteling the tectonics that lead to molten surfaces will have a marked effect of the availability of useable area.</LocalizationPair>
+
+	<LocalizationPair Name="%SentientCradle_Title">Sentient Cradle</LocalizationPair>
+	<LocalizationPair Name="%SentientCradle_Desc">There appears to be some kind of sentient intelligence localized in a particular area of the planet. It is still unclear what the underlying nature of this intelligence is, but it seems to communicate. Though, it does so in a rather cryptic fashion.
+This rare entity has captured the interest of many in the galaxy, providing both a rich area of study, and tourism from far away locations. </LocalizationPair>
+
+	<LocalizationPair Name="%TimeFlux_Title">Time Flux</LocalizationPair>
+	<LocalizationPair Name="%TimeFlux_Desc">Time behaves in strange and unpredictable ways in the local area of the planet.
+The cause, as of yet, is a complete mystery, but experts theorize it is due to localized gravitational distortions. These effects have a mostly detrimental effect on farming and industry, but do provide a wealth of scientific opportunity.</LocalizationPair>
+	<LocalizationPair Name="%TimeFlux_R_Title">Stabilized Time</LocalizationPair>
+	<LocalizationPair Name="%TimeFlux_R_Desc">Study of the intense gravitational effects of the planet has caused the wondrous temporal events to become entirely predicable and manageable. They are now a valuable area of scientific inquiry and study.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_TimeFlux_Title">Chrono Stabilization</LocalizationPair>
+	<LocalizationPair Name="%Reduction_TimeFlux_Desc">Careful study can cataloging of time effects will yield insights on how to best deal with chrono instability.</LocalizationPair>
+
+	<LocalizationPair Name="%NaniteDebris_Title">Nanite Debris</LocalizationPair>
+	<LocalizationPair Name="%NaniteDebris_Desc">Every corner of this world has the presence of mostly dormant or non-functional nanites of unknown ancient origin.
+However, it appears clusters and swarms of malfunctioning nanites somehow randomly activate, causing all sorts of problems. Still, they do appear to be a significance source of dust and scientific study.</LocalizationPair>
+	<LocalizationPair Name="%NaniteDebris_R_Title">Nanite Debris</LocalizationPair>
+	<LocalizationPair Name="%NaniteDebris_R_Desc">By employing wide electromagnetic nets, 99.9% of malfunctioning nanites can be finally made completely dormant again. It's not clear why some seem to re-activate, but the effects are rare enough to be manageable.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_NaniteDebris_Title">Nanite Modification</LocalizationPair>
+	<LocalizationPair Name="%Reduction_NaniteDebris_Desc">Dissection and study will find efficient ways to disable the rogue nanites en masse.</LocalizationPair>
+
+	<LocalizationPair Name="%VoidWhispers_Title">Void Whispers</LocalizationPair>
+	<LocalizationPair Name="%VoidWhispers_Desc">Many inhabitants report hearing incomprehensible whispers from an unknown source, and that these whispers grow more intense and maddening over time. Some have even reported being able to understand them, though this usually accompanies severe insanity.
+These adverse effects on the mental states of workers have a detrimental effect on the economy.</LocalizationPair>
+	<LocalizationPair Name="%VoidWhispers_R_Title">Tranquil Aura</LocalizationPair>
+	<LocalizationPair Name="%VoidWhispers_R_Desc">Intense field projections have seemed to calm the whispers for most. It's still not clear where they originate from, but the worst effects have been finally mitigated.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_VoidWhispers_Title">Whisper Silencing</LocalizationPair>
+	<LocalizationPair Name="%Reduction_VoidWhispers_Desc">By discovering the nature and cause of the whispers, they can finally be eliminated. Or, at the very least, their effects can be mitigated.</LocalizationPair>
+
+	<LocalizationPair Name="%NaturalMelody_Title">Natural Melody</LocalizationPair>
+	<LocalizationPair Name="%NaturalMelody_Desc">Everything about this world seem to emanate natural vibrations and sounds that blend together to create a pleasant and tranquil harmony. How this came to be isn't understood, but no one can deny the positive benefits this environment bestows on all who live here.</LocalizationPair>
+
+	<LocalizationPair Name="%ShiftingGround_Title">Shifting Ground</LocalizationPair>
+	<LocalizationPair Name="%ShiftingGround_Desc">Most of the terrain of this planet is lose and crumbly, resulting in poor foundations for any permanent construction. The ground also tends to frequently shift, further exacerbating the issue. Additionally, useful minerals are rare and hard to exploit.
+These factors result in poor utilization of the natural resources present.</LocalizationPair>
+	<LocalizationPair Name="%ShiftingGround_R_Title">Shifting Ground</LocalizationPair>
+	<LocalizationPair Name="%ShiftingGround_R_Desc">The standardization of innovative mobile structures has now alleviated many of the construction concerns arising from the unstable terrain. Furthermore, new industrial-scale sifting techniques have been utilized to extract useful minerals from even the most common sands and soils.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_ShiftingGround_Title">Stability Adaptation</LocalizationPair>
+	<LocalizationPair Name="%Reduction_ShiftingGround_Desc">Clearly, new techniques need to be developed for large structures. But perhaps more efficient sifting techniques can be employed to extract valuable minerals as well.</LocalizationPair>
+
+	<LocalizationPair Name="%DeepShafts_Title">Deep Shafts</LocalizationPair>
+	<LocalizationPair Name="%DeepShafts_Desc">Across every biome of the planet, deep vertical shafts have formed, leading to otherwise virtually unreachable depths. This natural access makes for efficient collection of ores, and provides many avenues for scientific study.</LocalizationPair>
+
+	<LocalizationPair Name="%CryogenicVolcano_Title">Cryogenic Volcano</LocalizationPair>
+	<LocalizationPair Name="%CryogenicVolcano_Desc">While most volcanoes are formed from intense heat and pressure building up beneath the ground, this anomaly appears to follow a different cause. Periodically, it spews forth plumes of extremely cold material that blankets the surrounding area.
+The resulting cold fronts aren't pleasant, and aren't great for local agriculture, but do provide a regular source of dust and valuable minerals.</LocalizationPair>
+	<LocalizationPair Name="%CryogenicVolcano_R_Title">Dormant Volcano</LocalizationPair>
+	<LocalizationPair Name="%CryogenicVolcano_R_Desc">Once a regular source of cryogenic material, this mountain no longer blasts it's contents around. Instead, the freezing effects occur much more gradually, and offer an opportunity to safely collect the more valuable products.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_CryogenicVolcano_Title">Volcano Tempering</LocalizationPair>
+	<LocalizationPair Name="%Reduction_CryogenicVolcano_Desc">Changing the underlying tectonic structure can reduce or silence the cold eruptions of the volcano.</LocalizationPair>
+
+	<LocalizationPair Name="%BallisticEjecta_Title">Ballistic Ejecta</LocalizationPair>
+	<LocalizationPair Name="%BallisticEjecta_Desc">Intense pressures build up in localized areas within the mantle of the planet, resulting in a mass racing to the surface. Unlike typical volcanic activity, these pressures seem to be a few orders of magnitude higher, resulting in material launching at sub-orbital speeds.
+Following a ballistic arc, the ejected material eventually comes streaking down, causing havoc to the surrounding impact zone.
+You do not want to live in the target area when this happens.</LocalizationPair>
+	<LocalizationPair Name="%BallisticEjecta_R_Title">Calmed Ground</LocalizationPair>
+	<LocalizationPair Name="%BallisticEjecta_R_Desc">Stabilization of the mantle gives the extreme pressures a little more time to spread, reducing the localized pressure spike.
+No longer does the populace fear random parts of the planet might be launched onto their heads.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_BallisticEjecta_Title">Mantle Stabilization</LocalizationPair>
+	<LocalizationPair Name="%Reduction_BallisticEjecta_Desc">Finding new ways to dissipate tectonic pressures can reduce the force of ejected material to manageable levels.</LocalizationPair>
+
+	<LocalizationPair Name="%VastRiverbed_Title">Vast Riverbed</LocalizationPair>
+	<LocalizationPair Name="%VastRiverbed_Desc">Sometime in the past, this world featured an enormous winding river across the land. Having dired up over an eon ago, its mark still exists on the surface today, providing a rich area for dust, and a glimpse into the history of the planet.</LocalizationPair>
+
+	<LocalizationPair Name="%HistoricalApocalypse_Title">Historical Apocalypse</LocalizationPair>
+	<LocalizationPair Name="%HistoricalApocalypse_Desc">A great apocalypse happened on this planet, wiping out an entire civilization. Whether caused naturally, or by that very civilization, the result has had a lasting effect on the world. There is much to learn here, despite - or perhaps because of - the devastation present.</LocalizationPair>
+	<LocalizationPair Name="%HistoricalApocalypse_R_Title">Reclaimed Lands</LocalizationPair>
+	<LocalizationPair Name="%HistoricalApocalypse_R_Desc">After much effort to heal the land, the ecosystem is showing signs of recovery. Once again, a mighty civilization rules this world. Be sure not to repeat the same mistakes of the past.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_HistoricalApocalypse_Title">Biome Rejuvenation</LocalizationPair>
+	<LocalizationPair Name="%Reduction_HistoricalApocalypse_Desc">Large-scale eco-rejuvenation projects can be deployed on a planetary scale to allow a rapid resurgence of life.</LocalizationPair>
+
+	<LocalizationPair Name="%FloodedRuins_Title">Submerged Ruins</LocalizationPair>
+	<LocalizationPair Name="%FloodedRuins_Desc">A civilization once thrived here, as evidenced by the many submerged ruins around the planet. What led to their extinction is unknown, but their remains provide many valuable artifacts, and are the subject of much study.</LocalizationPair>
+
+	<LocalizationPair Name="%UnderseaRifts_Title">Undersea Rifts</LocalizationPair>
+	<LocalizationPair Name="%UnderseaRifts_Desc">Deep trenches are present on nearly every planet with a large ocean. But here, there exist trenches of depths that dwarf other locations. These rifts provide a unique way to access the interior of the planet, and has been a boon to industry and science alike.</LocalizationPair>
+
+	<LocalizationPair Name="%PerpetualVortex_Title">Perpetual Vortex</LocalizationPair>
+	<LocalizationPair Name="%PerpetualVortex_Desc">A great whirlpool, miles in diameter, dominates the sea of this world. While this is quite a sight to behold, it does complicate the local industry of the planet.</LocalizationPair>
+	<LocalizationPair Name="%PerpetualVortex_R_Title">Manageable Seas</LocalizationPair>
+	<LocalizationPair Name="%PerpetualVortex_R_Desc">Taming of the great vortex has finally allowed the industries of the planet to grow without the hinderances of the past weather patterns.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_PerpetualVortex_Title">Ocean Stabilization</LocalizationPair>
+	<LocalizationPair Name="%Reduction_PerpetualVortex_Desc">By changing the ocean current meta, the conditions that lead to vortex formation can be eliminated.</LocalizationPair>
+
+	<LocalizationPair Name="%DeadWaters_Title">Dead Waters</LocalizationPair>
+	<LocalizationPair Name="%DeadWaters_Desc">The water of this planet is filled with all maner of decay and toxic agents. So much so, that very little can survive unprotected for more than a few minutes. Naturally, this is quite detrimental to colonization.</LocalizationPair>
+	<LocalizationPair Name="%DeadWaters_R_Title">Living Waters</LocalizationPair>
+	<LocalizationPair Name="%DeadWaters_R_Desc">Extensive bio-engineering has enabled the use of specialized organisms to slowly detoxify the once deadly waters. Almost immediately, nature moved to fill the newly available watery biome.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_DeadWaters_Title">Water Rejuvenation</LocalizationPair>
+	<LocalizationPair Name="%Reduction_DeadWaters_Desc">Mass water treatment with specially tailored organisms can be created to eliminate the toxic elements. This will allow the waters to heal.</LocalizationPair>
+
+	<LocalizationPair Name="%NanoToxin_Title">Nano Toxin</LocalizationPair>
+	<LocalizationPair Name="%NanoToxin_Desc">The bio-processes of the life on this planet seem to produce an insidious toxin that works on a nano scale. It has not only proven to be deadly to life originating from off-world, but its incredibly small size makes it nearly impossible to screen, and protective measures often fail.</LocalizationPair>
+	<LocalizationPair Name="%NanoToxin_R_Title">Managed Toxin</LocalizationPair>
+	<LocalizationPair Name="%NanoToxin_R_Desc">A combination of new inoculants and more effective shielding, have made the natural toxin mostly a minor threat. Though accidents still happen, these incidents are almost always the result of not following proper safety procedures.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_NanoToxin_Title">Toxin Inoculation</LocalizationPair>
+	<LocalizationPair Name="%Reduction_NanoToxin_Desc">New techniques need to be created to effectively deal with a nano-scale toxin. This project provides the resources needed to do so.</LocalizationPair>
+
+	<LocalizationPair Name="%HealingRiver_Title">Healing River</LocalizationPair>
+	<LocalizationPair Name="%HealingRiver_Desc">One of the rivers on this planet has proven to have unusual properties. Plants and animals in the area are thriving well beyond what is expected, and seems to have a healing effect on those that drink the waters. The effect isn't instant, but seems to take place over the course of a few days.
+Sadly, it doesn't seem possible to export these waters without them losing their beneficial effects. This had led to the creation of healing retreats along the length of the river.</LocalizationPair>
+
+	<LocalizationPair Name="%MeteoriteGardens_Title">Meteorite Gardens</LocalizationPair>
+	<LocalizationPair Name="%MeteoriteGardens_Desc">Many areas of this planet were subject to a barrage of meteor strikes in the past. This isn't uncommon in-of-itself, except these fragments seem to have had some unusual properties, as all the impact zones have become veritable gardens of interesting and diverse flora.</LocalizationPair>
+
+	<LocalizationPair Name="%VanishingFog_Title">Vanishing Fog</LocalizationPair>
+	<LocalizationPair Name="%VanishingFog_Desc">When the fog appears, venturing into it is risky. While, statistically, nothing unusual happens the vast majority of the time, it's the other times that terrify the locals.
+People just disappear. They are simply gone, leaving no trace or clue as to what happened. All that is known is that it happens in the fog.</LocalizationPair>
+	<LocalizationPair Name="%VanishingFog_R_Title">Normal Fog</LocalizationPair>
+	<LocalizationPair Name="%VanishingFog_R_Desc">Efforts to change the climate to reduce te fog seems to have worked. Fog still occurs, but in much reduced frequency and severity. And no one has been reported to have vanished in a long time.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_VanishingFog_Title">Defogging</LocalizationPair>
+	<LocalizationPair Name="%Reduction_VanishingFog_Desc">By changing the climate, the wind and moisture precursors to form fog can be reduced. This will enable identification or elimination of the "problematic" fog aspects.</LocalizationPair>
+
+	<LocalizationPair Name="%EnigmaticMonolith_Title">Enigmatic Monolith</LocalizationPair>
+	<LocalizationPair Name="%EnigmaticMonolith_Desc">This solem monolith stands alone. Its original purpose is unknown, and is now silent testimony of an ancient alien civilization that once ruled the land.</LocalizationPair>
+
+	<LocalizationPair Name="%MineralPoor_Title">Mineral Poor</LocalizationPair>
+	<LocalizationPair Name="%MineralPoor_Desc">The ores and minerals in the crust of this planet are of surprisingly poor of quality, and occur in limited quantity. This is a major hinderance to industrial projects around the planet.</LocalizationPair>
+	<LocalizationPair Name="%MineralPoor_R_Title">Mineral Consolidation</LocalizationPair>
+	<LocalizationPair Name="%MineralPoor_R_Desc">Techniques to process mass quantities of rock, sand, and gravel are now used to cost-effectively filter out minute traces of usable ore from the mundane material of the planet.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_MineralPoor_Title">Mineral Sifting</LocalizationPair>
+	<LocalizationPair Name="%Reduction_MineralPoor_Desc">New techniques can be developed to make sifting for valuable minerals cost-effective. This will allow more industrial value to be realized on this planet.</LocalizationPair>
+
+	<LocalizationPair Name="%InvasiveOvergrowth_Title">Invasive Overgrowth</LocalizationPair>
+	<LocalizationPair Name="%InvasiveOvergrowth_Desc">The flora here is exceptionally invasive and fast growing, easily covering anything in its path. While this makes for reliable food sources, it causes problems for industry, and increases maintenance costs across the board.</LocalizationPair>
+	<LocalizationPair Name="%InvasiveOvergrowth_R_Title">Tamed Overgrowth</LocalizationPair>
+	<LocalizationPair Name="%InvasiveOvergrowth_R_Desc">Genetically modified organisms have been successfully deployed to keep rampant growth in check. These "smart" organisms allow the plants to grow, but work around-the-clock to keep them from interfering with local infrastructure.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_InvasiveOvergrowth_Title">Genetic Weeding</LocalizationPair>
+	<LocalizationPair Name="%Reduction_InvasiveOvergrowth_Desc">By studying and introducing genetic variations, the flora invasivenes can be dialed-back, thereby removing their more negative effects.</LocalizationPair>
+
+	<LocalizationPair Name="%DriftingEdibles_Title">Drifting Edibles</LocalizationPair>
+	<LocalizationPair Name="%DriftingEdibles_Desc">Nutritious buds drift through the atmosphere in large quantities. They provide a convient and universal source of food for anyone who wishes it, though their flavor is reported to be rather bland.</LocalizationPair>
+
+	<LocalizationPair Name="%EnrichedAtmosphere_Title">Enriched Atmosphere</LocalizationPair>
+	<LocalizationPair Name="%EnrichedAtmosphere_Desc">While not overly thick, this atmosphere is rather rich in crucial life-enabling elements. This allows life to thrive, and residents just seem to go about their day with a little more spring in their step.</LocalizationPair>
+
+	<LocalizationPair Name="%SegregatedBiomes_Title">Segregated Biomes</LocalizationPair>
+	<LocalizationPair Name="%SegregatedBiomes_Desc">The various biomes of the planet seem to all have distinct borders and hard boundaries. While this seems wholly unnatural, it does make for efficient organization of various economic activities. Some suspect these delineated boundaries are evidence of a constructed world, but thus far, no tests bear this conclusion.</LocalizationPair>
+
+	<LocalizationPair Name="%MegaFlora_Title">Mega Flora</LocalizationPair>
+	<LocalizationPair Name="%MegaFlora_Desc">Plants of all varieties here grow to enormous and fantastical sizes. It's not immediately obvious what caused such flora to evolve this way, and biological sciences thrive here. Of course, these oversized plants also make for oversized food sources.</LocalizationPair>
+
+	<LocalizationPair Name="%MegaFauna_Title">Mega Fauna</LocalizationPair>
+	<LocalizationPair Name="%MegaFauna_Desc">Many creatures here reach terrifying sizes. Through they are mostly non-aggressive herbivores, their sheer bulk and curiosity tends to be accidentally destructive. They are a wonder to behold for all who come to see them.</LocalizationPair>
+	<LocalizationPair Name="%MegaFauna_R_Title">Docile Mega Fauna</LocalizationPair>
+	<LocalizationPair Name="%MegaFauna_R_Desc">Study, and extended time around the populace, has effectively trained the creatures to be more docile and careful around constructed structures. Their size continues to impress.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_MegaFauna_Title">Beast Taming</LocalizationPair>
+	<LocalizationPair Name="%Reduction_MegaFauna_Desc">Study and interaction aims to change the more destructive behaviors of the giant beasts.</LocalizationPair>
+
+	<LocalizationPair Name="%MyceliumGroves_Title">Mycelium Groves</LocalizationPair>
+	<LocalizationPair Name="%MyceliumGroves_Desc">Fungi seem to thrive unusually well on this world, and one can often find these oversized forest-like groves populated with giant mushrooms. With proper preparation, they are quite edible.</LocalizationPair>
+
+	<LocalizationPair Name="%MineralSpice_Title">Mineral Spice</LocalizationPair>
+	<LocalizationPair Name="%MineralSpice_Desc">Found here, are unusual quantities of ruddy, crumbling minerals, that are similar to a food spice. In addition to being readily edible, they also appear to have some specialized industrial applications.</LocalizationPair>
+
+	<LocalizationPair Name="%InsectSwarms_Title">Insect Swarms</LocalizationPair>
+	<LocalizationPair Name="%InsectSwarms_Desc">Everywhere across this planet, teeming swarms of insects can be found. They fill the air, cover the landscape, and get into everything.
+While this is a rather unpleasant reality to experience, they can be gathered in industrial-sized volumes and easily processed into food.</LocalizationPair>
+	<LocalizationPair Name="%InsectSwarms_R_Title">Manageable Insects</LocalizationPair>
+	<LocalizationPair Name="%InsectSwarms_R_Desc">Using genetically modified microbes, the worst of the insect swarms have been culled. Additionally, there was a push to make the less edible ones more tasty and nutritious using the same process.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_InsectSwarms_Title">Genetic Culling</LocalizationPair>
+	<LocalizationPair Name="%Reduction_InsectSwarms_Desc">By studying the species interactions, and then engineering targeted viral packages, the worst insects can be eliminated. This will allow more balance to the insect populations.</LocalizationPair>
+
+	<LocalizationPair Name="%DustLuminescence_Title">Dust Luminescence</LocalizationPair>
+	<LocalizationPair Name="%DustLuminescence_Desc">Dust on this planet seems to have clumped into intensified concentrations and taken on a prominent luminescence. This creates beautiful spectacles across the planet, and these concentrations are also valuable areas of scientific study.</LocalizationPair>
+
+	<LocalizationPair Name="%CraterScarred_Title">Crater-Scarred</LocalizationPair>
+	<LocalizationPair Name="%CraterScarred_Desc">This world has been subject to trillions of meteor impacts - far more than is average. And due to the lack of an atmosphere, even the smallest ones make an impact. These overlapping craters are then preserved indefinitely due to the lack of erosion. This landscape has thus become a rich source of valuable ores and dust. </LocalizationPair>
+
+	<LocalizationPair Name="%AbrasiveTerrain_Title">Abrasive Terrain</LocalizationPair>
+	<LocalizationPair Name="%AbrasiveTerrain_Desc">Because of the airless environment, every grain of rock and particle on this planet has razor sharp corners and edges. Without erosion and wear softening it, the land is quite naturally hazardous. All of these abrasive materials make industry and colonization more difficult.</LocalizationPair>
+	<LocalizationPair Name="%AbrasiveTerrain_R_Title">Typical Terrain</LocalizationPair>
+	<LocalizationPair Name="%AbrasiveTerrain_R_Desc">The use of planet-wide sonic emitters have produced, gentle, but constant seismic chunring to introduce a constant erosive force. This has had the effect of smoothing out the jagged materials of this planet.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_AbrasiveTerrain_Title">Seismic Churning</LocalizationPair>
+	<LocalizationPair Name="%Reduction_AbrasiveTerrain_Desc">Using powerful and specially tuned sonic pulses to penetrate the planet, a gentle, but constant vibration can mimic erosive forces. This aims to blunt the abrasiveness of the natural terrain.</LocalizationPair>
+
+	<LocalizationPair Name="%SolarScars_Title">Solar Scars</LocalizationPair>
+	<LocalizationPair Name="%SolarScars_Desc">Due to the lack of any atmosphere, harsh solar energies are free to hit the planet unabated. In this particular case, they seem to interact with latent dust deposits, causing unique unique scaring across the planet. These areas are ripe for study and extraction.</LocalizationPair>
+
+	<LocalizationPair Name="%RadiotrophicFungi_Title">Radiotrophic Fungi</LocalizationPair>
+	<LocalizationPair Name="%RadiotrophicFungi_Desc">An odd form of fungi here thrives on radiation. This airless body has no protective atmosphere, and this allows even relatively weak radiation to become a food source for these interesting mushrooms.</LocalizationPair>
+
+	<LocalizationPair Name="%SubSurfaceIce_Title">Sub-Surface Ice</LocalizationPair>
+	<LocalizationPair Name="%SubSurfaceIce_Desc">Vast quantities of ice are present on this barrent planet, hidden just below the rugged surface. This is quite a boon to industry and colonization, simplifying logistic supply chains and standards-of-living markedly.</LocalizationPair>
+
+	<LocalizationPair Name="%CryptobioticOrganisms_Title">Cryptobiotic Organisms</LocalizationPair>
+	<LocalizationPair Name="%CryptobioticOrganisms_Desc">It seems the surface of this planet has large concentrations of dormant organisms. They appear to be well protected in their microscopic cocoons, waiting for the right conditions to become active again. It's not immediately clear what those conditions might be, and these curious lifeforms are an interesting area of study.</LocalizationPair>
+	<LocalizationPair Name="%CryptobioticOrganisms_R_Title">Rejuvenated Organisms</LocalizationPair>
+	<LocalizationPair Name="%CryptobioticOrganisms_R_Desc">Now that the organisms have been rejuvenated, they provide a robust and useful source of food for the planet.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_CryptobioticOrganisms_Title">Revive Organisms</LocalizationPair>
+	<LocalizationPair Name="%Reduction_CryptobioticOrganisms_Desc">The genetics of these organisms suggest they will be edible. Study and modeling can find the proper conditions to allow the dormant organisms to revive and be used as crops.</LocalizationPair>
+
+	<LocalizationPair Name="%HiddenVaults_Title">Hidden Vaults</LocalizationPair>
+	<LocalizationPair Name="%HiddenVaults_Desc">All across the plant, explorers have been finding hidden ancient vaults. These vaults are currently sealed by some sort of alien technology, and have thus far proven to be impenetrable.
+Still, they do prove to be quite popular to hunt and lay claim to. Some boast to have opened them, but no one can corroborate these claims.</LocalizationPair>
+	<LocalizationPair Name="%HiddenVaults_R_Title">Unlocked Vaults</LocalizationPair>
+	<LocalizationPair Name="%HiddenVaults_R_Desc">Once the technique to open these vaults was discovered, there was a veritable gold rush to unlock known vaults, as well as a revived push to discover new ones.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_HiddenVaults_Title">Unlock Vaults</LocalizationPair>
+	<LocalizationPair Name="%Reduction_HiddenVaults_Desc">Careful problem solving and analysis will allow the vaults to be opened, should the necessary resources be allocated to this goal.</LocalizationPair>
+
+	<LocalizationPair Name="%EncryptedData_Title">Encrypted Data Caches</LocalizationPair>
+	<LocalizationPair Name="%EncryptedData_Desc">This world has a number of alien caches located in various biomes. They appear to be repositories of data, but scientists have yet to discover how to decrypt the contents.</LocalizationPair>
+	<LocalizationPair Name="%EncryptedData_R_Title">Decoded Data Caches</LocalizationPair>
+	<LocalizationPair Name="%EncryptedData_R_Desc">The use of specialized AI constructs has made decoding of the alien data possible. Each cache is a trove of scientific observational data about the various environments they are found in, and each log goes back millions of years. This will keep scientists busy for generations to come.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_EncryptedData_Title">Decode Data Caches</LocalizationPair>
+	<LocalizationPair Name="%Reduction_EncryptedData_Desc">New codebreaking, translation, and analysis techniques need to be specifically developed for these alien devices.</LocalizationPair>
+
+	<LocalizationPair Name="%DormantMachines_Title">Dormant Machines</LocalizationPair>
+	<LocalizationPair Name="%DormantMachines_Desc">It's not clear who built these mysterious machines that are spread across the planet, but they appear to be intact and able to function. Yet they seem to do nothing.
+It has been proposed that they are merely in a dormant state, but no experiments have yet been able to reactivat them.</LocalizationPair>
+	<LocalizationPair Name="%DormantMachines_R_Title">Useful Machines</LocalizationPair>
+	<LocalizationPair Name="%DormantMachines_R_Desc">Now that the devices have been reactivated, thay have proven versatile in performing quite a range of automated tasks. While they don't seem to function off-world, nor has there been success in reproducing them, they still have made life easier here on this planet.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_DormantMachines_Title">Activate Machines</LocalizationPair>
+	<LocalizationPair Name="%Reduction_DormantMachines_Desc">With extensive study and simulations, the dormant machines could be reactivated. (In a secure environment, of course.)</LocalizationPair>
+
+	<LocalizationPair Name="%OreRichRings_Title">Ore-Rich Rings</LocalizationPair>
+	<LocalizationPair Name="%OreRichRings_Desc">The rings of this planet provide a wealth of easily accessable ores and valuable minerals, and they appear to be far richer than most planetary ring systems.</LocalizationPair>
+
+	<LocalizationPair Name="%UltraRareMetals_Title">Ultra-Rare Metals</LocalizationPair>
+	<LocalizationPair Name="%UltraRareMetals_Desc">Extremely rare metals and minerals can be found relatively easy on this planet, including many heavy metals.
+It also appears that unusual geology and tectonic forces produce some sort of natural smelting processes, and many of the mined resources are unnaturally pure.</LocalizationPair>
+
+	<LocalizationPair Name="%CryptosporeRings_Title">Cryptospore Rings</LocalizationPair>
+	<LocalizationPair Name="%CryptosporeRings_Desc">Like many ring systems, these contain many interesting ores and minerals. But more unusually, they also seem to contain peculiar fungus-like organisms. These can be easily harvested and revived to produce nutritions fungal crops.</LocalizationPair>
+
+	<LocalizationPair Name="%PersistantLichen_Title">Persistant Lichen</LocalizationPair>
+	<LocalizationPair Name="%PersistantLichen_Desc">This stuff seems to be able to grow nearly everywhere. It's edible and nutritions, if not particularly tasty - though it is considered a delicacy by some. The fibrous content also has other commercial and material applications.</LocalizationPair>
+
+	<LocalizationPair Name="%NaturalOrchards_Title">Natural Orchards</LocalizationPair>
+	<LocalizationPair Name="%NaturalOrchards_Desc">Many areas of plant growth on the planet seem to arrange themselves in organized orchards without outside intervention. Some speculate that this planet may have been an ancient seeding ground, or perhaps some sort of bio-engineering has taken place. Whatever the reason, this is a nice benefit for food production and colony development.</LocalizationPair>
+
+	<LocalizationPair Name="%AncientRamparts_Title">Ancient Ramparts</LocalizationPair>
+	<LocalizationPair Name="%AncientRamparts_Desc">This planet must have been the site of an ancient stronghold. Across the planet's surface are massive fortifications, still standing, long after their creators disappeared. Placed around major defensive points, these structures can still be put to good use today.</LocalizationPair>
+
+	<LocalizationPair Name="%MimickingChorus_Title">Mimicking Chorus</LocalizationPair>
+	<LocalizationPair Name="%MimickingChorus_Desc">An unusual insect-like species resides here. They are quite peculiar in that they can mimic the calls and voices of other creatures. Once calling starts, others will join in, creating a melodic chorus across wide-ranging areas.</LocalizationPair>
+
+	<LocalizationPair Name="%SmokingVents_Title">Smoking Vents</LocalizationPair>
+	<LocalizationPair Name="%SmokingVents_Desc">Many areas of the planet have natural vents billowing smoke. This smoke has been found to be rich with many useful compounds, including traces of dust. This is of great benefit to industry and science.</LocalizationPair>
+
+	<LocalizationPair Name="%ElectrostaticDynamo_Title">Electrostatic Dynamo</LocalizationPair>
+	<LocalizationPair Name="%ElectrostaticDynamo_Desc">Constant lightning dots the landscape of the planet. Experts say, that due to the frequency, the lightning storms are much milder than they could be. This, however, isn't much consolation to the residents who live here.
+The storms cause all sorts of problems for scientific equipment, but do provide plenty of power for industry.</LocalizationPair>
+	<LocalizationPair Name="%ElectrostaticDynamo_R_Title">Managed Lightning</LocalizationPair>
+	<LocalizationPair Name="%ElectrostaticDynamo_R_Desc">Techniques have been developed to keep lightning strikes within predictable areas, and this has remove most of the negative effects the historically have caused.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_ElectrostaticDynamo_Title">Charge Reduction</LocalizationPair>
+	<LocalizationPair Name="%Reduction_ElectrostaticDynamo_Desc">Field technology can be utilized to both reduce the charge build-up, and make the lightning strikes more manageable.</LocalizationPair>
+
+	<LocalizationPair Name="%IrresistibleWorld_Title">Irresistible World</LocalizationPair>
+	<LocalizationPair Name="%IrresistibleWorld_Desc">Something about this planet seems to be irresistible to the population. Scientists have not made any solid conclusions about the cause - whether it's something in the air, or the ground, or some other unseen effect. Regardless, it does seem to make the workers happy.</LocalizationPair>
+
+	<LocalizationPair Name="%CreepingAlgae_Title">Creeping Algae</LocalizationPair>
+	<LocalizationPair Name="%CreepingAlgae_Desc">The waters of this planet seem to spawn a bulky and nutritions algae. This algae then creeps up onto land, increasing its reach. Its robustness and ease of harvesting makes for a good source of food.</LocalizationPair>
+
+	<LocalizationPair Name="%MushroomCaves_Title">Mushroom Caves</LocalizationPair>
+	<LocalizationPair Name="%MushroomCaves_Desc">This world has many cave systems filled with edible mushrooms. Additionally, these mushrooms seem to thrive near valuable crystals, providing both a source of food and a benefit to industry.</LocalizationPair>
+
+	<LocalizationPair Name="%SafeZones_Title">Safe Zones</LocalizationPair>
+	<LocalizationPair Name="%SafeZones_Desc">Despite the toxic nature of this planet, there exist small pockets of relatively mild areas that act as a respite from the harsher conditions.
+It's not clear how they were formed and seem to persist. Nevertheless, they allow for a small improvement to living and working conditions.</LocalizationPair>
+
+	<LocalizationPair Name="%PoisonedGround_Title">Poisoned Ground</LocalizationPair>
+	<LocalizationPair Name="%PoisonedGround_Desc">While it looks innocent enough, the ground and soil is downright deadly. While there are a small number of planets and animals that seem unbothered, overall, this makes for extremely challenging colonization prospects.</LocalizationPair>
+	<LocalizationPair Name="%PoisonedGround_R_Title">Neutral Ground</LocalizationPair>
+	<LocalizationPair Name="%PoisonedGround_R_Desc">Once a deadly poison, the ground and soil have been rendered inert. While there may still be plenty of hazards to contend with, at least the ground isn't trying to kill you anymore.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_PoisonedGround_Title">Neutralize Ground</LocalizationPair>
+	<LocalizationPair Name="%Reduction_PoisonedGround_Desc">Planetary-scale treatment projects aim to neutralize and purify the soil, rendering it suitable for life.</LocalizationPair>
+
+	<LocalizationPair Name="%ToxicSludge_Title">Toxic Sludge</LocalizationPair>
+	<LocalizationPair Name="%ToxicSludge_Desc">Whether this pervasive sludge is from a natural phenomena or the result of over-exploitation from a previous civilization, is not immediately clear. The result, however, is that same: disastrous conditions for normal life and otherwise routine economic activity.</LocalizationPair>
+	<LocalizationPair Name="%ToxicSludge_R_Title">Cleansed Sludge</LocalizationPair>
+	<LocalizationPair Name="%ToxicSludge_R_Desc">With the toxic sludge having been reprocessed in to usable chemicals, previously uninhabitable areas have been cleared. Additionally, many of these newly developed processes and be used to enhance many industrial projects.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_ToxicSludge_Title">Neutralize Sludge</LocalizationPair>
+	<LocalizationPair Name="%Reduction_ToxicSludge_Desc">Large-scale collection and processing of the sluge hopes to heal the contaminated areas of the planet.</LocalizationPair>
+
+	<LocalizationPair Name="%IceWall_Title">Ice Walls</LocalizationPair>
+	<LocalizationPair Name="%IceWall_Desc">This cold planet has naturally formed massive ice walls in the upper and lower latitudes. This has had the curious effect of keeping the worst of the climate away from the more habitable latitudes, resulting in a slight improvement to the areas you'd actually want to go.</LocalizationPair>
+
+	<LocalizationPair Name="%SmotheringSnow_Title">Smothering Snow</LocalizationPair>
+	<LocalizationPair Name="%SmotheringSnow_Desc">Looking rather serene from afar, giant snow mounds can form and blanket an area in minutes. Climatologists say it has something to do with the unique weather patterns here. And while they can make pretty accurate predictions where and when such weather fronts will occur, this doesn't actually prevent their effects from hindering the local economy.</LocalizationPair>
+	<LocalizationPair Name="%SmotheringSnow_R_Title">Gentle Snow</LocalizationPair>
+	<LocalizationPair Name="%SmotheringSnow_R_Desc">Now that the conditions that gave rise to 'snow dumping' can be actively dissipated, the resulting snow-fall is mild and pleasant.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_SmotheringSnow_Title">Snow Dispersal</LocalizationPair>
+	<LocalizationPair Name="%Reduction_SmotheringSnow_Desc">The building of an extensive network of weather stations to monitor and actively degrade the patterns that from rapid snow coverage.</LocalizationPair>
+	
+	<LocalizationPair Name="%NullPlains_Title">Null Plains</LocalizationPair>
+	<LocalizationPair Name="%NullPlains_Desc">Vast stretches of this airless world seem to be completely flat and untouched. Venturing out into these areas can invoke a profound experience of sensory deprivation.
+Of those who seek this experience, some claim to have prophetic visions. For others, these areas are to be studied, and they also provide a pristine area for delicate experiments requiring exacting precision.</LocalizationPair>
+
+	<LocalizationPair Name="%ThermicBacteria_Title">Thermic Bacteria</LocalizationPair>
+	<LocalizationPair Name="%ThermicBacteria_Desc">In the more extreme temperatures, a hardy strain of bacteria can be found. It seems to actively thrive in locations that would destroy most life.
+Compounds of these bacteria can improve the robustness of plants, and offer some interesting chemical processes in new areas of study.</LocalizationPair>
+
+	<LocalizationPair Name="%UnderwaterVolcanoes_Title">Underwater Volcanoes</LocalizationPair>
+	<LocalizationPair Name="%UnderwaterVolcanoes_Desc">Deep below the waters, numerous volcanoes can be found all over the planet. Their constant activity contributes to an overall warming of the various biomes, promoting thriving pockets of organisms, and making for fresh renewable sources of valuable minerals.</LocalizationPair>
+
+	<LocalizationPair Name="%Glowmoss_Title">Glowmoss</LocalizationPair>
+	<LocalizationPair Name="%Glowmoss_Desc">This bioluminescent moss-like fungus can grow in many environments, and is readily found across the planet. It's tasty (though not particularly nutritious) and is often used as a food additive.
+Despite its abundance, different strains of appearance and flavor have been cultivated by aficionados, carving out lucrative local markets.</LocalizationPair>
+
+	<LocalizationPair Name="%WalkingSpores_Title">Walking Spores</LocalizationPair>
+	<LocalizationPair Name="%WalkingSpores_Desc">Robust and hardy, these fungal spores not just thrive in many areas, but can slowly relocate via pseudopodial locomotion to find the very best areas to grow. They are edible and nutritious, and offer some interesting areas of scientific study.</LocalizationPair>
+	
+	<LocalizationPair Name="%GeocyteLife_Title">Geocyte Life</LocalizationPair>
+	<LocalizationPair Name="%GeocyteLife_Desc">These curious mineral formations were originally noticed for their geometric shapes. After a time, it became apparent that they were actually living organisms with a silicon biochemistry.
+While they do not appear to be sentient, these organism offer many opportunities for industry, chemistry, and various sciences.
+Many even like to keep them as a sort of decorative plant.</LocalizationPair>
+	
+	<LocalizationPair Name="%Dustshrooms_Title">Dustshrooms</LocalizationPair>
+	<LocalizationPair Name="%Dustshrooms_Desc">These delicate fungi have incorporated dust traces into their biochemistry. They can be eaten and cultivated, producing a mild buzz for some. But they can also be harvested on an industrial scale as a medium to extract dust into usable quantities.</LocalizationPair>
+	
+	<LocalizationPair Name="%CyberTicks_Title">Cyber Ticks</LocalizationPair>
+	<LocalizationPair Name="%CyberTicks_Desc">Insidious creeping little buggars, they seem to be an ancient cybernetic organism that gets into everything. They attach themselves to living beings to extract a bit of blood, before scampering off to process.
+The purpose of this remains a mystery, but everyone agrees: No one likes cyber ticks.</LocalizationPair>
+	<LocalizationPair Name="%CyberTicks_R_Title">Dead Cyber Ticks</LocalizationPair>
+	<LocalizationPair Name="%CyberTicks_R_Desc">Once a problematic infestation, now the ticks are little more than cyber dust. Though they still hold many opportunities for study and research.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_CyberTicks_Title">Deactivate Cyber Ticks</LocalizationPair>
+	<LocalizationPair Name="%Reduction_CyberTicks_Desc">Intense EMP micro-bursts can be wielded to deactivate infestations of cyber ticks. The trick it to get them all without disrupting other electronics.</LocalizationPair>
+
+	<LocalizationPair Name="%ArtificialWorld_Title">Artificial World</LocalizationPair>
+	<LocalizationPair Name="%ArtificialWorld_Desc">It is immediately apparent that this small world is entirely artificial. Resources are easily exploitable, and every area seems optimized for living - optimized for the beings that constructed this planet, that is.
+How such a grand scale of engineering was accomplished is unknown, at present, but that doesn't mean citizens can't utilize all its wondrous features..</LocalizationPair>
+
+	<LocalizationPair Name="%RareElements_Title">Rare Elements</LocalizationPair>
+	<LocalizationPair Name="%RareElements_Desc">Rare and valuable elements and minerals are plentiful on this planet, and will provide a boon to industry, trade, and science.</LocalizationPair>
+
+	<LocalizationPair Name="%PrimalBiomes_Title">Primal Biomes</LocalizationPair>
+	<LocalizationPair Name="%PrimalBiomes_Desc">The various biomes here are unusually pristine and fresh, allowing for an overall ease of exploitation and processing.
+However, some argue that such a rare environment should be preserved.</LocalizationPair>
+
+	<LocalizationPair Name="%UndergroundParadise_Title">Underground Paradise</LocalizationPair>
+	<LocalizationPair Name="%UndergroundParadise_Desc">Beneath the surface of the planet lies a sprawling complex of natural caves filled with life. This offers an ideal place to live and work for many residents.</LocalizationPair>
+
+	<LocalizationPair Name="%Bio-Tunnels_Title">Bio-Tunnels</LocalizationPair>
+	<LocalizationPair Name="%Bio-Tunnels_Desc">Throughout the crust of the planet are twisting and winding tunnels of organic bio-matter. The process that causes this isn't yet understood, but the resulting masses provide a rich source of protein - At least for those that don't look to closely at the source of the meals.</LocalizationPair>
+
+	<LocalizationPair Name="%MicrobialAtmosphere_Title">Microbial Atmosphere</LocalizationPair>
+	<LocalizationPair Name="%MicrobialAtmosphere_Desc">This atmosphere is unusually dense with microbial life that is quite beneficial to plant life and other food sources. In addition, many of these organisms contain properties that are useful to chemistry and other industries.</LocalizationPair>
+
+	<LocalizationPair Name="%MicroDroneFlocks_Title">Micro-drone Flocks</LocalizationPair>
+	<LocalizationPair Name="%MicroDroneFlocks_Desc">All across the planet, there are flocks of ancient automated drones tending to the landscape. Their tireless work makes all economic activity more efficient - from pollinating and tending plants, to collecting and organizing minerals.
+Their origin is still a bit of a mystery, but no one really wants to disrupt them enough for more concrete answers.</LocalizationPair>
+
+	<LocalizationPair Name="%SprawlingComplex_Title">Sprawling Complex</LocalizationPair>
+	<LocalizationPair Name="%SprawlingComplex_Desc">Vast stretches of the planet are covered in a seemingly endless sprawl of connected ancient complexes. While it's largely intact, whatever mechanisms were here are now non-functional. Still, it provides a wealth of science and makes for lucrative tourist destinations.</LocalizationPair>
+
+	<LocalizationPair Name="%AncientMegalith_Title">Ancient Megalith</LocalizationPair>
+	<LocalizationPair Name="%AncientMegalith_Desc">Impossible to miss, even from space, some ancient space-faring civilization must have constructed this enormous structure, because its material has clearly been brought from other worlds.
+The purpose of this megastructure is unknown and offers no obvious clues, though much speculation surrounds it. From giant art project, to galactic marker, to ancient weapon. But, so far, it remains a mystery.</LocalizationPair>
+
+	<LocalizationPair Name="%FoldingBiology_Title">Folding Biology</LocalizationPair>
+	<LocalizationPair Name="%FoldingBiology_Desc">Life on this planet has evolved to adopt folding origami-like structures. These mathematical adaptations seem to allow plants to change shape according to the current weather patterns and environment. Even some animals have forms that feature folding parts.
+Overall, this expands the hardiness and viable biomes of these organisms, and offers insight into new structural sciences.</LocalizationPair>
+
+	<LocalizationPair Name="%CrystalKelp_Title">Crystal Kelp</LocalizationPair>
+	<LocalizationPair Name="%CrystalKelp_Desc">A prominent type of kelp on this world has a unique property of having delicate crystalline leaves. This makes for a renewable source of valuable minerals and is of particular use to industry. Additionally, the stems are edible and reasonably nutritious.</LocalizationPair>
+
+	<LocalizationPair Name="%TektiteRubble_Title">Tektite Rubble</LocalizationPair>
+	<LocalizationPair Name="%TektiteRubble_Desc">High-velocity meteor impacts have transformed large areas of the surface into glassy tektite shards. This rubble provides easy access to many valuable minerals suitable in high-tech applications.</LocalizationPair>
+
+	<LocalizationPair Name="%EternalSpines_Title">Eternal Spines</LocalizationPair>
+	<LocalizationPair Name="%EternalSpines_Desc">Unusual geology has produced jutting spines of metal ores and minerals. And due to the lack of an atmosphere to erode the results, these formations remain in place, untouched for a millenia. At least until industry leaders see the reports of easy-access ores. </LocalizationPair>
+
+	<LocalizationPair Name="%GrandHydrosynth_Title">Grand Hydrosynth</LocalizationPair>
+	<LocalizationPair Name="%GrandHydrosynth_Desc">This ocean organism, vast and ancient, resembles a living reef. Its structure consists of delicate, translucent tendrils, branching tubules, and expansive fronds. Rather than relying on a contained bloodstream, the organism passively filters and absorbs elements from the surrounding water, creating an osmotic network where nutrients flow freely. This also supports a host of symbiotic organisms, from tiny filter feeders and microbial colonies to small fish and crustaceans. These creatures, in turn, serve as organs and life-support systems for the larger organism.
+Some scientists have brought forward tentative evidence that this being has sentience, though attempts to communicate or decode any language has, thus far, proved elusive.</LocalizationPair>
+
+	<LocalizationPair Name="%WaterBulbs_Title">Water Bulbs</LocalizationPair>
+	<LocalizationPair Name="%WaterBulbs_Desc">Vast quantities of this extremely efficient seaweed are found in many of the waters. It grows at a prestigious rate, and the bulbs it produces are highly nutritions, making for a seemingly endless food source.</LocalizationPair>
+	
+	
+
+	<LocalizationPair Name="%GreatStorm_Title">Great Storm</LocalizationPair>
+	<LocalizationPair Name="%GreatStorm_Desc">A gigantic storm persists in the atmosphere bands of this gas giant. It offers some scientific opportunity, and also makes for a pleasing view.</LocalizationPair>
+
+	<LocalizationPair Name="%SuspendedStructures_Title">Suspended Structures</LocalizationPair>
+	<LocalizationPair Name="%SuspendedStructures_Desc">Ancient structures, built by an unknown civilization, hang suspended in the atmosphere of this gas giant. While much of the original tech seems to be non-functional, the structures themselves appear to be intact and secure.
+They can provide all maner of scientific opportunity, and have large amounts of space that can be converted into functional living area, and some of the ancient industrial machines can be repurposed, as well.</LocalizationPair>
+
+	<LocalizationPair Name="%ComplexLayers_Title">Complex Layers</LocalizationPair>
+	<LocalizationPair Name="%ComplexLayers_Desc">The atmosphere bands and layers of this giant are unusually complex, hinting at unusual weather properties within. This give scientists plenty to do when looking out the windows.</LocalizationPair>
+
+	<LocalizationPair Name="%DustBand_Title">Dust Band</LocalizationPair>
+	<LocalizationPair Name="%DustBand_Desc">Some of the atmosphere bands have been found to be extremely rich in dust. How they got this way is a mystery, but no one can deny the lucrative prospects they present.</LocalizationPair>
+
+	<LocalizationPair Name="%AerostaticLife_Title">Aerostatic Life</LocalizationPair>
+	<LocalizationPair Name="%AerostaticLife_Desc">A strange sort of lifeform has developed here that can withstand the incredible pressures of this gas giant. They lazily float in the atmosphere like vast hulking jellyfish. They provide a good source of food, and offer a unique area of study for bio-sciences.</LocalizationPair>
+
+	<LocalizationPair Name="%ExoplanetaryCore_Title">Exoplanetary Core</LocalizationPair>
+	<LocalizationPair Name="%ExoplanetaryCore_Desc">This giant swallowed another planet (or two) sometime on the past. Its core composition now features many diverse elements, and yields many insights of the early formation of the star system.</LocalizationPair>
+
+	<LocalizationPair Name="%GasPockets_Title">Gas Pockets</LocalizationPair>
+	<LocalizationPair Name="%GasPockets_Desc">The atmosphere of this giant has distinct pockets and storms of specific chemical makeups that have effectively been segregated from other areas. This makes for efficient processing and utilization of useful gasses and elements.</LocalizationPair>
+
+	<LocalizationPair Name="%GasPlumes_Title">Gas Plumes</LocalizationPair>
+	<LocalizationPair Name="%GasPlumes_Desc">Incredible forces within this giant build up to release plumes of super-heated material into space from time-to-time. While they contain valuable exotic materials, the plumes are quite dangerous and unpredictable. This is rather unfortunate for orbiting stations and ships.</LocalizationPair>
+	<LocalizationPair Name="%GasPlumes_R_Title">Tamed Atmosphere</LocalizationPair>
+	<LocalizationPair Name="%GasPlumes_R_Desc">New atmosphere modeling methods have enabled the detection of pre-plume conditions. Countermeasure can then be brought to bear that quickly disperse the conditions that would result in a deadly plume erupting.</LocalizationPair>
+	<LocalizationPair Name="%Reduction_GasPlumes_Title">Plume Dispersal</LocalizationPair>
+	<LocalizationPair Name="%Reduction_GasPlumes_Desc">Streamlined manufacture and infrastructure will allow the timely introduction of new compounds into the atmosphere that will allow the break-up of plumes before they can form into extremes pressures.</LocalizationPair>
+
+	<LocalizationPair Name="%PlasmaBehemoth_Title">Plasma Behemoth</LocalizationPair>
+	<LocalizationPair Name="%PlasmaBehemoth_Desc">This hot giant is home to a gargantuan plasma lifeform that worms its way through the atmosphere. While it seems entirely non-hostile, its very size and nature is quite dangerous. Fortunately, it's movement is easy to track and predict.
+Its presence gives rise to unique molecular processes planetwide that can be harnessed for a variety of industrial and scientific applications.
+It truly is a wonder to behold, and tourists come from across the galaxy to witness it.</LocalizationPair>
+
+	<LocalizationPair Name="%FrozenCrystals_Title">Frozen Crystals</LocalizationPair>
+	<LocalizationPair Name="%FrozenCrystals_Desc">Intricate frozen crystals of exotic matter readily form in the bands of this giant's atmosphere. These crystals are extremely valuable to both industry and science.</LocalizationPair>
+
+	<LocalizationPair Name="%GhostWhisps_Title">Ghost Whisps</LocalizationPair>
+	<LocalizationPair Name="%GhostWhisps_Desc">Cosmic apparitions flit within and around the area of this cold giant. Though startling, they are seemingly harmless, and offer a wondrous spectacle for travelers.
+Closer study has revealed that they seem to have some sort of chemical effect in the atmosphere, and this has opened up new areas of chemical and spectral research.</LocalizationPair>
+
+	
+<!-- custom tooltips -->
+	 <LocalizationPair Name="%20_PlanetDust">+20 [DustColored] on Planet</LocalizationPair>
+
+<!-- Revised Endless Moons stuff -->
+	<LocalizationPair Name="%HistoricalEnclave_Desc">Studies of the Deep Mind temple has enabled new ways to study ancient phenomena using immersive research and speciality AI constructs.
+This enclave is specialized towards the study of ancient civilizations. Furthermore, the discoveries and insights here contribute to a broader cultural understanting of modern civilizations as well. 
+These enclaves are both research institutes and tourist attractions, with profits from tours and museums going directly towards maintenance costs.
+This enclave offers long-term study of the following planet anomalies:
+#FFFFFF#Pre-galactic Architecture, Dust Ruins, Ancient Ruins, Deserted Cities, Humeris Insidentes, Historical Apocalypse, Submerged Ruins, Ancient Ramparts, SprawlingComplex, Suspended Structures, Husk of Knowledge, The Fallen Gardens, Seventeen Thousand Islands Bridges, Platform of Ys, Moon Temple, Celestial Orb#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%EndlessEnclave_Desc">Studies of the Deep Mind temple has enabled new ways to study ancient phenomena using immersive research and speciality AI constructs within dedicated research enclaves. 
+This enclave is specialized towards the study of ancient Endless technology, and due to the number of active experiments at any given time, this study often provides immediate practical benefits and insights to existing industry in the system.
+This enclave offers long-term research of the following planet anomalies:
+#FFFFFF#Dust Ruins, Dust Lode, Cyber Flora, Microfactories, Nanite Debris, Cyber Ticks, Artificial World, Micro-droneFlocks, AncientMegalith, Husk of Knowledge, Spotora's Sanctum, Seventeen Thousand Islands Bridges, Platform of Ys, Moon Temple, Celestial Orb#REVERT#</LocalizationPair>
+
+</Datatable>

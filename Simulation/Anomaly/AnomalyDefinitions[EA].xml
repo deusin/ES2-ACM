@@ -1,0 +1,2014 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:SchemaLocation="../Documentation/Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+	
+
+    <AnomalyDefinition Name="SilentSands" Quality="Mixed">
+        <SimulationDescriptorReference Name="SilentSands"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeTeeming</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="SilentSands_R" Quality="Reduced">
+        <SimulationDescriptorReference Name="SilentSands_R"/>
+        <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+      <GeneratorInfo/>
+    </AnomalyDefinition>
+	
+	<AnomalyDefinition Name="DustMountains" Quality="Positive">
+        <SimulationDescriptorReference Name="DustMountains"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeTeeming</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    
+    <AnomalyDefinition Name="PerpetualSandstorms" Quality="Negative">
+        <SimulationDescriptorReference Name="PerpetualSandstorms"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyCloud"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeTeeming</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="PerpetualSandstorms_R" Quality="Reduced">
+        <SimulationDescriptorReference Name="PerpetualSandstorms_R"/>
+        <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+      <GeneratorInfo/>
+    </AnomalyDefinition>
+	
+    <AnomalyDefinition Name="ColossalMountain" Quality="Positive">
+        <SimulationDescriptorReference Name="ColossalMountain"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    
+    <AnomalyDefinition Name="MassiveCrater" Quality="Positive">
+        <SimulationDescriptorReference Name="MassiveCrater"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    
+    <AnomalyDefinition Name="EnormousGysers" Quality="Positive">
+        <SimulationDescriptorReference Name="EnormousGysers"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="NaturalPatterns" Quality="Positive">
+        <SimulationDescriptorReference Name="NaturalPatterns"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    
+    <AnomalyDefinition Name="MinimalRotation" Quality="Mixed">
+        <SimulationDescriptorReference Name="MinimalRotation"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>FastRotation</PlanetFilterNot>
+          <PlanetFilterNot>Curiosity_FastRotation</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="MinimalRotation_R" Quality="Reduced">
+        <SimulationDescriptorReference Name="MinimalRotation_R"/>
+        <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+      <GeneratorInfo/>
+    </AnomalyDefinition>
+	
+    <AnomalyDefinition Name="FastRotation" Quality="Mixed">
+        <SimulationDescriptorReference Name="FastRotation"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>MinimalRotation</PlanetFilterNot>
+          <PlanetFilterNot>Curiosity_MinimalRotation</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="FastRotation_R" Quality="Reduced">
+        <SimulationDescriptorReference Name="FastRotation_R"/>
+        <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+      <GeneratorInfo/>
+    </AnomalyDefinition>
+	
+	<AnomalyDefinition Name="MysteriousCairns" Quality="Positive">
+        <SimulationDescriptorReference Name="MysteriousCairns"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    
+    <AnomalyDefinition Name="UndergroundTubes" Quality="Positive">
+        <SimulationDescriptorReference Name="UndergroundTubes"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+	
+	 <AnomalyDefinition Name="DangerousFlora" Quality="Mixed">
+        <SimulationDescriptorReference Name="DangerousFlora"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+          <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="DangerousFlora_R" Quality="Reduced">
+        <SimulationDescriptorReference Name="DangerousFlora_R"/>
+        <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+      <GeneratorInfo/>
+    </AnomalyDefinition>
+
+	 <AnomalyDefinition Name="NaturalIsotopes" Quality="Mixed">
+        <SimulationDescriptorReference Name="NaturalIsotopes"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="NaturalIsotopes_R" Quality="Reduced">
+        <SimulationDescriptorReference Name="NaturalIsotopes_R"/>
+        <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+      <GeneratorInfo/>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="DustInfusedLife" Quality="Positive">
+        <SimulationDescriptorReference Name="DustInfusedLife"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="CrystallineWorld" Quality="Positive">
+        <SimulationDescriptorReference Name="CrystallineWorld"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="LayeredAtmosphere" Quality="Positive">
+        <SimulationDescriptorReference Name="LayeredAtmosphere"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyCloud"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    
+    <AnomalyDefinition Name="ExtremePressure" Quality="Negative">
+        <SimulationDescriptorReference Name="ExtremePressure"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="ExtremePressure_R" Quality="Reduced">
+        <SimulationDescriptorReference Name="ExtremePressure_R"/>
+        <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+      <GeneratorInfo/>
+    </AnomalyDefinition>
+    
+    <AnomalyDefinition Name="GlobalWindstorms" Quality="Negative">
+        <SimulationDescriptorReference Name="GlobalWindstorms"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyCloud"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+      <GeneratorInfo>
+          <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+          <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="GlobalWindstorms_R" Quality="Reduced">
+        <SimulationDescriptorReference Name="GlobalWindstorms_R"/>
+        <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+      <GeneratorInfo/>
+    </AnomalyDefinition>
+
+<AnomalyDefinition Name="LivingMantle" Quality="Positive">
+    <SimulationDescriptorReference Name="LivingMantle"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="InterconnectedLife" Quality="Mixed">
+    <SimulationDescriptorReference Name="InterconnectedLife"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+        <PlanetFilterNot>PoisonedGround</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_PoisonedGround</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="InterconnectedLife_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="InterconnectedLife_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="VastCanyons" Quality="Positive">
+    <SimulationDescriptorReference Name="VastCanyons"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="ExtinctionEvidence" Quality="Positive">
+    <SimulationDescriptorReference Name="ExtinctionEvidence"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTeeming</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+		<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="WarmZones" Quality="Positive">
+    <SimulationDescriptorReference Name="WarmZones"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+        <PlanetFilterNot>DeadlyIcestorms</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_DeadlyIcestorms</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="FrozenRemnants" Quality="Positive">
+    <SimulationDescriptorReference Name="FrozenRemnants"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="IceForest" Quality="Positive">
+    <SimulationDescriptorReference Name="IceForest"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="FrostFlora" Quality="Positive">
+    <SimulationDescriptorReference Name="FrostFlora"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="DeadlyIcestorms" Quality="Negative">
+    <SimulationDescriptorReference Name="DeadlyIcestorms"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+        <PlanetFilterNot>WarmZones</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_WarmZones</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="DeadlyIcestorms_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="DeadlyIcestorms_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+
+<AnomalyDefinition Name="BurningWasteland" Quality="Negative">
+    <SimulationDescriptorReference Name="BurningWasteland"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="BurningWasteland_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="BurningWasteland_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="ThermophileOasis" Quality="Positive">
+    <SimulationDescriptorReference Name="ThermophileOasis"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="CinderColumns" Quality="Positive">
+    <SimulationDescriptorReference Name="CinderColumns"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="GlowingPlains" Quality="Mixed">
+    <SimulationDescriptorReference Name="GlowingPlains"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="GlowingPlains_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="GlowingPlains_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="SentientCradle" Quality="Positive">
+    <SimulationDescriptorReference Name="SentientCradle"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="TimeFlux" Quality="Mixed">
+    <SimulationDescriptorReference Name="TimeFlux"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="TimeFlux_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="TimeFlux_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="NaniteDebris" Quality="Mixed">
+    <SimulationDescriptorReference Name="NaniteDebris"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="NaniteDebris_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="NaniteDebris_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="VoidWhispers" Quality="Negative">
+    <SimulationDescriptorReference Name="VoidWhispers"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="VoidWhispers_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="VoidWhispers_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="NaturalMelody" Quality="Positive">
+    <SimulationDescriptorReference Name="NaturalMelody"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="ShiftingGround" Quality="Negative">
+    <SimulationDescriptorReference Name="ShiftingGround"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <SimulationDescriptorReference Name="AnomalyTypeGround"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>AnomalyTypeGround</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+        <PlanetFilterNot>CraterScarred</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_CraterScarred</PlanetFilterNot>
+        <PlanetFilterNot>MassiveCrater</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_MassiveCrater</PlanetFilterNot>
+        <PlanetFilterNot>AbrasiveTerrain</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_AbrasiveTerrain</PlanetFilterNot>
+        <PlanetFilterNot>SprawlingComplex</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_SprawlingComplex</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="ShiftingGround_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="ShiftingGround_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="DeepShafts" Quality="Positive">
+    <SimulationDescriptorReference Name="DeepShafts"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>AnomalyTypeGround</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+        <PlanetFilterNot>AnomalyTypeGround</PlanetFilterNot>
+        <PlanetFilterNot>ShiftingGround</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_ShiftingGround</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="CryogenicVolcano" Quality="Mixed">
+    <SimulationDescriptorReference Name="CryogenicVolcano"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly16</PlanetFilterNot> <!-- Geothermal Activity -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly16</PlanetFilterNot> 
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="CryogenicVolcano_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="CryogenicVolcano_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="BallisticEjecta" Quality="Negative">
+    <SimulationDescriptorReference Name="BallisticEjecta"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetSizeHuge</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_PlanetAnomaly44</PlanetFilterNot> <!-- High Gravity  -->
+        <PlanetFilterNot>PlanetAnomaly44</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="BallisticEjecta_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="BallisticEjecta_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="VastRiverbed" Quality="Positive">
+    <SimulationDescriptorReference Name="VastRiverbed"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTeeming</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="HistoricalApocalypse" Quality="Mixed">
+    <SimulationDescriptorReference Name="HistoricalApocalypse"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="HistoricalApocalypse_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="HistoricalApocalypse_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="FloodedRuins" Quality="Positive">
+    <SimulationDescriptorReference Name="FloodedRuins"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="UnderseaRifts" Quality="Positive">
+    <SimulationDescriptorReference Name="UnderseaRifts"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="PerpetualVortex" Quality="Mixed">
+    <SimulationDescriptorReference Name="PerpetualVortex"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="PerpetualVortex_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="PerpetualVortex_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="DeadWaters" Quality="Negative">
+    <SimulationDescriptorReference Name="DeadWaters"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="DeadWaters_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="DeadWaters_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="NanoToxin" Quality="Negative">
+    <SimulationDescriptorReference Name="NanoToxin"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="NanoToxin_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="NanoToxin_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="HealingRiver" Quality="Positive">
+    <SimulationDescriptorReference Name="HealingRiver"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MeteoriteGardens" Quality="Positive">
+    <SimulationDescriptorReference Name="MeteoriteGardens"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="VanishingFog" Quality="Negative">
+    <SimulationDescriptorReference Name="VanishingFog"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="VanishingFog_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="VanishingFog_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="EnigmaticMonolith" Quality="Positive">
+    <SimulationDescriptorReference Name="EnigmaticMonolith"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MineralPoor" Quality="Negative">
+    <SimulationDescriptorReference Name="MineralPoor"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly05</PlanetFilterNot> <!-- Mineral Rich -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly05</PlanetFilterNot>
+        <PlanetFilterNot>UltraRareMetals</PlanetFilterNot> 
+        <PlanetFilterNot>Curiosity_UltraRareMetals</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="MineralPoor_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="MineralPoor_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="InvasiveOvergrowth" Quality="Mixed">
+    <SimulationDescriptorReference Name="InvasiveOvergrowth"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetAnomaly43</PlanetFilterNot> <!-- Poor Soil -->
+    	<PlanetFilterNot>Curiosity_PlanetAnomaly43</PlanetFilterNot> 
+        <PlanetFilterNot>PoisonedGround</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_PoisonedGround</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="InvasiveOvergrowth_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="InvasiveOvergrowth_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="DriftingEdibles" Quality="Positive">
+    <SimulationDescriptorReference Name="DriftingEdibles"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="EnrichedAtmosphere" Quality="Positive">
+    <SimulationDescriptorReference Name="EnrichedAtmosphere"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="SegregatedBiomes" Quality="Positive">
+    <SimulationDescriptorReference Name="SegregatedBiomes"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MegaFlora" Quality="Positive">
+    <SimulationDescriptorReference Name="MegaFlora"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly43</PlanetFilterNot>  <!-- Poor Soil -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly43</PlanetFilterNot>
+        <PlanetFilterNot>PoisonedGround</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_PoisonedGround</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MegaFauna" Quality="Mixed">
+    <SimulationDescriptorReference Name="MegaFauna"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+        <PlanetFilterNot>PoisonedGround</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_PoisonedGround</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="MegaFauna_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="MegaFauna_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MyceliumGroves" Quality="Positive">
+    <SimulationDescriptorReference Name="MyceliumGroves"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly43</PlanetFilterNot>  <!-- Poor Soil -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly43</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MineralSpice" Quality="Positive">
+    <SimulationDescriptorReference Name="MineralSpice"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="InsectSwarms" Quality="Mixed">
+    <SimulationDescriptorReference Name="InsectSwarms"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="InsectSwarms_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="InsectSwarms_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="DustLuminescence" Quality="Positive">
+    <SimulationDescriptorReference Name="DustLuminescence"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="CraterScarred" Quality="Positive">
+    <SimulationDescriptorReference Name="CraterScarred"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+    	<PlanetFilterNot>ShiftingGround</PlanetFilterNot>
+    	<PlanetFilterNot>Curiosity_ShiftingGround</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="AbrasiveTerrain" Quality="Negative">
+    <SimulationDescriptorReference Name="AbrasiveTerrain"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+    	<PlanetFilterNot>ShiftingGround</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_ShiftingGround</PlanetFilterNot>
+
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="AbrasiveTerrain_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="AbrasiveTerrain_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="SolarScars" Quality="Positive">
+    <SimulationDescriptorReference Name="SolarScars"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="RadiotrophicFungi" Quality="Positive">
+    <SimulationDescriptorReference Name="RadiotrophicFungi"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="SubSurfaceIce" Quality="Positive">
+    <SimulationDescriptorReference Name="SubSurfaceIce"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="CryptobioticOrganisms" Quality="Mixed">
+    <SimulationDescriptorReference Name="CryptobioticOrganisms"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="CryptobioticOrganisms_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="CryptobioticOrganisms_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="HiddenVaults" Quality="Mixed">
+    <SimulationDescriptorReference Name="HiddenVaults"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="HiddenVaults_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="CHiddenVaults_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="EncryptedData" Quality="Mixed">
+    <SimulationDescriptorReference Name="EncryptedData"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="EncryptedData_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="EncryptedData_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="DormantMachines" Quality="Mixed">
+    <SimulationDescriptorReference Name="DormantMachines"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="DormantMachines_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="DormantMachines_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="UltraRareMetals" Quality="Positive">
+    <SimulationDescriptorReference Name="UltraRareMetals"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly05</PlanetFilterNot> <!-- Mineral Rich -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly05</PlanetFilterNot>
+        <PlanetFilterNot>MineralPoor</PlanetFilterNot> 
+        <PlanetFilterNot>Curiosity_MineralPoor</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="OreRichRings" Quality="Positive">
+    <SimulationDescriptorReference Name="OreRichRings"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyRing"/>
+    <SimulationDescriptorReference Name="PlanetAnomaly08"/>
+    <EncounterEntityReference Name="PlanetAnomaly08"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomalyRing</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="CryptosporeRings" Quality="Positive">
+    <SimulationDescriptorReference Name="CryptosporeRings"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyRing"/>
+    <SimulationDescriptorReference Name="PlanetAnomaly08"/>
+    <EncounterEntityReference Name="PlanetAnomaly08"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomalyRing</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="PersistantLichen" Quality="Positive">
+    <SimulationDescriptorReference Name="PersistantLichen"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="NaturalOrchards" Quality="Positive">
+    <SimulationDescriptorReference Name="NaturalOrchards"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetAnomaly43</PlanetFilterNot> <!-- Poor Soil -->
+    	<PlanetFilterNot>Curiosity_PlanetAnomaly43</PlanetFilterNot> 
+        <PlanetFilterNot>PoisonedGround</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_PoisonedGround</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="AncientRamparts" Quality="Positive">
+    <SimulationDescriptorReference Name="AncientRamparts"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MimickingChorus" Quality="Positive">
+    <SimulationDescriptorReference Name="MimickingChorus"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="SmokingVents" Quality="Positive">
+    <SimulationDescriptorReference Name="SmokingVents"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="ElectrostaticDynamo" Quality="Mixed">
+    <SimulationDescriptorReference Name="ElectrostaticDynamo"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="ElectrostaticDynamo_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="ElectrostaticDynamo_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="IrresistibleWorld" Quality="Positive">
+    <SimulationDescriptorReference Name="IrresistibleWorld"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="CreepingAlgae" Quality="Positive">
+    <SimulationDescriptorReference Name="CreepingAlgae"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MushroomCaves" Quality="Positive">
+    <SimulationDescriptorReference Name="MushroomCaves"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="SafeZones" Quality="Positive">
+    <SimulationDescriptorReference Name="SafeZones"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTeeming</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="PoisonedGround" Quality="Negative">
+    <SimulationDescriptorReference Name="PoisonedGround"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>InterconnectedLife</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_InterconnectedLife</PlanetFilterNot>
+        <PlanetFilterNot>InvasiveOvergrowth</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_InvasiveOvergrowth</PlanetFilterNot>
+        <PlanetFilterNot>MegaFlora</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_MegaFlora</PlanetFilterNot>
+		<PlanetFilterNot>MegaFauna</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_MegaFauna</PlanetFilterNot>        
+        <PlanetFilterNot>NaturalOrchards</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_NaturalOrchards</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="PoisonedGround_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="PoisonedGround_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="ToxicSludge" Quality="Negative">
+    <SimulationDescriptorReference Name="ToxicSludge"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="ToxicSludge_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="ToxicSludge_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="IceWall" Quality="Positive">
+    <SimulationDescriptorReference Name="IceWall"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="SmotheringSnow" Quality="Negative">
+    <SimulationDescriptorReference Name="SmotheringSnow"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="SmotheringSnow_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="SmotheringSnow_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="NullPlains" Quality="Positive">
+    <SimulationDescriptorReference Name="NullPlains"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="ThermicBacteria" Quality="Positive">
+    <SimulationDescriptorReference Name="ThermicBacteria"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="UnderwaterVolcanoes" Quality="Positive">
+    <SimulationDescriptorReference Name="UnderwaterVolcanoes"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="Glowmoss" Quality="Positive">
+    <SimulationDescriptorReference Name="Glowmoss"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="WalkingSpores" Quality="Positive">
+    <SimulationDescriptorReference Name="WalkingSpores"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+		<PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="GeocyteLife" Quality="Positive">
+    <SimulationDescriptorReference Name="GeocyteLife"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="Dustshrooms" Quality="Positive">
+    <SimulationDescriptorReference Name="Dustshrooms"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+		<PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="CyberTicks" Quality="Mixed">
+    <SimulationDescriptorReference Name="CyberTicks"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+		<PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+<AnomalyDefinition Name="CyberTicks_R" Quality="Reduced">
+    <SimulationDescriptorReference Name="CyberTicks_R"/>
+    <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+    <GeneratorInfo/>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="ArtificialWorld" Quality="Positive">
+    <SimulationDescriptorReference Name="ArtificialWorld"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+		<PlanetFilterNot>PlanetSizeSmall</PlanetFilterNot>
+		<PlanetFilterNot>PlanetSizeMedium</PlanetFilterNot>
+		<PlanetFilterNot>PlanetSizeLarge</PlanetFilterNot>
+		<PlanetFilterNot>PlanetSizeHuge</PlanetFilterNot>
+ 		<PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+		<PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="RareElements" Quality="Positive">
+    <SimulationDescriptorReference Name="RareElements"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="PrimalBiomes" Quality="Positive">
+    <SimulationDescriptorReference Name="PrimalBiomes"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="UndergroundParadise" Quality="Positive">
+    <SimulationDescriptorReference Name="UndergroundParadise"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="Bio-Tunnels" Quality="Positive">
+    <SimulationDescriptorReference Name="Bio-Tunnels"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MicrobialAtmosphere" Quality="Positive">
+    <SimulationDescriptorReference Name="MicrobialAtmosphere"/>
+    <SimulationDescriptorReference Name="PlanetAnomaly14"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyCloud"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+		<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomaly24</PlanetFilterNot>  <!-- Irradiated -->
+        <PlanetFilterNot>Curiosity_PlanetAnomaly24</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="MicroDroneFlocks" Quality="Positive">
+    <SimulationDescriptorReference Name="MicroDroneFlocks"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+		<PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="SprawlingComplex" Quality="Positive">
+    <SimulationDescriptorReference Name="SprawlingComplex"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>ShiftingGround</PlanetFilterNot>
+        <PlanetFilterNot>Curiosity_ShiftingGround</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="AncientMegalith" Quality="Positive">
+    <SimulationDescriptorReference Name="AncientMegalith"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="FoldingBiology" Quality="Positive">
+    <SimulationDescriptorReference Name="FoldingBiology"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+		<PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="CrystalKelp" Quality="Positive">
+    <SimulationDescriptorReference Name="CrystalKelp"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="TektiteRubble" Quality="Positive">
+    <SimulationDescriptorReference Name="TektiteRubble"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="EternalSpines" Quality="Positive">
+    <SimulationDescriptorReference Name="EternalSpines"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+    	<PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="GrandHydrosynth" Quality="Positive">
+    <SimulationDescriptorReference Name="GrandHydrosynth"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+<AnomalyDefinition Name="WaterBulbs" Quality="Positive">
+    <SimulationDescriptorReference Name="WaterBulbs"/>
+    <GeneratorInfo>
+        <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTypeMeager</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+        <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    </GeneratorInfo>
+</AnomalyDefinition>
+
+
+
+
+
+<!--	
+	Rank 2
+          <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+    
+    Rank 3
+          <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          
+    Cold
+    		<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+
+    Hot
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+-->
+<!--	All
+            <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+-->	
+
+
+
+<!-- Gas Giant Only -->
+    <AnomalyDefinition Name="GreatStorm" Quality="Positive">
+        <SimulationDescriptorReference Name="GreatStorm"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="SuspendedStructures" Quality="Positive">
+        <SimulationDescriptorReference Name="SuspendedStructures"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="ComplexLayers" Quality="Positive">
+        <SimulationDescriptorReference Name="ComplexLayers"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="DustBand" Quality="Positive">
+        <SimulationDescriptorReference Name="DustBand"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="AerostaticLife" Quality="Positive">
+        <SimulationDescriptorReference Name="AerostaticLife"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasBurning</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasFrozen</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="ExoplanetaryCore" Quality="Positive">
+        <SimulationDescriptorReference Name="ExoplanetaryCore"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="GasPockets" Quality="Positive">
+        <SimulationDescriptorReference Name="GasPockets"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="FrozenCrystals" Quality="Positive">
+        <SimulationDescriptorReference Name="FrozenCrystals"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+            <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="GasPlumes" Quality="Mixed">
+        <SimulationDescriptorReference Name="GasPlumes"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+            <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="GasPlumes_R" Quality="Reduced">
+        <SimulationDescriptorReference Name="GasPlumes_R"/>
+        <EncounterEntityReference Name="PlanetAnomalyReduced"/>
+      <GeneratorInfo/>
+    </AnomalyDefinition>
+    
+    <AnomalyDefinition Name="PlasmaBehemoth" Quality="Positive">
+        <SimulationDescriptorReference Name="PlasmaBehemoth"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+            <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="GhostWhisps" Quality="Positive">
+        <SimulationDescriptorReference Name="GhostWhisps"/>
+      <GeneratorInfo>
+          	<PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+        	<PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+          	<PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+            <PlanetFilterNot>PlanetGameplayTypeTemperate</PlanetFilterNot>
+      </GeneratorInfo>
+    </AnomalyDefinition>
+
+
+	
+</Datatable>

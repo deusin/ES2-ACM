@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+
+    
+<!-- Revised improvements from Endless Moons -->
+
+
+<!-- Temple Granted Improvements -->
+    <StarSystemImprovementDefinition Name="HistoricalEnclave" SubCategory="SubCategoryFIDSI" ScoreProvider="StarSystemImprovementBuilt">
+		<AIGain RessourceName="ScienceGain"/>
+		<AIGain RessourceName="PrestigeGain"/>
+		<AIGain RessourceName="DustGain"/>
+		<SupervisorGain Name="Science"	 	  Weight="0.5"  />
+        <SupervisorGain Name="Prestige"       Weight="0.5"  />
+        <SupervisorGain Name="Dust"     	  Weight="0.2"  />
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="false"   Flags="Prerequisite,Discard">Path(Context,@ColonizedStarSystemStateColony/PlanetAnomaly02)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomaly29) 
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomaly37)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomaly42)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomalyRemainsMinorFaction)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomalyEndlessWonder1)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomalyNaturalWonder2)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomalyNaturalWonder3)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomalyNaturalWonder4)
+         or Path(Context,@ColonizedStarSystemStateColony/CloakedOrb)
+         or Path(Context,@ColonizedStarSystemStateColony/MoonTemple)
+             	<!-- new -->
+         or Path(Context,@ColonizedStarSystemStateColony/HistoricalApocalypse)
+         or Path(Context,@ColonizedStarSystemStateColony/HistoricalApocalypse_R)
+         or Path(Context,@ColonizedStarSystemStateColony/FloodedRuins)
+         or Path(Context,@ColonizedStarSystemStateColony/AncientRamparts)
+         or Path(Context,@ColonizedStarSystemStateColony/SuspendedStructures)
+         or Path(Context,@ColonizedStarSystemStateColony/SprawlingComplex)</InterpreterPrerequisite>
+		<PathPrerequisite       Inverted="false"	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/ET_A</PathPrerequisite>  
+		<!-- Must not have -->
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/HistoricalEnclave,!FastForwardedImprovement</PathPrerequisite>
+        <SimulationDescriptorReference Name="HistoricalEnclave" />
+        <SimulationDescriptorReference Name="ScienceConstruction" />
+        <SimulationDescriptorReference Name="IsScienceBuilding" />
+        <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionInfluence1"/>
+        <PopulationEvent Name="PopulationPoliticalEventScienceBuildingConstruction1"/>
+    </StarSystemImprovementDefinition>
+
+    <StarSystemImprovementDefinition Name="EndlessEnclave" SubCategory="SubCategoryFIDSI" ScoreProvider="StarSystemImprovementBuilt">
+		<AIGain RessourceName="ScienceGain"/>
+		<AIGain RessourceName="PrestigeGain"/>
+		<AIGain RessourceName="IndustryGain"/>
+		<SupervisorGain Name="Science"	 	  Weight="0.5"  />
+        <SupervisorGain Name="Prestige"       Weight="0.2"  />
+        <SupervisorGain Name="Industry"       Weight="0.5"  />
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="false"   Flags="Prerequisite,Discard">Path(Context,@ColonizedStarSystemStateColony/PlanetAnomaly02)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomaly30) 
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomaly32)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomaly34)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomalyEndlessWonder1)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomalyEndlessWonder2)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomalyNaturalWonder2)
+         or Path(Context,@ColonizedStarSystemStateColony/PlanetAnomalyNaturalWonder4)
+         or Path(Context,@ColonizedStarSystemStateColony/CloakedOrb)
+         or Path(Context,@ColonizedStarSystemStateColony/MoonTemple)
+             	<!-- new -->
+         or Path(Context,@ColonizedStarSystemStateColony/NaniteDebris)
+         or Path(Context,@ColonizedStarSystemStateColony/NaniteDebris_R)
+         or Path(Context,@ColonizedStarSystemStateColony/CyberTicks)
+         or Path(Context,@ColonizedStarSystemStateColony/CyberTicks_R)
+         or Path(Context,@ColonizedStarSystemStateColony/ArtificialWorld)
+         or Path(Context,@ColonizedStarSystemStateColony/MicroDroneFlocks)
+         or Path(Context,@ColonizedStarSystemStateColony/AncientMagalith)</InterpreterPrerequisite>
+		<PathPrerequisite       Inverted="false"	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/Moon_SmSingC4_TA</PathPrerequisite>  
+		<!-- Must not have -->
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/EndlessEnclave,!FastForwardedImprovement</PathPrerequisite>
+        <SimulationDescriptorReference Name="EndlessEnclave" />
+        <SimulationDescriptorReference Name="ScienceConstruction" />
+        <SimulationDescriptorReference Name="IsScienceBuilding" />
+		<SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Normal" />
+        <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionInfluence1"/>
+        <PopulationEvent Name="PopulationPoliticalEventScienceBuildingConstruction1"/>
+    </StarSystemImprovementDefinition>
+
+
+
+
+    
+</Datatable>
