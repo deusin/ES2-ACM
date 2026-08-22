@@ -66,19 +66,20 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="AffinityGameplayTemplars" Type="AffinityGameplay">
-        <Property Name="BetterNakalimTweak"  BaseValue="1" />
-        <Property Name="SystemsGivenToAcademy" BaseValue="0" MinValue="0"/>
-        <Modifier TargetProperty="BetterNakalimTweak" Operation="Force" Value="15" Path="ClassEmpire" TooltipHidden="true"/>
-        <Modifier TargetProperty="CanUseTemples" Operation="Addition" Value="1" TooltipHidden="true"/>
-        <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeForest"    TooltipHidden="true"/>
-        <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeTerran"    TooltipHidden="true"/>
-        <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeMonsoon"   TooltipHidden="true"/>
-        <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeOcean"     TooltipHidden="true"/>
-        <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeAtoll"     TooltipHidden="true"/>
-        <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeBoreal"    TooltipHidden="true"/>
-        <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeJungle"    TooltipHidden="true"/>
-        <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeFake"      TooltipHidden="true"/>
-        <Modifier TargetProperty="CanConvertSystem"             Operation="Addition"    Value="1"    Path="ClassEmpire" TooltipHidden="true"/>
+    <Property Name="BetterNakalimTweak"  BaseValue="1" />
+    <Property Name="SystemsGivenToAcademy" BaseValue="0" MinValue="0"/>
+    <Modifier TargetProperty="BetterNakalimTweak" Operation="Force" Value="15" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="CanUseTemples" Operation="Addition" Value="1" TooltipHidden="true"/>
+    <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeForest"    TooltipHidden="true"/>
+    <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeTerran"    TooltipHidden="true"/>
+    <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeMonsoon"   TooltipHidden="true"/>
+    <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeOcean"     TooltipHidden="true"/>
+    <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeAtoll"     TooltipHidden="true"/>
+    <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeBoreal"    TooltipHidden="true"/>
+    <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeJungle"    TooltipHidden="true"/>
+    <Modifier TargetProperty="PlanetInitialFIDSPenalty"     Operation="Force"       Value="0"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetTypeFake"      TooltipHidden="true"/>
+    <Modifier TargetProperty="PlanetInitialFIDSBonus"       Operation="Addition"    Value="-0.5" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+    <Modifier TargetProperty="CanConvertSystem"             Operation="Addition"    Value="1"    Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="AffinityGameplayCravers" Type="AffinityGameplay">
@@ -256,6 +257,7 @@
   </SimulationDescriptor>
   <SimulationDescriptor Name="FactionTraitMinorSwarm02" Type="FactionTraitMinor">
     <BinaryModifier TargetProperty="EmpireManpower" Operation="Addition" Left="30" BinaryOperation="Multiplication" Right="$(SystemCount)" Path="ClassEmpire"/>
+    <BinaryModifier TargetProperty="EmpireManpowerBalance" Operation="Addition" Left="30" BinaryOperation="Multiplication" Right="$(SystemCount)" Path="ClassEmpire" TooltipHidden="true"/>
     <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
@@ -483,6 +485,7 @@
   <SimulationDescriptor Name="FactionTraitProcessingPowerFromTraitors"    Type="FactionTrait">
     <BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock" Operation="Addition" Left="$(TraitorsCount)" BinaryOperation="Multiplication" Right="1" Path="../ClassEmpire"/>
     <BinaryModifier TargetProperty="EmpireManpower" Operation="Addition" Left="$(TraitorsCount)" BinaryOperation="Multiplication" Right="3" Path="../ClassEmpire"/>
+    <BinaryModifier TargetProperty="EmpireManpowerBalance" Operation="Addition" Left="$(TraitorsCount)" BinaryOperation="Multiplication" Right="3" Path="../ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitAntiExpansionists" Type="FactionTrait">
@@ -536,6 +539,7 @@
     <Modifier TargetProperty="Happiness" Operation="Addition" Value="10" Path="ClassColonizedStarSystem" SearchValueFromPath="true" EnforceContext="true"/>
     <Modifier TargetProperty="Happiness" Operation="Addition" Value="10" Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" EnforceContext="true"/>
     <Modifier TargetProperty="EmpireManpower" Operation="Addition" Value="25" Path="../ClassEmpire" SearchValueFromPath="true" EnforceContext="true"/>
+    <Modifier TargetProperty="EmpireManpowerBalance" Operation="Addition" Value="25" Path="../ClassEmpire" SearchValueFromPath="true" EnforceContext="true" TooltipHidden="true"/>
     <Modifier TargetProperty="InfluenceConversionRateModifier" Operation="Percent" Value="-0.5" Path="ClassColonizedStarSystem"/>
   </SimulationDescriptor>
 

@@ -8,6 +8,18 @@
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
+  <ExtendedGuiElement Name="CriticalHitChanceProjectile">
+    <Title>%PanelFeatureModuleEffectsWeaponCriticalHitTitle</Title>
+    <TooltipElement Percent="true"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="CriticalHitChanceEnergy">
+    <Title>%PanelFeatureModuleEffectsWeaponCriticalHitTitle</Title>
+    <TooltipElement Percent="true"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
   <GuiElement Name="ClassModuleIgnoresArmor">
     <Title>%ClassModuleIgnoresArmorTitle</Title>
   </GuiElement>
@@ -802,17 +814,19 @@
   </GuiElement>
 
   <ExtendedGuiElement Name="GroundBattleBombardmentDefensiveDamageReduction">
-    <Title>%GroundBattleBombardmentAttackerDamagesReductionTitle</Title>
+    <Title>%GroundBattleBombardmentAttackerDamageReductionTitle</Title>
     <TooltipElement Percent="true"/>
   </ExtendedGuiElement>
 
-  <GuiElement Name="GroundBattleAttackerTroopsDamageMultiplier">
+  <ExtendedGuiElement Name="GroundBattleAttackerTroopsDamageMultiplier">
     <Title>%GroundBattleAttackerTroopsDamageMultiplierTitle</Title>
-  </GuiElement>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
 
-  <GuiElement Name="GroundBattleDefenderTroopsDamageMultiplier">
+  <ExtendedGuiElement Name="GroundBattleDefenderTroopsDamageMultiplier">
     <Title>%GroundBattleDefenderTroopsDamageMultiplierTitle</Title>
-  </GuiElement>
+    <TooltipElement Percent="true"/>
+  </ExtendedGuiElement>
 
   <GuiElement Name="GroundBattleDestroyedPopulationCount">
     <Title>%GroundBattleDestroyedPopulationCountTitle</Title>
@@ -1130,5 +1144,51 @@
 
   <ExtendedGuiElement Name="SystemLifeforceFromMoneyConversion">
     <Title>%SystemLifeforceFromMoneyConversionTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="EmpireManpowerFromEnrollment">
+    <Title>%GrowthForManpowerTitle</Title>
+    <Icons>
+      <Icon Size="Medium" Path="EmpireManPowerMedium" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/EmpireManPowerLarge" />
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%GrowthForManpowerAltTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="EmpireManpowerUpkeep">
+    <Title>%EmpireManpowerUpkeepTitle</Title>
+	<AltTitle>%EmpireManpowerUpkeepAltTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="EmpireLifeforceForManpower">
+    <Title>%EmpireLifeforceForManpowerTitle</Title>
+	<AltTitle>%EmpireLifeforceForManpowerAltTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="PopulationInOverpopulation">
+    <Title>%PopulationInOverpopulationTitle</Title>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="ShipProductionCostReductionFromJuggernautBonus">
+    <Title>%ShipProductionCostReductionTitle</Title>
+    <Description>%ShipProductionCostReductionDescription</Description>
+    <TooltipElement Percent="true"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="EmpirePointFromIndustryConversion">
+    <Title>%EmpirePointFromIndustryConversion</Title>
+    <Description>%EmpirePointFromIndustryConversion</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIEmpire" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIEmpirePointLarge" />
+    </Icons>
+    <SymbolString>[prestige]</SymbolString>
+    <Color Red="165" Green="85" Blue="231" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="CappedDiversityBonus">
+    <Title>%CappedDiversityBonusTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 </Datatable>

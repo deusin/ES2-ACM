@@ -67,6 +67,7 @@
     <TechnologyPrerequisite Flags="Edition">TechnologyJuggernautFactionModule</TechnologyPrerequisite>
     <SimulationDescriptorReference Name="ClassModuleSupport"/>
     <SimulationDescriptorReference Name="ClassModuleCarrierBattleshipOnly"/>
+    <SimulationDescriptorReference Name="ClassModuleFlotillaShieldExplication"/>
     <CategorizedSimulationDescriptors Category="CategoryFlotillaShield">
       <SimulationDescriptorReference Name="ModuleSupportFlotillaShield"/>
       <SimulationDescriptorReference Name="ModuleSupportJuggernautFlotillaShieldSophons"/>
@@ -84,6 +85,19 @@
     <SimulationDescriptorReference Name="ClassModuleCarrierBattleshipOnly"/>
     <SimulationDescriptorReference Name="ModuleSupportJuggernautFleetEnhancer"/>
     <SimulationDescriptorReference Name="ModuleSupportJuggernautFleetEnhancerCravers"/>
+    <BattleActionReference Name="BattleActionSupportInitialize"/>
+  </SupportModule>
+
+  <SupportModule Name="ModuleSupportJuggernautTemplars" Family="FleetEnhancerBase" Level="1">
+    <Cost ResourceName="SystemProduction">200</Cost>
+    <InterpreterPrerequisite Flags="Edition">Path(Context, @'ClassShip,ShipRoleCarrier') or Path(Context, @'ClassShip,ShipRoleBattleship')</InterpreterPrerequisite>
+    <PathPrerequisite Flags="NoMoreThanOneModuleOfThisType,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModule,ModuleSupportJuggernautFleetEnhancerTemplars</PathPrerequisite>
+    <PathPrerequisite Flags="UnlockAvailability,Edition,Faction,AffinityGameplayTechnologyTemplars" Inverted="false">../ClassEmpire,AffinityGameplayTemplars</PathPrerequisite>
+    <TechnologyPrerequisite Flags="Edition">TechnologyJuggernautFactionModule</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="ClassModuleSupport"/>
+    <SimulationDescriptorReference Name="ClassModuleCarrierBattleshipOnly"/>
+    <SimulationDescriptorReference Name="ModuleSupportJuggernautFleetEnhancer"/>
+    <SimulationDescriptorReference Name="ModuleSupportJuggernautFleetEnhancerTemplars"/>
     <BattleActionReference Name="BattleActionSupportInitialize"/>
   </SupportModule>
 
@@ -326,7 +340,7 @@
     <CategorizedSimulationDescriptors Category="CategoryDefenseMatrix">
       <SimulationDescriptorReference Name="ClassModuleQuestUnitedEmpire01"/>
     </CategorizedSimulationDescriptors>
-  </SupportModule> 
+  </SupportModule>
 
   <!-- Vodyani Quest Resource Module. The AI doesn't like creating a new family, so grouped with essence -->
   <MothershipModule Name="ModuleSupportMothershipResourceFactory" Family="SystemSupportFIDS" Level="3">
@@ -408,7 +422,7 @@
     <SimulationDescriptorReference Name="ModuleSupportExperienceQuest01"/>
     </CategorizedSimulationDescriptors>
   </SupportModule>
-  
+
   <!-- (ex) Tiryak Drive / Ransacker Module -->
   <SupportModule Name="ModuleSupportEngineQuest1" Family="ExperienceBase" Level="4" GuiCategory="CategoryStrategic2">
     <Cost ResourceName="SystemProduction">40</Cost>
@@ -501,8 +515,4 @@
       <SimulationDescriptorReference Name="ModuleSupportJuggernautMiningLongQuestHisshos2" />
     </CategorizedSimulationDescriptors>
   </SupportModule>
-
-
-
-
 </Datatable>

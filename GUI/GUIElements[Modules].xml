@@ -105,7 +105,7 @@
       <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
     </Sounds>
   </ExtendedGuiElement>
-  
+
   <!-- Coordinated Flak -->
   <ExtendedGuiElement Name="ModuleSupportFlakEnhancer1">
     <Title>%ModuleSupportFlakEnhancer1Title</Title>
@@ -156,6 +156,10 @@
 
   <GuiElement Name="ClassModuleStrategicFromSpecialNodeExplication">
     <Title>%ClassModuleStrategicFromSpecialNodeExplicationTitle</Title>
+  </GuiElement>
+  
+  <GuiElement Name="ModuleSupportRepairAnywhere">
+    <Title>%ModuleSupportRepairAnywhereTitle</Title>
   </GuiElement>
 
   <!-- Vodyani Quest Ark Modules -->
@@ -230,7 +234,7 @@
       <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
     </Sounds>
   </ExtendedGuiElement>
-  
+
   <!-- Quadrinix -->
   <ExtendedGuiElement Name="ModuleSupportSiege2Strategic5">
     <Title>%ModuleSupportSiege2Strategic5Title</Title>
@@ -259,7 +263,7 @@
   <GuiElement Name="ModuleReducedCost">
     <Title>%ModuleReducedCostTitle</Title>
   </GuiElement>
-  
+
   <!-- Colonization -->
   <ExtendedGuiElement Name="ModuleSupportColonizationVenetian">
     <Title>%ModuleSupportColonizationVenetianTitle</Title>
@@ -341,7 +345,7 @@
       <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule"/>
     </Sounds>
   </ExtendedGuiElement>
-  
+
   <!-- Cloaker II -->
   <ExtendedGuiElement Name="ModuleSupportInvisibilityLevel2">
     <Title>%ModuleSupportInvisibilityLevel2Title</Title>
@@ -366,7 +370,7 @@
       <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
     </Sounds>
   </ExtendedGuiElement>
-  
+
   <!-- Behemoth Node Analyzer -->
   <ExtendedGuiElement Name="ModuleSupportJuggernautAnalyzer1">
     <Title>%ModuleSupportJuggernautAnalyzer1Title</Title>
@@ -401,4 +405,227 @@
     </Sounds>
   </ExtendedGuiElement>
 
+  <GuiElement Name="ClassModuleCarrierOnly">
+    <Title>%ClassModuleCarrierOnlyTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassModuleCoilgunExplication">
+    <Title>%ClassModuleCoilgunExplicationTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassModuleRailgunExplication">
+    <Title>%ClassModuleRailgunExplicationTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassModuleAOENukeExplication">
+    <Title>%ClassModuleAOENukeExplicationTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassModuleSquadronInterceptorExplication">
+    <Title>%ClassModuleSquadronInterceptorExplicationTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassModuleSquadronStrikeExplication">
+    <Title>%ClassModuleSquadronStrikeExplicationTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassModuleSquadronLightExplication">
+    <Title>%ClassModuleSquadronLightExplicationTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassModuleSquadronHeavyExplication">
+    <Title>%ClassModuleSquadronHeavyExplicationTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassModuleOnlyOnePerFleet">
+    <Title>%ClassModuleOnlyOnePerFleetTitle</Title>
+  </GuiElement>
+  
+  <!-- Juggernaut Modules -->
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetHealth1">
+    <Title>%ModuleSupportJuggernautFleetHealth1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetHealth1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetDamage1">
+    <Title>%ModuleSupportJuggernautFleetDamage1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetDamage1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetEvasion1">
+    <Title>%ModuleSupportJuggernautFleetEvasion1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetEvasion1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetAccuracy1">
+    <Title>%ModuleSupportJuggernautFleetAccuracy1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetAccuracy1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetRepair1">
+    <Title>%ModuleSupportJuggernautFleetRepair1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetRepair1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautShipCostReduction1">
+    <Title>%ModuleSupportJuggernautShipCostReduction1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautShipCostReduction1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetAntiManpower1">
+    <Title>%ModuleSupportJuggernautFleetAntiManpower1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetAntiManpower1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetActionPoint1">
+    <Title>%ModuleSupportJuggernautFleetActionPoint1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetActionPoint1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetActionPoint2">
+    <Title>%ModuleSupportJuggernautFleetActionPoint2Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetActionPoint2.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetEMPDefense1">
+    <Title>%ModuleSupportJuggernautFleetEMPDefense1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetEMPDefense1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetShieldRegen1">
+    <Title>%ModuleSupportJuggernautFleetShieldRegen1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetShieldRegen1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetShieldRegen2">
+    <Title>%ModuleSupportJuggernautFleetShieldRegen2Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetShieldRegen2.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetShield1">
+    <Title>%ModuleSupportJuggernautFleetShield1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetShield1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautFleetShield2">
+    <Title>%ModuleSupportJuggernautFleetShield2Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautFleetShield2.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautLenser1">
+    <Title>%ModuleSupportJuggernautLenser1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautLenser1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautJammer1">
+    <Title>%ModuleSupportJuggernautJammer1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautJammer1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ModuleSupportJuggernautLockOn1">
+    <Title>%ModuleSupportJuggernautLockOn1Title</Title>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Modules\Juggernaut\ModuleSupportJuggernautLockOn1.png" />
+    </Icons>
+    <Sounds>
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+      <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+    </Sounds>
+  </ExtendedGuiElement>
 </Datatable>

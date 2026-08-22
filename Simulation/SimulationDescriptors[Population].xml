@@ -230,6 +230,7 @@
     <BinaryModifier   TargetProperty="MaximumSystemManpower"    Operation="Addition"     Left="$(BonusPopulationDefense)"        BinaryOperation="Multiplication" Right="$(PopulationCount)"     Priority="-2" Path="../ClassStarSystem" />
     <BinaryModifier   TargetProperty="NetSystemManpower"        Operation="Addition"     Left="$(BonusPopulationSystemManpower)" BinaryOperation="Multiplication" Right="$(PopulationCount)"     Priority="-2" Path="../ClassStarSystem" />
     <BinaryModifier   TargetProperty="EmpireManpower"           Operation="Addition"     Left="$(BonusPopulationEmpireManpower)" BinaryOperation="Multiplication" Right="$(PopulationCount)"     Priority="-2" Path="../ClassEmpire" />
+    <BinaryModifier   TargetProperty="EmpireManpowerBalance"    Operation="Addition"     Left="$(BonusPopulationEmpireManpower)" BinaryOperation="Multiplication" Right="$(PopulationCount)"     Priority="-2" Path="../ClassEmpire" TooltipHidden="true" />
 
     <BinaryModifier		TargetProperty="GroundBattleBombardmentAttackerDamagesMin"	Operation="Addition" Left="$(BonusPopulationGroundBattleBombardmentAttackerDamagesMin)" BinaryOperation="Multiplication" Right="$(PopulationCount)"  Priority="-2" Path="../ClassColonizedStarSystem" />
     <BinaryModifier		TargetProperty="GroundBattleBombardmentAttackerDamagesMax"	Operation="Addition" Left="$(BonusPopulationGroundBattleBombardmentAttackerDamagesMax)" BinaryOperation="Multiplication" Right="$(PopulationCount)"  Priority="-2" Path="../ClassColonizedStarSystem" />
@@ -375,4 +376,8 @@
     <Modifier TargetProperty="PopulationWithGrowth" Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true"/>
   </SimulationDescriptor>
 
+  <SimulationDescriptor Name="ClassPopulationCustomAffinity" Type="ClassPopulation">
+    <!-- Must have "PopulationMajor", meaning it is that empire's starting population type. If their population type has ClassPopulationCustomAffinity, then set IsCustomFaction to true -->
+    <Modifier TargetProperty="IsCustomFaction" Operation="Force" Value="1" TooltipHidden="true" Path="ClassPopulationEmpire,PopulationMajor/./ClassEmpire"/>  
+  </SimulationDescriptor>
 </Datatable>

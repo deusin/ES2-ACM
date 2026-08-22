@@ -4,13 +4,14 @@
   <!--  ************************************  -->
   <!--  ** SUPPORT MODULE GENERAL CLASSES **  -->
   <!--  ************************************  -->
-  <SimulationDescriptor Name="ClassModuleAntiCrewExplication"                    Type="ClassModuleAntiCrewExplication"/>
-  <SimulationDescriptor Name="ClassModuleBait1Explication"                       Type="ClassModuleBait1Explication"/>
-  <SimulationDescriptor Name="ClassModuleBait2Explication"                       Type="ClassModuleBait2Explication"/>
-  <SimulationDescriptor Name="ClassModuleJammer1Explication"                     Type="ClassModuleJammer1Explication"/>
-  <SimulationDescriptor Name="ClassModuleJammer2Explication"                     Type="ClassModuleJammer2Explication"/>
-  <SimulationDescriptor Name="ClassModuleOnlyOnePerFlotilla"                     Type="ClassModuleOnlyOnePerFlotilla"/>
-  <SimulationDescriptor Name="ClassModuleStrategicFromSpecialNodeExplication"    Type="ClassModuleStrategicFromSpecialNodeExplication"/>
+  <SimulationDescriptor Name="ClassModuleAntiCrewExplication"                   Type="ClassModuleAntiCrewExplication"/>
+  <SimulationDescriptor Name="ClassModuleBait1Explication"                      Type="ClassModuleBait1Explication"/>
+  <SimulationDescriptor Name="ClassModuleBait2Explication"                      Type="ClassModuleBait2Explication"/>
+  <SimulationDescriptor Name="ClassModuleJammer1Explication"                    Type="ClassModuleJammer1Explication"/>
+  <SimulationDescriptor Name="ClassModuleJammer2Explication"                    Type="ClassModuleJammer2Explication"/>
+  <SimulationDescriptor Name="ClassModuleOnlyOnePerFlotilla"                    Type="ClassModuleOnlyOnePerFlotilla"/>
+  <SimulationDescriptor Name="ClassModuleStrategicFromSpecialNodeExplication"   Type="ClassModuleStrategicFromSpecialNodeExplication"/>
+  <SimulationDescriptor Name="ClassModuleCarrierOnly"                           Type="ClassModuleCarrierOnly"/>
 
   <!-- ************************** -->
   <!-- ** ANTI CARRIER MODULES ** -->
@@ -19,26 +20,20 @@
   <!-- Lock-on Modules -->
   <SimulationDescriptor Name="ModuleSupportAntiCarrier" Type="ModuleSupportAntiCarrier">
     <Property Name="DamageBonusPerTargetCommandPointsFlotilla" BaseValue="0" MinValue="Negative"/>
-    <Property Name="DamageBonusPerTargetCommandPointsFlotilla_LockOnBasic" BaseValue="0" MinValue="Negative"/>
-    <Property Name="DamageBonusPerTargetCommandPointsFlotilla_LockOnAdvanced" BaseValue="0" MinValue="Negative"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="ModuleSupportAntiCarrier1Strategic4"      Type="ModuleSupportAntiCarrier">
-    <!-- <Modifier TargetProperty="DamageBonusPerTargetCommandPointsFlotilla" Operation="Addition" Value="0.04" Path="ModuleSupportAntiCarrier"/> -->
-    <Modifier TargetProperty="DamageBonusPerTargetCommandPointsFlotilla_LockOnBasic"    Operation="Addition" Value="0.08" Path="ModuleSupportAntiCarrier"/>
-    <Modifier TargetProperty="OffensiveMilitaryPower"                       Operation="Percent" Value="0.15" Path="../ClassShip"/>
-    <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="50" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
-    <BinaryModifier TargetProperty="TotalStrategic4Cost"    Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
+    <Modifier TargetProperty="DamageBonusPerTargetCommandPointsFlotilla" Operation="Maximum" Value="0.08" Path="ModuleSupportAntiCarrier"/>
+    <Modifier TargetProperty="OffensiveMilitaryPower"                    Operation="Percent" Value="0.15" Path="../ClassShip"/>
+    <BinaryModifier TargetProperty="TotalIndustryCost"                   Operation="Addition" Left="50" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="TotalStrategic4Cost"                 Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="ModuleSupportAntiCarrier2Strategic6"      Type="ModuleSupportAntiCarrier">
-    <!-- <Modifier TargetProperty="DamageBonusPerTargetCommandPointsFlotilla" Operation="Addition" Value="0.06" Path="ModuleSupportAntiCarrier"/> -->
-    <!-- Showing 12% is GUI-only; the effect will actually cap out at 8%, with the incremental 4% in reality covered by the separate variable -->
-    <Modifier TargetProperty="DamageBonusPerTargetCommandPointsFlotilla_LockOnBasic"    Operation="Addition" Value="0.12" Path="ModuleSupportAntiCarrier"/>
-    <Modifier TargetProperty="DamageBonusPerTargetCommandPointsFlotilla_LockOnAdvanced"    Operation="Addition" Value="0.04" Path="ModuleSupportAntiCarrier" TooltipHidden="true"/>
-    <Modifier TargetProperty="OffensiveMilitaryPower"                       Operation="Percent" Value="0.2" Path="../ClassShip"/>
-    <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="70" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
-    <BinaryModifier TargetProperty="TotalStrategic2Cost"    Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
+    <Modifier TargetProperty="DamageBonusPerTargetCommandPointsFlotilla" Operation="Maximum" Value="0.12" Path="ModuleSupportAntiCarrier"/>
+    <Modifier TargetProperty="OffensiveMilitaryPower"                    Operation="Percent" Value="0.2" Path="../ClassShip"/>
+    <BinaryModifier TargetProperty="TotalIndustryCost"                   Operation="Addition" Left="70" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="TotalStrategic2Cost"                 Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <!-- ************************** -->
@@ -513,7 +508,7 @@
 
   <SimulationDescriptor Name="ModuleSupportEMPWeaponDefense1Strategic4" Type="ModuleSupport">
     <Modifier TargetProperty="EMPWeaponDefense" Operation="Addition" Value="0.5" Path="ClassModule" TooltipHidden="true"/>
-    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.1" Path="ModuleSupportEMPWeaponDefense"/>
+    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.05" Path="ModuleSupportEMPWeaponDefense"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="50" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
     <BinaryModifier TargetProperty="TotalStrategic4Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
@@ -564,6 +559,13 @@
   <!--  ********************************************  -->
 
   <!--  Energy Enhancers  -->
+  <SimulationDescriptor Name="ModuleSupportEnergyEnhancer"                   Type="ModuleSupportEnergyEnhancer">
+    <Property Name="DamageEnergy"                BaseValue="0"/>
+    <Property Name="CriticalHitChance"                BaseValue="0"/>
+    <Modifier TargetProperty="DamageEnergy"            Operation="Addition" Value="$(DamageEnergy)"       Path="../ClassShip"     Priority="1"/>
+    <Modifier TargetProperty="CriticalHitChanceEnergy" Operation="Addition" Value="$(CriticalHitChance)"       Path="../ClassShip"     Priority="1"/>
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="ModuleSupportEnergyEnhancer1" Type="ModuleSupportEnergyEnhancer">
     <Modifier TargetProperty="DamageEnergy" Operation="Addition" Value="0.20" Path="ModuleSupportEnergyEnhancer"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="50" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
@@ -571,26 +573,30 @@
   <SimulationDescriptor Name="ModuleSupportEnergyEnhancer2Strategic2" Type="ModuleSupportEnergyEnhancer">
     <Modifier TargetProperty="DamageEnergy" Operation="Addition" Value="0.25" Path="ModuleSupportEnergyEnhancer"/>
     <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.05" Path="ModuleSupportEnergyEnhancer"/>
-    <Modifier TargetProperty="OffensiveMilitaryPower" Operation="Percent" Value="0.05" Path="../ClassShip"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="60" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
     <BinaryModifier TargetProperty="TotalStrategic2Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="ModuleSupportEnergyEnhancer3Strategic4" Type="ModuleSupportEnergyEnhancer">
-    <Modifier TargetProperty="DamageEnergy" Operation="Addition" Value="0.30" Path="ModuleSupportEnergyEnhancer"/>
-    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.1" Path="ModuleSupportEnergyEnhancer"/>
-    <Modifier TargetProperty="OffensiveMilitaryPower" Operation="Percent" Value="0.06" Path="../ClassShip"/>
+    <Modifier TargetProperty="DamageEnergy" Operation="Addition" Value="0.35" Path="ModuleSupportEnergyEnhancer"/>
+    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.08" Path="ModuleSupportEnergyEnhancer"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="70" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
     <BinaryModifier TargetProperty="TotalStrategic4Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="ModuleSupportEnergyEnhancer4Strategic6" Type="ModuleSupportEnergyEnhancer">
-    <Modifier TargetProperty="DamageEnergy" Operation="Addition" Value="0.35" Path="ModuleSupportEnergyEnhancer"/>
-    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.15" Path="ModuleSupportEnergyEnhancer"/>
-    <Modifier TargetProperty="OffensiveMilitaryPower" Operation="Percent" Value="0.07" Path="../ClassShip"/>
+    <Modifier TargetProperty="DamageEnergy" Operation="Addition" Value="0.45" Path="ModuleSupportEnergyEnhancer"/>
+    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.1" Path="ModuleSupportEnergyEnhancer"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="80" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
     <BinaryModifier TargetProperty="TotalStrategic6Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <!--  Projectile Enhancers  -->
+  <SimulationDescriptor Name="ModuleSupportProjectileEnhancer"                   Type="ModuleSupportProjectileEnhancer">
+    <Property Name="DamageProjectile"                BaseValue="0"/>
+    <Property Name="CriticalHitChance"                BaseValue="0"/>
+    <Modifier TargetProperty="DamageProjectile"            Operation="Addition" Value="$(DamageProjectile)"       Path="../ClassShip"     Priority="1"/>
+    <Modifier TargetProperty="CriticalHitChanceProjectile" Operation="Addition" Value="$(CriticalHitChance)"       Path="../ClassShip"     Priority="1"/>
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="ModuleSupportProjectileEnhancer1" Type="ModuleSupportProjectileEnhancer">
     <Modifier TargetProperty="DamageProjectile" Operation="Addition" Value="0.20" Path="ModuleSupportProjectileEnhancer"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="50" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
@@ -598,21 +604,18 @@
   <SimulationDescriptor Name="ModuleSupportProjectileEnhancer2Strategic1" Type="ModuleSupportProjectileEnhancer">
     <Modifier TargetProperty="DamageProjectile" Operation="Addition" Value="0.25" Path="ModuleSupportProjectileEnhancer"/>
     <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.05" Path="ModuleSupportProjectileEnhancer"/>
-    <Modifier TargetProperty="OffensiveMilitaryPower" Operation="Percent" Value="0.05" Path="../ClassShip"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="60" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
     <BinaryModifier TargetProperty="TotalStrategic1Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="ModuleSupportProjectileEnhancer3Strategic3" Type="ModuleSupportProjectileEnhancer">
-    <Modifier TargetProperty="DamageProjectile" Operation="Addition" Value="0.30" Path="ModuleSupportProjectileEnhancer"/>
-    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.1" Path="ModuleSupportProjectileEnhancer"/>
-    <Modifier TargetProperty="OffensiveMilitaryPower" Operation="Percent" Value="0.06" Path="../ClassShip"/>
+    <Modifier TargetProperty="DamageProjectile" Operation="Addition" Value="0.35" Path="ModuleSupportProjectileEnhancer"/>
+    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.08" Path="ModuleSupportProjectileEnhancer"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="70" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
     <BinaryModifier TargetProperty="TotalStrategic3Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="ModuleSupportProjectileEnhancer4Strategic5" Type="ModuleSupportProjectileEnhancer">
-    <Modifier TargetProperty="DamageProjectile" Operation="Addition" Value="0.35" Path="ModuleSupportProjectileEnhancer"/>
-    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.15" Path="ModuleSupportProjectileEnhancer"/>
-    <Modifier TargetProperty="OffensiveMilitaryPower" Operation="Percent" Value="0.07" Path="../ClassShip"/>
+    <Modifier TargetProperty="DamageProjectile" Operation="Addition" Value="0.45" Path="ModuleSupportProjectileEnhancer"/>
+    <Modifier TargetProperty="CriticalHitChance" Operation="Addition" Value="0.1" Path="ModuleSupportProjectileEnhancer"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="80" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
     <BinaryModifier TargetProperty="TotalStrategic5Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
@@ -623,7 +626,7 @@
   <SimulationDescriptor Name="ModuleSupportExploration" Type="ModuleSupportExploration">
     <Property Name="VisionRange"/>
     <Property Name="MaximumMovement"/>
-    <Property Name="MaximumShipProbeStock"/>
+    <Property Name="MaximumShipProbeStock" RoundingFunction="Ceil"/> 
     <Property Name="NetShipProbe"/>
     <Modifier TargetProperty="VisionRange" Operation="Addition" Value="$(VisionRange)" Path="../ClassShip" Priority="1"/>
     <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="$(MaximumMovement)" Path="../ClassShip" Priority="1"/>
@@ -948,46 +951,46 @@
   <!-- ***** SHIELD REGENERATOR  **** -->
   <!-- ****************************** -->
 
-  <!-- Flotilla Shield Regenerator - flat rate shield repair -->
+  <!-- Flotilla Shield Regenerator - flotilla-wide, % -->
   <SimulationDescriptor Name="ModuleSupportShieldRegenerate"                         Type="ModuleSupportShieldRegenerate">
-    <Property Name="ShieldRegeneratePerSecond"                BaseValue="0"/>
-    <Modifier TargetProperty="ShieldRegeneratePerSecond"      Operation="Multiplication" Value="$(Multiplier)" TooltipHidden="true"/>
-    <Modifier TargetProperty="ShieldRegeneratePerSecond"      Operation="Addition" Value="$(ShieldRegeneratePerSecond)"       Path="../ClassGarrison/ClassShip"     Priority="1"/>
+    <Property Name="FlotillaShieldRegeneratePerSecondDynamic" BaseValue="0"/>
+    <Modifier TargetProperty="FlotillaShieldRegeneratePerSecondDynamic"     Operation="Addition" Value="$(FlotillaShieldRegeneratePerSecondDynamic)" Path="../ClassShip"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="ModuleSupportShieldRegenerate1Strategic4"              Type="ModuleSupportShieldRegenerate">
-    <Modifier TargetProperty="ShieldRegeneratePerSecond"       Operation="Addition" Value="150"    Path="ModuleSupportShieldRegenerate"/>
-    <Modifier TargetProperty="DefensiveMilitaryPower"   Operation="Percent" Value="0.1" Path="../ClassShip"/>
+    <Modifier TargetProperty="FlotillaShieldRegeneratePerSecondDynamic"       Operation="Addition" Value="0.01"    Path="ModuleSupportShieldRegenerate"/>
+    <Modifier TargetProperty="DefensiveMilitaryPower"     Operation="Percent" Value="0.1" Path="../ClassShip"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="60" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
-    <BinaryModifier TargetProperty="TotalStrategic4Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="TotalStrategic4Cost"  Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="ModuleSupportShieldRegenerate2Strategic6"              Type="ModuleSupportShieldRegenerate">
-    <Modifier TargetProperty="ShieldRegeneratePerSecond"       Operation="Addition" Value="250"    Path="ModuleSupportShieldRegenerate"/>
-    <Modifier TargetProperty="DefensiveMilitaryPower"   Operation="Percent" Value="0.2" Path="../ClassShip"/>
+    <Modifier TargetProperty="FlotillaShieldRegeneratePerSecondDynamic"       Operation="Addition" Value="0.02"    Path="ModuleSupportShieldRegenerate"/>
+    <Modifier TargetProperty="DefensiveMilitaryPower"     Operation="Percent" Value="0.2" Path="../ClassShip"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="80" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
-    <BinaryModifier TargetProperty="TotalStrategic6Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="TotalStrategic6Cost"  Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <!-- *************************** -->
   <!-- ***** SHIELD RELOADER  **** -->
   <!-- *************************** -->
 
-  <!-- Shield Reloader - self-only, percentage based -->
+  <!-- Shield Reloader - self-only, flat -->
   <SimulationDescriptor Name="ModuleSupportShieldReload" Type="ModuleSupportShieldReload">
-    <Property Name="ShieldRegeneratePerSecondDynamic"                BaseValue="0"/>
-    <Modifier TargetProperty="ShieldRegeneratePerSecondDynamic"      Operation="Addition" Value="$(ShieldRegeneratePerSecondDynamic)"       Path="../ClassShip"     Priority="1"/>
+    <Property Name="ShieldRegeneratePerSecond"                BaseValue="0"/>
+    <Modifier TargetProperty="ShieldRegeneratePerSecond"      Operation="Multiplication" Value="$(Multiplier)" TooltipHidden="true"/>
+    <Modifier TargetProperty="ShieldRegeneratePerSecond"      Operation="Addition" Value="$(ShieldRegeneratePerSecond)"       Path="../ClassShip"     Priority="1"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="ModuleSupportShieldReload1Strategic4"              Type="ModuleSupportShieldReload">
-    <Modifier TargetProperty="ShieldRegeneratePerSecondDynamic"       Operation="Addition" Value="0.01"    Path="ModuleSupportShieldReload"/>
+    <Modifier TargetProperty="ShieldRegeneratePerSecond"       Operation="Addition" Value="150"    Path="ModuleSupportShieldReload"/>
     <Modifier TargetProperty="DefensiveMilitaryPower"   Operation="Percent" Value="0.2" Path="../ClassShip"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="100" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
     <BinaryModifier TargetProperty="TotalStrategic4Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="ModuleSupportShieldReload2Strategic6"              Type="ModuleSupportShieldReload">
-    <Modifier TargetProperty="ShieldRegeneratePerSecondDynamic"       Operation="Addition" Value="0.02"    Path="ModuleSupportShieldReload"/>
+    <Modifier TargetProperty="ShieldRegeneratePerSecond"       Operation="Addition" Value="250"    Path="ModuleSupportShieldReload"/>
     <Modifier TargetProperty="DefensiveMilitaryPower"   Operation="Percent" Value="0.4" Path="../ClassShip"/>
     <BinaryModifier TargetProperty="TotalIndustryCost"    Operation="Addition" Left="120" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>
     <BinaryModifier TargetProperty="TotalStrategic6Cost"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Multiplier)" Path="../ClassShip" TooltipHidden="true"/>

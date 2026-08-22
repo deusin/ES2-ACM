@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <ExtendedGuiElement Name="PlanetImprovementInfluence4">
+    <Title>%PlanetImprovementInfluence4Title</Title>
+    <Description>%PlanetImprovementInfluence4Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementInfluence4Small" />
+      <Icon Size="Medium" Path="Bitmaps/Atlased/GameVariables/FIDSIEmpire"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementInfluence4Large" />
+      <Icon Size="Category" Path="Bitmaps/Atlased/GameVariables/FIDSIInfluence" />
+    </Icons>
+    <Color Red="181" Green="93" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetImprovementTemplarsScience4">
+    <Title>%PlanetImprovementScience4Title</Title>
+    <Description>%PlanetImprovementScience4Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementScience4Small" />
+      <Icon Size="Medium" Path="Bitmaps/Atlased/GameVariables/FIDSIScienceMedium"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementScience4Large" />
+      <Icon Size="Category" Path="Bitmaps/Atlased/GameVariables/FIDSIScience" />
+    </Icons>
+    <Color Red="82" Green="201" Blue="231" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetImprovementManpower1">
+    <Title>%PlanetImprovementManpower1Title</Title>
+    <Description>%PlanetImprovementManpower1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\PlanetaryImprovementManpower1Small.png" />
+      <Icon Size="Medium" Path="EmpireManPowerMedium" />
+      <Icon Size="Large" Path="Textures\Constructibles\PlanetaryImprovementManpower1Large.png" />
+      <Icon Size="Category" Path="Bitmaps/Atlased/GameVariables/CategoryManpowerSystemSmall" />
+    </Icons>
+    <Color Red="181" Green="93" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetImprovementManpower2">
+    <Title>%PlanetImprovementManpower2Title</Title>
+    <Description>%PlanetImprovementManpower2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\PlanetaryImprovementManpower2Small.png" />
+      <Icon Size="Medium" Path="EmpireManPowerMedium" />
+      <Icon Size="Large" Path="Textures\Constructibles\PlanetaryImprovementManpower2Large.png" />
+      <Icon Size="Category" Path="Bitmaps/Atlased/GameVariables/CategoryManpowerSystemSmall" />
+    </Icons>
+    <Color Red="181" Green="93" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetImprovementManpower3">
+    <Title>%PlanetImprovementManpower3Title</Title>
+    <Description>%PlanetImprovementManpower3Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\PlanetaryImprovementManpower3Small.png" />
+      <Icon Size="Medium" Path="EmpireManPowerMedium" />
+      <Icon Size="Large" Path="Textures\Constructibles\PlanetaryImprovementManpower3Large.png" />
+      <Icon Size="Category" Path="Bitmaps/Atlased/GameVariables/CategoryManpowerSystemSmall" />
+    </Icons>
+    <Color Red="181" Green="93" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetImprovementManpower4">
+    <Title>%PlanetImprovementManpower4Title</Title>
+    <Description>%PlanetImprovementManpower4Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures\Constructibles\PlanetaryImprovementManpower4Small.png" />
+      <Icon Size="Medium" Path="EmpireManPowerMedium" />
+      <Icon Size="Large" Path="Textures\Constructibles\PlanetaryImprovementManpower4Large.png" />
+      <Icon Size="Category" Path="Bitmaps/Atlased/GameVariables/CategoryManpowerSystemSmall" />
+    </Icons>
+    <Color Red="181" Green="93" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+</Datatable>
