@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd" >
+  <!-- Used to make custom population bonuses -->
+  <!-- First one is for the actual bonus -->
+  <!-- Second one is for population boosts -->
+  <!-- Last one "ClassPopulationAssimilated" is for Horatio Gene Splicing -->
+  <!-- Ardent Mages +2 IDS -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitArdentIDS" Type="ClassPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2" Path="ClassPopulation" />
+    <Modifier TargetProperty="BonusPopulationDust" Operation="Addition" Value="2" Path="ClassPopulation" />
+    <Modifier TargetProperty="BonusPopulationScience" Operation="Addition" Value="2" Path="ClassPopulation" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitArdentIDS" Type="WithPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="1" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitArdentIDS" />
+    <Modifier TargetProperty="BonusPopulationScience" Operation="Addition" Value="1" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitArdentIDS" />
+    <Modifier TargetProperty="BonusPopulationDust" Operation="Addition" Value="1" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitArdentIDS" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetArdentIDS" Type="ClassPopulationAssimilated" >
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="1" Path="ClassPopulation" />
+    <Modifier TargetProperty="BonusPopulationDust" Operation="Addition" Value="1" Path="ClassPopulation" />
+    <Modifier TargetProperty="BonusPopulationScience" Operation="Addition" Value="1" Path="ClassPopulation" />
+  </SimulationDescriptor>
+  
+  <!-- Drakken +2 Influence on Anomalies -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryDrakkenInfluenceAnomaly" Type="ClassPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationPrestige"        Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetAnomaly" />
+    <BinaryModifier TargetProperty="BonusPopulationPrestige"  Operation="Addition" Left="2"  BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true" Path="ClassPopulation" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryDrakkenInfluenceAnomaly" Type="WithPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationPrestige"        Operation="Addition"  Value="2"  Path="FAKEFORGUI/./PlanetAnomaly" />
+    <Modifier TargetProperty="BonusPopulationPrestige"        Operation="Addition"    Value="2"   Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetAnomaly/ClassPopulationPlanetModifiersTraitSecondaryDrakkenInfluenceAnomaly" TooltipHidden="true" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetDrakkenInfluenceAnomaly" Type="ClassPopulationAssimilated" >
+    <Modifier TargetProperty="BonusPopulationPrestige"        Operation="Addition"  Value="2"  Path="FAKEFORGUI/./PlanetAnomaly" />
+    <BinaryModifier TargetProperty="BonusPopulationPrestige"  Operation="Addition"  Left="2"   BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Morgawr +1 Influence on Fertile -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile" Type="ClassPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationPrestige" Operation="Addition"    Left="1" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile" Type="WithPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationPrestige" Operation="Addition"    Left="1" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetMorgawrInfluenceFertile" Type="ClassPopulationAssimilated" >
+    <Modifier TargetProperty="BonusPopulationPrestige" Operation="Addition"  Value="1"/>
+  </SimulationDescriptor>
+
+  <!-- Necrophages -2 Food -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPhagesFood" Type="ClassPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationFood" Operation="Subtraction" Value="2" Path="ClassPopulation" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPhagesFood" Type="WithPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPhagesFood" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetPhagesFood" Type="ClassPopulationAssimilated" >
+    <Modifier TargetProperty="BonusPopulationFood" Operation="Addition" Value="1" Path="ClassPopulation" />
+  </SimulationDescriptor>
+
+  <!-- Roving Clans +3 Dust on Anomalies -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryRovingDustAnomaly" Type="ClassPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationDust"       Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetAnomaly" />
+    <BinaryModifier TargetProperty="BonusPopulationDust" Operation="Addition" Left="3"  BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true" Path="ClassPopulation" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryRovingDustAnomaly" Type="WithPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationDust"        Operation="Addition"  Value="3"  Path="FAKEFORGUI/./PlanetAnomaly" />
+    <Modifier TargetProperty="BonusPopulationDust"   Operation="Addition"    Value="3"   Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetAnomaly/ClassPopulationPlanetModifiersTraitSecondaryRovingDustAnomaly" TooltipHidden="true" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetRovingDustAnomaly" Type="ClassPopulationAssimilated" >
+    <Modifier TargetProperty="BonusPopulationDust"        Operation="Addition"  Value="2"  Path="FAKEFORGUI/./PlanetAnomaly" />
+    <BinaryModifier TargetProperty="BonusPopulationDust"  Operation="Addition"  Left="2"   BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Wild Walkers +3 Industry on Fertile -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" Type="ClassPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
+    <BinaryModifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true" Path="ClassPopulation" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitWalkersIndustry" Type="WithPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
+    <BinaryModifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(PlanetIsTeemings)" TooltipHidden="true" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitWalkersIndustry" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetWalkersIndustry" Type="ClassPopulationAssimilated" >
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition"  Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2" TooltipHidden="true" Path="ClassPopulation" />
+  </SimulationDescriptor>
+</Datatable>

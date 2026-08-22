@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd" >
+  <!-- Definitions for custom population modifier traits -->
+  <!-- Ardent Mages +2 IDS -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryArdentIDS" SubCategory="Secondary" ShowInCustom="false" Cost="10" >
+    <Tags>BonusPopulationIndustry, BonusPopulationScience, BonusPopulationDust</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitArdentIDS" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--+2 IDS -->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitArdentIDS" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitArdentIDS" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetArdentIDS" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+  
+  <!-- Drakken +2 Influence on Anomalies -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryDrakkenInfluenceAnomaly" SubCategory="Secondary" ShowInCustom="false" Cost="10" >
+    <Tags>PlanetAnomaly,BonusPopulationPrestige</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryDrakkenInfluenceAnomaly" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--+2 Influence per Population on Planet on Anomalies-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryDrakkenInfluenceAnomaly" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetDrakkenInfluenceAnomaly" />
+      </Modifier>
+    </Modifiers>
+    
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetInfluenceAnomaly01" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Morgawr +1 Influence on Fertile -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryMorgawrInfluenceFertile" SubCategory="Secondary" ShowInCustom="false" Cost="5" >
+    <Tags>PlanetGameplayTypeTeeming,BonusPopulationPrestige</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!-- +1 Influence per Population -->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetMorgawrInfluenceFertile" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Necrophages -2 Food -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitPhagesFood" SubCategory="Secondary" ShowInCustom="false" Cost="-5" >
+    <Tags>BonusPopulationFood</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPhagesFood" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!-- +2 Production -->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPhagesFood" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPhagesFood" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetPhagesFood" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Roving Clans +3 Dust on Anomalies -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryRovingDustAnomaly" SubCategory="Secondary" ShowInCustom="false" Cost="10" >
+    <Tags>PlanetAnomaly,BonusPopulationDust</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryRovingDustAnomaly" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--+3 Dust per Population on Planet on Anomalies-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryRovingDustAnomaly" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryRovingDustAnomaly" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetRovingDustAnomaly" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Wild Walkers +3 Production on Fertile -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitWalkersIndustry" SubCategory="Secondary" ShowInCustom="false" Cost="5" >
+    <Tags>PlanetGameplayTypeTeeming,BonusPopulationIndustry</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitWalkersIndustry" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--+3 Industry on Fertile-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetWalkersIndustry" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+</Datatable>
