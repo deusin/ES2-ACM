@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<Datatable>
+
+<!-- ################################### -->
+<!-- # ShipDesignHeroSmall01Attacker   # -->
+<!-- # HeroClassAdmiral                # -->
+<!-- # ShipDesignHeroSmall02Explorer   # -->
+<!-- # HeroClassAdventurer             # -->
+<!-- # ShipDesignHeroSmall03Supporter  # -->
+<!-- # HeroClassCorporate              # -->
+<!-- # ShipDesignHeroSmall04Defender   # -->
+<!-- # HeroClassAdministrator          # -->
+<!-- ################################### -->
+
+<!-- The Faction HERO ship hulls -->
+<!-- ATTACKER -->
+    <SimulationDescriptor Name="AFHERHullATTMedium01Sophons"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01Terrans"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01TimeLords"            Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01Unfallen"             Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01Cravers"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01Venetians"            Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01Vampirilis"           Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01Vaulters"             Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01MajorHisshos"         Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01UmbralChoir"          Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullATTMedium01Templars"             Type="ClassHull"/>
+<!-- DEFENDER -->
+    <SimulationDescriptor Name="AFHERHullDEFMedium01Sophons"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullDEFMedium01Terrans"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullDEFMedium01Horatio"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullDEFMedium01TimeLords"            Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullDEFMedium01Unfallen"             Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullDEFMedium01Cravers"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullDEFMedium01Vaulters"             Type="ClassHull"/>
+<!-- SUPPORTER -->
+    <SimulationDescriptor Name="AFHERHullSUPMedium02Sophons"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullSUPMedium02Terrans"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullSUPMedium02Horatio"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullSUPMedium02TimeLords"            Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullSUPMedium02Venetians"            Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullSUPMedium02Vampirilis"           Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullSUPMedium02MajorHisshos"         Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullSUPMedium02UmbralChoir"          Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullSUPMedium02Templars"             Type="ClassHull"/>
+<!-- EXPLORER -->
+    <SimulationDescriptor Name="AFHERHullEXPMedium02Sophons"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullEXPMedium02Horatio"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullEXPMedium02Unfallen"             Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullEXPMedium02Cravers"              Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullEXPMedium02Venetians"            Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullEXPMedium02Vampirilis"           Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullEXPMedium02Vaulters"             Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullEXPMedium02MajorHisshos"         Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullEXPMedium02UmbralChoir"          Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullEXPMedium02Templars"             Type="ClassHull"/>
+<!-- THE MINOR FACTIONS -->
+    <SimulationDescriptor Name="AFHERHullMedium01MinorFactionInsectoid"   Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullMedium01MinorFactionPrimitive"   Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullMedium01MinorFactionAdvanced"    Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullMedium01MinorFactionPirates"     Type="ClassHull"/>
+<!-- SPECIAL HULLs -->
+    <SimulationDescriptor Name="AFHERHullMinFacSPEC01"                    Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERHullMinFacSPEC02"                    Type="ClassHull"/>
+<!-- THE QUEST HEROES -->
+    <SimulationDescriptor Name="AFHERQuest1ATTMedium01Terrans"            Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERQuest2SUPMedium02Terrans"            Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERQuest3EXPMedium02Terrans"            Type="ClassHull"/>
+    <SimulationDescriptor Name="AFHERQuest1ATTMedium01Horatio"            Type="ClassHull"/>
+<!-- Endless HERO Reyaryn Cious -->
+    <SimulationDescriptor Name="AFHEREndlessQuestATTMedium01Cravers"      Type="ClassHull"/>
+<!-- The Pirates Leader Fleet -->
+     <SimulationDescriptor Name="PIRLEDSMLATT"                            Type="ClassHull"/>
+     <SimulationDescriptor Name="PIRLEDMEDATT"                            Type="ClassHull"/>
+<!-- The Academy Quest Extremists Fleet -->
+     <SimulationDescriptor Name="ACDHERMEDATT"                            Type="ClassHull"/>
+     <SimulationDescriptor Name="ACDHERCARRIER"                           Type="ClassHull"/>
+
+<!-- The extra HERO cores -->
+  <SimulationDescriptor Name="ClassSectionCoreAFHEROMedium"               Type="ClassSectionCore">
+    <!-- for a normal medium support hull: var=9500 -->
+    <!-- to match hero status: old var=12000  new var=9900 -->
+    <Modifier TargetProperty="MaximumHealth"                              Operation="Addition"      Value="9900" Path="ClassSection"/>
+  </SimulationDescriptor>
+<!-- the HERO small Explorer core -->
+<!-- obsolte since using the medium desgin -->
+  <SimulationDescriptor Name="ClassSectionCoreAFHERHeroExpl"              Type="ClassSectionCore">
+    <!-- for a normal Explorer hull var=1500 -->
+    <Modifier TargetProperty="MaximumHealth"                              Operation="Addition"      Value="3500" Path="ClassSection"/>
+  </SimulationDescriptor>
+
+</Datatable>
