@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+ 
+
+	
+<!-- Reductions -->
+    
+	<GuiElement Name="Reduction_SilentSands">
+        <Title>%Reduction_SilentSands_Title</Title>
+        <Description>%Reduction_SilentSands_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/SilentSands_Small" />
+            <Icon Size="Large" Path="Gui/SilentSands_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+        
+    <GuiElement Name="Reduction_PerpetualSandstorms">
+        <Title>%Reduction_PerpetualSandstorms_Title</Title>
+        <Description>%Reduction_PerpetualSandstorms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/PerpetualSandstorms_Small" />
+            <Icon Size="Large" Path="Gui/PerpetualSandstorms_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_MinimalRotation">
+        <Title>%Reduction_MinimalRotation_Title</Title>
+        <Description>%Reduction_MinimalRotation_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MinimalRotation_Small" />
+            <Icon Size="Large" Path="Gui/MinimalRotation_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>   
+    
+     <GuiElement Name="Reduction_FastRotation">
+        <Title>%Reduction_FastRotation_Title</Title>
+        <Description>%Reduction_FastRotation_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/FastRotation_Small" />
+            <Icon Size="Large" Path="Gui/FastRotation_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement> 
+    
+    <GuiElement Name="Reduction_DangerousFlora">
+        <Title>%Reduction_DangerousFlora_Title</Title>
+        <Description>%Reduction_DangerousFlora_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/DangerousFlora_Small" />
+            <Icon Size="Large" Path="Gui/DangerousFlora_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_NaturalIsotopes">
+        <Title>%Reduction_NaturalIsotopes_Title</Title>
+        <Description>%Reduction_NaturalIsotopes_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/NaturalIsotopes_Small" />
+            <Icon Size="Large" Path="Gui/NaturalIsotopes_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_ExtremePressure">
+        <Title>%Reduction_ExtremePressure_Title</Title>
+        <Description>%Reduction_ExtremePressure_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/ExtremePressure_Small" />
+            <Icon Size="Large" Path="Gui/ExtremePressure_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_GlobalWindstorms">
+        <Title>%Reduction_GlobalWindstorms_Title</Title>
+        <Description>%Reduction_GlobalWindstorms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/GlobalWindstorms_Small" />
+            <Icon Size="Large" Path="Gui/GlobalWindstorms_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_InterconnectedLife">
+        <Title>%Reduction_InterconnectedLife_Title</Title>
+        <Description>%Reduction_InterconnectedLife_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/InterconnectedLife_Small" />
+            <Icon Size="Large" Path="Gui/InterconnectedLife_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>   
+
+    <GuiElement Name="Reduction_DeadlyIcestorms">
+        <Title>%Reduction_DeadlyIcestorms_Title</Title>
+        <Description>%Reduction_DeadlyIcestorms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/DeadlyIcestorms_Small" />
+            <Icon Size="Large" Path="Gui/DeadlyIcestorms_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>   
+    
+    <GuiElement Name="Reduction_BurningWasteland">
+        <Title>%Reduction_BurningWasteland_Title</Title>
+        <Description>%Reduction_BurningWasteland_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/BurningWasteland_Small" />
+            <Icon Size="Large" Path="Gui/BurningWasteland_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_GlowingPlains">
+        <Title>%Reduction_GlowingPlains_Title</Title>
+        <Description>%Reduction_GlowingPlains_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/GlowingPlains_Small" />
+            <Icon Size="Large" Path="Gui/GlowingPlains_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_TimeFlux">
+        <Title>%Reduction_TimeFlux_Title</Title>
+        <Description>%Reduction_TimeFlux_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/TimeFlux_Small" />
+            <Icon Size="Large" Path="Gui/TimeFlux_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+
+    <GuiElement Name="Reduction_NaniteDebris">
+        <Title>%Reduction_NaniteDebris_Title</Title>
+        <Description>%Reduction_NaniteDebris_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/NaniteDebris_Small" />
+            <Icon Size="Large" Path="Gui/NaniteDebris_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_VoidWhispers">
+        <Title>%Reduction_VoidWhispers_Title</Title>
+        <Description>%Reduction_VoidWhispers_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/VoidWhispers_Small" />
+            <Icon Size="Large" Path="Gui/VoidWhispers_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_ShiftingGround">
+        <Title>%Reduction_ShiftingGround_Title</Title>
+        <Description>%Reduction_ShiftingGround_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/ShiftingGround_Small" />
+            <Icon Size="Large" Path="Gui/ShiftingGround_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_CryogenicVolcano">
+        <Title>%Reduction_CryogenicVolcano_Title</Title>
+        <Description>%Reduction_CryogenicVolcano_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/CryogenicVolcano_Small" />
+            <Icon Size="Large" Path="Gui/CryogenicVolcano_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_BallisticEjecta">
+        <Title>%Reduction_BallisticEjecta_Title</Title>
+        <Description>%Reduction_BallisticEjecta_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/BallisticEjecta_Small" />
+            <Icon Size="Large" Path="Gui/BallisticEjecta_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>   
+    
+    <GuiElement Name="Reduction_HistoricalApocalypse">
+        <Title>%Reduction_HistoricalApocalypse_Title</Title>
+        <Description>%Reduction_HistoricalApocalypse_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/HistoricalApocalypse_Small" />
+            <Icon Size="Large" Path="Gui/HistoricalApocalypse_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_PerpetualVortex">
+        <Title>%Reduction_PerpetualVortex_Title</Title>
+        <Description>%Reduction_PerpetualVortex_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/PerpetualVortex_Small" />
+            <Icon Size="Large" Path="Gui/PerpetualVortex_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_DeadWaters">
+        <Title>%Reduction_DeadWaters_Title</Title>
+        <Description>%Reduction_DeadWaters_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/DeadWaters_Small" />
+            <Icon Size="Large" Path="Gui/DeadWaters_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_NanoToxin">
+        <Title>%Reduction_NanoToxin_Title</Title>
+        <Description>%Reduction_NanoToxin_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/NanoToxin_Small" />
+            <Icon Size="Large" Path="Gui/NanoToxin_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_VanishingFog">
+        <Title>%Reduction_VanishingFog_Title</Title>
+        <Description>%Reduction_VanishingFog_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/VanishingFog_Small" />
+            <Icon Size="Large" Path="Gui/VanishingFog_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>   
+    
+    <GuiElement Name="Reduction_MineralPoor">
+        <Title>%Reduction_MineralPoor_Title</Title>
+        <Description>%Reduction_MineralPoor_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MineralPoor_Small" />
+            <Icon Size="Large" Path="Gui/MineralPoor_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_InvasiveOvergrowth">
+        <Title>%Reduction_InvasiveOvergrowth_Title</Title>
+        <Description>%Reduction_InvasiveOvergrowth_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/InvasiveOvergrowth_Small" />
+            <Icon Size="Large" Path="Gui/InvasiveOvergrowth_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_MegaFauna">
+        <Title>%Reduction_MegaFauna_Title</Title>
+        <Description>%Reduction_MegaFauna_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MegaFauna_Small" />
+            <Icon Size="Large" Path="Gui/MegaFauna_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_InsectSwarms">
+        <Title>%Reduction_InsectSwarms_Title</Title>
+        <Description>%Reduction_InsectSwarms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/InsectSwarms_Small" />
+            <Icon Size="Large" Path="Gui/InsectSwarms_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_AbrasiveTerrain">
+        <Title>%Reduction_AbrasiveTerrain_Title</Title>
+        <Description>%Reduction_AbrasiveTerrain_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/AbrasiveTerrain_Small" />
+            <Icon Size="Large" Path="Gui/AbrasiveTerrain_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_CryptobioticOrganisms">
+        <Title>%Reduction_CryptobioticOrganisms_Title</Title>
+        <Description>%Reduction_CryptobioticOrganisms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/CryptobioticOrganisms_Small" />
+            <Icon Size="Large" Path="Gui/CryptobioticOrganisms_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>   
+
+    <GuiElement Name="Reduction_HiddenVaults">
+        <Title>%Reduction_HiddenVaults_Title</Title>
+        <Description>%Reduction_HiddenVaults_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/HiddenVaults_Small" />
+            <Icon Size="Large" Path="Gui/HiddenVaults_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>   
+
+    <GuiElement Name="Reduction_EncryptedData">
+        <Title>%Reduction_EncryptedData_Title</Title>
+        <Description>%Reduction_EncryptedData_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EncryptedData_Small" />
+            <Icon Size="Large" Path="Gui/EncryptedData_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>   
+    
+     <GuiElement Name="Reduction_DormantMachines">
+        <Title>%Reduction_DormantMachines_Title</Title>
+        <Description>%Reduction_DormantMachines_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/DormantMachines_Small" />
+            <Icon Size="Large" Path="Gui/DormantMachines_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+
+     <GuiElement Name="Reduction_ElectrostaticDynamo">
+        <Title>%Reduction_ElectrostaticDynamo_Title</Title>
+        <Description>%Reduction_ElectrostaticDynamo_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/ElectrostaticDynamo_Small" />
+            <Icon Size="Large" Path="Gui/ElectrostaticDynamo_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>    
+    
+    <GuiElement Name="Reduction_GasPlumes">
+        <Title>%Reduction_GasPlumes_Title</Title>
+        <Description>%Reduction_GasPlumes_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/GasPlumes_Small" />
+            <Icon Size="Large" Path="Gui/GasPlumes_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="Reduction_PoisonedGround">
+        <Title>%Reduction_PoisonedGround_Title</Title>
+        <Description>%Reduction_PoisonedGround_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/PoisonedGround_Small" />
+            <Icon Size="Large" Path="Gui/PoisonedGround_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="Reduction_ToxicSludge">
+        <Title>%Reduction_ToxicSludge_Title</Title>
+        <Description>%Reduction_ToxicSludge_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/ToxicSludge_Small" />
+            <Icon Size="Large" Path="Gui/ToxicSludge_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    
+    <GuiElement Name="Reduction_SmotheringSnow">
+        <Title>%Reduction_SmotheringSnow_Title</Title>
+        <Description>%Reduction_SmotheringSnow_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/SmotheringSnow_Small" />
+            <Icon Size="Large" Path="Gui/SmotheringSnow_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    
+    <GuiElement Name="Reduction_CyberTicks">
+        <Title>%Reduction_CyberTicks_Title</Title>
+        <Description>%Reduction_CyberTicks_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/CyberTicks_Small" />
+            <Icon Size="Large" Path="Gui/CyberTicks_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+</Datatable>

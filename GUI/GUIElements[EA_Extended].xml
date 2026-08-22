@@ -1,0 +1,1576 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    
+	<ExtendedGuiElement Name="SilentSands">
+        <Title>%SilentSands_Title</Title>
+        <Description>%SilentSands_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SilentSands_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+	<ExtendedGuiElement Name="SilentSands_R">
+        <Title>%SilentSands_R_Title</Title>
+        <Description>%SilentSands_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SilentSands_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="DustMountains">
+        <Title>%DustMountains_Title</Title>
+        <Description>%DustMountains_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DustMountains_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="PerpetualSandstorms">
+        <Title>%PerpetualSandstorms_Title</Title>
+        <Description>%PerpetualSandstorms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/PerpetualSandstorms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+      <ExtendedGuiElement Name="PerpetualSandstorms_R">
+        <Title>%PerpetualSandstorms_R_Title</Title>
+        <Description>%PerpetualSandstorms_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/PerpetualSandstorms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="ColossalMountain">
+        <Title>%ColossalMountain_Title</Title>
+        <Description>%ColossalMountain_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ColossalMountain_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="MassiveCrater">
+        <Title>%MassiveCrater_Title</Title>
+        <Description>%MassiveCrater_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MassiveCrater_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="EnormousGysers">
+        <Title>%EnormousGysers_Title</Title>
+        <Description>%EnormousGysers_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/EnormousGysers_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="NaturalPatterns">
+        <Title>%NaturalPatterns_Title</Title>
+        <Description>%NaturalPatterns_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NaturalPatterns_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="MinimalRotation">
+        <Title>%MinimalRotation_Title</Title>
+        <Description>%MinimalRotation_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MinimalRotation_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="MinimalRotation_R">
+        <Title>%MinimalRotation_R_Title</Title>
+        <Description>%MinimalRotation_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MinimalRotation_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="FastRotation">
+        <Title>%FastRotation_Title</Title>
+        <Description>%FastRotation_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/FastRotation_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="FastRotation_R">
+        <Title>%FastRotation_R_Title</Title>
+        <Description>%FastRotation_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/FastRotation_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="MysteriousCairns">
+        <Title>%MysteriousCairns_Title</Title>
+        <Description>%MysteriousCairns_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MysteriousCairns_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="UndergroundTubes">
+        <Title>%UndergroundTubes_Title</Title>
+        <Description>%UndergroundTubes_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/UndergroundTubes_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="DangerousFlora">
+        <Title>%DangerousFlora_Title</Title>
+        <Description>%DangerousFlora_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DangerousFlora_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="DangerousFlora_R">
+        <Title>%DangerousFlora_R_Title</Title>
+        <Description>%DangerousFlora_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DangerousFlora_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="NaturalIsotopes">
+        <Title>%NaturalIsotopes_Title</Title>
+        <Description>%NaturalIsotopes_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NaturalIsotopes_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="NaturalIsotopes_R">
+        <Title>%NaturalIsotopes_R_Title</Title>
+        <Description>%NaturalIsotopes_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NaturalIsotopes_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="DustInfusedLife">
+        <Title>%DustInfusedLife_Title</Title>
+        <Description>%DustInfusedLife_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DustInfusedLife_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="CrystallineWorld">
+        <Title>%CrystallineWorld_Title</Title>
+        <Description>%CrystallineWorld_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CrystallineWorld_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="LayeredAtmosphere">
+        <Title>%LayeredAtmosphere_Title</Title>
+        <Description>%LayeredAtmosphere_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/LayeredAtmosphere_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="ExtremePressure">
+        <Title>%ExtremePressure_Title</Title>
+        <Description>%ExtremePressure_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ExtremePressure_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="ExtremePressure_R">
+        <Title>%ExtremePressure_R_Title</Title>
+        <Description>%ExtremePressure_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ExtremePressure_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="GlobalWindstorms">
+        <Title>%GlobalWindstorms_Title</Title>
+        <Description>%GlobalWindstorms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GlobalWindstorms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="GlobalWindstorms_R">
+        <Title>%GlobalWindstorms_R_Title</Title>
+        <Description>%GlobalWindstorms_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GlobalWindstorms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+        
+      <ExtendedGuiElement Name="LivingMantle">
+        <Title>%LivingMantle_Title</Title>
+        <Description>%LivingMantle_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/LivingMantle_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="InterconnectedLife">
+        <Title>%InterconnectedLife_Title</Title>
+        <Description>%InterconnectedLife_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/InterconnectedLife_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="InterconnectedLife_R">
+        <Title>%InterconnectedLife_R_Title</Title>
+        <Description>%InterconnectedLife_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/InterconnectedLife_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="VastCanyons">
+        <Title>%VastCanyons_Title</Title>
+        <Description>%VastCanyons_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/VastCanyons_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="ExtinctionEvidence">
+        <Title>%ExtinctionEvidence_Title</Title>
+        <Description>%ExtinctionEvidence_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ExtinctionEvidence_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="WarmZones">
+        <Title>%WarmZones_Title</Title>
+        <Description>%WarmZones_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/WarmZones_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="FrozenRemnants">
+        <Title>%FrozenRemnants_Title</Title>
+        <Description>%FrozenRemnants_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/FrozenRemnants_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="IceForest">
+        <Title>%IceForest_Title</Title>
+        <Description>%IceForest_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/IceForest_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="FrostFlora">
+        <Title>%FrostFlora_Title</Title>
+        <Description>%FrostFlora_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/FrostFlora_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="DeadlyIcestorms">
+        <Title>%DeadlyIcestorms_Title</Title>
+        <Description>%DeadlyIcestorms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DeadlyIcestorms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+      <ExtendedGuiElement Name="DeadlyIcestorms_R">
+        <Title>%DeadlyIcestorms_R_Title</Title>
+        <Description>%DeadlyIcestorms_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DeadlyIcestorms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="BurningWasteland">
+        <Title>%BurningWasteland_Title</Title>
+        <Description>%BurningWasteland_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/BurningWasteland_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="BurningWasteland_R">
+        <Title>%BurningWasteland_R_Title</Title>
+        <Description>%BurningWasteland_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/BurningWasteland_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="ThermophileOasis">
+        <Title>%ThermophileOasis_Title</Title>
+        <Description>%ThermophileOasis_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ThermophileOasis_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="CinderColumns">
+        <Title>%CinderColumns_Title</Title>
+        <Description>%CinderColumns_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CinderColumns_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="GlowingPlains">
+        <Title>%GlowingPlains_Title</Title>
+        <Description>%GlowingPlains_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GlowingPlains_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="GlowingPlains_R">
+        <Title>%GlowingPlains_R_Title</Title>
+        <Description>%GlowingPlains_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GlowingPlains_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="SentientCradle">
+        <Title>%SentientCradle_Title</Title>
+        <Description>%SentientCradle_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SentientCradle_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="TimeFlux">
+        <Title>%TimeFlux_Title</Title>
+        <Description>%TimeFlux_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/TimeFlux_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="TimeFlux_R">
+        <Title>%TimeFlux_R_Title</Title>
+        <Description>%TimeFlux_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/TimeFlux_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="NaniteDebris">
+        <Title>%NaniteDebris_Title</Title>
+        <Description>%NaniteDebris_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NaniteDebris_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="NaniteDebris_R">
+        <Title>%NaniteDebris_R_Title</Title>
+        <Description>%NaniteDebris_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NaniteDebris_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="VoidWhispers">
+        <Title>%VoidWhispers_Title</Title>
+        <Description>%VoidWhispers_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/VoidWhispers_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="VoidWhispers_R">
+        <Title>%VoidWhispers_R_Title</Title>
+        <Description>%VoidWhispers_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/VoidWhispers_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="NaturalMelody">
+        <Title>%NaturalMelody_Title</Title>
+        <Description>%NaturalMelody_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NaturalMelody_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="ShiftingGround">
+        <Title>%ShiftingGround_Title</Title>
+        <Description>%ShiftingGround_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ShiftingGround_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="ShiftingGround_R">
+        <Title>%ShiftingGround_R_Title</Title>
+        <Description>%ShiftingGround_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ShiftingGround_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="DeepShafts">
+        <Title>%DeepShafts_Title</Title>
+        <Description>%DeepShafts_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DeepShafts_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="CryogenicVolcano">
+        <Title>%CryogenicVolcano_Title</Title>
+        <Description>%CryogenicVolcano_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CryogenicVolcano_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="CryogenicVolcano_R">
+        <Title>%CryogenicVolcano_R_Title</Title>
+        <Description>%CryogenicVolcano_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CryogenicVolcano_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="BallisticEjecta">
+        <Title>%BallisticEjecta_Title</Title>
+        <Description>%BallisticEjecta_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/BallisticEjecta_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="BallisticEjecta_R">
+        <Title>%BallisticEjecta_R_Title</Title>
+        <Description>%BallisticEjecta_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/BallisticEjecta_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="VastRiverbed">
+        <Title>%VastRiverbed_Title</Title>
+        <Description>%VastRiverbed_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/VastRiverbed_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="HistoricalApocalypse">
+        <Title>%HistoricalApocalypse_Title</Title>
+        <Description>%HistoricalApocalypse_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/HistoricalApocalypse_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="HistoricalApocalypse_R">
+        <Title>%HistoricalApocalypse_R_Title</Title>
+        <Description>%HistoricalApocalypse_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/HistoricalApocalypse_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="FloodedRuins">
+        <Title>%FloodedRuins_Title</Title>
+        <Description>%FloodedRuins_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/FloodedRuins_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="UnderseaRifts">
+        <Title>%UnderseaRifts_Title</Title>
+        <Description>%UnderseaRifts_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/UnderseaRifts_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="PerpetualVortex">
+        <Title>%PerpetualVortex_Title</Title>
+        <Description>%PerpetualVortex_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/PerpetualVortex_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+         <ExtendedGuiElement Name="PerpetualVortex_R">
+        <Title>%PerpetualVortex_R_Title</Title>
+        <Description>%PerpetualVortex_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/PerpetualVortex_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="DeadWaters">
+        <Title>%DeadWaters_Title</Title>
+        <Description>%DeadWaters_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DeadWaters_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="DeadWaters_R">
+        <Title>%DeadWaters_R_Title</Title>
+        <Description>%DeadWaters_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DeadWaters_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="NanoToxin">
+        <Title>%NanoToxin_Title</Title>
+        <Description>%NanoToxin_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NanoToxin_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="NanoToxin_R">
+        <Title>%NanoToxin_R_Title</Title>
+        <Description>%NanoToxin_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NanoToxin_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="HealingRiver">
+        <Title>%HealingRiver_Title</Title>
+        <Description>%HealingRiver_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/HealingRiver_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="MeteoriteGardens">
+        <Title>%MeteoriteGardens_Title</Title>
+        <Description>%MeteoriteGardens_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MeteoriteGardens_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="VanishingFog">
+        <Title>%VanishingFog_Title</Title>
+        <Description>%VanishingFog_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/VanishingFog_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="VanishingFog_R">
+        <Title>%VanishingFog_R_Title</Title>
+        <Description>%VanishingFog_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/VanishingFog_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="EnigmaticMonolith">
+        <Title>%EnigmaticMonolith_Title</Title>
+        <Description>%EnigmaticMonolith_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/EnigmaticMonolith_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="MineralPoor">
+        <Title>%MineralPoor_Title</Title>
+        <Description>%MineralPoor_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MineralPoor_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="MineralPoor_R">
+        <Title>%MineralPoor_R_Title</Title>
+        <Description>%MineralPoor_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MineralPoor_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="InvasiveOvergrowth">
+        <Title>%InvasiveOvergrowth_Title</Title>
+        <Description>%InvasiveOvergrowth_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/InvasiveOvergrowth_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="InvasiveOvergrowth_R">
+        <Title>%InvasiveOvergrowth_R_Title</Title>
+        <Description>%InvasiveOvergrowth_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/InvasiveOvergrowth_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="DriftingEdibles">
+        <Title>%DriftingEdibles_Title</Title>
+        <Description>%DriftingEdibles_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DriftingEdibles_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="EnrichedAtmosphere">
+        <Title>%EnrichedAtmosphere_Title</Title>
+        <Description>%EnrichedAtmosphere_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/EnrichedAtmosphere_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="SegregatedBiomes">
+        <Title>%SegregatedBiomes_Title</Title>
+        <Description>%SegregatedBiomes_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SegregatedBiomes_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="MegaFlora">
+        <Title>%MegaFlora_Title</Title>
+        <Description>%MegaFlora_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MegaFlora_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="MegaFauna">
+        <Title>%MegaFauna_Title</Title>
+        <Description>%MegaFauna_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MegaFauna_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="MegaFauna_R">
+        <Title>%MegaFauna_R_Title</Title>
+        <Description>%MegaFauna_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MegaFauna_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="MyceliumGroves">
+        <Title>%MyceliumGroves_Title</Title>
+        <Description>%MyceliumGroves_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MyceliumGroves_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="MineralSpice">
+        <Title>%MineralSpice_Title</Title>
+        <Description>%MineralSpice_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MineralSpice_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="InsectSwarms">
+        <Title>%InsectSwarms_Title</Title>
+        <Description>%InsectSwarms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/InsectSwarms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="InsectSwarms_R">
+        <Title>%InsectSwarms_R_Title</Title>
+        <Description>%InsectSwarms_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/InsectSwarms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="DustLuminescence">
+        <Title>%DustLuminescence_Title</Title>
+        <Description>%DustLuminescence_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DustLuminescence_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="CraterScarred">
+        <Title>%CraterScarred_Title</Title>
+        <Description>%CraterScarred_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CraterScarred_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="AbrasiveTerrain">
+        <Title>%AbrasiveTerrain_Title</Title>
+        <Description>%AbrasiveTerrain_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/AbrasiveTerrain_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="AbrasiveTerrain_R">
+        <Title>%AbrasiveTerrain_R_Title</Title>
+        <Description>%AbrasiveTerrain_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/AbrasiveTerrain_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="SolarScars">
+        <Title>%SolarScars_Title</Title>
+        <Description>%SolarScars_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SolarScars_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="RadiotrophicFungi">
+        <Title>%RadiotrophicFungi_Title</Title>
+        <Description>%RadiotrophicFungi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/RadiotrophicFungi_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="SubSurfaceIce">
+        <Title>%SubSurfaceIce_Title</Title>
+        <Description>%SubSurfaceIce_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SubSurfaceIce_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="CryptobioticOrganisms">
+        <Title>%CryptobioticOrganisms_Title</Title>
+        <Description>%CryptobioticOrganisms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CryptobioticOrganisms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="CryptobioticOrganisms_R">
+        <Title>%CryptobioticOrganisms_R_Title</Title>
+        <Description>%CryptobioticOrganisms_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CryptobioticOrganisms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="HiddenVaults">
+        <Title>%HiddenVaults_Title</Title>
+        <Description>%HiddenVaults_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/HiddenVaults_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="HiddenVaults_R">
+        <Title>%HiddenVaults_R_Title</Title>
+        <Description>%HiddenVaults_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/HiddenVaults_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="EncryptedData">
+        <Title>%EncryptedData_Title</Title>
+        <Description>%EncryptedData_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/EncryptedData_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="EncryptedData_R">
+        <Title>%EncryptedData_R_Title</Title>
+        <Description>%EncryptedData_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/EncryptedData_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="DormantMachines">
+        <Title>%DormantMachines_Title</Title>
+        <Description>%DormantMachines_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DormantMachines_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="DormantMachines_R">
+        <Title>%DormantMachines_R_Title</Title>
+        <Description>%DormantMachines_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DormantMachines_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="UltraRareMetals">
+        <Title>%UltraRareMetals_Title</Title>
+        <Description>%UltraRareMetals_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/UltraRareMetals_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="OreRichRings">
+        <Title>%OreRichRings_Title</Title>
+        <Description>%OreRichRings_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/OreRichRings_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="CryptosporeRings">
+        <Title>%CryptosporeRings_Title</Title>
+        <Description>%CryptosporeRings_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CryptosporeRings_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="PersistantLichen">
+        <Title>%PersistantLichen_Title</Title>
+        <Description>%PersistantLichen_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/PersistantLichen_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="NaturalOrchards">
+        <Title>%NaturalOrchards_Title</Title>
+        <Description>%NaturalOrchards_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NaturalOrchards_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="AncientRamparts">
+        <Title>%AncientRamparts_Title</Title>
+        <Description>%AncientRamparts_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/AncientRamparts_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="MimickingChorus">
+        <Title>%MimickingChorus_Title</Title>
+        <Description>%MimickingChorus_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MimickingChorus_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="SmokingVents">
+        <Title>%SmokingVents_Title</Title>
+        <Description>%SmokingVents_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SmokingVents_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="ElectrostaticDynamo">
+        <Title>%ElectrostaticDynamo_Title</Title>
+        <Description>%ElectrostaticDynamo_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ElectrostaticDynamo_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="ElectrostaticDynamo_R">
+        <Title>%ElectrostaticDynamo_R_Title</Title>
+        <Description>%ElectrostaticDynamo_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ElectrostaticDynamo_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+ 
+    <ExtendedGuiElement Name="IrresistibleWorld">
+        <Title>%IrresistibleWorld_Title</Title>
+        <Description>%IrresistibleWorld_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/IrresistibleWorld_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CreepingAlgae">
+        <Title>%CreepingAlgae_Title</Title>
+        <Description>%CreepingAlgae_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CreepingAlgae_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="MushroomCaves">
+        <Title>%MushroomCaves_Title</Title>
+        <Description>%MushroomCaves_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MushroomCaves_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+<!-- Additional -->
+
+    <ExtendedGuiElement Name="SafeZones">
+        <Title>%SafeZones_Title</Title>
+        <Description>%SafeZones_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SafeZones_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="PoisonedGround">
+        <Title>%PoisonedGround_Title</Title>
+        <Description>%PoisonedGround_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/PoisonedGround_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="PoisonedGround_R">
+        <Title>%PoisonedGround_R_Title</Title>
+        <Description>%PoisonedGround_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/PoisonedGround_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ToxicSludge">
+        <Title>%ToxicSludge_Title</Title>
+        <Description>%ToxicSludge_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ToxicSludge_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="ToxicSludge_R">
+        <Title>%ToxicSludge_R_Title</Title>
+        <Description>%ToxicSludge_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ToxicSludge_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="IceWall">
+        <Title>%IceWall_Title</Title>
+        <Description>%IceWall_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/IceWall_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="SmotheringSnow">
+        <Title>%SmotheringSnow_Title</Title>
+        <Description>%SmotheringSnow_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SmotheringSnow_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="SmotheringSnow_R">
+        <Title>%SmotheringSnow_R_Title</Title>
+        <Description>%SmotheringSnow_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SmotheringSnow_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="NullPlains">
+        <Title>%NullPlains_Title</Title>
+        <Description>%NullPlains_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/NullPlains_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ThermicBacteria">
+        <Title>%ThermicBacteria_Title</Title>
+        <Description>%ThermicBacteria_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ThermicBacteria_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="UnderwaterVolcanoes">
+        <Title>%UnderwaterVolcanoes_Title</Title>
+        <Description>%UnderwaterVolcanoes_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/UnderwaterVolcanoes_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Glowmoss">
+        <Title>%Glowmoss_Title</Title>
+        <Description>%Glowmoss_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/Glowmoss_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+
+    <ExtendedGuiElement Name="WalkingSpores">
+        <Title>%WalkingSpores_Title</Title>
+        <Description>%WalkingSpores_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/WalkingSpores_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="GeocyteLife">
+        <Title>%GeocyteLife_Title</Title>
+        <Description>%GeocyteLife_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GeocyteLife_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Dustshrooms">
+        <Title>%Dustshrooms_Title</Title>
+        <Description>%Dustshrooms_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/Dustshrooms_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CyberTicks">
+        <Title>%CyberTicks_Title</Title>
+        <Description>%CyberTicks_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CyberTicks_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CyberTicks_R">
+        <Title>%CyberTicks_R_Title</Title>
+        <Description>%CyberTicks_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CyberTicks_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    
+    <ExtendedGuiElement Name="ArtificialWorld">
+        <Title>%ArtificialWorld_Title</Title>
+        <Description>%ArtificialWorld_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ArtificialWorld_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="RareElements">
+        <Title>%RareElements_Title</Title>
+        <Description>%RareElements_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/RareElements_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="PrimalBiomes">
+        <Title>%PrimalBiomes_Title</Title>
+        <Description>%PrimalBiomes_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/PrimalBiomes_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="UndergroundParadise">
+        <Title>%UndergroundParadise_Title</Title>
+        <Description>%UndergroundParadise_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/UndergroundParadise_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Bio-Tunnels">
+        <Title>%Bio-Tunnels_Title</Title>
+        <Description>%Bio-Tunnels_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/Bio-Tunnels_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="MicrobialAtmosphere">
+        <Title>%MicrobialAtmosphere_Title</Title>
+        <Description>%MicrobialAtmosphere_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MicrobialAtmosphere_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="MicroDroneFlocks">
+        <Title>%MicroDroneFlocks_Title</Title>
+        <Description>%MicroDroneFlocks_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MicroDroneFlocks_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="SprawlingComplex">
+        <Title>%SprawlingComplex_Title</Title>
+        <Description>%SprawlingComplex_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SprawlingComplex_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="AncientMegalith">
+        <Title>%AncientMegalith_Title</Title>
+        <Description>%AncientMegalith_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/AncientMegalith_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="FoldingBiology">
+        <Title>%FoldingBiology_Title</Title>
+        <Description>%FoldingBiology_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/FoldingBiology_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CrystalKelp">
+        <Title>%CrystalKelp_Title</Title>
+        <Description>%CrystalKelp_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CrystalKelp_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="TektiteRubble">
+        <Title>%TektiteRubble_Title</Title>
+        <Description>%TektiteRubble_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/TektiteRubble_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="EternalSpines">
+        <Title>%EternalSpines_Title</Title>
+        <Description>%EternalSpines_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/EternalSpines_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="GrandHydrosynth">
+        <Title>%GrandHydrosynth_Title</Title>
+        <Description>%GrandHydrosynth_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GrandHydrosynth_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="WaterBulbs">
+        <Title>%WaterBulbs_Title</Title>
+        <Description>%WaterBulbs_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/WaterBulbs_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+
+
+
+<!-- Gas giant only -->
+      <ExtendedGuiElement Name="GreatStorm">
+        <Title>%GreatStorm_Title</Title>
+        <Description>%GreatStorm_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GreatStorm_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="SuspendedStructures">
+        <Title>%SuspendedStructures_Title</Title>
+        <Description>%SuspendedStructures_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/SuspendedStructures_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="ComplexLayers">
+        <Title>%ComplexLayers_Title</Title>
+        <Description>%ComplexLayers_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ComplexLayers_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="DustBand">
+        <Title>%DustBand_Title</Title>
+        <Description>%DustBand_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/DustBand_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="AerostaticLife">
+        <Title>%AerostaticLife_Title</Title>
+        <Description>%AerostaticLife_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/AerostaticLife_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="ExoplanetaryCore">
+        <Title>%ExoplanetaryCore_Title</Title>
+        <Description>%ExoplanetaryCore_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/ExoplanetaryCore_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+      <ExtendedGuiElement Name="GasPockets">
+        <Title>%GasPockets_Title</Title>
+        <Description>%GasPockets_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GasPockets_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+      <ExtendedGuiElement Name="GasPlumes">
+        <Title>%GasPlumes_Title</Title>
+        <Description>%GasPlumes_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GasPlumes_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+     <ExtendedGuiElement Name="GasPlumes_R">
+        <Title>%GasPlumes_R_Title</Title>
+        <Description>%GasPlumes_R_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GasPlumes_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FrozenCrystals">
+        <Title>%FrozenCrystals_Title</Title>
+        <Description>%FrozenCrystals_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/FrozenCrystals_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="PlasmaBehemoth">
+        <Title>%PlasmaBehemoth_Title</Title>
+        <Description>%PlasmaBehemoth_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/PlasmaBehemoth_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="GhostWhisps">
+        <Title>%GhostWhisps_Title</Title>
+        <Description>%GhostWhisps_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/GhostWhisps_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    
+</Datatable>

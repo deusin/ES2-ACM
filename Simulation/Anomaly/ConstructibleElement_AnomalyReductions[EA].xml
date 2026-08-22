@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/AnomalyReductionDefinition.xsd">
+
+
+<!-- Mixed Anomaly Reductions -->
+    
+	<AnomalyReductionDefinition Name="Reduction_SilentSands" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="SilentSands"/>
+        <ResultAnomaly Name="SilentSands_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_MinimalRotation" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="MinimalRotation"/>
+        <ResultAnomaly Name="MinimalRotation_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_FastRotation" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="FastRotation"/>
+        <ResultAnomaly Name="FastRotation_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_DangerousFlora" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="DangerousFlora"/>
+        <ResultAnomaly Name="DangerousFlora_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_NaturalIsotopes" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="NaturalIsotopes"/>
+        <ResultAnomaly Name="NaturalIsotopes_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_InterconnectedLife" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="InterconnectedLife"/>
+        <ResultAnomaly Name="InterconnectedLife_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_GlowingPlains" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="GlowingPlains"/>
+        <ResultAnomaly Name="GlowingPlains_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_TimeFlux" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="TimeFlux"/>
+        <ResultAnomaly Name="TimeFlux_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_NaniteDebris" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="NaniteDebris"/>
+        <ResultAnomaly Name="NaniteDebris_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_CryogenicVolcano" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="CryogenicVolcano"/>
+        <ResultAnomaly Name="CryogenicVolcano_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_HistoricalApocalypse" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="HistoricalApocalypse"/>
+        <ResultAnomaly Name="HistoricalApocalypse_R"/>
+    </AnomalyReductionDefinition>
+    
+     <AnomalyReductionDefinition Name="Reduction_PerpetualVortex" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="PerpetualVortex"/>
+        <ResultAnomaly Name="PerpetualVortex_R"/>
+    </AnomalyReductionDefinition>
+
+     <AnomalyReductionDefinition Name="Reduction_InvasiveOvergrowth" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="InvasiveOvergrowth"/>
+        <ResultAnomaly Name="InvasiveOvergrowth_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_MegaFauna" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="MegaFauna"/>
+        <ResultAnomaly Name="MegaFauna_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_InsectSwarms" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="InsectSwarms"/>
+        <ResultAnomaly Name="InsectSwarms_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_CryptobioticOrganisms" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="CryptobioticOrganisms"/>
+        <ResultAnomaly Name="CryptobioticOrganisms_R"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_HiddenVaults" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="HiddenVaults"/>
+        <ResultAnomaly Name="HiddenVaults_R"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_EncryptedData" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="EncryptedData"/>
+        <ResultAnomaly Name="EncryptedData_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_DormantMachines" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="DormantMachines"/>
+        <ResultAnomaly Name="DormantMachines_R"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_ElectrostaticDynamo" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="ElectrostaticDynamo"/>
+        <ResultAnomaly Name="ElectrostaticDynamo_R"/>
+    </AnomalyReductionDefinition>  
+
+    <AnomalyReductionDefinition Name="Reduction_CyberTicks" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="CyberTicks"/>
+        <ResultAnomaly Name="CyberTicks_R"/>
+    </AnomalyReductionDefinition>  
+
+    <AnomalyReductionDefinition Name="Reduction_GasPlumes" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="GasPlumes"/>
+        <ResultAnomaly Name="GasPlumes_R"/>
+    </AnomalyReductionDefinition>  
+    
+    
+<!-- Negative Anomaly Reductions -->
+
+	<AnomalyReductionDefinition Name="Reduction_PerpetualSandstorms" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PerpetualSandstorms"/>
+        <ResultAnomaly Name="PerpetualSandstorms_R"/>
+    </AnomalyReductionDefinition>
+    
+	<AnomalyReductionDefinition Name="Reduction_ExtremePressure" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="ExtremePressure"/>
+        <ResultAnomaly Name="ExtremePressure_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_GlobalWindstorms" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="GlobalWindstorms"/>
+        <ResultAnomaly Name="GlobalWindstorms_R"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_DeadlyIcestorms" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="DeadlyIcestorms"/>
+        <ResultAnomaly Name="DeadlyIcestorms_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_BurningWasteland" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="BurningWasteland"/>
+        <ResultAnomaly Name="BurningWasteland_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_VoidWhispers" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="VoidWhispers"/>
+        <ResultAnomaly Name="VoidWhispers_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_ShiftingGround" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="ShiftingGround"/>
+        <ResultAnomaly Name="ShiftingGround_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_BallisticEjecta" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="BallisticEjecta"/>
+        <ResultAnomaly Name="BallisticEjecta_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_DeadWaters" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="DeadWaters"/>
+        <ResultAnomaly Name="DeadWaters_R"/>
+    </AnomalyReductionDefinition>
+    
+     <AnomalyReductionDefinition Name="Reduction_NanoToxin" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="NanoToxin"/>
+        <ResultAnomaly Name="NanoToxin_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_VanishingFog" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="VanishingFog"/>
+        <ResultAnomaly Name="VanishingFog_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_MineralPoor" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="MineralPoor"/>
+        <ResultAnomaly Name="MineralPoor_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_AbrasiveTerrain" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="AbrasiveTerrain"/>
+        <ResultAnomaly Name="AbrasiveTerrain_R"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_PoisonedGround" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PoisonedGround"/>
+        <ResultAnomaly Name="PoisonedGround_R"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_ToxicSludge" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="ToxicSludge"/>
+        <ResultAnomaly Name="ToxicSludge_R"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_SmotheringSnow" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">960</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="SmotheringSnow"/>
+        <ResultAnomaly Name="SmotheringSnow_R"/>
+    </AnomalyReductionDefinition>
+    
+
+
+</Datatable>

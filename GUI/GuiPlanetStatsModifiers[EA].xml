@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GuiPlanetStatsModifier.xsd">
+
+    <!--
+    // Any planet tag can have a modifier: PlanetSizeHuge, PlanetSizeGasHuge, PlanetSizeTelluricHuge, PlanetAnomaly20
+    <GuiPlanetStatsModifier Name="PlanetAnomaly20">
+        // First we apply all the Multiply, then the Add
+        <StatModifier Name="AtmosphereTemperature" Add="-10" />
+        
+        // If we find an Override modifier, we apply it and skip any modifier remaining.
+        <StatModifier Name="CoreType" Override="Stony" />
+    </GuiPlanetStatsModifier>
+    -->
+    
+<!-- 
+          // In bar: Earth is 1, Mars is 0.001, Venus is 92
+        <Stat Name="AtmospherePressure" Min="0.8" Max="1.2" />
+        
+        // In K (kelvin): Earth is 290, Mars is 210, Venus is 730
+        <Stat Name="AtmosphereTemperature" Min="288" Max="300" />
+
+        // In km: Earth is 6300, Mercury is 2400, Jupiter is 70000
+        <Stat Name="MeanRadius" Min="5000" Max="7000" />
+
+        // In 10²⁴kg: Earth is 6, Mercury is 0.3, Jupiter is 1900
+        <Stat Name="Mass" Min="3" Max="9" />
+
+        // In m/s²: Earth is 10, Mercury is 3, Jupiter is 25, Saturn/Neptun/Uranis are 8-11
+        <Stat Name="SurfaceGravity" Min="8" Max="12" />
+ -->
+
+
+    <!-- Ice-10 - FIXED --> 
+    <GuiPlanetStatsModifier Name="PlanetAnomaly10">
+        <StatModifier Name="AtmosphereTemperature" Add="-10" />
+    </GuiPlanetStatsModifier>
+
+<!-- New anomalies --> 
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_MinimalRotation">
+        <StatModifier Name="RotationPeriod" Multiply="1000" />
+    </GuiPlanetStatsModifier>
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_MinimalRotation_R">
+        <StatModifier Name="RotationPeriod" Multiply="20" />
+    </GuiPlanetStatsModifier>
+
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_FastRotation">
+        <StatModifier Name="RotationPeriod" Multiply=".2" />
+    </GuiPlanetStatsModifier>
+     <GuiPlanetStatsModifier Name="PlanetAnomaly_FastRotation_R">
+        <StatModifier Name="RotationPeriod" Multiply=".75" />
+    </GuiPlanetStatsModifier>
+    
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_ExtremePressure">
+        <StatModifier Name="AtmospherePressure" Add="200" />
+        <StatModifier Name="AtmosphereTemperature" Add="10" />
+	</GuiPlanetStatsModifier>
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_ExtremePressure_R">
+        <StatModifier Name="AtmospherePressure" Add="50" />
+        <StatModifier Name="AtmosphereTemperature" Add="5" />
+    </GuiPlanetStatsModifier>
+    
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_BurningWasteland">
+        <StatModifier Name="AtmosphereTemperature" Add="30" />
+	</GuiPlanetStatsModifier>
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_BurningWasteland_R">
+        <StatModifier Name="AtmosphereTemperature" Add="5" />
+    </GuiPlanetStatsModifier>
+
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_GlowingPlains">
+        <StatModifier Name="AtmosphereTemperature" Add="20" />
+	</GuiPlanetStatsModifier>
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_GlowingPlains_R">
+        <StatModifier Name="AtmosphereTemperature" Add="5" />
+    </GuiPlanetStatsModifier>
+
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_SmokingVents">
+        <StatModifier Name="AtmosphereTemperature" Add="5" />
+	</GuiPlanetStatsModifier>
+
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_BallisticEjecta">
+        <StatModifier Name="AtmosphereTemperature" Add="10" />
+	</GuiPlanetStatsModifier>
+    
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_WarmZones">
+        <StatModifier Name="AtmosphereTemperature" Add="10" />
+	</GuiPlanetStatsModifier>
+
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_DeadlyIcestorms">
+        <StatModifier Name="AtmosphereTemperature" Add="-30" />
+	</GuiPlanetStatsModifier>
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_DeadlyIcestorms_R">
+        <StatModifier Name="AtmosphereTemperature" Add="-5" />
+	</GuiPlanetStatsModifier>
+
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_CryogenicVolcano">
+        <StatModifier Name="AtmosphereTemperature" Add="-15" />
+	</GuiPlanetStatsModifier>
+
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_ElectrostaticDynamo">
+        <StatModifier Name="AtmosphereTemperature" Add="10" />
+	</GuiPlanetStatsModifier>
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_ElectrostaticDynamo_R">
+        <StatModifier Name="AtmosphereTemperature" Add="10" />
+	</GuiPlanetStatsModifier>
+
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_GasFlares">
+        <StatModifier Name="AtmosphereTemperature" Add="150" />
+	</GuiPlanetStatsModifier>
+    <GuiPlanetStatsModifier Name="PlanetAnomaly_GasFlares_R">
+        <StatModifier Name="AtmosphereTemperature" Add="20" />
+	</GuiPlanetStatsModifier>
+	
+	<GuiPlanetStatsModifier Name="PlanetAnomaly_UnderwaterVolcanoes">
+        <StatModifier Name="AtmosphereTemperature" Add="5" />
+	</GuiPlanetStatsModifier>
+
+
+
+
+
+</Datatable>
