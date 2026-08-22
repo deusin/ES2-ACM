@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- Worthy Deeds inside ACM: strings of the *_WD deeds, copied from ESG/vanilla by the ACM graft. -->
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Title">Budowniczy Cudów</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Description">Przekształcenie planet i systemów w prosperujące imperium pełne bogactwa i perspektyw wymaga nieustającego pędu ku rozwojowi i tworzeniu. Marzenie o wielkości można spełnić tylko przez nieustanne budowanie oraz ulepszanie.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Objective">Jako pierwszy doprowadź do stworzenia w swoim imperium $ImprovementAmount niepowtarzalnych ulepszeń systemu.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Title">Twórca Bogactwa</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Description">Dla niektórych pył jest cudowną substancją pożądaną za swoje właściwości oraz wartość pieniężną. Dla innych – to sposób prowadzenia punktacji i sprawdzania, kto wysuwa się na prowadzenie w wyścigu o dominację. Bez względu na swoje poglądy musisz wreszcie pokazać innym, jak wielkie potrafisz stworzyć bogactwo.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Objective">Jako pierwszy doprowadź do wyprodukowania w jednym systemie $DustAmount jednostek pyłu.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Title">Architekt przemysłowy</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Description">Produkcja jest źródłem życia każdej cywilizacji, starej czy młodej. Ambicje podróży międzygwiezdnych zawsze spoczywały na fundamentach potęgi przemysłowej, więc śmiało buduj naszą przyszłość!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Objective">Jako pierwszy posiądź w swoim imperium odpowiednią liczbę ulepszeń systemu: $Amount01Name.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już nic w tej sprawie zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Title">Konsolidator Systemów</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Description">Wielcy przywódcy kiedyś uważali kontrolowany przez siebie teren za wyznacznik swojego bogactwa i władzy. Teraz, gdy konflikt przeniósł się do gwiazd, o twojej pozycji w hierarchii decyduje liczba posiadanych systemów. Podbij konstelację i stwórz dla siebie wspaniałą przyszłość!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Objective">Jako pierwszy przejmij panowanie nad $SystemAmount systemami w jednej konstelacji.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Title">Założyciel Konglomeratów</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Description">Rozległa sieć firm handlowych oznacza dla imperium wiele różnych rzeczy – bogactwo, sojusznicze porty w odległych miejscach, a także źródło informacji oraz wpływu. Czy jest lepszy sposób na zdobycie dobrej pozycji w galaktyce niż przejęcie kontroli nad największą liczbą tych praktycznych i niezwykle dochodowych konglomeratów?</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Objective">Jako pierwszy doprowadź do stworzenia $TradeCompaniesAmount firm handlowych.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Title">Mistrz modernizacji</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Description">Społeczeństwo funkcjonuje, ale to za mało. Żeby cywilizacja naprawdę rozkwitła, musi posiadać lśniące symbole wyrafinowania, które zainspirują wszystkich obywateli. Jako pierwszy wynieś system na poziom wspaniałej klasy, której jeszcze nie widziano w tej galaktyce.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Objective">Jako pierwszy osiągnij w jednym z systemów następujący poziom: $Amount01Name.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już nic w tej sprawie zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Title">Propagator Różnorodności</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Description">Istnieje zbyt wiele kultur i zbyt wiele definicji inteligencji, żeby móc zrozumieć galaktykę z jednego tylko punktu widzenia. Kierowanie tak heterogeniczną populacją wymaga otwarcia umysłu na wiele różnych trendów i idei.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Objective">Jako pierwszy wprowadź ustawę z inicjatywy każdej z $LawAmount partii politycznych z początku gry.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Title">Attractor of Talent</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Description">So many planets and systems, populated by so many people with so many different--and often conflicting--needs. To truly nurture and serve them, a great deal of hero recruitment must be done, and the sooner it is done, the better.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Objective">Be the first to recruit a Hero from every political party</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Title">Goniwiatr</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Description">Więcej, dalej, gwałtowniej, nadzwyczajniej… Galakatyka pełna jest zjawisk, które opisać da się jedynie słowami o najskrajniejszym znaczeniu. Poszukuj i szkol się, analizuj i buduj, a poznasz każdą z odkrywanych przez innych tajemnic i prawd. Wszystko, czego ci potrzeba, to siła woli i odwaga nieobca marzycielom.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Objective">Ukończ misje $QuestCompletedObjective i stań się największym odkrywcą, który zgłębi tajemnice galaktyki.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-ObjectiveTooltip">Śledź bieżące i ukończone misje w oknie Misji i Wydarzeń.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Completed">Nieustannie poznajesz wszystkie sekrety wielkich dylematów i galaktycznych odkryć. Gratulacje, goniwietrze!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Failed">Inni spełniali swe marzenia szybciej lub bardziej zdecydowanie; owo dokonanie nie leży w zasięgu ręki.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Title">Strażnik Narodów</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Description">Idźcie i rozmnażajcie się! Rozsiewanie swojej cywilizacji po całej galaktyce nie jest wcale aktem egoizmu. Tylko dzięki takiemu rozwojowi zapewnisz swojemu ludowi przetrwanie w obliczu nieuchronnych wojen i kataklizmów w tej nieprzewidywalnej galaktyce.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Objective">Jako pierwszy osiągnij w swoim imperium populację rzędu $PopulationAmount jednostek.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Title">Inwestor Talentów</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Description">Niektórzy mogą to uważać za kompletny wyzysk, ale inni uznają to za pomoc kulturze w osiągnięciu potencjału. Im bardziej lud się dzięki tobie rozwija i rozrasta, tym większe zapewnia ci korzyści – i tym większe zyskujesz uwielbienie.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Objective">Jako pierwszy odblokuj w swoim imperium trzecią premię kolekcji populacji.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Title">Mistrz poparcia</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Description">Cywilizacje rozciągają się na wiele gwiazd. Ale czy ich mieszkańcy są szczęśliwi? Poprowadź rozwój swojego imperium w kierunku, który zadowoli twoją populację – zadowolony obywatel jest bardziej posłuszny.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Objective">Jako pierwszy osiągnij w swoim imperium [happinessColored] na poziomie: $HappinessObjectiveName</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już nic w tej sprawie zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Title">Mentor Legend</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Description">Siła i prędkość rozwoju podwładnych jest wyznacznikiem potęgi oraz talentu przywódcy. Ilu władców może się pochwalić lojalnością wspaniałego bohatera o mitycznych mocach? Pomóż bohaterowi osiągnąć odpowiedni poziom, a cała galaktyka będzie ci zazdrościć.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Objective">Jako pierwszy doprowadź jednego ze swoich bohaterów do zdobycia $LevelAmount. poziomu.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Title">Pogromca Wrogów</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Description">Choć mamy pył i dyplomację, żeby określić swoje miejsce w galaktyce pokojowymi metodami, czasem trzeba komuś coś pokazać na drodze zwykłej agresji. Poprowadź swoje floty ku zwycięstwu przeciwko tym, którzy ważą się ci sprzeciwić. Niech inni dobrze się zastanowią, zanim zrobią coś głupiego...</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Objective">Jako pierwszy doprowadź do wygrania $BattleAmount bitew.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Title">Twórca armii</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Description">Nic nie budzi w sercach przeciwników większego strachu niż widok armii większej niż jakakolwiek, którą dotychczas widziano. Rozbuduj swoją armię tak, żeby twoje oddziały w czasie uroczystego pokazu sięgały aż po horyzont.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Objective">Miej jako pierwszy imperium o potencjalnej [manPowerColored] #D0D0D0#liczebności#REVERT# wynoszącej: $Amount01Name.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już nic w tej sprawie zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Title">Najeźdźca Światów</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Description">Jest wiele powodów, dla których można najechać obcy świat: żeby się wzbogacić, żeby kogoś ukarać, a także żeby zdobyć dobrą pozycję obronną. Powal wrogów swoją potężną armią i daj im do zrozumienia, że nie ukryją się przed tobą ani w pustce kosmosu, ani na swoich planetach!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Objective">Jako pierwszy doprowadź do najechania tylu systemów: $SystemAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Title">Niszczyciel Planet</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Description">Jeżeli dysponuje się niemalże boską mocą, czemu by jej nie użyć? Nie ma lepszego sposobu na złamanie wroga niż zniszczenie planet, na których żyje. Nie wahaj się wykorzystać potęgi swoich machin wojennych, by zaprowadzić pokój wedle własnego uznania.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Objective">Bądź pierwszą osobą, która zniszczy za pomocą Łamacza rdzeni następującą liczbę planet: $PlanetAmount</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-ObjectiveTooltip">You cannot allow other empires to complete this task before you do.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Title">Poszukiwacz zniszczenia</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Description">O sile oddziałów militarnych decyduje dzierżona przez nie broń. Jako pierwszy miej pod swoją kontrolą placówkę wojskowo-przemysłową, która produkuje surowce wojny w niesłychanych ilościach.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Objective">Jako pierwszy osiągnij w imperium następujący poziom produkcji [Strat05orichalcixColored] #A75DFA#orichalciksu#REVERT# lub [Strat06quadrinixColored] #1FBB71#kwadryniksu#REVERT#: $Amount01Name.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już nic w tej sprawie zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Title">Poszukiwacz Prawdy</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Description">We wszechświecie istnieje mnóstwo tajemnic i dziwactw. Żeby odkryć choć niewielką część z nich, potrzebne będą: czas, wysiłek i uzdolnione zespoły techniczne.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Objective">Jako pierwszy zbadaj z powodzeniem następującą liczbę osobliwości: $CuriosityAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Title">Badacz Światów</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Description">Biorąc pod uwagę ogromną liczbę planet oraz ich typów, zrozumienie niezwykłej różnorodności geologicznej i biologicznej tej galaktyki, będzie wymagało mnóstwa wysiłku i poświęcenia.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Objective">Miej jako pierwszy następującą liczbę skolonizowanych planet w swoim imperium: $PlanetAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Title">Pionier pustki</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Description">Galaktyka jest rozległa. Trzeba podróżować, żeby odkryć jej największe sekrety. Roześlij dzielnych badaczy po międzygwiezdnych pustkowiach. Niech wrócą do ciebie z nową wiedzą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Objective">Jako pierwszy odkryj $NeededPercentageName % galaktyki.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już nic w tej sprawie zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Title">Poszukiwacz Mądrości</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Description">Odkrycia w jednej dziedzinie często prowadzą do odkryć w innej, kompletnie z nią niepowiązanej. Zmaksymalizuj swój zasób genialnych badaczy i wykładowców, odkrywając mnóstwo różnych technologii.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Objective">Jako pierwszy doprowadź do odkrycia tylu technologii: $TechnologyAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Title">Propagator Nauki</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Description">Wiedzę można rozwijać w wielu różnych dziedzinach, ale najczystszą tego formą jest prowadzenie badań dla samej sztuki. Jeśli imperium wykaże, że nikt nie dorównuje mu w odkrywaniu tajemnic wszechświata, sukces ekonomiczny i polityczny przyjdzie z czasem sam.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Objective">Jako pierwszy doprowadź do odkrycia tylu technologii z dziedziny „nauka i eksploracja”: $TechnologyAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Title">Zdobywca dziwaczności</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Description">Niektórzy cofają się w obliczu nieznanego, ale prawdziwy odkrywcy uwielbiają tajemnice wszechświata. Tylko przez schwytanie i zbadanie najgłębszych sekretów natury osiągnie się najbardziej rewolucyjne odkrycia naukowe.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Objective">Jako pierwszy posiadaj w imperium odpowiednią liczbę anomalii: $Amount01Name.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-ObjectiveTooltip">Nie możesz pozwolić, żeby jakieś inne imperium wykonało to zadanie przed tobą.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Completed">Gratulacje! Udało ci się dokonać tego legendarnego czynu!
+Inne imperia nie zdołają już tego zrobić.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Failed">Inne imperium dokonało tego legendarnego czynu.
+Niestety nie zdołasz już nic w tej sprawie zrobić.</LocalizationPair>
+</Datatable>

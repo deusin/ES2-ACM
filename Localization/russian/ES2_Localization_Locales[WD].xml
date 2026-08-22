@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- Worthy Deeds inside ACM: strings of the *_WD deeds, copied from ESG/vanilla by the ACM graft. -->
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Title">Созидатель Чудес</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Description">Чтобы сплотить совокупность планет и звездных систем в преуспевающую империю с мощным потенциалом развития, необходимо неустанное стремление к творческому усовершенствованию. Только упорный созидательный труд способен сделать реальностью мечту о галактическом величии.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Objective">Станьте первым, кто получит $ImprovementAmount Уникальных Улучшений Звездной Системы в своей Империи.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Title">Творец Благоденствия</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Description">Для одних Пыль - это чудесная субстанция, ценимая как за свою мощь, так и за рыночную стоимость. Для других - просто способ ведение счета и показать кто ведет в глобальной гонке за политическое доминирование. Но, вне зависимости от того что вы чувствуете, пришло время продемонстрировать какие богатства вы способны создать!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Objective">Станьте первым, кто произведет $DustAmount Пыли в отдельно взятой звездной системе.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Title">Промышленный архитектор</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Description">Производство - источник жизненной силы любой цивилизации, старой или только что возникшей. Звездные амбиции всегда будут основываться на фундаменте индустриальной мощи! Дерзните и обеспечьте будущее в первую очередь!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Objective">Станьте первым обладателем $Amount01Name улучшений звездной системы в империи.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Title">Объединитель Звездных Систем</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Description">В былые времена, выдающиеся предводители мерили свое богатство и могущество размерами подконтрольной им территории. Теперь, когда противостояние переместилось в космос, ваша значимость определяется количеством звездных систем. Подчините себе ваше созвездие, а тем самым и будущее!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Objective">Станьте первым, кто возьмет под контроль как минимум $SystemAmount звездных систем в одном созвездии.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Title">Основатель Конгломератов</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Description">Обширная сеть торговых компаний для империи значит многое - богатство, дружественные порты в отдаленных местах, источники информации и влияния. Какой путь может быть лучше для утверждения своего места в галактике, чем контроль над наибольшим числом этих коммерчески выгодных объединений?</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Objective">Станьте первым, кто создаст $TradeCompaniesAmount торговых компаний.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Title">Мастер модернизации</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Description">Общество - сложный механизм. Чтобы цивилизация процветала, она должна обладать светочами, которые вдохновят и поведут за собой миры. Станьте первым, кто сможет развить систему до невиданного доселе уровня, поражающего воображение.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Objective">Улучшите одну из ваших систем до уровня $Amount01Name первым.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Title">Пропагандист Разнообразия</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Description">В галактике слишком много различных культур и слишком много определений понятия "разум", чтобы надеяться понять ее, рассматривая лишь с одной точки зрения. Только позитивное отношение к разнообразию идей и позиций может позволить надеяться на успешное руководство таким неоднородным населением. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Objective">Станьте первым, кто проведет закон от каждой из $LawAmount политических партий.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Title">Магнит Талантов</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Description">Так много планет и систем, населённых множеством людей с такими разными - и часто противоречивыми - потребностями. Чтобы по-настоящему взращивать и служить им, необходимо провести большую работу по найму героев, и чем раньше это будет сделано, тем лучше.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Objective">Будьте первым, кто нанял Героя из каждой политической партии</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Title">Наставник легенд</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Description">Сила и рост последователей - прямой признак силы и таланта лидера. Сколько галактических правителей могут похвастаться верностью великих Героев с их мифическими способностями? Поднимите Героя до желаемого уровня мастерства, и галактика будет смотреть на вас с завистью.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Objective">Первым повысить одного из ваших Героев до уровня $LevelAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить эту задачу раньше вас.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Completed">Один за другим великие вопросы и открытия галактики раскрывают вам свои секреты. Поздравляем, мечтатель!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Failed">Другие смогли угнаться за своими мечтами быстрее или с большей решимостью. Вы не сможете совершить это деяние.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Title">Хранитель Народов</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Description">Продвигаться вперед и достигать результатов - это не просто акт безудержного эготизма, направленного на распространение вашей цивилизации среди звездных миров. Только действуя подобным образом, вы можете надеяться, что ваши люди переживут войны и катаклизмы, неизбежные в этой странной и опасной галактике.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Objective">Станьте первым, кто достигнет показателя в $PopulationAmount населения в своей империи. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Title">Покровитель Дарований</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Description">В то время как некоторые рассматривают это максимизацией эксплуатации, другие назвали бы закономерным следствием развития культурных инициатив. Чем активнее вы вкладываетесь в обучение и развитие людей, тем больше пользы они принесут, и тем больше славы достанется их вождю.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Objective">Первым откройте 3-й уровень Бонуса сбора населения для вашей империи.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Title">Мастер одобрения</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Description">Цивилизации расселяются среди звезд, но счастливы ли их граждане? Направляйте развитие своей империи по пути, который сможет удовлетворить население, потому что довольный гражданин - покорный гражданин.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Objective">Первым достигните цели $HappinessObjectiveName [happinessColored] в империи.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Title">Кузнец оружия</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Description">Огневая мощь ваших величайших кораблей отражает способность вашей империи защищаться от угроз... или создавать их для других.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Objective">Первым построить корабль с $Amount01Name [offensiveMilitaryPower] Огневой мощью.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Title">Сокрушитель Врагов</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Description">Пыль и дипломатия - это мирные способы выяснить, кто есть кто в галактической иерархии, но иногда бывает нужна и обычная драка, чтобы навязать окружающим свою точку зрения. Ведите свои флоты к победам над теми, кто осмеливается стать у вас на пути, и пусть дважды подумают те, кто лелеет похожие безрассудные замыслы...</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Objective">Станьте первым, кто выиграет $BattleAmount сражения(-ий).</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Title">Великий полководец</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Description">Ничто не вселяет большего страха в сердце врага, как постоянная армия невиданного масштаба. Увеличьте численность войск настолько, чтобы их строй невозможно было охватить взглядом.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Objective">Станьте первым обладателем $Amount01Name [manPowerColored] #D0D0D0#Трудовых ресурсов#REVERT# в империи</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Title">Покоритель Миров</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Description">Для захвата звездной системы противника может быть много причин - чтобы ограбить его, наказать или же обеспечить лучшую защиту своей собственной цивилизации. Пусть ваша армия наносит удары как можно по большему числу врагов, и пусть те знают, что не скроются от вас ни в глубинах космоса, ни в своем собственном доме!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Objective">Станьте первым, кто захватит $SystemAmount звездных(-ые) систем(-ы).</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Title">Разрушитель Планет</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Description">Тот, кто обладает могуществом богов, может и применить его. Нет лучшего способа сокрушить врага, чем разгромить сами планеты, на которых он обитает; без опаски употребляйте свою военную мощь, чтобы навязать другим мир на ваших условиях.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Objective">Уничтожьте от $PlanetAmount планет расщепителем ядра, обойдя соперников.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-ObjectiveTooltip">You cannot allow other empires to complete this task before you do.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Title">Разрушительный старатель</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Description">Армия сильна настолько, насколько сильно ее оружие. Станьте первым обладателем военно-промышленного комплекса, производящего сырье для нужд армии в беспрецедентных масштабах.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Objective">Первым достигните объемов производства $Amount01Name [Strat05orichalcixColored] #A75DFA#орихалка#REVERT# или [Strat06quadrinixColored] #1FBB71#квадриникса#REVERT# в империи.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Title">Искатель Истины</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Description">Вселенная полна неисчислимых чудес и загадок; чтобы познать даже самую малую часть, потребуются время, упорство и хорошо подготовленные исследовательские команды.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Objective">Станьте первым, кто изучит $CuriosityAmount феноменов.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Title">Исследователь Миров</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Description">Принимая во внимание огромное количество планет разных типов, потребуются немалые увлеченность и самоотдача, чтобы по-настоящему оценить колоссальное геологическое и биологическое разнообразие галактики.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Objective">Первыми колонизируйте $PlanetAmount планет(ы) в своей Империи.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Title">Пионер пустоты</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Description">Галактика огромна, и, чтобы узнать ее секреты, необходимо путешествовать. Отправьте храбрых исследователей в глубины космоса, и пусть они откроют тайны звезд.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Objective">Исследуйте $NeededPercentageName% галактики первым</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-ObjectiveTooltip">Вы не можете позволить другим империям завершить это задание раньше вас.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Completed">Поздравляем! Вы совершили это легендарное действие!
+Другие империи больше не смогут совершить его.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Failed">Другая империя совершила это легендарное действие.
+Вы больше не сможете совершить его.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Title">Искатель Мудрости</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Description">Открытия в одной области нередко провоцируют идеи, приводящие к открытиям в совершенно иных областях. Увеличьте до максимума гениальность ваших ученых и преподавателей за счет открытия мириадов различных технологий.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Objective">Станьте первым, кто разблокирует $TechnologyAmount технологий.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Title">Покровитель Науки</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Description">Познание может развиваться в различных сферах и отношениях, но чистейшая его разновидность - это познание ради познания. Экономические и дипломатические успехи последуют неминуемо, если вы сможете продемонстрировать, что вам нет равных в изучении тайн мироздания.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Objective">Станьте первым, кто разблокирует $TechnologyAmount научно-исследовательских технологий.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Title">Знаток чудес</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Description">Некоторые теряются при встрече с неизвестным, но истинные исследователи идут навстречу загадкам вселенной. Только проникнув в самые сокровенные тайны природы, можно сделать фундаментальные научные открытия.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Objective">Первым завладейте $Amount01Name аномалиями в своей империи.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-ObjectiveTooltip">Вы не можете позволить другим империям выполнить это задание раньше вас. </LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Completed">Поздравляем! Вы осуществили это Легендарное Действие! 
+Другие империи теряют надежду его осуществить.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Failed">Другая империя осуществила это Легендарное Действие. 
+Вы уже не сможете его осуществить.</LocalizationPair>
+</Datatable>

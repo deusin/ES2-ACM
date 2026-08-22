@@ -20,6 +20,7 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 | **Endless Moons 3.1.2** (Tychonoir) — many moon types, lunar improvements, moon temples and celestial orbs; `*[EM]*` files | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | 2024-11-11 | `upstream/em` |
 | **Endless Anomalies 1.1.3** — over 100 new anomalies; `*[EA]*` files | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | 2024-11-13 | `upstream/ea` |
 | **Deep Space Mining 1.3.6** — special nodes that yield strategic resources; `*[DSM]*` files | [1263186686](https://steamcommunity.com/sharedfiles/filedetails/?id=1263186686) | 2019-04-28 | `upstream/dsm` |
+| **Worthy Deeds 0.33** (tygart) — deeds for every empire, all rewards; `*[WD]*` files, `Enable Worthy Deeds` toggle | [1587659427](https://steamcommunity.com/sharedfiles/filedetails/?id=1587659427) | 2020-10-28 | `upstream/worthydeeds` |
 | Eldritch faction trait category | own content | | |
 
 Each vendor branch holds the pristine workshop drop exactly as downloaded (before any ACM patching), so the
@@ -168,6 +169,24 @@ also reworked; ACM keeps ESG's and grafts only the strategic lines:
 
 `ACM.xml` gained a `SpecialNodeDefinition` plugin. The companion "Deep Space Mining Modules" (1641490632) is not included.
 
+## Worthy Deeds inside ACM
+
+Worthy Deeds makes every regular Deed a per-empire quest (`QuestContextSolo`, once per empire) instead of a galaxy-wide
+race, and pays out *every* item of the reward list instead of one weighted pick. The mod is a full copy of the 2020
+vanilla deeds, so loaded on top of ESG it would revert ESG's deed rebalance (harder thresholds, three rewritten objectives,
+wonder costs, strategic-resource rewards). ACM keeps ESG's deeds and applies the Worthy Deeds *mechanism* to them, behind
+the `Enable Worthy Deeds` New Game toggle (default on):
+
+| File | What it is |
+|---|---|
+| `Quests/QuestDefinitions[WD].xml` | generated: 24 `Deeds_Regular_*_WD` quests = ESG's deed (or vanilla's, for the 14 deeds ESG leaves alone) with Solo context, `$Empire` sources, `_WD` chain references, one `Reward` per split droplist, `EnableWorthyDeeds,True`; plus the 14 vanilla deeds copied with `EnableWorthyDeeds,False`. ESG's 10 deeds in `QuestDefinitions[Deeds].xml` carry the same `False` gate. |
+| `Quests/Droplists/Droplists[WD].xml` | generated: the 8 deed reward droplists split into one droplist per entry (`…Bis_WD1..n`), contents from ESG's `Droplists[Reward].xml` where it redefines the list, else vanilla. |
+| `GUI/GUIElements[WD].xml`, `Localization/*/…[WD].xml` | generated: `QuestGuiElement`s and the six strings of every `_WD` deed (vanilla icons; english objectives lose "Be the first to…"). |
+| drop's `QuestDefinitions[WD_*]`, `ConstructibleElement_Industry[WD_Wonders]`, `SimulationDescriptors[WD]`, `GUI[WD]`, english loc | deleted — the quest bodies are stale vanilla; the wonder rework (Wonders 1/2/4 buildable once per empire, tech-unlocked, plus a Vampirilis research→lifeforce wonder) is **not** taken: wonders stay a galaxy race with ESG's costs. |
+
+The generator is the graft script (`graft_wd.py`, kept in the session scratchpad, not the repo); after an ESG merge that
+touches `QuestDefinitions[Deeds].xml` or `Droplists[Reward].xml`, regenerate the `_WD` copies rather than patching them.
+
 ## Working on the mod
 
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
@@ -192,4 +211,5 @@ also reworked; ACM keeps ESG's and grafts only the strategic lines:
   (`Enable Samus Aran`); Arkon Portal folded in behind a second one, minus its 500-point trait. Arkon Faction Hero Ships
   folded in (always on) — it had been overriding every hero definition from the play set. Endless Moons and Endless
   Anomalies folded in (always on): ESG's anomalies win, Endless Moons' moon mechanics win, weight tables merged.
-  Deep Space Mining folded in (strategic lines grafted into ESG's node descriptors).
+  Deep Space Mining folded in (strategic lines grafted into ESG's node descriptors). Worthy Deeds folded in behind a third
+  toggle, as generated `_WD` copies of ESG's deeds (wonders left as a race).

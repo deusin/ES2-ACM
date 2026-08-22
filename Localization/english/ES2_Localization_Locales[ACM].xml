@@ -16,4 +16,11 @@
   <LocalizationPair Name="%SettingEnableArkonPortalTrueDescription">Factions with the trait can build System Portals</LocalizationPair>
   <LocalizationPair Name="%SettingEnableArkonPortalFalseTitle">False</LocalizationPair>
   <LocalizationPair Name="%SettingEnableArkonPortalFalseDescription">System Portals cannot be built</LocalizationPair>
+
+  <LocalizationPair Name="%SettingEnableWorthyDeedsTitle">Worthy Deeds</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableWorthyDeedsDescription">Worthy Deeds mod: every empire that meets a regular Deed's condition completes it (no galaxy-wide race) and receives every item of its reward list instead of one pick. Wonders stay unique to the galaxy.</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableWorthyDeedsTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableWorthyDeedsTrueDescription">Deeds are per empire and pay out all their rewards</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableWorthyDeedsFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableWorthyDeedsFalseDescription">Deeds are a race: the first empire to complete one takes its single reward</LocalizationPair>
 </Datatable>

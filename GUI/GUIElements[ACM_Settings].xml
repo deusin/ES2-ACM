@@ -39,4 +39,20 @@
     <Title>%SettingEnableArkonPortalFalseTitle</Title>
     <Description>%SettingEnableArkonPortalFalseDescription</Description>
   </GuiElement>
+
+  <!-- Enable Worthy Deeds -->
+  <GuiElement Name="SettingEnableWorthyDeeds">
+    <Title>%SettingEnableWorthyDeedsTitle</Title>
+    <Description>%SettingEnableWorthyDeedsDescription</Description>
+  </GuiElement>
+
+  <GuiElement Name="SettingEnableWorthyDeedsTrue">
+    <Title>%SettingEnableWorthyDeedsTrueTitle</Title>
+    <Description>%SettingEnableWorthyDeedsTrueDescription</Description>
+  </GuiElement>
+
+  <GuiElement Name="SettingEnableWorthyDeedsFalse">
+    <Title>%SettingEnableWorthyDeedsFalseTitle</Title>
+    <Description>%SettingEnableWorthyDeedsFalseDescription</Description>
+  </GuiElement>
 </Datatable>

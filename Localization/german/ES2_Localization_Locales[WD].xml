@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- Worthy Deeds inside ACM: strings of the *_WD deeds, copied from ESG/vanilla by the ACM graft. -->
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Title">Erbauer der Wunder</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Description">Es braucht ein unermüdliches Streben nach Verbesserung und Schöpfertum, um aus den Planeten und Sternensystemen ein blühendes Imperium voller Wohlstand und Chancen zu schaffen. Nur durch stetes Bauen und Entwickeln kann der Traum nach galaktischer Größe Wahrheit werden.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Objective">Erreiche als Erster $ImprovementAmount einzigartige Sternensystemverbesserungen in deinem Imperium.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Title">Schöpfer des Reichtums</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Description">Für die einen ist Dust eine wundersame Substanz, die aufgrund ihrer Macht und ihres Handelswerts begehrt wird. Für andere ist Dust nur ein Indikator, der anzeigt, wer gerade im großen Spiel der politischen Vormacht die Nase vorn hat. Egal, wie du das siehst: Es ist an der Zeit, dass du den anderen zeigst, welche Reichtümer du hervorbringen kannst!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Objective">Stelle als Erster $DustAmount Dust in einem einzigen Sternensystem her.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Title">Industrie-Architekt</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Description">Die Produktion ist das Herzblut einer jeden Zivilisation, ob alt oder neu. Bestrebungen, die Sterne zu erkunden, bauen immer auf einer Basis der industriellen Macht auf. Also sei unerschrocken und baue zuerst die Zukunft auf!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Objective">Besitze als Erster $Amount01Name Sternensystemverbesserungen in deinem Imperium.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Title">Konsolidierer der Systeme</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Description">Einst haben große Anführer das physische Terrain, über das sie herrschten, als Messlatte für ihren Wohlstand und ihre Macht genutzt. Jetzt, da diese Konflikte zwischen den Sternen stattfinden, ist es die Anzahl der Systeme, die deine Position bestimmt. Übernimm die Kontrolle über deine Konstellation und damit deine Zukunft!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Objective">Kontrolliere als Erster mindestens $SystemAmount Sternensysteme in derselben Konstellation.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Title">Gründer der Konglomerate</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Description">Ein gewaltiges Netzwerk von Handelsgesellschaften bedeutet vielerlei Dinge für ein Imperium: Reichtum, freundliche Häfen an weit entfernten Orten und Information sowie Einfluss. Gibt es eine bessere Möglichkeit, deinen Platz in der Galaxie zu untermauern, als die größte Zahl dieser rentablen und praktischen Konglomerate zu kontrollieren?</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Objective">Erschaffe als Erster $TradeCompaniesAmount Handelsgesellschaften.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Title">Meister der Modernisierung</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Description">Es reicht nicht aus, wenn eine Gesellschaft einfach nur funktioniert. Um aufzublühen, muss sie auch über leuchtende Vorbilder in Sachen Verbesserungen verfügen, um alle Welten zu inspirieren. Erreiche als Erster mit deinem System eine neue Stufe der Perfektion, deren Glanz die Galaxie noch nie zuvor gesehen hat.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Objective">Erreiche als Erster Stufe $Amount01Name in einem deiner Systeme.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Title">Schirmherr der Vielfalt</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Description">Es gibt zu viele Kulturen und zu viele Definitionen von „Intelligenz“, als dass man die Galaxie mittels eines einzigen Bezugsrahmenwerks verstehen könnte. Nur wenn man sich neuen Entwicklungen und neuen Ideen gegenüber offen zeigt, kann man eine solch heterogene Bevölkerung anführen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Objective">Verabschiede als Erster ein Gesetz von jeder der $LawAmount politischen Parteien vom Anfang des Spiels.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Title">Magnet für Talente</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Description">So viele Planeten und Systeme, bevölkert von so vielen Völkern mit so vielen unterschiedlichen - und oft widersprüchlichen - Bedürfnissen. Um sie wirklich zu versorgen und ihnen zu dienen, müssen eine Menge Helden rekrutiert werden, und je früher dies geschieht, desto besser.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Objective">Sei der Erste, der einen Helden aus jeder politischen Partei rekrutiert</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Title">Traumjäger</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Description">Größer, weiter, intensiver, noch ehrfurchtgebietender ... Die Galaxie ist voller Phänomene, die auch noch die extremsten Superlative übertreffen. Wenn du sie suchst und studierst, analysierst und selbst erschaffst, können diese aufgedeckten Geheimnisse und Wahrheiten dein sein. Alles, was du dazu brauchst, ist die Willenskraft und der Mut eines Träumers.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Objective">Sei am besten darin, in die Mysterien der Galaxie einzutauchen, indem du $QuestCompletedObjective Quests abschließt.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-ObjectiveTooltip">Verfolge deine aktiven und abgeschlossenen Quests auf dem Quest- und Ereignisbildschirm.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Completed">Stück für Stück geben die großen Fragen und Entdeckungen der Galaxie dir ihre Geheimnisse preis. Glückwunsch, Traumjäger!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Failed">Andere haben ihre Träume schneller oder mit mehr Nachdruck verfolgt. Diese Tat ist nicht für dich zu fassen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Title">Bewahrer der Nationen</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Description">Gehet hin und seid fruchtbar! Es ist nicht einfach nur ein Akt von ungezügeltem Egoismus, wenn man seine Zivilisation zwischen den Sternen verbreitet. Nur so kann man hoffen, dass die eigene Bevölkerung die unvermeidlichen Kriege und Katastrophen dieser seltsamen und gewalttätigen Galaxie überleben wird.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Objective">Erreiche als erster $PopulationAmount Bevölkerung in deinem Imperium.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Title">Förderer des Talents</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Description">Obgleich es die einen als bloßes Maximieren der Erträge ansehen, nennen es andere „eine Kultur zu ihrer Blüte bringen“. Je mehr du Wachstum und Entwicklung eines Volks förderst, desto mehr Vorteile und damit auch mehr Ruhm erhältst du.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Objective">Schalte als Erster den 3. Bevölkerungsansammlungsbonus in deinem Imperium frei.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Title">Dirigent der Zufriedenheit</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Description">Zivilisationen mögen sich überall in den Sternen verbreiten, aber sind ihre Bürger glücklich? Lenke die Entwicklung deines Imperiums in Bahnen, die die Bevölkerung zufriedenstellen. Ein zufriedener Bürger ist auch leichter zu beeinflussen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Objective">Erreiche als erster $HappinessObjectiveName [happinessColored] in deinem Imperium.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Title">Mentor der Legenden</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Description">Die Macht und das Wachstum der eigenen Anhänger ist ein direktes Zeichen der Macht und des Talents eines Anführers. Wie viele galaktische Herrscher können schon behaupten, auf die Treue der großen Helden mit ihren legendären Mächten bauen zu können? Steigere einen Helden auf die gewünschte Fertigkeitsstufe, und die Galaxie wird neidvoll auf dich schauen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Objective">Steigere als Erster die Stufe eines deiner Helden auf $LevelAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Title">Bezwinger der Feinde</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Description">Dust und Diplomatie sind zwar friedlichere Methoden, den eigenen Platz in der galaktischen Rangfolge zu bestimmen, aber manchmal braucht es eine einfache Schlägerei, um seine Sicht der Dinge zu vermitteln. Führe deine Flotten zu Siegen gegen jene, die es wagen, sich dir in den Weg zu stellen, und sorge dafür, dass andere, die ebenso töricht sind, es sich zwei Mal überlegen ...</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Objective">Gewinne als Erster $BattleAmount Schlachten.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Title">Ausheber der Armeen</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Description">Nichts ist für einen Feind furchteinflößender als ein stehendes Herr, das größer als alles ist, was er bisher gesehen hat. Vergrößere deine Armeen in einem solchen Ausmaß, dass eine Parade der Streitmächte weiter reichen würde, als man mit bloßem Auge je sehen kann.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Objective">Erreiche als Erster eine Imperiumskapazität von $Amount01Name [manPowerColored] #D0D0D0#Personal#REVERT#.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Title">Invasor der Welten</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Description">Es kann viele Gründe dafür geben, in ein feindliches System einzufallen: Reichtum, Bestrafung, oder um die beste Verteidigung für die eigene Zivilisation aufzubauen. Greife genug Feinde mit der Macht deiner Armeen an und lass sie wissen, dass sie dir nicht entkommen können, weder in der Leere des Weltraums noch in ihren eigenen Häusern!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Objective">Falle als Erster in $SystemAmount Systeme ein.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Title">Zerschmetterer der Planeten</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Description">Wenn man die Macht der Götter hat, kann man sie ebenso gut einsetzen. Es gibt keine bessere Methode, seine Feinde zu brechen, als die Welten zu zerschmettern, auf denen sie leben. Scheue dich nicht davor, die Macht deiner Kriegsmaschinen zu verwenden, um den Frieden zu erringen, der dir am besten passt.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Objective">Sei der Erste, der $PlanetAmount Planeten mit einem Kernbrecher zerstört.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-ObjectiveTooltip">You cannot allow other empires to complete this task before you do.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Title">Sucher der Zerstörung</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Description">Eine militärische Streitmacht ist nur so mächtig wie die Waffen, die sie in Händen hält. Kontrolliere als Erster einen militärisch-industriellen Komplex, der die Rohmaterialien für den Krieg in noch nie dagewesener Anzahl produziert.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Objective">Erreiche als erstes Imperium eine Produktion von $Amount01Name [Strat05orichalcixColored] #A75DFA#Orichalcix#REVERT# oder [Strat06quadrinixColored] #1FBB71#Quadrinix#REVERT#.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Title">Entdecker der Wahrheiten</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Description">Im Universum warten unzählige Mysterien und Anomalien. Es braucht Zeit, Mühen und fähige Techniker, um auch nur diesen kleinen Bruchteil zu entdecken.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Objective">Erkunde als Erster erfolgreich $CuriosityAmount Kuriositäten.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Title">Erforscher der Welten</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Description">Angesichts der gewaltigen Zahl von Planeten und ihrer vielen Arten braucht es Hingabe und Engagement, damit man die unglaubliche geologische und biologische Vielfalt der Galaxie wirklich zu schätzen weiß.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Objective">Besitze als erster $PlanetAmount kolonisierte Planeten in deinem Imperium.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Title">Pioniere der Leere</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Description">Die Galaxie ist ungeheuer groß, dennoch muss sie bereist werden, damit ihre tiefen Geheimnisse erkundet werden können. Entsende tapfere Entdecker an entlegene Orte im interstellaren Raum, die mit Wissen über die Sterne wieder zurückkehren.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Objective">Erkunde als erstes Imperium $NeededPercentageName % der Galaxie.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Title">Sucher der Weisheit</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Description">Entdeckungen in einem Spezialgebet führen oft zu Ideen, die zu Entdeckungen in anderen, nicht damit verwandten Feldern führen. Maximiere das gemeinsame Genie deiner Forscher und Professoren, indem du eine Vielzahl verschiedener Technologien entdeckst.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Objective">Schalte als Erster $TechnologyAmount Technologien frei.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Title">Mäzen der Wissenschaft</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Description">Auch wenn das Wissen in vielen Bereichen fortschreiten kann, ist die reinste Form das Studium der Wissenschaft um ihrer selbst willen. Wissenschaftlicher und diplomatischer Erfolg werden sicher folgen, wenn du beweisen kannst, dass du wie niemand sonst die Mysterien des Universums enträtseln kannst.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Objective">Schalte als erster $TechnologyAmount Technologien aus dem Bereich Wissenschaft und Erkundung frei.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Title">Ergreifer von Anomalien</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Description">Einige schrecken angesichts des Unbekannten zurück, aber wahre Entdecker begrüßen die Mysterien des Universums mit offenen Armen. Nur wenn die dunkelsten Geheimnisse der Natur festgehalten und untersucht werden, kann die Wissenschaft tiefgründiger werden.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Objective">Besitze als Erster $Amount01Name Anomalien innerhalb deines Imperiums.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-ObjectiveTooltip">Du darfst nicht zulassen, dass andere Imperien diese Aufgabe vor dir abschließen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Completed">Herzlichen Glückwunsch! Du hast diese legendäre Tat vollbracht!
+Damit ist sie für die anderen Imperien nun unerreichbar.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Failed">Ein anderes Imperium hat diese legendäre Tat vollbracht.
+Damit ist sie für dich unerreichbar.</LocalizationPair>
+</Datatable>

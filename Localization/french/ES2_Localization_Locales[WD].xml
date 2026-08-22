@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- Worthy Deeds inside ACM: strings of the *_WD deeds, copied from ESG/vanilla by the ACM graft. -->
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Title">Constructeur de merveilles</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Description">Une volonté inébranlable de s'améliorer et de créer est nécessaire pour faire des planètes et des systèmes un empire prospère, regorgeant de richesses et de potentiel. Ce n'est qu'en construisant et en développant en permanence que l'on atteindra le rêve de la grandeur galactique.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Objective">Soyez le premier à détenir $ImprovementAmount améliorations de système uniques dans votre empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Title">Créateur de richesse</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Description">Pour certains, la Brume est une substance miraculeuse, désirée pour sa puissance autant que sa valeur commerciale. Pour d'autres, la Brume n'est qu'une façon de suivre l'évolution relative des empires pour savoir qui domine le grand jeu de la domination politique. Quoi que vous en pensiez, il est temps de montrer quelle richesse vous pouvez produire !</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Objective">Soyez le premier à atteindre une production de Brume de $DustAmount dans un même système planétaire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Title">Architectes des industries</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Description">La production est le cœur de toute civilisation, ancienne comme nouvelle. Toutes les ambitions stellaires reposent sur la puissance industrielle. Alors ayez de l'audace, et construisez le futur avant les autres !</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Objective">Soyez le premier à détenir $Amount01Name améliorations de système dans votre empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Title">Consolidateur de systèmes</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Description">Les grands dirigeants considéraient autrefois le terrain physique qu'ils contrôlaient comme une indication de leur richesse et de leur puissance. À présent que leurs conflits ont investi les étoiles, c'est le nombre de systèmes qui détermine votre rang. Contrôlez votre constellation, et vous contrôlerez votre futur !</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Objective">Soyez le premier à contrôler au moins $SystemAmount systèmes planétaires dans une même constellation.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Title">Fondateur de conglomérats</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Description">Un vaste réseau de compagnies commerciales offre divers avantages à un empire : fortune, ports alliés dans des systèmes distants, renseignements et influence. Quelle meilleure façon d'établir votre place dans la galaxie que de contrôler le plus grand nombre de ces conglomérats si pratiques et rentables ?</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Objective">Soyez le premier à créer $TradeCompaniesAmount compagnies commerciales.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Title">Maître de la modernisation</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Description">Une société ne peut se satisfaire de fonctionner. Pour prospérer et inspirer chaque monde, une civilisation doit posséder de glorieux symboles de son raffinement. Soyez le premier à amener un système à un niveau de sophistication inouï dans le reste de la galaxie.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Objective">Soyez le premier à amener l'un de vos systèmes au niveau $Amount01Name.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Title">Promoteur de la diversité</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Description">Il existe trop de cultures et trop de différentes définitions de « l'intelligence » pour espérer comprendre la galaxie sous un seul angle. Il faudra accueillir davantage de tendances et d'idées pour espérer diriger une population aussi hétérogène.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Objective">Soyez le premier à voter une loi de chacun des $LawAmount partis politiques du début de partie.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Title">Aimant à talents</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Description">Tant de planètes et de systèmes, peuplés par tant de personnes aux besoins si différents — et souvent contradictoires. Pour réellement les accompagner et les servir, il faut recruter de nombreux héros, et le plus tôt sera le mieux.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Objective">Être le premier à recruter un héros de chaque parti politique</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Title">Mentor de légendes</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Description">La puissance et l'essor de ses fidèles sont un signe direct de la force et du talent d'un dirigeant. Combien de souverains galactiques peuvent se targuer de la loyauté de grands héros aux pouvoirs mythiques ? Élevez un héros au niveau de compétence requis, et la galaxie vous regardera avec envie.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Objective">Être le premier à élever l'un de vos héros au niveau $LevelAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires accomplir cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Completed">L'une après l'autre, les grandes questions et découvertes de la galaxie vous livrent leurs secrets. Félicitations, traqueur de rêves !</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Failed">D'autres ont poursuivi leurs rêves plus vite ou avec plus de détermination ; vous n'aurez pas accompli cet exploit.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Title">Préservation des nations</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Description">Croissez, multipliez ! Répandre sa civilisation à travers les étoiles n'est pas un simple acte d'égotisme débridé. C'est la seule façon d'assurer la survie de votre peuple dans les guerres et cataclysmes inévitables de cette galaxie aussi étrange que violente.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Objective">Soyez le premier à atteindre $PopulationAmount unités de population dans votre empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Title">Développeur de talents</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Description">Si certains peuvent y voir une maximisation de l'exploitation, d'autres considéreront cela comme le plein accomplissement du potentiel d'une culture. Plus vous pourrez développer un peuple, plus vous aurez l'avantage… et plus leur dirigeant sera auréolé de gloire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Objective">Soyez le premier à débloquer le 3e bonus d'Accumulation de population dans votre empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Title">Maestro de l'approbation</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Description">Les civilisations peuvent se répandre dans les étoiles, mais leurs citoyens sont-ils heureux ? Guidez le développement de votre empire de manière à satisfaire sa population, car un citoyen heureux est un citoyen malléable.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Objective">Soyez le premier à atteindre $HappinessObjectiveName [happinessColored] dans votre empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Title">Forgeur d'armes</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Description">La puissance de feu de vos plus grands vaisseaux représente la capacité de votre empire à se protéger des menaces... ou à en faire peser sur les autres.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Objective">Être le premier à construire un vaisseau avec $Amount01Name [offensiveMilitaryPower] de puissance militaire offensive.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Title">Pourfendeur d'ennemis</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Description">Si la Brume et la diplomatie sont des moyens pacifiques de déterminer sa place dans l'ordre galactique, une bonne guerre à l'ancienne est parfois nécessaire pour exprimer votre point de vue. Menez vos flottes à la victoire contre ceux qui oseront vous résister, et vous ferez réfléchir d'autres opposants potentiels…</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Objective">Soyez le premier à remporter $BattleAmount batailles.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Title">Levée en masse</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Description">Rien n'inspire plus de terreur aux ennemis qu'une armée vraisemblablement infinie. Assemblez des forces armées si massives que leur défilé s'étirerait au-delà de ce que l'œil peut voir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Objective">Soyez le premier à posséder une capacité d'Empire de $Amount01Name [manPowerColored] #D0D0D0#main-d'œuvre#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Title">Envahisseur</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Description">Il peut y avoir de nombreuses raisons d'envahir un système adverse : capturer ses richesses, appliquer un châtiment, ou établir la meilleure défense pour votre civilisation. Frappez suffisamment d'ennemis, faites-leur comprendre que nul ne vous échappera, ni dans le vide sidéral ni même dans leur propre foyer !</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Objective">Soyez le premier à envahir $SystemAmount systèmes.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Title">Briseur de planètes</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Description">Quiconque possède le pouvoir des dieux a tout intérêt à l'utiliser. Il n'est pas de meilleure façon de briser un ennemi que de faire éclater le monde sur lequel il vit ; n'hésitez pas à utiliser le pouvoir de vos engins de guerre pour imposer la paix qui vous ressemble.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Objective">Soyez le premier à détruire $PlanetAmount planètes avec un Briseur de noyau.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-ObjectiveTooltip">You cannot allow other empires to complete this task before you do.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Title">Prospecteur de la destruction</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Description">La puissance d'une force militaire dépend exclusivement des armes qu'elle détient. Soyez le premier à contrôler un complexe militaro-industriel qui produit les matières premières brutes de la guerre en nombres sans précédent.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Objective">Soyez le premier à atteindre une production de $Amount01Name [Strat05orichalcixColored] #A75DFA#Orichalcix#REVERT# ou [Strat06quadrinixColored] #1FBB71#Quadrinix#REVERT# dans votre empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Title">Quête de vérités</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Description">Il existe des mystères et des anomalies sans nombre dans l'univers ; avec du temps, des efforts et des équipes de techniciens qualifiés, vous pourrez en découvrir une infime fraction.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Objective">Soyez le premier à étudier $CuriosityAmount curiosités.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Title">Étude des mondes</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Description">Vu le nombre et la variété des planètes, il faudra de la persévérance et de la détermination pour véritablement apprécier la vaste diversité biologique et géologique de la galaxie.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Objective">Soyez le premier à obtenir $PlanetAmount planètes colonisées dans votre empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Title">Pionniers du vide</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Description">La galaxie est vaste, mais il faut la parcourir pour découvrir ses secrets les plus profonds. Envoyez de courageux explorateurs dans le vide interstellaire pour en rapporter le savoir des étoiles.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Objective">Soyez le premier à explorer $NeededPercentageName % de la galaxie</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Title">Quête de sagesse</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Description">Les découvertes dans une spécialité développent sans doute des idées menant à des découvertes dans d'autres champs de connaissance. Maximisez le génie potentiel de vos chercheurs et professeurs en découvrant une myriade de technologies différentes.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Objective">Soyez le premier à débloquer $TechnologyAmount technologies.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Title">Promoteur de la science</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Description">Si la connaissance peut progresser dans de nombreux domaines, la recherche la plus pure est l'étude de la science dans l'intérêt de la science. La réussite économique et diplomatique suivra fatalement si vous pouvez montrer que votre capacité à débloquer les mystères de l'univers est sans égale.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Objective">Soyez le premier à débloquer $TechnologyAmount technologies d'exploration et de science.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Title">Conquérant des anomalies</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Description">Certains cillent face à l'inconnu, mais les véritables explorateurs sourient aux mystères de l'univers. Ce n'est qu'en abordant et en interrogeant les plus profonds secrets de la nature que vous atteindrez les sciences les plus profondes.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Objective">Soyez le premier à posséder $Amount01Name anomalies dans votre empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-ObjectiveTooltip">Vous ne pouvez pas laisser d'autres empires terminer cette tâche avant vous.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Completed">Félicitations ! Vous avez accompli cet exploit légendaire !
+Les autres empires n'ont plus aucune chance de l'obtenir.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Failed">Un autre empire a accompli cet exploit légendaire.
+Vous ne pourrez plus l'obtenir.</LocalizationPair>
+</Datatable>

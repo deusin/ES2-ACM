@@ -1,72 +1,194 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
-
-	<!--deeds-->
-	
-	<LocalizationPair Name="%Deeds_Wonder1-Objective">Build the wonder "Endless Research Park and EndlessWorld" in one of your star systems.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Wonder2-Objective">Build the wonder "Intergalactic Technology Center (ITER)" in one of your star systems.</LocalizationPair>
-	<!--<LocalizationPair Name="%Deeds_Wonder3-Objective">Build the wonder "Trade Clearing Bureau" in one of your star systems.</LocalizationPair>-->
-	<LocalizationPair Name="%Deeds_Wonder4-Objective">Build the wonder "Ministry of Truth" in one of your star systems.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A-Objective">Pass a law from each of the $LawAmount political parties from the beginning of the game.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B-Objective">Buyout $SystemAmount Systems by spending Influence.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A-Objective">Reach $PopulationAmount Population within your empire.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B-Objective">Unlock the 3rd Population Collection Bonus level within your Empire.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A-Objective">Succesfully search $CuriosityAmount curiosities.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B-Objective">Have $PlanetAmount planets colonized within your Empire.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A-Objective">Unlock $TechnologyAmount Technologies.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B-Objective">Unlock $TechnologyAmount Science and Exploration Technologies.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A-Objective">Have $ImprovementAmount Unique Star System Improvements in your Empire.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B-Objective">Produce $DustAmount Dust in a single star system.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A-Objective">Control at least $SystemAmount star systems in the same constellation.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B-Objective">Create $TradeCompaniesAmount trade companies.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_A-Objective">Raise one of your Heroes to level $LevelAmount.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_B-Objective">Win $BattleAmount battles.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_A-Objective">Invade $SystemAmount systems.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_B-Objective">Destroy $PlanetAmount planets.</LocalizationPair>
-
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C-Objective">Reach $HappinessObjectiveName [happinessColored] in your Empire.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C-Objective">Possess $Amount01Name anomalies in your Empire.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C-Objective">Possess $Amount01Name Star System Improvements in your Empire.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C-Objective">Reach Level $Amount01Name in one of your Systems.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_C-Objective">Have an Empire capacity of $Amount01Name [manPowerColored] #D0D0D0#Manpower#REVERT#</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_C-Objective">Reach $Amount01Name [Strat05orichalcixColored] #A75DFA#Orichalcix#REVERT# or [Strat06quadrinixColored] #1FBB71#Quadrinix#REVERT# Empire production.</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C-Objective">Explore $NeededPercentageName % of the Galaxy</LocalizationPair>
-
-	<LocalizationPair Name="%Deeds_Wonder1-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Wonder2-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<!--<LocalizationPair Name="%Deeds_Wonder3-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>-->
-	<LocalizationPair Name="%Deeds_Wonder4-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_A-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_B-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-
-	<LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage3_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_Military_Stage4_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-	<LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C-Completed">Congratulations! You have achieved this Legendary Deed!</LocalizationPair>
-
-	<LocalizationPair Name="%StarSystemImprovementResearchToLifeforceTitle">Erudite For Essence</LocalizationPair>
-  	<LocalizationPair Name="%StarSystemImprovementResearchToLifeforceDescription">Most souls give their essence freely, understanding they are contributing to a higher glory in their sacrifice. The Church of the Virtual Saints, however, is a lively religion and its hunger for essence is insatiable. The sacrifices alone are often never enough. Sometimes it is necessary to offer incentives to the scholastic, the studious, and the brainy. So we do.</LocalizationPair>
-  
-	<LocalizationPair Name="%StarSystemImprovementResearchToLifeforceTooltipEffect">50% [scienceColored] is consumed.
-25% [scienceColored] converted into [lifeforceColored]</LocalizationPair>
-
-	<LocalizationPair Name="%SystemResearchFromResearchConversionTitle">Science Conversion</LocalizationPair>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- Worthy Deeds inside ACM: strings of the *_WD deeds, copied from ESG/vanilla by the ACM graft. -->
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Title">Builder of Wonders</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Description">It requires a relentless drive for improvement and creation to mold the planets and star systems into a thriving empire full of wealth and opportunity. Only by relentlessly building and developing can a dream for galactic greatness be achieved.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Objective">Have $ImprovementAmount Unique Star System Improvements in your Empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Title">Creator of Wealth</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Description">To some, Dust is a miraculous substance coveted for its power as much as for its trade value. To others, Dust is merely a way of keeping score and seeing who is ahead in the great game of political domination. Regardless of how you may feel, it is time to show the riches you are able to produce!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Objective">Produce $DustAmount Dust in a single star system.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Title">Architect of Industries</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Description">Production is the lifeblood of any civilization, old or new. Starfaring ambitions will always be built on a foundation of industrial might, so be bold, and build the future first!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Objective">Possess $Amount01Name Star System Improvements in your Empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Title">Consolidator of Systems</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Description">Great leaders once looked at the physical terrain they controlled as an indication of their wealth and power. Now that these conflicts have moved to the stars, it is the number of systems that determines your position. Take control of your constellation, and with it, your future!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Objective">Control at least $SystemAmount star systems in the same constellation.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Title">Founder of Conglomerates</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Description">A vast network of trading companies means many things to an empire--wealth, friendly ports in faraway places, and sources of information and influence. What better way to establish your place in the galaxy than to control the greatest number of these profitable and practical conglomerates?</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Objective">Create $TradeCompaniesAmount trade companies.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Title">Master of Modernization</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Description">It is not simply enough for a society to function. For a civilization to flourish it must possess shining beacons of refinement that inspire every world. Be the first to raise a system to a level of glittering sophistication the galaxy has never witnessed before.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Objective">Reach Level $Amount01Name in one of your Systems.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Title">Promoter of Diversity</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Description">There are too many cultures and too many definitions of "intelligence" to hope to understand the galaxy from a single frame of reference. Only by welcoming more trends and more ideas can one hope to lead such a heterogenous population.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Objective">Pass a law from each of the $LawAmount political parties from the beginning of the game.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Title">Attractor of Talent</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Description">So many planets and systems, populated by so many people with so many different--and often conflicting--needs. To truly nurture and serve them, a great deal of hero recruitment must be done, and the sooner it is done, the better.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Objective">Recruit a Hero from every political party</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Title">Mentor of Legends</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Description">The power and growth of one's followers is a direct sign of the power and talent of a leader. How many galactic rulers can claim to the loyalty of great Heroes with their mythic powers? Raise a Hero up to the desired level of skill, and the galaxy will view you with envy.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Objective">Raise one of your Heroes to level $LevelAmount.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Completed">One by one the great questions and discoveries of the galaxy divulge their secrets to you. Congratulations, dream-chaser!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Failed">Others chased their dreams faster or with more resolution; this deed is not yours to grasp.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Title">Preserver of Nations</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Description">Go forth and be fruitful! It is not simply an act of unfettered egotism to spread your civilization across the stars. Only by doing so can you hope that your people will survive the inevitable wars and cataclysms of this strange and violent galaxy.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Objective">Reach $PopulationAmount Population within your empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Title">Developer of Talent</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Description">While some may view it as maximizing exploitation, others would call it bringing a culture to its fruition. The more you can grow and develop a people, the greater advantage they will bring--and the greater the glory that will accrue to their leader.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Objective">Unlock the 3rd Population Collection Bonus level within your Empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Title">Maestro of Approval</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Description">Civilizations might spread among the stars, but are their citizens happy? Guide your empire's development along lines that satisfy the population--for a contented citizen is a malleable citizen.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Objective">Reach $HappinessObjectiveName [happinessColored] in your Empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Title">Forger of Weapons</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Description">The firepower of your greatest ships represents your empire's ability to protect itself from threats...or issue them to others.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Objective">Build a ship with $Amount01Name [offensiveMilitaryPower] Offensive Military Power.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Title">Conqueror of Foes</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Description">While Dust and diplomacy are more peaceful ways to determine one's place in the galactic order, sometimes a simple brawl is necessary to get your point of view across. Lead your fleets to victories against those who dare to oppose you, and make others who share those foolish thoughts think twice...</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Objective">Win $BattleAmount battles.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Title">Raiser of Armies</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Description">Nothing strikes more fear into the heart of an enemy than a standing army vaster than ever seen before. Build your army numbers to such an extent that a parade of the forces would stretch farther than the eye could ever hope to see.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Objective">Have an Empire capacity of $Amount01Name [manPowerColored] #D0D0D0#Manpower#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Title">Invader of Worlds</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Description">There can be many reasons to invade an opposing system--for riches, as punishment, or to establish the best defense for your own civilization. Strike enough enemies with the power of your armies, and let them know that they cannot escape you either in the void of space or inside their own homes!</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Objective">Invade $SystemAmount systems.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Title">Breaker of Planets</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Description">If one wields the power of the gods, one might as well use it. There is no greater way to break an enemy than to shatter the very worlds on which they live; do not fear to use the power of your engines of war to impose the peace that most suits you.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Objective">Destroy $PlanetAmount planets with a Core Cracker.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Title">Prospector of Destruction</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Description">A military force is only ever as powerful as the weapons it holds in it hands. Be the first to control a military-industrial complex that produces the raw materials of warfare in unprecedented numbers.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Objective">Reach $Amount01Name [Strat05orichalcixColored] #A75DFA#Orichalcix#REVERT# or [Strat06quadrinixColored] #1FBB71#Quadrinix#REVERT# Empire production.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Title">Seeker of Truths</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Description">There are innumerable mysteries and oddities in the universe; time, effort, and skilled technical teams will all be necessary to uncover even this small fraction of them.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Objective">Succesfully search $CuriosityAmount curiosities.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Title">Studier of Worlds</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Description">Given the vast number of planets and their many types, it will require dedication and commitment to truly appreciate the vast geological and biological diversity of the galaxy.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Objective">Have $PlanetAmount planets colonized within your Empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Title">Pioneer of the Void</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Description">The galaxy is vast, yet it must be traveled to begin to reveal its deeper secrets. Scatter brave explorers across the interstellar voids and bring back the knowledge of the stars.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Objective">Explore $NeededPercentageName % of the Galaxy</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Title">Searcher of Wisdom</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Description">Discoveries in one specialty often unlock ideas that lead to discoveries in other, unrelated fields. Maximize the pool of genius that your researchers and professors represent by discovering  a myriad of different technologies.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Objective">Unlock $TechnologyAmount Technologies.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Title">Promoter of Science</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Description">While knowledge can progress in many areas, the purest form is the study of science for its own sake. Economic and diplomatic success must surely follow if you can show that your ability to unlock the mysteries of the universe is second to none.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Objective">Unlock $TechnologyAmount Science and Exploration Technologies.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Title">Claimer of Oddities</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Description">Some flinch in the face of the unknown, but true explorers embrace the mysteries of the universe. Only by seizing and interrogating nature's deepest secrets will the most profound sciences be attained.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Objective">Possess $Amount01Name anomalies in your Empire.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-ObjectiveTooltip">Every empire that achieves this completes the Deed and receives all of its rewards.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Completed">Congratulations! You have achieved this Legendary Deed!
+Other empires can no longer hope to obtain it.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Failed">Another empire has achieved this Legendary Deed.
+You are no longer able to achieve it.</LocalizationPair>
 </Datatable>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- Worthy Deeds inside ACM: strings of the *_WD deeds, copied from ESG/vanilla by the ACM graft. -->
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Title">奇迹建造者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Description">只有不懈地追求精益求精和创造更新，才能把行星和行星系统打造成一个充满财富和机遇的繁盛帝国。只有不断地建设和开发，才能实现银河系强大帝国的梦想。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Objective">率先在你的帝国中建造$ImprovementAmount项独特行星系统改良设施。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_A_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Title">财富创造者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Description">对有些人而言，星尘是一种神奇的物质，它的力量和贸易价值都同样令人觊觎。对其他人而言，星尘只是一种记分方式，用于显示谁在政治统治的大博弈中领先他人。不管你怎么想，是时候向世人展示你所能产出的财富了！</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Objective">率先在单个行星系统内产出$DustAmount星尘。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_B_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Title">工业缔造者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Description">无论是古老的还是新兴的文明，产出都是它的生命线。星际旅行的野心总是建立在工业实力的基础之上，因此，敢为天下先地为未来而建造吧！</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Objective">率先在你的帝国中拥有$Amount01Name 项行星系统改良设施。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage2_C_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Title">行星系统一者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Description">伟大的领导者曾将他们所控制的物理地域视为其财富和权力的象征。既然这种权力之争已经升至星辰之上，那么，能决定你地位的自然就是辖下行星系的数量了。控制你所处的星座，并让它成就你的未来！</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Objective">率先在同一个星座内控制至少$SystemAmount个行星系统。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_A_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Title">企业集团创始人</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Description">一个庞大的贸易公司网络会给帝国带来许多益处——财富、遥远之地的友好港口以及信息和影响力的来源。除了将最大数量的有利可图且讲求实效的企业集团纳入麾下之外，还有更好的方法可用于确立你在银河系中的地位吗？</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Objective">率先创建$TradeCompaniesAmount个贸易公司。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_B_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Title">现代化大师</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Description">只是做到让一个社会正常运作是不够的。因为一个文明要想繁荣兴旺，就必须拥有辉耀四方的文雅之地，从而激励其他的世界争相效仿。率先让一个行星系的文明复杂程度达到银河系前所未见的登峰造极水平。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Objective">率先让你辖下任一行星系达到第$Amount01Name 级。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EconomyAndTrade_Stage3_C_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Title">多样性推动者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Description">由于文化种类太多，对于“智力”的定义又各不相同，因此，根本不可能只在一个思想体系内理解银河系。只有接纳百花齐放和百家争鸣的思想和趋势，你才有可能领导这样一个五方杂处的群体。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Objective">率先在$LawAmount个政党中均通过一条法律。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_A_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Title">基础设施创建者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Description">那么多的行星和行星系上住着那么多人，他们的需求那么得不同，甚至时常相互冲突。要真正培养和服务于他们，就必须进行大量的建造，而且是越快开始越好。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Objective">率先成为第一个使用影响力转化功能，用影响力买断$SystemAmount个行星系的人。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_B_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Title">逐梦家</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Description">更大、更远、更激烈、更令人敬畏……在这个银河系中，没有什么登峰造极之物，永远都有更胜一筹者。在不断的追寻和研究、不懈的分析和构建里，你将揭开层层奥秘，获得一个又一个的真理，并将它们化为己有。而你所需具备的只是强韧的意志力和梦想家的勇气。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Objective">完成$QuestCompletedObjective任务，成为最伟大的银河系奥秘探索家。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-ObjectiveTooltip">在任务与事件界面追踪正在进行和已经完成的任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Completed">银河系中的重大问题和发现一个接一个地向你透露它们的秘密。恭喜你，逐梦家！</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage4_C_WD-Failed">其他人的逐梦速度更快，或者拥有更坚定的决心。你已经无法再获得这个功绩了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Title">国家保护者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Description">勇往直前，生养众多！将你的文明传播至其他星球，这可不只是一个为所欲为的利己行为。因为只有这样，你才能让你的民众逃过死劫：无可避免的战争，以及这个诡奇而暴力的银河系中发生的种种灾难。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Objective">率先让你的帝国人口达到$PopulationAmount人。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_A_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Title">人才开发</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Description">虽然有些人将它视为最大化剥削，但另一些人却会认为它让一种文化臻至顶峰。一个种族的成长和发展程度越高，他们所能带来的优势就会越大——而他们的领袖也将因此享有更高的荣耀。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Objective">率先在帝国内解锁第3级族群人才搜罗加成。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_B_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Title">民安国泰</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Description">很多文明或许传遍了群星，但它们的公民快乐吗？让你的帝国沿着顺天应民的路线发展——心满意足的公民才会温和驯顺。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Objective">率先让你的帝国达到$HappinessObjectiveName [happinessColored]。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_EmpireDevelopment_Stage5_C_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Title">传奇英雄之师</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Description">追随者的力量和成长是领导者能力和才华的直接标志。有多少银河系统治者敢声称他们曾得到过拥有神秘力量的伟大英雄的誓死效忠？将一位英雄的技能提升至期望等级，然后，你就能收获银河系各处投来的羡慕眼光了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Objective">率先将你的英雄之一提升至第$LevelAmount级。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_A_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Title">所向披靡者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Description">在确定一个人的银河系地位时，虽然星尘和外交是更和平的方式，但有时直接干上一仗就能让你的观点远播四方。率领你的舰队击溃那些胆敢反抗你的人，让那些暗怀这类愚蠢想法的人三思而后行……</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Objective">率先赢取$BattleAmount场战役。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_B_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Title">招兵买马</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Description">一支规模空前的庞大军队将会让敌军产生难以言喻的恐惧之感。积极扩建军队，让士兵人数达到阅兵游行队伍一眼绝对望不到头的程度。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Objective">率先让你的帝国可容纳$Amount01Name [manPowerColored]#D0D0D0#人力#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage3_C_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Title">武力入侵者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Description">要入侵一个对立的行星系，理由有很多——获取财富，惩罚异己，或为自己的文明构建最好的防御圈。派出你的军队用实力辗压足够多的敌人，让他们明白，不论是在浩瀚的太空之中，还是在他们自己的家园里，都难逃你的掌控！</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Objective">率先入侵$SystemAmount个行星系。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_A_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Title">行星破坏者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Description">如果一个人拥有神一般的力量，那么，不用白不用。要想击溃敌人，再没有比捣毁他们所生活的世界更好的办法了。不要瞻前顾后，尽管发动战争引擎，用它的力量来强制实施最合你心意的和平。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Objective">率先使用地核摧毁者摧毁$PlanetAmount颗行星。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-ObjectiveTooltip">You cannot allow other empires to complete this task before you do.</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_B_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Title">毁灭先锋</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Description">欲善其事，先利其器——对于军队而言也是如此。率先控制住一个可以空前速度生产军备的军事工业设施。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Objective">率先让帝国的[Strat05orichalcixColored]#A75DFA#紫合金#REVERT#或[Strat06quadrinixColored]#1FBB71#相际质#REVERT#产出达到$Amount01Name。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_Military_Stage4_C_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Title">真理追寻者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Description">这个宇宙中存在着不计其数的奥秘和奇事。要发现哪怕其中的一小部分，也必须要花费时间和精力，并组建资深的技术团队。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Objective">率先成功搜寻到$CuriosityAmount项珍奇。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_A_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Title">探究世界者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Description">由于行星数量和种类如此之多，只有具备敬业和奉献精神的人才能真正欣赏银河系中庞驳的地质和生物多样性。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Objective">率先让你的帝国拥有$PlanetAmount 颗殖民行星。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_B_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Title">虚空先驱</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Description">这个银河系广袤无垠，但你必须飞出去才能揭开它的更深层奥秘。派遣大无畏的探索家，让他们飞遍星际的虚空，带回与群星有关的知识。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Objective">率先探索$NeededPercentageName %的银河系</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage2_C_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Title">智慧求索者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Description">一个专业方面的发现往往会触发灵感，带来其他非相关领域的发现。通过发现各种各样的不同技术，便可最大限度地扩充以研究者和教授为代表的英才库。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Objective">率先解锁$TechnologyAmount项技术。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_A_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Title">科技推动者</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Description">虽然知识可以在许多领域取得进步，但最纯粹的形式是研究科技本身。如果你能够证明自己拥有无可匹敌的宇宙奥秘解密能力，那么，经济和外交上的成功势必会随之而来。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Objective">率先解锁$TechnologyAmount项科技与探索技术。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_B_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Title">探赜索隐</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Description">有些人面对未知时会畏缩不前，但真正的探索者却会乐于探究这个宇宙的种种奥秘。只有那些领会和钻研了自然最深层秘密的人，才能取得最高的科技成就。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Objective">率先在你的帝国中拥有$Amount01Name个特异点。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-ObjectiveTooltip">你不能让其他帝国先你一步完成这项任务。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Completed">恭喜！你已经取得了这一传奇功绩！
+其他帝国再也别想得到它了。</LocalizationPair>
+  <LocalizationPair Name="%Deeds_Regular_ScienceAndExploration_Stage5_C_WD-Failed">另一个帝国已经取得了这一传奇功绩。
+你已经无法实现这个目标了。</LocalizationPair>
+</Datatable>
