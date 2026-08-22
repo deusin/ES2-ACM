@@ -23,7 +23,7 @@
     <Title>%HeroSkillCostReductions_Title</Title>
     <Description>%HeroSkillCostReductions_Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill50_Approval_Percent_Small" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill50_Approval_Percent_Small_Labour" />
     </Icons>
   </ExtendedGuiElement>
   
@@ -107,7 +107,7 @@
     <Title>%HeroSkill81_Influence_PercentFlat_Title</Title>
     <Description>%HeroSkill81_Influence_PercentFlat_Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill81_Influence_PercentFlat_Small" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill81_Influence_PercentFlat_Small_Wit" />
     </Icons>
   </ExtendedGuiElement>
 
@@ -115,7 +115,7 @@
     <Title>%HeroSkill08BranchCorporateTitle</Title>
     <Description>%HeroSkill08BranchCorporateDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill82_Influence_Percent_Small" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill82_Influence_Percent_Small_WitSenate" />
     </Icons>
   </ExtendedGuiElement>
 
@@ -197,7 +197,7 @@
     <Title>%HeroSkillEndlessExploration_1Title</Title>
     <Description>%HeroSkillEndlessExploration_1Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill35_FleetExploration_Flat_Small"/>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill35_FleetExploration_Flat_Small_Curiosity"/>
     </Icons>
   </ExtendedGuiElement>
   <ExtendedGuiElement Name="HeroSkill07BranchEndless">
@@ -315,7 +315,7 @@
     <Title>%HeroSkillSystemHoratio_ShipStats_1Title</Title>
     <Description>%HeroSkillSystemHoratio_ShipStats_1Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill111_FleetDamage_Percent_Small"/>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill111_FleetDamage_Percent_Small_Labour"/>
     </Icons>
   </ExtendedGuiElement>
 
@@ -479,7 +479,7 @@
       <Title>%HeroSkill04BranchIndustrialistTitle</Title>
       <Description>%HeroSkill04BranchIndustrialistDescription</Description>
       <Icons>
-          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill71_Industry_PerPlanetFlat_Small" />
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill71_Industry_PerPlanetFlat_Small_LabourSenate" />
       </Icons>
   </ExtendedGuiElement>
 
@@ -538,7 +538,7 @@
       <Title>%HeroSkill04BranchScientistTitle</Title>
       <Description>%HeroSkill04BranchScientistDescription</Description>
       <Icons>
-          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill91_Science_PerAnomalyFlat_Small" />
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill91_Science_PerAnomalyFlat_Small_LabourSenate" />
       </Icons>
   </ExtendedGuiElement>
 
@@ -554,7 +554,7 @@
       <Title>%HeroSkill07BranchScientistTitle</Title>
       <Description>%HeroSkill07BranchScientistDescription</Description>
       <Icons>
-          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill75_Industry_PerAnomaly_Small" />
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill75_Industry_PerAnomaly_Small_Wit" />
       </Icons>
   </ExtendedGuiElement>
 
@@ -581,7 +581,7 @@
       <Title>%HeroSkill02BranchPacifistTitle</Title>
       <Description>%HeroSkill02BranchPacifistDescription</Description>
       <Icons>
-          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill46_FleetExplorationFleetUpkeep_PercentFlat_Small" />
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill46_FleetExplorationFleetUpkeep_PercentFlat_Small_Command" />
       </Icons>
   </ExtendedGuiElement>
 
@@ -640,7 +640,7 @@
       <Title>%HeroSkill03BranchEcologistTitle</Title>
       <Description>%HeroSkill03BranchEcologistDescription</Description>
       <Icons>
-          <Icon Size="Small" Path="Bitmaps/Atlased/Laws/LawP04L01Small" />
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/LawP04L01Small_Wit" />
       </Icons>
   </ExtendedGuiElement>
 
@@ -656,7 +656,7 @@
       <Title>%HeroSkill06BranchEcologistTitle</Title>
       <Description>%HeroSkill06BranchEcologistDescription</Description>
       <Icons>
-          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill91_Science_PerAnomalyFlat_Small" />
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill91_Science_PerAnomalyFlat_Small_Command" />
       </Icons>
   </ExtendedGuiElement>
 
@@ -683,7 +683,7 @@
       <Title>%HeroSkill01BranchReligiousTitle</Title>
       <Description>%HeroSkill01BranchReligiousDescription</Description>
       <Icons>
-          <Icon Size="Small" Path="Bitmaps/Atlased/Laws/LawP05L04Small" />
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/LawP05L04Small_Wit" />
       </Icons>
   </ExtendedGuiElement>
 
@@ -766,7 +766,7 @@
       <Title>%HeroSkill04BranchMilitaristTitle</Title>
       <Description>%HeroSkill04BranchMilitaristDescription</Description>
       <Icons>
-          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill37_FleetExploration_Flat_Small" />
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/HeroSkill37_FleetExploration_Flat_Small_LabourSenate" />
       </Icons>
   </ExtendedGuiElement>
 
@@ -782,9 +782,259 @@
       <Title>%HeroSkill07BranchMilitaristTitle</Title>
       <Description>%HeroSkill07BranchMilitaristDescription</Description>
       <Icons>
-          <Icon Size="Small" Path="Bitmaps/Atlased/Laws/LawP04L04Small" />
+          <Icon Size="Small" Path="Bitmaps/Dynamic/Skills/LawP04L04Small_Labour" />
       </Icons>
   </ExtendedGuiElement>
 
+
+  <!-- Useful Skill Colours 2.2: mastery-tinted GUI elements for vanilla skills/trees not defined above -->
+  <ExtendedGuiElement Name="HeroSkill02BranchSophons">
+    <Title>%HeroSkill35_FleetExploration_Flat_Title</Title>
+    <Description>%HeroSkill35_FleetExploration_Flat_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill35_FleetExploration_Flat_Small_Curiosity" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill03BranchVenetians">
+    <Title>%HeroSkill82_Influence_Percent_Title</Title>
+    <Description>%HeroSkill82_Influence_Percent_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill82_Influence_Percent_Small_WitSenate" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill04BranchAdministrator">
+    <Title>%HeroSkill98_StrategicLuxury_Flat_Title</Title>
+    <Description>%HeroSkill98_StrategicLuxury_Flat_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill98_StrategicLuxury_Flat_Small_WitSenate" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill04BranchTerrans">
+    <Title>%HeroSkill76_Industry_PerPlanetFlat_Title</Title>
+    <Description>%HeroSkill76_Industry_PerPlanetFlat_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill76_Industry_PerPlanetFlat_Small_Labour" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill05BranchGeneric">
+    <Title>%HeroSkill17_HeroUpkeepHeroCooldown_Percent_Title</Title>
+    <Description>%HeroSkill17_HeroUpkeepHeroCooldown_Percent_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill17_HeroUpkeepHeroCooldown_Percent_Small_Curiosity" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill05BranchMinorFaction01">
+    <Title>%HeroSkill1_ShipCostReduction_Percent_Title</Title>
+    <Description>%HeroSkill1_ShipCostReduction_Percent_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill1_ShipCostReduction_Percent_Small_LabourSenate" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill05BranchMinorFaction02">
+    <Title>%HeroSkill80_Influence_Perpop_Title</Title>
+    <Description>%HeroSkill80_Influence_Perpop_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill80_Influence_Perpop_Small_WitSenate" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill07BranchAdministrator">
+    <Title>%HeroSkill103_FID_Percent_Title</Title>
+    <Description>%HeroSkill103_FID_Percent_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill103_FID_Percent_Small_Labour" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill07BranchMinorFaction03">
+    <Title>%HeroSkill111_FleetDamage_Percent_Title</Title>
+    <Description>%HeroSkill111_FleetDamage_Percent_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill111_FleetDamage_Percent_Small_CommandSenate" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill07BranchMinorFaction04">
+    <Title>%HeroSkill73_Industry_Perpop_Title</Title>
+    <Description>%HeroSkill73_Industry_Perpop_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill73_Industry_Perpop_Small_LabourSenate" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill07BranchTerrans">
+    <Title>%HeroSkill77_Industry_PerHeroLevel_Title</Title>
+    <Description>%HeroSkill77_Industry_PerHeroLevel_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill77_Industry_PerHeroLevel_Small_LabourSenate" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkill07BranchTimeLords">
+    <Title>%HeroSkill75_Industry_PerAnomaly_Title</Title>
+    <Description>%HeroSkill75_Industry_PerAnomaly_Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill75_Industry_PerAnomaly_Small_LabourSenate" Size="Small"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeAdministrator">
+    <Title>%HeroSkillTreeAdministratorTitle</Title>
+    <Description>%HeroSkillTreeAdministratorDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Hero/HeroClassAdministratorSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeAdmiral">
+    <Title>%HeroSkillTreeAdmiralTitle</Title>
+    <Description>%HeroSkillTreeAdmiralDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Hero/HeroClassAdmiralSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeAdventurer">
+    <Title>%HeroSkillTreeAdventurerTitle</Title>
+    <Description>%HeroSkillTreeAdventurerDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Hero/HeroClassAdventurerSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeCorporate">
+    <Title>%HeroSkillTreeCorporateTitle</Title>
+    <Description>%HeroSkillTreeCorporateDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Hero/HeroClassCorporateSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeCravers">
+    <Title>%HeroSkillTreeCraversTitle</Title>
+    <Description>%HeroSkillTreeCraversDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Affinities/AffinityCraversSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeEndless">
+    <Title>%HeroSkillTreeEndlessTitle</Title>
+    <Description>%HeroSkillTreeEndlessDescription</Description>
+    <Icons>
+      <Icon Path="AffinityTimebotsSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeGeneric">
+    <Title>%HeroSkillTreeGenericTitle</Title>
+    <Description>%HeroSkillTreeGenericDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Hero/HeroesHeroesSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeHoratio">
+    <Title>%HeroSkillTreeHoratioTitle</Title>
+    <Description>%HeroSkillTreeHoratioDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Affinities/AffinityHoratioSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeMinorFaction01">
+    <Title>%HeroSkillTreeMinorFaction01Title</Title>
+    <Description>%HeroSkillTreeMinorFaction01Description</Description>
+    <Icons>
+      <Icon Path="AffinityScavengersSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeMinorFaction02">
+    <Title>%HeroSkillTreeMinorFaction02Title</Title>
+    <Description>%HeroSkillTreeMinorFaction02Description</Description>
+    <Icons>
+      <Icon Path="AffinityInsectoidsSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeMinorFaction03">
+    <Title>%HeroSkillTreeMinorFaction03Title</Title>
+    <Description>%HeroSkillTreeMinorFaction03Description</Description>
+    <Icons>
+      <Icon Path="AffinityAdvancedSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeMinorFaction04">
+    <Title>%HeroSkillTreeMinorFaction04Title</Title>
+    <Description>%HeroSkillTreeMinorFaction04Description</Description>
+    <Icons>
+      <Icon Path="AffinityPrimitivesSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeSophons">
+    <Title>%HeroSkillTreeSophonsTitle</Title>
+    <Description>%HeroSkillTreeSophonsDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Affinities/AffinitySophonsSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeTerrans">
+    <Title>%HeroSkillTreeTerransTitle</Title>
+    <Description>%HeroSkillTreeTerransDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Affinities/AffinityTerransSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeTimeLords">
+    <Title>%HeroSkillTreeTimeLordsTitle</Title>
+    <Description>%HeroSkillTreeTimeLordsDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Affinities/AffinityTimeLordsSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeVampirilis">
+    <Title>%HeroSkillTreeVampirilisTitle</Title>
+    <Description>%HeroSkillTreeVampirilisDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Affinities/AffinityVampirilisSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="HeroSkillTreeVenetians">
+    <Title>%HeroSkillTreeVenetiansTitle</Title>
+    <Description>%HeroSkillTreeVenetiansDescription</Description>
+    <Icons>
+      <Icon Path="/Atlased/Affinities/AffinityVenetiansSmall" Size="Small"/>
+    </Icons>
+    <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+  </ExtendedGuiElement>
 
 </Datatable>

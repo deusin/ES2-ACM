@@ -309,7 +309,7 @@
       <Tags>ColonizedStarSystem</Tags>
       <SkillLevel Name="HeroSkill02Venetians05_1">
           <ShipSimulationDescriptorReference Name="HeroSkillShip41_FleetUpkeep_Percent_0" />
-          <MasteryLevel Class="HeroMasteryCommand" Levels="1" />
+          <MasteryLevel Class="HeroMasteryCuriosity" Levels="1" />
       </SkillLevel>
   </HeroSkillDefinition>
     
@@ -611,7 +611,7 @@
       <SkillLevel Name="HeroSkill04BranchTemplars_02">
           <HeroSimulationDescriptorReference Name="HeroSkillComplete" />
           <SystemSimulationDescriptorReference Name="HeroSkillSystem130_Planet_FIDS_1" />
-          <MasteryLevel Class="HeroMasteryLabour" Levels="1" />
+          <MasteryLevel Class="HeroMasteryLabour" Levels="2" />
       </SkillLevel>
   </HeroSkillDefinition>
 
@@ -1127,4 +1127,47 @@
           <MasteryLevel Class="HeroMasteryLabour" Levels="1" />
       </SkillLevel>
   </HeroSkillDefinition>  
+  <!-- Useful Skill Colours 2.2: mastery definitions for skills ACM did not yet cover -->
+  <HeroSkillDefinition Name="HeroSkill01Tikanans01">
+    <SkillLevel Name="HeroSkill01Tikanans01_1">
+      <ShipSimulationDescriptorReference Name="HeroSkillShip41_FleetUpkeep_Percent_0"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="HeroSkill01Amoeba02">
+    <SkillLevel Name="HeroSkill01Amoeba02_1">
+      <ShipSimulationDescriptorReference Name="HeroSkillShip41_FleetUpkeep_Percent_0"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="HeroSkill04BranchVaulters">
+    <SkillLevel Name="HeroSkill04BranchVaulters_01">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="HeroSkillShip113_FleetExploration_Flat_2"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="HeroSkill04BranchMajorHisshos">
+    <SkillLevel Name="HeroSkill04BranchMajorHisshos_01">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="HeroSkillShip111_FleetDamage_Percent_2"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+    </SkillLevel>
+    <SkillLevel Name="HeroSkill04BranchMajorHisshos_02">
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+      <ShipSimulationDescriptorReference Name="HeroSkillShip111_FleetDamage_Percent_3"/>
+      <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
+  <HeroSkillDefinition Name="HeroSkill01Sefaloros01">
+    <SkillLevel Name="HeroSkill01Sefaloros01_1">
+      <ShipSimulationDescriptorReference Name="HeroSkillShip41_FleetUpkeep_Percent_0"/>
+      <MasteryLevel Class="HeroMasteryCuriosity" Levels="1"/>
+    </SkillLevel>
+  </HeroSkillDefinition>
+
 </Datatable>

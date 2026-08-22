@@ -995,7 +995,7 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="HeroSkillMoreIndi2" Type="HeroSkillSystem">
-    <BinaryModifier TargetProperty="PlanetIndustry" Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassColonizedStarSystem/ClassColonizedPlanet" SearchValueFromPath="true"/>
+    <BinaryModifier TargetProperty="PlanetIndustry" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassColonizedStarSystem/ClassColonizedPlanet" SearchValueFromPath="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="HeroSkillMoreHealth" Type="HeroSkillShip">

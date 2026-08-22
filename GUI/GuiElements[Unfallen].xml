@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <ExtendedGuiElement Name="HeroSkill04BranchUnfallen">
+        <Title>%HeroSkill84_Influence_PerHeroLevelFlat_Title</Title>
+        <Description>%HeroSkill84_Influence_PerHeroLevelFlat_Description</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill84_Influence_PerHeroLevelFlat_Small_Labour" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroSkill06BranchUnfallen">
+        <Title>%HeroSkill24_FleetDefense_Percent_Title</Title>
+        <Description>%HeroSkill24_FleetDefense_Percent_Description</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Dynamic/Skills/HeroSkill24_FleetDefense_Percent_Small_CommandSenate" Size="Small"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroSkillTreeUnfallen">
+        <Title>%HeroSkillTreeUnfallenTitle</Title>
+        <Description>%HeroSkillTreeUnfallenDescription</Description>
+        <Icons>
+            <Icon Path="/Atlased/Hero/AffinityUnfallenSmall" Size="Small"/>
+        </Icons>
+        <Color Alpha="255" Blue="255" Green="255" Red="255"/>
+    </ExtendedGuiElement>
+</Datatable>

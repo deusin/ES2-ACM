@@ -1,0 +1,40 @@
+Tree          Name                   Was        Now        Effects
+----          ----                   ---        ---        -------                                                                            
+(Innate)      Brunem Berto'Lancellum labour     wanderlust ship/garrison-money-upkeep
+(Innate)      Dominik Havanen        command    labour     system/ground-battle-defender-troops-max-health-multiplier
+(Innate)      Eighth of Fifteenth of Karval command    wanderlust ship/garrison-money-upkeep
+(Innate)      Farella -EM8 Mario 22  command    wanderlust ship/ship-maximum-movement
+(Innate)      Fasol Staccato         labour     wit        system/system-empire-point
+(Innate)      Five                   command    wanderlust ship/maximum-ship-probe-stock
+(Innate)      Glia Lak.Admstr7B2     command    wanderlust ship/garrison-money-upkeep
+(Innate)      Kalin Fett-Iska        wit        labour     system/planet-fidsi
+(Innate)      Ooblart Essacius       command    wanderlust ship/garrison-money-upkeep
+(Innate)      Petra Mandzukic        command    wanderlust ship/maximum-ship-probe-stock
+(Innate)      Sewa Eze               command    wanderlust ship/net-ship-probe
+(Innate)      Thustrellen            labour     wit        system/happiness, system/system-empire-point-from-hissho-bonus
+(Innate)      Tiaych Zhilleaq        command    wanderlust ship/free-movement-speed, ship/vision-range
+Endless       Endless Development    labour     wit        system/recipe-cost-multiplier
+Eusocial      Ultra Houseproud       labour     wit        system/system-money-upkeep
+Hissho        Red Zone Overkill      [bugged]   command    ship/ship-shield-penetration-factor
+Hissho        The Book of Five Wings wit        command    ship/critical-hit-chance, ship/damage
+Horatio       Vanity Markets         labour     wit        system/deposit-value
+Industrialist Optimized Strategic Detection labour     wit        system/deposit-value
+Nakalim       Holy Cause             command    labour     system/happiness-malus-reduction, system/minimum-fids
+Overseer      Clerical Corrections   labour     wit        senate/deposit-value, system/deposit-value, system/happiness, system/system-empire-point-from-hissho-bonus
+Overseer      Teamster Refurbishing  wit        labour     system/building-production-cost-reduction, system/system-money-upkeep
+Pacifist      Military inc.          wanderlust command    ship/evasion, ship/garrison-money-upkeep
+Pacifist      Optimized Luxury Detection labour     wit        system/deposit-value
+Pacifist      Scavenging Fleet       wit        command    ship/efficiency-against-squadron, ship/opponent-recycling-dust-per-cp, ship/opponent-recycling-science-per-cp
+Religious     Advertizement Overlord wit        labour     senate/law-upkeep, system/maximum-system-manpower, system/system-empire-point
+Religious     Personal Reviewer      command    wanderlust ship/experience-bonus-from-battle, ship/experience-per-turn
+Scientist     Academy Probes         wanderlust command    ship/fleet-maximum-shield
+Scientist     Academy Training       wit        labour     senate/technology-cost-quadrant-science-and-exploration-multiplier, system/maximum-system-manpower, system/system-research
+Seeker        Red Tape Scyther       wanderlust command    hero/morale-bonus
+Technologist  Public Repositories    wanderlust wit        system/system-research
+Umbral Choir  Nocturnal Sleepers     wit        labour     system/system-hero-fidsi-percent
+Unfallen      Common Touch           wit        labour     system/system-growth
+Unfallen      Symbiotic Repair       labour     command    senate/repair-flat-per-damage-absorbed-by-hull-plating, ship/repair-flat-per-damage-absorbed-by-hull-plating
+United Empire Prospector's Touch     labour     wit        system/deposit-value
+Universal     Applicable Efficiencies labour     wit        system/deposit-value
+Vaulters      Overclocked Scanners   [bugged]   wanderlust ship/siege-power, ship/vision-range
+Vaulters      Resource Scrounger     labour     wit        system/net-strategic1, system/net-strategic2

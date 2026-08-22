@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+    <HeroSkillDefinition Name="HeroSkill02UmbralChoir02">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkill02UmbralChoir02_1">
+            <SystemSimulationDescriptorReference Name="HeroSkillSystem83_Influence_Flat_0"/>
+            <MasteryLevel Class="HeroMasteryWit" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkill07BranchUmbralChoir">
+        <Tags>ColonizedStarSystem</Tags>
+        <SkillLevel Name="HeroSkill07BranchUmbralChoir_01">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+            <SystemSimulationDescriptorReference Name="HeroSkillSystem122_FIDSI_Flat_4"/>
+            <MasteryLevel Class="HeroMasteryLabour" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+</Datatable>
