@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/ShipConditionalConstructionEffectDefinition.xsd">
+    <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromHeroSkillSystemFluffpetal02ConstructedShip0101">
+        <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem,HeroSkillSystemFluffpetal02System01</PathPrerequisite>
+        <SimulationDescriptorReference Name="HeroSkillSystemFluffpetal02ConstructedShip01"/>
+    </ShipConditionalConstructionEffectDefinition>
+    <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromHeroSkillSystemFluffpetal02ConstructedShip0202">
+        <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem,HeroSkillSystemFluffpetal02System02</PathPrerequisite>
+        <SimulationDescriptorReference Name="HeroSkillSystemFluffpetal02ConstructedShip02"/>
+    </ShipConditionalConstructionEffectDefinition>
+    <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromHeroSkillSystemKalTikMas03ConstructedShip0101">
+        <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem,HeroSkillSystemKalTikMas03System01</PathPrerequisite>
+        <SimulationDescriptorReference Name="HeroSkillSystemKalTikMas03ConstructedShip01"/>
+    </ShipConditionalConstructionEffectDefinition>
+    <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromHeroSkillSystemKalTikMas03ConstructedShip0202">
+        <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem,HeroSkillSystemKalTikMas03System02</PathPrerequisite>
+        <SimulationDescriptorReference Name="HeroSkillSystemKalTikMas03ConstructedShip02"/>
+    </ShipConditionalConstructionEffectDefinition>
+    <ShipConditionalConstructionEffectDefinition Name="ShipConstructionEffectFromStarSystemImprovementProvingGrounds">
+        <PathPrerequisite Flags="Prerequisite">ClassColonizedStarSystem/StarSystemImprovementProvingGrounds</PathPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementProvingGroundsShipBonus"/>
+    </ShipConditionalConstructionEffectDefinition>
+</Datatable>

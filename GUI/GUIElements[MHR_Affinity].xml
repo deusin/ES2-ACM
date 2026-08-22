@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <AffinityGuiElement Name="AffinityMappingPlocynos">
+        <Title>%AffinityGameplayPlocynosTitle</Title>
+        <Description>%AffinityGameplayPlocynosDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityPrimitivesSmall" Size="Small"/>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityPrimitivesMedium" Size="Medium"/>
+            <Icon Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityPlocynosMediumInverted" Size="MediumInverted"/>
+            <Icon Path="Bitmaps/Dynamic/Affinities/AffinityPlocynosLarge" Size="Large"/>
+            <Icon Path="Bitmaps/Dynamic/Affinities/AffinityPlocynosMood" Size="Mood"/>
+        </Icons>
+        <SymbolString>[xenos]</SymbolString>
+        <Color Alpha="255" Blue="85" Green="145" Red="95"/>
+    </AffinityGuiElement>
+</Datatable>

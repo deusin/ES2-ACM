@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+    <FactionTrait Name="FactionTraitMinorDikeworks" Hidden="false" SubCategory="FactionTrait">
+        <SimulationDescriptorReference Name="FactionTraitMinorDikeworks"/>
+    </FactionTrait>
+    <FactionTrait Name="FactionTraitMinorHydraulicRefit" Hidden="false" SubCategory="FactionTrait">
+        <SimulationDescriptorReference Name="FactionTraitMinorHydraulicRefit"/>
+    </FactionTrait>
+    <FactionTrait Name="FactionTraitMinorPlocynos" Cost="5" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartPlocynos">
+        <Command Name="AddMinorPopulation" Arguments="AffinityPlocynos,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorPlocynos"/>
+    </FactionTrait>
+</Datatable>

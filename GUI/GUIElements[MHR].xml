@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/AllianceGuiElement.xsd">
+    <GuiElement Name="CategoryHeroSkillTreeAmoeba">
+        <Title>%CategoryHeroSkillTreeAmoebaTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityAmoebaSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeArchivist">
+        <Title>%CategoryHeroSkillTreeArchivistTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityTimebotsSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeBasryxo">
+        <Title>%CategoryHeroSkillTreeBasryxoTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityBasryxoSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeBhagabas">
+        <Title>%CategoryHeroSkillTreeBhagabasTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityBhagabasSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeBots">
+        <Title>%CategoryHeroSkillTreeBotsTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityTimebotsSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeDeuyivans">
+        <Title>%CategoryHeroSkillTreeDeuyivansTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityDeuyivansSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeEyders">
+        <Title>%CategoryHeroSkillTreeEydersTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityEydersSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeFluffpetal">
+        <Title>%CategoryHeroSkillTreeFluffpetalTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityPirateSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeGalvrans">
+        <Title>%CategoryHeroSkillTreeGalvransTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityGalvransSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeGnashasts">
+        <Title>%CategoryHeroSkillTreeGnashastsTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityGnashastsSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeGreenman">
+        <Title>%CategoryHeroSkillTreeGreenmanTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityGreenmanSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeHarmony">
+        <Title>%CategoryHeroSkillTreeHarmonyTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityHarmonySmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeHaroshem">
+        <Title>%CategoryHeroSkillTreeHaroshemTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityHaroshemsSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeHisshos">
+        <Title>%CategoryHeroSkillTreeHisshosTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityHisshosSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeIllo">
+        <Title>%CategoryHeroSkillTreeIlloTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityIlloSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeKalTikMas">
+        <Title>%CategoryHeroSkillTreeKalTikMasTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityKalTikMasSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeKalgeros">
+        <Title>%CategoryHeroSkillTreeKalgerosTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityBenthysSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeMavros">
+        <Title>%CategoryHeroSkillTreeMavrosTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityMavrosSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeNiris">
+        <Title>%CategoryHeroSkillTreeNirisTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityNirisSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeOpbot">
+        <Title>%CategoryHeroSkillTreeOpbotTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityAdvancedSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeOraculars">
+        <Title>%CategoryHeroSkillTreeOracularsTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityMinorOracularsSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreePilgrims">
+        <Title>%CategoryHeroSkillTreePilgrimsTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityPilgrimsSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreePlocynos">
+        <Title>%CategoryHeroSkillTreePlocynosTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityPrimitivesSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreePulsos">
+        <Title>%CategoryHeroSkillTreePulsosTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityPulsosSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeRemnant">
+        <Title>%CategoryHeroSkillTreeRemnantTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityRemnantSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeSefaloros">
+        <Title>%CategoryHeroSkillTreeSefalorosTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinitySefalorosSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeSistersOfMercy">
+        <Title>%CategoryHeroSkillTreeSistersOfMercyTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinitySistersOfMercySmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeSowers">
+        <Title>%CategoryHeroSkillTreeSowersTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinitySowersSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeTikanan">
+        <Title>%CategoryHeroSkillTreeTikananTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityTikanansSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeVirus">
+        <Title>%CategoryHeroSkillTreeVirusTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityInsectoidsSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeZvali">
+        <Title>%CategoryHeroSkillTreeZvaliTitle</Title>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Affinities/AffinityZvaliSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba01Ship01">
+        <Title>%HeroSkillTree01BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba01Ship02">
+        <Title>%HeroSkillTree01BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba02System01">
+        <Title>%HeroSkillTree02BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba02System02">
+        <Title>%HeroSkillTree02BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba03System01">
+        <Title>%HeroSkillTree03BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba03System02">
+        <Title>%HeroSkillTree03BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba04OnOwnedOrbit01">
+        <Title>%HeroSkillTree04BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba04OnOwnedOrbit02">
+        <Title>%HeroSkillTree04BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba05System01">
+        <Title>%HeroSkillTree05BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba05System02">
+        <Title>%HeroSkillTree05BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba06Empire01">
+        <Title>%HeroSkillTree06BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba06Empire02">
+        <Title>%HeroSkillTree06BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba07Ship01">
+        <Title>%HeroSkillTree07BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemAmoeba07Ship02">
+        <Title>%HeroSkillTree07BranchAmoebaTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist01OnHostileOrbit01">
+        <Title>%HeroSkillTree01BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist01OnHostileOrbit02">
+        <Title>%HeroSkillTree01BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist01Ship01">
+        <Title>%HeroSkillTree01BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist01Ship02">
+        <Title>%HeroSkillTree01BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist02System01">
+        <Title>%HeroSkillTree02BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist02System02">
+        <Title>%HeroSkillTree02BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist03Ship01">
+        <Title>%HeroSkillTree03BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist04System01">
+        <Title>%HeroSkillTree04BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist04System02">
+        <Title>%HeroSkillTree04BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist05System01">
+        <Title>%HeroSkillTree05BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist05System02">
+        <Title>%HeroSkillTree05BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist06System01">
+        <Title>%HeroSkillTree06BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist06System02">
+        <Title>%HeroSkillTree06BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist07Empire01">
+        <Title>%HeroSkillTree07BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemArchivist07Empire02">
+        <Title>%HeroSkillTree07BranchArchivistTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo01System01">
+        <Title>%HeroSkillTree01BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo01System02">
+        <Title>%HeroSkillTree01BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo02Ship01">
+        <Title>%HeroSkillTree02BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo02Ship02">
+        <Title>%HeroSkillTree02BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo03System01">
+        <Title>%HeroSkillTree03BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo03System02">
+        <Title>%HeroSkillTree03BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo04Ship01">
+        <Title>%HeroSkillTree04BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo04Ship02">
+        <Title>%HeroSkillTree04BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo05System01">
+        <Title>%HeroSkillTree05BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo05System02">
+        <Title>%HeroSkillTree05BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo06System01">
+        <Title>%HeroSkillTree06BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo06System02">
+        <Title>%HeroSkillTree06BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo07Empire01">
+        <Title>%HeroSkillTree07BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBasryxo07Empire02">
+        <Title>%HeroSkillTree07BranchBasryxoTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas01Ship01">
+        <Title>%HeroSkillTree01BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas01Ship02">
+        <Title>%HeroSkillTree01BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas02System01">
+        <Title>%HeroSkillTree02BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas02System02">
+        <Title>%HeroSkillTree02BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas03System01">
+        <Title>%HeroSkillTree03BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas03System02">
+        <Title>%HeroSkillTree03BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas04Ship01">
+        <Title>%HeroSkillTree04BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas04Ship02">
+        <Title>%HeroSkillTree04BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas05System01">
+        <Title>%HeroSkillTree05BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas05System02">
+        <Title>%HeroSkillTree05BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas06System01">
+        <Title>%HeroSkillTree06BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas06System02">
+        <Title>%HeroSkillTree06BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas07Empire01">
+        <Title>%HeroSkillTree07BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBhagabas07Empire02">
+        <Title>%HeroSkillTree07BranchBhagabasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots01Ship01">
+        <Title>%HeroSkillTree01BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots01Ship02">
+        <Title>%HeroSkillTree01BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots02System01">
+        <Title>%HeroSkillTree02BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots02System02">
+        <Title>%HeroSkillTree02BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots03System01">
+        <Title>%HeroSkillTree03BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots03System02">
+        <Title>%HeroSkillTree03BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots04Ship01">
+        <Title>%HeroSkillTree04BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots04Ship02">
+        <Title>%HeroSkillTree04BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots05Empire01">
+        <Title>%HeroSkillTree05BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots05Empire02">
+        <Title>%HeroSkillTree05BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots06Ship01">
+        <Title>%HeroSkillTree06BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots06Ship02">
+        <Title>%HeroSkillTree06BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots07System01">
+        <Title>%HeroSkillTree07BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemBots07System02">
+        <Title>%HeroSkillTree07BranchBotsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans01Ship01">
+        <Title>%HeroSkillTree01BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans01Ship02">
+        <Title>%HeroSkillTree01BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans02System01">
+        <Title>%HeroSkillTree02BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans02System02">
+        <Title>%HeroSkillTree02BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans03System01">
+        <Title>%HeroSkillTree03BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans03System02">
+        <Title>%HeroSkillTree03BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans04Ship01">
+        <Title>%HeroSkillTree04BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans04Ship02">
+        <Title>%HeroSkillTree04BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans05Empire01">
+        <Title>%HeroSkillTree05BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans06System01">
+        <Title>%HeroSkillTree06BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans06System02">
+        <Title>%HeroSkillTree06BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans07System01">
+        <Title>%HeroSkillTree07BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemDeuyivans07System02">
+        <Title>%HeroSkillTree07BranchDeuyivansTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders01Ship01">
+        <Title>%HeroSkillTree01BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders01Ship02">
+        <Title>%HeroSkillTree01BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders02System01">
+        <Title>%HeroSkillTree02BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders02System02">
+        <Title>%HeroSkillTree02BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders03System01">
+        <Title>%HeroSkillTree03BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders03System02">
+        <Title>%HeroSkillTree03BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders04OnOwnedOrbit01">
+        <Title>%HeroSkillTree04BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders04OnOwnedOrbit02">
+        <Title>%HeroSkillTree04BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders05Ship01">
+        <Title>%HeroSkillTree05BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders05Ship02">
+        <Title>%HeroSkillTree05BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders06Empire01">
+        <Title>%HeroSkillTree06BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders06Empire02">
+        <Title>%HeroSkillTree06BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders07System01">
+        <Title>%HeroSkillTree07BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemEyders07System02">
+        <Title>%HeroSkillTree07BranchEydersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal01Ship01">
+        <Title>%HeroSkillTree01BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal01Ship02">
+        <Title>%HeroSkillTree01BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal02ConstructedShip01">
+        <Title>%HeroSkillTree02BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal02ConstructedShip02">
+        <Title>%HeroSkillTree02BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal02System01">
+        <Title>%HeroSkillTree02BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal02System02">
+        <Title>%HeroSkillTree02BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal03System01">
+        <Title>%HeroSkillTree03BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal04Ship01">
+        <Title>%HeroSkillTree04BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal04Ship02">
+        <Title>%HeroSkillTree04BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal05Empire01">
+        <Title>%HeroSkillTree05BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal06Ship01">
+        <Title>%HeroSkillTree06BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal06Ship02">
+        <Title>%HeroSkillTree06BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal07System01">
+        <Title>%HeroSkillTree07BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemFluffpetal07System02">
+        <Title>%HeroSkillTree07BranchFluffpetalTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans01Ship01">
+        <Title>%HeroSkillTree01BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans01Ship02">
+        <Title>%HeroSkillTree01BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans02System01">
+        <Title>%HeroSkillTree02BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans02System02">
+        <Title>%HeroSkillTree02BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans03Ship01">
+        <Title>%HeroSkillTree03BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans03Ship02">
+        <Title>%HeroSkillTree03BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans04Ship01">
+        <Title>%HeroSkillTree04BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans04Ship02">
+        <Title>%HeroSkillTree04BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans05System01">
+        <Title>%HeroSkillTree05BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans06Empire01">
+        <Title>%HeroSkillTree06BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans06Empire02">
+        <Title>%HeroSkillTree06BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans07System01">
+        <Title>%HeroSkillTree07BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGalvrans07System02">
+        <Title>%HeroSkillTree07BranchGalvransTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts01Ship01">
+        <Title>%HeroSkillTree01BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts01Ship02">
+        <Title>%HeroSkillTree01BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts02System01">
+        <Title>%HeroSkillTree02BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts02System02">
+        <Title>%HeroSkillTree02BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts03Empire01">
+        <Title>%HeroSkillTree03BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts04OnHostileOrbit01">
+        <Title>%HeroSkillTree04BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts04OnHostileOrbit02">
+        <Title>%HeroSkillTree04BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts05Ship01">
+        <Title>%HeroSkillTree05BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts05Ship02">
+        <Title>%HeroSkillTree05BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts06System01">
+        <Title>%HeroSkillTree06BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts06System02">
+        <Title>%HeroSkillTree06BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts07Ship01">
+        <Title>%HeroSkillTree07BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGnashasts07Ship02">
+        <Title>%HeroSkillTree07BranchGnashastsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman01System01">
+        <Title>%HeroSkillTree01BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman01System02">
+        <Title>%HeroSkillTree01BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman02System01">
+        <Title>%HeroSkillTree02BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman02System02">
+        <Title>%HeroSkillTree02BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman03Ship01">
+        <Title>%HeroSkillTree03BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman03Ship02">
+        <Title>%HeroSkillTree03BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman04System01">
+        <Title>%HeroSkillTree04BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman04System02">
+        <Title>%HeroSkillTree04BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman05Ship01">
+        <Title>%HeroSkillTree05BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman05Ship02">
+        <Title>%HeroSkillTree05BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman06System01">
+        <Title>%HeroSkillTree06BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman06System02">
+        <Title>%HeroSkillTree06BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman07Empire01">
+        <Title>%HeroSkillTree07BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemGreenman07Empire02">
+        <Title>%HeroSkillTree07BranchGreenmanTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony01System01">
+        <Title>%HeroSkillTree01BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony01System02">
+        <Title>%HeroSkillTree01BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony02Ship01">
+        <Title>%HeroSkillTree02BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony02Ship02">
+        <Title>%HeroSkillTree02BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony03Empire01">
+        <Title>%HeroSkillTree03BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony03Empire02">
+        <Title>%HeroSkillTree03BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony04System01">
+        <Title>%HeroSkillTree04BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony04System02">
+        <Title>%HeroSkillTree04BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony05System01">
+        <Title>%HeroSkillTree05BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony05System02">
+        <Title>%HeroSkillTree05BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony06OnOwnedOrbit01">
+        <Title>%HeroSkillTree06BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony06OnOwnedOrbit02">
+        <Title>%HeroSkillTree06BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony07OnHostileOrbit01">
+        <Title>%HeroSkillTree07BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHarmony07OnHostileOrbit02">
+        <Title>%HeroSkillTree07BranchHarmonyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem01System01">
+        <Title>%HeroSkillTree01BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem01System02">
+        <Title>%HeroSkillTree01BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem02Ship01">
+        <Title>%HeroSkillTree02BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem02Ship02">
+        <Title>%HeroSkillTree02BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem03Ship01">
+        <Title>%HeroSkillTree03BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem03Ship02">
+        <Title>%HeroSkillTree03BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem04System01">
+        <Title>%HeroSkillTree04BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem04System02">
+        <Title>%HeroSkillTree04BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem05Empire01">
+        <Title>%HeroSkillTree05BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem05Empire02">
+        <Title>%HeroSkillTree05BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem06Ship01">
+        <Title>%HeroSkillTree06BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem06Ship02">
+        <Title>%HeroSkillTree06BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem07System01">
+        <Title>%HeroSkillTree07BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHaroshem07System02">
+        <Title>%HeroSkillTree07BranchHaroshemTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos01Ship01">
+        <Title>%HeroSkillTree01BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos01Ship02">
+        <Title>%HeroSkillTree01BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos02System01">
+        <Title>%HeroSkillTree02BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos02System02">
+        <Title>%HeroSkillTree02BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos03Ship01">
+        <Title>%HeroSkillTree03BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos03Ship02">
+        <Title>%HeroSkillTree03BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos04System01">
+        <Title>%HeroSkillTree04BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos04System02">
+        <Title>%HeroSkillTree04BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos05Empire01">
+        <Title>%HeroSkillTree05BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos06OnHostileOrbit01">
+        <Title>%HeroSkillTree06BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos06OnHostileOrbit02">
+        <Title>%HeroSkillTree06BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos07Ship01">
+        <Title>%HeroSkillTree07BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemHisshos07Ship02">
+        <Title>%HeroSkillTree07BranchHisshosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo01Ship01">
+        <Title>%HeroSkillTree01BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo01Ship02">
+        <Title>%HeroSkillTree01BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo02System01">
+        <Title>%HeroSkillTree02BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo02System02">
+        <Title>%HeroSkillTree02BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo03System01">
+        <Title>%HeroSkillTree03BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo03System02">
+        <Title>%HeroSkillTree03BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo04Empire01">
+        <Title>%HeroSkillTree04BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo04Empire02">
+        <Title>%HeroSkillTree04BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo05System01">
+        <Title>%HeroSkillTree05BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo05System02">
+        <Title>%HeroSkillTree05BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo06System01">
+        <Title>%HeroSkillTree06BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo06System02">
+        <Title>%HeroSkillTree06BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo07Ship01">
+        <Title>%HeroSkillTree07BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemIllo07Ship02">
+        <Title>%HeroSkillTree07BranchIlloTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas01Ship01">
+        <Title>%HeroSkillTree01BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas01Ship02">
+        <Title>%HeroSkillTree01BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas02System01">
+        <Title>%HeroSkillTree02BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas02System02">
+        <Title>%HeroSkillTree02BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas03ConstructedShip01">
+        <Title>%HeroSkillTree03BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas03ConstructedShip02">
+        <Title>%HeroSkillTree03BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas03System01">
+        <Title>%HeroSkillTree03BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas03System02">
+        <Title>%HeroSkillTree03BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas04Ship01">
+        <Title>%HeroSkillTree04BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas04Ship02">
+        <Title>%HeroSkillTree04BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas05OnOwnedOrbit01">
+        <Title>%HeroSkillTree05BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas05OnOwnedOrbit02">
+        <Title>%HeroSkillTree05BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas06Empire01">
+        <Title>%HeroSkillTree06BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas06Empire02">
+        <Title>%HeroSkillTree06BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas07System01">
+        <Title>%HeroSkillTree07BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalTikMas07System02">
+        <Title>%HeroSkillTree07BranchKalTikMasTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros01Ship01">
+        <Title>%HeroSkillTree01BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros01Ship02">
+        <Title>%HeroSkillTree01BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros02System01">
+        <Title>%HeroSkillTree02BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros02System02">
+        <Title>%HeroSkillTree02BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros03System01">
+        <Title>%HeroSkillTree03BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros03System02">
+        <Title>%HeroSkillTree03BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros04OnOwnedOrbit01">
+        <Title>%HeroSkillTree04BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros04OnOwnedOrbit02">
+        <Title>%HeroSkillTree04BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros05Ship01">
+        <Title>%HeroSkillTree05BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros05Ship02">
+        <Title>%HeroSkillTree05BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros06System01">
+        <Title>%HeroSkillTree06BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros06System02">
+        <Title>%HeroSkillTree06BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros07Empire01">
+        <Title>%HeroSkillTree07BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemKalgeros07Empire02">
+        <Title>%HeroSkillTree07BranchKalgerosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros01Ship01">
+        <Title>%HeroSkillTree01BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros01Ship02">
+        <Title>%HeroSkillTree01BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros02System01">
+        <Title>%HeroSkillTree02BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros02System02">
+        <Title>%HeroSkillTree02BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros03Empire01">
+        <Title>%HeroSkillTree03BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros03Empire02">
+        <Title>%HeroSkillTree03BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros04Ship01">
+        <Title>%HeroSkillTree04BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros04Ship02">
+        <Title>%HeroSkillTree04BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros05System01">
+        <Title>%HeroSkillTree05BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros06System01">
+        <Title>%HeroSkillTree06BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros06System02">
+        <Title>%HeroSkillTree06BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros07Ship01">
+        <Title>%HeroSkillTree07BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemMavros07Ship02">
+        <Title>%HeroSkillTree07BranchMavrosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris01Ship01">
+        <Title>%HeroSkillTree01BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris01Ship02">
+        <Title>%HeroSkillTree01BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris02System01">
+        <Title>%HeroSkillTree02BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris02System02">
+        <Title>%HeroSkillTree02BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris03System01">
+        <Title>%HeroSkillTree03BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris03System02">
+        <Title>%HeroSkillTree03BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris04System01">
+        <Title>%HeroSkillTree04BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris04System02">
+        <Title>%HeroSkillTree04BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris05OnOwnedOrbit01">
+        <Title>%HeroSkillTree05BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris05OnOwnedOrbit02">
+        <Title>%HeroSkillTree05BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris06System01">
+        <Title>%HeroSkillTree06BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris06System02">
+        <Title>%HeroSkillTree06BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris07Empire01">
+        <Title>%HeroSkillTree07BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemNiris07Empire02">
+        <Title>%HeroSkillTree07BranchNirisTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot01System01">
+        <Title>%HeroSkillTree01BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot01System02">
+        <Title>%HeroSkillTree01BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot02Ship01">
+        <Title>%HeroSkillTree02BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot02Ship02">
+        <Title>%HeroSkillTree02BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot03Ship01">
+        <Title>%HeroSkillTree03BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot03Ship02">
+        <Title>%HeroSkillTree03BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot04System01">
+        <Title>%HeroSkillTree04BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot04System02">
+        <Title>%HeroSkillTree04BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot05Ship01">
+        <Title>%HeroSkillTree05BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot05Ship02">
+        <Title>%HeroSkillTree05BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot06Ship01">
+        <Title>%HeroSkillTree06BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot06Ship02">
+        <Title>%HeroSkillTree06BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot07Empire01">
+        <Title>%HeroSkillTree07BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOpbot07Empire02">
+        <Title>%HeroSkillTree07BranchOpbotTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars01System01">
+        <Title>%HeroSkillTree01BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars01System02">
+        <Title>%HeroSkillTree01BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars02Ship01">
+        <Title>%HeroSkillTree02BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars02Ship02">
+        <Title>%HeroSkillTree02BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars03System01">
+        <Title>%HeroSkillTree03BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars03System02">
+        <Title>%HeroSkillTree03BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars04System01">
+        <Title>%HeroSkillTree04BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars04System02">
+        <Title>%HeroSkillTree04BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars05Ship01">
+        <Title>%HeroSkillTree05BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars05Ship02">
+        <Title>%HeroSkillTree05BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars06System01">
+        <Title>%HeroSkillTree06BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars06System02">
+        <Title>%HeroSkillTree06BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars07Empire01">
+        <Title>%HeroSkillTree07BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemOraculars07Empire02">
+        <Title>%HeroSkillTree07BranchOracularsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims01System01">
+        <Title>%HeroSkillTree01BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims01System02">
+        <Title>%HeroSkillTree01BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims02OnOwnedOrbit01">
+        <Title>%HeroSkillTree02BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims02OnOwnedOrbit02">
+        <Title>%HeroSkillTree02BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims03System01">
+        <Title>%HeroSkillTree03BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims03System02">
+        <Title>%HeroSkillTree03BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims04Ship01">
+        <Title>%HeroSkillTree04BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims04Ship02">
+        <Title>%HeroSkillTree04BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims05Ship01">
+        <Title>%HeroSkillTree05BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims05Ship02">
+        <Title>%HeroSkillTree05BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims06Empire01">
+        <Title>%HeroSkillTree06BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims06Empire02">
+        <Title>%HeroSkillTree06BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims07System01">
+        <Title>%HeroSkillTree07BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPilgrims07System02">
+        <Title>%HeroSkillTree07BranchPilgrimsTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos01Ship01">
+        <Title>%HeroSkillTree01BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos01Ship02">
+        <Title>%HeroSkillTree01BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos02System01">
+        <Title>%HeroSkillTree02BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos02System02">
+        <Title>%HeroSkillTree02BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos03Empire01">
+        <Title>%HeroSkillTree03BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos03Empire02">
+        <Title>%HeroSkillTree03BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos04Ship01">
+        <Title>%HeroSkillTree04BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos04Ship02">
+        <Title>%HeroSkillTree04BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos05Ship01">
+        <Title>%HeroSkillTree05BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos05Ship02">
+        <Title>%HeroSkillTree05BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos06System01">
+        <Title>%HeroSkillTree06BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos06System02">
+        <Title>%HeroSkillTree06BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos07System01">
+        <Title>%HeroSkillTree07BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPlocynos07System02">
+        <Title>%HeroSkillTree07BranchPlocynosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos01Ship01">
+        <Title>%HeroSkillTree01BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos01Ship02">
+        <Title>%HeroSkillTree01BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos02System01">
+        <Title>%HeroSkillTree02BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos02System02">
+        <Title>%HeroSkillTree02BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos03System01">
+        <Title>%HeroSkillTree03BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos03System02">
+        <Title>%HeroSkillTree03BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos04Ship01">
+        <Title>%HeroSkillTree04BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos04Ship02">
+        <Title>%HeroSkillTree04BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos05Empire01">
+        <Title>%HeroSkillTree05BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos05Empire02">
+        <Title>%HeroSkillTree05BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos06System01">
+        <Title>%HeroSkillTree06BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos06System02">
+        <Title>%HeroSkillTree06BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos07Ship01">
+        <Title>%HeroSkillTree07BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemPulsos07Ship02">
+        <Title>%HeroSkillTree07BranchPulsosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant01Ship01">
+        <Title>%HeroSkillTree01BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant01Ship02">
+        <Title>%HeroSkillTree01BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant02System01">
+        <Title>%HeroSkillTree02BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant02System02">
+        <Title>%HeroSkillTree02BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant03System01">
+        <Title>%HeroSkillTree03BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant03System02">
+        <Title>%HeroSkillTree03BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant04Ship01">
+        <Title>%HeroSkillTree04BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant04Ship02">
+        <Title>%HeroSkillTree04BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant05System01">
+        <Title>%HeroSkillTree05BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant05System02">
+        <Title>%HeroSkillTree05BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant06System01">
+        <Title>%HeroSkillTree06BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant06System02">
+        <Title>%HeroSkillTree06BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant07Empire01">
+        <Title>%HeroSkillTree07BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemRemnant07Empire02">
+        <Title>%HeroSkillTree07BranchRemnantTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros01Ship01">
+        <Title>%HeroSkillTree01BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros01Ship02">
+        <Title>%HeroSkillTree01BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros02System01">
+        <Title>%HeroSkillTree02BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros02System02">
+        <Title>%HeroSkillTree02BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros03System01">
+        <Title>%HeroSkillTree03BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros03System02">
+        <Title>%HeroSkillTree03BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros04OnOwnedOrbit01">
+        <Title>%HeroSkillTree04BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros04OnOwnedOrbit02">
+        <Title>%HeroSkillTree04BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros05System01">
+        <Title>%HeroSkillTree05BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros06System01">
+        <Title>%HeroSkillTree06BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros06System02">
+        <Title>%HeroSkillTree06BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros07Empire01">
+        <Title>%HeroSkillTree07BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSefaloros07Empire02">
+        <Title>%HeroSkillTree07BranchSefalorosTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy01System01">
+        <Title>%HeroSkillTree01BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy01System02">
+        <Title>%HeroSkillTree01BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy02Ship01">
+        <Title>%HeroSkillTree02BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy02Ship02">
+        <Title>%HeroSkillTree02BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy03Ship01">
+        <Title>%HeroSkillTree03BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy03Ship02">
+        <Title>%HeroSkillTree03BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy04System01">
+        <Title>%HeroSkillTree04BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy04System02">
+        <Title>%HeroSkillTree04BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy05OnHostileOrbit01">
+        <Title>%HeroSkillTree05BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy05OnHostileOrbit02">
+        <Title>%HeroSkillTree05BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy06System01">
+        <Title>%HeroSkillTree06BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy06System02">
+        <Title>%HeroSkillTree06BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy07Empire01">
+        <Title>%HeroSkillTree07BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSistersOfMercy07Empire02">
+        <Title>%HeroSkillTree07BranchSistersOfMercyTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers01Ship01">
+        <Title>%HeroSkillTree01BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers01Ship02">
+        <Title>%HeroSkillTree01BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers02Ship01">
+        <Title>%HeroSkillTree02BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers02Ship02">
+        <Title>%HeroSkillTree02BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers03System01">
+        <Title>%HeroSkillTree03BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers03System02">
+        <Title>%HeroSkillTree03BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers04OnOwnedOrbit01">
+        <Title>%HeroSkillTree04BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers04OnOwnedOrbit02">
+        <Title>%HeroSkillTree04BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers05System01">
+        <Title>%HeroSkillTree05BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers05System02">
+        <Title>%HeroSkillTree05BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers06System01">
+        <Title>%HeroSkillTree06BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers06System02">
+        <Title>%HeroSkillTree06BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers07Empire01">
+        <Title>%HeroSkillTree07BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemSowers07Empire02">
+        <Title>%HeroSkillTree07BranchSowersTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan01Ship01">
+        <Title>%HeroSkillTree01BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan01Ship02">
+        <Title>%HeroSkillTree01BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan02Ship01">
+        <Title>%HeroSkillTree02BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan02Ship02">
+        <Title>%HeroSkillTree02BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan03System01">
+        <Title>%HeroSkillTree03BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan03System02">
+        <Title>%HeroSkillTree03BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan04Empire01">
+        <Title>%HeroSkillTree04BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan05OnHostileOrbit01">
+        <Title>%HeroSkillTree05BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan05OnHostileOrbit02">
+        <Title>%HeroSkillTree05BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan06System01">
+        <Title>%HeroSkillTree06BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan06System02">
+        <Title>%HeroSkillTree06BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan07Ship01">
+        <Title>%HeroSkillTree07BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemTikanan07Ship02">
+        <Title>%HeroSkillTree07BranchTikananTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus01Ship01">
+        <Title>%HeroSkillTree01BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus01Ship02">
+        <Title>%HeroSkillTree01BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus02System01">
+        <Title>%HeroSkillTree02BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus02System02">
+        <Title>%HeroSkillTree02BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus03Ship01">
+        <Title>%HeroSkillTree03BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus03Ship02">
+        <Title>%HeroSkillTree03BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus04System01">
+        <Title>%HeroSkillTree04BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus04System02">
+        <Title>%HeroSkillTree04BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus05System01">
+        <Title>%HeroSkillTree05BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus05System02">
+        <Title>%HeroSkillTree05BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus06Ship01">
+        <Title>%HeroSkillTree06BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus06Ship02">
+        <Title>%HeroSkillTree06BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus07Empire01">
+        <Title>%HeroSkillTree07BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemVirus07Empire02">
+        <Title>%HeroSkillTree07BranchVirusTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali01Ship01">
+        <Title>%HeroSkillTree01BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali01Ship02">
+        <Title>%HeroSkillTree01BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali02System01">
+        <Title>%HeroSkillTree02BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali02System02">
+        <Title>%HeroSkillTree02BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali03System01">
+        <Title>%HeroSkillTree03BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali03System02">
+        <Title>%HeroSkillTree03BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali04Ship01">
+        <Title>%HeroSkillTree04BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali04Ship02">
+        <Title>%HeroSkillTree04BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali05Empire01">
+        <Title>%HeroSkillTree05BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali05Empire02">
+        <Title>%HeroSkillTree05BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali06System01">
+        <Title>%HeroSkillTree06BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali06System02">
+        <Title>%HeroSkillTree06BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali07Ship01">
+        <Title>%HeroSkillTree07BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="HeroSkillSystemZvali07Ship02">
+        <Title>%HeroSkillTree07BranchZvaliTitle</Title>
+    </GuiElement>
+    <GuiElement Name="MinorFactionPlocynos">
+        <Title>%MinorFactionPlocynosTitle</Title>
+        <Description>%MinorFactionPlocynosDescription</Description>
+    </GuiElement>
+    <GuiElement Name="TroopInfantryAffinityGameplayPlocynos">
+        <Title>%TroopInfantryTitle</Title>
+        <Description>%TroopInfantryDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Dynamic/GroundBattle/MinorFaction/BasryxoInfantrySmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="TroopPlaneAffinityGameplayPlocynos">
+        <Title>%TroopPlaneTitle</Title>
+        <Description>%TroopPlaneDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Dynamic/GroundBattle/MinorFaction/PrimitivePlaneSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="TroopTankAffinityGameplayPlocynos">
+        <Title>%TroopTankTitle</Title>
+        <Description>%TroopTankDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Dynamic/GroundBattle/MinorFaction/PrimitiveTankSmall" Size="Small"/>
+        </Icons>
+    </GuiElement>
+</Datatable>

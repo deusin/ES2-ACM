@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <LawGuiElement Name="LawP00PopulationCollectionPlocynos">
+        <Title>%LawP00PopulationCollectionPlocynosTitle</Title>
+        <Description>%LawP00PopulationCollectionPlocynosDescription</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Atlased/Laws/LawP00L05Small" Size="Small"/>
+        </Icons>
+        <ShortTitle>%LawP00PopulationCollectionPlocynosShortTitle</ShortTitle>
+    </LawGuiElement>
+</Datatable>

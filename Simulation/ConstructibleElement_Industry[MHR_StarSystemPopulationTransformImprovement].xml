@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+    <StarSystemPopulationTransformImprovementDefinition Name="StarSystemImprovementConscriptGnashasts" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt" PopulationSource="AffinityGnashasts" IgnoreInvinciblePopulation="true">
+        <Tags>NoBuyout</Tags>
+        <QueuedSimulationDescriptorReference Name="StarSystemImprovementCloneMajorPopulationQueued"/>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire//ClassHero,ChompingAtTheBitActive</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,!BesiegedColonizedStarSystem,!BlockadedColonizedStarSystem,!GroundBattleInProgress/ClassPopulationStarSystemAffinityGnashasts</PathPrerequisite>
+        <InterpreterPrerequisite Flags="NotEnoughPopulation,Enqueue">Property(Context,@'ClassColonizedStarSystem/ClassPopulationStarSystemAffinityGnashasts', PopulationCount) - Property(Context, @ClassColonizedStarSystem, OnGoingClone) gt 0</InterpreterPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementConscriptGnashasts"/>
+        <TemporaryEffect>ConscriptGnashastsFrenzy</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
+    <StarSystemPopulationTransformImprovementDefinition Name="StarSystemImprovementFuneralGames" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt" PopulationSource="AffinityHisshos" IgnoreInvinciblePopulation="true">
+        <Tags>NoBuyout</Tags>
+        <QueuedSimulationDescriptorReference Name="StarSystemImprovementCloneMajorPopulationQueued"/>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire//ClassHero,FuneralGamesActive</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,!BesiegedColonizedStarSystem,!BlockadedColonizedStarSystem,!GroundBattleInProgress/ClassPopulationStarSystemAffinityHisshos</PathPrerequisite>
+        <InterpreterPrerequisite Flags="NotEnoughPopulation,Enqueue">Property(Context,@'ClassColonizedStarSystem/ClassPopulationStarSystemAffinityHisshos', PopulationCount) - Property(Context, @ClassColonizedStarSystem, OnGoingClone) gt 0</InterpreterPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementFuneralGames"/>
+        <TemporaryEffect>FuneralGamesRites</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
+    <StarSystemPopulationTransformImprovementDefinition Name="StarSystemImprovementSacrificeTikanans" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt" PopulationSource="AffinityTikanans" IgnoreInvinciblePopulation="true">
+        <Tags>NoBuyout</Tags>
+        <QueuedSimulationDescriptorReference Name="StarSystemImprovementCloneMajorPopulationQueued"/>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire//ClassHero,BellicosePheromoneActive</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,!BesiegedColonizedStarSystem,!BlockadedColonizedStarSystem,!GroundBattleInProgress/ClassPopulationStarSystemAffinityTikanans</PathPrerequisite>
+        <InterpreterPrerequisite Flags="NotEnoughPopulation,Enqueue">Property(Context,@'ClassColonizedStarSystem/ClassPopulationStarSystemAffinityTikanans', PopulationCount) - Property(Context, @ClassColonizedStarSystem, OnGoingClone) gt 0</InterpreterPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementSacrificeTikanans"/>
+        <TemporaryEffect>SacrificeTikanansPheromone</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
+</Datatable>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityAmoeba" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityBasryxo" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityBhagabas" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityBots" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityDeuyivans" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityEyders" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityGnashasts" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityGreenman" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityHisshos" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityMavros" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityNiris" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityPilgrims" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityPulsos" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityRemnant" Type="HeroAffinity"/>
+    <SimulationDescriptor IsSerializable="false" Name="HeroAffinityZvali" Type="HeroAffinity"/>
+</Datatable>

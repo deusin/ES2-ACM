@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+    <QuestDefinition Name="ApplyMinorSkillEffectsEmpireOnMajorEmpires" CheckRandom="false" Category="GalaxyGeneration" SubCategory="ApplyMinorSkillEffectsEmpire" Priority="0">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextMulti/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$Descriptor" StringValue="MinorSkillEffectsEmpire"/>
+            <Var VarName="$Targets">
+                <From Source="$MajorEmpires">
+                    <Where>
+                        <PathPrerequisite>!MinorSkillEffectsEmpire</PathPrerequisite>
+                    </Where>
+                </From>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_ApplyDescriptor>
+                                <Input_DescriptorName VarName="$Descriptor"/>
+                                <Input_Targets VarName="$Targets"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="ApplyMinorSkillEffectsHeroOnHeroes1" CheckRandom="false" Category="GalaxyGeneration" SubCategory="ApplyMinorSkillEffectsHero" Priority="0">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextMulti/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$Players">
+                <From Source="$MajorEmpires"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>ApplyMinorSkillEffectsHeroOnHeroes2</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$Players"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>ApplyMinorSkillEffectsHeroOnHeroes3</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$Players"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="ApplyMinorSkillEffectsHeroOnHeroes2" CheckRandom="false" Category="GalaxyGeneration" SubCategory="ApplyMinorSkillEffectsHero" Priority="0">
+        <Tags>Hidden,ApplyMinorSkillEffectsHeroOnHeroes2</Tags>
+        <QuestContextMulti/>
+        <Vars>
+            <Var VarName="$Players">
+                <From Source="$MajorEmpires"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Parallel CompletionPolicy="Any">
+                                <Decorator_HeroRecruited/>
+                            </Parallel>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>ApplyMinorSkillEffectsHeroOnHeroes2</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$Players"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>ApplyMinorSkillEffectsHeroOnHeroes3</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$Players"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="ApplyMinorSkillEffectsHeroOnHeroes3" CheckRandom="false" Category="GalaxyGeneration" SubCategory="ApplyMinorSkillEffectsHero" Priority="0">
+        <Tags>Hidden,ApplyMinorSkillEffectsHeroOnHeroes3</Tags>
+        <QuestContextMulti/>
+        <Vars>
+            <Var VarName="$Descriptor" StringValue="MinorSkillEffectsHero"/>
+            <Var VarName="$Targets">
+                <From Source="$MajorEmpires.$Heroes">
+                    <Where>
+                        <PathPrerequisite>!MinorSkillEffectsHero</PathPrerequisite>
+                    </Where>
+                </From>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_ApplyDescriptor>
+                                <Input_DescriptorName VarName="$Descriptor"/>
+                                <Input_Targets VarName="$Targets"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="ApplyMinorSkillEffectsSystemOnColonizedSystems1" CheckRandom="false" Category="GalaxyGeneration" SubCategory="ApplyMinorSkillEffectsSystem" Priority="0">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextMulti/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$Players">
+                <From Source="$MajorEmpires"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>ApplyMinorSkillEffectsSystemOnColonizedSystems2</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$Players"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>ApplyMinorSkillEffectsSystemOnColonizedSystems3</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$Players"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="ApplyMinorSkillEffectsSystemOnColonizedSystems2" CheckRandom="false" Category="GalaxyGeneration" SubCategory="ApplyMinorSkillEffectsSystem" Priority="0">
+        <Tags>Hidden,ApplyMinorSkillEffectsSystemOnColonizedSystems2</Tags>
+        <QuestContextMulti/>
+        <Vars>
+            <Var VarName="$Players">
+                <From Source="$MajorEmpires"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Parallel CompletionPolicy="Any">
+                                <Decorator_ColonizedSystem/>
+                                <Decorator_InvadeSystem/>
+                                <Decorator_MinorEmpireIntegrated/>
+                            </Parallel>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>ApplyMinorSkillEffectsSystemOnColonizedSystems2</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$Players"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>ApplyMinorSkillEffectsSystemOnColonizedSystems3</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$Players"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="ApplyMinorSkillEffectsSystemOnColonizedSystems3" CheckRandom="false" Category="GalaxyGeneration" SubCategory="ApplyMinorSkillEffectsSystem" Priority="0">
+        <Tags>Hidden,ApplyMinorSkillEffectsSystemOnColonizedSystems3</Tags>
+        <QuestContextMulti/>
+        <Vars>
+            <Var VarName="$Descriptor" StringValue="MinorSkillEffectsSystem"/>
+            <Var VarName="$Targets">
+                <From Source="$Empires.$ColonizedStarSystems">
+                    <Where>
+                        <PathPrerequisite>!MinorSkillEffectsSystem</PathPrerequisite>
+                    </Where>
+                </From>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_ApplyDescriptor>
+                                <Input_DescriptorName VarName="$Descriptor"/>
+                                <Input_Targets VarName="$Targets"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+</Datatable>

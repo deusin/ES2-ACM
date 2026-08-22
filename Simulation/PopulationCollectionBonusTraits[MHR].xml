@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationCollectionBonusTrait.xsd">
+    <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitPlocynos" ShowInCustom="false">
+        <CollectionBonus Threshold="5">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusPlocynos1"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+        </CollectionBonus>
+        <CollectionBonus Threshold="10">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusPlocynos2"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+        </CollectionBonus>
+        <CollectionBonus Threshold="20">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusPlocynos3"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+        </CollectionBonus>
+    </PopulationCollectionBonusTrait>
+</Datatable>
