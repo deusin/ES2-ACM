@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
+
+  <!-- Skill Tree Stuff -->
+  <LocalizationPair Name="%LawUpkeepSkill">-6% [prestigeColored] Law cost</LocalizationPair>
+  <LocalizationPair Name="%LawUpkeepSkill2">-12% [prestigeColored] Law cost</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillShip22_FleetDamage_Percent_0TooltipOverride1">+25% Flak Damage vs Squadrons on Fleet</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillShip22_FleetDamage_Percent_0TooltipOverride2">+50% Flak Damage vs Squadrons on Fleet</LocalizationPair>
+  <LocalizationPair Name="%RepairAfter">+10% Repair after battle</LocalizationPair>
+ <LocalizationPair Name="%Indi1">+5% [IndustryColored] on System</LocalizationPair>
+ <LocalizationPair Name="%Indi2">+10% [IndustryColored] on System</LocalizationPair>
+
+
+  <LocalizationPair Name="%CategoryHeroSkillTreeIndustrialistTitle">Industrialist skill</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillTreeIndustrialistTitle">Industrialist skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreeIndustrialistDescription">This branch contains all the Industrialist-specific skills.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill01BranchIndustrialistTitle">Optimal Industrialization Expert</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill01BranchIndustrialistDescription">After years of researching optimal industrial production patterns across multiple sectors, the Hero gains localized knowledge of the best workflows to maximize Industry output on a given system.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill02BranchIndustrialistTitle">Shipyard Administration</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill02BranchIndustrialistDescription">By personally overseeing ship production facilities, the Hero increases overall ship quality</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill03BranchIndustrialistTitle">National Mining</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill03BranchIndustrialistDescription">By nationalizing the companies that mine strategics and diverting some of the profits towards local infrastructure development, the system Happiness gets to increase with its available deposits.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill04BranchIndustrialistTitle">Infrastructure Chef</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill04BranchIndustrialistDescription">The hero creates a "Recipe list" of all the materials required to build basic infrastructure which is then optimized to the local system's resource availability.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill06BranchIndustrialistTitle">Damage Control</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill06BranchIndustrialistDescription">By micromanaging damage control teams the hero decreases the overall structural and subsystem damage a ship sustains on impact.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill07BranchIndustrialistTitle">Optimized Strategic Detection</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill07BranchIndustrialistDescription">The hero creates search parties dedicated to aggressively searching for new undiscovered deposits.</LocalizationPair>
+
+  <LocalizationPair Name="%CategoryHeroSkillTreeScientistTitle">Scientist skill</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillTreeScientistTitle">Scientist skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreeScientistDescription">This branch contains the Scientist-specific skills.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill01BranchScientistTitle">Optimal R&amp;D Expert</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill01BranchScientistDescription">After years of researching optimal scientific research patterns across multiple sectors, the Hero gains localized knowledge of the best workflows to maximize Science output on a given system.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill02BranchScientistTitle">Academy Probes</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill02BranchScientistDescription">The hero improves shielding to Academy standards, resulting in better shield capacity.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill03BranchScientistTitle">Research Appreciation</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill03BranchScientistDescription">The hero rewards the already high scientific research that happens in cold planets by giving generous donations to researchers and institutions that make important discoveries there, enthusiasm for the sciences increases.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill04BranchScientistTitle">Academy Training</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill04BranchScientistDescription">Utilizing reseach techniques learnt in the academy, the hero can streamline the scientific process.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill06BranchScientistTitle">Shield optimization</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill06BranchScientistDescription">By micromanaging shield power allocation on all ships in their fleet the hero can increase their efficiency.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill07BranchScientistTitle">Anomaly Development</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill07BranchScientistDescription">The Hero allocates some of their personal funds on the research and exploitation of local anomalies and campaigns to maintain public interest in them.</LocalizationPair>
+
+  <LocalizationPair Name="%CategoryHeroSkillTreePacifistTitle">Pacifist skill</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillTreePacifistTitle">Pacifist skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreePacifistDescription">This branch contains the Pacifist-specific skills.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill01BranchPacifistTitle">Optimal Corporate Expert</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill01BranchPacifistDescription">After years of researching optimal income production patterns across multiple sectors, the Hero gains localized knowledge of the best workflows to maximize Dust output on a given system.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill02BranchPacifistTitle">Military inc.</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill02BranchPacifistDescription">The hero seamlessly fuses their personal business dealings with the operation of the fleet, using the profits of the first to cover the costs of the latter.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill03BranchPacifistTitle">National Lux Extraction</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill03BranchPacifistDescription">By nationalizing the companies that extract luxuries and diverting some of the profits towards local infrastructure development, the system Happiness gets to increase with its available deposits.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill06BranchPacifistTitle">Scavenging Fleet</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill06BranchPacifistDescription">The hero creates a military grade scavenging fleet and keeps it near the main fleet so any lost ships can be recycled.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill07BranchPacifistTitle">Optimized Luxury Detection</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill07BranchPacifistDescription">The hero creates search parties dedicated to aggressively searching for new undiscovered deposits.</LocalizationPair>
+
+  <LocalizationPair Name="%CategoryHeroSkillTreeEcologistTitle">Ecologist skill</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillTreeEcologistTitle">Ecologist skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreeEcologistDescription">This branch contains the Ecologist-specific skills.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill01BranchEcologistTitle">Optimal Growth Expert</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill01BranchEcologistDescription">After years of researching optimal crop production patterns across multiple sectors, the Hero gains localized knowledge of the best workflows to maximize Food output on a given system.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill02BranchEcologistTitle">Living Armor</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill02BranchEcologistDescription">By fusing the ship's hull with organic alloys of the heroes' own design, the ship can regenerate some damage on its own.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill03BranchEcologistTitle">Hazard Pay</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill03BranchEcologistDescription">By establishing a higher pay for workers who work on anomalies the system happiness increases with their cuantity.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill04BranchEcologistTitle">Recycling Friendzy</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill04BranchEcologistDescription">The hero declares that the production of waste is unacceptable and starts shaming groups and individuals that produce it, efficiency improves.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill06BranchEcologistTitle">Troop Cramming</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill06BranchEcologistDescription">Being an expert in biology and psycology, the hero is able to maximize troop capacity without decreasing their health and morale.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill07BranchEcologistTitle">Anomaly Development</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill07BranchEcologistDescription">The Hero allocates some of their personal funds on the development and exploitation of local anomalies and campaigns to maintain public interest in them.</LocalizationPair>
+
+  <LocalizationPair Name="%CategoryHeroSkillTreeReligiousTitle">Religious skill</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillTreeReligiousTitle">Religious skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreeReligiousDescription">This branch contains the Religious-specific skills.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill01BranchReligiousTitle">Optimal Advertisment Expert</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill01BranchReligiousDescription">After years of researching succesful propaganda campaigns across multiple sectors, the Hero gains localized knowledge of the best workflows to maximize Influence output on a given system.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill02BranchReligiousTitle">Personal Reviewer</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill02BranchReligiousDescription">The hero personaly reviews fleet statistics and performance checks and is free to inform the crew of any optimization they can find.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill03BranchReligiousTitle">Public Assurance</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill03BranchReligiousDescription">The hero becomes a public figure and advertizes itself to its assigned citizens, promizing to improve their living situation and keep them safe from foreign threats.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill04BranchReligiousTitle">Advertizement Overlord</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill04BranchReligiousDescription">The hero is authorized to optimize and manage all propaganda campaigns in your empire (Including political ones), increasing their effectiveness.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill06BranchReligiousTitle">Needs Of The Many</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill06BranchReligiousDescription">The hero drills into their crew that its their duty to keep the ship running, and encouraging to put the integrity of the ship over their own lives.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill07BranchReligiousTitle">Better Senators</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill07BranchReligiousDescription">The hero is assigned to review performance reports of other heroes and communicate with them on potential points of improvement.</LocalizationPair>
+
+  <LocalizationPair Name="%CategoryHeroSkillTreeMilitaristTitle">Militarist skill</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillTreeMilitaristTitle">Militarist skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreeMilitaristDescription">This branch contains the Militarist-specific skills.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill01BranchMilitaristTitle">Optimal Warfare Expert</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill01BranchMilitaristDescription">After years of researching optimal militarization patterns across multiple sectors, the Hero gains localized knowledge of the best workflows to maximize Manpower output on a given system.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill02BranchMilitaristTitle">Direct Weapon Command</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill02BranchMilitaristDescription">The hero uses neural plugins to connect directly with the weapons systems, increasing their efficiency.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill03BranchMilitaristTitle">Militarization Normalization</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill03BranchMilitaristDescription">The hero launches a propaganda campaign that advertises the nearest military base as a must have to remain safe while also diverting any spare manpower to high profile charity work.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill04BranchMilitaristTitle">Desperate Times</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill04BranchMilitaristDescription">The hero bypasses ship construction laws to ensure maximum ship to ground ability</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill07BranchMilitaristTitle">Clone Wars</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill07BranchMilitaristDescription">The hero perfects a cloning technique that allows the creation of already trained soldiers from other trained soldiers</LocalizationPair>
+
+  <LocalizationPair Name="%MoreH">+10 [HappinessColored] from expansion</LocalizationPair>
+
+  <LocalizationPair Name="%ManpowerConv">+0.03 [Manpower] per [SystemDefense]</LocalizationPair>
+  <LocalizationPair Name="%ManpowerConv2">+0.075 [Manpower] per [SystemDefense]</LocalizationPair>
+
+  <LocalizationPair Name="%BattleLimit">+15% Ground Battle Manpower Limit</LocalizationPair>
+  <LocalizationPair Name="%BattleLimit2">+30% Ground Battle Manpower Limit</LocalizationPair>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Datatable>

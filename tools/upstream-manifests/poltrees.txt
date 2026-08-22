@@ -1,0 +1,8 @@
+﻿# Files imported from workshop item 2856109167 (poltrees) on 2024-10-19. Maintained by tools/Import-Upstream.ps1.
+Gui\GUIElements[Categories].xml
+Gui\GUIElements[HeroSkills].xml
+Localization\english\ES2_Localization_Locales_PoliticalTrees.xml
+Simulation\HeroDefinitions.xml
+Simulation\HeroSkillDefinitions.xml
+Simulation\HeroSkillTreeDefinitions.xml
+Simulation\SimulationDescriptors[HeroSkill].xml
