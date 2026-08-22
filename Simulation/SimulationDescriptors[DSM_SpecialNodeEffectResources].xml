@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: the SpaceClouds/Vaulters entries are grafted into ESG's SimulationDescriptors[SpecialNode_System].xml. -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
 
 	<!-- Black Hole -->
@@ -203,39 +204,9 @@
 
 	<!-- Space Clouds -->
 
-    <SimulationDescriptor Name="SpecialNodeEffectSpaceClouds" Type="SpecialNodeEffect" IsSerializable="false">
-		<BinaryModifier TargetProperty="SystemMoney"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
-		<BinaryModifier TargetProperty="SystemResearch"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
-        <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
-		<BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(SystemPopulation)" />
-		
-		<BinaryModifier TargetProperty="SystemMoney"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
-        <BinaryModifier TargetProperty="SystemResearch"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
-        <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>		
-		<BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(SystemPopulation)" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
-		
-		<Modifier TargetProperty="Strategic1"        Value="1" Operation="Addition"  />
-		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
-		
-		<Modifier TargetProperty="Strategic2"        Value="1" Operation="Addition"  />
-		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
-		
-		<Modifier TargetProperty="Strategic3"        Value="1" Operation="Addition"  />
-		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
-		
-		<Modifier TargetProperty="Strategic5"        Value="1" Operation="Addition"  />
-		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="1" Path="../ClassHackingBeacon/../ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony" TooltipHiddenIfPathInvalid="true"/>
-    </SimulationDescriptor>
 	
 	
 	<!-- Vaulters -->
-	<SimulationDescriptor Name="SpecialNodeEffectVaulters" Type="SpecialNodeEffect" IsSerializable="false">
-        <Modifier TargetProperty="SystemMoney" Operation="Addition" Value="250" />
-		<Modifier TargetProperty="Strategic4"        Value="1" Operation="Addition"  />
-		<Modifier TargetProperty="Strategic6"        Value="1" Operation="Addition"  />
-        <Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.2" TooltipHidden="true"/>
-        <Modifier TargetProperty="DockedFleetsHealthRegenerationRatio" Operation="Addition" Value="0.2"  TooltipOverride="%StarSystemImprovementUniqueCuriosity3EffectOverride"/>
-    </SimulationDescriptor>
     
     
 </Datatable>

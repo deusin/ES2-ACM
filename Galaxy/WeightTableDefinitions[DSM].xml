@@ -2,7 +2,13 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
 
 
+    <!-- ACM: vanilla node types kept in the pool (ESG reworked their effects); Deep Space Mining only listed its own variants. -->
     <GalaxyGeneratorWeightTable Name="SpecialNodeTypes_Normal">
+        <Entry Tag="SpecialNodeAsteroidField"   Weight="10"/>
+        <Entry Tag="SpecialNodeBlackHole"       Weight="10"/>
+        <Entry Tag="SpecialNodeSolarNebula"     Weight="10"/>
+        <Entry Tag="SpecialNodeCollapsingStar"  Weight="10"/>
+        <Entry Tag="SpecialNodeNeutronStar"     Weight="10"/>
         <Entry Tag="SpecialNodeAsteroidField1"   Weight="9"/>
 		<Entry Tag="SpecialNodeAsteroidField2"   Weight="9"/>
 		<Entry Tag="SpecialNodeAsteroidField3"   Weight="9"/>
@@ -25,10 +31,11 @@
 
 
     <GalaxyGeneratorWeightTable Name="HiddenSpecialNodeTypes_Normal">
+        <Entry Tag="SpecialNodeAsteroidField2"  Weight="10"/>
         <Entry Tag="SpecialNodeAsteroidFieldHidden1"  Weight="40"/>
 		<Entry Tag="SpecialNodeSpaceCloudsHidden1"  Weight="30"/>
-		<Entry Tag="SpecialNodeBlackHoleHidden1"  Weight="15"/>
-		<Entry Tag="SpecialNodeBlackHoleHidden2"  Weight="15"/>
+		<Entry Tag="SpecialNodeBlackHiddenHole1"  Weight="15"/>
+		<Entry Tag="SpecialNodeBlackHiddenHole2"  Weight="15"/> <!-- ACM: upstream wrote SpecialNodeBlackHoleHidden1/2, which nothing defines -->
     </GalaxyGeneratorWeightTable>
 
 

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- ACM: Deep Space Mining ships no localisation; this key is used by its node GUI elements but defined nowhere. -->
+  <LocalizationPair Name="%SpecialNodeStrategic1TooltipEffect">Yields strategic resources to the system that exploits it and to fleets orbiting it.</LocalizationPair>
+</Datatable>

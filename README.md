@@ -19,6 +19,7 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 | **Arkon Faction Hero Ships [ESG] 1.0.4** (Arkon) — heroes fly medium faction ships; `*[AFHS]*` files | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | 2025-12-17 | `upstream/afhs` |
 | **Endless Moons 3.1.2** (Tychonoir) — many moon types, lunar improvements, moon temples and celestial orbs; `*[EM]*` files | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | 2024-11-11 | `upstream/em` |
 | **Endless Anomalies 1.1.3** — over 100 new anomalies; `*[EA]*` files | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | 2024-11-13 | `upstream/ea` |
+| **Deep Space Mining 1.3.6** — special nodes that yield strategic resources; `*[DSM]*` files | [1263186686](https://steamcommunity.com/sharedfiles/filedetails/?id=1263186686) | 2019-04-28 | `upstream/dsm` |
 | Eldritch faction trait category | own content | | |
 
 Each vendor branch holds the pristine workshop drop exactly as downloaded (before any ACM patching), so the
@@ -151,6 +152,22 @@ Upstream slips fixed on the way: weight-table tags `Curiosity_CreepingAlgea` (ty
 curiosity, dropped); `ShiftingGround` referenced the undefined `AnomalyTypeGround` (→ `PlanetAnomalyGround`); `HiddenVaults_R` referenced
 `CHiddenVaults_R`; `%Moon_TM_Title` (the hidden EndlessMoonsEnabled trait) was never defined.
 
+## Deep Space Mining inside ACM
+
+Adds 18 special-node variants (asteroid fields, black holes, collapsing/neutron stars, nebulae, hidden ones) whose effect
+descriptors carry `Strategic1–6`, which the exploiting system and orbiting fleets collect. It redefines five descriptors ESG
+also reworked; ACM keeps ESG's and grafts only the strategic lines:
+
+| Drop file (as imported) | What was done |
+|---|---|
+| `SimulationDescriptors[DSM_SpecialNodeEffect].xml` | deleted — the six `Strategic` properties and the `AllowToExploitStrategicCommon1` force added to ESG's `ClassSpecialNodeEffect` (`[SpecialNode_Orbit]`), which keeps its FIDSI multiplier. |
+| `…[DSM_SpecialNodeOrbitResources]`, `…[DSM_SpecialNodeEffectResources]` | the `SpaceClouds` / `Vaulters` entries removed; their `Strategic` modifiers added to ESG's versions in `[SpecialNode_Orbit]` / `[SpecialNode_System]`. |
+| `GUI/GUIElements[DSM_Strategics].xml` | deleted — identical to vanilla. |
+| `Galaxy/WeightTableDefinitions[DSM].xml` | the mod listed only its own variants; the vanilla node types (whose effects ESG rebalanced) are kept in the pool at vanilla weight; hidden table referenced `SpecialNodeBlackHoleHidden1/2`, which nothing defines → the mod's `SpecialNodeBlackHiddenHole1/2`. |
+| `Localization/english/…[DSM].xml` | new — `%SpecialNodeStrategic1TooltipEffect` was used but never defined (the mod ships no strings). |
+
+`ACM.xml` gained a `SpecialNodeDefinition` plugin. The companion "Deep Space Mining Modules" (1641490632) is not included.
+
 ## Working on the mod
 
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
@@ -159,8 +176,8 @@ curiosity, dropped); `ShiftingGround` referenced the undefined `AnomalyTypeGroun
 - Is anything out of date? `.\tools\Check-Upstream.ps1` (`-Notes` adds the authors' change notes newer than our
   drop). It needs no downloads, so the folded-in workshop items can stay unsubscribed; resubscribe one only to
   refresh it.
-- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr|samus|arkonportal|afhs|em|ea>`, then
-  `git merge upstream/esg`. `elp` / `mhr` / `samus` / `arkonportal` / `afhs` / `em` / `ea` imports land the drop on the `[ELP]` / `[MHR]` / `[Samus]` / `[Arkon]` / `[AFHS]` / `[EM]` / `[EA]` paths above.
+- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr|samus|arkonportal|afhs|em|ea|dsm>`, then
+  `git merge upstream/esg`. `elp` / `mhr` / `samus` / `arkonportal` / `afhs` / `em` / `ea` / `dsm` imports land the drop on the `[ELP]` / `[MHR]` / `[Samus]` / `[Arkon]` / `[AFHS]` / `[EM]` / `[EA]` / `[DSM]` paths above.
   Details, conflict conventions and gotchas are in `CLAUDE.md`.
 - `.\tools\Find-Conflicts.ps1 -Mod <workshop id>` reports which definitions a workshop mod shares with ACM.
 
@@ -175,3 +192,4 @@ curiosity, dropped); `ShiftingGround` referenced the undefined `AnomalyTypeGroun
   (`Enable Samus Aran`); Arkon Portal folded in behind a second one, minus its 500-point trait. Arkon Faction Hero Ships
   folded in (always on) — it had been overriding every hero definition from the play set. Endless Moons and Endless
   Anomalies folded in (always on): ESG's anomalies win, Endless Moons' moon mechanics win, weight tables merged.
+  Deep Space Mining folded in (strategic lines grafted into ESG's node descriptors).

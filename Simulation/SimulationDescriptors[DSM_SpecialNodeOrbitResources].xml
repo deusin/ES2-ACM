@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ACM: the SpaceClouds/Vaulters entries are grafted into ESG's SimulationDescriptors[SpecialNode_Orbit].xml. -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
 	
 	<!-- FleetOrbitingSpecialNodeBlackHole -->
@@ -87,18 +88,8 @@
 	</SimulationDescriptor>
 	
 	<!-- FleetOrbitingSpecialNodeSpaceClouds -->
-    <SimulationDescriptor Name="FleetOrbitingSpecialNodeSpaceClouds"    Type="FleetOrbitingSpecialNode">
-		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
-		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
-		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
-		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
-	</SimulationDescriptor>
 	
 	<!-- FleetOrbitingSpecialNodeVaulters -->
-    <SimulationDescriptor Name="FleetOrbitingSpecialNodeVaulters"       Type="FleetOrbitingSpecialNode">
-		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
-		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
-	</SimulationDescriptor>
 
 
 

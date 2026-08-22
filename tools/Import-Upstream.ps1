@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal', 'afhs', 'em', 'ea')]
+    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal', 'afhs', 'em', 'ea', 'dsm')]
     [string]$Mod,
 
     # Stage and show the diff in the worktree but do not commit or remove the worktree.
@@ -166,6 +166,21 @@ $Mods = @{
                             '^Simulation\\EA_ConstructibleElement_AnomalyReductions\.xml$' { return 'Simulation\Anomaly\ConstructibleElement_AnomalyReductions[EA].xml' }
                             '^Simulation\\EA_SimulationDescriptors\[(.+)\]\.xml$'       { return "Simulation\Anomaly\SimulationDescriptors[EA_$($Matches[1])].xml" }
                             '^Simulation\\EA_(.+)\.xml$'                                 { return "Simulation\$($Matches[1])[EA].xml" }
+                            default                                                       { return $rel }
+                        }
+                    } }
+    # Deep Space Mining: suffix [DSM]; its SDK Documentation folder is skipped. Master grafts its strategic-resource
+    # lines into ESG's five shared special-node descriptors and deletes [DSM_SpecialNodeEffect] - see README.
+    dsm        = @{ Id = '1263186686'; Index = 'DeepSpaceMining.xml';      IndexAs = $null;     KeepIcon = $false
+                    Extra = @{ 'ChangeLog.txt' = 'Documentation\DeepSpaceMining-CHANGES.txt' }
+                    Rename = {
+                        param($rel)
+                        switch -Regex ($rel) {
+                            '^Documentation\\'                                          { return $null }
+                            '^GalaxyGenerator\\WeightTableDefinitions\.xml$'             { return 'Galaxy\WeightTableDefinitions[DSM].xml' }
+                            '^Gui\\GuiElements\[(.+)\]\.xml$'                           { return "GUI\GUIElements[DSM_$($Matches[1])].xml" }
+                            '^Simulation\\SimulationDescriptors\[(.+)\]\.xml$'          { return "Simulation\SimulationDescriptors[DSM_$($Matches[1])].xml" }
+                            '^Simulation\\SpecialNodeDefinitions\.xml$'                 { return 'Simulation\SpecialNodeDefinitions[DSM].xml' }
                             default                                                       { return $rel }
                         }
                     } }

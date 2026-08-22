@@ -21,6 +21,14 @@
 		<BinaryModifier TargetProperty="SystemMoney"                            Operation="Addition" Left="$(SystemMoney)"                          BinaryOperation="Multiplication" Right="$(SpecialNodeMultiplier)" Path="../ClassColonizedStarSystem"/>
 		<BinaryModifier TargetProperty="HealthRegenerationRatio"                Operation="Addition" Left="$(HealthRegenerationRatio)"              BinaryOperation="Multiplication" Right="$(SpecialNodeEffectMultiplier)" Path="../ClassColonizedStarSystem/ClassGarrison/ClassShip"/>
 		<BinaryModifier TargetProperty="DockedFleetsHealthRegenerationRatio"    Operation="Addition" Left="$(DockedFleetsHealthRegenerationRatio)"  BinaryOperation="Multiplication" Right="$(SpecialNodeEffectMultiplier)" Path="../ClassColonizedStarSystem"/>
+		<!-- ACM: Deep Space Mining -->
+		<Property Name="Strategic1" BaseValue="0"/>
+		<Property Name="Strategic2" BaseValue="0"/>
+		<Property Name="Strategic3" BaseValue="0"/>
+		<Property Name="Strategic4" BaseValue="0"/>
+		<Property Name="Strategic5" BaseValue="0"/>
+		<Property Name="Strategic6" BaseValue="0"/>
+		<Modifier TargetProperty="AllowToExploitStrategicCommon1" Value="1" Operation="Force" Path="../ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
 
 	<!-- Black Hole -->
@@ -54,10 +62,18 @@
 	<SimulationDescriptor Name="FleetOrbitingSpecialNodeSpaceClouds"    Type="FleetOrbitingSpecialNode">
 		<Modifier TargetProperty="AntiVisionStrengthForModule"  Operation="Force"   Value="3"    Path="ClassGarrisonFleet/ClassShip"/>
 		<Modifier TargetProperty="VisionRange"                  Operation="Percent" Value="-0.5" Path="ClassGarrisonFleet/ClassShip,!ShipFactionUmbralChoir"/>
+		<!-- ACM: Deep Space Mining -->
+		<Modifier TargetProperty="Strategic1" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic2" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic3" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic5" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
 	</SimulationDescriptor>
 
 	<!-- Rejuvenation Field -->
 	<SimulationDescriptor Name="FleetOrbitingSpecialNodeVaulters"       Type="FleetOrbitingSpecialNode">
 		<Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.1" Path="ClassGarrisonFleet/ClassShip"/>
+		<!-- ACM: Deep Space Mining -->
+		<Modifier TargetProperty="Strategic4" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
+		<Modifier TargetProperty="Strategic6" Operation="Addition" Value="1" Path="../ClassGarrisonFleet,FleetOrbitingSpecialNode"/>
 	</SimulationDescriptor>
 </Datatable>

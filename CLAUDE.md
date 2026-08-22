@@ -27,11 +27,12 @@ Start Claude Code sessions **from this folder**.
 | Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | merged as `*[ELP]*` files (vendor branch `upstream/elp`); never also run the workshop item — its `ClassColonizedStarSystem` crashes ACM |
 | Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | merged as `*[MHR]*` files (vendor branch `upstream/mhr`); partial ESG/USC copies grafted, see README |
 | Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | merged as `*[Arkon]*` files (vendor branch `upstream/arkonportal`), gated by `EnableArkonPortal`; 500-point trait dropped; never also run the workshop item |
+| Deep Space Mining | [1263186686](https://steamcommunity.com/sharedfiles/filedetails/?id=1263186686) | merged as `*[DSM]*` files (vendor branch `upstream/dsm`), always on; grafts in README |
 | Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | merged as `*[AFHS]*` files (vendor branch `upstream/afhs`), always on; never also run the workshop item |
 
 ## Lifecycle: refreshing an upstream mod
 
-Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus, arkonportal, afhs, em, ea hold the pristine workshop
+Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus, arkonportal, afhs, em, ea, dsm hold the pristine workshop
 drops (moretraits/poltrees were baselined with `git merge -s ours`, so their next import merges 3-way).
 `.\tools\Check-Upstream.ps1` asks the Steam API which of them has updated since its last import (`-Notes`
 prints the workshop change notes newer than the drop; fetch Steam pages directly with curl/Invoke-WebRequest,
@@ -83,6 +84,8 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
 - **EM / EA** (suffixes `[EM]`, `[EA]`). Vanilla anomalies stay ESG's, moon mechanics are EM's, the three anomaly
   weight tables are ACM-owned in `Galaxy/WeightTableDefinitions[ACM_Anomalies].xml`, galaxy sizes are ESG's with EM's
   anomaly counts — the README table lists every deleted/trimmed drop file; modify/delete conflicts on them are the cue.
+- **DSM** (suffix `[DSM]`). Keep ESG's five special-node descriptors (with the grafted `Strategic` lines); the drop's
+  `[DSM_SpecialNodeEffect]` and `[DSM_Strategics]` stay deleted; re-add the vanilla node types to its weight tables.
 - **ACM New Game toggles** live in `Settings/GameSettingDefinitions[ACM].xml` + `GUI/GUIElements[ACM_Settings].xml`
   + `Localization/english/ES2_Localization_Locales[ACM].xml`, and the `AdvancedSettingsACMSettings` group in
   `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file, single definition — re-add the group after every ESG
