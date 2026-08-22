@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+    <SimulationDescriptor Name="StarSystemImprovementKaizenRejuvenationEffect" Type="StarSystemImprovementInfinite">
+        <!-- <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Subtraction" Value="10" Path="ClassColonizedStarSystem/ClassPlanet"/> -->
+        <BinaryModifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Left="-1" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassColonizedStarSystem/ClassColonizedPlanet"  SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+
+</Datatable>

@@ -1,0 +1,7 @@
+﻿# Files imported from workshop item 1130687397 (kaizen) on 2018-01-26. Maintained by tools/Import-Upstream.ps1.
+GUI\GUIElements[Kaizen].xml
+Localization\english\ES2_Localization_Locales[Kaizen].xml
+Resources\Gui\KaizenRejuvenationLarge.png
+Resources\Gui\KaizenRejuvenationSmall.png
+Simulation\ConstructibleElement_Industry[Kaizen].xml
+Simulation\SimulationDescriptors[Kaizen].xml

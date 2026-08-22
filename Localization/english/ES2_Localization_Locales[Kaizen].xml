@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
+
+    <LocalizationPair Name="%SubCategoryKaizenRejuvenationTitle">Rejuvenation</LocalizationPair>
+    <LocalizationPair Name="%PlanetNotDepletedTitle">Healthy planet</LocalizationPair>
+    <LocalizationPair Name="%StarSystemImprovementKaizenRejuvenationTitle">Kaizen Rejuvenation</LocalizationPair>
+    <LocalizationPair Name="%StarSystemImprovementKaizenRejuvenationDescription">Even the devastating effects of Cravers themselves can be reversed when Kaizen methods of continuous improvement and meticulous terraforming are applied together.</LocalizationPair>
+
+</Datatable>

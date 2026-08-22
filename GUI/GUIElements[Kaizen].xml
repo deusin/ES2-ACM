@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <GuiElement Name="StarSystemImprovementKaizenRejuvenation">
+        <Title>%StarSystemImprovementKaizenRejuvenationTitle</Title>
+        <Description>%StarSystemImprovementKaizenRejuvenationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/KaizenRejuvenationSmall" />
+            <Icon Size="Large" Path="Gui/KaizenRejuvenationLarge" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="StarSystemImprovementKaizenRejuvenationSub">
+        <Title>%SubCategoryKaizenRejuvenationTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Categories/CategoryAnomalyReductionSmall" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+</Datatable>
