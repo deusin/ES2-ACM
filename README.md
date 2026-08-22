@@ -11,7 +11,6 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 - **More Traits** (Redraluin) — workshop 932777803, incl. fixes.
 - **Political Skill Trees** (workshop 2856109167).
 - Own content: the Eldritch faction trait category (`*[Eldritch].xml`).
-
 - **Endless Legend Populations 4.5** (Captain Cobbs) — workshop 1816492263, 2024-11-26. Twelve
   Endless Legend races (plus three Urkan) as minor factions; carried as `*[ELP]*` files, see below.
 
