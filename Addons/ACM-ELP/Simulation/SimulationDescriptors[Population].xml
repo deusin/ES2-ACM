@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd" >
+  <!-- I'm gonna be honest, no idea what this does. Just copy and paste it and change the values and you should be good
+       Just a note though, PopulationsAssimilated is required -->
+  <!-- Allayi -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityAllayi" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityAllayi" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityAllayi" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Ardent Mages -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityArdent" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityArdent" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityArdent" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Broken Lords -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityLords" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityLords" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityLords" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationStarSystemGrowthTypeDust" Type="ClassPopulationStarSystemGrowthType">
+    <Modifier TargetProperty="PopulationNotUsingGrowth"              Operation="Addition" Value="$(PopulationCount)" Path="../ClassColonizedStarSystem"            TooltipHidden="true"/>
+  </SimulationDescriptor>
+  
+  <!-- Cultists -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityCultists" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityCultists" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityCultists" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Drakken -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityDrakken" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityDrakken" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityDrakken" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Forgotten -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityForgotten" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityForgotten" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityForgotten" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Kapaku -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapaku" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapaku" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityKapaku" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Morgawr -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityMorgawr" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMorgawr" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityMorgawr" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Mykara -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityMykara" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMykara" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityMykara" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Necrophages -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityPhages" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityPhages" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityPhages" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityRoving" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityRoving" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityRoving" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Wild Walkers -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityWalkers" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityWalkers" Type="ClassPopulationStarSystem" />
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityWalkers" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Urkan A | Kazar -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanA" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanA" Type="ClassPopulationStarSystem" >
+    <Modifier TargetProperty="CannotMigrate"     		Operation="Force"       Value="1"   TooltipHidden="true" />
+    <Modifier TargetProperty="ShouldPopulationGrow" Operation="Force"       Value="-1"  TooltipHidden="true" />
+    <Modifier TargetProperty="PopulationWithGrowth" Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityUrkanA" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Urkan B | Chaka -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanB" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanB" Type="ClassPopulationStarSystem" >
+    <Modifier TargetProperty="CannotMigrate"     		Operation="Force"       Value="1"   TooltipHidden="true" />
+    <Modifier TargetProperty="ShouldPopulationGrow" Operation="Force"       Value="-1"  TooltipHidden="true" />
+    <Modifier TargetProperty="PopulationWithGrowth" Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityUrkanB" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Urkan C | Fakir -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanC" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanC" Type="ClassPopulationStarSystem" >
+    <Modifier TargetProperty="CannotMigrate"     		Operation="Force"       Value="1"   TooltipHidden="true" />
+    <Modifier TargetProperty="ShouldPopulationGrow" Operation="Force"       Value="-1"  TooltipHidden="true" />
+    <Modifier TargetProperty="PopulationWithGrowth" Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityUrkanC" Type="ClassPopulationAssimilated" >
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+</Datatable>

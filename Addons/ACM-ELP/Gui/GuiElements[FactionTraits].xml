@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd" >
+  <!-- Title and Description are both in ES2_Localization_Assets_Locales
+       This page is used to display the faction traits -->
+  <!-- Allayi -->
+  <GuiElement Name="FactionTraitAllayiOwnership" >
+    <Title>%FactionTraitAllayiOwnershipTitle</Title>
+    <Description>%FactionTraitAllayiOwnershipDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAllayiHappiness" >
+    <Title>%FactionTraitAllayiHappinessTitle</Title>
+    <Description>%FactionTraitAllayiHappinessDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Ardent Mages -->
+  <GuiElement Name="FactionTraitArdentTranscend" >
+    <Title>%FactionTraitArdentTranscendTitle</Title>
+    <Description>%FactionTraitArdentTranscendDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitArdentScience" >
+    <Title>%FactionTraitArdentScienceTitle</Title>
+    <Description>%FactionTraitArdentScienceDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+  <!-- +2 IDS -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitArdentIDS" >
+    <Title>%PopulationModifiersTraitPrimaryArdentIDSTitle</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationModifiersTraitPrimaryArdentIDS" >
+    <Title>%PopulationModifiersTraitPrimaryArdentIDSTitle</Title>
+  </GuiElement>
+  
+  <!-- Broken Lords -->
+  <GuiElement Name="FactionTraitLordsDust" >
+    <Title>%FactionTraitLordsDustTitle</Title>
+    <Description>%FactionTraitLordsDustDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitLordsShipRegen" >
+    <Title>%FactionTraitLordsShipRegenTitle</Title>
+    <Description>%FactionTraitLordsShipRegenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Cultists -->
+  <ExtendedGuiElement Name="FactionTraitCultistsFIDSI" >
+    <Title>%FactionTraitCultistsFIDSITitle</Title>
+    <Description>%FactionTraitCultistsFIDSIDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitCultistsFIDSIEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="FactionTraitCultistsPopulation" >
+    <Title>%FactionTraitCultistsPopulationTitle</Title>
+    <Description>%FactionTraitCultistsPopulationDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drakken -->
+  <ExtendedGuiElement Name="FactionTraitDrakkenDiplomacy" >
+    <Title>%FactionTraitDrakkenDiplomacyTitle</Title>
+    <Description>%FactionTraitDrakkenDiplomacyDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="FactionTraitDrakkenConversion" >
+    <Title>%FactionTraitDrakkenConversionTitle</Title>
+    <Description>%FactionTraitDrakkenConversionDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+  <!-- Influence on Anomaly Trait -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" >
+    <Title>%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01" >
+    <Title>%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title</Title>
+  </GuiElement>
+
+  <!-- Forgotten -->
+  <ExtendedGuiElement Name="FactionTraitForgottenMoveSpeed" >
+    <Title>%FactionTraitForgottenMoveSpeedTitle</Title>
+    <Description>%FactionTraitForgottenMoveSpeedDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="FactionTraitForgottenAccuracy" >
+    <Title>%FactionTraitForgottenAccuracyTitle</Title>
+    <Description>%FactionTraitForgottenAccuracyDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%PopulationAssimilationBonusAccuracyForgottenEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Kapaku-->
+  <GuiElement Name="FactionTraitKapakuHappiness" >
+    <Title>%FactionTraitKapakuHappinessTitle</Title>
+    <Description>%FactionTraitKapakuHappinessDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitKapakuTerraforming" >
+    <Title>%FactionTraitKapakuTerraformingTitle</Title>
+    <Description>%FactionTraitKapakuTerraformingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+  
+    <!-- Morgawr -->
+  <ExtendedGuiElement Name="FactionTraitMorgawrInfluence" >
+    <Title>%FactionTraitMorgawrInfluenceTitle</Title>
+    <Description>%FactionTraitMorgawrInfluenceDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%PopulationAssimilationBonusInfluenceMorgawrEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="FactionTraitMorgawrIndustry" >
+    <Title>%FactionTraitMorgawrIndustryTitle</Title>
+    <Description>%FactionTraitMorgawrIndustryDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%PopulationAssimilationBonusIndustryMorgawrEffectOverride</EffectOverride>
+    </TooltipElement>
+  </GuiElement>
+  <!-- Influence fertile -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile" >
+    <Title>%PopulationMorgawrTitle</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationModifiersTraitSecondaryMorgawrInfluenceFertile" >
+    <Title>%PopulationMorgawrTitle</Title>
+  </GuiElement>
+
+  <!-- Mykara -->
+  <ExtendedGuiElement Name="FactionTraitMykaraFood" >
+    <Title>%FactionTraitMykaraFoodTitle</Title>
+    <Description>%FactionTraitMykaraFoodDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="FactionTraitMykaraManpower" >
+    <Title>%FactionTraitMykaraManpowerTitle</Title>
+    <Description>%FactionTraitMykaraManpowerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Necrophages -->
+  <GuiElement Name="FactionTraitPhagesRecruiting" >
+    <Title>%FactionTraitPhagesRecruitingTitle</Title>
+    <Description>%FactionTraitPhagesRecruitingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <ExtendedGuiElement Name="FactionTraitPhagesDust" >
+    <Title>%FactionTraitPhagesDustTitle</Title>
+    <Description>%FactionTraitPhagesDustDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitPhagesDustEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <!-- Subtract Dust Necrophages -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitPhagesFood" >
+    <Title>%PopulationModifiersTraitPhagesFoodTitle</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationModifiersTraitPhagesFood" >
+    <Title>%PopulationModifiersTraitPhagesFoodTitle</Title>
+  </GuiElement>
+
+  <!-- Roving Clans -->
+  <GuiElement Name="FactionTraitRovingUpkeepSystems" >
+    <Title>%FactionTraitRovingUpkeepSystemsTitle</Title>
+    <Description>%FactionTraitRovingUpkeepSystemsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitRovingUpkeepMilitary" >
+    <Title>%FactionTraitRovingUpkeepMilitaryTitle</Title>
+    <Description>%FactionTraitRovingUpkeepMilitaryDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+  <!-- Dust on anomaly -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitSecondaryRovingDustAnomaly" >
+    <Title>%PopulationRovingTitle</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationModifiersTraitSecondaryRovingDustAnomaly" >
+    <Title>%PopulationRovingTitle</Title>
+  </GuiElement>
+
+  <!-- Wild Walkers -->
+  <GuiElement Name="FactionTraitWalkersBuilding" >
+    <Title>%FactionTraitWalkersBuildingTitle</Title>
+    <Description>%FactionTraitWalkersBuildingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitWalkersSight" >
+    <Title>%FactionTraitWalkersSightTitle</Title>
+    <Description>%FactionTraitWalkersSightDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+  <!-- Food on Fertile Trait -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" >
+    <Title>%PopulationModifiersTraitWalkersIndustryTitle</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationModifiersTraitWalkersIndustry" >
+    <Title>%PopulationModifiersTraitWalkersIndustryTitle</Title>
+  </GuiElement>
+
+  <!-- #####  #   #  #####  #####  #####  ####### -->
+  <!-- #      #   #  #        #    #   #  #  #  # -->
+  <!-- #      #   #  #####    #    #   #  #  #  # -->
+  <!-- #      #   #      #    #    #   #  #     # -->
+  <!-- #####  #####  #####    #    #####  #     # -->
+  <!-- Allayi -->
+  <ExtendedGuiElement Name="FactionTraitMinorAllayi" >
+    <Title>%FactionTraitMinorAllayiTitle</Title>
+    <Description>%FactionTraitMinorAllayiDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorAllayiTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Ardent Mages -->
+  <ExtendedGuiElement Name="FactionTraitMinorArdent" >
+    <Title>%FactionTraitMinorArdentTitle</Title>
+    <Description>%FactionTraitMinorArdentDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorArdentTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Broken Lords -->
+  <ExtendedGuiElement Name="FactionTraitMinorLords" >
+    <Title>%FactionTraitMinorLordsTitle</Title>
+    <Description>%FactionTraitMinorLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorLordsTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Cultists -->
+  <ExtendedGuiElement Name="FactionTraitMinorCultists" >
+    <Title>%FactionTraitMinorCultistsTitle</Title>
+    <Description>%FactionTraitMinorCultistsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorCultistsTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Drakken -->
+  <ExtendedGuiElement Name="FactionTraitMinorDrakken" >
+    <Title>%FactionTraitMinorDrakkenTitle</Title>
+    <Description>%FactionTraitMinorDrakkenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorDrakkenTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Forgotten -->
+  <ExtendedGuiElement Name="FactionTraitMinorForgotten" >
+    <Title>%FactionTraitMinorForgottenTitle</Title>
+    <Description>%FactionTraitMinorForgottenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorForgottenTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Kapaku -->
+  <ExtendedGuiElement Name="FactionTraitMinorKapaku" >
+    <Title>%FactionTraitMinorKapakuTitle</Title>
+    <Description>%FactionTraitMinorKapakuDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorKapakuTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Morgawr -->
+  <ExtendedGuiElement Name="FactionTraitMinorMorgawr" >
+    <Title>%FactionTraitMinorMorgawrTitle</Title>
+    <Description>%FactionTraitMinorMorgawrDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorMorgawrTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Mykara -->
+  <ExtendedGuiElement Name="FactionTraitMinorMykara" >
+    <Title>%FactionTraitMinorMykaraTitle</Title>
+    <Description>%FactionTraitMinorMykaraDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorMykaraTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Necrophages -->
+  <ExtendedGuiElement Name="FactionTraitMinorPhages" >
+    <Title>%FactionTraitMinorPhagesTitle</Title>
+    <Description>%FactionTraitMinorPhagesDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorPhagesTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Roving Clans -->
+  <ExtendedGuiElement Name="FactionTraitMinorRoving" >
+    <Title>%FactionTraitMinorRovingTitle</Title>
+    <Description>%FactionTraitMinorRovingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorRovingTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Wild Walkers -->
+  <ExtendedGuiElement Name="FactionTraitMinorWalkers" >
+    <Title>%FactionTraitMinorWalkersTitle</Title>
+    <Description>%FactionTraitMinorWalkersDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorWalkersTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Urkan A | Kazar -->
+  <ExtendedGuiElement Name="FactionTraitMinorUrkanA" >
+    <Title>%FactionTraitMinorUrkanATitle</Title>
+    <Description>%FactionTraitMinorUrkanADescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorUrkanATooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Urkan B | Chaka -->
+  <ExtendedGuiElement Name="FactionTraitMinorUrkanB" >
+    <Title>%FactionTraitMinorUrkanBTitle</Title>
+    <Description>%FactionTraitMinorUrkanBDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorUrkanBTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Urkan C | Fakir -->
+  <ExtendedGuiElement Name="FactionTraitMinorUrkanC" >
+    <Title>%FactionTraitMinorUrkanCTitle</Title>
+    <Description>%FactionTraitMinorUrkanCDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorUrkanCTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Faction Trait Families -->
+  <GuiElement Name="FactionTraitFamilyUrkan">
+    <Title>%FactionTraitFamilyUrkanTitle</Title>
+    <Description>%FactionTraitFamilyUrkanDescription</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitFamilyMinorFaction">
+    <Title>%FactionTraitFamilyMinorFactionTitle</Title>
+    <Description>%FactionTraitFamilyMinorFactionDescription</Description>
+  </GuiElement>
+</Datatable>

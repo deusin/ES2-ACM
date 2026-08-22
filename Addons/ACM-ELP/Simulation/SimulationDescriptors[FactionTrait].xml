@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd" >
+  <!-- These are used in FactionTraits[Minor] and GuiElements[GameVariables]
+       If you are confused as to how these work, try looking at examples in the Public game files-->
+  <!-- Allayi -->
+  <SimulationDescriptor Name="FactionTraitAllayiOwnership" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="OwnerShipRecoveryRate"  Operation="Percent" Value="0.25" Path="ClassEmpire/ClassColonizedStarSystem"  />
+    <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitAllayiHappiness" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="FAKEFORGUI/./PlanetGameplayTypeCold" /><!-- From what I can tell, most basic things don't need tooltip overrides if you do this -->
+    <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="4"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeCold" SearchValueFromPath="true" TooltipHidden="true" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+  
+  <!-- Ardent Mages -->
+  <SimulationDescriptor Name="FactionTraitArdentTranscend" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="Happiness"                Operation="Addition" Value="15"  Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" />
+    <BinaryModifier TargetProperty="SystemEmpirePoint"  Operation="Addition" Left="2"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" />
+    <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitArdentScience" Type="FactionTraitMinor" >
+    <BinaryModifier TargetProperty="SystemResearch" Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AnomalyCount)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitMinorUrkanBMinor"    Type="FactionTrait" />
+
+  <!-- Broken Lords -->
+  <SimulationDescriptor Name="FactionTraitLordsDust" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitLordsShipRegen" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.1" Path="ClassColonizedStarSystem/ClassGarrison/ClassShip" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Cultists -->
+  <SimulationDescriptor Name="FactionTraitCultistsFIDSI" Type="FactionTraitMinor" >
+    <BinaryModifier TargetProperty="SystemFIDSIPercent" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemLevel)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitCultistsPopulation" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="RawMaximumPopulation"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Ignore this -->
+  <SimulationDescriptor Name="FactionTraitMinorUrkanCMinor"    Type="FactionTrait" />
+
+  <!-- Drakken -->
+  <SimulationDescriptor Name="FactionTraitDrakkenDiplomacy" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="PeacefulTreatyCostReduction" Operation="Addition" Value="-0.3" Path="ClassEmpire" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitDrakkenConversion" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="BasePressure"  Operation="Percent"    Value="0.25" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Forgotten -->
+  <SimulationDescriptor Name="FactionTraitForgottenMoveSpeed" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="2" Path="ClassEmpire/ClassGarrison/ClassShip" TooltipHidden="true" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitForgottenAccuracy" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="Accuracy"  Operation="Addition"  Value="0.08"  Path="ClassShip/ClassSection/ClassModuleWeapon" TooltipHidden="true"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Kapaku -->
+  <SimulationDescriptor Name="FactionTraitKapakuHappiness" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="FAKEFORGUI/./PlanetGameplayTypeHot" />
+    <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="4"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeHot" SearchValueFromPath="true" TooltipHidden="true" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitKapakuTerraforming" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="TerraformationModifier"    Operation="Percent" Value="-0.5" Path="ClassEmpire" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Morgawr -->
+  <SimulationDescriptor Name="FactionTraitMorgawrInfluence" Type="FactionTraitMinor" >
+    <BinaryModifier TargetProperty="SystemEmpirePoint" Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AnomalyCount)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitMorgawrProduction" Type="FactionTraitMinor" >
+    <BinaryModifier		TargetProperty="SystemProduction" Operation="Addition" Left="30" BinaryOperation="Multiplication" Right="$(OwnedTeemingPlanets)" SearchValueFromPath="true" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Mykara -->
+  <SimulationDescriptor Name="FactionTraitMykaraFood" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="PopulationGrowthUpkeep"                Value="-0.15"   Operation="Percent" Path="ClassEmpire/ClassColonizedStarSystem"      Priority="20" />
+    <Modifier TargetProperty="PopulationGrowthUpkeepFromMothership"  Value="-0.15"   Operation="Percent" Path="ClassEmpire/ClassExploitedStarSystem"      Priority="20" TooltipHidden="true" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitMykaraManpower" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="EmpireManpower"		        Operation="Addition" Value="250" Path="ClassEmpire" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitMinorUrkanAMinor"    Type="FactionTrait" />
+
+  <!-- Necrophages -->
+  <SimulationDescriptor Name="FactionTraitPhagesRecruiting" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="ExperienceAtShipCreation" Operation="Addition" Value="150"  Path="ColonizedStarSystemStateColony,ClassColonizedStarSystem/ClassGarrison" />
+    <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitPhagesDust" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="MinimumDust"  Operation="Force" Value="5" Path="ClassEmpire/ClassColonizedStarSystem/ClassPlanet" Priority="-5" TooltipHidden="true" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="FactionTraitRovingUpkeepSystems" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="SystemMoneyUpkeep"      Operation="Percent" Value="-0.15" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitRovingUpkeepMilitary" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="GarrisonMoneyUpkeep"	Operation="Percent" Value="-0.15" Path="ClassEmpire" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- Wild Walkers -->
+  <SimulationDescriptor Name="FactionTraitWalkersBuilding" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="BuildingProductionCostReduction"      Operation="Addition" Value="-0.15" Path="ClassEmpire/ClassColonizedStarSystem"      Priority="-5" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitWalkersSight" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="VisionRange"	Operation="Percent" Value="0.1" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
+  </SimulationDescriptor>
+
+  <!-- #####  #   #  #####  #####  #####  ####### -->
+  <!-- #      #   #  #        #    #   #  #  #  # -->
+  <!-- #      #   #  #####    #    #   #  #  #  # -->
+  <!-- #      #   #      #    #    #   #  #     # -->
+  <!-- #####  #####  #####    #    #####  #     # -->
+  <!-- Allayi -->
+  <SimulationDescriptor Name="FactionTraitMinorAllayi"       Type="FactionTrait" />
+  <!-- Ardent Mages -->
+  <SimulationDescriptor Name="FactionTraitMinorArdent"       Type="FactionTrait" />
+  <!-- Broken Lords -->
+  <SimulationDescriptor Name="FactionTraitMinorLords"        Type="FactionTrait" />
+  <!-- Cultists -->
+  <SimulationDescriptor Name="FactionTraitMinorCultists"     Type="FactionTrait" />
+  <!-- Drakken -->
+  <SimulationDescriptor Name="FactionTraitMinorDrakken"      Type="FactionTrait" />
+  <!-- Forgotten -->
+  <SimulationDescriptor Name="FactionTraitMinorForgotten"    Type="FactionTrait" />
+  <!-- Kapaku -->
+  <SimulationDescriptor Name="FactionTraitMinorKapaku"       Type="FactionTrait" />
+  <!-- Morgawr -->
+  <SimulationDescriptor Name="FactionTraitMinorMorgawr"      Type="FactionTrait" />
+  <!-- Mykara -->
+  <SimulationDescriptor Name="FactionTraitMinorMykara"       Type="FactionTrait" />
+  <!-- Necrophages -->
+  <SimulationDescriptor Name="FactionTraitMinorPhages"       Type="FactionTrait" />
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="FactionTraitMinorRoving"       Type="FactionTrait" />
+  <!-- Wild Walkers -->
+  <SimulationDescriptor Name="FactionTraitMinorWalkers"      Type="FactionTrait" />
+  <!-- Urkan A | Kazar -->
+  <SimulationDescriptor Name="FactionTraitMinorUrkanA"       Type="FactionTrait" />
+  <!-- Urkan B | Chaka -->
+  <SimulationDescriptor Name="FactionTraitMinorUrkanB"       Type="FactionTrait" />
+  <!-- Urkan C | Fakir -->
+  <SimulationDescriptor Name="FactionTraitMinorUrkanC"       Type="FactionTrait" />
+</Datatable>
