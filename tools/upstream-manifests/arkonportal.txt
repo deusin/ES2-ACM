@@ -1,0 +1,21 @@
+﻿# Files imported from workshop item 1788325573 (arkonportal) on 2019-09-04. Maintained by tools/Import-Upstream.ps1.
+GUI\GUIElements[Arkon].xml
+Localization\english\ES2_Localization_Assets_Locales[Arkon].xml
+Localization\english\ES2_Localization_Locales[Arkon].xml
+Localization\french\ES2_Localization_Assets_Locales[Arkon].xml
+Localization\french\ES2_Localization_Locales[Arkon].xml
+Localization\german\ES2_Localization_Assets_Locales[Arkon].xml
+Localization\german\ES2_Localization_Locales[Arkon].xml
+Localization\russian\ES2_Localization_Assets_Locales[Arkon].xml
+Localization\russian\ES2_Localization_Locales[Arkon].xml
+Localization\schinese\ES2_Localization_Assets_Locales[Arkon].xml
+Localization\schinese\ES2_Localization_Locales[Arkon].xml
+Localization\spanish\ES2_Localization_Assets_Locales[Arkon].xml
+Localization\spanish\ES2_Localization_Locales[Arkon].xml
+Resources\Textures\500_Trait_Points.png
+Resources\Textures\Portal_Large.png
+Resources\Textures\Portal_Small.png
+Simulation\ConstructibleElement_Industry[Arkon].xml
+Simulation\ConstructibleElement_Science[Arkon].xml
+Simulation\FactionTraits[Arkon].xml
+Simulation\SimulationDescriptors[Arkon].xml

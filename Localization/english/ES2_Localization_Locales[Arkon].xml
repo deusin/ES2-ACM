@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable>
+
+  <LocalizationPair Name="%FactionTraitPPOINTSTitle">ARK - POINT GIVER (500 Points)</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPPOINTSDescription">adds 500 points</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPPOINTSEffect">500 points for selecting other traits</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPPOINTSTooltipEffect">adds 500 points for selecting</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitStartingTechnologyEffectOverrideInfo">These technologies are already discovered at the beginning of the game.</LocalizationPair>
+  <!-- ArkPortal -->
+  <LocalizationPair Name="%FactionTraitArkPortalTitle">ARK - Teleportation portal</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArkPortalDescription">You can teleport ships between systems with Portals if you have the appropriate technology.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArkPortalEffect">A TELEPORTATION PORTAL</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArkPortalTooltipEffect">Allows the teleportation of fleets between two systems containing this improvement.</LocalizationPair>
+
+</Datatable>

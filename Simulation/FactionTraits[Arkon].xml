@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+
+  <FactionTrait Name="FactionTraitPPOINTS"          SubCategory="FactionTrait" TraitCategory="TraitCategoryEconomy" TraitSubCategory="TraitSubCategoryPPOINTS"                Family="FactionTraitFamilyStartingTechnologies"   Hidden="false" Custom="true" Cost="-500" IgnoreForTraitsCount="true">
+      <SimulationDescriptorReference                  Name="FactionTraitPPOINTS"/>
+  </FactionTrait>
+
+  <!-- JUMP Portal -->
+  <FactionTrait Name="FactionTraitArkPortal"        SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryArkPortal"  Family="FactionTraitFamilyMilitary" Hidden="false" Custom="true" Cost="5" IgnoreForTraitsCount="true">
+    <SimulationDescriptorReference                    Name="FactionTraitArkPortal"/>
+    <Prerequisites>!AffinityGameplayVaulters,!FactionTraitSysPortal,!FactionTraitWormPortal,!FactionTraitHyperPortal</Prerequisites>
+    <Command Name="UnlockTechnology"                  Arguments="TechnologyLinkDefinitionArkPortalTEC"/>
+  </FactionTrait>
+
+</Datatable>

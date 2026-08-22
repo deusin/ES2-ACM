@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable>
+
+  <LocalizationPair Name="%PPOINTSTitle">ARK - POINT GIVER (500 Points)</LocalizationPair>
+  <LocalizationPair Name="%PPOINTSDescription">adds 500 points</LocalizationPair>
+  <LocalizationPair Name="%PPOINTSEffect">***</LocalizationPair>
+  <LocalizationPair Name="%PPOINTSTooltipEffect">adds 500 points for selecting</LocalizationPair>
+  <!-- Ark Portal -->
+  <LocalizationPair Name="%ArkPortalTECTitle">Teleportation portal</LocalizationPair>
+  <LocalizationPair Name="%ArkPortalTECDescription">You can teleport ships between systems with Portals. The direct connection of the systems of the empire has a positive effect on research, production and political influence ...</LocalizationPair>
+  <LocalizationPair Name="%ArkPortalTECEffect">Allows the teleportation of fleets between two systems containing this improvement.</LocalizationPair>
+  <LocalizationPair Name="%ArkPortalTECTooltipEffect">A portal technology</LocalizationPair>
+  <LocalizationPair Name="%JumpPortalTitle">System Portal</LocalizationPair>
+  <LocalizationPair Name="%JumpPortalDescription">You can teleport ships between systems with Portals. The direct connection of the systems of the empire has a positive effect on research, production and political influence ...</LocalizationPair>
+  <LocalizationPair Name="%JumpPortalEffect">Allows the teleportation of fleets between two systems containing this improvement.</LocalizationPair>
+  <LocalizationPair Name="%JumpPortalTooltipEffect">A portal technology</LocalizationPair>
+  <LocalizationPair Name="%JumpPortalEffectOverride">Allows the teleportation of fleets between two systems containing this improvement.</LocalizationPair>
+  <LocalizationPair Name="%TechnologyArkPortalTECTitle">System portal</LocalizationPair>
+  <LocalizationPair Name="%TechnologyArkPortalTECDescription">You can teleport ships between systems with Portals. The direct connection of the systems of the empire has a positive effect on research, production and political influence ...</LocalizationPair>
+  <LocalizationPair Name="%TechnologyArkPortalTECEffect">Allows the teleportation of fleets between two systems containing this improvement.</LocalizationPair>
+  <LocalizationPair Name="%TechnologyArkPortalTECTooltipEffect">A portal technology</LocalizationPair>
+  <LocalizationPair Name="%TechnologyArkPortalTitle">System portal</LocalizationPair>
+
+</Datatable>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<Datatable>
+
+<!-- ArkPortal -->
+    <StarSystemImprovementDefinition Name="JumpPortal" SubCategory="SubCategoryMilitary" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Military" />
+        <SupervisorGain Name="Science" />
+        <CustomCost ResourceName="SystemProduction">Min(480, 160 + 80 * Property(StockLocation, @../ClassEmpire, PortalCount, true))</CustomCost>
+        <CustomCost ResourceName="Strategic1"     Instant="true">5</CustomCost>
+        <CustomCost ResourceName="Strategic2"     Instant="true">5</CustomCost>
+        <TechnologyPrerequisite Inverted="false"  Flags="Prerequisite,Discard,Technology">TechnologyArkPortalTEC</TechnologyPrerequisite>
+        <PathPrerequisite   Inverted="false"      Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite   Inverted="true"       Flags="Prerequisite,Discard">ClassColonizedStarSystem/JumpPortal,!FastForwardedImprovement</PathPrerequisite>
+        <SimulationDescriptorReference Name="JumpPortal" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Normal" />
+    </StarSystemImprovementDefinition>
+
+</Datatable>
