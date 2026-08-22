@@ -39,7 +39,7 @@ Some mods cannot be merged into ACM's files (nothing in ES2's data format lets a
 switch a minor faction or faction trait off), but also cannot run alongside ACM unpatched. Those
 live in `Addons/<name>/` as complete RuntimeModules with their own index XML, patched to coexist
 with ACM, and each has a vendor branch like the merged mods. ES2 only sees mods directly under
-`Community\`, so run `.	ools\Install-Addons.ps1` once — it junctions `Community\<name>` to
+`Community\`, so run `.\tools\Install-Addons.ps1` once — it junctions `Community\<name>` to
 `Addons\<name>` — and toggle them in the Mods menu.
 
 | Addon | Source | What ACM changed |
