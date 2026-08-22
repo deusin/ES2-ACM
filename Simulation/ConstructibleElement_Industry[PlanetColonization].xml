@@ -73,6 +73,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationTundra"/>
   </PlanetColonizationConstructibleElement>
@@ -91,6 +92,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationTropical"/>
   </PlanetColonizationConstructibleElement>
@@ -110,6 +112,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationSteppes"/>
   </PlanetColonizationConstructibleElement>
@@ -128,6 +131,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationVeldt"/>
   </PlanetColonizationConstructibleElement>
@@ -147,6 +151,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationSnow"/>
   </PlanetColonizationConstructibleElement>
@@ -164,6 +169,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationArctic"/>
   </PlanetColonizationConstructibleElement>
@@ -182,6 +188,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationArid"/>
   </PlanetColonizationConstructibleElement>
@@ -200,6 +207,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationDesert"/>
   </PlanetColonizationConstructibleElement>
@@ -219,6 +227,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationIce"/>
   </PlanetColonizationConstructibleElement>
@@ -236,6 +245,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationSwamp"/>
   </PlanetColonizationConstructibleElement>
@@ -253,6 +263,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationAsh"/>
   </PlanetColonizationConstructibleElement>
@@ -271,6 +282,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationBarren"/>
   </PlanetColonizationConstructibleElement>
@@ -288,6 +300,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeAcademy</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationLava"/>
   </PlanetColonizationConstructibleElement>
@@ -386,6 +399,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationMonsoon" />
   </PlanetColonizationConstructibleElement>
@@ -470,6 +484,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationTundra" />
   </PlanetColonizationConstructibleElement>
@@ -485,6 +500,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationTropical" />
   </PlanetColonizationConstructibleElement>
@@ -501,6 +517,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationSteppes" />
   </PlanetColonizationConstructibleElement>
@@ -516,6 +533,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationVeldt" />
   </PlanetColonizationConstructibleElement>
@@ -533,6 +551,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationSnow" />
   </PlanetColonizationConstructibleElement>
@@ -548,6 +567,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationArctic" />
   </PlanetColonizationConstructibleElement>
@@ -563,6 +583,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationArid" />
   </PlanetColonizationConstructibleElement>
@@ -579,6 +600,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationDesert" />
   </PlanetColonizationConstructibleElement>
@@ -597,6 +619,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationIce" />
   </PlanetColonizationConstructibleElement>
@@ -612,6 +635,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationSwamp" />
   </PlanetColonizationConstructibleElement>
@@ -627,6 +651,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationAsh" />
   </PlanetColonizationConstructibleElement>
@@ -641,6 +666,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationAsh" />
   </PlanetColonizationConstructibleElement>
@@ -656,6 +682,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire,EmpireTypeMinor</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationLava" />
   </PlanetColonizationConstructibleElement>
@@ -673,6 +700,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationBarren" />
   </PlanetColonizationConstructibleElement>
@@ -688,6 +716,7 @@
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Republic</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00Dictatorship</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite">../ClassEmpire/ClassSenate/LawEffectP04L00DictatorshipMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite">./ClassColonizedStarSystem,FreeColonization</PathPrerequisite>
     </MetaPrerequisite>
     <PopulationEvent Name="PopulationPoliticalEventColonizationLava" />
   </PlanetColonizationConstructibleElement>

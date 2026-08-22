@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
+  <!-- ACM: single MinorFactions pool. ES2 keeps one table of this name (whole-definition override), so every
+       merged mod that adds a minor faction must be listed here: vanilla 27, Endless Legend Populations 12,
+       Minor Heroes Reimagined (Plocynos). Redo after an upstream/elp or upstream/mhr merge. -->
+  <GalaxyGeneratorWeightTable Name="MinorFactions">
+    <Entry Tag="MinorFactionAmoeba" Weight="1"/>
+    <Entry Tag="MinorFactionBots" Weight="1"/>
+    <Entry Tag="MinorFactionBenthys" Weight="1"/>
+    <Entry Tag="MinorFactionDeuyivans" Weight="1"/>
+    <Entry Tag="MinorFactionHaroshems" Weight="1"/>
+    <Entry Tag="MinorFactionHisshos" Weight="1"/>
+    <Entry Tag="MinorFactionMavros" Weight="1"/>
+    <Entry Tag="MinorFactionPilgrims" Weight="1"/>
+    <Entry Tag="MinorFactionZvali" Weight="1"/>
+    <Entry Tag="MinorFactionTikanans" Weight="1"/>
+    <Entry Tag="MinorFactionGnashasts" Weight="1"/>
+    <Entry Tag="MinorFactionEyders" Weight="1"/>
+    <Entry Tag="MinorFactionNiris" Weight="1"/>
+    <Entry Tag="MinorFactionBhagabas" Weight="1"/>
+    <Entry Tag="MinorFactionRemnant" Weight="1"/>
+    <Entry Tag="MinorFactionPulsos" Weight="1"/>
+    <Entry Tag="MinorFactionGreenman" Weight="1"/>
+    <Entry Tag="MinorFactionSistersOfMercy" Weight="1"/>
+    <Entry Tag="MinorFactionIllo" Weight="1"/>
+    <Entry Tag="MinorFactionMinorHacking" Weight="1"/>
+    <Entry Tag="MinorFactionSowers" Weight="1"/>
+    <Entry Tag="MinorFactionKalTikMas" Weight="1"/>
+    <Entry Tag="MinorFactionSefaloros" Weight="1"/>
+    <Entry Tag="MinorFactionGalvrans" Weight="1"/>
+    <Entry Tag="MinorFactionHarmony" Weight="1"/>
+    <Entry Tag="MinorFactionBasryxo" Weight="1"/>
+    <Entry Tag="MinorFactionOraculars" Weight="1"/>
+    <Entry Tag="MinorFactionAllayi" Weight="1"/>
+    <Entry Tag="MinorFactionArdent" Weight="1"/>
+    <Entry Tag="MinorFactionLords" Weight="1"/>
+    <Entry Tag="MinorFactionCultists" Weight="1"/>
+    <Entry Tag="MinorFactionDrakken" Weight="1"/>
+    <Entry Tag="MinorFactionForgotten" Weight="1"/>
+    <Entry Tag="MinorFactionKapaku" Weight="1"/>
+    <Entry Tag="MinorFactionMorgawr" Weight="1"/>
+    <Entry Tag="MinorFactionMykara" Weight="1"/>
+    <Entry Tag="MinorFactionPhages" Weight="1"/>
+    <Entry Tag="MinorFactionRoving" Weight="1"/>
+    <Entry Tag="MinorFactionWalkers" Weight="1"/>
+    <Entry Tag="MinorFactionPlocynos" Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+</Datatable>

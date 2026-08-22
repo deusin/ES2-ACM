@@ -22,7 +22,7 @@ https://github.com/deusin/ES2-ACM
 		<Author>Lord Deusin Amradyr</Author>
 		<Homepage></Homepage>
 		<PreviewImageFile>ACM.png</PreviewImageFile>
-		<ReleaseNotes>2026-08: Endless Legend Populations 4.5 merged in (12 Endless Legend minor factions; do not also run the workshop copy, it crashes ACM). ESG refreshed to the 2026-05-31 workshop drop; Useful Skill Colours 2.2 (Political Skill Tree skills now tinted by Mastery); Samus removed - enable the Samus Aran workshop mod alongside ACM.</ReleaseNotes>
+		<ReleaseNotes>Minor Heroes Reimagined [ESG+PST] 0.2 merged in (unique skill trees for every minor-faction hero, Plocynos minor faction). 2026-08: Endless Legend Populations 4.5 merged in (12 Endless Legend minor factions; do not also run the workshop copy, it crashes ACM). ESG refreshed to the 2026-05-31 workshop drop; Useful Skill Colours 2.2 (Political Skill Tree skills now tinted by Mastery); Samus removed - enable the Samus Aran workshop mod alongside ACM.</ReleaseNotes>
 		<Tags>AI,Balance,Buildings,Heroes,Gameplay,Improvements,MajorFactions,MinorFactions,Multiplayer,Other,Quests,Technologies,Terrain,Units,UI</Tags>
 		<Plugins>
 			<!-- Registry -->
@@ -153,6 +153,7 @@ https://github.com/deusin/ES2-ACM
 					<ExtraType DataType="LaunchDetectionProbeFleetActionDefinition, Assembly-CSharp"/>
 				</ExtraTypes>
 				<FilePath>Simulation/EntityActions.xml</FilePath>
+				<FilePath>Simulation/EntityActions[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<!-- Diplomacy -->
@@ -317,6 +318,7 @@ https://github.com/deusin/ES2-ACM
 
 			<DatabasePlugin DataType="ShipConditionalConstructionEffectDefinition, Assembly-CSharp">
 				<FilePath>Simulation/Battles/ShipConditionalConstructionEffectDefinitions.xml</FilePath>
+				<FilePath>Simulation/Battles/ShipConditionalConstructionEffectDefinitions[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<!-- Constructibles -->
@@ -593,10 +595,16 @@ https://github.com/deusin/ES2-ACM
 
 			<DatabasePlugin DataType="HeroSkillTreeDefinition, Assembly-CSharp">
 				<FilePath>Simulation/HeroSkillTreeDefinitions.xml</FilePath>
+				<FilePath>Simulation/HeroSkillTreeDefinitions[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="HeroSkillDefinition, Assembly-CSharp">
 				<FilePath>Simulation/HeroSkillDefinitions.xml</FilePath>
+				<FilePath>Simulation/HeroSkillDefinitions[*].xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="HeroAffinityDefinition, Assembly-CSharp">
+				<FilePath>Simulation/HeroAffinityDefinitions[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="HeroDefinition, Assembly-CSharp">

@@ -10,6 +10,8 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 - **Useful Skill Colours [ESG] 2.2** (mdel) — workshop 3384708155, 2026-07-26.
 - **More Traits** (Redraluin) — workshop 932777803, incl. fixes.
 - **Political Skill Trees** (workshop 2856109167).
+- **Minor Heroes Reimagined [ESG+PST] 0.2** (mdel) — workshop 3771413185, 2026-07-25. Unique skill trees for
+  every minor-faction hero plus the Plocynos minor faction; carried as `*[MHR]*` files, see below.
 - Own content: the Eldritch faction trait category (`*[Eldritch].xml`).
 - **Endless Legend Populations 4.5** (Captain Cobbs) — workshop 1816492263, 2024-11-26. Twelve
   Endless Legend races (plus three Urkan) as minor factions; carried as `*[ELP]*` files, see below.
@@ -24,6 +26,7 @@ Useful Skill Colours, the quest example) are already inside ACM or unwanted — 
 | Samus Aran | 3268328942 | `AffinityMappingTerrans` only | **Required**: ACM's `FactionTraitEldritchHero` recruits `Samus`. Load **before** ACM so ACM's Terran affinity (with ESG's mercenary ship designs) wins; Samus then comes via the Eldritch trait, not automatically to Terrans. If it loads after ACM, Terrans get her but lose the 8 mercenary designs. |
 | Arkon Portal | 1788325573 | none | clean extension |
 | Endless Legend Populations | 1816492263 | 27 `FactionTrait` + `ClassColonizedStarSystem` | **Do not use the workshop item** — its `ClassColonizedStarSystem` replaces ESG's and the game crashes on the first colonisation (`ColonizationThresholdFIDSBonus` missing). ELP is already inside ACM. |
+| Minor Heroes Reimagined [ESG+PST] | 3771413185 | 38 `HeroDefinition`, `MinorFactions` table, USC GUI | Already inside ACM — do not run the workshop item as well. |
 | Endless Moons | 1316786885 | 90 (75 descriptors, 6 anomaly reductions, 3 weight tables, 2 anomalies, 2 improvements) | |
 | Endless Anomalies | 3257341334 | 126 (51 `AnomalyDefinition`, 73 descriptors, 2 weight tables) | its own note: load **after** Endless Moons |
 | Arkon Faction Hero Ships [ESG] | 3175229111 | all 97 `HeroDefinition`s | built on ESG 1.5 hero defs; loading it after ACM replaces ESG 1.6's hero definitions with Arkon's versions |
@@ -51,13 +54,31 @@ Changes against the workshop drop (redo on each `upstream/elp` merge):
 | `Simulation/SimulationDescriptors[ELP_PopulationModifierTraits].xml` | `$(PlanetIsTeemings)` typo (Wild Walkers); Morgawr fertile-planet influence written as a non-binary modifier → `BinaryModifier`. |
 | `Localization/brazilian`, `Localization/polish` | English copies of the two ELP locale files (ELP ships none for those languages). |
 
+## Minor Heroes Reimagined inside ACM
+
+Same pattern as ELP: the drop's new content is renamed with an `[MHR]` suffix (`Simulation/HeroSkillDefinitions[MHR].xml`,
+`Simulation/HeroSkillTreeDefinitions[MHR].xml`, `GUI/GUIElements[MHR*].xml`, `Simulation/Factions[MHR].xml`, …); `ACM.xml`
+gained wildcards for hero skills/trees, entity actions and ship conditional effects plus a `HeroAffinityDefinition`
+plugin. The drop also ships partial copies of ESG/USC files; those are grafted and the copies deleted:
+
+| Drop file (as imported) | What was done |
+|---|---|
+| `Simulation/HeroDefinitions[MHR_*].xml` (8 files) | the 38 minor-faction heroes replaced by name inside ACM's `HeroDefinitions.xml` (new affinity + faction skill tree, innate skill removed; the Political Skill Trees politics tree is kept). Files deleted. |
+| `Simulation/ConstructibleElement_Industry[MHR_PlanetColonization].xml` | the only delta — `./ClassColonizedStarSystem,FreeColonization` added to the `MetaPrerequisite` of 29 colonisation entries — grafted into ACM's file. Deleted. |
+| `Galaxy/WeightTableDefinitions[MHR_MinorFactions].xml` | ES2 keeps one `MinorFactions` table, so ACM now owns it in `Galaxy/WeightTableDefinitions[ACM_MinorFactions].xml` (vanilla 27 + ELP 12 + Plocynos); removed from the `[ELP]` file. Deleted. |
+| `GUI/GUIElements[MHR_Extended].xml` | Useful Skill Colours 2.2 (same author) already carries 154 of these elements with tinted icons; only the 151 USC lacks are kept. |
+| `GUI/GUIElements[MHR_HeroSkills].xml` | one untinted icon; USC's wins. Deleted. |
+| `Localization/<lang>/…[MHR].xml` | English copied to the six other languages (the mod is English-only). |
+
+Burra Techseeker (the Plocynos hero) needs the Community Challenge Addon DLC, as upstream.
+
 ## Working on the mod
 
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
   The `.git` file points at the object store in `C:\Users\Kenny\source\repos\ES2-ACM.git`; edit → save →
   launch the game, no copy step.
 - Refreshing an upstream mod: `.\tools\Import-Upstream.ps1 -Mod esg` (or `usc`), then
-  `git merge upstream/esg`. `elp` imports land the drop on the `[ELP]` paths above.
+  `git merge upstream/esg`. `elp` / `mhr` imports land the drop on the `[ELP]` / `[MHR]` paths above.
   Details, conflict conventions and gotchas are in `CLAUDE.md`.
 - `.\tools\Find-Conflicts.ps1 -Mod <workshop id>` reports which definitions a workshop mod shares with ACM.
 
@@ -67,4 +88,5 @@ Changes against the workshop drop (redo on each `upstream/elp` merge):
 - 2026-08: repo relocated into the Community folder; vendor branches + import tooling; ESG refreshed to the
   2026-05-31 drop (267 changed files, 4 conflicts); USC 2.2 grafted in; Samus removed in favour of the
   workshop mod (its skill trees had been copied into the `[Eldritch]` files). Endless Legend
-  Populations 4.5 merged in (renamed `[ELP]` files, four data fixes) after the workshop item crashed game start.
+  Populations 4.5 merged in (renamed `[ELP]` files, four data fixes) after the workshop item crashed game start. Minor Heroes Reimagined
+  [ESG+PST] 0.2 merged in the same way.

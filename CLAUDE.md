@@ -25,12 +25,13 @@ Start Claude Code sessions **from this folder**.
 | Endless Moons | 1316786885 | run alongside (see README for overlaps) |
 | Endless Anomalies | 3257341334 | run alongside, load after Endless Moons |
 | Endless Legend Populations | 1816492263 | merged as `*[ELP]*` files (vendor branch `upstream/elp`); never also run the workshop item — its `ClassColonizedStarSystem` crashes ACM |
+| Minor Heroes Reimagined [ESG+PST] | 3771413185 | merged as `*[MHR]*` files (vendor branch `upstream/mhr`); partial ESG/USC copies grafted, see README |
 | Arkon Portal | 1788325573 | run alongside, no overlaps |
 | Arkon Faction Hero Ships [ESG] | 3175229111 | run alongside (overrides all HeroDefinitions) |
 
 ## Lifecycle: refreshing an upstream mod
 
-Vendor branches `upstream/esg`, `upstream/usc`, `upstream/elp` (create `upstream/moretraits` /
+Vendor branches `upstream/esg`, `upstream/usc`, `upstream/elp`, `upstream/mhr` (create `upstream/moretraits` /
 `upstream/poltrees` from their integration commits `a337329` / `1ea078a` only if those mods ever update).
 
 ```
@@ -57,6 +58,13 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
   of the drop are listed in the README table ("Endless Legend Populations inside ACM") — redo them
   on every `upstream/elp` merge; a modify/delete conflict on
   `SimulationDescriptors[ELP_ColonizedStarSystem].xml` means keep it deleted.
+- **MHR** (same shape as ELP, suffix `[MHR]`). The drop's `HeroDefinitions[MHR_*]`,
+  `ConstructibleElement_Industry[MHR_PlanetColonization]`, `WeightTableDefinitions[MHR_MinorFactions]`,
+  `GUIElements[MHR_HeroSkills]` are partial copies of ESG/USC files — graft per the README table, then
+  delete (modify/delete conflicts on them are the cue). `GUIElements[MHR_Extended]` keeps only what
+  `Gui/GuiElements[Extended].xml` (USC) lacks. The `MinorFactions` weight table is ACM-owned in
+  `Galaxy/WeightTableDefinitions[ACM_MinorFactions].xml`; every merged mod that adds a minor faction
+  must be listed there (a later-loaded copy of the table replaces it wholesale).
 - **No game-setting toggle for factions.** `GameSettingPrerequisite` works on
   constructibles/techs/quests/diplomacy only. `FactionTrait`/`MinorFaction` take string path
   prerequisites, descriptors and weight tables none; the galaxy generator (`GameManager` →

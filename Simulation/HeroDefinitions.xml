@@ -398,19 +398,16 @@
   <!--Riftborn Minor-->
   <!--Anax-Jink 2077-->
   <HeroDefinition Name="HeroQuestVirus01" Hidden="true">
-    <Skill Name="HeroSkill01QuestVirus01" />
-    <Skill Name="HeroSkill02QuestVirus01" />
-
-    <Affinity Name="HeroAffinityPirates" />
-    <Class Name="HeroClassAdventurer" />
-    <Politics Name="HeroPolitics02" />
-
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer" />
-
-    <SkillTree Name="HeroSkillTreeReligious" />
-    <SkillTree Name="HeroSkillTreeMinorFaction01" />
-    <SkillTree Name="HeroSkillTreeAdventurer" />
-    <LevelUpRuleReference Name="HeroLevelUpRule" />
+    <Skill Name="HeroSkill01QuestVirus01"/>
+    <Skill Name="HeroSkill02QuestVirus01"/>
+    <Affinity Name="HeroAffinityVirus"/>
+    <Class Name="HeroClassAdventurer"/>
+    <Politics Name="HeroPolitics05"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <SkillTree Name="HeroSkillTreeReligious"/>
+    <SkillTree Name="HeroSkillTreeVirus"/>
+    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
   <!-- Unfallen -->
@@ -848,35 +845,27 @@
   <HeroDefinition Name="HeroSistersOfMercy01">
     <Skill Name="HeroSkill01SistersOfMercy01"/>
     <Skill Name="HeroSkill02SistersOfMercy01"/>
-    <Skill Name="HeroSkillInnateCounselor"/>
-
-    <Affinity Name="HeroAffinityPrimitives"/>
+    <Affinity Name="HeroAffinitySistersOfMercy"/>
     <Class Name="HeroClassCorporate"/>
-    <Politics Name="HeroPolitics03"/>
-
+    <Politics Name="HeroPolitics05"/>
     <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
-
     <SkillTree Name="HeroSkillTreeReligious"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction04"/>
+    <SkillTree Name="HeroSkillTreeSistersOfMercy"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
   <!--Opbot-->
-  <HeroDefinition Name="HeroOpbot01"  Hidden="true">
+  <HeroDefinition Name="HeroOpbot01" Hidden="true">
     <Skill Name="HeroSkill01Opbot01"/>
     <Skill Name="HeroSkill02Opbot01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityPrimitives"/>
-    <Class Name="HeroClassAdministrator"/>
+    <Affinity Name="HeroAffinityOpbot"/>
+    <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
-
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
+    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction04"/>
-    <SkillTree Name="HeroSkillTreeAdministrator"/>
+    <SkillTree Name="HeroSkillTreeOpbot"/>
+    <SkillTree Name="HeroSkillTreeCorporate"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
@@ -884,36 +873,29 @@
   <HeroDefinition Name="HeroAmoeba02" Hidden="true">
     <Skill Name="HeroSkill01Amoeba02"/>
     <Skill Name="HeroSkill02Amoeba02"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityInsectoids"/>
+    <Affinity Name="HeroAffinityAmoeba"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics03"/>
-
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreePacifist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction02"/>
+    <SkillTree Name="HeroSkillTreeAmoeba"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
 <!--Fluffpetal Gurk'Zvar-->
-    <HeroDefinition Name="HeroPirateLeader01" Hidden="true" IgnoreInstanceNumber="true">
-        <Skill Name="HeroSkill01PirateLeader01"/>
-        <Skill Name="HeroSkill02PirateLeader01"/>
-
-        <Affinity Name="HeroAffinityPirates"/>
-        <Class Name="HeroClassAdmiral"/>
-        <Politics Name="HeroPolitics06"/>
-        
-        <ShipDesign Name="ShipDesignHeroSmall01AttackerPirate"/>
-
-        <SkillTree Name="HeroSkillTreeMilitarist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
-        <SkillTree Name="HeroSkillTreeAdmiral"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>	
+  <HeroDefinition Name="HeroPirateLeader01" Hidden="true" IgnoreInstanceNumber="true">
+    <Skill Name="HeroSkill01PirateLeader01"/>
+    <Skill Name="HeroSkill02PirateLeader01"/>
+    <Affinity Name="HeroAffinityFluffpetal"/>
+    <Class Name="HeroClassAdmiral"/>
+    <Politics Name="HeroPolitics06"/>
+    <ShipDesign Name="ShipDesignHeroSmall01AttackerPirate"/>
+    <SkillTree Name="HeroSkillTreeMilitarist"/>
+    <SkillTree Name="HeroSkillTreeFluffpetal"/>
+    <SkillTree Name="HeroSkillTreeAdmiral"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>	
 
 <!--Hissho-->
 <!--Kogewa Brightblade (Starting hero)-->
@@ -990,16 +972,12 @@
   <HeroDefinition Name="HeroIllo01">
     <Skill Name="HeroSkill01Illo01"/>
     <Skill Name="HeroSkill02Illo01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityAdvanced"/>
+    <Affinity Name="HeroAffinityIllo"/>
     <Class Name="HeroClassAdministrator"/>
-    <Politics Name="HeroPolitics03"/>
-
+    <Politics Name="HeroPolitics05"/>
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeReligious"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+    <SkillTree Name="HeroSkillTreeIllo"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1081,15 +1059,12 @@
   <HeroDefinition Name="HeroUmbralChoir05" Hidden="true">
     <Skill Name="HeroSkill01UmbralChoir05"/>
     <Skill Name="HeroSkill02UmbralChoir05"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityUmbralChoir"/>
+    <Affinity Name="HeroAffinityPilgrims"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics02"/>
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeScientist"/>
-    <SkillTree Name="HeroSkillTreeUmbralChoir"/>
+    <SkillTree Name="HeroSkillTreePilgrims"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1134,39 +1109,32 @@
   </HeroDefinition>
 
   <!-- 	Nakatuon -->
-    <HeroDefinition Name="HeroTemplars03">
-      <Skill Name="HeroSkill01Terrans04"/>
-      <Skill Name="HeroSkill02Terrans04"/>
-
-        <Affinity Name="HeroAffinityTemplars"/>
-        <Class Name="HeroClassAdmiral"/>
-        <Politics Name="HeroPolitics06"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
-
-        <SkillTree Name="HeroSkillTreeMilitarist"/>
-        <SkillTree Name="HeroSkillTreeTemplars"/>
-        <SkillTree Name="HeroSkillTreeAdmiral"/>
-
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>
+  <HeroDefinition Name="HeroTemplars03">
+    <Skill Name="HeroSkill01Terrans04"/>
+    <Skill Name="HeroSkill02Terrans04"/>
+    <Affinity Name="HeroAffinityRemnant"/>
+    <Class Name="HeroClassAdmiral"/>
+    <Politics Name="HeroPolitics06"/>
+    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <SkillTree Name="HeroSkillTreeMilitarist"/>
+    <SkillTree Name="HeroSkillTreeRemnant"/>
+    <SkillTree Name="HeroSkillTreeAdmiral"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
 
   <!-- 	Yr Mel Kara -->
-    <HeroDefinition Name="HeroTemplars04">
-      <Skill Name="HeroSkill01Unfallen04"/>
-      <Skill Name="HeroSkill02Unfallen04"/>
-
-        <Affinity Name="HeroAffinityTemplars"/>
-        <Class Name="HeroClassAdventurer"/>
-        <Politics Name="HeroPolitics02"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
-        <SkillTree Name="HeroSkillTreeScientist"/>
-        <SkillTree Name="HeroSkillTreeTemplars"/>
-        <SkillTree Name="HeroSkillTreeAdventurer"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>
+  <HeroDefinition Name="HeroTemplars04">
+    <Skill Name="HeroSkill01Unfallen04"/>
+    <Skill Name="HeroSkill02Unfallen04"/>
+    <Affinity Name="HeroAffinityKalTikMas"/>
+    <Class Name="HeroClassAdventurer"/>
+    <Politics Name="HeroPolitics02"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <SkillTree Name="HeroSkillTreeScientist"/>
+    <SkillTree Name="HeroSkillTreeKalTikMas"/>
+    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
 
   <!-- ??? (not in the wiki for some reason) -->
     <HeroDefinition Name="HeroTemplars05" Hidden="true">
@@ -1190,16 +1158,12 @@
   <HeroDefinition Name="HeroOraculars01">
     <Skill Name="HeroSkill01Illo01"/>
     <Skill Name="HeroSkill02Eyders01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityAdvanced"/>
+    <Affinity Name="HeroAffinityOraculars"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics05"/>
-
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeReligious"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+    <SkillTree Name="HeroSkillTreeOraculars"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1209,16 +1173,12 @@
   <HeroDefinition Name="HeroAmoeba01">
     <Skill Name="HeroSkill01Amoeba01"/>
     <Skill Name="HeroSkill02Amoeba01"/>
-    <Skill Name="HeroSkillInnateCounselor"/>
-
-    <Affinity Name="HeroAffinityInsectoids"/>
+    <Affinity Name="HeroAffinityAmoeba"/>
     <Class Name="HeroClassCorporate"/>
-    <Politics Name="HeroPolitics04"/>
-
+    <Politics Name="HeroPolitics02"/>
     <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
-
     <SkillTree Name="HeroSkillTreeScientist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction02"/>
+    <SkillTree Name="HeroSkillTreeAmoeba"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1227,51 +1187,40 @@
   <HeroDefinition Name="HeroBenthys01">
     <Skill Name="HeroSkill01Benthys01"/>
     <Skill Name="HeroSkill02Benthys01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityPrimitives"/>
+    <Affinity Name="HeroAffinityKalgeros"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics05"/>
-
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeReligious"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction04"/>
+    <SkillTree Name="HeroSkillTreeKalgeros"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
 <!--EPISTIS "Madein" 20910-->	
-    <HeroDefinition Name="HeroBots01">
-        <Skill Name="HeroSkill01Bots01"/>
-        <Skill Name="HeroSkill02Bots01"/>
-
-        <Affinity Name="HeroAffinityAdvanced"/>
-        <Class Name="HeroClassAdventurer"/>
-        <Politics Name="HeroPolitics04"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
-        <SkillTree Name="HeroSkillTreeEcologist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
-        <SkillTree Name="HeroSkillTreeAdventurer"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>
+  <HeroDefinition Name="HeroBots01">
+    <Skill Name="HeroSkill01Bots01"/>
+    <Skill Name="HeroSkill02Bots01"/>
+    <Affinity Name="HeroAffinityBots"/>
+    <Class Name="HeroClassAdventurer"/>
+    <Politics Name="HeroPolitics04"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <SkillTree Name="HeroSkillTreeEcologist"/>
+    <SkillTree Name="HeroSkillTreeBots"/>
+    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
 
   <!-- Ting Neuil -->
   <HeroDefinition Name="HeroDeuyivans01">
     <Skill Name="HeroSkill01Deuyivans01"/>
     <Skill Name="HeroSkill02Deuyivans01"/>
-    <Skill Name="HeroSkillInnateCounselor"/>
-
-    <Affinity Name="HeroAffinityInsectoids"/>
+    <Affinity Name="HeroAffinityDeuyivans"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
-
     <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
-
     <SkillTree Name="HeroSkillTreeScientist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction02"/>
+    <SkillTree Name="HeroSkillTreeDeuyivans"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1280,16 +1229,12 @@
   <HeroDefinition Name="HeroHaroshems01">
     <Skill Name="HeroSkill01Haroshems01"/>
     <Skill Name="HeroSkill02Haroshems01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityPirates"/>
+    <Affinity Name="HeroAffinityHaroshem"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics04"/>
-
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeEcologist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+    <SkillTree Name="HeroSkillTreeHaroshem"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1298,66 +1243,54 @@
   <HeroDefinition Name="HeroHaroshems02">
     <Skill Name="HeroSkill01Haroshems02"/>
     <Skill Name="HeroSkill02Haroshems02"/>
-
-    <Affinity Name="HeroAffinityPirates"/>
+    <Affinity Name="HeroAffinityHaroshem"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics02"/>
-
     <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
     <SkillTree Name="HeroSkillTreeScientist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+    <SkillTree Name="HeroSkillTreeHaroshem"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
  <!-- Fusha Keencrest -->
-    <HeroDefinition Name="HeroHisshos01">
-        <Skill Name="HeroSkill01Hisshos01"/>
-        <Skill Name="HeroSkill02Hisshos01"/>
-
-        <Affinity Name="HeroAffinityPirates"/>
-        <Class Name="HeroClassAdmiral"/>
-        <Politics Name="HeroPolitics06"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
-
-        <SkillTree Name="HeroSkillTreeMilitarist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
-        <SkillTree Name="HeroSkillTreeAdmiral"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>
+  <HeroDefinition Name="HeroHisshos01">
+    <Skill Name="HeroSkill01Hisshos01"/>
+    <Skill Name="HeroSkill02Hisshos01"/>
+    <Affinity Name="HeroAffinityHisshos"/>
+    <Class Name="HeroClassAdmiral"/>
+    <Politics Name="HeroPolitics06"/>
+    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <SkillTree Name="HeroSkillTreeMilitarist"/>
+    <SkillTree Name="HeroSkillTreeHisshos"/>
+    <SkillTree Name="HeroSkillTreeAdmiral"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
 	
  <!-- Krak "Cubed" Bleis -->
-    <HeroDefinition Name="HeroMavros01">
-        <Skill Name="HeroSkill01Mavros01"/>
-        <Skill Name="HeroSkill02Mavros01"/>
-
-        <Affinity Name="HeroAffinityAdvanced"/>
-        <Class Name="HeroClassAdmiral"/>
-        <Politics Name="HeroPolitics01"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
-
-        <SkillTree Name="HeroSkillTreeIndustrialist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
-        <SkillTree Name="HeroSkillTreeAdmiral"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>
+  <HeroDefinition Name="HeroMavros01">
+    <Skill Name="HeroSkill01Mavros01"/>
+    <Skill Name="HeroSkill02Mavros01"/>
+    <Affinity Name="HeroAffinityMavros"/>
+    <Class Name="HeroClassAdmiral"/>
+    <Politics Name="HeroPolitics01"/>
+    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <SkillTree Name="HeroSkillTreeIndustrialist"/>
+    <SkillTree Name="HeroSkillTreeMavros"/>
+    <SkillTree Name="HeroSkillTreeAdmiral"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
 
   <!-- Mwanga Moto -->
   <HeroDefinition Name="HeroPilgrims01">
     <Skill Name="HeroSkill01Pilgrims01"/>
     <Skill Name="HeroSkill02Pilgrims01"/>
-
-    <Affinity Name="HeroAffinityAdvanced"/>
+    <Affinity Name="HeroAffinityPilgrims"/>
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics05"/>
-
     <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
-
     <SkillTree Name="HeroSkillTreeReligious"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+    <SkillTree Name="HeroSkillTreePilgrims"/>
     <SkillTree Name="HeroSkillTreeAdmiral"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>	
@@ -1367,68 +1300,54 @@
   <HeroDefinition Name="HeroZvali01">
     <Skill Name="HeroSkill01Zvali01"/>
     <Skill Name="HeroSkill02Zvali01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityAdvanced"/>
+    <Affinity Name="HeroAffinityZvali"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics02"/>
-
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeScientist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+    <SkillTree Name="HeroSkillTreeZvali"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
  <!-- Eighth of Fifteenth of Karval -->
-	<HeroDefinition Name="HeroTikanans01">
-		<Skill Name="HeroSkill01Tikanans01"/>
-		<Skill Name="HeroSkill02Tikanans01"/>
-
-		<Affinity Name="HeroAffinityInsectoids"/>
-		<Class Name="HeroClassAdmiral"/>
-		<Politics Name="HeroPolitics06"/>
-
-		<ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
-
-		<SkillTree Name="HeroSkillTreeMilitarist"/>
-		<SkillTree Name="HeroSkillTreeMinorFaction02"/>
-		<SkillTree Name="HeroSkillTreeAdmiral"/>
-		<LevelUpRuleReference Name="HeroLevelUpRule"/>
-	</HeroDefinition>
+  <HeroDefinition Name="HeroTikanans01">
+    <Skill Name="HeroSkill01Tikanans01"/>
+    <Skill Name="HeroSkill02Tikanans01"/>
+    <Affinity Name="HeroAffinityTikanan"/>
+    <Class Name="HeroClassAdmiral"/>
+    <Politics Name="HeroPolitics06"/>
+    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <SkillTree Name="HeroSkillTreeMilitarist"/>
+    <SkillTree Name="HeroSkillTreeTikanan"/>
+    <SkillTree Name="HeroSkillTreeAdmiral"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
 	
  <!-- Torvoth Bzech'Grul -->
-	<HeroDefinition Name="HeroGnashasts01">
-		<Skill Name="HeroSkill01Gnashasts01"/>
-		<Skill Name="HeroSkill02Gnashasts01"/>
-
-		<Affinity Name="HeroAffinityPrimitives"/>
-		<Class Name="HeroClassAdventurer"/>
-		<Politics Name="HeroPolitics06"/>
-
-		<ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
-		<SkillTree Name="HeroSkillTreeMilitarist"/>
-		<SkillTree Name="HeroSkillTreeMinorFaction04"/>
-		<SkillTree Name="HeroSkillTreeAdventurer"/>
-		<LevelUpRuleReference Name="HeroLevelUpRule"/>
-	</HeroDefinition>
+  <HeroDefinition Name="HeroGnashasts01">
+    <Skill Name="HeroSkill01Gnashasts01"/>
+    <Skill Name="HeroSkill02Gnashasts01"/>
+    <Affinity Name="HeroAffinityGnashasts"/>
+    <Class Name="HeroClassAdventurer"/>
+    <Politics Name="HeroPolitics06"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <SkillTree Name="HeroSkillTreeMilitarist"/>
+    <SkillTree Name="HeroSkillTreeGnashasts"/>
+    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
 
  <!-- Scales Galena -->
   <HeroDefinition Name="HeroEyders01">
     <Skill Name="HeroSkill01Eyders01"/>
     <Skill Name="HeroSkill02Eyders01"/>
-    <Skill Name="HeroSkillInnateCounselor"/>
-
-    <Affinity Name="HeroAffinityPirates"/>
+    <Affinity Name="HeroAffinityEyders"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics05"/>
-
     <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
-
     <SkillTree Name="HeroSkillTreeReligious"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+    <SkillTree Name="HeroSkillTreeEyders"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1437,16 +1356,12 @@
   <HeroDefinition Name="HeroNiris01">
     <Skill Name="HeroSkill01Niris01"/>
     <Skill Name="HeroSkill02Niris01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityPrimitives"/>
+    <Affinity Name="HeroAffinityNiris"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics04"/>
-
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeEcologist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction04"/>
+    <SkillTree Name="HeroSkillTreeNiris"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1455,53 +1370,43 @@
   <HeroDefinition Name="HeroBhagabas01">
     <Skill Name="HeroSkill01Bhagabas01"/>
     <Skill Name="HeroSkill02Bhagabas01"/>
-    <Skill Name="HeroSkillInnateCounselor"/>
-
-    <Affinity Name="HeroAffinityPrimitives"/>
+    <Affinity Name="HeroAffinityBhagabas"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics03"/>
-
     <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
-
     <SkillTree Name="HeroSkillTreePacifist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction04"/>
+    <SkillTree Name="HeroSkillTreeBhagabas"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
  <!-- Kalin Fett-Iska -->
-    <HeroDefinition Name="HeroRemnant01">
-		<Skill Name="HeroSkill01Remnant01"/>
-        <Skill Name="HeroSkill02Remnant01"/>
-
-        <Affinity Name="HeroAffinityInsectoids"/>
-        <Class Name="HeroClassAdventurer"/>
-        <Politics Name="HeroPolitics01"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
-        <SkillTree Name="HeroSkillTreeIndustrialist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction02"/>
-        <SkillTree Name="HeroSkillTreeAdventurer"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>
+  <HeroDefinition Name="HeroRemnant01">
+    <Skill Name="HeroSkill01Remnant01"/>
+    <Skill Name="HeroSkill02Remnant01"/>
+    <Affinity Name="HeroAffinityRemnant"/>
+    <Class Name="HeroClassAdventurer"/>
+    <Politics Name="HeroPolitics01"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <SkillTree Name="HeroSkillTreeIndustrialist"/>
+    <SkillTree Name="HeroSkillTreeRemnant"/>
+    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
 
  <!-- Caxalxsixox Druse -->
-    <HeroDefinition Name="HeroPulsos01">
-        <Skill Name="HeroSkill01Pulsos01"/>
-        <Skill Name="HeroSkill02Pulsos01"/>
-
-        <Affinity Name="HeroAffinityPirates"/>
-        <Class Name="HeroClassAdventurer"/>
-        <Politics Name="HeroPolitics01"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
-        <SkillTree Name="HeroSkillTreeIndustrialist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
-        <SkillTree Name="HeroSkillTreeAdventurer"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>	    
+  <HeroDefinition Name="HeroPulsos01">
+    <Skill Name="HeroSkill01Pulsos01"/>
+    <Skill Name="HeroSkill02Pulsos01"/>
+    <Affinity Name="HeroAffinityPulsos"/>
+    <Class Name="HeroClassAdventurer"/>
+    <Politics Name="HeroPolitics01"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <SkillTree Name="HeroSkillTreeIndustrialist"/>
+    <SkillTree Name="HeroSkillTreePulsos"/>
+    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>	    
 
  <!-- Tiaych Zhilleaq -->
 	<HeroDefinition Name="QuestHeroEndless02" Hidden="true">
@@ -1521,21 +1426,18 @@
 	</HeroDefinition>
 
    <!-- Bosun Jennifer Rach -->
-    <HeroDefinition Name="HeroPirate01">
-        <Skill Name="HeroSkill01Pirate01"/>
-        <Skill Name="HeroSkill02Pirate01"/>
-
-        <Affinity Name="HeroAffinityPirates"/>
-        <Class Name="HeroClassAdventurer"/>
-        <Politics Name="HeroPolitics01"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
-        <SkillTree Name="HeroSkillTreeIndustrialist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
-        <SkillTree Name="HeroSkillTreeAdventurer"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>  
+  <HeroDefinition Name="HeroPirate01">
+    <Skill Name="HeroSkill01Pirate01"/>
+    <Skill Name="HeroSkill02Pirate01"/>
+    <Affinity Name="HeroAffinityFluffpetal"/>
+    <Class Name="HeroClassAdventurer"/>
+    <Politics Name="HeroPolitics01"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <SkillTree Name="HeroSkillTreeIndustrialist"/>
+    <SkillTree Name="HeroSkillTreeFluffpetal"/>
+    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>  
 
 
 
@@ -1550,36 +1452,29 @@
   <HeroDefinition Name="HeroGreenman01" Hidden="true">
     <Skill Name="HeroSkill01Greenman01"/>
     <Skill Name="HeroSkill02Greenman01"/>
-    <Skill Name="HeroSkillInnateCounselor"/>
-
-    <Affinity Name="HeroAffinityPrimitives"/>
+    <Affinity Name="HeroAffinityGreenman"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
-
     <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
-
     <SkillTree Name="HeroSkillTreeScientist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction04"/>
+    <SkillTree Name="HeroSkillTreeGreenman"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
  <!-- The Photobomber 2 algae boogaloo -->
-    <HeroDefinition Name="HeroGreenman02" Hidden="true">
-        <Skill Name="HeroSkill01Greenman02"/>
-        <Skill Name="HeroSkill02Greenman02"/>
-
-        <Affinity Name="HeroAffinityPrimitives"/>
-        <Class Name="HeroClassAdmiral"/>
-        <Politics Name="HeroPolitics04"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
-
-        <SkillTree Name="HeroSkillTreeEcologist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction04"/>
-        <SkillTree Name="HeroSkillTreeAdmiral"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>	
+  <HeroDefinition Name="HeroGreenman02" Hidden="true">
+    <Skill Name="HeroSkill01Greenman02"/>
+    <Skill Name="HeroSkill02Greenman02"/>
+    <Affinity Name="HeroAffinityGreenman"/>
+    <Class Name="HeroClassAdmiral"/>
+    <Politics Name="HeroPolitics04"/>
+    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <SkillTree Name="HeroSkillTreeEcologist"/>
+    <SkillTree Name="HeroSkillTreeGreenman"/>
+    <SkillTree Name="HeroSkillTreeAdmiral"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>	
 
 
   <!-- Free week-end reward 2019 -->
@@ -1587,53 +1482,41 @@
   <HeroDefinition Name="HeroBasryxo01">
     <Skill Name="HeroSkill01Basryxo01"/>
     <Skill Name="HeroSkill02Basryxo01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityPrimitives"/>
+    <Affinity Name="HeroAffinityBasryxo"/>
     <Class Name="HeroClassAdministrator"/>
-    <Politics Name="HeroPolitics01"/>
-
+    <Politics Name="HeroPolitics02"/>
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeScientist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction04"/>
+    <SkillTree Name="HeroSkillTreeBasryxo"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
     <!-- Esseb Veltaros -->
-    <HeroDefinition Name="HeroArchivist01">
-        <Skill Name="HeroSkill01HeroArchivist01"/>
-        <Skill Name="HeroSkill02HeroArchivist01"/>
-
-        <StatisticPrerequisite MinimumValue="1" MaximumValue="1">ARCH_POINTS</StatisticPrerequisite>
-
-        <Affinity Name="HeroAffinityAdvanced"/>
-        <Class Name="HeroClassAdventurer"/>
-        <Politics Name="HeroPolitics02"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
-        <SkillTree Name="HeroSkillTreeScientist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
-        <SkillTree Name="HeroSkillTreeAdventurer"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>	
+  <HeroDefinition Name="HeroArchivist01">
+    <Skill Name="HeroSkill01HeroArchivist01"/>
+    <Skill Name="HeroSkill02HeroArchivist01"/>
+    <StatisticPrerequisite MinimumValue="1" MaximumValue="1">ARCH_POINTS</StatisticPrerequisite>
+    <Affinity Name="HeroAffinityArchivist"/>
+    <Class Name="HeroClassAdventurer"/>
+    <Politics Name="HeroPolitics02"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <SkillTree Name="HeroSkillTreeScientist"/>
+    <SkillTree Name="HeroSkillTreeArchivist"/>
+    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>	
 
   <!-- Burra Techseeker -->
   <HeroDefinition Name="HeroBurraTechseeker01">
-    <Skill Name="HeroSkill01HeroBurraTechseeker01"/><!-- This skill also contains a tag -->
+    <Skill Name="HeroSkill01HeroBurraTechseeker01"/>
     <Skill Name="HeroSkill02HeroBurraTechseeker01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityAdvanced"/>
+    <Affinity Name="HeroAffinityPlocynos"/>
     <Class Name="HeroClassAdministrator"/>
-    <Politics Name="HeroPolitics03"/>
-
+    <Politics Name="HeroPolitics04"/>
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeEcologist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+    <SkillTree Name="HeroSkillTreePlocynos"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1642,68 +1525,54 @@
   <HeroDefinition Name="HeroSowers01">
     <Skill Name="HeroSkill01Sowers01"/>
     <Skill Name="HeroSkill02Sowers01"/>
-    <Skill Name="HeroSkillInnateOverseer"/>
-
-    <Affinity Name="HeroAffinityInsectoids"/>
+    <Affinity Name="HeroAffinitySowers"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics05"/>
-
     <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
-
     <SkillTree Name="HeroSkillTreeReligious"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction02"/>
+    <SkillTree Name="HeroSkillTreeSowers"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
 
  <!-- En Pas Leba -->
-    <HeroDefinition Name="HeroKalTikMas01">
-        <Skill Name="HeroSkill01KalTikMas01"/>
-        <Skill Name="HeroSkill02KalTikMas01"/>
-
-        <Affinity Name="HeroAffinityPrimitives"/>
-        <Class Name="HeroClassAdmiral"/>
-        <Politics Name="HeroPolitics04"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
-
-        <SkillTree Name="HeroSkillTreeEcologist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction04"/>
-        <SkillTree Name="HeroSkillTreeAdmiral"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>
+  <HeroDefinition Name="HeroKalTikMas01">
+    <Skill Name="HeroSkill01KalTikMas01"/>
+    <Skill Name="HeroSkill02KalTikMas01"/>
+    <Affinity Name="HeroAffinityKalTikMas"/>
+    <Class Name="HeroClassAdmiral"/>
+    <Politics Name="HeroPolitics04"/>
+    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <SkillTree Name="HeroSkillTreeEcologist"/>
+    <SkillTree Name="HeroSkillTreeKalTikMas"/>
+    <SkillTree Name="HeroSkillTreeAdmiral"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>
 
  <!-- Ooblart Essacius -->
-    <HeroDefinition Name="HeroSefaloros01">
-        <Skill Name="HeroSkill01Sefaloros01"/>
-        <Skill Name="HeroSkill02Sefaloros01"/>
-
-        <Affinity Name="HeroAffinityPirates"/>
-        <Class Name="HeroClassAdventurer"/>
-        <Politics Name="HeroPolitics01"/>
-
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
-        <SkillTree Name="HeroSkillTreeIndustrialist"/>
-        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
-        <SkillTree Name="HeroSkillTreeAdventurer"/>
-        <LevelUpRuleReference Name="HeroLevelUpRule"/>
-    </HeroDefinition>	
+  <HeroDefinition Name="HeroSefaloros01">
+    <Skill Name="HeroSkill01Sefaloros01"/>
+    <Skill Name="HeroSkill02Sefaloros01"/>
+    <Affinity Name="HeroAffinitySefaloros"/>
+    <Class Name="HeroClassAdventurer"/>
+    <Politics Name="HeroPolitics01"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <SkillTree Name="HeroSkillTreeIndustrialist"/>
+    <SkillTree Name="HeroSkillTreeSefaloros"/>
+    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+  </HeroDefinition>	
 
  <!-- Chancellor Alazne Matul -->
   <HeroDefinition Name="HeroGalvrans01">
     <Skill Name="HeroSkill01Galvrans01"/>
     <Skill Name="HeroSkill02Galvrans01"/>
-    <Skill Name="HeroSkillInnateCounselor"/>
-
-    <Affinity Name="HeroAffinityAdvanced"/>
+    <Affinity Name="HeroAffinityGalvrans"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
-
     <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
-
     <SkillTree Name="HeroSkillTreeScientist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+    <SkillTree Name="HeroSkillTreeGalvrans"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>
@@ -1712,15 +1581,12 @@
   <HeroDefinition Name="HeroHarmony01">
     <Skill Name="HeroSkill01Harmony01"/>
     <Skill Name="HeroSkill02Harmony01"/>
-
-    <Affinity Name="HeroAffinityPrimitives"/>
+    <Affinity Name="HeroAffinityHarmony"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics04"/>
-
     <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
-
     <SkillTree Name="HeroSkillTreeEcologist"/>
-    <SkillTree Name="HeroSkillTreeMinorFaction04"/>
+    <SkillTree Name="HeroSkillTreeHarmony"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
     <LevelUpRuleReference Name="HeroLevelUpRule"/>
   </HeroDefinition>	
