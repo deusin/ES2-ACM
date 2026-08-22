@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal', 'afhs', 'em', 'ea', 'dsm')]
+    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal', 'afhs', 'em', 'ea', 'dsm', 'worthydeeds')]
     [string]$Mod,
 
     # Stage and show the diff in the worktree but do not commit or remove the worktree.
@@ -182,6 +182,20 @@ $Mods = @{
                             '^Simulation\\SimulationDescriptors\[(.+)\]\.xml$'          { return "Simulation\SimulationDescriptors[DSM_$($Matches[1])].xml" }
                             '^Simulation\\SpecialNodeDefinitions\.xml$'                 { return 'Simulation\SpecialNodeDefinitions[DSM].xml' }
                             default                                                       { return $rel }
+                        }
+                    } }
+    # Worthy Deeds: suffix [WD]. Master keeps only the droplists (renamed *_WD) and rebuilds the deeds from ESG's
+    # versions as *_WD copies gated by EnableWorthyDeeds; the drop's quest/wonder/GUI/loc files are deleted - see README.
+    worthydeeds = @{ Id = '1587659427'; Index = 'WorthyDeeds.xml';         IndexAs = $null;     KeepIcon = $false; Icon = 'WorthyDeeds.png'; Extra = @{}
+                    Rename = {
+                        param($rel)
+                        switch -Regex ($rel) {
+                            '^Gui\\GuiElements\[WorthyDeeds\]\.xml$'                      { return 'GUI\GUIElements[WD].xml' }
+                            '^Localization\\([^\\]+)\\(ES2_Localization_.+)\.xml$'       { return "Localization\$($Matches[1])\$($Matches[2])[WD].xml" }
+                            '^Quests\\Droplists\\Droplists\[WorthyDeeds\]\.xml$'          { return 'Quests\Droplists\Droplists[WD].xml' }
+                            '^Quests\\QuestDefinitions\[WorthyDeeds(.+)\]\.xml$'          { return "Quests\QuestDefinitions[WD_$($Matches[1])].xml" }
+                            '^Simulation\\(.+)\[WorthyDeeds(.*)\]\.xml$'                  { return "Simulation\$($Matches[1])[WD$(if ($Matches[2]) { '_' + $Matches[2] })].xml" }
+                            default                                                        { return $rel }
                         }
                     } }
     mhr        = @{ Id = '3771413185'; Index = 'MinorHeroesReimaginedESGPST.xml'; IndexAs = $null; KeepIcon = $false; Extra = @{}
