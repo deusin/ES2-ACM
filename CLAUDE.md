@@ -74,7 +74,10 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
   constructibles/techs/quests/diplomacy only. `FactionTrait`/`MinorFaction` take string path
   prerequisites, descriptors and weight tables none; the galaxy generator (`GameManager` →
   `Generator.EmpiresManager`) adds every `MinorFaction` filtered only by DLC and draws from the fixed
-  `MinorFactions` table. Decided 2026-08-22 after decompiling; don't re-investigate.
+  `MinorFactions` table. Decided 2026-08-22 after decompiling; don't re-investigate. **Heroes are different:**
+  `HeroDefinition.xsd` accepts `GameSettingPrerequisite`, so a hero folded into ACM (e.g. Samus) can be
+  gated by a New Game setting (add a `GameSettingDefinition` + localisation, as ESG's `LawRework`).
+  The schemas in `Public\Schemas\*.xsd` are the authority on which definition types take it.
 - **Addon modules** (a second RuntimeModule folder junctioned into `Community\`) work if ever needed:
   `RuntimeModule Name` must be alphanumeric (ES2 logs `Invalid runtime module name`, discards it), the
   module shows in the main-menu Mods screen, not New Game. When a module is missing, grep
