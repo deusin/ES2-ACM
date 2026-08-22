@@ -1,0 +1,7 @@
+# Blobs are always LF; the Windows working tree is CRLF. Upstream workshop drops arrive with
+# mixed line endings (ESG = CRLF, USC = LF) and this keeps imports from producing whole-file diffs.
+* text=auto eol=crlf
+*.png binary
+*.jpg binary
+*.otf binary
+*.zip binary
