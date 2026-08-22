@@ -1,4 +1,4 @@
-# Amradyr Collective Mods (ACM) for Endless Space 2
+﻿# Amradyr Collective Mods (ACM) for Endless Space 2
 
 A personal modpack that merges mods which are incompatible by default — they redefine the same
 definitions, and ES2 resolves duplicates by load order (last loaded wins each definition wholesale,
@@ -15,6 +15,7 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 | **Endless Legend Populations 4.5** (Captain Cobbs) — twelve Endless Legend races (plus the Urkan) as minor factions; `*[ELP]*` files | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | 2024-11-26 | `upstream/elp` |
 | **Minor Heroes Reimagined [ESG+PST] 0.2** (mdel) — a skill tree per minor-faction hero, Plocynos minor faction; `*[MHR]*` files | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | 2026-07-25 | `upstream/mhr` |
 | **Samus Aran 1.0** (Ghoulvarine) — Terran admiral with her own skill trees; `*[Samus]*` files, New Game toggle | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | 2025-05-31 | `upstream/samus` |
+| **Arkon Portal** (Arkon) — custom-faction trait for fleet-teleportation portals; `*[Arkon]*` files, New Game toggle | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | 2019-09-04 | `upstream/arkonportal` |
 | Eldritch faction trait category | own content | | |
 
 Each vendor branch holds the pristine workshop drop exactly as downloaded (before any ACM patching), so the
@@ -30,7 +31,7 @@ Useful Skill Colours, the quest example) are already inside ACM or unwanted — 
 | Mod | Workshop id | Overlap with ACM (`tools/Find-Conflicts.ps1`) | Notes |
 |---|---|---|---|
 | Samus Aran | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | `AffinityMappingTerrans`, all Samus definitions | Already inside ACM (with a New Game toggle) — do not run the workshop item as well; loaded after ACM it would give Terrans Samus but take away ESG's 8 mercenary ship designs. |
-| Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | none | clean extension |
+| Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | all its definitions | Already inside ACM (with a New Game toggle) — do not run the workshop item as well; it would bring the 500-point trait back. |
 | Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | 27 `FactionTrait` + `ClassColonizedStarSystem` | **Do not use the workshop item** — its `ClassColonizedStarSystem` replaces ESG's and the game crashes on the first colonisation (`ColonizationThresholdFIDSBonus` missing). ELP is already inside ACM. |
 | Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | 38 `HeroDefinition`, `MinorFactions` table, USC GUI | Already inside ACM — do not run the workshop item as well. |
 | Endless Moons | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | 90 (75 descriptors, 6 anomaly reductions, 3 weight tables, 2 anomalies, 2 improvements) | |
@@ -98,6 +99,22 @@ group of `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file — re-add th
 `Setting<Name>` / `<Name>True` / `<Name>False` elements in `GUI/GUIElements[ACM_Settings].xml`, strings in
 `Localization/english/ES2_Localization_Locales[ACM].xml`, and a `GameSettingPrerequisite` on the gated definitions.
 
+## Arkon Portal inside ACM
+
+Files carry an `[Arkon]` suffix; the drop's `StarSYSImpro[PORTAL].xml` / `TechnologyDefinitions[PORTAL].xml` land on ACM's
+`Simulation/ConstructibleElement_Industry[Arkon].xml` / `ConstructibleElement_Science[Arkon].xml` paths. Two files were
+re-encoded from windows-1250 to UTF-8.
+
+| What | Where |
+|---|---|
+| `FactionTraitPPOINTS` ("ARK - POINT GIVER", cost −500) removed: trait, descriptor, GUI element, strings in all six languages, `Resources/Textures/500_Trait_Points.png`. | `FactionTraits[Arkon]`, `SimulationDescriptors[Arkon]`, `GUI/GUIElements[Arkon]`, `Localization/*/…[Arkon]` |
+| `EnableArkonPortal,True` `GameSettingPrerequisite` on the `JumpPortal` improvement and the hidden `TechnologyLinkDefinitionArkPortalTEC`. | `ConstructibleElement_Industry[Arkon]`, `ConstructibleElement_Science[Arkon]` |
+| Trait tooltip pointed at the undefined `%FactionTraitStartingTechnologyEffectOverride`; now shows the trait's own effect text. | `GUI/GUIElements[Arkon]` |
+
+**New Game › Advanced › ACM Settings › Enable Arkon Portal** (default on). Off, the portal improvement and its tech are
+discarded; the "ARK - Teleportation portal" trait stays selectable in the faction editor (faction traits cannot see game
+settings) but then does nothing.
+
 ## Working on the mod
 
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
@@ -106,8 +123,8 @@ group of `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file — re-add th
 - Is anything out of date? `.\tools\Check-Upstream.ps1` (`-Notes` adds the authors' change notes newer than our
   drop). It needs no downloads, so the folded-in workshop items can stay unsubscribed; resubscribe one only to
   refresh it.
-- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr|samus>`, then
-  `git merge upstream/esg`. `elp` / `mhr` / `samus` imports land the drop on the `[ELP]` / `[MHR]` / `[Samus]` paths above.
+- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr|samus|arkonportal>`, then
+  `git merge upstream/esg`. `elp` / `mhr` / `samus` / `arkonportal` imports land the drop on the `[ELP]` / `[MHR]` / `[Samus]` / `[Arkon]` paths above.
   Details, conflict conventions and gotchas are in `CLAUDE.md`.
 - `.\tools\Find-Conflicts.ps1 -Mod <workshop id>` reports which definitions a workshop mod shares with ACM.
 
@@ -119,4 +136,4 @@ group of `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file — re-add th
   workshop mod (its skill trees had been copied into the `[Eldritch]` files). Endless Legend
   Populations 4.5 merged in (renamed `[ELP]` files, four data fixes) after the workshop item crashed game start. Minor Heroes Reimagined
   [ESG+PST] 0.2 merged in the same way. Samus Aran 1.0 folded back in behind the first ACM New Game toggle
-  (`Enable Samus Aran`).
+  (`Enable Samus Aran`); Arkon Portal folded in behind a second one, minus its 500-point trait.

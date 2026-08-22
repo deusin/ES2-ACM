@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/TechnologyLinkDefinition.xsd">
 
     <!-- ArkPortal -->
     <TechnologyDefinition Name="TechnologyLinkDefinitionArkPortalTEC"           Visibility="Hidden"  Hidden="true"   ScoreProvider="TechnologyUnlocked">
+        <GameSettingPrerequisite Flags="Prerequisite,Discard">EnableArkonPortal,True</GameSettingPrerequisite>
         <SimulationDescriptorReference Name="TechnologyArkPortalTEC"/>
     </TechnologyDefinition>
 

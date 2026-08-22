@@ -1,4 +1,4 @@
-#requires -Version 5.1
+﻿#requires -Version 5.1
 <#
 .SYNOPSIS
   Ask Steam whether any mod folded into ACM has been updated since it was last imported.
@@ -38,6 +38,7 @@ $Mods = [ordered]@{
     elp        = '1816492263'
     mhr        = '3771413185'
     samus      = '3268328942'
+    arkonportal = '1788325573'
 }
 
 $body = @{ itemcount = $Mods.Count }

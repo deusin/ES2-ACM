@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 	<RuntimeModule Name="ACM" Type="Extension" Version="1.6">
 		<Title>Amradyr Collective Mods</Title>
@@ -12,10 +12,11 @@ Folded in:
 - Endless Legend Populations 4.5 - the twelve Endless Legend races (plus the Urkan) as minor factions
 - Minor Heroes Reimagined [ESG+PST] 0.2 - a unique skill tree for every minor-faction hero, plus the Plocynos minor faction
 - Samus Aran 1.0 - the bounty hunter hero with her own skill trees (New Game > Advanced > ACM Settings lets you turn her off)
+- Arkon Portal - custom-faction trait that lets you build fleet-teleportation portals without the Vaulters affinity (toggle in ACM Settings; its 500-point cheat trait is left out)
 - Eldritch faction trait category (own content)
 
 Do NOT run the workshop versions of the mods above alongside ACM - they are already inside it and would override the merged copies.
-Plays well alongside Endless Moons, Endless Anomalies, Arkon Portal and Arkon Faction Hero Ships.
+Plays well alongside Endless Moons, Endless Anomalies and Arkon Faction Hero Ships.
 
 Credit to the original authors. I resolved the conflicts between them and fixed the bugs I found along the way.
 
@@ -27,7 +28,7 @@ https://github.com/deusin/ES2-ACM
 		<Author>Lord Deusin Amradyr</Author>
 		<Homepage></Homepage>
 		<PreviewImageFile>ACM.png</PreviewImageFile>
-		<ReleaseNotes>Samus Aran 1.0 folded back in, with an Enable Samus Aran toggle under New Game > Advanced > ACM Settings (disable the workshop Samus mod). Minor Heroes Reimagined [ESG+PST] 0.2 merged in (unique skill trees for every minor-faction hero, Plocynos minor faction). 2026-08: Endless Legend Populations 4.5 merged in (12 Endless Legend minor factions; do not also run the workshop copy, it crashes ACM). ESG refreshed to the 2026-05-31 workshop drop; Useful Skill Colours 2.2 (Political Skill Tree skills now tinted by Mastery); Samus removed - enable the Samus Aran workshop mod alongside ACM.</ReleaseNotes>
+		<ReleaseNotes>Arkon Portal folded in behind an Enable Arkon Portal toggle (disable the workshop item; its 500-point trait is not included). Samus Aran 1.0 folded back in, with an Enable Samus Aran toggle under New Game > Advanced > ACM Settings (disable the workshop Samus mod). Minor Heroes Reimagined [ESG+PST] 0.2 merged in (unique skill trees for every minor-faction hero, Plocynos minor faction). 2026-08: Endless Legend Populations 4.5 merged in (12 Endless Legend minor factions; do not also run the workshop copy, it crashes ACM). ESG refreshed to the 2026-05-31 workshop drop; Useful Skill Colours 2.2 (Political Skill Tree skills now tinted by Mastery); Samus removed - enable the Samus Aran workshop mod alongside ACM.</ReleaseNotes>
 		<Tags>AI,Balance,Buildings,Heroes,Gameplay,Improvements,MajorFactions,MinorFactions,Multiplayer,Other,Quests,Technologies,Terrain,Units,UI</Tags>
 		<Plugins>
 			<!-- Registry -->

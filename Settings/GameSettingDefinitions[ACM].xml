@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GameSettingDefinition.xsd">
   <!-- ACM New Game toggles. Each one also needs: an Entry in the AdvancedSettingsACMSettings group of
        GUI/Screens/GUIElements[NewGameScreen].xml, GuiElements Setting<Name>/<Name>True/<Name>False in
@@ -7,6 +7,11 @@
        definition types whose schema accepts it (Public/Schemas). -->
 
   <GameSettingDefinition Name="EnableSamus" Type="bool" Default="True">
+    <ItemDefinition Name="False"/>
+    <ItemDefinition Name="True"/>
+  </GameSettingDefinition>
+
+  <GameSettingDefinition Name="EnableArkonPortal" Type="bool" Default="True">
     <ItemDefinition Name="False"/>
     <ItemDefinition Name="True"/>
   </GameSettingDefinition>

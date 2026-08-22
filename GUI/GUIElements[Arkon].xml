@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
 
-    <ExtendedGuiElement Name="FactionTraitPPOINTS">
-        <Title>%FactionTraitPPOINTSTitle</Title>
-        <Description>%FactionTraitPPOINTSDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-            <Icon Size="Large" Path="Textures/500_Trait_Points" />
-        </Icons>
-        <TooltipElement>
-            <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
-        </TooltipElement>
-    </ExtendedGuiElement>
 
     <!-- Ark portal -->
     <GuiElement Name="JumpPortal">
@@ -31,7 +20,7 @@
             <Icon Size="Large" Path="Textures/Portal_Large" />
         </Icons>
         <TooltipElement>
-            <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
+            <EffectOverride>%FactionTraitArkPortalTooltipEffect</EffectOverride><!-- ACM: upstream referenced an undefined key -->
         </TooltipElement>
     </ExtendedGuiElement>
 

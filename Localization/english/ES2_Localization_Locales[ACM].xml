@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
   <!-- ACM New Game settings -->
   <LocalizationPair Name="%AdvancedSettingsACMTitle">ACM Settings</LocalizationPair>
@@ -9,4 +9,11 @@
   <LocalizationPair Name="%SettingEnableSamusTrueDescription">Samus Aran can be recruited from the Academy</LocalizationPair>
   <LocalizationPair Name="%SettingEnableSamusFalseTitle">False</LocalizationPair>
   <LocalizationPair Name="%SettingEnableSamusFalseDescription">Samus Aran never appears in the Academy</LocalizationPair>
+
+  <LocalizationPair Name="%SettingEnableArkonPortalTitle">Enable Arkon Portal</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableArkonPortalDescription">Whether the "ARK - Teleportation portal" custom faction trait can build System Portals (fleet teleportation between your systems without the Vaulters affinity). Off, the trait is still selectable but unlocks nothing.</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableArkonPortalTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableArkonPortalTrueDescription">Factions with the trait can build System Portals</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableArkonPortalFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableArkonPortalFalseDescription">System Portals cannot be built</LocalizationPair>
 </Datatable>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Datatable>
 
@@ -9,6 +9,8 @@
         <CustomCost ResourceName="SystemProduction">Min(480, 160 + 80 * Property(StockLocation, @../ClassEmpire, PortalCount, true))</CustomCost>
         <CustomCost ResourceName="Strategic1"     Instant="true">5</CustomCost>
         <CustomCost ResourceName="Strategic2"     Instant="true">5</CustomCost>
+        <!-- ACM: New Game > Advanced > ACM Settings > Enable Arkon Portal -->
+        <GameSettingPrerequisite Flags="Prerequisite,Discard">EnableArkonPortal,True</GameSettingPrerequisite>
         <TechnologyPrerequisite Inverted="false"  Flags="Prerequisite,Discard,Technology">TechnologyArkPortalTEC</TechnologyPrerequisite>
         <PathPrerequisite   Inverted="false"      Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite   Inverted="true"       Flags="Prerequisite,Discard">ClassColonizedStarSystem/JumpPortal,!FastForwardedImprovement</PathPrerequisite>

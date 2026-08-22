@@ -1,4 +1,4 @@
-# ES2 ACM — Amradyr Collective Mods
+﻿# ES2 ACM — Amradyr Collective Mods
 
 Personal fork-and-merge modpack for Endless Space 2 (Kenny + their son). ESG is the base; other
 mods that are incompatible with it (they redefine the same definitions) are merged in by hand.
@@ -26,12 +26,12 @@ Start Claude Code sessions **from this folder**.
 | Endless Anomalies | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | run alongside, load after Endless Moons |
 | Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | merged as `*[ELP]*` files (vendor branch `upstream/elp`); never also run the workshop item — its `ClassColonizedStarSystem` crashes ACM |
 | Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | merged as `*[MHR]*` files (vendor branch `upstream/mhr`); partial ESG/USC copies grafted, see README |
-| Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | run alongside, no overlaps |
+| Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | merged as `*[Arkon]*` files (vendor branch `upstream/arkonportal`), gated by `EnableArkonPortal`; 500-point trait dropped; never also run the workshop item |
 | Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | run alongside (overrides all HeroDefinitions) |
 
 ## Lifecycle: refreshing an upstream mod
 
-Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus hold the pristine workshop
+Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus, arkonportal hold the pristine workshop
 drops (moretraits/poltrees were baselined with `git merge -s ours`, so their next import merges 3-way).
 `.\tools\Check-Upstream.ps1` asks the Steam API which of them has updated since its last import (`-Notes`
 prints the workshop change notes newer than the drop; fetch Steam pages directly with curl/Invoke-WebRequest,
@@ -73,6 +73,9 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
 - **Samus** (suffix `[Samus]`). Delete the drop's `FactionTraits[Samus].xml` (Terran affinity; ESG's with the
   mercenary designs wins) and the empty `ES2_Localization_Assets_Locales[Samus].xml`; keep the
   `GameSettingPrerequisite` on `HeroDefinitions[Samus].xml` (modify/delete conflicts are the cue).
+- **Arkon Portal** (suffix `[Arkon]`). On every `upstream/arkonportal` merge re-remove `FactionTraitPPOINTS` (trait,
+  descriptor, GUI element, `PPOINTS` locale lines, `500_Trait_Points.png`) and keep the `EnableArkonPortal`
+  prerequisites on `ConstructibleElement_Industry[Arkon]` / `ConstructibleElement_Science[Arkon]`.
 - **ACM New Game toggles** live in `Settings/GameSettingDefinitions[ACM].xml` + `GUI/GUIElements[ACM_Settings].xml`
   + `Localization/english/ES2_Localization_Locales[ACM].xml`, and the `AdvancedSettingsACMSettings` group in
   `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file, single definition — re-add the group after every ESG

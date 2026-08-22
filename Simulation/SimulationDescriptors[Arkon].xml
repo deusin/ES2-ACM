@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
-
-  <!-- to select more traits from the original game or other mods -->
-  <SimulationDescriptor Name="FactionTraitPPOINTS"                          Type="FactionTrait"/>
 
   <!-- the ark portal -->
   <SimulationDescriptor Name="FactionTraitArkPortal"                        Type="FactionTrait">

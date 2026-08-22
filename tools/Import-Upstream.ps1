@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus')]
+    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal')]
     [string]$Mod,
 
     # Stage and show the diff in the worktree but do not commit or remove the worktree.
@@ -37,7 +37,8 @@ $WorktreeRoot = 'C:\Users\Kenny\source\worktrees'
 # Index     = the mod's RuntimeModule XML in the workshop folder.
 # IndexAs   = where to put it in ACM ($null = don't import; a second RuntimeModule XML in the
 #             mod folder would make ES2 see a second mod).
-# KeepIcon  = whether to import ModIcon.png (only ESG, whose icon ACM's baseline carries).
+# KeepIcon  = whether to import the mod's preview image (only ESG, whose icon ACM's baseline carries).
+# Icon      = the preview image's name when it is not ModIcon.png.
 # Extra     = additional renames for non-game files worth keeping as reference.
 # Rename    = optional scriptblock (relative path -> relative path) applied to every other file
 #             (index and Extra renames take precedence). Used when a mod's file names collide with
@@ -88,6 +89,20 @@ $Mods = @{
                             '^Gui\\GuiElements\.xml$'                            { return 'GUI\GUIElements[Samus].xml' }
                             '^Localization\\([^\\]+)\\(ES2_Localization_.+)\.xml$' { return "Localization\$($Matches[1])\$($Matches[2])[Samus].xml" }
                             '^Simulation\\([^\\\[]+)\.xml$'                     { return "Simulation\$($Matches[1])[Samus].xml" }
+                            default                                               { return $rel }
+                        }
+                    } }
+    # Arkon Portal: every file gets an [Arkon] suffix on ACM's paths. Master drops the 500-point cheat trait
+    # and gates the portal improvement/tech behind the EnableArkonPortal game setting.
+    arkonportal = @{ Id = '1788325573'; Index = 'ArkonPortal.xml';          IndexAs = $null;     KeepIcon = $false; Icon = 'Icon.png'; Extra = @{}
+                    Rename = {
+                        param($rel)
+                        switch -Regex ($rel) {
+                            '^Gui\\GuiElements\[PORTAL\]\.xml$'                    { return 'GUI\GUIElements[Arkon].xml' }
+                            '^Localization\\([^\\]+)\\(ES2_Localization_.+)\.xml$' { return "Localization\$($Matches[1])\$($Matches[2])[Arkon].xml" }
+                            '^Simulation\\StarSYSImpro\[PORTAL\]\.xml$'            { return 'Simulation\ConstructibleElement_Industry[Arkon].xml' }
+                            '^Simulation\\TechnologyDefinitions\[PORTAL\]\.xml$'   { return 'Simulation\ConstructibleElement_Science[Arkon].xml' }
+                            '^Simulation\\(.+)\[PORTAL\]\.xml$'                   { return "Simulation\$($Matches[1])[Arkon].xml" }
                             default                                               { return $rel }
                         }
                     } }
@@ -178,7 +193,7 @@ try {
             if (-not $m.IndexAs) { continue }
             $rel = $m.IndexAs
         }
-        elseif ($rel -eq 'ModIcon.png' -and -not $m.KeepIcon) { continue }
+        elseif (($rel -eq 'ModIcon.png' -or $rel -eq $m.Icon) -and -not $m.KeepIcon) { continue }
         elseif ($m.Extra.ContainsKey($rel)) { $rel = $m.Extra[$rel] }
         elseif ($m.Rename) { $rel = & $m.Rename $rel }
 

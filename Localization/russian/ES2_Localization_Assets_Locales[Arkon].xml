@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datatable>
 
-  <LocalizationPair Name="%PPOINTSTitle">ARK - POINT GIVER (500 Points)</LocalizationPair>
-  <LocalizationPair Name="%PPOINTSDescription">adds 500 points</LocalizationPair>
-  <LocalizationPair Name="%PPOINTSEffect">***</LocalizationPair>
-  <LocalizationPair Name="%PPOINTSTooltipEffect">adds 500 points for selecting</LocalizationPair>
   <!-- Ark Portal -->
   <LocalizationPair Name="%ArkPortalTECTitle">Teleportation portal</LocalizationPair>
   <LocalizationPair Name="%ArkPortalTECDescription">You can teleport ships between systems with Portals. The direct connection of the systems of the empire has a positive effect on research, production and political influence ...</LocalizationPair>
