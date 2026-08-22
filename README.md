@@ -82,8 +82,10 @@ Burra Techseeker (the Plocynos hero) needs the Community Challenge Addon DLC, as
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
   The `.git` file points at the object store in `C:\Users\Kenny\source\repos\ES2-ACM.git`; edit → save →
   launch the game, no copy step.
-- Is anything out of date? `.\tools\Check-Upstream.ps1`.
-- Refreshing an upstream mod: `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr>`, then
+- Is anything out of date? `.\tools\Check-Upstream.ps1` (`-Notes` adds the authors' change notes newer than our
+  drop). It needs no downloads, so the folded-in workshop items can stay unsubscribed; resubscribe one only to
+  refresh it.
+- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr>`, then
   `git merge upstream/esg`. `elp` / `mhr` imports land the drop on the `[ELP]` / `[MHR]` paths above.
   Details, conflict conventions and gotchas are in `CLAUDE.md`.
 - `.\tools\Find-Conflicts.ps1 -Mod <workshop id>` reports which definitions a workshop mod shares with ACM.

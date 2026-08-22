@@ -33,7 +33,11 @@ Start Claude Code sessions **from this folder**.
 
 Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr hold the pristine workshop
 drops (moretraits/poltrees were baselined with `git merge -s ours`, so their next import merges 3-way).
-`.\tools\Check-Upstream.ps1` asks the Steam API which of them has updated since its last import.
+`.\tools\Check-Upstream.ps1` asks the Steam API which of them has updated since its last import (`-Notes`
+prints the workshop change notes newer than the drop; fetch Steam pages directly with curl/Invoke-WebRequest,
+the WebFetch proxy gets 429 from Steam). The user keeps folded-in items unsubscribed: the files only arrive
+via a Steam download, so ask them to resubscribe before an import. `git diff upstream/<mod>~1 upstream/<mod>`
+shows what changed between drops.
 
 ```
 .\tools\Import-Upstream.ps1 -Mod esg     # copies the workshop drop onto upstream/esg and commits
