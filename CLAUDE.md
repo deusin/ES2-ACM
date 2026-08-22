@@ -17,22 +17,23 @@ Start Claude Code sessions **from this folder**.
 
 | Mod | Workshop id | Role |
 |---|---|---|
-| ESG 1.6 | 2828917317 | base, merged (index `ESCM.xml`) |
-| Useful Skill Colours [ESG] | 3384708155 | merged |
-| More Traits | 932777803 | merged |
-| Political Skill Trees | 2856109167 | merged |
-| Samus Aran | 3268328942 | **run alongside** (ACM's Eldritch hero trait recruits `Samus`) |
-| Endless Moons | 1316786885 | run alongside (see README for overlaps) |
-| Endless Anomalies | 3257341334 | run alongside, load after Endless Moons |
-| Endless Legend Populations | 1816492263 | merged as `*[ELP]*` files (vendor branch `upstream/elp`); never also run the workshop item — its `ClassColonizedStarSystem` crashes ACM |
-| Minor Heroes Reimagined [ESG+PST] | 3771413185 | merged as `*[MHR]*` files (vendor branch `upstream/mhr`); partial ESG/USC copies grafted, see README |
-| Arkon Portal | 1788325573 | run alongside, no overlaps |
-| Arkon Faction Hero Ships [ESG] | 3175229111 | run alongside (overrides all HeroDefinitions) |
+| ESG 1.6 | [2828917317](https://steamcommunity.com/sharedfiles/filedetails/?id=2828917317) | base, merged (index `ESCM.xml`) |
+| Useful Skill Colours [ESG] | [3384708155](https://steamcommunity.com/sharedfiles/filedetails/?id=3384708155) | merged |
+| More Traits (`upstream/moretraits`) | [932777803](https://steamcommunity.com/sharedfiles/filedetails/?id=932777803) | merged |
+| Political Skill Trees (`upstream/poltrees`) | [2856109167](https://steamcommunity.com/sharedfiles/filedetails/?id=2856109167) | merged |
+| Samus Aran | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | **run alongside** (ACM's Eldritch hero trait recruits `Samus`) |
+| Endless Moons | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | run alongside (see README for overlaps) |
+| Endless Anomalies | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | run alongside, load after Endless Moons |
+| Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | merged as `*[ELP]*` files (vendor branch `upstream/elp`); never also run the workshop item — its `ClassColonizedStarSystem` crashes ACM |
+| Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | merged as `*[MHR]*` files (vendor branch `upstream/mhr`); partial ESG/USC copies grafted, see README |
+| Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | run alongside, no overlaps |
+| Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | run alongside (overrides all HeroDefinitions) |
 
 ## Lifecycle: refreshing an upstream mod
 
-Vendor branches `upstream/esg`, `upstream/usc`, `upstream/elp`, `upstream/mhr` (create `upstream/moretraits` /
-`upstream/poltrees` from their integration commits `a337329` / `1ea078a` only if those mods ever update).
+Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr hold the pristine workshop
+drops (moretraits/poltrees were baselined with `git merge -s ours`, so their next import merges 3-way).
+`.\tools\Check-Upstream.ps1` asks the Steam API which of them has updated since its last import.
 
 ```
 .\tools\Import-Upstream.ps1 -Mod esg     # copies the workshop drop onto upstream/esg and commits

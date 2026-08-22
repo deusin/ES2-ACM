@@ -6,15 +6,20 @@ no merging). So the merged definitions have to be authored somewhere; this repo 
 
 Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 
-- **ESG Mod 1.6** (Endless Space Gaming) — the base. Workshop 2828917317, drop of 2026-05-31.
-- **Useful Skill Colours [ESG] 2.2** (mdel) — workshop 3384708155, 2026-07-26.
-- **More Traits** (Redraluin) — workshop 932777803, incl. fixes.
-- **Political Skill Trees** (workshop 2856109167).
-- **Minor Heroes Reimagined [ESG+PST] 0.2** (mdel) — workshop 3771413185, 2026-07-25. Unique skill trees for
-  every minor-faction hero plus the Plocynos minor faction; carried as `*[MHR]*` files, see below.
-- Own content: the Eldritch faction trait category (`*[Eldritch].xml`).
-- **Endless Legend Populations 4.5** (Captain Cobbs) — workshop 1816492263, 2024-11-26. Twelve
-  Endless Legend races (plus three Urkan) as minor factions; carried as `*[ELP]*` files, see below.
+| Mod | Workshop | Imported drop | Vendor branch |
+|---|---|---|---|
+| **ESG Mod 1.6** (Endless Space Gaming) — the base | [2828917317](https://steamcommunity.com/sharedfiles/filedetails/?id=2828917317) | 2026-05-31 | `upstream/esg` |
+| **Useful Skill Colours [ESG] 2.2** (mdel) | [3384708155](https://steamcommunity.com/sharedfiles/filedetails/?id=3384708155) | 2026-07-26 | `upstream/usc` |
+| **More Traits** (Redraluin), incl. fixes | [932777803](https://steamcommunity.com/sharedfiles/filedetails/?id=932777803) | 2018-01-09 | `upstream/moretraits` |
+| **Political Skill Trees** | [2856109167](https://steamcommunity.com/sharedfiles/filedetails/?id=2856109167) | 2024-10-19 | `upstream/poltrees` |
+| **Endless Legend Populations 4.5** (Captain Cobbs) — twelve Endless Legend races (plus the Urkan) as minor factions; `*[ELP]*` files | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | 2024-11-26 | `upstream/elp` |
+| **Minor Heroes Reimagined [ESG+PST] 0.2** (mdel) — a skill tree per minor-faction hero, Plocynos minor faction; `*[MHR]*` files | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | 2026-07-25 | `upstream/mhr` |
+| Eldritch faction trait category | own content | | |
+
+Each vendor branch holds the pristine workshop drop exactly as downloaded (before any ACM patching), so the
+original files are always in the repo's history without adding anything to the mod folder. The workshop
+links are the place to check for updates; `.\tools\Check-Upstream.ps1` does it for all of them at once
+(asks the Steam API for each item's last-update time and compares with the imported drop — no download).
 
 ## Play set
 
@@ -23,13 +28,13 @@ Useful Skill Colours, the quest example) are already inside ACM or unwanted — 
 
 | Mod | Workshop id | Overlap with ACM (`tools/Find-Conflicts.ps1`) | Notes |
 |---|---|---|---|
-| Samus Aran | 3268328942 | `AffinityMappingTerrans` only | **Required**: ACM's `FactionTraitEldritchHero` recruits `Samus`. Load **before** ACM so ACM's Terran affinity (with ESG's mercenary ship designs) wins; Samus then comes via the Eldritch trait, not automatically to Terrans. If it loads after ACM, Terrans get her but lose the 8 mercenary designs. |
-| Arkon Portal | 1788325573 | none | clean extension |
-| Endless Legend Populations | 1816492263 | 27 `FactionTrait` + `ClassColonizedStarSystem` | **Do not use the workshop item** — its `ClassColonizedStarSystem` replaces ESG's and the game crashes on the first colonisation (`ColonizationThresholdFIDSBonus` missing). ELP is already inside ACM. |
-| Minor Heroes Reimagined [ESG+PST] | 3771413185 | 38 `HeroDefinition`, `MinorFactions` table, USC GUI | Already inside ACM — do not run the workshop item as well. |
-| Endless Moons | 1316786885 | 90 (75 descriptors, 6 anomaly reductions, 3 weight tables, 2 anomalies, 2 improvements) | |
-| Endless Anomalies | 3257341334 | 126 (51 `AnomalyDefinition`, 73 descriptors, 2 weight tables) | its own note: load **after** Endless Moons |
-| Arkon Faction Hero Ships [ESG] | 3175229111 | all 97 `HeroDefinition`s | built on ESG 1.5 hero defs; loading it after ACM replaces ESG 1.6's hero definitions with Arkon's versions |
+| Samus Aran | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | `AffinityMappingTerrans` only | **Required**: ACM's `FactionTraitEldritchHero` recruits `Samus`. Load **before** ACM so ACM's Terran affinity (with ESG's mercenary ship designs) wins; Samus then comes via the Eldritch trait, not automatically to Terrans. If it loads after ACM, Terrans get her but lose the 8 mercenary designs. |
+| Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | none | clean extension |
+| Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | 27 `FactionTrait` + `ClassColonizedStarSystem` | **Do not use the workshop item** — its `ClassColonizedStarSystem` replaces ESG's and the game crashes on the first colonisation (`ColonizationThresholdFIDSBonus` missing). ELP is already inside ACM. |
+| Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | 38 `HeroDefinition`, `MinorFactions` table, USC GUI | Already inside ACM — do not run the workshop item as well. |
+| Endless Moons | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | 90 (75 descriptors, 6 anomaly reductions, 3 weight tables, 2 anomalies, 2 improvements) | |
+| Endless Anomalies | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | 126 (51 `AnomalyDefinition`, 73 descriptors, 2 weight tables) | its own note: load **after** Endless Moons |
+| Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | all 97 `HeroDefinition`s | built on ESG 1.5 hero defs; loading it after ACM replaces ESG 1.6's hero definitions with Arkon's versions |
 
 Overlap counts are the definitions the later-loaded mod will override. Re-run the checker after any
 upstream refresh; the full report with names is one command away.
@@ -77,7 +82,8 @@ Burra Techseeker (the Plocynos hero) needs the Community Challenge Addon DLC, as
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
   The `.git` file points at the object store in `C:\Users\Kenny\source\repos\ES2-ACM.git`; edit → save →
   launch the game, no copy step.
-- Refreshing an upstream mod: `.\tools\Import-Upstream.ps1 -Mod esg` (or `usc`), then
+- Is anything out of date? `.\tools\Check-Upstream.ps1`.
+- Refreshing an upstream mod: `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr>`, then
   `git merge upstream/esg`. `elp` / `mhr` imports land the drop on the `[ELP]` / `[MHR]` paths above.
   Details, conflict conventions and gotchas are in `CLAUDE.md`.
 - `.\tools\Find-Conflicts.ps1 -Mod <workshop id>` reports which definitions a workshop mod shares with ACM.
