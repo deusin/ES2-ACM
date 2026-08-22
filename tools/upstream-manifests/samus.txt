@@ -1,0 +1,12 @@
+﻿# Files imported from workshop item 3268328942 (samus) on 2025-05-31. Maintained by tools/Import-Upstream.ps1.
+GUI\GUIElements[Samus].xml
+Localization\english\ES2_Localization_Assets_Locales[Samus].xml
+Localization\english\ES2_Localization_Locales[Samus].xml
+Resources\Gui\SamusLarge.png
+Resources\Gui\SamusMedium.png
+Resources\Gui\SamusMood.png
+Simulation\FactionTraits[Samus].xml
+Simulation\HeroDefinitions[Samus].xml
+Simulation\HeroSkillDefinitions[Samus].xml
+Simulation\HeroSkillTreeDefinitions[Samus].xml
+Simulation\SimulationDescriptors[Samus].xml
