@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+    <HeroSkillDefinition Name="HeroSkill04BranchMajorHisshos">
+        <SkillLevel Name="HeroSkill04BranchMajorHisshos_01">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+            <ShipSimulationDescriptorReference Name="HeroSkillShip111_FleetDamage_Percent_2"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+        <SkillLevel Name="HeroSkill04BranchMajorHisshos_02">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+            <ShipSimulationDescriptorReference Name="HeroSkillShip111_FleetDamage_Percent_3"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="2"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkill07BranchMajorHisshos">
+        <SkillLevel Name="HeroSkill07BranchMajorHisshos_01">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+            <ShipSimulationDescriptorReference Name="HeroSkillShip118_FleetDamage_Percent_4"/>
+            <MasteryLevel Class="HeroMasteryCommand" Levels="1"/>
+        </SkillLevel>
+    </HeroSkillDefinition>
+</Datatable>
