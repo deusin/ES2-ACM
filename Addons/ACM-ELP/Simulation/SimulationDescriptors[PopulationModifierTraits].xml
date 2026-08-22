@@ -37,10 +37,10 @@
 
   <!-- Morgawr +1 Influence on Fertile -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile" Type="ClassPopulationPlanet" >
-    <Modifier TargetProperty="BonusPopulationPrestige" Operation="Addition"    Left="1" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)"/>
+    <BinaryModifier TargetProperty="BonusPopulationPrestige" Operation="Addition"    Left="1" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile" Type="WithPopulationPlanet" >
-    <Modifier TargetProperty="BonusPopulationPrestige" Operation="Addition"    Left="1" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile"/>
+    <BinaryModifier TargetProperty="BonusPopulationPrestige" Operation="Addition"    Left="1" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetMorgawrInfluenceFertile" Type="ClassPopulationAssimilated" >
     <Modifier TargetProperty="BonusPopulationPrestige" Operation="Addition"  Value="1"/>
@@ -78,7 +78,7 @@
   </SimulationDescriptor>
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitWalkersIndustry" Type="WithPopulationPlanet" >
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
-    <BinaryModifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(PlanetIsTeemings)" TooltipHidden="true" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitWalkersIndustry" />
+    <BinaryModifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitWalkersIndustry" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetWalkersIndustry" Type="ClassPopulationAssimilated" >
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition"  Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />

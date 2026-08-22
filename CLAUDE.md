@@ -24,14 +24,14 @@ Start Claude Code sessions **from this folder**.
 | Samus Aran | 3268328942 | **run alongside** (ACM's Eldritch hero trait recruits `Samus`) |
 | Endless Moons | 1316786885 | run alongside (see README for overlaps) |
 | Endless Anomalies | 3257341334 | run alongside, load after Endless Moons |
-| Endless Legend Populations | 1816492263 | run alongside |
+| Endless Legend Populations | 1816492263 | **addon** `Addons/ACM-ELP` (vendor branch `upstream/elp`); never the workshop item — its `ClassColonizedStarSystem` crashes ACM |
 | Arkon Portal | 1788325573 | run alongside, no overlaps |
 | Arkon Faction Hero Ships [ESG] | 3175229111 | run alongside (overrides all HeroDefinitions) |
 
 ## Lifecycle: refreshing an upstream mod
 
-Vendor branches `upstream/esg`, `upstream/usc` (create `upstream/moretraits` / `upstream/poltrees`
-from their integration commits `a337329` / `1ea078a` only if those mods ever update).
+Vendor branches `upstream/esg`, `upstream/usc`, `upstream/elp` (create `upstream/moretraits` /
+`upstream/poltrees` from their integration commits `a337329` / `1ea078a` only if those mods ever update).
 
 ```
 .\tools\Import-Upstream.ps1 -Mod esg     # copies the workshop drop onto upstream/esg and commits

@@ -1,4 +1,4 @@
-#requires -Version 5.1
+﻿#requires -Version 5.1
 <#
 .SYNOPSIS
   Import the current Steam Workshop drop of an upstream mod onto its vendor branch.
@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees')]
+    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp')]
     [string]$Mod,
 
     # Stage and show the diff in the worktree but do not commit or remove the worktree.
@@ -39,11 +39,18 @@ $WorktreeRoot = 'C:\Users\Kenny\source\worktrees'
 #             mod folder would make ES2 see a second mod).
 # KeepIcon  = whether to import ModIcon.png (only ESG, whose icon ACM's baseline carries).
 # Extra     = additional renames for non-game files worth keeping as reference.
+# Rename    = optional scriptblock (relative path -> relative path) applied to every other file
+#             (index and Extra renames take precedence). Used to park a mod under Addons\<name>\.
 $Mods = @{
     esg        = @{ Id = '2828917317'; Index = 'ESCM.xml';                  IndexAs = 'ACM.xml'; KeepIcon = $true;  Extra = @{} }
     usc        = @{ Id = '3384708155'; Index = 'UsefulSkillColoursESG.xml'; IndexAs = $null;     KeepIcon = $false; Extra = @{ 'CHANGES.txt' = 'Documentation\UsefulSkillColours-CHANGES.txt' } }
     moretraits = @{ Id = '932777803';  Index = 'MoreTraits.xml';            IndexAs = $null;     KeepIcon = $false; Extra = @{} }
     poltrees   = @{ Id = '2856109167'; Index = 'PolTrees.xml';              IndexAs = $null;     KeepIcon = $false; Extra = @{} }
+    # Endless Legend Populations is carried as a separate, toggleable module (see Addons/ in the
+    # README): the whole drop lands under Addons\ACM-ELP\ with its index renamed, and master then
+    # patches it (drops its ClassColonizedStarSystem override, its copies of vanilla traits, etc.).
+    elp        = @{ Id = '1816492263'; Index = 'Minor.xml';                 IndexAs = 'Addons\ACM-ELP\ACM-ELP.xml'; KeepIcon = $true; Extra = @{}
+                    Rename = { param($rel) return "Addons\ACM-ELP\$rel" } }
 }
 $AlwaysSkip = @('PublishedFile.Id', '.DS_Store', 'Thumbs.db')
 # NOTE: mod file names contain [brackets]; every path cmdlet below must use -LiteralPath.
@@ -105,6 +112,7 @@ try {
         }
         elseif ($rel -eq 'ModIcon.png' -and -not $m.KeepIcon) { continue }
         elseif ($m.Extra.ContainsKey($rel)) { $rel = $m.Extra[$rel] }
+        elseif ($m.Rename) { $rel = & $m.Rename $rel }
 
         $dest = Join-Path $wt $rel
         New-Item -ItemType Directory -Force -Path (Split-Path $dest -Parent) | Out-Null
