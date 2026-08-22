@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/IndustryConstructibleElement.xsd">
+
+    <StarSystemImprovementDefinition Name="StarSystemImprovementKaizenRejuvenation" SubCategory="StarSystemImprovementKaizenRejuvenationSub" >
+        <AIGain RessourceName="ResourceConverter">
+            <Tag>IndustryConverter</Tag>
+        </AIGain>
+
+        <Tags>NoBuyout</Tags>
+
+        <InProgressSimulationDescriptorReference Name="StarSystemImprovementInfinite"/>
+        <InProgressSimulationDescriptorReference Name="StarSystemImprovementKaizenRejuvenationEffect"/>
+        <InfiniteCost ResourceName="SystemTurnBased"/>
+        <InterpreterPrerequisite Flags="Prerequisite,Discard">SumProperty(Context,@ClassColonizedStarSystem/ClassPlanet, PlanetDepletionPoints) gt 0</InterpreterPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,!AffinityGameplayCravers</PathPrerequisite>
+    </StarSystemImprovementDefinition>
+
+</Datatable>
