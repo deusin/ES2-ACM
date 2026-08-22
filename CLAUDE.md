@@ -58,7 +58,12 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
 - `Gui/GuiElements[Extended].xml` must stay the **last** FilePath in the GuiElement plugin in
   `ACM.xml` or Political Skill Tree colouring breaks.
 - `.\tools\Find-Conflicts.ps1 -Mod <id>` lists definitions a workshop mod shares with ACM
-  (later-loaded mod wins each wholesale). Use it before adding a mod to the play set or merging one.
+  (later-loaded mod wins each wholesale). Use it before adding a mod to the play set or merging one. When run via
+  `powershell -File`, pass `-AcmRoot` explicitly (`$PSScriptRoot` is empty). For a 3-way view, vanilla data is at
+  `D:\SteamLibrary\steamapps\common\Endless Space 2\Public` (`GalaxyGenerator\`, `Simulation\`, `Settings\`, …):
+  classify every overlap as mod==vanilla / ACM==vanilla / both changed before deciding which side wins.
+- Workshop ids not yet downloaded: search with curl (browser UA) on
+  `steamcommunity.com/workshop/browse/?appid=392110&searchtext=…`, then resolve ids via the GetPublishedFileDetails API.
 - **ELP** files are renamed on import with an `[ELP]` suffix (mapping = the `Rename` block in
   `Import-Upstream.ps1`; they must match a `FilePath` pattern in `ACM.xml`). Master's patches on top
   of the drop are listed in the README table ("Endless Legend Populations inside ACM") — redo them
