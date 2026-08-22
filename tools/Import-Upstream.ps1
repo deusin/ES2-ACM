@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr')]
+    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus')]
     [string]$Mod,
 
     # Stage and show the diff in the worktree but do not commit or remove the worktree.
@@ -79,6 +79,18 @@ $Mods = @{
     # copies of ESG/USC files (HeroDefinitions*, ConstructibleElement_Industry[PlanetColonization],
     # GuiElements[Extended], GUIElements[HeroSkills], GalaxyGenerator/WeightTableDefinitions) land as
     # [MHR_*] files that master grafts into ACM's own copies and deletes - see README.
+    # Samus Aran: one hero; every file gets a [Samus] suffix. Its FactionTraits.xml (Terran affinity
+    # recruiting Samus) is deleted on master - ESG's affinity with the mercenary designs wins.
+    samus      = @{ Id = '3268328942'; Index = 'Samus.xml';                 IndexAs = $null;     KeepIcon = $false; Extra = @{}
+                    Rename = {
+                        param($rel)
+                        switch -Regex ($rel) {
+                            '^Gui\\GuiElements\.xml$'                            { return 'GUI\GUIElements[Samus].xml' }
+                            '^Localization\\([^\\]+)\\(ES2_Localization_.+)\.xml$' { return "Localization\$($Matches[1])\$($Matches[2])[Samus].xml" }
+                            '^Simulation\\([^\\\[]+)\.xml$'                     { return "Simulation\$($Matches[1])[Samus].xml" }
+                            default                                               { return $rel }
+                        }
+                    } }
     mhr        = @{ Id = '3771413185'; Index = 'MinorHeroesReimaginedESGPST.xml'; IndexAs = $null; KeepIcon = $false; Extra = @{}
                     Rename = {
                         param($rel)

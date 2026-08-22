@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!-- ACM New Game settings -->
+  <LocalizationPair Name="%AdvancedSettingsACMTitle">ACM Settings</LocalizationPair>
+
+  <LocalizationPair Name="%SettingEnableSamusTitle">Enable Samus Aran</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableSamusDescription">Whether the bounty hunter Samus Aran (Terran admiral with her own skill trees) can appear in the Academy. The Eldritch Hero faction trait recruits her regardless.</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableSamusTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableSamusTrueDescription">Samus Aran can be recruited from the Academy</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableSamusFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableSamusFalseDescription">Samus Aran never appears in the Academy</LocalizationPair>
+</Datatable>

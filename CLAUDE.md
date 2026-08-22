@@ -21,7 +21,7 @@ Start Claude Code sessions **from this folder**.
 | Useful Skill Colours [ESG] | [3384708155](https://steamcommunity.com/sharedfiles/filedetails/?id=3384708155) | merged |
 | More Traits (`upstream/moretraits`) | [932777803](https://steamcommunity.com/sharedfiles/filedetails/?id=932777803) | merged |
 | Political Skill Trees (`upstream/poltrees`) | [2856109167](https://steamcommunity.com/sharedfiles/filedetails/?id=2856109167) | merged |
-| Samus Aran | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | **run alongside** (ACM's Eldritch hero trait recruits `Samus`) |
+| Samus Aran | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | merged as `*[Samus]*` files (vendor branch `upstream/samus`), gated by the `EnableSamus` New Game setting; never also run the workshop item |
 | Endless Moons | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | run alongside (see README for overlaps) |
 | Endless Anomalies | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | run alongside, load after Endless Moons |
 | Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | merged as `*[ELP]*` files (vendor branch `upstream/elp`); never also run the workshop item — its `ClassColonizedStarSystem` crashes ACM |
@@ -31,7 +31,7 @@ Start Claude Code sessions **from this folder**.
 
 ## Lifecycle: refreshing an upstream mod
 
-Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr hold the pristine workshop
+Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus hold the pristine workshop
 drops (moretraits/poltrees were baselined with `git merge -s ours`, so their next import merges 3-way).
 `.\tools\Check-Upstream.ps1` asks the Steam API which of them has updated since its last import (`-Notes`
 prints the workshop change notes newer than the drop; fetch Steam pages directly with curl/Invoke-WebRequest,
@@ -70,6 +70,15 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
   `Gui/GuiElements[Extended].xml` (USC) lacks. The `MinorFactions` weight table is ACM-owned in
   `Galaxy/WeightTableDefinitions[ACM_MinorFactions].xml`; every merged mod that adds a minor faction
   must be listed there (a later-loaded copy of the table replaces it wholesale).
+- **Samus** (suffix `[Samus]`). Delete the drop's `FactionTraits[Samus].xml` (Terran affinity; ESG's with the
+  mercenary designs wins) and the empty `ES2_Localization_Assets_Locales[Samus].xml`; keep the
+  `GameSettingPrerequisite` on `HeroDefinitions[Samus].xml` (modify/delete conflicts are the cue).
+- **ACM New Game toggles** live in `Settings/GameSettingDefinitions[ACM].xml` + `GUI/GUIElements[ACM_Settings].xml`
+  + `Localization/english/ES2_Localization_Locales[ACM].xml`, and the `AdvancedSettingsACMSettings` group in
+  `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file, single definition — re-add the group after every ESG
+  merge). Prerequisite form: `<GameSettingPrerequisite Flags="Prerequisite,Discard">EnableSamus,True</GameSettingPrerequisite>`.
+  Decompiled `Academy.Initialize` evaluates hero prerequisites once at galaxy creation (off = not in the Academy
+  pool; the hero stays in the database, so `RecruitHero` commands such as `FactionTraitEldritchHero` still work).
 - **No game-setting toggle for factions.** `GameSettingPrerequisite` works on
   constructibles/techs/quests/diplomacy only. `FactionTrait`/`MinorFaction` take string path
   prerequisites, descriptors and weight tables none; the galaxy generator (`GameManager` →

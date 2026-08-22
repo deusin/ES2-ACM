@@ -2,6 +2,9 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/HeroDefinition.xsd">
 
   <HeroDefinition Name="Samus">
+    <!-- ACM: New Game > Advanced > ACM Settings > Enable Samus Aran. Off = she never enters the Academy pool
+         (the Eldritch Hero faction trait still recruits her directly, by name). -->
+    <GameSettingPrerequisite Flags="Prerequisite,Discard">EnableSamus,True</GameSettingPrerequisite>
     <Skill Name="SupremeCommander"/>
     <Skill Name="InspiringIcon"/>
 

@@ -135,6 +135,11 @@
         <Entry Name="NoMigration"               Type="Checkbox" />
         <Entry Name="SuicideLaw"                Type="Checkbox" />
       </AdvancedSettingsGroup>
+
+      <!-- ACM: keep this group on every ESG merge (Settings/GameSettingDefinitions[ACM].xml) -->
+      <AdvancedSettingsGroup Name="AdvancedSettingsACMSettings">
+        <Entry Name="EnableSamus"              Type="Checkbox" VisibleInGame="ReadOnly" />
+      </AdvancedSettingsGroup>
     </Category>
   </NewGameScreenGuiElement>
 </Datatable>

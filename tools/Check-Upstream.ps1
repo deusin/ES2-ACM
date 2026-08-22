@@ -37,6 +37,7 @@ $Mods = [ordered]@{
     poltrees   = '2856109167'
     elp        = '1816492263'
     mhr        = '3771413185'
+    samus      = '3268328942'
 }
 
 $body = @{ itemcount = $Mods.Count }

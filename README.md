@@ -14,6 +14,7 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 | **Political Skill Trees** | [2856109167](https://steamcommunity.com/sharedfiles/filedetails/?id=2856109167) | 2024-10-19 | `upstream/poltrees` |
 | **Endless Legend Populations 4.5** (Captain Cobbs) — twelve Endless Legend races (plus the Urkan) as minor factions; `*[ELP]*` files | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | 2024-11-26 | `upstream/elp` |
 | **Minor Heroes Reimagined [ESG+PST] 0.2** (mdel) — a skill tree per minor-faction hero, Plocynos minor faction; `*[MHR]*` files | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | 2026-07-25 | `upstream/mhr` |
+| **Samus Aran 1.0** (Ghoulvarine) — Terran admiral with her own skill trees; `*[Samus]*` files, New Game toggle | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | 2025-05-31 | `upstream/samus` |
 | Eldritch faction trait category | own content | | |
 
 Each vendor branch holds the pristine workshop drop exactly as downloaded (before any ACM patching), so the
@@ -28,7 +29,7 @@ Useful Skill Colours, the quest example) are already inside ACM or unwanted — 
 
 | Mod | Workshop id | Overlap with ACM (`tools/Find-Conflicts.ps1`) | Notes |
 |---|---|---|---|
-| Samus Aran | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | `AffinityMappingTerrans` only | **Required**: ACM's `FactionTraitEldritchHero` recruits `Samus`. Load **before** ACM so ACM's Terran affinity (with ESG's mercenary ship designs) wins; Samus then comes via the Eldritch trait, not automatically to Terrans. If it loads after ACM, Terrans get her but lose the 8 mercenary designs. |
+| Samus Aran | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | `AffinityMappingTerrans`, all Samus definitions | Already inside ACM (with a New Game toggle) — do not run the workshop item as well; loaded after ACM it would give Terrans Samus but take away ESG's 8 mercenary ship designs. |
 | Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | none | clean extension |
 | Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | 27 `FactionTrait` + `ClassColonizedStarSystem` | **Do not use the workshop item** — its `ClassColonizedStarSystem` replaces ESG's and the game crashes on the first colonisation (`ColonizationThresholdFIDSBonus` missing). ELP is already inside ACM. |
 | Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | 38 `HeroDefinition`, `MinorFactions` table, USC GUI | Already inside ACM — do not run the workshop item as well. |
@@ -77,6 +78,26 @@ plugin. The drop also ships partial copies of ESG/USC files; those are grafted a
 
 Burra Techseeker (the Plocynos hero) needs the Community Challenge Addon DLC, as upstream.
 
+## Samus Aran inside ACM
+
+The drop's files carry a `[Samus]` suffix (`Simulation/HeroDefinitions[Samus].xml`, `…HeroSkillDefinitions[Samus].xml`,
+`…HeroSkillTreeDefinitions[Samus].xml`, `…SimulationDescriptors[Samus].xml`, `GUI/GUIElements[Samus].xml`,
+`Localization/english/ES2_Localization_Locales[Samus].xml`, three portraits under `Resources/Gui`).
+
+| Drop file (as imported) | What was done |
+|---|---|
+| `Simulation/FactionTraits[Samus].xml` | deleted — it is the upstream Terran affinity with `RecruitHero Samus` added; ACM keeps ESG's affinity (8 mercenary ship designs). Samus is recruited from the Academy like any hero, or directly via the Eldritch Hero faction trait. |
+| `Localization/english/ES2_Localization_Assets_Locales[Samus].xml` | deleted (empty). |
+| `Simulation/HeroDefinitions[Samus].xml` | `<GameSettingPrerequisite>EnableSamus,True</GameSettingPrerequisite>` added. |
+
+**New Game › Advanced › ACM Settings › Enable Samus Aran** (default on). Off, she never enters the Academy pool; the
+setting is fixed for the game once started. The Eldritch Hero faction trait recruits her by name regardless of the
+setting (faction traits cannot see game settings). The toggle is the template for further ACM toggles: a
+`GameSettingDefinition` in `Settings/GameSettingDefinitions[ACM].xml`, an `Entry` in the `AdvancedSettingsACMSettings`
+group of `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file — re-add the group on every ESG merge),
+`Setting<Name>` / `<Name>True` / `<Name>False` elements in `GUI/GUIElements[ACM_Settings].xml`, strings in
+`Localization/english/ES2_Localization_Locales[ACM].xml`, and a `GameSettingPrerequisite` on the gated definitions.
+
 ## Working on the mod
 
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
@@ -85,8 +106,8 @@ Burra Techseeker (the Plocynos hero) needs the Community Challenge Addon DLC, as
 - Is anything out of date? `.\tools\Check-Upstream.ps1` (`-Notes` adds the authors' change notes newer than our
   drop). It needs no downloads, so the folded-in workshop items can stay unsubscribed; resubscribe one only to
   refresh it.
-- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr>`, then
-  `git merge upstream/esg`. `elp` / `mhr` imports land the drop on the `[ELP]` / `[MHR]` paths above.
+- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr|samus>`, then
+  `git merge upstream/esg`. `elp` / `mhr` / `samus` imports land the drop on the `[ELP]` / `[MHR]` / `[Samus]` paths above.
   Details, conflict conventions and gotchas are in `CLAUDE.md`.
 - `.\tools\Find-Conflicts.ps1 -Mod <workshop id>` reports which definitions a workshop mod shares with ACM.
 
@@ -97,4 +118,5 @@ Burra Techseeker (the Plocynos hero) needs the Community Challenge Addon DLC, as
   2026-05-31 drop (267 changed files, 4 conflicts); USC 2.2 grafted in; Samus removed in favour of the
   workshop mod (its skill trees had been copied into the `[Eldritch]` files). Endless Legend
   Populations 4.5 merged in (renamed `[ELP]` files, four data fixes) after the workshop item crashed game start. Minor Heroes Reimagined
-  [ESG+PST] 0.2 merged in the same way.
+  [ESG+PST] 0.2 merged in the same way. Samus Aran 1.0 folded back in behind the first ACM New Game toggle
+  (`Enable Samus Aran`).
