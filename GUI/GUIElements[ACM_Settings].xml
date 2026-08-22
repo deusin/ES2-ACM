@@ -55,4 +55,20 @@
     <Title>%SettingEnableWorthyDeedsFalseTitle</Title>
     <Description>%SettingEnableWorthyDeedsFalseDescription</Description>
   </GuiElement>
+
+  <!-- Enable Kaizen Rejuvenation -->
+  <GuiElement Name="SettingEnableKaizenRejuvenation">
+    <Title>%SettingEnableKaizenRejuvenationTitle</Title>
+    <Description>%SettingEnableKaizenRejuvenationDescription</Description>
+  </GuiElement>
+
+  <GuiElement Name="SettingEnableKaizenRejuvenationTrue">
+    <Title>%SettingEnableKaizenRejuvenationTrueTitle</Title>
+    <Description>%SettingEnableKaizenRejuvenationTrueDescription</Description>
+  </GuiElement>
+
+  <GuiElement Name="SettingEnableKaizenRejuvenationFalse">
+    <Title>%SettingEnableKaizenRejuvenationFalseTitle</Title>
+    <Description>%SettingEnableKaizenRejuvenationFalseDescription</Description>
+  </GuiElement>
 </Datatable>

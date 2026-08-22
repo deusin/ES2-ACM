@@ -11,6 +11,8 @@
         <InProgressSimulationDescriptorReference Name="StarSystemImprovementInfinite"/>
         <InProgressSimulationDescriptorReference Name="StarSystemImprovementKaizenRejuvenationEffect"/>
         <InfiniteCost ResourceName="SystemTurnBased"/>
+        <!-- ACM: New Game > Advanced > ACM Settings > Enable Kaizen Rejuvenation -->
+        <GameSettingPrerequisite Flags="Prerequisite,Discard">EnableKaizenRejuvenation,True</GameSettingPrerequisite>
         <InterpreterPrerequisite Flags="Prerequisite,Discard">SumProperty(Context,@ClassColonizedStarSystem/ClassPlanet, PlanetDepletionPoints) gt 0</InterpreterPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,!AffinityGameplayCravers</PathPrerequisite>
     </StarSystemImprovementDefinition>

@@ -141,6 +141,7 @@
         <Entry Name="EnableSamus"              Type="Checkbox" VisibleInGame="ReadOnly" />
         <Entry Name="EnableArkonPortal"        Type="Checkbox" VisibleInGame="ReadOnly" />
         <Entry Name="EnableWorthyDeeds"        Type="Checkbox" VisibleInGame="ReadOnly" />
+        <Entry Name="EnableKaizenRejuvenation" Type="Checkbox" VisibleInGame="ReadOnly" />
       </AdvancedSettingsGroup>
     </Category>
   </NewGameScreenGuiElement>

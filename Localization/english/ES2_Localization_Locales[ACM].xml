@@ -23,4 +23,11 @@
   <LocalizationPair Name="%SettingEnableWorthyDeedsTrueDescription">Deeds are per empire and pay out all their rewards</LocalizationPair>
   <LocalizationPair Name="%SettingEnableWorthyDeedsFalseTitle">False</LocalizationPair>
   <LocalizationPair Name="%SettingEnableWorthyDeedsFalseDescription">Deeds are a race: the first empire to complete one takes its single reward</LocalizationPair>
+
+  <LocalizationPair Name="%SettingEnableKaizenRejuvenationTitle">Kaizen Rejuvenation</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableKaizenRejuvenationDescription">Kaizen Rejuvenation mod: an infinite system improvement, available to non-Cravers empires on systems with depleted planets, that reverses planet depletion by 1 point per turn per population on each planet.</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableKaizenRejuvenationTrueTitle">True</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableKaizenRejuvenationTrueDescription">Depleted planets can be rejuvenated with the Kaizen Rejuvenation improvement</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableKaizenRejuvenationFalseTitle">False</LocalizationPair>
+  <LocalizationPair Name="%SettingEnableKaizenRejuvenationFalseDescription">Planet depletion is permanent, as in the base game</LocalizationPair>
 </Datatable>

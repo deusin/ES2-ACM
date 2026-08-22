@@ -21,6 +21,7 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 | **Endless Anomalies 1.1.3** — over 100 new anomalies; `*[EA]*` files | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | 2024-11-13 | `upstream/ea` |
 | **Deep Space Mining 1.3.6** — special nodes that yield strategic resources; `*[DSM]*` files | [1263186686](https://steamcommunity.com/sharedfiles/filedetails/?id=1263186686) | 2019-04-28 | `upstream/dsm` |
 | **Worthy Deeds 0.33** (tygart) — deeds for every empire, all rewards; `*[WD]*` files, `Enable Worthy Deeds` toggle | [1587659427](https://steamcommunity.com/sharedfiles/filedetails/?id=1587659427) | 2020-10-28 | `upstream/worthydeeds` |
+| **Kaizen Rejuvenation 1.2.0** (fb.aazzoggerr) — infinite improvement that reverses Cravers planet depletion; `*[Kaizen]*` files, `Enable Kaizen Rejuvenation` toggle | [1130687397](https://steamcommunity.com/sharedfiles/filedetails/?id=1130687397) | 2018-01-26 | `upstream/kaizen` |
 | Eldritch faction trait category | own content | | |
 
 Each vendor branch holds the pristine workshop drop exactly as downloaded (before any ACM patching), so the
@@ -187,6 +188,14 @@ the `Enable Worthy Deeds` New Game toggle (default on):
 The generator is the graft script (`graft_wd.py`, kept in the session scratchpad, not the repo); after an ESG merge that
 touches `QuestDefinitions[Deeds].xml` or `Droplists[Reward].xml`, regenerate the `_WD` copies rather than patching them.
 
+## Kaizen Rejuvenation inside ACM
+
+One infinite star-system improvement (`StarSystemImprovementKaizenRejuvenation`, non-Cravers empires, only offered while a
+planet in the system is depleted) that removes depletion points at one per turn per population on each planet. Folded in as
+`*[Kaizen]*` files with no changes except the `EnableKaizenRejuvenation,True` gate on the improvement (New Game toggle,
+default on) and the dropped override of vanilla's `%PlanetNotDepletedTitle` string. The drop's `StarSystemImprovements.xml`
+is renamed to `ConstructibleElement_Industry[Kaizen].xml` so ESG's existing `FilePath` pattern loads it.
+
 ## Working on the mod
 
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
@@ -212,4 +221,4 @@ touches `QuestDefinitions[Deeds].xml` or `Droplists[Reward].xml`, regenerate the
   folded in (always on) — it had been overriding every hero definition from the play set. Endless Moons and Endless
   Anomalies folded in (always on): ESG's anomalies win, Endless Moons' moon mechanics win, weight tables merged.
   Deep Space Mining folded in (strategic lines grafted into ESG's node descriptors). Worthy Deeds folded in behind a third
-  toggle, as generated `_WD` copies of ESG's deeds (wonders left as a race).
+  toggle, as generated `_WD` copies of ESG's deeds (wonders left as a race). Kaizen Rejuvenation folded in behind a fourth.

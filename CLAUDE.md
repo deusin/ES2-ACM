@@ -29,11 +29,12 @@ Start Claude Code sessions **from this folder**.
 | Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | merged as `*[Arkon]*` files (vendor branch `upstream/arkonportal`), gated by `EnableArkonPortal`; 500-point trait dropped; never also run the workshop item |
 | Deep Space Mining | [1263186686](https://steamcommunity.com/sharedfiles/filedetails/?id=1263186686) | merged as `*[DSM]*` files (vendor branch `upstream/dsm`), always on; grafts in README |
 | Worthy Deeds | [1587659427](https://steamcommunity.com/sharedfiles/filedetails/?id=1587659427) | merged as `*[WD]*` files (vendor branch `upstream/worthydeeds`), gated by `EnableWorthyDeeds`; generated `_WD` copies of ESG's deeds, see README |
+| Kaizen Rejuvenation | [1130687397](https://steamcommunity.com/sharedfiles/filedetails/?id=1130687397) | merged as `*[Kaizen]*` files (vendor branch `upstream/kaizen`), gated by `EnableKaizenRejuvenation`; never also run the workshop item |
 | Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | merged as `*[AFHS]*` files (vendor branch `upstream/afhs`), always on; never also run the workshop item |
 
 ## Lifecycle: refreshing an upstream mod
 
-Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus, arkonportal, afhs, em, ea, dsm, worthydeeds hold the pristine workshop
+Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus, arkonportal, afhs, em, ea, dsm, worthydeeds, kaizen hold the pristine workshop
 drops (moretraits/poltrees were baselined with `git merge -s ours`, so their next import merges 3-way).
 `.\tools\Check-Upstream.ps1` asks the Steam API which of them has updated since its last import (`-Notes`
 prints the workshop change notes newer than the drop; fetch Steam pages directly with curl/Invoke-WebRequest,
@@ -96,6 +97,8 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
   four are *generated* from ESG/vanilla deeds (README table); the drop's quest/wonder/descriptor files stay deleted (modify/delete
   conflicts = the cue). Every regular deed exists twice: original with `EnableWorthyDeeds,False`, `_WD` copy with `True` — an ESG
   merge touching `QuestDefinitions[Deeds].xml`/`Droplists[Reward].xml` means regenerate, and re-add the `False` gates ESG's file loses.
+- **Kaizen** (suffix `[Kaizen]`). Four files; on merge keep the `EnableKaizenRejuvenation` gate on
+  `ConstructibleElement_Industry[Kaizen]` and drop the `%PlanetNotDepletedTitle` line from its loc file.
 - **ACM New Game toggles** live in `Settings/GameSettingDefinitions[ACM].xml` + `GUI/GUIElements[ACM_Settings].xml`
   + `Localization/english/ES2_Localization_Locales[ACM].xml`, and the `AdvancedSettingsACMSettings` group in
   `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file, single definition — re-add the group after every ESG
