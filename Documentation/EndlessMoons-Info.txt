@@ -1,0 +1,71 @@
+Endless Moons by Tychonoir.
+Increases the occurrence and significance of moons, while adding many new moon types and additional exploitation options. Includes rare instances of unique lost Endless Moon Temples and Celestial Orbs that provide significant bonuses when found restored.
+
+Moon Types:
+Small, Medium, Large, Frozen, Volcanic, Fertile, Binary, Multiple
+Different concentrations of resources within each type.
+
+Planet Improvements (Reductions):
+Explore Moon - Pev-scale Accelerators (Science 2)
+	Cost: 1 turn
+Develop Moon - Maximized Exploitation (Industry 3)
+	Cost: 280-560 Production, 5-20 Titanium, 5-20 Hyperium
+Restore Temple - Xeno Anthropology (Empire 3)
+	Cost: 3 turns, 1120 Production, 15 Adamantian,  15 Antimatter
+Upgrade Temple - (Various Tier 4 Technologies: SLC Methods -OR- Ultratough Materials -OR- N-Dimensional Topoligies -OR- Deniable Operations)
+	Cost: 2 turns, 1120 Production, 10 Orichalcix, 10 Quadrinix
+Explore Celestial Orb - Xeno Anthropology (Empire 3)
+	Cost: 2 turns, 560 Production
+	
+Planet Specializations:
+Lunar Research - Machine Bacteria (Science 2)
+	Cost: 160 Production
+	Effects: +10 Science on planets with a Lunar Anomaly, +1 Science per Population per Explored Moon, +5 Bandwidth per Developed Moon, -30% Production on planet
+Lunar Mining - Multi-thread Management (Industry 2)
+	Cost: 160 Production
+	Effects: +15 Production on planets with a Lunar Anomaly, +1 Production per Population per Explored Moon, +2 Production per Population per Developed Moon, -30% Science on planet
+
+System Improvements:
+Lunar Infrastructure - Plasma Metallurgy (Industry 2)
+	Cost: 160 Production
+	Effects: +10 Industry per Lunar Anomaly, +2 Production and Science per Pop on planets with an Explored Moon, +5% Dust per Developed Moon.
+Lunar Data Network - Compact Warp Methods (Science 3) - ( For Vodyani - Evaporation Inhibitors (Science 3) )
+	Cost: 1120 Production
+	Effects: +20 Science per Lunar Anomaly, +5 Science per Anomaly, +1% Science per Lunar Data Network in Empire.
+Lunar Tourism - Impactless Sites (Trade 3)
+	Cost: 1120 Production
+	Effects: +10 Dust per Lunar Anomaly, +10 Dust per Explored Moon, +5 Influence, +5 Happiness, +5 Happiness per Developed Moon
+Lunar Colonies - Adaptive Colonies (Science 4)
+	Cost: 2240 Production
+	Effects: +1 Population on planets with an explored moon.
+Moon Exploitation Drones (Vodyani) - Astrofinance (Industry 2)
+	Cost: 560 Production
+	Effects: +25 Production per Lunar Anomaly, +10 Science per Lunar Anomaly, +10 Dust per Lunar Anomaly
+Hunter Guilds (Vodyani) - Xeno Anthropology (Empire 3)
+	Cost: 480 Production
+	Effects: +75 Essence, +10 Influence, +20 Science, and +30 Dust per Undiscovered Moon Temple and Celestial Orb
+Lunar Sanctuaries (Umbral Choir) - Pev-scale Accelerators (Science 2)
+	Cost: 560 Production
+	Effects: +20 Science and Production per Lunar Anomaly in Empire.
+Infiltration Gateway (Umbral Choir) - Xeno Anthropology (Empire 3)
+	Cost: 1120 Production
+	Effects: +10 Influence, +10 Bandwidth, and +30 Science per Endless Temple and Celestial Orb in Empire. (Includes undiscovered temples.)
+
+Celestial Orbs:
+12 types of rare and hidden artificial moons created by the endless.
+Effects: ???
+
+Temples:
+14 unique Endless Temples can be found.
+Effects: ???
+
+General Notes:
+Increased the number of visible anomalies in galaxy generation to accommodate moons.
+Increased the number of unique anomalies in galaxy generation to accommodate Endless Temples. (Small size galaxy required to guarantee at least two Endless Temples.)
+Moonbase Alpha has been removed.
+Lunar Suburbs has been revised to add +2 population slots only on planets with a developed moon.
+Lunar Surveillance Station has been modified to grant +2 vision range per moon on system.
+Vodyani don't explore or develop moons. Instead, they have access to special Vodyani only improvements.
+Umbral Choir don't explore or develop moons. Instead, they have access to Umbral Choir only improvements.
+
+Also, many thanks to the dev MonAmiral at G2G forums whose support has been invaluable.

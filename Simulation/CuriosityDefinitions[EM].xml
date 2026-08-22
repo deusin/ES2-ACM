@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/CuriosityDefinition.xsd">
+    
+<!-- Cloaked Orbs -->
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_I1_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite> <!-- 1.1 used because empire base level is 1 -->
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_I1_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_I2_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_I2_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_I3_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_I3_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_D1_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_D1_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_D2_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_D2_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_D3_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_D3_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_S1_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_S1_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_S2_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_S2_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_S3_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_S3_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_FIDS1_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_FIDS1_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_FIDS2_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_FIDS2_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_FIDS3_1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionProbeVisionStrength) ge 1.1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_FIDS3_1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+
+<!-- Moons -->
+    <CuriosityDefinition Name="Curiosity_Moon_SmSingA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_SmSingA1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_SmallMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+    <CuriosityDefinition Name="Curiosity_Moon_SmSingB1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_SmSingB1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_SmallMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+    <CuriosityDefinition Name="Curiosity_Moon_SmSingE1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_SmSingE1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_SmallMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+    
+    <CuriosityDefinition Name="Curiosity_Moon_MdSingA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_MdSingA1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <CuriosityDefinition Name="Curiosity_Moon_MdSingE1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_MdSingE1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+    <CuriosityDefinition Name="Curiosity_Moon_MdSingF1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_MdSingF1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+     <CuriosityDefinition Name="Curiosity_Moon_MdSingB1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_MdSingB1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+    
+     <CuriosityDefinition Name="Curiosity_Moon_LgSingA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_LgSingA1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+
+     <CuriosityDefinition Name="Curiosity_Moon_BinaryA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_BinaryA1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+     <CuriosityDefinition Name="Curiosity_Moon_BinaryB1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_BinaryB1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_BinaryC1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_BinaryC1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+
+     <CuriosityDefinition Name="Curiosity_Moon_LgBinaryA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_LgBinaryA1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_LgBinaryB1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_LgBinaryB1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+
+     <CuriosityDefinition Name="Curiosity_Moon_VolcanicA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_VolcanicA1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_VolcanicB1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_VolcanicB1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+
+     <CuriosityDefinition Name="Curiosity_Moon_FrozenA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_FrozenA1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_FrozenMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_FrozenB1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_FrozenB1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_FrozenMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_FrozenC1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_FrozenC1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_FrozenMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+
+     <CuriosityDefinition Name="Curiosity_Moon_FertileA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_FertileA1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_FertileB1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_FertileB1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_FertileC1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_FertileC1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+
+     <CuriosityDefinition Name="Curiosity_Moon_MultiA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_MultiA1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_MultiB1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_MultiB1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_MultiC1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_MultiC1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+     <CuriosityDefinition Name="Curiosity_Moon_MultiD1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_MultiD1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+
+</Datatable>

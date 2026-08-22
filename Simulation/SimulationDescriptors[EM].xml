@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  
+  	<!-- Value changed to 1.1 because basevalue = 1 in ClassEmpire, used with requiring orb detection at 1.1 -->
+  	<!-- If orb detection was 1, then they are visible at start. Game presumably didn't use detection level base 0 because systemprobes aren't available until level 1 -->
+    <SimulationDescriptor Name="EmpireImprovementDetectionProbeLevel1" Type="EmpireImprovement">
+      <Modifier TargetProperty="DetectionProbeVisionStrength"     Value="1.1"  Operation="Force" Path="ClassEmpire" Priority="1"/>
+    </SimulationDescriptor>
+    <!-- replace originals to change priority -->
+    <SimulationDescriptor Name="EmpireImprovementDetectionProbeLevel2" Type="EmpireImprovement">
+      <Modifier TargetProperty="DetectionProbeVisionStrength"     Value="2"  Operation="Force" Path="ClassEmpire" Priority="2"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="EmpireImprovementDetectionProbeLevel3" Type="EmpireImprovement">
+      <Modifier TargetProperty="DetectionProbeVisionStrength"     Value="3"  Operation="Force" Path="ClassEmpire" Priority="3"/>
+    </SimulationDescriptor>
+    
+	<SimulationDescriptor Name="EndlessMoonsEnabled" Type="FactionTrait"/> <!-- for compatibilty with ESG Balance Mod -->
+    
+
+	 <SimulationDescriptor Name="LunarInfrastructure" Type="StarSystemImprovement">
+    	<Property Name="ExploredMoons" 				BaseValue="1"	MaxValue="1" />
+    	<Property Name="DevelopedMoons" 			BaseValue="1" />    	
+    	<Modifier TargetProperty="ExploredMoons"			Operation="Subtraction"	Value="1"	TooltipHidden="true"/>
+    	<Modifier TargetProperty="DevelopedMoons"			Operation="Subtraction"	Value="1"	TooltipHidden="true"/>
+    	<BinaryModifier TargetProperty="SystemProduction"	Operation="Addition"	Left="10"    BinaryOperation="Multiplication" Right="$(OwnedMoons)" 	Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"	Operation="Addition"	Value="2"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredMoon" TooltipOverride="%LunarInf_S_Tip" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"	Operation="Addition"	Value="2"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredMoon2" TooltipHidden="true" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"	Operation="Addition"	Value="2"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredMoon3" TooltipHidden="true" />
+        <BinaryModifier TargetProperty="SystemMoney"		Operation="Percent"		Left=".05"  BinaryOperation="Multiplication" Right="$(DevelopedMoons)" 	Path="./ClassColonizedStarSystem" TooltipOverride="%LunarInf_D_Tip" />
+        <BinaryModifier TargetProperty="SystemMoney"		Operation="Subtraction"	Left="6"  	BinaryOperation="Multiplication" Right="$(OwnedMoons)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="LunarDataNetwork" Type="StarSystemImprovement">
+    	<Property Name="LDNetworks" 				BaseValue="1" />
+    	<Modifier TargetProperty="LDNetworks"				Operation="Subtraction"	Value="1"	TooltipHidden="true"/>
+        <Modifier TargetProperty="LDNetworks"				Operation="Addition"	Value="1"	Path="../ClassEmpire/ClassColonizedStarSystem/LunarDataNetwork"	TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="20"   BinaryOperation="Multiplication" Right="$(OwnedMoons)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="5"    BinaryOperation="Multiplication" Right="$(OwnedAnomalies)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Percent"		Left=".01"	BinaryOperation="Multiplication" Right="$(LDNetworks)" Path="./ClassColonizedStarSystem" TooltipOverride="%LDNetworks_S_Tip"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="LunarColonies" Type="StarSystemImprovement">
+        <Modifier TargetProperty="RawMaximumPopulation"		Operation="Addition"  Value="1"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredMoon" TooltipOverride="%LC_Pop_Tip"/>
+        <Modifier TargetProperty="RawMaximumPopulation"		Operation="Addition"  Value="1"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredMoon2" TooltipHidden="true"/>
+        <Modifier TargetProperty="RawMaximumPopulation"		Operation="Addition"  Value="1"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredMoon3" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LunarTourism" Type="StarSystemImprovement">
+    	<Property Name="ExploredMoons" 				BaseValue="1" />
+    	<Property Name="DevelopedMoons" 			BaseValue="1" />
+    	<Modifier TargetProperty="ExploredMoons"			Operation="Subtraction"	Value="1"	TooltipHidden="true"/>
+    	<Modifier TargetProperty="DevelopedMoons"			Operation="Subtraction"	Value="1"	TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="SystemMoney"		Operation="Addition"	Left="10"   BinaryOperation="Multiplication" Right="$(OwnedMoons)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <BinaryModifier TargetProperty="SystemMoney"		Operation="Addition"	Left="10"   BinaryOperation="Multiplication" Right="$(ExploredMoons)"  Path="./ClassColonizedStarSystem" TooltipOverride="%LunarTourism_D_Tip" />
+        <Modifier 		TargetProperty="SystemEmpirePoint"	Operation="Addition"	Value="5"   Path="./ClassColonizedStarSystem" />
+        <Modifier 		TargetProperty="Happiness"			Operation="Addition"	Value="5"   Path="./ClassColonizedStarSystem" />
+        <BinaryModifier TargetProperty="Happiness"			Operation="Addition"	Left="5"   	BinaryOperation="Multiplication" Right="$(DevelopedMoons)"  Path="./ClassColonizedStarSystem" TooltipOverride="%LunarTourism_H_Tip" />
+    </SimulationDescriptor>
+
+	<!-- Vodyani -->
+    <SimulationDescriptor Name="MoonExploitation" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition"	Left="25"   BinaryOperation="Multiplication" Right="$(OwnedMoons)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <BinaryModifier TargetProperty="SystemMoney"		Operation="Addition"	Left="10"  	BinaryOperation="Multiplication" Right="$(OwnedMoons)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="10"  	BinaryOperation="Multiplication" Right="$(OwnedMoons)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="HunterGuilds" Type="StarSystemImprovement"> 
+        <Property Name="GuildMultiplier" 				BaseValue="1" />
+    	<Modifier TargetProperty="GuildMultiplier"		Operation="Subtraction"	Value="1"	TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="SystemMoney"		Operation="Addition"	Left="30"  	BinaryOperation="Multiplication" Right="$(GuildMultiplier)"  Path="./ClassColonizedStarSystem" TooltipOverride="%HunterGuilds_D_Tip" />
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="20"  	BinaryOperation="Multiplication" Right="$(GuildMultiplier)"  Path="./ClassColonizedStarSystem" TooltipOverride="%HunterGuilds_S_Tip" />
+        <BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition"	Left="10"  	BinaryOperation="Multiplication" Right="$(GuildMultiplier)"  Path="./ClassColonizedStarSystem" TooltipOverride="%HunterGuilds_I_Tip" />
+        <BinaryModifier TargetProperty="SystemLifeforce"	Operation="Addition"	Left="75"  	BinaryOperation="Multiplication" Right="$(GuildMultiplier)"  Path="./ClassColonizedStarSystem" TooltipOverride="%HunterGuilds_E_Tip" />
+    </SimulationDescriptor>
+    
+    <!-- Umbral Choir -->
+    <SimulationDescriptor Name="LunarSanctuaries" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition"	Left="20"   BinaryOperation="Multiplication" Right="$(OwnedMoons)" 	Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="20"   BinaryOperation="Multiplication" Right="$(OwnedMoons)"	Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="EndlessTechInfiltration" Type="StarSystemImprovement">
+    	<Property Name="EndlessTech" 			BaseValue="1" />
+        <Modifier TargetProperty="EndlessTech"	Operation="Subtraction"		Value="1"	TooltipHidden="true" />
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="30"   BinaryOperation="Multiplication"	Right="$(EndlessTech)"	Path="./ClassColonizedStarSystem"	TooltipOverride="%ETInf_S_Tip"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint"		Operation="Addition"	Left="10"   BinaryOperation="Multiplication"	Right="$(EndlessTech)"	Path="./ClassColonizedStarSystem"	TooltipOverride="%ETInf_I_Tip"/>
+    	<BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock"	Operation="Addition"	Left="10"   BinaryOperation="Multiplication"		Right="$(EndlessTech)" 	Path="../ClassEmpire"	TooltipOverride="%ETInf_BW_Tip" />
+    </SimulationDescriptor>
+    
+    <!-- Revised: Lunar Suburbs -->
+    <SimulationDescriptor Name="StarSystemImprovementPopulationSlot2" Type="StarSystemImprovement">
+        <Modifier TargetProperty="RawMaximumPopulation"		Operation="Addition"  Value="2"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,DevelopedMoon" TooltipOverride="%SSIP2_Pop_Tip"/>
+        <Modifier TargetProperty="RawMaximumPopulation"		Operation="Addition"  Value="2"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,DevelopedMoon2" TooltipHidden="true"/>
+        <Modifier TargetProperty="RawMaximumPopulation"		Operation="Addition"  Value="2"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,DevelopedMoon3" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    
+    <!-- Revised: Lunar Surveillance Station -->
+	<SimulationDescriptor Name="StarSystemImprovementCuriosity5" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemResearch"	  Operation="Addition"     Left="15"     BinaryOperation="Multiplication" Right="$(OwnedMoons)"		    Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <BinaryModifier TargetProperty="VisionRange"	  Operation="Addition"     Left="2"		 BinaryOperation="Multiplication" Right="$(OwnedMoons)"		    Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+	</SimulationDescriptor>
+
+    
+    
+    <!-- Planet Specializations -->
+    <SimulationDescriptor Name="LunarResearchSpec" Type="PlanetImprovement">
+    	<Property Name="ExploredMoons"			BaseValue="1" />
+    	<Property Name="DevelopedMoons"			BaseValue="1" 	MaxValue="1" />
+        <Modifier TargetProperty="ExploredMoons"		Operation="Subtraction"	Value="1"	TooltipHidden="true" />
+        <Modifier TargetProperty="DevelopedMoons"		Operation="Subtraction"	Value="1"	TooltipHidden="true" />
+        <Modifier 		TargetProperty="PlanetScience"		Operation="Addition"	Value="10"	Path="./ClassColonizedPlanet,PlanetMoon"	TooltipOverride="%LRSpec_S_Tip"/>
+    	<BinaryModifier TargetProperty="PlanetInitialSciencePerPopulation"	Operation="Addition"	Left="1"   BinaryOperation="Multiplication" Right="$(ExploredMoons)" 	Path="./ClassColonizedPlanet"	TooltipOverride="%LRSpec_rS_Tip" />
+    	<BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock"	Operation="Addition"	Left="5"   BinaryOperation="Multiplication"		Right="$(DevelopedMoons)" 	Path="../ClassEmpire"	TooltipOverride="%LRSpec_BW_Tip" />
+        <Modifier 		TargetProperty="PlanetIndustry"	Operation="Percent"		Value="-.3"	Path="./ClassColonizedPlanet" TooltipOverride="%LRSpec_pI_Tip" />       
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LunarMiningSpec" Type="PlanetImprovement">
+    	<Property Name="ExploredMoons"			BaseValue="1" />
+    	<Property Name="DevelopedMoons"			BaseValue="1" />
+        <Modifier TargetProperty="ExploredMoons"		Operation="Subtraction"	Value="1"	TooltipHidden="true" />
+        <Modifier TargetProperty="DevelopedMoons"		Operation="Subtraction"	Value="1"	TooltipHidden="true" />
+        <Modifier 		TargetProperty="PlanetIndustry"		Operation="Addition"	Value="15"	Path="./ClassColonizedPlanet,PlanetMoon"	TooltipOverride="%LMSpec_I_Tip"/>
+    	<BinaryModifier TargetProperty="PlanetInitialIndustryPerPopulation"	Operation="Addition"	Left="1"   BinaryOperation="Multiplication" Right="$(ExploredMoons)" 	Path="./ClassColonizedPlanet"	TooltipOverride="%LMSpec_rI_Tip" />
+    	<BinaryModifier TargetProperty="PlanetInitialIndustryPerPopulation"	Operation="Addition"	Left="2"   BinaryOperation="Multiplication" Right="$(DevelopedMoons)" 	Path="./ClassColonizedPlanet"	TooltipOverride="%LMSpec_rI2_Tip" />
+        <Modifier 		TargetProperty="PlanetScience"		Operation="Percent"		Value="-.3"	Path="./ClassColonizedPlanet" TooltipOverride="%LMSpec_pS_Tip" />       
+    </SimulationDescriptor>
+
+    
+    <!-- Modules -->
+    <SimulationDescriptor Name="ModuleSupportMoonExploration" Type="ModuleSupportJuggernautTerraformer">
+        <Property Name="NetAnomalyReductionProduction"/>
+        <Modifier TargetProperty="NetAnomalyReductionProduction"    Operation="Addition"    Value="$(NetAnomalyReductionProduction)"    Path="../ClassGarrisonFleet"	TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ModuleSupportMoonExploration1" Type="ModuleSupportJuggernautTerraformer">
+        <Modifier TargetProperty="NetAnomalyReductionProduction"    Operation="Addition"    Value=".1"	TooltipHidden="true" />
+    </SimulationDescriptor>
+    
+    
+<!-- Orb Granted Stuff -->
+	<!-- Indusrty Orbs -->
+    <SimulationDescriptor Name="IndustrialLuxuryProcessing" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemProduction"		Operation="Addition"	Left="20"   BinaryOperation="Multiplication" Right="$(OwnedLuxuryDeposits)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="ColdIndustry" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemProduction"		Operation="Addition"	Left="30"   BinaryOperation="Multiplication" Right="$(OwnedColdPlanets)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="OrbIndustryUpgrade" Type="StarSystemImprovement">
+        <Property Name="ExploredOrbs" 				BaseValue="1" />
+        <Modifier TargetProperty="ExploredOrbs"		Operation="Subtraction"	Value="1"   TooltipHidden="true" />   
+        <Modifier TargetProperty="PlanetFood"		Operation="Addition"  Value="20"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredCloakedOrb" TooltipOverride="%OrbUpgradeI_F"/>
+        <Modifier TargetProperty="PlanetIndustry"	Operation="Addition"  Value="50"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredCloakedOrb" TooltipOverride="%OrbUpgradeI_I"/>
+    	<BinaryModifier TargetProperty="SystemProduction"		Operation="Percent"		Left=".1"   BinaryOperation="Multiplication" Right="$(ExploredOrbs)" Path="./ClassColonizedStarSystem" TooltipOverride="%OrbUpgradeI_P"/>
+    </SimulationDescriptor>
+    
+    
+	<!-- Dust Orbs -->
+    <SimulationDescriptor Name="StrategicApproval" Type="StarSystemImprovement">
+        <BinaryModifier     TargetProperty="Happiness"      Operation="Addition" Left="5"	 BinaryOperation="Multiplication" Right="$(OwnedStrategicDeposits)" Path="./ClassColonizedStarSystem"  SearchValueFromPath="true" />
+        <BinaryModifier     TargetProperty="SystemMoney"    Operation="Addition" Left="5"	 BinaryOperation="Multiplication" Right="$(OwnedStrategicDeposits)" Path="./ClassColonizedStarSystem"  SearchValueFromPath="true" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ExtremeTours" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemMoney"				Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetDust"		Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeLava"  />
+        <Modifier TargetProperty="PlanetDust"		Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeSwamp" />
+        <Modifier TargetProperty="PlanetDust"		Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeBarren"  />
+        <Modifier TargetProperty="SystemEmpirePoint"		Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetPrestige"		Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeLava" />
+        <Modifier TargetProperty="PlanetPrestige"		Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeSwamp" />
+        <Modifier TargetProperty="PlanetPrestige"		Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeBarren" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ExtremeToursBiophobic" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemMoney"				Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetDust"		Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeOcean" />
+        <Modifier TargetProperty="PlanetDust"		Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeTerran" />
+        <Modifier TargetProperty="PlanetDust"		Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeForest" />
+        <Modifier TargetProperty="PlanetDust"		Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeAtoll" />
+        <Modifier TargetProperty="SystemEmpirePoint"		Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetPrestige"		Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeOcean" />
+        <Modifier TargetProperty="PlanetPrestige"		Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeTerran"  />
+        <Modifier TargetProperty="PlanetPrestige"		Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeForest" />
+        <Modifier TargetProperty="PlanetPrestige"		Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeAtoll" />
+    </SimulationDescriptor>
+        
+    <SimulationDescriptor Name="OrbDustUpgrade" Type="StarSystemImprovement">
+        <Property Name="ExploredOrbs" 				BaseValue="1" />
+        <Modifier TargetProperty="ExploredOrbs"		Operation="Subtraction"	Value="1"   TooltipHidden="true" /> 
+        <Modifier TargetProperty="PlanetDust"		Operation="Addition"  	Value="50"  Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredCloakedOrb" TooltipOverride="%OrbUpgradeD_D"/>
+        <BinaryModifier TargetProperty="SystemMoney"			Operation="Percent"		Left=".1"   BinaryOperation="Multiplication" Right="$(ExploredOrbs)" Path="./ClassColonizedStarSystem" TooltipOverride="%OrbUpgradeD_P"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint"		Operation="Addition"	Left="5"	BinaryOperation="Multiplication" Right="$(ExploredOrbs)" Path="./ClassColonizedStarSystem" TooltipOverride="%OrbUpgradeD_I"/>
+    </SimulationDescriptor>
+    
+    
+	<!-- Science Orbs -->
+    <SimulationDescriptor Name="HotScience" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="20"   BinaryOperation="Multiplication" Right="$(OwnedHotPlanets)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="GasGiantScience" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="20"   BinaryOperation="Multiplication" Right="$(OwnedGasPlanets)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+        <BinaryModifier TargetProperty="PlanetScience"		Operation="Addition"	Left="10"   BinaryOperation="Multiplication" Right="$(OwnedAnomalies)" Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeGas" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+        
+    <SimulationDescriptor Name="OrbScienceUpgrade" Type="StarSystemImprovement">
+        <Property Name="ExploredOrbs" 				BaseValue="1" />
+        <Modifier TargetProperty="ExploredOrbs"		Operation="Subtraction"	Value="1"   TooltipHidden="true" /> 
+        <Modifier TargetProperty="PlanetScience"	Operation="Addition"  Value="50"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredCloakedOrb" TooltipOverride="%OrbUpgradeS_S"/>
+        <BinaryModifier TargetProperty="SystemResearch"			Operation="Percent"		Left=".1"   BinaryOperation="Multiplication" Right="$(ExploredOrbs)" Path="./ClassColonizedStarSystem" TooltipOverride="%OrbUpgradeS_P"/>
+        <BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock"	Operation="Addition"	Left="10"   BinaryOperation="Multiplication" Right="$(ExploredOrbs)" Path="../ClassEmpire" TooltipOverride="%OrbUpgradeS_B"/>
+    </SimulationDescriptor>
+
+
+	<!-- FIDSI Orbs -->
+	<SimulationDescriptor Name="ModuleOrbEngineProbe"	Type="ModuleSupportExploration">
+		<Modifier TargetProperty="MaximumMovement"			Operation="Addition" Value="3"			Path="ModuleSupportExploration"/>
+		<Modifier TargetProperty="VisionRange"              Operation="Addition" Value="2"          Path="ModuleSupportExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock"    Operation="Addition" Value="2"          Path="ModuleSupportExploration"/>
+		<Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value=".25"        Path="ModuleSupportExploration"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="ModuleOrbScanner"		Type="ModuleSupportExploration">
+		<Modifier TargetProperty="VisionRange"              Operation="Addition" Value="6"          Path="ModuleSupportExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock"    Operation="Addition" Value="1"          Path="ModuleSupportExploration"/>
+		<Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value=".5"			Path="ModuleSupportExploration"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="GasGiantSpecInd"	Type="PlanetImprovement"> 
+        <Modifier           TargetProperty="PlanetInitialFoodPerPopulation"       Operation="Addition" Value="1"		Path="./ClassColonizedPlanet"/>
+        <Modifier           TargetProperty="PlanetIndustry"		 Operation="Addition" Value="20"	Path="./ClassColonizedPlanet"	TooltipOverride="%20_PlanetIndustry"/>
+        <Modifier           TargetProperty="PlanetInitialIndustryPerPopulation"   Operation="Addition" Value="3"		Path="./ClassColonizedPlanet" />
+        <Modifier           TargetProperty="PlanetInitialIndustryPerPopulation"   Operation="Addition" Value="5"		Path="./ClassColonizedPlanet,PlanetGameplayTypeTemperate" />
+        <Modifier           TargetProperty="PlanetInitialIndustryPerPopulation"   Operation="Addition" Value="5"		Path="./ClassColonizedPlanet,PlanetGameplayTypeHot" />
+        <Modifier           TargetProperty="PlanetInitialDustPerPopulation"       Operation="Addition" Value="2"		Path="./ClassColonizedPlanet" />
+        <Modifier           TargetProperty="PlanetInitialSciencePerPopulation"    Operation="Addition" Value="2"		Path="./ClassColonizedPlanet" />
+    </SimulationDescriptor>
+
+	<SimulationDescriptor Name="GasGiantSpecSci"	Type="PlanetImprovement"> 
+        <Modifier           TargetProperty="PlanetInitialFoodPerPopulation"       Operation="Addition" Value="1"		Path="./ClassColonizedPlanet" />
+        <Modifier           TargetProperty="PlanetInitialIndustryPerPopulation"   Operation="Addition" Value="2"		Path="./ClassColonizedPlanet" />
+        <Modifier           TargetProperty="PlanetInitialDustPerPopulation"       Operation="Addition" Value="2"		Path="./ClassColonizedPlanet" />
+        <Modifier           TargetProperty="PlanetScience"		 Operation="Addition" Value="20"	Path="./ClassColonizedPlanet"	TooltipOverride="%20_PlanetScience"/>
+        <Modifier           TargetProperty="PlanetInitialSciencePerPopulation"    Operation="Addition" Value="3"		Path="./ClassColonizedPlanet" />
+        <Modifier           TargetProperty="PlanetInitialSciencePerPopulation"   Operation="Addition" Value="5"			Path="./ClassColonizedPlanet,PlanetGameplayTypeTemperate" />
+        <Modifier           TargetProperty="PlanetInitialSciencePerPopulation"   Operation="Addition" Value="5"			Path="./ClassColonizedPlanet,PlanetGameplayTypeCold" />
+    </SimulationDescriptor>
+
+	<SimulationDescriptor Name="GasGiantSpecGen"	Type="PlanetImprovement"> 
+        <Modifier           TargetProperty="PlanetInitialFoodPerPopulation"       Operation="Addition" Value="4"		Path="./ClassColonizedPlanet" />
+        <Modifier           TargetProperty="PlanetInitialIndustryPerPopulation"   Operation="Addition" Value="4"		Path="./ClassColonizedPlanet" />
+        <Modifier           TargetProperty="PlanetInitialDustPerPopulation"       Operation="Addition" Value="5"		Path="./ClassColonizedPlanet" />
+        <Modifier           TargetProperty="PlanetInitialDustPerPopulation"       Operation="Addition" Value="5"		Path="./ClassColonizedPlanet,PlanetGameplayTypeTemperate" />
+        <Modifier           TargetProperty="PlanetInitialSciencePerPopulation"    Operation="Addition" Value="4"		Path="./ClassColonizedPlanet" />
+        <Modifier			TargetProperty="PlanetInitialPrestigePerPopulation"   Operation="Addition" Value="2"		Path="./ClassColonizedPlanet"/> 
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="OrbColonization" Type="StarSystemImprovement">
+    	<Property Name="ExploredOrbs" 				BaseValue="1" />
+        <Modifier TargetProperty="ExploredOrbs"		Operation="Subtraction"	Value="1"   TooltipHidden="true" /> 
+        <Modifier TargetProperty="RawMaximumPopulation"				Operation="Addition"  Value="2"    Path="./ClassColonizedStarSystem/ClassColonizedPlanet,ExploredCloakedOrb" TooltipOverride="%OrbColonization_P"/>
+        <BinaryModifier TargetProperty="MaximumSystemManpower"		Operation="Addition"	Left="100"   BinaryOperation="Multiplication" Right="$(ExploredOrbs)" Path="./ClassColonizedStarSystem" TooltipOverride="%OrbColonization_M"/>
+    </SimulationDescriptor>
+    
+        
+    
+<!-- Temple Granted Improvements -->
+    <SimulationDescriptor Name="HistoricalEnclave" Type="StarSystemImprovement"> <!-- Deep Mind -A- -->
+        <Modifier TargetProperty="SystemMoney"			Operation="Addition"	Value="20"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch"		Operation="Addition"	Value="30"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemEmpirePoint"	Operation="Addition"	Value="15"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="Enclaves"				Operation="Addition"	Value="1"	Path="../ClassEmpire/ClassColonizedStarSystem/Moon_SmSingC4_TA"	TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="EndlessEnclave" Type="StarSystemImprovement"> <!-- Deep Mind Upgrade -A- -->
+        <Modifier TargetProperty="SystemProduction"     Operation="Percent" 	Value="0.1"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch"		Operation="Addition"	Value="50"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemEmpirePoint"	Operation="Addition"	Value="5"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="Enclaves"				Operation="Addition"	Value="1"	Path="../ClassEmpire/ClassColonizedStarSystem/Moon_SmSingC4_TA"	TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ExoticResearchLab" Type="StarSystemImprovement"> <!-- Data Symphony Upgrade -B- -->
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="10"   BinaryOperation="Multiplication" Right="$(OwnedStrategicDeposits)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="10"   BinaryOperation="Multiplication" Right="$(OwnedLuxuryDeposits)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="WatchmakerChildFacility" Type="StarSystemImprovement"> <!-- Watchmaker Upgrade -C- -->
+        <Property Name="Export" 				BaseValue="1" />
+        <Modifier TargetProperty="Export"		Operation="Subtraction"	Value="1"   TooltipHidden="true" />        
+        <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition"	Left="40"   BinaryOperation="Multiplication" Right="$(Export)" Path="./ClassColonizedStarSystem" TooltipOverride="%WatchmakerChild_I_Tip" />
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="30"   BinaryOperation="Multiplication" Right="$(Export)" Path="./ClassColonizedStarSystem" TooltipOverride="%WatchmakerChild_S_Tip" />
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="GasHarvesters" Type="StarSystemImprovement"> <!-- Titan Wind -D- -->
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="10"  	BinaryOperation="Multiplication" Right="$(OwnedGasPlanets)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <BinaryModifier TargetProperty="SystemMoney"		Operation="Addition"	Left="30"  	BinaryOperation="Multiplication" Right="$(OwnedGasPlanets)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <Modifier 	TargetProperty="SystemMoney"         		Value=".1" 	Operation="Percent"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation" 		Value="1" 	Operation="Addition" Path="./ClassColonizedStarSystem/ClassPlanet,PlanetGameplayTypeGas"/>        
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="RestorationDrones" Type="StarSystemImprovement"> <!-- Titan Wind Upgrade -D- -->
+        <Modifier 	TargetProperty="SystemProduction"    		Value=".1"		Operation="Percent" 	Path="./ClassColonizedStarSystem"	/>
+        <Modifier   TargetProperty="PlanetDepletionPerTurn"     Operation="Subtraction"     Value="2"       Path="./ClassColonizedStarSystem/ClassPlanet"  />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipyardWorkCamps" Type="StarSystemImprovement"> <!-- Hunter's Reach -E- -->
+        <Modifier 			TargetProperty="MaximumSystemManpower"		 Operation="Addition"	 Value="100"	Path="../ClassColonizedStarSystem" />
+        <BinaryModifier     TargetProperty="ShipProductionCostReduction" Operation="Addition"	 Left="-.02" BinaryOperation="Multiplication" Right="$(NonMajorPopulationCount)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <BinaryModifier     TargetProperty="Happiness"      			 Operation="Subtraction" Left="2"	 BinaryOperation="Multiplication" Right="$(NonMajorPopulationCount)" Path="./ClassColonizedStarSystem"  SearchValueFromPath="true" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="EntertainmentSpec" Type="PlanetImprovement"> <!-- Expanded Beauty -F- -->
+        <BinaryModifier     TargetProperty="Happiness"          Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="./ClassColonizedPlanet"  SearchValueFromPath="true" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="OrbitalHydroponics" Type="StarSystemImprovement"> <!-- Metal Hearth -G- -->
+        <BinaryModifier TargetProperty="SystemGrowth"		Operation="Addition"	Left="5"   BinaryOperation="Multiplication" Right="$(OwnedMoons)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <BinaryModifier TargetProperty="SystemGrowth"		Operation="Addition"	Left="10"  	BinaryOperation="Multiplication" Right="$(OwnedPlanets)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="TemplePortal" Type="StarSystemImprovement"> <!-- Metal Hearth Upgrade -G- -->
+        <Modifier TargetProperty="HasPortal"    	Operation="Addition" Value="1" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem" TooltipOverride="%TemplePortal_Tip" />
+        <Modifier TargetProperty="CanUsePortals"    Operation="Addition" Value="1" Path="../ClassEmpire" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="BuildingTemplePortal"         Type="BuildingStarSystemImprovement"/>
+
+    <SimulationDescriptor Name="LunarOreDispatcher" Type="StarSystemImprovement"> <!-- Quantum Order -H- -->
+        <BinaryModifier TargetProperty="SystemProduction"		Operation="Addition"	Left="20"   BinaryOperation="Multiplication" Right="$(OwnedMoons)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="LunarCultureNetwork" Type="StarSystemImprovement"> <!-- Dust Archive Upgrade -I- -->
+        <Property Name="PopTypeCount" 				BaseValue="1" />
+        <Modifier TargetProperty="PopTypeCount"			Operation="Subtraction"	Value="1"	TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint"	Operation="Addition"	Left="3"   BinaryOperation="Multiplication" Right="$(PopTypeCount)"  Path="./ClassColonizedStarSystem" TooltipOverride="%CultureNetwork_I_Tip" />
+        <BinaryModifier TargetProperty="Happiness"			Operation="Addition"	Left="5"   BinaryOperation="Multiplication" Right="$(OwnedMoons)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LunarStrikeBase" Type="StarSystemImprovement"> <!-- Guardian's Post Upgrade -J- -->
+        <Modifier TargetProperty="MaximumSystemManpower"        	Operation="Addition" Value="100" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ExperiencePerTurn" 				Value="3" 	Operation="Addition" 	Path="./ClassColonizedStarSystem/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="GroundBattleBombardmentAttackerDamages" Operation="Addition" Value="750" Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="TempleBotOutpost" Type="StarSystemImprovement"> <!-- Infinite Caverns Upgrade -K- -->
+        <Property Name="BonusPercent" 				BaseValue=".25" MinValue="0" />
+        <Property Name="BonusValue" 				BaseValue="35" MinValue="5" />
+        <Modifier TargetProperty="BonusPercent"        	Operation="Subtraction" Value=".05" Path="../ClassEmpire/ColonizedStarSystemStateColony/TempleBotOutpost" TooltipHidden="true" />
+        <Modifier TargetProperty="BonusValue"        	Operation="Subtraction" Value="5" Path="../ClassEmpire/ColonizedStarSystemStateColony/TempleBotOutpost" TooltipHidden="true" />
+		<Modifier TargetProperty="Happiness" 			Operation="Addition" 	Value="5" 	Path="./ClassColonizedStarSystem" />
+		<Modifier TargetProperty="SystemGrowth" 		Operation="Addition" 	Value="$(BonusValue)" 	Path="./ClassColonizedStarSystem" TooltipOverride="%TempleBotOutpost_F_Tip"/>
+		<Modifier TargetProperty="SystemProduction" 	Operation="Addition" 	Value="$(BonusValue)" 	Path="./ClassColonizedStarSystem" TooltipOverride="%TempleBotOutpost_I_Tip"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"	Operation="Addition"	Value="$(BonusPercent)"  Path="./ClassColonizedStarSystem" TooltipOverride="%TempleBotOutpost_FIDSI_Tip" />
+    </SimulationDescriptor>
+
+ 	<SimulationDescriptor Name="WebAnchor" Type="StarSystemImprovement"> <!-- Stellar Web -L- -->
+        <Modifier TargetProperty="SystemResearch"		Operation="Addition"	Value="20"  Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="SystemEmpirePoint"	Operation="Addition"	Value="10"  Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="Happiness"			Operation="Addition"	Value="5"	Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="WebAnchors"			Operation="Addition"	Value="1"	Path="../ClassEmpire/ClassColonizedStarSystem/Moon_MultiG3_TL"	TooltipOverride="%WebAnchor_Tip"/>
+        <Modifier TargetProperty="WebAnchors"			Operation="Addition"	Value="1"	Path="../ClassEmpire/ClassColonizedStarSystem/Moon_MultiG4_TL"	TooltipHidden="true"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="WebBeacon" Type="StarSystemImprovement"> <!-- Stellar Web Upgrade -L- -->
+        <Property Name="WebBeacons" 				BaseValue="1" />
+        <Modifier TargetProperty="WebBeacons"			Operation="Subtraction"	Value="1"	TooltipHidden="true"/>
+        <Modifier TargetProperty="WebBeacons"			Operation="Addition"	Value="1"	Path="../ClassEmpire/ClassColonizedStarSystem/WebBeacon"	TooltipHidden="true"/>
+        <Modifier TargetProperty="WebBeacons"			Operation="Addition"	Value="1"	Path="../ClassEmpire/ClassColonizedStarSystem/Moon_MultiG4_TL"	TooltipOverride="%WebBeacon_S1_Tip"/>
+        <BinaryModifier TargetProperty="SystemResearch"	Operation="Addition"	Left="5"	BinaryOperation="Multiplication" Right="$(WebBeacons)" Path="./ClassColonizedStarSystem" TooltipOverride="%WebBeacon_S2_Tip"/>
+        <BinaryModifier TargetProperty="VisionRange"	Operation="Addition"	Left="3"	BinaryOperation="Multiplication" Right="$(WebBeacons)" Path="./ClassColonizedStarSystem" TooltipOverride="%WebBeacon_V_Tip"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="MolecularExtractors" Type="StarSystemImprovement"> <!-- Distributed Linkage -M- -->
+        <BinaryModifier TargetProperty="SystemProduction"	Operation="Percent"		Left="-.05" BinaryOperation="Multiplication" Right="$(OwnedStrategicDeposits)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+        <BinaryModifier TargetProperty="SystemMoney"		Operation="Subtraction"	Left="20"  	BinaryOperation="Multiplication" Right="$(OwnedStrategicDeposits)"  Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <Modifier TargetProperty="ResourceBonus"         	Operation="Addition" 	Value="3"	Path="./ClassColonizedStarSystem/ClassColonizedPlanet/ResourceTypeStrategic"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="CoreStackRouter" Type="StarSystemImprovement"> <!-- Core Stack -N- -->
+        <Modifier TargetProperty="MaximumEmpireProcessingPowerStock"	Operation="Addition"	Value="5" Path="../ClassEmpire" />
+        <Modifier TargetProperty="HackingWarpSpeed"			Operation="Percent"		Value=".02"  Path="../ClassEmpire" TooltipHidden="true"	Priority="0"/>
+        <Modifier TargetProperty="HackingNonWarpSpeed"		Operation="Percent"		Value=".02"  Path="../ClassEmpire" TooltipHidden="true"	Priority="0"/>
+        <Modifier TargetProperty="HackingNodeSpeed"			Operation="Percent"		Value=".02"  Path="../ClassEmpire" />
+    </SimulationDescriptor>
+
+
+
+</Datatable>
+

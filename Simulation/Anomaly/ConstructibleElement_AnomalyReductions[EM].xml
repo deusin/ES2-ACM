@@ -1,0 +1,1944 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/AnomalyReductionDefinition.xsd">
+
+<!-- Moon_Fake used as a prerequisite that can never be fullfilled. This keeps the reduction button greyed when a moon is fully developed -->
+
+<!-- Fake Reductions for tech screen -->
+	<AnomalyReductionDefinition Name="TechScreen_MoonExploration" Category="CategoryPlanetImprovement" SubCategory="SubCategoryExploration" >
+        <PathPrerequisite   Flags="Prerequisite,Discard,UnlockAvailability,Faction" Inverted="true">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>
+        <PathPrerequisite   Flags="Prerequisite,Discard,UnlockAvailability,Faction" Inverted="true">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+    </AnomalyReductionDefinition>
+	<AnomalyReductionDefinition Name="TechScreen_DevelopMoon" Category="CategoryPlanetImprovement" SubCategory="SubCategoryIndustry" >
+        <PathPrerequisite   Flags="Prerequisite,Discard,UnlockAvailability,Faction" Inverted="true">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>
+        <PathPrerequisite   Flags="Prerequisite,Discard,UnlockAvailability,Faction" Inverted="true">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="TechScreen_RestoreTemples" Category="CategoryPlanetImprovement" SubCategory="SubCategoryExploration" >
+        <PathPrerequisite   Flags="Prerequisite,Discard,UnlockAvailability,Faction" Inverted="true">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>
+        <PathPrerequisite   Flags="Prerequisite,Discard,UnlockAvailability,Faction" Inverted="true">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+    </AnomalyReductionDefinition>
+        
+<!-- Overwrite original moons for compatibility with other mods -->
+    <AnomalyReductionDefinition Name="AnomalyReduction25" Category="CategoryAnomalyReduction">
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="PlanetAnomaly25"/>
+        <ResultAnomaly Name="PlanetAnomaly25Reduced"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="AnomalyReduction25Alt" Category="CategoryAnomalyReduction">
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomaly25Alt"/>
+        <ResultAnomaly Name="PlanetAnomaly25Explored"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="AnomalyReduction26" Category="CategoryAnomalyReduction">
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomaly26"/>
+        <ResultAnomaly Name="PlanetAnomaly26Reduced"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="AnomalyReduction26Alt" Category="CategoryAnomalyReduction">
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomaly26Alt"/>
+        <ResultAnomaly Name="PlanetAnomaly26Explored"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="AnomalyReduction27" Category="CategoryAnomalyReduction">
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomaly27"/>
+        <ResultAnomaly Name="PlanetAnomaly27Reduced"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="AnomalyReduction27Alt" Category="CategoryAnomalyReduction">
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomaly27Alt"/>
+        <ResultAnomaly Name="PlanetAnomaly27Explored"/>
+    </AnomalyReductionDefinition>
+
+
+<!-- Cloaked Orbs -->
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_I1" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_I1_1"/>
+        <ResultAnomaly Name="CloakedOrb_I1_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_I1_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_I1_2"/>
+        <ResultAnomaly Name="CloakedOrb_I1_1"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_I2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_I2_1"/>
+        <ResultAnomaly Name="CloakedOrb_I2_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_I2_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_I2_2"/>
+        <ResultAnomaly Name="CloakedOrb_I2_1"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_I3" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_I3_1"/>
+        <ResultAnomaly Name="CloakedOrb_I3_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_I3_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_I3_2"/>
+        <ResultAnomaly Name="CloakedOrb_I3_1"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_D1" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_D1_1"/>
+        <ResultAnomaly Name="CloakedOrb_D1_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_D1_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_D1_2"/>
+        <ResultAnomaly Name="CloakedOrb_D1_1"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_D2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_D2_1"/>
+        <ResultAnomaly Name="CloakedOrb_D2_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_D2_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_D2_2"/>
+        <ResultAnomaly Name="CloakedOrb_D2_1"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_D3" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_D3_1"/>
+        <ResultAnomaly Name="CloakedOrb_D3_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_D3_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_D3_2"/>
+        <ResultAnomaly Name="CloakedOrb_D3_1"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_S1" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_S1_1"/>
+        <ResultAnomaly Name="CloakedOrb_S1_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_S1_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_S1_2"/>
+        <ResultAnomaly Name="CloakedOrb_S1_1"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_S2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_S2_1"/>
+        <ResultAnomaly Name="CloakedOrb_S2_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_S2_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_S2_2"/>
+        <ResultAnomaly Name="CloakedOrb_S2_1"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_S3" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_S3_1"/>
+        <ResultAnomaly Name="CloakedOrb_S3_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_S3_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_S3_2"/>
+        <ResultAnomaly Name="CloakedOrb_S3_1"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_FIDS1" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_FIDS1_1"/>
+        <ResultAnomaly Name="CloakedOrb_FIDS1_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_FIDS1_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_FIDS1_2"/>
+        <ResultAnomaly Name="CloakedOrb_FIDS1_1"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_FIDS2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_FIDS2_1"/>
+        <ResultAnomaly Name="CloakedOrb_FIDS2_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_FIDS2_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_FIDS2_2"/>
+        <ResultAnomaly Name="CloakedOrb_FIDS2_1"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_FIDS3" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+		<Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="CloakedOrb_FIDS3_1"/>
+        <ResultAnomaly Name="CloakedOrb_FIDS3_2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_CloakedOrb_FIDS3_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="CloakedOrb_FIDS3_2"/>
+        <ResultAnomaly Name="CloakedOrb_FIDS3_1"/>
+    </AnomalyReductionDefinition>
+
+
+<!-- Moon Reductions -->
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingA1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight=".5"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingA1"/>
+        <ResultAnomaly Name="Moon_SmSingA2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingA2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.25"/>
+        <Cost ResourceName="SystemProduction">280</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingA2"/>
+        <ResultAnomaly Name="Moon_SmSingA3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingA_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_SmSingA3"/>
+        <ResultAnomaly Name="Moon_SmSingA2"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingB1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingB1"/>
+        <ResultAnomaly Name="Moon_SmSingB2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingB2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">280</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingB2"/>
+        <ResultAnomaly Name="Moon_SmSingB3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingB_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_SmSingB3"/>
+        <ResultAnomaly Name="Moon_SmSingB2"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingE1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingE1"/>
+        <ResultAnomaly Name="Moon_SmSingE2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingE2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">280</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingE2"/>
+        <ResultAnomaly Name="Moon_SmSingE3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingE_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_SmSingE3"/>
+        <ResultAnomaly Name="Moon_SmSingE2"/>
+    </AnomalyReductionDefinition>
+    
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingA1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingA1"/>
+        <ResultAnomaly Name="Moon_MdSingA2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingA2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">420</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingA2"/>
+        <ResultAnomaly Name="Moon_MdSingA3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingA_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MdSingA3"/>
+        <ResultAnomaly Name="Moon_MdSingA2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingE1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingE1"/>
+        <ResultAnomaly Name="Moon_MdSingE2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingE2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+    	<SupervisorGain Name="Science" Weight="0.3"/>
+        <Cost ResourceName="SystemProduction">420</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingE2"/>
+        <ResultAnomaly Name="Moon_MdSingE3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingE_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MdSingE3"/>
+        <ResultAnomaly Name="Moon_MdSingE2"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingF1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingF1"/>
+        <ResultAnomaly Name="Moon_MdSingF2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingF2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+    	<SupervisorGain Name="Science" Weight="0.3"/>
+    	<SupervisorGain Name="Dust" Weight="0.2"/>
+        <Cost ResourceName="SystemProduction">420</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingF2"/>
+        <ResultAnomaly Name="Moon_MdSingF3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingF_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MdSingF3"/>
+        <ResultAnomaly Name="Moon_MdSingF2"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingB1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingB1"/>
+        <ResultAnomaly Name="Moon_MdSingB2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingB2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Dust" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">420</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingB2"/>
+        <ResultAnomaly Name="Moon_MdSingB3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingB_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MdSingB3"/>
+        <ResultAnomaly Name="Moon_MdSingB2"/>
+    </AnomalyReductionDefinition>
+    
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingA1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgSingA1"/>
+        <ResultAnomaly Name="Moon_LgSingA2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingA2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">490</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgSingA2"/>
+        <ResultAnomaly Name="Moon_LgSingA3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingA_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_LgSingA3"/>
+        <ResultAnomaly Name="Moon_LgSingA2"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryA1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_BinaryA1"/>
+        <ResultAnomaly Name="Moon_BinaryA2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryA2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">490</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_BinaryA2"/>
+        <ResultAnomaly Name="Moon_BinaryA3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryA_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_BinaryA3"/>
+        <ResultAnomaly Name="Moon_BinaryA2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryB1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_BinaryB1"/>
+        <ResultAnomaly Name="Moon_BinaryB2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryB2" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+        <Cost ResourceName="SystemProduction">490</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_BinaryB2"/>
+        <ResultAnomaly Name="Moon_BinaryB3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryB_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_BinaryB3"/>
+        <ResultAnomaly Name="Moon_BinaryB2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryC1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_BinaryC1"/>
+        <ResultAnomaly Name="Moon_BinaryC2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryC2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">490</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_BinaryC2"/>
+        <ResultAnomaly Name="Moon_BinaryC3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryC_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_BinaryC3"/>
+        <ResultAnomaly Name="Moon_BinaryC2"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryA1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgBinaryA1"/>
+        <ResultAnomaly Name="Moon_LgBinaryA2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryA2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">15</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">15</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgBinaryA2"/>
+        <ResultAnomaly Name="Moon_LgBinaryA3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryA_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_LgBinaryA3"/>
+        <ResultAnomaly Name="Moon_LgBinaryA2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryB1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgBinaryB1"/>
+        <ResultAnomaly Name="Moon_LgBinaryB2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryB2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">15</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">15</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgBinaryB2"/>
+        <ResultAnomaly Name="Moon_LgBinaryB3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryB_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_LgBinaryB3"/>
+        <ResultAnomaly Name="Moon_LgBinaryB2"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicA1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_VolcanicA1"/>
+        <ResultAnomaly Name="Moon_VolcanicA2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicA2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">490</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_VolcanicA2"/>
+        <ResultAnomaly Name="Moon_VolcanicA3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicA_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_VolcanicA3"/>
+        <ResultAnomaly Name="Moon_VolcanicA2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicB1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_VolcanicB1"/>
+        <ResultAnomaly Name="Moon_VolcanicB2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicB2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">490</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_VolcanicB2"/>
+        <ResultAnomaly Name="Moon_VolcanicB3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicB_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_VolcanicB3"/>
+        <ResultAnomaly Name="Moon_VolcanicB2"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenA1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+    	<SupervisorGain Name="Science"    Weight="1"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FrozenA1"/>
+        <ResultAnomaly Name="Moon_FrozenA2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenA2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.2"/>
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <Cost ResourceName="SystemProduction">280</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FrozenA2"/>
+        <ResultAnomaly Name="Moon_FrozenA3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenA_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_FrozenA3"/>
+        <ResultAnomaly Name="Moon_FrozenA2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenB1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight=".5"/>
+    	<SupervisorGain Name="Science"    Weight="1"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FrozenB1"/>
+        <ResultAnomaly Name="Moon_FrozenB2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenB2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <Cost ResourceName="SystemProduction">420</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FrozenB2"/>
+        <ResultAnomaly Name="Moon_FrozenB3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenB_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_FrozenB3"/>
+        <ResultAnomaly Name="Moon_FrozenB2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenC1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight=".5"/>
+    	<SupervisorGain Name="Science"    Weight="1"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>        
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FrozenC1"/>
+        <ResultAnomaly Name="Moon_FrozenC2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenC2" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Dust" Weight="0.5"/>
+    	<SupervisorGain Name="Science" Weight="0.5"/>
+        <Cost ResourceName="SystemProduction">420</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FrozenC2"/>
+        <ResultAnomaly Name="Moon_FrozenC3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenC_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_FrozenC3"/>
+        <ResultAnomaly Name="Moon_FrozenC2"/>
+    </AnomalyReductionDefinition>
+    
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileA1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="FoodGain"/>
+		<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileA1"/>
+        <ResultAnomaly Name="Moon_FertileA2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileA2" Category="CategoryAnomalyReduction">
+		<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />   
+        <Cost ResourceName="SystemProduction">420</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileA2"/>
+        <ResultAnomaly Name="Moon_FertileA3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileA_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_FertileA3"/>
+        <ResultAnomaly Name="Moon_FertileA2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileB1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="FoodGain"/>
+		<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Approval"   Weight="0.5"  />       
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileB1"/>
+        <ResultAnomaly Name="Moon_FertileB2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileB2" Category="CategoryAnomalyReduction">
+		<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  /> 
+        <Cost ResourceName="SystemProduction">420</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileB2"/>
+        <ResultAnomaly Name="Moon_FertileB3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileB_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_FertileB3"/>
+        <ResultAnomaly Name="Moon_FertileB2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileC1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="FoodGain"/>
+		<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />       
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileC1"/>
+        <ResultAnomaly Name="Moon_FertileC2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileC2" Category="CategoryAnomalyReduction">
+		<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <Cost ResourceName="SystemProduction">420</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileC2"/>
+        <ResultAnomaly Name="Moon_FertileC3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileC_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_FertileC3"/>
+        <ResultAnomaly Name="Moon_FertileC2"/>
+    </AnomalyReductionDefinition>
+    
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiA1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+		<SupervisorGain Name="Industry"       Weight="1"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiA1"/>
+        <ResultAnomaly Name="Moon_MultiA2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiA2" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">15</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">15</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiA2"/>
+        <ResultAnomaly Name="Moon_MultiA3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiA_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MultiA3"/>
+        <ResultAnomaly Name="Moon_MultiA2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiB1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+		<SupervisorGain Name="Industry"       Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiB1"/>
+        <ResultAnomaly Name="Moon_MultiB2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiB2" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />   
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">15</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">15</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiB2"/>
+        <ResultAnomaly Name="Moon_MultiB3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiB_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MultiB3"/>
+        <ResultAnomaly Name="Moon_MultiB2"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiC1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+		<SupervisorGain Name="Industry"       Weight="1"  />
+        <SupervisorGain Name="Food"   Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiC1"/>
+        <ResultAnomaly Name="Moon_MultiC2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiC2" Category="CategoryAnomalyReduction">
+		<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  /> 
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">15</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">15</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiC2"/>
+        <ResultAnomaly Name="Moon_MultiC3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiC_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MultiC3"/>
+        <ResultAnomaly Name="Moon_MultiC2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiD1" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+		<SupervisorGain Name="Industry"       Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiD1"/>
+        <ResultAnomaly Name="Moon_MultiD2"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiD2" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Science"    Weight="0.5"  /> 
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">15</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">15</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiD2"/>
+        <ResultAnomaly Name="Moon_MultiD3"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiD_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MultiD3"/>
+        <ResultAnomaly Name="Moon_MultiD2"/>
+    </AnomalyReductionDefinition>
+
+
+<!-- Temples -->
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingC1_TA" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingC1_TA"/>
+        <ResultAnomaly Name="Moon_SmSingC2_TA"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingC2_TA" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingC2_TA"/>
+        <ResultAnomaly Name="Moon_SmSingC3_TA"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingC3_TA" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Influence"       Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluencePlanet2</TechnologyPrerequisite>  <!-- SLC -->
+        <BaseAnomaly Name="Moon_SmSingC3_TA"/>
+        <ResultAnomaly Name="Moon_SmSingC4_TA"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingC_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_SmSingC4_TA"/>
+        <ResultAnomaly Name="Moon_SmSingC3_TA"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingC1_TB" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"   Weight="1"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingC1_TB"/>
+        <ResultAnomaly Name="Moon_MdSingC2_TB"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingC2_TB" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingC2_TB"/>
+        <ResultAnomaly Name="Moon_MdSingC3_TB"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingC3_E_TB" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_MdSingC3_TB"/>
+        <ResultAnomaly Name="Moon_MdSingC4_E_TB"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingC3_S_TB" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_MdSingC3_TB"/>
+        <ResultAnomaly Name="Moon_MdSingC4_S_TB"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingC4_S_TB" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Science"       Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_MdSingC4_E_TB"/>
+        <ResultAnomaly Name="Moon_MdSingC5_ES_TB"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingC4_E_TB" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Dust"    Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_MdSingC4_S_TB"/>
+        <ResultAnomaly Name="Moon_MdSingC5_ES_TB"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingC_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MdSingC5_ES_TB"/>
+        <ResultAnomaly Name="Moon_SmSingC4_S_TB"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD1_TC" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_BinaryD1_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD2_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD2_TC" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_BinaryD2_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD3_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD3-4_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Science"    Weight="1"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_BinaryD3_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD4_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD4-3_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight="1"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_BinaryD4_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD3_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD3-5_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight=".5"  />
+        <SupervisorGain Name="Science"    Weight=".5"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_BinaryD3_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD5_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD4-5_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight=".5"  />
+        <SupervisorGain Name="Science"    Weight=".5"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_BinaryD4_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD5_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD5-3_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight="1"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_BinaryD5_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD3_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD5-4_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Science"    Weight="1"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_BinaryD5_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD4_TC"/>
+    </AnomalyReductionDefinition>
+    <!-- Upgrade C -->
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD3-6_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight=".5"  />
+        <SupervisorGain Name="Science"    Weight=".5"  />
+        <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+        <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_BinaryD3_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD6_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD4-7_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight=".5"  />
+        <SupervisorGain Name="Science"    Weight=".5"  />
+        <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+        <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_BinaryD4_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD7_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD5-8_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight=".5"  />
+        <SupervisorGain Name="Science"    Weight=".5"  />
+        <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+        <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_BinaryD5_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD8_TC"/>
+    </AnomalyReductionDefinition>
+    <!-- Upgrade C Modes -->
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD6-7_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Science"    Weight="1"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_BinaryD6_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD7_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD7-6_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight="1"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_BinaryD7_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD6_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD6-8_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight=".5"  />
+        <SupervisorGain Name="Science"    Weight=".5"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_BinaryD6_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD8_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD7-8_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight=".5"  />
+        <SupervisorGain Name="Science"    Weight=".5"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_BinaryD7_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD8_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD8-6_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"    Weight="1"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_BinaryD8_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD6_TC"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_BinaryD8-7_TC" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Science"    Weight="1"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_BinaryD8_TC"/>
+        <ResultAnomaly Name="Moon_BinaryD7_TC"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryC1_TD" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgBinaryC1_TD"/>
+        <ResultAnomaly Name="Moon_LgBinaryC2_TD"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryC2_TD" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgBinaryC2_TD"/>
+        <ResultAnomaly Name="Moon_LgBinaryC3_TD"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryC3_TD" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Military"   Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_LgBinaryC3_TD"/>
+        <ResultAnomaly Name="Moon_LgBinaryC4_TD"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgBinaryC_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_LgBinaryC4_TD"/>
+        <ResultAnomaly Name="Moon_LgBinaryC3_S_TD"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicC1_TE" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_VolcanicC1_TE"/>
+        <ResultAnomaly Name="Moon_VolcanicC2_TE"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicC2_TE" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_VolcanicC2_TE"/>
+        <ResultAnomaly Name="Moon_VolcanicC3_TE"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicC3_S_TE" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Military"       Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_VolcanicC3_TE"/>
+        <ResultAnomaly Name="Moon_VolcanicC4_S_TE"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicC3_T_TE" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Military"       Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_VolcanicC3_TE"/>
+        <ResultAnomaly Name="Moon_VolcanicC4_T_TE"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicC4_S_TE" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Military"       Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyPlayDeck7</TechnologyPrerequisite>  <!-- Deny Mil -->
+        <BaseAnomaly Name="Moon_VolcanicC4_S_TE"/>
+        <ResultAnomaly Name="Moon_VolcanicC4_ST_TE"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicC4_T_TE" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Military"       Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyPlayDeck7</TechnologyPrerequisite>  <!-- Deny Mil -->
+        <BaseAnomaly Name="Moon_VolcanicC4_T_TE"/>
+        <ResultAnomaly Name="Moon_VolcanicC4_ST_TE"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_VolcanicC_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_VolcanicC4_ST_TE"/>
+        <ResultAnomaly Name="Moon_VolcanicC4_T_TE"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenD1_TF" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Science" Weight="1"/>
+    	<SupervisorGain Name="Industry" Weight="0.5"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FrozenD1_TF"/>
+        <ResultAnomaly Name="Moon_FrozenD2_TF"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenD2_TF" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FrozenD2_TF"/>
+        <ResultAnomaly Name="Moon_FrozenD3_TF"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenD3_TF" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Influence"   Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndustry6</TechnologyPrerequisite>  <!-- Ultratough Ind -->
+        <BaseAnomaly Name="Moon_FrozenD3_TF"/>
+        <ResultAnomaly Name="Moon_FrozenD4_TF"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FrozenD_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_FrozenD4_TF"/>
+        <ResultAnomaly Name="Moon_FrozenD3_TF"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileD1_TG" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Approval"   Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileD1_TG"/>
+        <ResultAnomaly Name="Moon_FertileD2_TG"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileD2_TG" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileD2_TG"/>
+        <ResultAnomaly Name="Moon_FertileD3_TG"/>
+    </AnomalyReductionDefinition>
+        <AnomalyReductionDefinition Name="Reduction_Moon_FertileD3_TG" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Military"   Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyPlayDeck7</TechnologyPrerequisite>  <!-- Deny Mil -->
+        <BaseAnomaly Name="Moon_FertileD3_TG"/>
+        <ResultAnomaly Name="Moon_FertileD4_TG"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileD_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_FertileD4_TG"/>
+        <ResultAnomaly Name="Moon_FertileD3_TG"/>
+    </AnomalyReductionDefinition>
+
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileE1_TH" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Approval"   Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileE1_TH"/>
+        <ResultAnomaly Name="Moon_FertileE2_TH"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileE2_TH" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_FertileE2_TH"/>
+        <ResultAnomaly Name="Moon_FertileE3_TH"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileE3_TH" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndustry6</TechnologyPrerequisite>  <!-- Ultratough Ind -->
+        <BaseAnomaly Name="Moon_FertileE3_TH"/>
+        <ResultAnomaly Name="Moon_FertileE4_TH"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_FertileE_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_FertileE4_TH"/>
+        <ResultAnomaly Name="Moon_FertileE3_TH"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiE1_TI" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Approval"   Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiE1_TI"/>
+        <ResultAnomaly Name="Moon_MultiE2_TI"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiE2_TI" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiE2_TI"/>
+        <ResultAnomaly Name="Moon_MultiE3_TI"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiE3_TI" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Prestige"   	Weight="0.5"  />
+        <SupervisorGain Name="Dust"   		Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluencePlanet2</TechnologyPrerequisite>  <!-- SLC -->
+        <BaseAnomaly Name="Moon_MultiE3_TI"/>
+        <ResultAnomaly Name="Moon_MultiE4_TI"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiE_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MultiE4_TI"/>
+        <ResultAnomaly Name="Moon_MultiE3_TI"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiF1_TJ" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Approval"   Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiF1_TJ"/>
+        <ResultAnomaly Name="Moon_MultiF2_TJ"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiF2_TJ" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiF2_TJ"/>
+        <ResultAnomaly Name="Moon_MultiF3_TJ"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiF3_TJ" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Military"       Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyPlayDeck7</TechnologyPrerequisite>  <!-- Deny Mil -->
+        <BaseAnomaly Name="Moon_MultiF3_TJ"/>
+        <ResultAnomaly Name="Moon_MultiF4_TJ"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiF_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MultiF4_TJ"/>
+        <ResultAnomaly Name="Moon_MultiF3_TJ"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingB1_TK" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgSingB1_TK"/>
+        <ResultAnomaly Name="Moon_LgSingB2_TK"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingB2_TK" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgSingB2_TK"/>
+        <ResultAnomaly Name="Moon_LgSingB3_TK"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingB3_TK" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+         <Cost ResourceName="Strategic1" Instant="true">30</Cost>
+         <Cost ResourceName="Strategic2" Instant="true">30</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <BaseAnomaly Name="Moon_LgSingB3_TK"/>
+        <ResultAnomaly Name="Moon_LgSingB4_TK"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingB4_TK" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">30</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">20</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_LgSingB4_TK"/>
+        <ResultAnomaly Name="Moon_LgSingB5_TK"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingB5_TK" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Industry"   Weight="0.25"  />
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">30</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">30</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndustry6</TechnologyPrerequisite>  <!-- Ultratough Ind -->
+        <BaseAnomaly Name="Moon_LgSingB5_TK"/>
+        <ResultAnomaly Name="Moon_LgSingB6_TK"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingB6_TK" Category="CategoryAnomalyReduction">
+    	 <Tags>NoBuyout</Tags>
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">60</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">60</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndToDust</TechnologyPrerequisite> 
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyIndustry6</TechnologyPrerequisite>  <!-- Ultratough Ind -->
+        <BaseAnomaly Name="Moon_LgSingB6_TK"/>
+        <ResultAnomaly Name="Moon_LgSingB7_TK"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_LgSingB_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_LgSingB7_TK"/>
+        <ResultAnomaly Name="Moon_LgSingB6_TK"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiG1_TL" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Approval"   Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiG1_TL"/>
+        <ResultAnomaly Name="Moon_MultiG2_TL"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiG2_TL" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MultiG2_TL"/>
+        <ResultAnomaly Name="Moon_MultiG3_TL"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiG3_TL" Category="CategoryAnomalyReduction">
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Military"   Weight="0.2"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+         <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" 	Flags="Technology,Prerequisite,Discard">TechnologyInfluencePlanet2</TechnologyPrerequisite>  <!-- SLC -->
+        <BaseAnomaly Name="Moon_MultiG3_TL"/>
+        <ResultAnomaly Name="Moon_MultiG4_TL"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MultiG_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MultiG4_TL"/>
+        <ResultAnomaly Name="Moon_MultiG3_TL"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingD1_TM" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Approval"   Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingD1_TM"/>
+        <ResultAnomaly Name="Moon_MdSingD2_TM"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingD2_TM" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="1"  />
+        <SupervisorGain Name="Industry"   Weight="1"  />
+        <SupervisorGain Name="Science"    Weight="1"  />
+        <SupervisorGain Name="Dust"       Weight="1"  />
+        <SupervisorGain Name="Approval"   Weight="1"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_MdSingD2_TM"/>
+        <ResultAnomaly Name="Moon_MdSingD3_TM"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingD3_TM" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+         <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" 	Flags="Technology,Prerequisite,Discard">TechnologyFreeMovement2</TechnologyPrerequisite>  <!-- N-Dim Sci -->
+        <BaseAnomaly Name="Moon_MdSingD3_TM"/>
+        <ResultAnomaly Name="Moon_MdSingD4_TM"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingD4_TM" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Prestige"   Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">2</Cost>
+         <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic5" Instant="true">10</Cost>
+         <Cost ResourceName="Strategic6" Instant="true">10</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" 	Flags="Technology,Prerequisite,Discard">TechnologyIndustry6</TechnologyPrerequisite>  <!-- Ultratough Ind -->
+        <BaseAnomaly Name="Moon_MdSingD4_TM"/>
+        <ResultAnomaly Name="Moon_MdSingD5_TM"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_MdSingD_Fake" Category="CategoryAnomalyReduction">
+        <PathPrerequisite	Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>         
+        <BaseAnomaly Name="Moon_MdSingD5_TM"/>
+        <ResultAnomaly Name="Moon_MdSingD4_TM"/>
+    </AnomalyReductionDefinition>
+    
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingD1_TN" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Approval"   Weight="0.5"  />
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">1</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyScience2</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingD1_TN"/>
+        <ResultAnomaly Name="Moon_SmSingD2_TN"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingD2_TN" Category="CategoryAnomalyReduction">
+    	<SupervisorGain Name="Food"       Weight="0.5"  />
+        <SupervisorGain Name="Industry"   Weight="0.5"  />
+        <SupervisorGain Name="Science"    Weight="0.5"  />
+        <SupervisorGain Name="Dust"       Weight="0.5"  />
+        <SupervisorGain Name="Approval"   Weight="0.5"  />
+         <Cost ResourceName="SystemTurnBased">3</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+         <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+         <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyInfluence1</TechnologyPrerequisite> 
+        <BaseAnomaly Name="Moon_SmSingD2_TN"/>
+        <ResultAnomaly Name="Moon_SmSingD3_TN"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingD3_3-4_TN" Category="CategoryAnomalyReduction">
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <BaseAnomaly Name="Moon_SmSingD3_TN"/>
+        <ResultAnomaly Name="Moon_SmSingD4_TN"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingD3_3-5_TN" Category="CategoryAnomalyReduction">
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <BaseAnomaly Name="Moon_SmSingD3_TN"/>
+        <ResultAnomaly Name="Moon_SmSingD5_TN"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingD3_4-3_TN" Category="CategoryAnomalyReduction">
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <BaseAnomaly Name="Moon_SmSingD4_TN"/>
+        <ResultAnomaly Name="Moon_SmSingD3_TN"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingD3_4-5_TN" Category="CategoryAnomalyReduction">
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <BaseAnomaly Name="Moon_SmSingD4_TN"/>
+        <ResultAnomaly Name="Moon_SmSingD5_TN"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingD3_5-3_TN" Category="CategoryAnomalyReduction">
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <BaseAnomaly Name="Moon_SmSingD5_TN"/>
+        <ResultAnomaly Name="Moon_SmSingD3_TN"/>
+    </AnomalyReductionDefinition>
+    <AnomalyReductionDefinition Name="Reduction_Moon_SmSingD3_5-4_TN" Category="CategoryAnomalyReduction">
+         <Cost ResourceName="SystemTurnBased">1</Cost>
+        <BaseAnomaly Name="Moon_SmSingD5_TN"/>
+        <ResultAnomaly Name="Moon_SmSingD4_TN"/>
+    </AnomalyReductionDefinition>
+
+    
+    
+<!-- Temple granted reductions -->
+    <AnomalyReductionDefinition Name="Reduction_Ring_A" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <PathPrerequisite	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/Moon_FrozenD4_TF</PathPrerequisite>         
+        <BaseAnomaly Name="PlanetAnomaly07"/>
+        <ResultAnomaly Name="Moon_SmSingB2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_Ring_H" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="IndustryGain"/>
+    	<SupervisorGain Name="Industry" Weight="1"/>
+   		<Tags>NoBuyout</Tags>
+        <Cost ResourceName="SystemTurnBased">2</Cost>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <PathPrerequisite	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/Moon_FrozenD4_TF</PathPrerequisite>         
+        <BaseAnomaly Name="PlanetAnomaly08"/>
+        <ResultAnomaly Name="Moon_SmSingB2"/>
+    </AnomalyReductionDefinition>
+
+    <AnomalyReductionDefinition Name="Reduction_DestroyedMoon" Category="CategoryAnomalyReduction">
+        <AIGain RessourceName="ApprovalGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+        <SupervisorGain Name="Approval"   	Weight="1"  />
+    	<SupervisorGain Name="Industry" 	Weight="1"/>
+        <Cost ResourceName="SystemTurnBased">4</Cost>
+        <Cost ResourceName="SystemProduction">3360</Cost>
+        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
+        <PathPrerequisite	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/Moon_FrozenD4_TF</PathPrerequisite>
+    	<BaseAnomaly Name="Moon_LgSingB7_TK"/>
+        <ResultAnomaly Name="Moon_SmSingB2"/>
+    </AnomalyReductionDefinition>
+
+
+</Datatable>

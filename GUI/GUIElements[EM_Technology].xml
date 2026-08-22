@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    
+<!-- Economy Quad -->
+
+    <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade2UmbralChoir" X="1.5" Y="0">
+        <Title>%TechnologyDefinitionEconomyAndTrade2Title</Title>
+        <Description>%TechnologyDefinitionEconomyAndTrade2Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade2Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+    
+    <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade4Vampirilis" X="-1" Y="0">
+        <Title>%TechnologyDefinitionEconomyAndTrade4Title</Title>
+        <Description>%TechnologyDefinitionEconomyAndTrade4Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade4Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade4UmbralChoir" X="-1" Y="0">
+        <Title>%TechnologyDefinitionEconomyAndTrade4Title</Title>
+        <Description>%TechnologyDefinitionEconomyAndTrade4Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade4Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+    
+    <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade6UmbralChoir" X="-3.3" Y="0">
+        <Title>%TechnologyDefinitionEconomyAndTrade6Title</Title>
+        <Description>%TechnologyDefinitionEconomyAndTrade6Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade6Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+    
+	<TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade8Vampirilis" X="3.5" Y="0">
+		<Title>%TechnologyDefinitionEconomyAndTrade8Title</Title>
+		<Description>%TechnologyDefinitionEconomyAndTrade8Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade8Small" />
+    	</Icons>
+	</TechnologyGuiElement2>
+
+	<TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade8UmbralChoir" X="3.5" Y="0">
+		<Title>%TechnologyDefinitionEconomyAndTrade8Title</Title>
+		<Description>%TechnologyDefinitionEconomyAndTrade8Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade8Small" />
+    	</Icons>
+	</TechnologyGuiElement2>
+	
+	
+<!-- Science Quad -->
+
+	<TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExploration25Vampirilis" X="3.3" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExploration25Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExploration25Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration25Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExploration25UmbralChoir" X="3.3" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExploration25Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExploration25Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration25Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+	
+	<!-- old moon exploration in Baryonic Shielding -->
+<!-- 
+	<TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExploration4Vampirilis" X="-1" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExploration4Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExploration4Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration4Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+	<TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExploration4UmbralChoir" X="-1" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExploration4Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExploration4Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration4Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+ -->
+
+    <TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExploration5UmbralChoir" X="-2.195" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExploration5Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExploration5Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration5Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+    
+    <TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExploration8UmbralChoir" X="2.10" Y="0">
+      <Title>%TechnologyDefinitionScienceAndExploration8Title</Title>
+      <Description>%TechnologyDefinitionScienceAndExploration8Description</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration8Small" />
+      </Icons>
+    </TechnologyGuiElement2>
+    
+    <TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExploration17UmbralChoir" X="4.75" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExploration17Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExploration17Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration17Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+    
+    
+<!-- Empire Quad -->
+	<TechnologyGuiElement2 Name="TechnologyDefinitionEmpireDevelopment6Vampirilis" X="-1.15" Y="0">
+        <Title>%TechnologyDefinitionEmpireDevelopment6Title</Title>
+        <Description>%TechnologyDefinitionEmpireDevelopment6Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEmpireDevelopment6Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+    
+    <TechnologyGuiElement2 Name="TechnologyDefinitionEmpireDevelopment6UmbralChoir" X="-1.15" Y="0">
+        <Title>%TechnologyDefinitionEmpireDevelopment6Title</Title>
+        <Description>%TechnologyDefinitionEmpireDevelopment6Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEmpireDevelopment6Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+	
+</Datatable>

@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+     
+	<!-- to display moon system models on planets -->
+	<SimulationDescriptor Name="PlanetAnomaly25" Type="PlanetAnomaly" />
+	<SimulationDescriptor Name="PlanetAnomaly26" Type="PlanetAnomaly" />
+	<SimulationDescriptor Name="PlanetAnomaly27" Type="PlanetAnomaly" />
+	
+    <SimulationDescriptor Name="PlanetAnomaly"              Type="PlanetAnomaly" /> <!-- Cancel default PlanetAnomaly counting -->
+     	
+	<SimulationDescriptor Name="DevelopedMoon"      	 Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="DevelopedMoons"       Value="1" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarInfrastructure" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="DevelopedMoons"       Value="1" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarTourism" TooltipHidden="true"/>    
+     	<Modifier TargetProperty="DevelopedMoons"       Value="1" 	Operation="Addition" Path="/LunarResearchSpec" TooltipHidden="true"/>    
+     	<Modifier TargetProperty="DevelopedMoons"       Value="1" 	Operation="Addition" Path="/LunarMiningSpec" 	TooltipHidden="true"/>    
+   </SimulationDescriptor>
+	<SimulationDescriptor Name="DevelopedMoon2"      	 Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="DevelopedMoons"       Value="2" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarInfrastructure" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="DevelopedMoons"       Value="2" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarTourism" TooltipHidden="true"/>    
+     	<Modifier TargetProperty="DevelopedMoons"       Value="2" 	Operation="Addition" Path="/LunarResearchSpec" TooltipHidden="true"/>    
+     	<Modifier TargetProperty="DevelopedMoons"       Value="2" 	Operation="Addition" Path="/LunarMiningSpec" 	TooltipHidden="true"/>    
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="DevelopedMoon3"      	 Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="DevelopedMoons"       Value="3" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarInfrastructure" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="DevelopedMoons"       Value="3" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarTourism" TooltipHidden="true"/>    
+     	<Modifier TargetProperty="DevelopedMoons"       Value="3" 	Operation="Addition" Path="/LunarResearchSpec" TooltipHidden="true"/>    
+     	<Modifier TargetProperty="DevelopedMoons"       Value="3" 	Operation="Addition" Path="/LunarMiningSpec" 	TooltipHidden="true"/>    
+    </SimulationDescriptor>
+
+	<SimulationDescriptor Name="ExploredMoon"      	 	Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="ExploredMoons"       Value="1" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarInfrastructure" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="ExploredMoons"       Value="1" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarTourism" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="ExploredMoons"       Value="1" 	Operation="Addition" Path="/LunarResearchSpec" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="ExploredMoons"       Value="1" 	Operation="Addition" Path="/LunarMiningSpec" 	TooltipHidden="true"/>    
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="ExploredMoon2"      	 	Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="ExploredMoons"       Value="2" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarInfrastructure" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="ExploredMoons"       Value="2" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarTourism" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="ExploredMoons"       Value="2" 	Operation="Addition" Path="/LunarResearchSpec" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="ExploredMoons"       Value="2" 	Operation="Addition" Path="/LunarMiningSpec" 	TooltipHidden="true"/>    
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="ExploredMoon3"      	 	Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="ExploredMoons"       Value="3" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarInfrastructure" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="ExploredMoons"       Value="3" 	Operation="Addition" Path="./ClassColonizedStarSystem/LunarTourism" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="ExploredMoons"       Value="3" 	Operation="Addition" Path="/LunarResearchSpec" TooltipHidden="true"/>    
+    	<Modifier TargetProperty="ExploredMoons"       Value="3" 	Operation="Addition" Path="/LunarMiningSpec" 	TooltipHidden="true"/>    
+    </SimulationDescriptor>
+    
+	<SimulationDescriptor Name="CloakedOrb"      	 		Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="EndlessTech"       Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/Moon_SmSingD3_TN" TooltipHidden="true"/>
+    	<Modifier TargetProperty="EndlessTech"       Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/Moon_SmSingD4_TN" TooltipHidden="true"/>
+    	<Modifier TargetProperty="EndlessTech"       Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/Moon_SmSingD5_TN" TooltipHidden="true"/>
+    	<Modifier TargetProperty="EndlessTech"       Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/EndlessTechInfiltration" TooltipHidden="true"/>
+    	<Modifier TargetProperty="GuildMultiplier"   Value="1" 	Operation="Addition" Path="./ClassColonizedStarSystem/HunterGuilds" TooltipHidden="true"/>
+    	<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    
+	<SimulationDescriptor Name="ExploredCloakedOrb"      	 		Type="PlanetAnomaly" />
+
+    
+	<SimulationDescriptor Name="UndiscoveredMoonTemple"      Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="GuildMultiplier"   Value="1" 	Operation="Addition" Path="./ClassColonizedStarSystem/HunterGuilds" TooltipHidden="true"/>
+    	<Modifier TargetProperty="EndlessTech"       Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/EndlessTechInfiltration" TooltipHidden="true"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="MoonTemple"      	 		Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="EndlessTech"       Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/Moon_SmSingD3_TN" TooltipHidden="true"/>
+    	<Modifier TargetProperty="EndlessTech"       Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/Moon_SmSingD4_TN" TooltipHidden="true"/>
+    	<Modifier TargetProperty="EndlessTech"       Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/Moon_SmSingD5_TN" TooltipHidden="true"/>
+    	<Modifier TargetProperty="EndlessTech"       Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/EndlessTechInfiltration" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    
+     <SimulationDescriptor Name="ET_A"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_B_S"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_C"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_D"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_E"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_F"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_G"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_H"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_K"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_L"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_M"      	     Type="PlanetAnomaly" />
+     <SimulationDescriptor Name="ET_N"      	     Type="PlanetAnomaly" />
+    
+    
+<!-- Cloaked Orbs -->
+
+	<!-- Industry Orbs -->
+	<!-- Orb: Foundry -->
+    <SimulationDescriptor Name="CloakedOrb_I1_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_I1_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="PlanetIndustry"       Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="ClassPlanet" />
+        <Modifier TargetProperty="SystemProduction"     			Value=".15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="ResourceBonus"       				Operation="Addition" Value="2"     Path="./ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit"/>        
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    
+	<!-- Orb: Shipyard -->
+    <SimulationDescriptor Name="CloakedOrb_I2_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_I2_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+        <Modifier TargetProperty="SystemProduction"     			Value=".15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="ShipProductionCostReduction"		Value="-.15" Operation="Addition" Path="./ClassColonizedStarSystem" />
+		<Modifier TargetProperty="ExperienceAtShipCreation" Operation="Addition" Value="60"  Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem/ClassGarrison"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="200" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Orb: Manufactory -->
+    <SimulationDescriptor Name="CloakedOrb_I3_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_I3_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="BuildingProductionCostReduction"	Value="-.15" Operation="Addition" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Dust Orbs -->
+	<!-- Orb: Vault -->
+    <SimulationDescriptor Name="CloakedOrb_D1_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_D1_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="EmpireMoney"	Operation="Addition" Left=".005" BinaryOperation="Percent" Right="$(BankAccount)" Path="../ClassEmpire" SearchValueFromPath="true" TooltipOverride="%OrbD_D_Tip"/>
+        <Modifier TargetProperty="SystemMoney"     					Value=".15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Orb: Trade Hub -->
+    <SimulationDescriptor Name="CloakedOrb_D2_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_D2_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="PlanetDust"       Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="ClassPlanet" />
+        <Modifier TargetProperty="SystemMoney"     					Value=".15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries"        	Value="1" Operation="Addition" Path="../ClassEmpire" />
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Orb: Dust Institute -->
+    <SimulationDescriptor Name="CloakedOrb_D3_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_D3_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+        <Modifier TargetProperty="SystemMoney"     					Value=".15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="DustInflationModifier"            Operation="Percent"        Value="-0.15"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumHackingOperationsCount"    Value="1"	Operation="Addition"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Science Orbs -->
+	<!-- Orb: Archive -->
+    <SimulationDescriptor Name="CloakedOrb_S1_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_S1_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="PlanetScience"       Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="ClassPlanet" />
+        <Modifier TargetProperty="SystemResearch"     				Value=".15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="TechnologyCostQuadrantScienceAndExplorationMultiplier"         	Value="-.1" Operation="Percent"  Path="../ClassEmpire/ClassResearch"/>
+    </SimulationDescriptor>
+
+	<!-- Orb: Processing Array -->
+    <SimulationDescriptor Name="CloakedOrb_S2_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_S2_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+        <Modifier TargetProperty="SystemResearch"     				Value=".15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumEmpireProcessingPowerStock"	Value="15" 	Operation="Addition"  Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Orb: Research Center -->
+    <SimulationDescriptor Name="CloakedOrb_S3_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_S3_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="SystemResearch"		Operation="Addition"	Left="20"   BinaryOperation="Multiplication" Right="$(OwnedAnomalies)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+        <Modifier TargetProperty="SystemResearch"     				Value=".15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="VisionRange"         				Value="8" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- FIDSI Orbs -->
+	<!-- Orb: Trove -->
+    <SimulationDescriptor Name="CloakedOrb_FIDS1_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_FIDS1_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+    	<Modifier TargetProperty="PlanetInitialFIDSIPerPopulation"     				Value="2" Operation="Addition" Path="./ClassColonizedStarSystem/ClassPlanet"/>
+    	<Modifier TargetProperty="SystemFIDSIPercent"     			Value=".1" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="OverColonizationThreshold"        Value="1"   Operation="Addition"     Path="../ClassEmpire" />    
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Orb: Frameworks -->
+    <SimulationDescriptor Name="CloakedOrb_FIDS2_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_FIDS2_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+    	<Modifier TargetProperty="SystemFIDSIPercent"     			Value=".1" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumJuggernauts"				Value="1" 	Operation="Addition"  Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Orb: Metropolis -->
+    <SimulationDescriptor Name="CloakedOrb_FIDS3_1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemFIDSIPercent"     			Value=".05" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="CloakedOrb_FIDS3_2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbIndustryUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbDustUpgrade"		TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbScienceUpgrade"	TooltipHidden="true"/>
+        <Modifier TargetProperty="ExploredOrbs"						Operation="Addition"	Value="1"  Path="./ClassColonizedStarSystem/OrbColonization"	TooltipHidden="true"/>
+    	<Modifier TargetProperty="SystemFIDSIPercent"     			Value=".1" Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="Happiness"         				Value="10" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"         	Value="100" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="RawMaximumPopulation"				Value="1"	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+
+<!-- Moons -->  
+
+	<!-- Small -->
+    <SimulationDescriptor Name="Moon_SmSingA1" Type="PlanetAnomaly" >
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingA2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry"    				Value="10" 	Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingA3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry"    				Value="10" 	Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_SmSingB1" Type="PlanetAnomaly" >
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingB2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingB3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15" 	Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_SmSingE1" Type="PlanetAnomaly" >
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingE2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry" 					Value="10"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetDust"    					Value="10" 	Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetDust"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    	Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingE3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="10" 	Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetDust"    					Value="10" 	Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetDust"/>
+        <Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_SmSingC1_TA" Type="PlanetAnomaly" >
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingC2_TA" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3"	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_SmSingD1_TN" Type="PlanetAnomaly" >
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingD2_TN" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3"	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Medium -->
+    <SimulationDescriptor Name="Moon_MdSingA1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingA2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingA3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="5" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.08"	Operation="Percent"   Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_MdSingE1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingE2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="10"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingE3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="10"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.05"	Operation="Percent"   Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_MdSingF1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingF2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialDustPerPopulation" 					Value="2"	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingF3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.05"	Operation="Percent"   Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_MdSingB1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingB2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetDust" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetDust"/>
+	   <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingB3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetDust" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetDust"/>
+        <Modifier TargetProperty="SystemMoney"     					Value="0.1"	Operation="Percent"   Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_MdSingC1_TB" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingC2_TB" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="3"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_MdSingD1_TM" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingD2_TM" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="3"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    
+	<!-- Large -->
+    <SimulationDescriptor Name="Moon_LgSingA1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgSingA2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgSingA3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="5" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_LgSingB1_TK" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgSingB2_TK" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="3"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+	<!-- Binary -->
+    <SimulationDescriptor Name="Moon_BinaryA1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetIndustry" 					Value="5"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%5_PlanetIndustry"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryA2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="3" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryA3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			 Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				 Value="2" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				 Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_BinaryB1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetIndustry" 					Value="5"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%5_PlanetIndustry"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryB2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			 Value="2" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    			 	Value="2" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryB3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			 Value="3" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.08" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				 Value="2" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				 Value="3" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				 Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_BinaryC1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetIndustry" 					Value="5"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%5_PlanetIndustry"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryC2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    			 	Value="4" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryC3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="3" Operation="Addition" Path="ClassColonizedPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemMoney"     					Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="RawMaximumPopulation" 			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_BinaryD1_TC" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetIndustry" 					Value="5"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%5_PlanetIndustry"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryD2_TC" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="3"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    
+	<!-- Large Binary -->
+    <SimulationDescriptor Name="Moon_LgBinaryA1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="RawMaximumPopulation" 			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgBinaryA2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="4" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="RawMaximumPopulation" 			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgBinaryA3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="2" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="RawMaximumPopulation" 			Value="2" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_LgBinaryB1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="RawMaximumPopulation" 			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgBinaryB2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="3" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="RawMaximumPopulation" 			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgBinaryB3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemResearch"     				Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="RawMaximumPopulation" 			Value="2" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_LgBinaryC1_TD" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="RawMaximumPopulation" 			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgBinaryC2_TD" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="3"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="RawMaximumPopulation" 			Value="1" Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    
+	<!-- Volcanic -->
+    <SimulationDescriptor Name="Moon_VolcanicA1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_VolcanicA2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="3" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="30"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.08" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_VolcanicA3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="30"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_VolcanicB1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    </SimulationDescriptor>
+        <SimulationDescriptor Name="Moon_VolcanicB2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="3" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="30"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.08" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="2" Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_VolcanicB3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="30"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="3" Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+ 
+    <SimulationDescriptor Name="Moon_VolcanicC1_TE" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_VolcanicC2_TE" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="30"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="3"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+	<!-- Frozen -->
+    <SimulationDescriptor Name="Moon_FrozenA1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="1" Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FrozenA2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry" 					Value="5"	Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%5_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="1"	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetScience" 					Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetScience"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FrozenA3" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry" 					Value="5"	Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%5_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3"	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetScience" 					Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetScience"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_FrozenB1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="1" Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FrozenB2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry" 					Value="10"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FrozenB3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="10"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemResearch"     				Value="0.15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_FrozenC1" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="1" Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FrozenC2" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetDust" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetDust"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FrozenC3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="3" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetDust" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetDust"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemResearch"     				Value="0.15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_FrozenD1_TF" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="1" Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FrozenD2_TF" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    
+	<!-- Fertile -->
+    <SimulationDescriptor Name="Moon_FertileA1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileA2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetFood" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetFood"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="5"   Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%5_PlanetIndustry"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileA3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="6" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetFood" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetFood"/>
+        <Modifier TargetProperty="SystemGrowth"     				Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="5"  	Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%5_PlanetIndustry"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_FertileB1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileB2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetFood" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetFood"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileB3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="5" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetFood" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetFood"/>
+        <Modifier TargetProperty="SystemGrowth"     				Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="5" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_FertileC1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileC2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetFood" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetFood"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="10"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileC3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="5" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetFood" 						Value="20"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetFood"/>
+        <Modifier TargetProperty="SystemGrowth"     				Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="10"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%10_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_FertileD1_TG" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileD2_TG" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_FertileE1_TH" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileE2_TH" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+	<!-- Multiple -->
+    <SimulationDescriptor Name="Moon_MultiA1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiA2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiA3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="5" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_MultiB1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiB2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiB3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemMoney"     					Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_MultiC1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiC2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetFood" 						Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetFood"/>
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiC3" Type="PlanetAnomaly" >
+		<Modifier TargetProperty="PlanetInitialFoodPerPopulation"   Value="1" 	Operation="Addition" Path="ClassPlanet"/>    
+        <Modifier TargetProperty="PlanetFood" 						Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetFood"/>
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"	Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    	<Modifier TargetProperty="SystemProduction"     			Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"   Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+     	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"	Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_MultiD1" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiD2" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiD3" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="15"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%15_PlanetIndustry"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="SystemResearch"     				Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_MultiE1_TI" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiE2_TI" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="Moon_MultiF1_TJ" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiF2_TJ" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="Moon_MultiG1_TL" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiG2_TL" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+
+
+<!-- Restored Temples -->
+
+<!-- ET: Deep Mind A -->
+	<SimulationDescriptor Name="Moon_SmSingC3_TA" Type="PlanetAnomaly" >
+        <BinaryModifier TargetProperty="EmpireMoney"          	Operation="Addition" Left=".01" BinaryOperation="Percent" Right="$(BankAccount)" Path="../ClassEmpire" SearchValueFromPath="true" TooltipOverride="%TempleInterest_Tip"/>
+		<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <BinaryModifier TargetProperty="EmpireResearch" Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(CuriositiesDiscovered)" Path="../ClassEmpire" SearchValueFromPath="true" />
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumEmpireProcessingPowerStock"	Value="20" 	Operation="Addition"  Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+	<SimulationDescriptor Name="Moon_SmSingC4_TA" Type="PlanetAnomaly" >
+		<Property Name="Enclaves" 				BaseValue="1" />
+		<Modifier TargetProperty="Enclaves"       Value="1" 	Operation="Subtraction"	TooltipHidden="true" />
+        <BinaryModifier TargetProperty="EmpireMoney"          	Operation="Addition" Left=".01" BinaryOperation="Percent" Right="$(BankAccount)" Path="../ClassEmpire" SearchValueFromPath="true" TooltipOverride="%TempleInterest_Tip"/>
+		<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <BinaryModifier TargetProperty="EmpireResearch" 	Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(CuriositiesDiscovered)" Path="../ClassEmpire" SearchValueFromPath="true" />
+        <Modifier TargetProperty="SystemEmpirePoint" 				Value=".4" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemFIDSIPercent"    Operation="Addition" 	Left=".02" 	BinaryOperation="Multiplication" Right="$(Enclaves)" Path="./ClassColonizedStarSystem" TooltipOverride="%DeepMind_FIDSI_Tip" />
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumEmpireProcessingPowerStock"	Value="20" 	Operation="Addition"  Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+    
+<!-- ET: Data Symphony B -->
+    <SimulationDescriptor Name="Moon_MdSingC3_TB" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemMoney"        				Value=".25" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="DustInflationModifier"            Operation="Percent"        Value="-0.2"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumHackingOperationsCount"    Operation="Addition"        Value="1"   Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingC4_E_TB" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemMoney"        				Value=".4" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="DustInflationModifier"            Operation="Percent"        Value="-0.2"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumNumberOfTradingCompanyHeadquarters"        	Value="1" Operation="Addition" Path="../ClassEmpire" />
+        <Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries"        	Value="1" Operation="Addition" Path="../ClassEmpire" />
+        <Modifier TargetProperty="MaximumHackingOperationsCount"    Operation="Addition"        Value="1"   Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingC4_S_TB" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemMoney"        				Value=".25" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="6" Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="DustInflationModifier"            Operation="Percent"        Value="-0.2"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumHackingOperationsCount"    Operation="Addition"        Value="1"   Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingC5_ES_TB" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemMoney"        				Value=".4" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="6" Operation="Addition" Path="ClassPlanet"/>
+  		<Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="DustInflationModifier"            Operation="Percent"        Value="-0.2"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumNumberOfTradingCompanyHeadquarters"        	Value="1" Operation="Addition" Path="../ClassEmpire" />
+        <Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries"        	Value="1" Operation="Addition" Path="../ClassEmpire" />
+        <Modifier TargetProperty="MaximumHackingOperationsCount"    Operation="Addition"        Value="1"   Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+
+<!-- ET: Watchmaker C -->    
+    <SimulationDescriptor Name="Moon_BinaryD3_TC" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry"    				Value="100" Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%100_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"        			Value=".25" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryD4_TC" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetScience"    				Value="150" Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%150_PlanetScience"/>
+        <Modifier TargetProperty="SystemResearch"        			Value=".25" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryD5_TC" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemProduction"    				Value=".1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch"        			Value=".1" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="Export"						Operation="Addition"	Value="1"  Path="../ClassEmpire/ClassColonizedStarSystem/WatchmakerChildFacility"	TooltipOverride="%WatchmakerExport_Tip"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryD6_TC" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetIndustry"    				Value="200" Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%200_PlanetIndustry"/>
+        <Modifier TargetProperty="SystemProduction"        			Value=".4" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryD7_TC" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetScience"    				Value="300" Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%300_PlanetScience"/>
+        <Modifier TargetProperty="SystemResearch"        			Value=".4" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_BinaryD8_TC" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemProduction"    				Value=".1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch"        			Value=".1" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="Export"						Operation="Addition"	Value="1.5"  Path="../ClassEmpire/ClassColonizedStarSystem/WatchmakerChildFacility"	TooltipOverride="%WatchmakerExport_Upgraded_Tip"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+ 
+ <!-- ET: Titan Wind D -->
+    <SimulationDescriptor Name="Moon_LgBinaryC3_TD" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetFood"    					Value="20" Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%20_PlanetFood"/>
+        <Modifier TargetProperty="SystemProduction"        			Value=".25" Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumMovement" 					Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassGarrisonFleet/ClassShip,AutomatedShip" TooltipHidden="true" />
+        <Modifier TargetProperty="MaximumMovement"        			Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassGarrison/ClassShip" />
+        <Modifier TargetProperty="MaximumMovement"         			Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true" />
+        <Modifier TargetProperty="FreeMovementSpeed"                Value=".5" 	Operation="Addition"    Path="../ClassEmpire/ClassGarrisonFleet/ClassShip" />
+        <Modifier TargetProperty="BaseFreeMovementSpeed"            Value=".5" 	Operation="Addition"    Path="../ClassEmpire" TooltipHidden="true" />
+        <Modifier TargetProperty="RawMaximumPopulation" 			Value="2"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgBinaryC4_TD" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetFood"    					Value="30" Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetFood"/>
+        <Modifier TargetProperty="SystemProduction"        			Value=".4" 	Operation="Percent" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumMovement" 					Value="1" 	Operation="Addition" Path="../ClassEmpire/ClassGarrisonFleet/ClassShip,AutomatedShip" />
+        <Modifier TargetProperty="MaximumMovement"        			Value="2" 	Operation="Addition" Path="../ClassEmpire/ClassGarrison/ClassShip" />
+        <Modifier TargetProperty="MaximumMovement"         			Value="2" 	Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true" />
+        <Modifier TargetProperty="FreeMovementSpeed"                Value=".5" 	Operation="Addition"    Path="../ClassEmpire/ClassGarrisonFleet/ClassShip" />
+        <Modifier TargetProperty="BaseFreeMovementSpeed"            Value=".5" 	Operation="Addition"    Path="../ClassEmpire" TooltipHidden="true" />
+        <Modifier TargetProperty="RawMaximumPopulation" 			Value="2"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="1" TooltipHidden="true"/> <!-- extra, so counts as two -->
+    </SimulationDescriptor>
+
+<!-- ET: Hunter's Reach E -->
+    <SimulationDescriptor Name="Moon_VolcanicC3_TE" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="30"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="ShipProductionCostReduction"		Value="-.15" Operation="Addition" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"        	Value="200" 	Operation="Addition" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumEmpireManpowerStock"   	Value="1000"  Operation="Addition" Path="../ClassEmpire"/>
+        <Modifier TargetProperty="PlayDeckUnlockedSlotsCount"   	Value="1"	Operation="Addition"   Path="../ClassEmpire"    />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_VolcanicC4_S_TE" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="30"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="ShipProductionCostReduction"		Value="-.4" Operation="Addition" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"        	Value="200" 	Operation="Addition" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumEmpireManpowerStock"   	Value="1000"  Operation="Addition" Path="../ClassEmpire"/>
+        <Modifier TargetProperty="PlayDeckUnlockedSlotsCount"   	Value="1"	Operation="Addition"   Path="../ClassEmpire"    />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_VolcanicC4_T_TE" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="30"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="ShipProductionCostReduction"		Value="-.15" Operation="Addition" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"        	Value="200" 	Operation="Addition" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumEmpireManpowerStock"   	Value="1000"  Operation="Addition" Path="../ClassEmpire"/>
+        <Modifier TargetProperty="PlayDeckUnlockedSlotsCount"   	Value="1"	Operation="Addition"   Path="../ClassEmpire"    />
+        <Modifier TargetProperty="MaximumManpowerPerGroundBattleTurn" 	Value="100" Operation="Addition"  Path="../ClassEmpire" />
+        <Modifier TargetProperty="TroopDamageBonuses"           	Value="0.2" Operation="Addition" Path="../ClassEmpire"  />
+        <Modifier TargetProperty="TroopHealthBonuses"           	Value="0.2" Operation="Addition" Path="../ClassEmpire"  />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_VolcanicC4_ST_TE" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetIndustry" 					Value="30"  Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%30_PlanetIndustry"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="ShipProductionCostReduction"		Value="-.4" Operation="Addition" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" 	Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"        	Value="200" 	Operation="Addition" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumEmpireManpowerStock"   	Value="1000"  Operation="Addition" Path="../ClassEmpire"/>
+        <Modifier TargetProperty="PlayDeckUnlockedSlotsCount"   	Value="1"	Operation="Addition"   Path="../ClassEmpire"    />
+        <Modifier TargetProperty="MaximumManpowerPerGroundBattleTurn" 	Value="100" Operation="Addition"  Path="../ClassEmpire" />
+        <Modifier TargetProperty="TroopDamageBonuses"           	Value="0.2" Operation="Addition" Path="../ClassEmpire"  />
+        <Modifier TargetProperty="TroopHealthBonuses"           	Value="0.2" Operation="Addition" Path="../ClassEmpire"  />
+    </SimulationDescriptor>
+
+<!-- ET: Expanded Beauty F -->    
+    <SimulationDescriptor Name="Moon_FrozenD3_TF" Type="PlanetAnomaly" >
+        <BinaryModifier TargetProperty="SystemMoney"          Operation="Percent" Left=".04" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetScience"    				Value="50" Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%50_PlanetScience"/>
+        <BinaryModifier TargetProperty="SystemResearch"       Operation="Percent" Left=".04" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+        <BinaryModifier TargetProperty="SystemEmpirePoint"    Operation="Percent" Left=".04" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="Happiness"         				Value="10" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="VisionRange"						Value="15" Operation="Addition" Path="./ClassColonizedStarSystem"/> 
+		<BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock"    Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(Population)" Path="../ClassEmpire" TooltipOverride="%ExpandedBeauty_BW_Tip" />
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FrozenD4_TF" Type="PlanetAnomaly" >
+        <BinaryModifier TargetProperty="SystemMoney"          Operation="Percent" Left=".07" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="5" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetScience"    				Value="50" Operation="Addition" Path="ClassColonizedPlanet"	TooltipOverride="%50_PlanetScience"/>
+        <BinaryModifier TargetProperty="SystemResearch"       Operation="Percent" Left=".07" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+        <BinaryModifier TargetProperty="SystemEmpirePoint"    Operation="Percent" Left=".07" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="Happiness"         				Value="10" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="VisionRange"						Value="20" Operation="Addition" Path="./ClassColonizedStarSystem"/> 
+		<BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock"    Operation="Addition" Left="6" BinaryOperation="Multiplication" Right="$(Population)" Path="../ClassEmpire" TooltipOverride="%ExpandedBeauty_BW2_Tip" />
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+<!-- ET: Metal Hearth G -->
+    <SimulationDescriptor Name="Moon_FertileD3_TG" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemGrowth"        				Value=".25" Operation="Percent" Path="./ClassColonizedStarSystem" />
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="6" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="OverColonizationThreshold"        Value="1"   Operation="Addition"     Path="../ClassEmpire" />
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileD4_TG" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemGrowth"        				Value=".4" 	Operation="Percent" Path="./ClassColonizedStarSystem" />
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="6" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="OverColonizationThreshold"        Value="2"   Operation="Addition"     Path="../ClassEmpire" />    
+        <Modifier TargetProperty="HasPortal"    Operation="Addition" Value="1" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem" TooltipOverride="%TemplePortal_Tip" />
+        <Modifier TargetProperty="CanUsePortals"    		Operation="Addition" Value="1" Path="../ClassEmpire" TooltipHidden="true"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+
+<!-- ET: Quantum Order H -->
+    <SimulationDescriptor Name="Moon_FertileE3_TH" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"        		Value=".2" 	Operation="Addition" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="OverColonizationThreshold"        Value="1"   Operation="Addition" Path="../ClassEmpire"/>
+        <Modifier TargetProperty="HackingWarpSpeed"     			Value="0.1"  Operation="Percent" Path="../ClassEmpire" Priority="0"/>
+        <Modifier TargetProperty="HackingNonWarpSpeed" 				Value="0.1"  Operation="Percent" Path="../ClassEmpire" TooltipHidden="true" />
+        <Modifier TargetProperty="HackingNodeSpeed"     			Value="0.1"  Operation="Percent" Path="../ClassEmpire" TooltipHidden="true" />
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_FertileE4_TH" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialDustPerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemFIDSIPercent"        		Value=".3" 	Operation="Addition" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="OverColonizationThreshold"        Value="2"   Operation="Addition" Path="../ClassEmpire"/>
+        <Modifier TargetProperty="LawUpkeepMultiplier"           	Value="-.2" Operation="Percent" Path="../ClassEmpire"  />
+        <Modifier TargetProperty="NumberOfActiveLawSlots"           Value="1"   Operation="Addition" Path="../ClassEmpire/ClassSenate"  />
+        <Modifier TargetProperty="HackingWarpSpeed"     			Value="0.15"  Operation="Percent" Path="../ClassEmpire" Priority="0"/>
+        <Modifier TargetProperty="HackingNonWarpSpeed" 				Value="0.15"  Operation="Percent" Path="../ClassEmpire" TooltipHidden="true" />
+        <Modifier TargetProperty="HackingNodeSpeed"     			Value="0.15"  Operation="Percent" Path="../ClassEmpire" TooltipHidden="true" />
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+<!-- ET: Dust Archive I -->
+    <SimulationDescriptor Name="Moon_MultiE3_TI" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <BinaryModifier TargetProperty="SystemMoney"        Operation="Percent" Left=".05" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemEmpirePoint"         		Value=".15" 	Operation="Percent"  Path="./ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="Happiness"         	Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="TradingRouteIncomeModifier"       Value=".5" 	Operation="Percent"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiE4_TI" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+        <BinaryModifier TargetProperty="SystemMoney"        Operation="Percent" Left=".1" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemEmpirePoint"         		Value=".3" 	Operation="Percent"  Path="./ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="Happiness"         	Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(PopulationTypeCount)" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="TradingRouteIncomeModifier"       Value="1" 	Operation="Percent"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PopTypeCount"         	Value="$(PopulationTypeCount)" Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/LunarCultureNetwork" TooltipHidden="true" />
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+
+<!-- ET: Guardian's Post J -->
+    <SimulationDescriptor Name="Moon_MultiF3_TJ" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition"	Path="ClassPlanet"/>
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    			Value="4" 	Operation="Addition"	Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"	Path="./ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ExperiencePerTurn" 				Value="7" 	Operation="Addition" 	Path="./ClassColonizedStarSystem/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumSystemManpower"        	Operation="Addition" Value="200" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumCommandPoints"             Value="2"   Operation="Addition"	Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumJuggernauts"               Operation="Addition"    Value="1"   Path="../ClassEmpire" />
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition"	Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiF4_TJ" Type="PlanetAnomaly" >
+    	<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition"	Path="ClassPlanet"/>    	
+    	<Modifier TargetProperty="PlanetInitialSciencePerPopulation"    			Value="4" 	Operation="Addition"	Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"	Path="./ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ExperiencePerTurn" 				Value="10" 	Operation="Addition" 	Path="./ClassColonizedStarSystem/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumSystemManpower"        	Operation="Addition" Value="200" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="GroundBattleBombardmentAttackerDamages" Operation="Addition" Value="2000" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumCommandPoints"             Value="3"   Operation="Addition"	Path="../ClassEmpire"/>
+        <Modifier TargetProperty="MaximumJuggernauts"               Operation="Addition"    Value="2"   Path="../ClassEmpire" />
+        <Modifier TargetProperty="RawMaximumPopulation"				Value="2" 	Operation="Addition"	Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+
+<!-- ET: Infinite Caverns K -->
+    <SimulationDescriptor Name="Moon_LgSingB3_TK" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="4"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation" 			Value="1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgSingB4_TK" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="4"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation" 			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgSingB5_TK" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="5"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation" 			Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgSingB6_TK" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="SystemProduction"     			Value="0.1" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="5"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation" 			Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_LgSingB7_TK" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="-6" Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="-25" Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="RawMaximumPopulation" 			Value="-1" 	Operation="Addition" Path="ClassPlanet"/>
+    </SimulationDescriptor>
+    
+<!-- ET: Stellar Web L -->
+    <SimulationDescriptor Name="Moon_MultiG3_TL" Type="PlanetAnomaly" >
+        <Property Name="WebAnchors" 				BaseValue="1" />
+        <Modifier TargetProperty="WebAnchors"        				Value="1" 	Operation="Subtraction" TooltipHidden="true"/>
+        <Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <BinaryModifier TargetProperty="SystemMoney"    Operation="Addition" 	Left="50"	BinaryOperation="Multiplication" Right="$(WebAnchors)" Path="./ClassColonizedStarSystem" TooltipOverride="%StellarWeb_D_Tip" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="4"	 Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"	/>
+        <Modifier TargetProperty="RawMaximumPopulation" 			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MultiG4_TL" Type="PlanetAnomaly" >
+        <Property Name="WebAnchors" 				BaseValue="1" />
+        <Property Name="WebBeacons" 				BaseValue="1" />
+        <Modifier TargetProperty="WebAnchors"        				Value="1" 	Operation="Subtraction" TooltipHidden="true"/>
+        <Modifier TargetProperty="WebBeacons"        				Value="1" 	Operation="Subtraction" TooltipHidden="true"/>
+        <Modifier TargetProperty="PlanetInitialFoodPerPopulation"    				Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <BinaryModifier TargetProperty="SystemMoney"    Operation="Addition" 	Left="50" 	BinaryOperation="Multiplication" Right="$(WebAnchors)" Path="./ClassColonizedStarSystem" TooltipOverride="%StellarWeb_D_Tip" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     			Value="4"	 Operation="Addition" Path="ClassPlanet"/>
+        <BinaryModifier TargetProperty="SystemResearch" Operation="Addition" 	Left="100"	BinaryOperation="Multiplication" Right="$(WebBeacons)" Path="./ClassColonizedStarSystem" TooltipOverride="%StellarWeb_S_Tip" />
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="VisionRange"         				Value="10" 	Operation="Addition"  Path="./ClassColonizedStarSystem"	TooltipOverride="%StellarWeb_V_Tip" />
+        <BinaryModifier TargetProperty="VisionRange"	Operation="Addition"	Left="3"	BinaryOperation="Multiplication" Right="$(WebBeacons)" Path="./ClassColonizedStarSystem" TooltipHidden="true" />
+        <Modifier TargetProperty="RawMaximumPopulation" 			Value="2" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="OwnedMoons"  						Operation="Addition" Value="2" TooltipHidden="true"/> <!-- extra, so counts as three -->
+    </SimulationDescriptor>
+
+<!-- ET: Distributed Linkage M -->
+    <SimulationDescriptor Name="Moon_MdSingD3_TM" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemProduction"     			Value="0.15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch"     				Value="0.15" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialFIDSPerPopulation"    				Value="3" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"	/>
+        <Modifier TargetProperty="MaximumEmpireProcessingPowerStock"	Value="10" 	Operation="Addition"  Path="../ClassEmpire"	/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingD4_TM" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemProduction"     			Value="0.2" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch"     				Value="0.2" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialFIDSPerPopulation"    				Value="4" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumEmpireProcessingPowerStock"	Value="15" 	Operation="Addition"  Path="../ClassEmpire"	/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_MdSingD5_TM" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="SystemProduction"     			Value="0.25" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch"     				Value="0.25" Operation="Percent" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="PlanetInitialFIDSIPerPopulation"    				Value="5" 	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="10" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumEmpireProcessingPowerStock"	Value="20" 	Operation="Addition"  Path="../ClassEmpire"	/>
+        <Modifier TargetProperty="VisionRange"         				Value="10" 	Operation="Addition"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    
+<!-- ET: Core Stack N -->
+    <SimulationDescriptor Name="Moon_SmSingD3_TN" Type="PlanetAnomaly" >
+    	<Property Name="EndlessTech"	BaseValue="1" />
+        <Modifier TargetProperty="EndlessTech"         				Value="1" 	Operation="Subtraction" TooltipHidden="true" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="5"	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetPrestige"    				Value="30" Operation="Addition" Path="ClassPlanet"	TooltipOverride="%30_PlanetPrestige"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"	/>
+        <BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock"	Operation="Addition"  Left="10" BinaryOperation="Multiplication" Right="$(EndlessTech)" Path="../ClassEmpire" TooltipOverride="%CoreStack_BW_Tip" />
+        <Modifier TargetProperty="MaximumHackingOperationsCount"    Operation="Addition"        Value="1"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="HackingSpeedMultiplierForOthers" 	Value="-.3" Operation="Percent"  Path="./ClassColonizedStarSystem"	/>
+        <Modifier TargetProperty="SeesTraitors" 					Value="1" Operation="Addition"  Path="./ClassColonizedStarSystem" TooltipOverride="%CoreStack_Traitor_Tip" />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingD4_TN" Type="PlanetAnomaly" >
+    	<Property Name="EndlessTech"	BaseValue="1" />
+        <Modifier TargetProperty="EndlessTech"         				Value="1" 	Operation="Subtraction" TooltipHidden="true" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="5"	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"	/>
+        <Modifier TargetProperty="MaximumEmpireProcessingPowerStock" 	Value="50" Operation="Addition"  Path="../ClassEmpire"	/>
+        <BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock"	Operation="Addition"  Left="20" BinaryOperation="Multiplication" Right="$(EndlessTech)" Path="../ClassEmpire" TooltipOverride="%CoreStack_BW2_Tip" />
+        <Modifier TargetProperty="MaximumHackingOperationsCount"    Operation="Addition"        Value="1"   Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="Moon_SmSingD5_TN" Type="PlanetAnomaly" >
+    	<Property Name="EndlessTech"	BaseValue="1" />
+        <Modifier TargetProperty="EndlessTech"         				Value="1" 	Operation="Subtraction" TooltipHidden="true" />
+        <Modifier TargetProperty="PlanetInitialSciencePerPopulation"    				Value="5"	Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="Happiness"         				Value="5" 	Operation="Addition"  Path="./ClassColonizedStarSystem"	/>
+        <BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock"	Operation="Addition"  Left="10" BinaryOperation="Multiplication" Right="$(EndlessTech)" Path="../ClassEmpire" TooltipOverride="%CoreStack_BW_Tip" />
+        <Modifier TargetProperty="MaximumHackingOperationsCount"    Operation="Addition"        Value="1"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="HackingWarpSpeed"					Operation="Percent"		Value=".3"  	Path="../ClassEmpire"	Priority="0"	TooltipOverride="%CoreStack_Hack_Tip" />
+        <Modifier TargetProperty="HackingNonWarpSpeed"				Operation="Percent"		Value=".3" 		Path="../ClassEmpire"	Priority="0"	TooltipHidden="true" />
+    </SimulationDescriptor>
+
+    
+       
+</Datatable>
