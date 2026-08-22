@@ -45,8 +45,12 @@ $WorktreeRoot = 'C:\Users\Kenny\source\worktrees'
 $Mods = @{
     esg        = @{ Id = '2828917317'; Index = 'ESCM.xml';                  IndexAs = 'ACM.xml'; KeepIcon = $true;  Extra = @{} }
     usc        = @{ Id = '3384708155'; Index = 'UsefulSkillColoursESG.xml'; IndexAs = $null;     KeepIcon = $false; Extra = @{ 'CHANGES.txt' = 'Documentation\UsefulSkillColours-CHANGES.txt' } }
-    moretraits = @{ Id = '932777803';  Index = 'MoreTraits.xml';            IndexAs = $null;     KeepIcon = $false; Extra = @{} }
-    poltrees   = @{ Id = '2856109167'; Index = 'PolTrees.xml';              IndexAs = $null;     KeepIcon = $false; Extra = @{} }
+    # More Traits / Political Skill Trees: their english locale file shares ESG's path; master keeps them
+    # as ES2_Localization_Locales[MoreTraits].xml / ES2_Localization_Locales_PoliticalTrees.xml.
+    moretraits = @{ Id = '932777803';  Index = 'MoreTraits.xml';            IndexAs = $null;     KeepIcon = $false; Extra = @{}
+                    Rename = { param($rel) if ($rel -match '^Localization\\(.+)\\ES2_Localization_Locales\.xml$') { return "Localization\$($Matches[1])\ES2_Localization_Locales[MoreTraits].xml" }; return $rel } }
+    poltrees   = @{ Id = '2856109167'; Index = 'PolTrees.xml';              IndexAs = $null;     KeepIcon = $false; Extra = @{}
+                    Rename = { param($rel) if ($rel -match '^Localization\\(.+)\\ES2_Localization_Locales\.xml$') { return "Localization\$($Matches[1])\ES2_Localization_Locales_PoliticalTrees.xml" }; return $rel } }
     # Endless Legend Populations is merged into ACM's own folders: every file is renamed with an
     # [ELP] suffix so it sits next to ESG's files without replacing any (ACM.xml's wildcards pick
     # them up). Master then patches the drop (deletes SimulationDescriptors[ELP_ColonizedStarSystem],
@@ -104,7 +108,7 @@ $Mods = @{
                         }
                     } }
 }
-$AlwaysSkip = @('PublishedFile.Id', '.DS_Store', 'Thumbs.db')
+$AlwaysSkip = @('PublishedFile.Id', '.DS_Store', 'Thumbs.db', 'ASASA.jpg')
 # NOTE: mod file names contain [brackets]; every path cmdlet below must use -LiteralPath.
 
 $m      = $Mods[$Mod]
