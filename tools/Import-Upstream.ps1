@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp')]
+    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr')]
     [string]$Mod,
 
     # Stage and show the diff in the worktree but do not commit or remove the worktree.
@@ -69,6 +69,38 @@ $Mods = @{
                             '^Simulation\\PopulationModifiersTraits\[(.+)\]\.xml$'       { return "Simulation\Traits\PopulationModifiersTraits[ELP_$($Matches[1])].xml" }
                             '^Simulation\\SimulationDescriptors\[(.+)\]\.xml$'           { return "Simulation\SimulationDescriptors[ELP_$($Matches[1])].xml" }
                             default                                                      { return $rel }
+                        }
+                    } }
+    # Minor Heroes Reimagined [ESG+PST] (mdel). New content gets an [MHR] suffix; the drop's partial
+    # copies of ESG/USC files (HeroDefinitions*, ConstructibleElement_Industry[PlanetColonization],
+    # GuiElements[Extended], GUIElements[HeroSkills], GalaxyGenerator/WeightTableDefinitions) land as
+    # [MHR_*] files that master grafts into ACM's own copies and deletes - see README.
+    mhr        = @{ Id = '3771413185'; Index = 'MinorHeroesReimaginedESGPST.xml'; IndexAs = $null; KeepIcon = $false; Extra = @{}
+                    Rename = {
+                        param($rel)
+                        $rel = $rel -replace '\[MinorHeroesReimaginedESGPST\]', '[MHR]'
+                        switch -Regex ($rel) {
+                            '^GalaxyGenerator\\WeightTableDefinitions\.xml$'          { return 'Galaxy\WeightTableDefinitions[MHR_MinorFactions].xml' }
+                            '^GalaxyGenerator\\WeightTableDefinitions\[MHR\]\.xml$'   { return 'Galaxy\WeightTableDefinitions[MHR].xml' }
+                            '^Gui\\GUIElements\[HeroSkills\]\.xml$'                  { return 'GUI\GUIElements[MHR_HeroSkills].xml' }
+                            '^Gui\\GuiElements\[MHR\]\.xml$'                         { return 'GUI\GUIElements[MHR].xml' }
+                            '^Gui\\GuiElements\[(.+)\]\.xml$'                         { return "GUI\GUIElements[MHR_$($Matches[1])].xml" }
+                            '^Localization\\([^\\]+)\\(ES2_Localization_.+)\.xml$'   { return "Localization\$($Matches[1])\$($Matches[2])[MHR].xml" }
+                            '^Simulation\\Battles\\(.+)\[MHR\]\.xml$'               { return "Simulation\Battles\$($Matches[1])[MHR].xml" }
+                            '^Simulation\\ConstructibleElement_Industry\[(.+)\]\.xml$' { return "Simulation\ConstructibleElement_Industry[MHR_$($Matches[1])].xml" }
+                            '^Simulation\\EntityActions\[(.+)\]\.xml$'                { return "Simulation\EntityActions[MHR_$($Matches[1])].xml" }
+                            '^Simulation\\FactionTraits\[MHR\]\.xml$'                 { return 'Simulation\FactionTraits[MHR].xml' }
+                            '^Simulation\\FactionTraits\[(.+)\]\.xml$'                { return "Simulation\FactionTraits[MHR_$($Matches[1])].xml" }
+                            '^Simulation\\Factions\[Minor\]\.xml$'                    { return 'Simulation\Factions[MHR].xml' }
+                            '^Simulation\\HeroAffinityDefinitions\[MHR\]\.xml$'       { return 'Simulation\HeroAffinityDefinitions[MHR].xml' }
+                            '^Simulation\\HeroAffinityDefinitions\[(.+)\]\.xml$'      { return "Simulation\HeroAffinityDefinitions[MHR_$($Matches[1])].xml" }
+                            '^Simulation\\HeroDefinitions\.xml$'                      { return 'Simulation\HeroDefinitions[MHR_Base].xml' }
+                            '^Simulation\\HeroDefinitions\[(.+)\]\.xml$'              { return "Simulation\HeroDefinitions[MHR_$($Matches[1])].xml" }
+                            '^Simulation\\PopulationModifiersTraits\[CollectionBonus\]\.xml$' { return 'Simulation\PopulationCollectionBonusTraits[MHR].xml' }
+                            '^Simulation\\PopulationModifiersTraits\[(.+)\]\.xml$'    { return "Simulation\Traits\PopulationModifiersTraits[MHR_$($Matches[1])].xml" }
+                            '^Simulation\\SimulationDescriptors\[MHR\]\.xml$'         { return 'Simulation\SimulationDescriptors[MHR].xml' }
+                            '^Simulation\\SimulationDescriptors\[(.+)\]\.xml$'        { return "Simulation\SimulationDescriptors[MHR_$($Matches[1])].xml" }
+                            default                                                   { return $rel }
                         }
                     } }
 }
