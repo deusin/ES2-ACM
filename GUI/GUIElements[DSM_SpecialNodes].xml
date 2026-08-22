@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+	<!-- Binding new special node variations to old GUI elements -->
+	<!-- Used by both Deep Space Mining and Mining Modules mods -->
+    <GuiElement Name="SpecialNodeBlackHole1">
+        <Title>%SpecialNodeBlackHoleTitle</Title>
+        <Description>%SpecialNodeBlackHoleDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeBlackHoleLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeBlackHoleMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+    <GuiElement Name="SpecialNodeBlackHole2">
+        <Title>%SpecialNodeBlackHoleTitle</Title>
+        <Description>%SpecialNodeBlackHoleDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeBlackHoleLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeBlackHoleMood"/>
+        </Icons>	
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>	
+	
+	<GuiElement Name="SpecialNodeBlackHiddenHole1">
+        <Title>%SpecialNodeBlackHoleTitle</Title>
+        <Description>%SpecialNodeBlackHoleDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeBlackHoleLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeBlackHoleMood"/>
+        </Icons>	
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>	
+	
+	<GuiElement Name="SpecialNodeBlackHiddenHole2">
+        <Title>%SpecialNodeBlackHoleTitle</Title>
+        <Description>%SpecialNodeBlackHoleDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeBlackHoleLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeBlackHoleMood"/>
+        </Icons>	
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>	
+	
+    <GuiElement Name="SpecialNodeAsteroidField1">
+        <Title>%SpecialNodeAsteroidFieldTitle</Title>
+        <Description>%SpecialNodeAsteroidFieldDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+    <GuiElement Name="SpecialNodeAsteroidField2">
+        <Title>%SpecialNodeAsteroidFieldTitle</Title>
+        <Description>%SpecialNodeAsteroidFieldDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+    <GuiElement Name="SpecialNodeAsteroidField3">
+        <Title>%SpecialNodeAsteroidFieldTitle</Title>
+        <Description>%SpecialNodeAsteroidFieldDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+    <GuiElement Name="SpecialNodeAsteroidField4">
+        <Title>%SpecialNodeAsteroidFieldTitle</Title>
+        <Description>%SpecialNodeAsteroidFieldDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+	
+	
+    <GuiElement Name="SpecialNodeAsteroidFieldHidden1">
+        <Title>%SpecialNodeAsteroidFieldTitle</Title>
+        <Description>%SpecialNodeAsteroidFieldDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+    <GuiElement Name="SpecialNodeCollapsingStar1">
+        <Title>%SpecialNodeCollapsingStarTitle</Title>
+        <Description>%SpecialNodeCollapsingStarDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeCollapsingStarLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeCollapsingStarMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+    <GuiElement Name="SpecialNodeCollapsingStar2">
+        <Title>%SpecialNodeCollapsingStarTitle</Title>
+        <Description>%SpecialNodeCollapsingStarDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeCollapsingStarLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeCollapsingStarMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+	<GuiElement Name="SpecialNodeCollapsingStar3">
+        <Title>%SpecialNodeCollapsingStarTitle</Title>
+        <Description>%SpecialNodeCollapsingStarDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeCollapsingStarLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeCollapsingStarMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+    <GuiElement Name="SpecialNodeSolarNebula1">
+        <Title>%SpecialNodeSolarNebulaTitle</Title>
+        <Description>%SpecialNodeSolarNebulaDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeSolarNebulaLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeSolarNebulaMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+	<GuiElement Name="SpecialNodeSolarNebula2">
+        <Title>%SpecialNodeSolarNebulaTitle</Title>
+        <Description>%SpecialNodeSolarNebulaDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeSolarNebulaLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeSolarNebulaMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+    <GuiElement Name="SpecialNodeNeutronStar1">
+        <Title>%SpecialNodeNeutronStarTitle</Title>
+        <Description>%SpecialNodeNeutronStarDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeNeutronStarLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeNeutronStarMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+	<GuiElement Name="SpecialNodeNeutronStar2">
+        <Title>%SpecialNodeNeutronStarTitle</Title>
+        <Description>%SpecialNodeNeutronStarDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeNeutronStarLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeNeutronStarMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+    <GuiElement Name="SpecialNodeSpaceClouds">
+        <Title>%SpecialNodeSpaceCloudsTitle</Title>
+        <Description>%SpecialNodeSpaceCloudsDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeSpaceCloudsLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeSpaceCloudsMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+ 
+	<GuiElement Name="SpecialNodeSpaceCloudsHidden1">
+        <Title>%SpecialNodeSpaceCloudsTitle</Title>
+        <Description>%SpecialNodeSpaceCloudsDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeSpaceCloudsLarge"/>
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeSpaceCloudsMood"/>
+        </Icons>
+		
+		<TooltipElement>
+            <EffectOverride>%SpecialNodeStrategic1TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </GuiElement>
+
+
+    
+</Datatable>

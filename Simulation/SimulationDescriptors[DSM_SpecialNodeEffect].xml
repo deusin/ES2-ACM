@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    
+    <!-- Custom Special Node Effect with Strategic Resources -->
+
+    <SimulationDescriptor Name="ClassSpecialNodeEffect" Type="ClassSpecialNodeEffect">
+        <Property Name="SystemResearch"/>
+        <Property Name="SystemProduction"/>
+        <Property Name="SystemEmpirePoint"/>
+        <Property Name="SystemMoney"/>
+        <Property Name="HealthRegenerationRatio"/>
+        <Property Name="DockedFleetsHealthRegenerationRatio"/>
+        <Property Name="SystemPopulation"/>
+
+        <Property Name="SpecialNodeEffectMultiplier" BaseValue="1" IsSealed="true"/>
+		
+		<Property Name="Strategic1" BaseValue="0"/>
+		<Property Name="Strategic2" BaseValue="0"/>
+		<Property Name="Strategic3" BaseValue="0"/>
+		<Property Name="Strategic4" BaseValue="0"/>
+		<Property Name="Strategic5" BaseValue="0"/>
+		<Property Name="Strategic6" BaseValue="0"/>
+        
+        <BinaryModifier TargetProperty="SystemResearch"                         Operation="Addition" Left="$(SystemResearch)"                       BinaryOperation="Multiplication" Right="$(SpecialNodeEffectMultiplier)" Path="../ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemProduction"                       Operation="Addition" Left="$(SystemProduction)"                     BinaryOperation="Multiplication" Right="$(SpecialNodeEffectMultiplier)" Path="../ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint"                      Operation="Addition" Left="$(SystemEmpirePoint)"                    BinaryOperation="Multiplication" Right="$(SpecialNodeEffectMultiplier)" Path="../ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemMoney"                            Operation="Addition" Left="$(SystemMoney)"                          BinaryOperation="Multiplication" Right="$(SpecialNodeEffectMultiplier)" Path="../ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="HealthRegenerationRatio"                Operation="Addition" Left="$(HealthRegenerationRatio)"              BinaryOperation="Multiplication" Right="$(SpecialNodeEffectMultiplier)" Path="../ClassColonizedStarSystem/ClassGarrison/ClassShip"/>
+        <BinaryModifier TargetProperty="DockedFleetsHealthRegenerationRatio"    Operation="Addition" Left="$(DockedFleetsHealthRegenerationRatio)"  BinaryOperation="Multiplication" Right="$(SpecialNodeEffectMultiplier)" Path="../ClassColonizedStarSystem"/>
+		
+		<Modifier TargetProperty="AllowToExploitStrategicCommon1" Value="1" Operation="Force" Path="../ClassColonizedStarSystem"  />
+    </SimulationDescriptor>
+    
+</Datatable>

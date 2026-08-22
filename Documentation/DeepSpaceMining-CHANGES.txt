@@ -1,0 +1,49 @@
+v1.3.6 Minor fix for Penumbra compatibility
+
+v1.3.5 Mining Modules Compatibility Update
+
+v1.3.4 Minor GUI fix
+Fixed missing tooltips in resources breakdown.
+
+Known bugs: 
+Per person multiplier does not work for Umbrial Chior Faction.
+UC home system special node does not give resources.
+
+v1.3.3 Umbral Chior Fix
+Fixed resources not being transferred to Umbral Chior faction
+
+v1.3.2 Penumbra Update
+
+Added FleetOrbitingSpecialNode References
+
+v1.3.1
+
+Fixed Unfallen not getting strategic 1
+
+v1.2 Vaulters Update
+
+Adjusted Values:
+
+Increased Hyperium on Solar Nebula.
+
+Added Quadrinix to all Black Hole nodes.
+
+Removed Quadrinix from Collapsing Star.
+Added Titanium to Collapsing Star.
+
+Removed Adamantium from Neutron Star.
+Added Anti-Matter to Neutron Star.
+Added Orchalix to Neutron Star.
+
+Tweaked spawn ratios.
+
+Added new hidden Black Hole nodes.
+
+New Vaulters Node:
+Set Dust bonus to 250.
+Added 1 Anti-Matter, 1 Quadrinix.
+
+Bug fixes:
+
+Fixed bug where Special node resources would override system resource generation.
+Fixed bug allowing resources to be collected without technology prerequisite.
