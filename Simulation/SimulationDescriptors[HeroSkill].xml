@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
-    <SimulationDescriptor Name="HeroSkillMoreIndi2" Type="HeroSkillSystem">
-        <BinaryModifier SearchValueFromPath="true" Operation="Addition" Path="ClassColonizedStarSystem/ClassColonizedPlanet" TargetProperty="PlanetIndustry" BinaryOperation="Multiplication" Left="2" Right="$(Population)"/>
-    </SimulationDescriptor>
-</Datatable>
