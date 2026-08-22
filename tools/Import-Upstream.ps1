@@ -46,6 +46,7 @@ $Mods = @{
     poltrees   = @{ Id = '2856109167'; Index = 'PolTrees.xml';              IndexAs = $null;     KeepIcon = $false; Extra = @{} }
 }
 $AlwaysSkip = @('PublishedFile.Id', '.DS_Store', 'Thumbs.db')
+# NOTE: mod file names contain [brackets]; every path cmdlet below must use -LiteralPath.
 
 $m      = $Mods[$Mod]
 $src    = Join-Path $WorkshopRoot $m.Id
@@ -72,7 +73,7 @@ if ($LASTEXITCODE -ne 0) {
     throw "Branch $branch does not exist. Create it from the commit where $Mod was last imported pristine, e.g. git branch $branch <sha>"
 }
 git -C $RepoRoot worktree prune
-if (Test-Path $wt) { Remove-Item -Recurse -Force $wt }
+if (Test-Path -LiteralPath $wt) { Remove-Item -LiteralPath $wt -Recurse -Force }
 New-Item -ItemType Directory -Force $WorktreeRoot | Out-Null
 git -C $RepoRoot worktree add --quiet $wt $branch
 if ($LASTEXITCODE -ne 0) { throw "git worktree add failed" }
@@ -80,11 +81,11 @@ if ($LASTEXITCODE -ne 0) { throw "git worktree add failed" }
 try {
     # --- remove previous import --------------------------------------------------------------
     $prevManifest = Join-Path $wt $manifestRel
-    if (Test-Path $prevManifest) {
+    if (Test-Path -LiteralPath $prevManifest) {
         $removed = 0
         foreach ($rel in (Get-Content $prevManifest | Where-Object { $_ -and -not $_.StartsWith('#') })) {
             $p = Join-Path $wt $rel
-            if (Test-Path $p) { Remove-Item -Force $p; $removed++ }
+            if (Test-Path -LiteralPath $p) { Remove-Item -LiteralPath $p -Force; $removed++ }
         }
         Write-Host "Removed $removed files from previous import"
     }
@@ -106,8 +107,8 @@ try {
         elseif ($m.Extra.ContainsKey($rel)) { $rel = $m.Extra[$rel] }
 
         $dest = Join-Path $wt $rel
-        New-Item -ItemType Directory -Force (Split-Path $dest -Parent) | Out-Null
-        Copy-Item -Force $f.FullName $dest
+        New-Item -ItemType Directory -Force -Path (Split-Path $dest -Parent) | Out-Null
+        Copy-Item -LiteralPath $f.FullName -Destination $dest -Force
         $manifest.Add($rel)
         $copied++
     }
