@@ -22,7 +22,7 @@ https://github.com/deusin/ES2-ACM
 		<Author>Lord Deusin Amradyr</Author>
 		<Homepage></Homepage>
 		<PreviewImageFile>ACM.png</PreviewImageFile>
-		<ReleaseNotes>2026-08: Endless Legend Populations available as the patched ACM-ELP addon (workshop copy crashes with ACM). ESG refreshed to the 2026-05-31 workshop drop; Useful Skill Colours 2.2 (Political Skill Tree skills now tinted by Mastery); Samus removed - enable the Samus Aran workshop mod alongside ACM.</ReleaseNotes>
+		<ReleaseNotes>2026-08: Endless Legend Populations 4.5 merged in (12 Endless Legend minor factions; do not also run the workshop copy, it crashes ACM). ESG refreshed to the 2026-05-31 workshop drop; Useful Skill Colours 2.2 (Political Skill Tree skills now tinted by Mastery); Samus removed - enable the Samus Aran workshop mod alongside ACM.</ReleaseNotes>
 		<Tags>AI,Balance,Buildings,Heroes,Gameplay,Improvements,MajorFactions,MinorFactions,Multiplayer,Other,Quests,Technologies,Terrain,Units,UI</Tags>
 		<Plugins>
 			<!-- Registry -->
@@ -33,6 +33,7 @@ https://github.com/deusin/ES2-ACM
 			<!-- Galaxy Generation -->
 			<DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
 				<FilePath>Galaxy/WeightTableDefinitions.xml</FilePath>
+				<FilePath>Galaxy/WeightTableDefinitions[*].xml</FilePath>
 			</DatabasePlugin>
 			<DatabasePlugin DataType="Generator.Definitions.PlanetGameplayTypeDefinition, Assembly-CSharp-firstpass">
 				<FilePath>Galaxy/PlanetGameplayTypeDefinitions.xml</FilePath>
@@ -263,6 +264,7 @@ https://github.com/deusin/ES2-ACM
 
 			<DatabasePlugin DataType="PopulationCollectionBonusTrait, Assembly-CSharp">
 				<FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
+				<FilePath>Simulation/PopulationCollectionBonusTraits[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="PopulationModifiersTrait, Assembly-CSharp">
@@ -784,6 +786,14 @@ https://github.com/deusin/ES2-ACM
             <DatabasePlugin DataType="VictoryConditionDefinition, Assembly-CSharp" Priority="-10">
                 <FilePath>Statistics and Achievements/VictoryConditionDefinitions.xml</FilePath>
             </DatabasePlugin>
+
+			<!-- ACM: Endless Legend Populations (files suffixed [ELP]) -->
+			<DatabasePlugin DataType="MinorFactionPersonalityDefinition, Assembly-CSharp">
+				<FilePath>Simulation/MinorFactionPersonalityDefinitions[*].xml</FilePath>
+			</DatabasePlugin>
+			<DatabasePlugin DataType="FleetNameMappingDefinition, Assembly-CSharp">
+				<FilePath>Mapping/FleetNameMappingDefinitions[*].xml</FilePath>
+			</DatabasePlugin>
 
 			<!-- Localization -->
 			<LocalizationPlugin DefaultLanguage="english">

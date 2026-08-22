@@ -12,9 +12,8 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 - **Political Skill Trees** (workshop 2856109167).
 - Own content: the Eldritch faction trait category (`*[Eldritch].xml`).
 
-Carried as separate, toggleable addon modules under `Addons/` (see below):
-
-- **Endless Legend Populations 4.5** (Captain Cobbs) — workshop 1816492263, 2024-11-26, as `ACM-ELP`.
+- **Endless Legend Populations 4.5** (Captain Cobbs) — workshop 1816492263, 2024-11-26. Twelve
+  Endless Legend races (plus three Urkan) as minor factions; carried as `*[ELP]*` files, see below.
 
 ## Play set
 
@@ -25,7 +24,7 @@ Useful Skill Colours, the quest example) are already inside ACM or unwanted — 
 |---|---|---|---|
 | Samus Aran | 3268328942 | `AffinityMappingTerrans` only | **Required**: ACM's `FactionTraitEldritchHero` recruits `Samus`. Load **before** ACM so ACM's Terran affinity (with ESG's mercenary ship designs) wins; Samus then comes via the Eldritch trait, not automatically to Terrans. If it loads after ACM, Terrans get her but lose the 8 mercenary designs. |
 | Arkon Portal | 1788325573 | none | clean extension |
-| Endless Legend Populations | 1816492263 | 27 `FactionTrait` + `ClassColonizedStarSystem` | **Do not use the workshop item** — its `ClassColonizedStarSystem` replaces ESG's and the game crashes on the first colonisation (`ColonizationThresholdFIDSBonus` missing). Use the `ACM-ELP` addon instead. |
+| Endless Legend Populations | 1816492263 | 27 `FactionTrait` + `ClassColonizedStarSystem` | **Do not use the workshop item** — its `ClassColonizedStarSystem` replaces ESG's and the game crashes on the first colonisation (`ColonizationThresholdFIDSBonus` missing). ELP is already inside ACM. |
 | Endless Moons | 1316786885 | 90 (75 descriptors, 6 anomaly reductions, 3 weight tables, 2 anomalies, 2 improvements) | |
 | Endless Anomalies | 3257341334 | 126 (51 `AnomalyDefinition`, 73 descriptors, 2 weight tables) | its own note: load **after** Endless Moons |
 | Arkon Faction Hero Ships [ESG] | 3175229111 | all 97 `HeroDefinition`s | built on ESG 1.5 hero defs; loading it after ACM replaces ESG 1.6's hero definitions with Arkon's versions |
@@ -33,20 +32,25 @@ Useful Skill Colours, the quest example) are already inside ACM or unwanted — 
 Overlap counts are the definitions the later-loaded mod will override. Re-run the checker after any
 upstream refresh; the full report with names is one command away.
 
-## Addons (optional modules)
+## Endless Legend Populations inside ACM
 
-Some mods cannot be merged into ACM's files (nothing in ES2's data format lets a game-setting
-switch a minor faction or faction trait off), but also cannot run alongside ACM unpatched. Those
-live in `Addons/<name>/` as complete RuntimeModules with their own index XML, patched to coexist
-with ACM, and each has a vendor branch like the merged mods. ES2 only sees mods directly under
-`Community\`, so run `.\tools\Install-Addons.ps1` once — it junctions `Community\<name>` to
-`Addons\<name>` — and toggle them in the Mods menu (main menu, not New Game; the game needs a
-restart after changing the selection). Module names must be alphanumeric — ES2 silently discards
-an index whose `RuntimeModule Name` contains `_` or `-`.
+ELP is merged into ACM's own folders: every file carries an `[ELP]` suffix (`Simulation/Factions[ELP].xml`,
+`GUI/GUIElements[ELP_*].xml`, `Simulation/Traits/PopulationModifiersTraits[ELP*].xml`, …) so it sits next to
+ESG's files without replacing any, and `ACM.xml` declares the two plugins ESG lacks
+(`MinorFactionPersonalityDefinition`, `FleetNameMappingDefinition`). It is always on — ES2 has no data hook
+that would let a New Game option add or remove minor factions (the galaxy generator takes every
+`MinorFaction` in the database, filtered only by DLC ownership, and draws from the fixed `MinorFactions`
+weight table). If you ever want a game without them, use a git branch.
 
-| Addon | Source | What ACM changed |
-|---|---|---|
-| `ACM-ELP` — Endless Legend Populations | workshop 1816492263 (4.5) | dropped its `SimulationDescriptors[ColonizedStarSystem].xml` (ESG 1.6 already carries the one property it added, `OnGoingLords`); dropped its copies of the 27 vanilla starting-minor-pop traits (ESG's apply, and ESG lets them stack, so ELP's own traits follow the same rule); fixed Mykara tier 2 (pathed to Morgawr pops), Morgawr tier 1 (pushed politics via the Necrophage descriptor), Wild Walkers boosted-pop `$(PlanetIsTeemings)` typo, Morgawr fertile influence written as a non-binary modifier. Added English fallbacks for brazilian/polish. Load after ACM. |
+Changes against the workshop drop (redo on each `upstream/elp` merge):
+
+| Where | What |
+|---|---|
+| `Simulation/SimulationDescriptors[ELP_ColonizedStarSystem].xml` | deleted — it replaced ESG's `ClassColonizedStarSystem` and crashed on the first colonisation; ESG 1.6 already carries the one property it added (`OnGoingLords`). |
+| `Simulation/FactionTraits[ELP_Minor].xml` | its copies of the 27 vanilla starting-minor-pop traits removed (ESG's apply); ELP's own twelve use ESG's prerequisites (starting-pop traits may stack). |
+| `Simulation/SimulationDescriptors[ELP_PopulationCollectionBonus].xml` | Mykara tier 2 pathed to Morgawr pops → Mykara; Morgawr tier 1 pushed politics through the Necrophage descriptor → Morgawr. |
+| `Simulation/SimulationDescriptors[ELP_PopulationModifierTraits].xml` | `$(PlanetIsTeemings)` typo (Wild Walkers); Morgawr fertile-planet influence written as a non-binary modifier → `BinaryModifier`. |
+| `Localization/brazilian`, `Localization/polish` | English copies of the two ELP locale files (ELP ships none for those languages). |
 
 ## Working on the mod
 
@@ -54,7 +58,8 @@ an index whose `RuntimeModule Name` contains `_` or `-`.
   The `.git` file points at the object store in `C:\Users\Kenny\source\repos\ES2-ACM.git`; edit → save →
   launch the game, no copy step.
 - Refreshing an upstream mod: `.\tools\Import-Upstream.ps1 -Mod esg` (or `usc`), then
-  `git merge upstream/esg`. Details, conflict conventions and gotchas are in `CLAUDE.md`.
+  `git merge upstream/esg`. `elp` imports land the drop on the `[ELP]` paths above.
+  Details, conflict conventions and gotchas are in `CLAUDE.md`.
 - `.\tools\Find-Conflicts.ps1 -Mod <workshop id>` reports which definitions a workshop mod shares with ACM.
 
 ## History
@@ -63,4 +68,4 @@ an index whose `RuntimeModule Name` contains `_` or `-`.
 - 2026-08: repo relocated into the Community folder; vendor branches + import tooling; ESG refreshed to the
   2026-05-31 drop (267 changed files, 4 conflicts); USC 2.2 grafted in; Samus removed in favour of the
   workshop mod (its skill trees had been copied into the `[Eldritch]` files). Endless Legend
-  Populations brought in as the patched `ACM-ELP` addon after the workshop item crashed game start.
+  Populations 4.5 merged in (renamed `[ELP]` files, four data fixes) after the workshop item crashed game start.

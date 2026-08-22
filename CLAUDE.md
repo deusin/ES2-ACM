@@ -24,7 +24,7 @@ Start Claude Code sessions **from this folder**.
 | Samus Aran | 3268328942 | **run alongside** (ACM's Eldritch hero trait recruits `Samus`) |
 | Endless Moons | 1316786885 | run alongside (see README for overlaps) |
 | Endless Anomalies | 3257341334 | run alongside, load after Endless Moons |
-| Endless Legend Populations | 1816492263 | **addon** `Addons/ACM-ELP` (vendor branch `upstream/elp`); never the workshop item — its `ClassColonizedStarSystem` crashes ACM |
+| Endless Legend Populations | 1816492263 | merged as `*[ELP]*` files (vendor branch `upstream/elp`); never also run the workshop item — its `ClassColonizedStarSystem` crashes ACM |
 | Arkon Portal | 1788325573 | run alongside, no overlaps |
 | Arkon Faction Hero Ships [ESG] | 3175229111 | run alongside (overrides all HeroDefinitions) |
 
@@ -52,19 +52,20 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
   `ACM.xml` or Political Skill Tree colouring breaks.
 - `.\tools\Find-Conflicts.ps1 -Mod <id>` lists definitions a workshop mod shares with ACM
   (later-loaded mod wins each wholesale). Use it before adding a mod to the play set or merging one.
-- **Addons** (`Addons/<name>/`, e.g. `ACM-ELP`): whole RuntimeModules kept in this repo and exposed
-  to ES2 by `.\tools\Install-Addons.ps1` (junction `Community\<name>` → `Addons\<name>`). Use this
-  shape for a mod that conflicts with ACM but whose content can't be gated by a game setting
-  (`GameSettingPrerequisite` works on constructibles/techs/quests/diplomacy, **not** on
-  `FactionTrait`, `MinorFaction`, descriptors or weight tables — those only take string path
-  prerequisites). The `elp` import lands the pristine drop under `Addons\ACM-ELP` with its index
-  renamed to `ACM-ELP.xml`; master's patches (index header, deleted
-  `SimulationDescriptors[ColonizedStarSystem].xml`, vanilla-trait copies stripped from
-  `FactionTraits[Minor].xml`, bug fixes) will conflict on the next merge — redo them; the README's
-  addon table lists each one. `RuntimeModule Name` must be alphanumeric (module `ACMELP`): ES2 logs
-  `Invalid runtime module name 'ACM_ELP', discarding the module` for underscores and the mod never
-  appears in the Mods menu. When a module is missing, grep `Temporary Files\Diagnostics*.html` for
-  `runtime module`.
+- **ELP** files are renamed on import with an `[ELP]` suffix (mapping = the `Rename` block in
+  `Import-Upstream.ps1`; they must match a `FilePath` pattern in `ACM.xml`). Master's patches on top
+  of the drop are listed in the README table ("Endless Legend Populations inside ACM") — redo them
+  on every `upstream/elp` merge; a modify/delete conflict on
+  `SimulationDescriptors[ELP_ColonizedStarSystem].xml` means keep it deleted.
+- **No game-setting toggle for factions.** `GameSettingPrerequisite` works on
+  constructibles/techs/quests/diplomacy only. `FactionTrait`/`MinorFaction` take string path
+  prerequisites, descriptors and weight tables none; the galaxy generator (`GameManager` →
+  `Generator.EmpiresManager`) adds every `MinorFaction` filtered only by DLC and draws from the fixed
+  `MinorFactions` table. Decided 2026-08-22 after decompiling; don't re-investigate.
+- **Addon modules** (a second RuntimeModule folder junctioned into `Community\`) work if ever needed:
+  `RuntimeModule Name` must be alphanumeric (ES2 logs `Invalid runtime module name`, discards it), the
+  module shows in the main-menu Mods screen, not New Game. When a module is missing, grep
+  `Temporary Files\Diagnostics*.html` for `runtime module`.
 
 ## Gotchas
 

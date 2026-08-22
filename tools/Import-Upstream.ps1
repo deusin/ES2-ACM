@@ -40,17 +40,37 @@ $WorktreeRoot = 'C:\Users\Kenny\source\worktrees'
 # KeepIcon  = whether to import ModIcon.png (only ESG, whose icon ACM's baseline carries).
 # Extra     = additional renames for non-game files worth keeping as reference.
 # Rename    = optional scriptblock (relative path -> relative path) applied to every other file
-#             (index and Extra renames take precedence). Used to park a mod under Addons\<name>\.
+#             (index and Extra renames take precedence). Used when a mod's file names collide with
+#             ACM's; the renamed paths must still match a FilePath pattern in ACM.xml (see elp).
 $Mods = @{
     esg        = @{ Id = '2828917317'; Index = 'ESCM.xml';                  IndexAs = 'ACM.xml'; KeepIcon = $true;  Extra = @{} }
     usc        = @{ Id = '3384708155'; Index = 'UsefulSkillColoursESG.xml'; IndexAs = $null;     KeepIcon = $false; Extra = @{ 'CHANGES.txt' = 'Documentation\UsefulSkillColours-CHANGES.txt' } }
     moretraits = @{ Id = '932777803';  Index = 'MoreTraits.xml';            IndexAs = $null;     KeepIcon = $false; Extra = @{} }
     poltrees   = @{ Id = '2856109167'; Index = 'PolTrees.xml';              IndexAs = $null;     KeepIcon = $false; Extra = @{} }
-    # Endless Legend Populations is carried as a separate, toggleable module (see Addons/ in the
-    # README): the whole drop lands under Addons\ACM-ELP\ with its index renamed, and master then
-    # patches it (drops its ClassColonizedStarSystem override, its copies of vanilla traits, etc.).
-    elp        = @{ Id = '1816492263'; Index = 'Minor.xml';                 IndexAs = 'Addons\ACM-ELP\ACM-ELP.xml'; KeepIcon = $true; Extra = @{}
-                    Rename = { param($rel) return "Addons\ACM-ELP\$rel" } }
+    # Endless Legend Populations is merged into ACM's own folders: every file is renamed with an
+    # [ELP] suffix so it sits next to ESG's files without replacing any (ACM.xml's wildcards pick
+    # them up). Master then patches the drop (deletes SimulationDescriptors[ELP_ColonizedStarSystem],
+    # strips vanilla trait copies from FactionTraits[ELP_Minor], bug fixes) - see README.
+    elp        = @{ Id = '1816492263'; Index = 'Minor.xml';                 IndexAs = $null;     KeepIcon = $false; Extra = @{}
+                    Rename = {
+                        param($rel)
+                        switch -Regex ($rel) {
+                            '^GalaxyGenerator\\WeightTableDefinitions\.xml$'             { return 'Galaxy\WeightTableDefinitions[ELP].xml' }
+                            '^Gui\\GuiElements\[(.+)\]\.xml$'                            { return "GUI\GUIElements[ELP_$($Matches[1])].xml" }
+                            '^Localization\\([^\\]+)\\(ES2_Localization_.+)\.xml$'      { return "Localization\$($Matches[1])\$($Matches[2])[ELP].xml" }
+                            '^Mapping\\FleetNameMappingDefinitions\.xml$'                { return 'Mapping\FleetNameMappingDefinitions[ELP].xml' }
+                            '^Simulation\\ConstructibleElement_Industry\.xml$'           { return 'Simulation\ConstructibleElement_Industry[ELP].xml' }
+                            '^Simulation\\Factions\.xml$'                                { return 'Simulation\Factions[ELP].xml' }
+                            '^Simulation\\FactionTraits\[(.+)\]\.xml$'                   { return "Simulation\FactionTraits[ELP_$($Matches[1])].xml" }
+                            '^Simulation\\MinorFactionPersonalityDefinitions\.xml$'      { return 'Simulation\MinorFactionPersonalityDefinitions[ELP].xml' }
+                            '^Simulation\\PopulationCollectionBonusTraits\.xml$'         { return 'Simulation\PopulationCollectionBonusTraits[ELP].xml' }
+                            '^Simulation\\PopulationDefinitions\.xml$'                   { return 'Simulation\PopulationDefinitions[ELP].xml' }
+                            '^Simulation\\PopulationModifiersTraits\.xml$'               { return 'Simulation\Traits\PopulationModifiersTraits[ELP].xml' }
+                            '^Simulation\\PopulationModifiersTraits\[(.+)\]\.xml$'       { return "Simulation\Traits\PopulationModifiersTraits[ELP_$($Matches[1])].xml" }
+                            '^Simulation\\SimulationDescriptors\[(.+)\]\.xml$'           { return "Simulation\SimulationDescriptors[ELP_$($Matches[1])].xml" }
+                            default                                                      { return $rel }
+                        }
+                    } }
 }
 $AlwaysSkip = @('PublishedFile.Id', '.DS_Store', 'Thumbs.db')
 # NOTE: mod file names contain [brackets]; every path cmdlet below must use -LiteralPath.
