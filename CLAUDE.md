@@ -52,6 +52,16 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
   `ACM.xml` or Political Skill Tree colouring breaks.
 - `.\tools\Find-Conflicts.ps1 -Mod <id>` lists definitions a workshop mod shares with ACM
   (later-loaded mod wins each wholesale). Use it before adding a mod to the play set or merging one.
+- **Addons** (`Addons/<name>/`, e.g. `ACM-ELP`): whole RuntimeModules kept in this repo and exposed
+  to ES2 by `.\tools\Install-Addons.ps1` (junction `Community\<name>` → `Addons\<name>`). Use this
+  shape for a mod that conflicts with ACM but whose content can't be gated by a game setting
+  (`GameSettingPrerequisite` works on constructibles/techs/quests/diplomacy, **not** on
+  `FactionTrait`, `MinorFaction`, descriptors or weight tables — those only take string path
+  prerequisites). The `elp` import lands the pristine drop under `Addons\ACM-ELP` with its index
+  renamed to `ACM-ELP.xml`; master's patches (index header, deleted
+  `SimulationDescriptors[ColonizedStarSystem].xml`, vanilla-trait copies stripped from
+  `FactionTraits[Minor].xml`, bug fixes) will conflict on the next merge — redo them; the README's
+  addon table lists each one.
 
 ## Gotchas
 
