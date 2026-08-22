@@ -1,0 +1,8 @@
+# OneDrive conflict copies (e.g. "File-DESKTOP-ABC123.xml")
+*-[A-Z][A-Z0-9]*-[A-Z0-9]*.xml
+*.bak
+*.tmp
+Thumbs.db
+desktop.ini
+# Backups / scratch
+*.zip

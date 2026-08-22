@@ -1,0 +1,7 @@
+# Upstream mods are imported verbatim from the Steam Workshop; never normalize line endings
+# or every import shows whole-file diffs.
+* -text
+*.png binary
+*.jpg binary
+*.otf binary
+*.zip binary
