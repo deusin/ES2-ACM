@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <!-- Quest -->
+    <QuestGuiElement Name="Deeds_Wonder2Vampirilis">
+        <Title>%Deeds_Wonder2-Title</Title>
+        <Description>%Deeds_Wonder2-Description</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder2Quest" Size="Quest"/>
+            <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder2Medium" Size="Medium"/>
+            <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder2MediumInverted" Size="MediumInverted"/>
+            <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder2Large" Size="Large"/>
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <TooltipDescription>%Deeds_Wonder2-ObjectiveTooltip</TooltipDescription>
+                    <OutcomeCompleted>%Deeds_Wonder2-Completed</OutcomeCompleted>
+                    <OutcomeFailed>%Deeds_Wonder2-Failed</OutcomeFailed>
+                    <Objective Name="Step1_Objective1">%Deeds_Wonder2-Objective</Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+    
+    <!-- Constructible -->
+    <GuiElement Name="StarSystemImprovementResearchToLifeforce">
+        <Title>%StarSystemImprovementResearchToLifeforceTitle</Title>
+        <Description>%StarSystemImprovementResearchToLifeforceDescription</Description>
+        <Icons>
+            <!--<Icon Size="Small" Path="Gui/StarSystemImprovementScience7Small" />
+            <Icon Size="Small" Path="Gui/StarSystemImprovementResearchToLifeforceLarge" />-->
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementScience7Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementScience7Large" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="StarSystemImprovementResearchToLifeforceEffect">
+        <Title>%StarSystemImprovementResearchToLifeforceTitle</Title>
+        <TooltipElement>
+            <EffectOverride>%StarSystemImprovementResearchToLifeforceTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="SystemResearchFromResearchConversion">
+		<Title>%SystemResearchFromResearchConversionTitle</Title>
+	</GuiElement>
+ 
+</Datatable>

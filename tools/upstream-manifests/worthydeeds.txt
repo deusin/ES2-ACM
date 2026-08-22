@@ -1,0 +1,10 @@
+﻿# Files imported from workshop item 1587659427 (worthydeeds) on 2020-10-28. Maintained by tools/Import-Upstream.ps1.
+GUI\GUIElements[WD].xml
+Localization\english\ES2_Localization_Locales[WD].xml
+Quests\Droplists\Droplists[WD].xml
+Quests\QuestDefinitions[WD_Economy].xml
+Quests\QuestDefinitions[WD_Empire].xml
+Quests\QuestDefinitions[WD_Military].xml
+Quests\QuestDefinitions[WD_Science].xml
+Simulation\ConstructibleElement_Industry[WD_Wonders].xml
+Simulation\SimulationDescriptors[WD].xml
