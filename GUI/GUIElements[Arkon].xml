@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <ExtendedGuiElement Name="FactionTraitPPOINTS">
+        <Title>%FactionTraitPPOINTSTitle</Title>
+        <Description>%FactionTraitPPOINTSDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+            <Icon Size="Large" Path="Textures/500_Trait_Points" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <!-- Ark portal -->
+    <GuiElement Name="JumpPortal">
+        <Title>%JumpPortalTitle</Title>
+        <Description>%JumpPortalDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Textures/Portal_Small" />
+            <Icon Size="Large" Path="Textures/Portal_Large" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="FactionTraitArkPortal">
+        <Title>%FactionTraitArkPortalTitle</Title>
+        <Description>%FactionTraitArkPortalDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+            <Icon Size="Large" Path="Textures/Portal_Large" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CategoryArkPortal">
+        <Title>%FactionTraitArkPortalTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Categories/CategoryPortalUpgrade" />
+        </Icons>
+        <Color Red="167" Green="174" Blue="185" Alpha="255"/>
+    </ExtendedGuiElement>
+
+
+</Datatable>
