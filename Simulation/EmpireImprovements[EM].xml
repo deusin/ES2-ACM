@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EmpireImprovementDefinition.xsd">
+
+<!-- Hide original moon exploration -->
+    <EmpireImprovementDefinition Name="EmpireImprovementMoonExploration" Category="CategoryPlanetImprovement" SubCategory="SubCategoryExploration">
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Prerequisite,Discard,UnlockAvailability,Technology">Moon_Fake</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementMoonExploration" />
+    </EmpireImprovementDefinition>
+    
+    <EmpireImprovementDefinition Name="EmpireImprovementDetectionProbeLevel1" Category="CategoryDetectionSmall" SubCategory="SubCategoryMilitary">
+        <DownloadableContentPrerequisite Flags="Prerequisite,Discard,UnlockAvailability">DLCUC</DownloadableContentPrerequisite>
+        <TechnologyPrerequisite>TechnologyPlayDeck2</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementDetectionProbeLevel1" />
+    </EmpireImprovementDefinition>
+
+
+
+</Datatable>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/ModuleDefinition.xsd">
+
+    <SupportModule Name="ModuleSupportMoonExploration" Family="TerraformationBase" Level="1">
+        <Cost ResourceName="SystemProduction">150</Cost>
+        <TechnologyPrerequisite UnlockHidden="false" Flags="Edition,Technology">TechnologyScience2</TechnologyPrerequisite>
+        <InterpreterPrerequisite Flags="Edition">Path(Context, @ShipRoleExploration) or Path(Context, @ShipRoleHero)</InterpreterPrerequisite>
+        <PathPrerequisite Flags="UnlockAvailability,Edition" Inverted="true">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleSupport"/>
+        <SimulationDescriptorReference Name="ClassModuleExplorerAndHeroShipOnly"/>        
+        <CategorizedSimulationDescriptors Category="CategoryExploration">
+            <SimulationDescriptorReference Name="ModuleSupportMoonExploration"/>
+            <SimulationDescriptorReference Name="ModuleSupportMoonExploration1"/>
+        </CategorizedSimulationDescriptors>
+    </SupportModule>
+        
+    <SupportModule Name="ModuleOrbEngineProbe" Family="ExplorationStrategic4" Level="1">
+        <Cost ResourceName="SystemProduction">80</Cost>
+        <Cost ResourceName="Strategic4" Instant="true">2</Cost>
+        <InterpreterPrerequisite Flags="Edition">Path(Context, @ShipRoleExploration) or Path(Context, @ShipRoleHero)</InterpreterPrerequisite>
+        <PathPrerequisite Flags="UnlockAvailability,Edition" Inverted="false">../ClassEmpire/ClassColonizedStarSystem/CloakedOrb_FIDS1_2</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleSupport"/>
+        <SimulationDescriptorReference Name="ClassModuleExplorerAndHeroShipOnly"/>        
+        <CategorizedSimulationDescriptors Category="CategoryExploration">
+            <SimulationDescriptorReference Name="ModuleSupportExploration"/>
+            <SimulationDescriptorReference Name="ModuleOrbEngineProbe"/>
+        </CategorizedSimulationDescriptors>
+    </SupportModule>
+
+    <SupportModule Name="ModuleOrbScanner" Family="ExplorationStrategic4" Level="1">
+        <Cost ResourceName="SystemProduction">80</Cost>
+        <Cost ResourceName="Strategic4" Instant="true">2</Cost>
+        <InterpreterPrerequisite Flags="Edition">Path(Context, @ShipRoleExploration) or Path(Context, @ShipRoleHero)</InterpreterPrerequisite>
+        <PathPrerequisite Flags="UnlockAvailability,Edition" Inverted="false">../ClassEmpire/ClassColonizedStarSystem/CloakedOrb_FIDS1_2</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleSupport"/>
+        <SimulationDescriptorReference Name="ClassModuleExplorerAndHeroShipOnly"/>        
+        <CategorizedSimulationDescriptors Category="CategoryExploration">
+            <SimulationDescriptorReference Name="ModuleSupportExploration"/>
+            <SimulationDescriptorReference Name="ModuleOrbScanner"/>
+        </CategorizedSimulationDescriptors>
+    </SupportModule>
+
+
+    
+</Datatable>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+     
+	<PlanetImprovementDefinition Name="EntertainmentSpec" SubCategory="PlanetImprovementApproval" ScoreProvider="PlanetImprovementBuilt">
+		<SupervisorGain Name="Approval" Weight="0.5"/>  
+    	<Cost ResourceName="SystemProduction">160</Cost>    
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+		<PathPrerequisite       Inverted="false"	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/ET_F</PathPrerequisite>         
+		<!-- Must not have -->
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedPlanet/EntertainmentSpec,!FastForwardedImprovement</PathPrerequisite>    
+    	<SimulationDescriptorReference Name="EntertainmentSpec" />
+        <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionApproval1"/>
+	</PlanetImprovementDefinition>
+
+	<PlanetImprovementDefinition Name="LunarResearchSpec" SubCategory="PlanetImprovementScience" ScoreProvider="PlanetImprovementBuilt">
+    	<SupervisorGain Name="Science" Weight="0.7"/>  
+    	<Cost ResourceName="SystemProduction">160</Cost>    
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">/PlanetMoon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyExplorationModule1</TechnologyPrerequisite>
+		<!-- Must not have -->
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyVampirilis">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedPlanet/LunarResearchSpec,!FastForwardedImprovement</PathPrerequisite>    
+    	<SimulationDescriptorReference Name="LunarResearchSpec" />
+   		<PopulationEvent Name="PopulationPoliticalEventPlanetaryImprovementScience1"/>
+	</PlanetImprovementDefinition>
+
+	<PlanetImprovementDefinition Name="LunarMiningSpec" SubCategory="PlanetImprovementIndustry" ScoreProvider="PlanetImprovementBuilt">
+    	<SupervisorGain Name="Industry" Weight="0.7"/>  
+    	<Cost ResourceName="SystemProduction">160</Cost>    
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">/PlanetMoon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyBuyout</TechnologyPrerequisite>
+		<!-- Must not have -->
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyVampirilis">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedPlanet/LunarMiningSpec,!FastForwardedImprovement</PathPrerequisite>    
+    	<SimulationDescriptorReference Name="LunarMiningSpec" />
+   		<PopulationEvent Name="PopulationPoliticalEventPlanetaryImprovementIndustry1"/>
+	</PlanetImprovementDefinition>
+
+	<PlanetImprovementDefinition Name="GasGiantSpecInd" SubCategory="PlanetImprovementIndustry" ScoreProvider="PlanetImprovementBuilt">
+    	<SupervisorGain Name="Dust" Weight="0.25"/>
+    	<SupervisorGain Name="Science" Weight="0.25"/>
+    	<SupervisorGain Name="Industry" Weight="0.9"/>
+    	<SupervisorGain Name="Food" Weight="0.1"/>
+    	<Cost ResourceName="SystemProduction">320</Cost>    
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">PlanetGameplayTypeGas</PathPrerequisite>
+		<PathPrerequisite       Inverted="false"	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/CloakedOrb_FIDS2_2</PathPrerequisite>         
+		<!-- Must not have -->
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyVampirilis">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedPlanet/GasGiantSpecInd,!FastForwardedImprovement</PathPrerequisite>    
+    	<SimulationDescriptorReference Name="GasGiantSpecInd" />
+   		<PopulationEvent Name="PopulationPoliticalEventPlanetaryImprovementIndustry1"/>
+	</PlanetImprovementDefinition>
+
+	<PlanetImprovementDefinition Name="GasGiantSpecSci" SubCategory="PlanetImprovementScience" ScoreProvider="PlanetImprovementBuilt">
+    	<SupervisorGain Name="Dust" Weight="0.25"/>
+    	<SupervisorGain Name="Science" Weight="0.9"/>
+    	<SupervisorGain Name="Industry" Weight="0.25"/>
+    	<SupervisorGain Name="Food" Weight="0.1"/>
+    	<Cost ResourceName="SystemProduction">320</Cost>    
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">PlanetGameplayTypeGas</PathPrerequisite>
+		<PathPrerequisite       Inverted="false"	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/CloakedOrb_FIDS2_2</PathPrerequisite>         
+		<!-- Must not have -->
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyVampirilis">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedPlanet/GasGiantSpecSci,!FastForwardedImprovement</PathPrerequisite>    
+    	<SimulationDescriptorReference Name="GasGiantSpecSci" />
+   		<PopulationEvent Name="PopulationPoliticalEventPlanetaryImprovementScience1"/>
+	</PlanetImprovementDefinition>
+
+	<PlanetImprovementDefinition Name="GasGiantSpecGen" SubCategory="PlanetImprovementGasFIDS" ScoreProvider="PlanetImprovementBuilt">
+    	<SupervisorGain Name="Dust" Weight="0.5"/>
+    	<SupervisorGain Name="Science" Weight="0.25"/>
+    	<SupervisorGain Name="Industry" Weight="0.25"/>
+    	<SupervisorGain Name="Food" Weight="0.3"/>
+    	<Cost ResourceName="SystemProduction">320</Cost>    
+        <Cost ResourceName="Strategic1" Instant="true">5</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">5</Cost>
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">PlanetGameplayTypeGas</PathPrerequisite>
+		<PathPrerequisite       Inverted="false"	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/CloakedOrb_FIDS2_2</PathPrerequisite>         
+		<!-- Must not have -->
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyVampirilis">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedPlanet/GasGiantSpecGen,!FastForwardedImprovement</PathPrerequisite>    
+    	<SimulationDescriptorReference Name="GasGiantSpecGen" />
+   		<PopulationEvent Name="PopulationPoliticalEventPlanetaryImprovementFood1"/>
+	</PlanetImprovementDefinition>
+
+   
+</Datatable>

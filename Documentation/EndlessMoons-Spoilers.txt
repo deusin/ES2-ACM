@@ -1,0 +1,554 @@
+Endless Moons by Tychonoir.
+
+Spoiler List
+
+
+
+********** Cloaked Orbs **********
+
+Orb: Foundry
+	+5% System FIDSI
+	+100 Max System Manpower
+	+15% System Production
+	+2 on Resource Deposits
+
+	Improvement: Industrial Luxury Processing
+		+20 Industry per Luxury Deposit
+----------
+
+
+Orb: Shipyard
+	+5% System FIDSI
+	+200 Max System Manpower
+	-15% Ship Production Cost
+	+60 XP on Built Ships
+
+	Improvement: Low-Temperature Manufacturing
+		+30 Industry per Cold Planet
+----------
+
+
+Orb: Manufactory
+	+5% System FIDSI
+	+100 Max System Manpower
+	-15% System Improvement Production Cost
+
+	Improvement: Celestial Orb Industrial Upgrade
+		+20 Food per Celestial Orb
+		+50 Industry per Celestial Orb
+		+10% System Industry per Celestial Orb
+----------
+
+
+Orb: Vault
+	+5% System FIDSI
+	+100 Max System Manpower
+	+15% System Dust
+	+0.5% of Empire Bank added to Empire Bank
+
+	Improvement: Exotic Resource Processing
+		+5 Dust per Strategic Resource Deposit
+		+5 Approval  per Strategic Resource Deposit
+----------
+
+
+Orb: Trade Hub
+	+5% System FIDSI
+	+100 Max System Manpower
+	+10 Dust per pop type on Planets
+	+15% System Dust
+	+1 Max Trading Company Subsidiaries
+
+	Improvement: Extreme Tourism Agency
+		For Non-Biophobic
+		+10 System Dust
+		+10 Dust per Lava/Toxic/Barren Planet
+		+5 Influence per Lava/Toxic/Barren Planet
+	
+		For Biophobic
+		+10 System Dust
+		+10 Dust per Ocean/Terran/Forest/Atoll Planet
+		+5 Influence per Ocean/Terran/Forest/Atoll Planet
+----------
+
+
+Orb: Dust Institute
+	+5% System FIDSI
+	+100 Max System Manpower
+	+15% System Dust
+	-15% Dust Inflation
+	+1 Max Hacking Operations
+
+	Improvement: Celestial Orb Financial Upgrade
+		+50 Dust per Celestial Orb
+		+10% System Dust per Celestial Orb
+		+5 Influence per Celestial Orb
+----------
+
+
+Orb: Archive
+	+5% System FIDSI
+	+100 Max System Manpower
+	+15% System Science
+	+10 Science per pop type on Planets
+	-10% Technology Cost of Science and Exploration Techs
+
+	Improvement: Radiological Geology
+		+20 Science per Hot Planet
+----------
+
+
+Orb: Processing Array
+	+5% System FIDSI
+	+100 Max System Manpower
+	+15% System Science
+	+15 Empire Bandwidth
+
+	Improvement: Gas Giant Drones (Requires Gas Giant)
+		+20 Science per Gas Giant
+		+10 Science per Anomaly
+----------
+
+
+Orb: Research Center
+	+5% System FIDSI
+	+100 Max System Manpower
+	+15% System Science
+	+20 System Science per Anomaly
+	+8 Vision Range
+
+	Improvement: Celestial Orb Research Upgrade
+		+50 Science per Celestial Orb
+		+10% System Science per Celestial Orb
+		+10 Empire Bandwidth per Celestial Orb
+----------
+
+
+Orb: Trove
+	+10% System FIDSI
+	+100 Max System Manpower
+	+2 FIDSI per Pop
+	+1 Empire Systems Limit
+
+	Support Module: Scout Module
+		+3 Speed
+		+2 Vision Range
+		+2 Max Probe Stock
+
+	Support Module: Long-range Scanner
+		+6 Vision Range
+		+1 Max Probe Stock
+----------
+
+
+Orb: Frameworks
+	+5% System FIDSI
+	+100 Max System Manpower
+	+1 Max Juggernaut Limit
+
+	Planet Specialization: Gas Giant Industrial Exploitation
+		+20 Industry
+		+1 Food per Pop
+		+3 Industry per Pop
+		+5 Industry per Pop on Temperate and Hot
+		+2 Dust per Pop
+		+2 Science per Pop
+	
+	Planet Specialization: Gas Giant Science Exploitation
+		+20 Science
+		+1 Food per Pop
+		+3 Science per Pop
+		+5 Science per Pop on Temperate and Cold
+		+2 Dust per Pop
+		+2 Industry per Pop
+	
+	Planet Specialization: Gas Giant General Exploitation
+		+4 Food per Pop
+		+4 Industry per Pop
+		+5 Dust per Pop
+		+5 Dust per Pop on Temperate
+		+4 Science per Pop
+		+2 Influence per Pop
+----------
+
+
+Orb: Metropolis
+	+5% System FIDSI
+	+100 Max System Manpower
+	+1 Pop Slot on Planets
+	+10 Approval
+
+	Improvement: Celestial Orb Colonization
+		+2 Pop Slots on Planets with a Celestial Orb
+		+100 Max System Manpower
+----------
+	
+	
+	
+	
+	
+	
+********** Endless Temples **********
+
+Temple: Deep Mind
+	+5 Approval
+	+1% of Empire Bank to Empire Bank
+	+4 Science per Pop
+	+1 Empire Science per Explored Curiosity
+	+20 Empire Bandwidth
+
+	Improvement: Historical Enclaves
+		+20 System Dust
+		+30 System Science
+		+15 System Influence
+	Can only be built in systems with at least one of the following:
+	Pre-galactic Architecture, Dust Ruins, Ancient Ruins, Deserted Cities, Humeris Insidentes, Husk of Knowledge, The Fallen Gardens,
+	Seventeen Thousand Islands Bridges, Platform of Ys, MoonTemple, Celestial Orb
+
+
+Upgrade:
+	+40% Influence
+	+2% FIDSI per Enclave in Empire
+
+	Improvement: Endless Enclaves
+		+10% System Industry
+		+50 System Science
+		+5 System Influence
+	Can only be built in systems with at least one of the following:
+	Dust Ruins, Dust Lode, Cyber Flora, Microfactories, Husk of Knowledge, Spotora's Sanctum, Seventeen Thousand Islands Bridges, Platform of Ys, MoonTemple, Celestial Orb 
+----------
+
+
+Temple: Data Symphony
+	+5 Approval
+	+4 Science per Pop
+	+1 Industry per Pop
+	+25% System Dust
+	-20% Dust Inflation
+	+1 Max Hacking Operation
+
+Economy Upgrade:
+	+40% System Dust
+	+1 Max Trade Company
+	+1 Max Trade Subsidiaries
+
+Science Upgrade:
+	+6 Science per Pop
+
+	Improvement: Exotic Research Labs
+		+10 Science per Strategic Deposit
+		+10 Science per Luxury Deposit
+----------
+
+
+Temple: Watchmaker
+	+5 Approval	
+	+4 Science per Pop
+
+	Improvement: Watchmaker Child Facility
+		+40 Industry if Watchmaker Temple is in Export configuration
+		+30 Industry if Watchmaker Temple is in Export configuration
+
+Industry Configuration:
+	+100 Industry
+	+25% System Industry
+
+Science Configuration:
+	+150 Science
+	+25% System Science
+
+Export Configuration:
+	+10% System Science
+	+10% System Industry
+
+Upgraded Industry Configuration:
+	+200 Industry
+	+40% System Industry
+
+Upgraded Science Configuration:
+	+300 Science
+	+40% System Science
+
+Upgraded Export Configuration:
+	+10% System Science
+	+10% System Industry
+	+50% Effect of Watchmaker Child Facilities
+----------
+
+
+Temple: Titan Wind
+	+5 Approval
+	+2 Pop Slots
+	+4 Science per Pop
+	+20 Food
+	+25% System Industry
+	+1 Fleet Travel Speed
+	+1 Civilian Travel Speed
+	+.5 Free Travel Speed
+
+	Improvement: Gas Giant Harvesters (Requires Gas Giant)
+		+10 Science per Gas Giant
+		+30 Dust per Gas Giant
+		+10% System Dust 
+		+1 Pop Slot on Gas Giants
+
+Upgrade:
+	+30 Food
+	+40% System Industry
+	+2 Fleet Travel Speed
+
+	Improvement: Restoration Drones
+		+10% System Industry
+		-2 Depletion Points per Turn
+----------
+
+
+Temple: Hunter's Reach
+	+5 Approval
+	+4 Science per Pop
+	+2 Industry per Pop
+	+30 Industry
+	-15% Ship Production Cost
+	+200 Max System Manpower
+	+1000 Max Empire Manpower
+	+1 Tactics Slot
+
+Shipyard Upgrade:
+	-40% Ship Production Cost
+
+	Improvement: Shipyard Work Camps
+		+100 Max System Manpower
+		-2% Ship Construction Cost per Non-Major Population
+		-2 Approval per Non-Major Population
+
+Warfare Upgrade:
+	+100 Ground Battle Deployment Limit on System
+	+20% Ground Troop Health
+	+20% Ground Troop Damage
+----------
+
+
+Temple: Expanded Beauty
+	+10 Approval
+	+5 Science per Pop
+	+1 Pop Slot
+	+50 System Science
+	+4% System Dust per Pop Type
+	+4% System Science per Pop Type
+	+4% System Influence per Pop Type
+	+4 Empire Bandwidth per Pop
+	+15 Vision Range
+	
+	Planet Specialization: Global Entertainment
+		+2 Approval per Pop
+	
+Upgrade:
+	+7% System Dust per Pop Type
+	+7% System Science per Pop Type
+	+7% System Influence per Pop Type
+	+6 Empire Bandwidth per Pop
+	+20 Vision Range
+	
+	Anomaly Reduction: Ring to Moon Transformation
+		Turns ring anomaly into a moon
+----------
+	
+
+Temple: Metal Hearth
+	+4 Food per Pop
+	+6 Science per Pop
+	+5 Approval
+	+2 Pop Slots
+	+25% System Food
+	+1 Empire Systems Limit
+	
+	Improvement: Orbital Hydroponics (Requires Moon)
+		+5 Food per Moon
+		+10 Food per Planet
+	
+Upgrade:
+	+40% System Food
+	+2 Empire Systems Limit
+	Grants Portal on System
+	
+	Improvement: Temple Portal (Unique)
+		Grants Portal on System
+----------
+	
+
+Temple: Quantum Order
+	+2 Food per Pop
+	+4 Science per Pop
+	+3 Dust per Pop
+	+5 Approval
+	+2 Pop Slots
+	+20% System FIDSI
+	+1 Empire Systems Limit
+	+10% Hacking Speed
+	
+	Improvement: Lunar Ore Dispatchers (Requires Moon)
+		+20 Industry per Moon
+	
+Upgrade:
+	+30% System FIDSI
+	+2 Empire Systems Limit
+	+15% Hacking Speed
+	-20% Law Upkeep Costs
+	+1 Max Law Slots
+----------
+
+
+Temple: Dust Archive
+	+1 Food per Pop
+	+4 Science per Pop
+	+2 Pop Slots
+	+1 Approval per Pop Type on Planet
+	+5% System Dust per Pop Type on Planet
+	+15% System Influence
+	+50% Trade Route Income
+	
+Upgrade:
+	+10% System Dust per Pop Type on Planet
+	+30% System Influence
+	+100% Trade Route Income
+	
+	Improvement: Dust Archive Culture Network (Requires Moon)
+		+3 Influence per Pop Type on Planet of the Dust Archive Temple on System
+		+5 Approval per Moon
+----------
+
+
+Temple: Guardian's Post
+	+5 Approval
+	+4 Science per Pop
+	+2 Industry per Pop
+	+2 Pop Slots
+	+200 Max System Manpower
+	+2 Max Fleet CP
+	+1 Max Juggernaut Limit
+	+7 Ship XP per turn while docked
+	
+Upgrade:
+	+3 Max Fleet CP
+	+2 Max Juggernaut Limit
+	+10 Ship XP per turn while docked
+	+2000 Ground Battle Bombardment Damage (Def)
+	
+	Improvement: Lunar Strike Base (Requires Moon)
+		+100 Max System Manpower
+		+3 Ship XP per turn while docked
+		+750 Ground Battle Bombardment Damage (Def)
+----------
+	
+
+Temple: Infinite Caverns
+	+5 Approval
+	+2 Food per Pop
+	+2 Industry per Pop
+	+4 Science per Pop
+	+2 Pop Slots
+	
+Upgrade 1:
+	+3 Food per Pop
+	+4 Industry per Pop
+	+3 Pop Slots
+	
+Upgrade 2:
+	+10% System Industry
+	+5 Science per Pop
+	+4 Pop Slots	
+	
+	Improvement: Temple Bot Outpost
+		+5 Approval
+		+30 Food, -5 Food per other Temple Bot Outpost built in Empire
+		+30 Industry, -5 Industry per other Temple Bot Outpost built in Empire
+		+20% System FIDSI, -5% System FIDSI per other Temple Bot Outpost built in Empire
+	
+Upgrade 3:
+	+5 Pop Slots	
+	
+Upgrade 4 - Exploded Moon (Moon turns into rings):
+(Cancel all other previous benefits. May only build Temple Bot Outposts if at least one has been built.)
+	-6 Food per Pop
+	+2 Industry per Pop
+	-25 Approval
+	-1 Pop Slot
+----------
+	
+	
+Temple: Stellar Web
+	+5 Approval
+	+2 Food per Pop
+	+2 Industry per Pop
+	+4 Science per Pop
+	+2 Pop Slots
+	+50 Dust per Web Anchor in Empire
+	
+	Improvement: Web Anchor (Requires Moon)
+		+20 Science
+		+10 Influence
+		+5 Approval
+	
+Upgrade:
+	+100 Science per Web Beacon in Empire
+	+10 Vision Range
+	+3 Vision Range per Web Beacon in Empire
+	
+	Improvement: Web Beacon (Requires Web Anchor)
+		+5 Science per Web Beacon in Empire
+		+3 Vision Range per Web Beacon in Empire
+----------
+
+
+Temple: Distributed Linkage
+	+5 Approval
+	+3 FIDS per Pop
+	+15% System Industry
+	+15% System Science
+	+10 Empire Bandwidth
+	
+	Improvement: Molecular Extractors
+		-5% System Production per Strategic Resource Deposit
+		-20 Dust per Strategic Resource Deposit
+		+3 on Strategic Resource Deposits
+	
+Upgrade 1:
+	+4 FIDS per Pop
+	+20% System Industry
+	+20% System Science
+	+15 Empire Bandwidth
+	
+Upgrade 2:
+	+10 Approval
+	+2 Pop Slots
+	+5 FIDS per Pop
+	+25% System Industry
+	+25% System Science
+	+20 Empire Bandwidth
+	+10 Vision Range
+----------
+
+
+Temple: Core Stack
+	+5 Approval
+	+5 Science per Pop
+	+1 Max Hacking Operations
+	+10 Empire Bandwidth per Orb and Temple in Empire
+	
+	Improvement: Core Stack Router
+		+5 Empire Bandwidth
+		+2% Hacking Speed
+	
+Defensive Configuration:
+	+30 Influence
+	-30% to hostile Hacking Operation speed
+	Can see Sleeper Populations
+	
+Bandwidth Configuration:
+	+50 Empire Bandwidth
+	+20 Empire Bandwidth per Orb and Temple in Empire
+	
+Hack Speed Configuration:
+	+30% Hack Travel Speed
+----------
+	

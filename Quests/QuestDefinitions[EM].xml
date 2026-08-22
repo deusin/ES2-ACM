@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- for compatibilty with ESG Balance Mod -->
+
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+  <QuestDefinition Name="FactionTraitEndlessMoonsTag" Category="Start" SubCategory="Regular" TriggeringProbability="1" MinimumTurn="0">
+    <Tags>BeginTurn,Hidden</Tags>
+    <QuestContextSolo/>
+    <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
+    <Vars>
+      <Var VarName="$DescriptorDefinition" StringValue="EndlessMoonsEnabled"/>
+      <Var IsGlobal="true" VarName="$LivingEmpires">
+        <From Source="$Participants"/>
+      </Var>
+    </Vars>
+    <Steps>
+      <Step Name="Step1">
+        <ObjectiveSet>
+          <Objective Name="Add_Empire_Improvement">
+            <Sequence>
+              <Action_ApplyDescriptor LogAction="false">
+                <Input_DescriptorName VarName="$DescriptorDefinition"/>
+                <Input_Targets VarName="$LivingEmpires"/>
+              </Action_ApplyDescriptor>
+            </Sequence>
+          </Objective>
+        </ObjectiveSet>
+      </Step>
+    </Steps>
+  </QuestDefinition>
+</Datatable>

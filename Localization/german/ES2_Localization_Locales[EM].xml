@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"  xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
+
+<!-- Endless Moons 2.8.8 -->
+
+<!-- Debug -->
+
+        <LocalizationPair Name="%Moon_TM_Title">MOND MIT TEMPELANLAGEN</LocalizationPair> <!-- Temp title used to reveal moons that have temples -->
+        
+<!-- removes default mood appended tip - this saves space for descriptions -->
+  <LocalizationPair Name="%CategoryAnomalyQualityMoonDescription"> </LocalizationPair>
+
+ <!-- Base Moon Types-->
+
+	<LocalizationPair Name="%Moon_SmSing_Title">Kleiner Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSing_Desc">Ein kleiner Mond kreist in der Umlaufbahn dieses Planeten.
+Er ist zu klein um durch seine Anziehungskraft den Planeten ernsthaft zu beeinflussen, aber er kann wertvolle Ressourcen beherbergen, deren Abbau sich lohnen dürfte.
+#E3BDAC#Monde gelten nicht als Standardanomalien.#REVERT#</LocalizationPair>
+  
+	<LocalizationPair Name="%Moon_MdSing_Title">Mittlerer Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSing_Desc">Ein Mond durchschnittlicher Größe befindet sich in der Umlaufbahn dieses Planeten. Er verfügt über ausreichend Masse, um einen Gezeitenwechsel hervorzurufen.
+Astronomen und Geologen sind sich einig, dass dieser Mond eine gute Quelle für Mineralien und Gesteine sein dürfte.
+#E3BDAC#Monde gelten nicht als Standardanomalien.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_LgSing_Title">Riesiger Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgSing_Desc">Der Mond in der Umlaufbahn dieses Planeten ist ungewöhnlich groß, was zu einigen durchaus interessanten Auswirkungen auf die Entwicklung des Planeten geführt hat.
+Aber viel wichtiger, er verspricht der örtlichen Industrie einen steten Fluß an Ressourcen zu ermöglichen, die erforderlichen Ausbauten vorausgesetzt.
+#E3BDAC#Monde gelten nicht als Standardanomalien.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Binary_Title">Kleine Binär-Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_Binary_Desc">Ein Paar kleine Monde befinden sich in der Umlaufbahn dieses Planeten, was der lokalen Wirtschaft verschiedene Verwendungsmöglichkeiten eröffnet.
+Erforderliche Investitionen vorausgesetzt, können sie ziemlich nützlich sein, etwa für die Errichtung eines aufstrebenden Industriestandorts, oder auch zur Unterstützung von Unternehmungen größeren Formats.
+#E3BDAC#Monde gelten nicht als Standardanomalien.#REVERT#
+#CC9600#Binär-Monde zählen als 2 Mondanomalien.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_LgBinary_Title">Große Binär-Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinary_Desc">Dieses Mondpärchen ist etwas größer als der Durchschnitt. Es birgt sowohl das Potential für einen riesigen Industriestützpunkt, als auch eine solide Bandbreite an wissenschaftlichen Verwendungsmöglichkeiten.
+#E3BDAC#Monde gelten nicht als Standardanomalien.#REVERT#
+#CC9600#Binär-Monde zählen als 2 Mondanomalien.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Volcanic_Title">Vulkanischer Mond [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_Volcanic_Desc">Abgesehen von nicht erheblicher geologischer Instabilität und häufigen Kometen- sowie Asteroidenschlägen, ist die Oberfläche dieses Mondes ein wahrer Alptraum vulkanischer Aktivität.
+Einerseits in höchstem Maße lebensfeindlich, ist der Mond andererseits eine reichhaltige Mineralienquelle, auch ohne dass vorher umfangreiche Scan- oder Erforschungsunternehmungen realisiert werden müssten.
+#E3BDAC#Monde gelten nicht als Standardanomalien.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Frozen_Title">Frostmond [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_Frozen_Desc">Dieser kleine Mond blieb aufgrund seiner erheblichen Entfernung zum Bezugsplaneten beinahe unbemerkt. Bemerkenswerterweise hat er eine hohe Konzentration an flüssigen Grundbestandteilen, welche jedoch aufgrund der vorherrschenden Temperaturen nur im festen, gefrorenen Zustand vorzufinden sind.
+Deine Berater weisen darauf hin, dass dieser Mond wie geschaffen für alle erdenklichen Forschungsprojekte und sehr wahrscheinlich reich an Mineralvorkommen ist.
+#E3BDAC#Monde gelten nicht als Standardanomalien.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Fertile_Title">Fruchtbarer Mond [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_Fertile_Desc">Eine sehr seltene Mondart die gerade groß genug ist, um eine eigene Atmosphäre mit einem gedeihenden Ökosystem entwickelt zu haben.
+Gesegnet mit einem Überfluss an Lebensraum und kultivierbarem Land, wird dieser Mond nach seiner Erschließung die Heimstätte für Millionen von Lebewesen werden.
+#E3BDAC#Monde gelten nicht als Standardanomalien.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Multi_Title">Multiple Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_Multi_Desc">Es gibt eine Vielzahl von in Größe und Zusammensetzung sehr unterschiedlichen Monden in der Umlaufbahn dieses Planeten.
+Es ist sehr wahrscheinlich, dass eine Unmenge an verschiedensten Ressourcen für den Systemaufbau zur Verfügung stehen werden. Ausführliche Erkundungsmissionen sollten unternommen werden, um die Umweltbedingungen und Wechselwirkungen dieses Mondsystems in seiner Gesamtheit zu verstehen.
+#E3BDAC#Monde gelten nicht als Standardanomalien.#REVERT#
+#CC9600#Multiple Monde zählen als 3 Mondanomalien.#REVERT#</LocalizationPair>
+
+
+<!-- Cloaked Orbs -->
+
+	<LocalizationPair Name="%CloakedOrb_Title">Mystisches Gestirn [Politics]</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_Desc">Über viele Jahre haben die Wissenschaftler die sonderbaren Gravitationsanomalien dieses Systems beobachtet, konnten aber nie deren Ursprung identifizieren. Nun aber, dank fortschrittlichster Scanner- und Anti-Tarn-Technologie kamen sie dem Verursacher auf die Spur:
+Eine gigantische Tarnkonstruktion, die weit entfernt in der Umlaufbahn des Planeten kreist.
+In seinem Wesen ist es ein uralter künstlicher Mond. Nicht enden wollende Reihen still stehender Maschinen säumen dessen Oberfläche, gigantische Schächte erlauben Einblicke in die schillernde Vielfalt des faszninierenden Innenlebens.
+Welche Funktionen dieses Mytische Gestirn in der Vergangenheit hatte, bleibt ein großes Geheimnis, aber es ist klar, dass es sich um eine Art Endlesskonstruktion handelt.
+Forscher im gesamten Imperium beginnen bereits, nutzbare Ressourcen und Technologien aufzudecken, und dieser stille Gigant verspricht viele Geheimnisse zu haben, die sich in der Zukunft offenbaren werden.
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_I1_Title">[Politics]: Gießerei der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_I1_Desc">Einst getarnt und somit vor den Blicken der Galaxie versteckt, scheint dieses uralte uralte Mystische Gestirn ausschließlich der industriellen Produktion gewidmet gewesen zu sein.
+Die geringe Schwerkraft ist ideal für den Raumschiffbau und wird eine Fülle von leicht zugänglichen Erzen und Mineralien für die kommenden Generationen bieten.
+Umfangreiche Maschinenparks wurden online gestellt und geben der Systemindustrie bereits einen deutlichen Schub und viele dieser Verfahren nutzen neuartige Ansätze zur Materialbearbeitung.
+#52C9E7#Verbesserung: #FFFFFF#Industrielle Veredelung von Luxusressourcen#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_I2_Title">[Politics]: Schiffswerft der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_I2_Desc">Einst getarnt und somit vor den Blicken der Galaxie versteckt, scheint dieses uralte Mystische Gestirn wie geschaffen für die Sternenschiffproduktion.
+Unzählige gigantische Hafenbuchten durchziehen diesen künstlichen Mond, und unzählige weitere Docks übersäen die Oberfläche. Viele Baugebiete wurden bereits in Betrieb genommen, bereit, wieder mächtige Flotten zu produzieren. Viele Bereiche sind noch bewohnbar und dienen nun als Militärbasis, komplett mit Trainingseinrichtungen für Schiffsbesatzungen.
+Darüber hinaus scheint eine Reihe von innovativen Fertigungstechniken für kalte Umgebungen geeignet zu sein, und dieses Wissen kann sofort exportiert werden.
+#52C9E7#Verbesserung: #FFFFFF#Tieftemperatur-Herstellung#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_I3_Title">[Politics]: Fabrik der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_I3_Desc">Einst getarnt und somit vor den Blicken der Galaxie versteckt, scheint dieses uralte Mystische Gestirn wie geschaffen für den Einsatz im Rahmen der gewöhnlichen industriellen Produktion.
+Es wurden kilometerlange Maschinenstraßen und Roboter-Fließbänder für fast jede erdenkliche Aufgabe gefunden. Darüber hinaus haben Teams Wege gefunden, viele Peripheriesysteme wiederherzustellen, so dass eine Reihe dieser Systeme und industriellen Verbesserungen auf andere Himmelskörper übertragen und dort verwendet werden können.
+#52C9E7#Verbesserung: #FFFFFF#Mystische Gestirne - Industrielle Aufwertung#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_D1_Title">[Politics]: Tresor der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_D1_Desc">Einst getarnt und vor der Galaxie versteckt, scheint dieses uralte Mystische Gestirn zur Verarbeitung und Speicherung unvorstellbarer Dustmengen verwendet worden zu sein.
+Während die Tresore größtenteils leer sind, sollte man bedenken, dass es immer noch riesige Mengen gibt, die extrahiert und zur Ergänzung von Systemen im gesamten Reich verwendet werden können. Nicht nur das, auch viele der unterstützenden Einrichtungen und Raffinerien sind noch in Betrieb, was zu erheblichen Dusterträgen im lokalen System führt. Und so konnten sogar ganz neue Handelsbranchen fast über Nacht entstehen.
+Eine Sicherheitsinfrastruktur zum Schutz der neuen Industrien und als militärischer Außenposten ist bereits vorhanden.
+9E7#Verbesserung: #FFFFFF#Verarbeitung exotischer Ressourcen#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_D2_Title">[Politics]: Handelszentrum der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_D2_Desc">Einst getarnt und vor der Galaxie versteckt, scheint dieses uralte Mystische Gestirn einst ein großes Zentrum für den galaktischen Handel gewesen zu sein.
+Endlose Einkaufszentren und Handelsplätze sind überall in der Architektur zu finden, ebenso wie riesige Nebenflächen, die der Lagerung, dem Transport und der Unterbringung von Reisenden dienen.
+All diese bereits existierende Infrastruktur hat es sogar ermöglicht, dass fast über Nacht ganz neue Handelsindustrien entstanden sind, und auch die Technologien wurden hier angepasst, um einen besseren Zugang zu den extremsten Umgebungen der verschiedenen Planeten zu ermöglichen.
+#52C9E7#Verbesserung: #FFFFFF#Agentur für Extremtourismus#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_D3_Title">[Politics]: Dust-Institut der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_D3_Desc">Einst getarnt und vor der Galaxie versteckt, scheint dieses uralte Mystische Gestirn erschaffen worden zu sein, um galaktische Märkte und Finanzsysteme zu analysieren.
+Ganze Volkswirtschaften scheinen in einer sich ständig verändernden Umgebung für automatisierte Studien modelliert worden zu sein, und ein Großteil dieser enormen Rechenleistung kann für andere Zwecke des Imperiums eingesetzt werden.
+Viele dieser Marktsysteme können hier und auf anderen Himmelskörpern realisiert werden, wenn die nötigen Investitionen aufgebracht werden.
+#52C9E7#Verbesserung: #FFFFFF#Mystische Gestirne - Finanzaufwertung#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_S1_Title">[Politics]: Archive der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_S1_Desc">Einst getarnt und vor der Galaxie versteckt, scheint dieses uralte Mystische Gestirn eine gigantische Wissenschafts- und Forschungseinrichtung gewesen zu sein.
+Während ein Großteil der einst hier durchgeführten Forschung derzeit nicht zu entschlüsseln ist, werden fast täglich viele neue Technologien entdeckt. Einige dieser Erkenntnisse treiben bereits die Forschung in den reinen Wissenschaften voran.
+Erwähnenswert sind auch verschiedene Techniken zur Untersuchung von Hochtemperaturwelten und solchen mit aktiver Geologie.
+#52C9E7#Verbesserung: #FFFFFF#Radiologische Geologie#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_S2_Title">[Politics]: Verarbeitungsnetzwerk der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_S2_Desc">Einst getarnt und vor der Galaxie verborgen, scheint dieses uralte Mystische Gestirn eine riesige Rechenanlage zu sein.
+Ein Großteil der Oberfläche scheint immer noch funktionstüchtig zu sein und kann sofort für den Bedarf des Imperiums genutzt werden. Obwohl ein Großteil dieser großartigen Struktur vielleicht nie vollständig erforscht werden wird, kann niemand ihren Nutzen leugnen, trotz ihres hohen Alters.
+Unter den verschiedenen Datenbanken befinden sich Entwürfe für automatische Sonden und die fortschrittlichen Steuerungsalgorithmen, um sie in der Umgebung von Gasplaneten zu koordinieren. Diese Drohnen ermöglichen eine robuste und kontinuierliche Erforschung von Gasriesen.
+#52C9E7#Verbesserung: #FFFFFF#Gasriesen-Drohnen#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_S3_Title">[Politics]: Forschungszentrum der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_S3_Desc">Einst getarnt und vor der Galaxie verborgen, scheint dieses uralte Mystische Gestirn ein zentrales Versuchslabor gewesen zu sein.
+Unzählige automatisierte Experimente scheinen hier durchgeführt worden zu sein, und abgesehen von einer kleinen Minderheit an laufenden Studien sind die Systeme größtenteils nicht mehr in Betrieb. Dennoch haben die Daten, die in dieser fantastischen Struktur enthalten sind, das Potenzial, die heutige Wissenschaft zu revolutionieren.
+Riesige Sensorenfelder sind noch intakt, und viele experimentelle Bereiche können wieder aktiviert werden, um nun für Ihr Imperium zu arbeiten.
+#52C9E7#Verbesserung: #FFFFFF#Himmelskörper-Forschungsaufwertung#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_FIDS1_Title">[Politics]: Artefaktkammer der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_FIDS1_Desc">Einst getarnt und vor der Galaxie verborgen, scheint dieses uralte Mystische Gestirn Maschinen für jeden Zweck zu haben.
+Während ein großer Teil der wundersamen Einrichtungen seit unzähligen Generationen nicht mehr funktionsfähig ist, erwecken erste Teams bereits einige Bereiche wieder zum Leben.
+Die vielfältige Natur und der Zweck dieser Systeme scheinen Anwendungen für jeden Bereich des Lebens im Imperium zu haben. In allen Bereichen wurden bereits Fortschritte erzielt.
+Zusätzlich gibt es Pläne für ein ultrakompaktes, fortschrittliches Aufklärungsmodul und empfindliche Langstrecken-Überwachungsgeräte.
+#52C9E7#Unterstützungs-Modul: #FFFFFF#Erkundungs-Modul#REVERT#
+#52C9E7#Unterstützungs-Modul: #FFFFFF#Langstrecken-Scanner#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+ 	<LocalizationPair Name="%CloakedOrb_FIDS2_Title">[Politics]: Grundlagen der Endless</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_FIDS2_Desc">Einst getarnt und vor der Galaxie verborgen, scheint dieses uralte Mystische Gestirn Myriaden von Systemen für groß angelegte logistische Unterstützung zu enthalten.
+Das industrielle Ausmaß dieser Operationen eignet sich für jeden Zweck, den das Imperium wünscht. Und die riesige Wartungs- und Kontrollinfrastruktur kann genutzt werden, um weitere riesige Operationen zu unterstützen.
+Als Bonus haben viele Schlüsselbereiche des logistischen Drohnennetzwerks zu Erkenntnissen über die Ausbeutung der Gasriesen geführt.
+#52C9E7#Spezialisierung: #FFFFFF#Ausbeutung von Gasriesen#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_FIDS3_Title">[Politics]: Megalopolis</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_FIDS3_Desc">Einst getarnt und vor der Galaxie verborgen, scheint dieses uralte Mystische Gestirn hauptsächlich für Wohnzwecke genutzt worden zu sein.
+Die Tatsache, dass dieser massive Himmelskörper so konstruiert wurde, dass er autark ist, bedeutet, dass seine Prozesse im gesamten System für fast jede Anwendung genutzt werden können, und dies hat das allgemeine Wohlbefinden des Systems dramatisch erhöht.
+Gebiete sind jetzt leicht bewohnbar, und viele der Wohnarchitekturen zeigen, wie diese Techniken auf andere Himmelskörper übertragen werden könnten.
+#52C9E7#Verbesserung: #FFFFFF#Celestial Orb Colonization#REVERT#
+#CC9600#Mystische Gestirne gelten sowohl als Mond- wie auch als Standardanomalie.#REVERT#</LocalizationPair>
+ 
+<!-- Moons -->
+
+	<LocalizationPair Name="%Moon_SmSingA2_Title">Ein Erkundeter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingA2_Desc">Kleiner Mond:
+Dieser kleine Mond ist vollständig erforscht, hat aber relativ wenig Ressourcen zu bieten. Umfrageberichte besagen, dass es unwahrscheinlich ist, dass er jemals von großem Wert für die System- oder Planetenentwicklung sein wird. 
+Dennoch er bietet eine Alternative für diejenigen, die "den gesellschaftlichen Zwängen entkommen" wollen.</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_SmSingA3_Title">Ein Entwickelter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingA3_Desc">Kleiner Mond.
+Die zunehmende Zahl von Bürgern, die hierher reisen und sich dort niederlassen hat zu einer stärkeren Entwicklung dieses Mondes geführt.
+Obwohl es kein Industriezentrum sein wird, sind mehrere spezialisierte Industrien entstanden, um die lokale Systemwirtschaft zu bedienen.</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_SmSingB2_Title">Ein Erkundeter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingB2_Desc">Kleiner Mond:
+Gutachter berichten, dass dieser kleine Mond eine überraschend hohe Konzentration an Erzen und anderen Materialien aufweist, die eine gute Quelle für Ressourcen für die industrielle Entwicklung darstellen. 
+Vielleicht könnte mit verbesserten Abbautechniken noch mehr Wert geschaffen werden.</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_SmSingB3_Title">Ein Entwickelter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingB3_Desc">Kleiner Mond.
+Der einst vergessene Mond ist dank seiner reichen Erze im tiefen Untergrund, darunter viele seltene Silikate, die in einer Vielzahl von Anwendungen eingesetzt werden, zu einem wichtigen Knotenpunkt für Industrieprojekte im gesamten System geworden.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_SmSingE2_Title">Ein Erkundeter Mond</LocalizationPair>
+        <LocalizationPair Name="%Moon_SmSingE2_Desc">Kleiner Mond:
+Bei der Erkundung dieses Mondes wurde festgestellt, dass er trotz seiner geringen Größe eine Vielzahl von Gebieten aufweist, die zur Erschließung geeignet sind. Darunter insbesondere mehrere dustreiche Krater. Die Forscher haben bereits damit begonnen, die besten Standorte für künftige Studien zu bestimmen.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_SmSingE3_Title">Ein entwickelter Mond</LocalizationPair>
+        <LocalizationPair Name="%Moon_SmSingE3_Desc">Kleiner Mond:
+Dank großzügiger Finanzierung und Entwicklung trägt dieser kleine Mond in einer Reihe von Bereichen erheblich zur Systemwirtschaft bei.
+Einst als zu unbedeutend angesehen, um von großem Interesse zu sein, ist er zu einem recht attraktiven Ziel für Mondtouristen geworden.</LocalizationPair> 
+ 
+ 	<LocalizationPair Name="%Moon_MdSingA2_Title">Ein Erkundeter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingA2_Desc">Mittlerer Mond:
+Nachdem die wichtigsten Gebiete des Mondes analysiert und kartiert wurden, haben die lokalen Industrien begonnen, ihre Bodenschätze effektiv zu nutzen.
+Mit weiteren Investitionen in die Mondentwicklung können Industrien im gesamten System stark profitieren.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MdSingA3_Title">Ein Entwickelter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingA3_Desc">Mittlerer Mond:
+Mit Hilfe von Entwicklungs- und Forschungsfördermitteln sind die Mondbetriebe hier zu einer beeindruckenden Größe herangewachsen und tragen in hohem Maße zur Systemindustrie und den Wissenschaften bei, und das wird auch für die kommenden Generationen so bleiben.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingB2_Title">Ein Erkundeter Mond</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingB2_Desc">Mittlerer Mond:
+Fast unmittelbar nach Beginn der Katalogisierung der verschiedenen Merkmale dieses Mondes wurden große Konzentrationen von Dustablagerungen direkt unter der Oberfläche festgestellt. Bei weiteren Analysen wurde auch festgestellt, dass die meisten Mineralien für die Großindustrie ungeeignet sind.
+Obwohl sie vielleicht nicht Teil des ursprünglichen Entwicklungsplans sind, werden die ungewöhnlicheren Merkmale eine willkommene Ergänzung für Handel und Wissenschaft sein.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingB3_Title">Ein Entwickelter Mond</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingB3_Desc">Mittlerer Mond:
+Aufgrund der ungewöhnlichen Dustkonzentrationen dieses Mondes erkennen Wissenschaft und Handel nun das Potenzial dieses einst gewöhnlich aussehenden Mondes voll und ganz an.
+Inzwischen gibt es dort sogar eine kleine, aber beliebte Tourismusbranche. Eine, die Wochenendausflüge für Enthusiasten bietet, um nach Duststaub zu "graben".</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingF2_Title">Ein Erkundeter Mond</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingF2_Desc">Mittlerer Mond:
+Detaillierte Analysen auf diesem Mond haben ergeben, dass er relativ vielfältig ist und eine Unmenge von Möglichkeiten für alle Arten von Industrie, Wissenschaft, Dustgewinnung und sogar einige exotische Lebensmittel bietet.
+Die Entwicklung hier kann sich in einer Reihe von Wirtschaftsbereichen auszahlen.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingF3_Title">Ein Entwickelter Mond</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingF3_Desc">Mittlerer Mond:
+Dieser Mond, der jetzt eine florierende Wirtschaft beherbergt, bietet ein schillerndes Spektrum an Aktivitäten und Möglichkeiten, und seine Vielseitigkeit zieht Besucher aus allen Teilen des Reiches an.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MdSingE2_Title">Ein Erkundeter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingE2_Desc">Mittlerer Mond:
+Oberflächenscans haben viele Bereiche mit Mineralienkonzentrationen identifiziert, und etwas unerwartet hat dieser Mond aufgrund ungewöhnlicher geologischer Eigenschaften zahlreiche Forschungsmöglichkeiten offenbart.
+Durch die Weiterentwicklung können sowohl in der Wissenschaft als auch in der Industrie hohe Gewinne erzielt werden.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MdSingE3_Title">Ein Entwickelter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingE3_Desc">Mittlerer Mond:
+Nach gezielten Investitionen ist dieser Mond heute ein etablierter Knotenpunkt für Materialwissenschaften und Mineralgewinnung.
+Wenn das System weiter wächst, wird dieser entwickelte Mond seine Unternehmensgröße anpassen, um die Nachfrage auch weiterhin zu decken.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MdSingF2_Title">Ein Erkundeter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingF2_Desc">Mittlerer Mond:
+Detaillierte Analysen auf diesem Mond haben ergeben, dass er relativ vielfältig ist und eine Fülle von Möglichkeiten für alle Arten von Industrie, Wissenschaft, Dustabbau und sogar einige exotische Nahrungsmittel bietet.
+Die Erschließung und Entwicklung dieses Mondes bietet eine Reihe von wirtschaftlichen Optionen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MdSingF3_Title">Ein Entwickelter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingF3_Desc">Mittlerer Mond:
+Dieser Mond verfügt mittlerweile über eine lebhafte Wirtschaft und bietet eine schillernde Auswahl an Aktivitäten und Möglichkeiten, und seine Vielseitigkeit lockt Besucher aus allen Teilen des Reiches an.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_LgSingA2_Title">Ein Erkundeter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgSingA2_Desc">Großer Mond:
+Bergbau- und Industrieunternehmen haben schon vor der Beendigung der vollständigen Monderkundung schnell auf dessen Entwicklungsrechte geboten. Und selbst den hartnäckigsten Zweiflern ist heute klar, dass dieser große Mond viel ungenutztes Industriepotential birgt.</LocalizationPair>
+ 
+        <LocalizationPair Name="%Moon_LgSingA3_Title">Ein Entwickelter Mond</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgSingA3_Desc">Großer Mond:
+Es ist eine Sache, die langfristige Entwicklung zu planen und vorherzusagen, und eine ganz andere, dieses Potenzial endlich zu realisieren. Wie erwartet, bringt dieser massive Mond im Handumdrehen die Großindustrie des Systems um Lichtjahre voran.
+Einst hauptsächlich für den Bergbau bestimmt, beherbergt er heute ausgedehnte Mondstädte über und unter der Oberfläche, mit Annehmlichkeiten, die die besten und klügsten Industriellen aus dem ganzen Reich anziehen.</LocalizationPair>
+  
+ 	<LocalizationPair Name="%Moon_BinaryA2_Title">Zwei Erkundete Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryA2_Desc">Binärmonde:
+Obwohl einzeln klein und unbedeutend, sind diese Monde zusammen genommen eine reiche Quelle für leicht zugängliche Erze und Mineralien.
+Sobald sie vollständig entwickelt sind, werden sie sich als sehr wertvoll für alle Arten von Industrieprojekten erweisen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_BinaryA3_Title">Zwei Entwickelte Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryA3_Desc">Binärmonde:
+Aufgrund der einfachen Mineralgewinnung war es nur logisch, dass alle Arten von Industrie und Fertigung im System auftauchten.
+Diese Zwillingsmonde, die heute weit verbreitet sind, sind erstklassige Standorte für große Bauprojekte.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_BinaryB2_Title">Zwei Erkundete Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryB2_Desc">Binär-Monde:
+Aufgrund ihrer geringen Größe, ihrer stabilen Umlaufbahnen und unberührten Landschaften hat dieses Mondpaar ein hervorragendes wissenschaftliches Potenzial.
+Mit einer gewissen industriellen Entwicklung könnten sie auch in Zukunft eine reiche Quelle an Mineralien sein.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_BinaryB3_Title">Zwei Entwickelte Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryB3_Desc">Binär-Monde:
+Nachdem einige hochkarätige Forschungsprojekte die ursprünglichen Mondwissenschaftsstationen berühmt gemacht hatten, war es nur eine Frage der Zeit, bis überall große Forschungsstädte entstanden.
+Heute sind diese binären Monde bekannt für erstklassige universitäre Forschung und kostengünstige Mineralgewinnung.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_BinaryC2_Title">Zwei Erkundete Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryC2_Desc">Binär-Monde:
+Zwar wurde erwartet, dass auf diesen Monden wertvolle Mineralien zu finden sein würden, die Kartographen waren dennoch überrascht, als auf dem kleineren der beiden Monde reiche Dustablagerungen entdeckt wurden.
+Zusätzliche Mittel und Entwicklungen vorausgesetzt, können hohe Gewinnmargen erzielt werden, falls die Anstrengungen in diesem Bereich forciert werden.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_BinaryC3_Title">Zwei Entwickelte Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryC3_Desc">Binär-Monde:
+Früher wirkten diese Monde eher gewöhnlich. Heute sind sie jedoch aufgrund der kilometerlangen dustreichen Adern im gesamten Regolith ein bekanntes Industriezentrum.
+Kein imperiales Projekt im System wird ohne Einbeziehung der Möglichkeiten der Mondlogistik geplant.</LocalizationPair>	
+	
+	<LocalizationPair Name="%Moon_LgBinaryA2_Title">Zwei Erkundete Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinaryA2_Desc">Große Binär-Monde:
+Obwohl sie etwa gleich groß sind, haben diese Monde sehr unterschiedliche geologische Eigenschaften.
+Dies wird für eine Vielzahl von Fachstudien und reiche Quellen an Erzen und seltenen Materialien sorgen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_LgBinaryA3_Title">Zwei Entwickelte Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinaryA3_Desc">Große Binär-Monde:
+Selbst nach andauernder schwerer industrieller Ausbeutung der Planetenkruste zeigt der Mineralreichtum dieser Monde keine Anzeichen eines ernsthaften Rückgangs.
+Immer mehr Unternehmen haben ihre Aktivitäten in das Gebiet verlagert, und die Umlaufkörper sind zu dauerhaften Heimen für Millionen geworden.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_LgBinaryB2_Title">Zwei Erkundete Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinaryB2_Desc">Große Binär-Monde:
+Forschungsberichte haben nun bestätigt, dass diese Monde neben dem Mineralreichtum auch zahlreiche archäologische Ruinen an der Oberfläche aufweisen.
+Dies ist zwar eine fantastische Nachricht, aber bereits jetzt streiten sich Unternehmensjuristen darüber, welche Bereiche der Industrie zugewiesen werden sollten und welche für die Forschung.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_LgBinaryB3_Title">Zwei Entwickelte Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinaryB3_Desc">Große Binär-Monde:
+Aufgrund des unaufhörlichen Streits um die Landrechte war schließlich ein staatliches Eingreifen erforderlich - damit nicht alles zum Stillstand kommt.
+Auch wenn sich weder die Wissenschaft noch das Industriehandwerk über das zugewiesene Territorium einigen konnten, so waren doch Regierungsaufträge und Fördergelder auf beiden Seiten ausreichend um die Kontzrahenten zu beschwichtigen.  Im Resultat konnten damit die groß angelegten Unternehmungen endlich beginnen die lange ersehnten Gewinne abzuwerfen.
+Heutzutage erinnert sich kaum noch jemand an die turbulente politische Geschichte der Mondkolonien in deren Gründerzeit.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_VolcanicA2_Title">Ein Erkundeter Mond [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_VolcanicA2_Desc">Vulkanischer Mond:
+Nach Abschluss umfangreicher Zusammensetzungsanalysen können nun intensivere Anstrengungen unternommen werden, um das Rohertragspotenzial dieses aktiven Mondes abzubauen.
+Es wird erwartet, dass die Industrien rund um das System eine deutliche Steigerung der Produktivität verzeichnen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_VolcanicA3_Title">Ein Entwickelter Mond [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_VolcanicA3_Desc">Vulkanischer Mond:
+Mit den neuesten Techniken in der nahezu unverwüstlichen Konstruktion und Fertigung konnten viele Anlagen die Effizienz und den Ertrag ihrer Betriebe drastisch steigern.
+Trotz der gestiegenen Aktivität waren die Sicherheitsdaten (für das Gebiet) noch nie besser, und die Arbeitsplätze im "Dynamic Environment Mining" waren noch nie so beliebt.</LocalizationPair>
+  
+ 	<LocalizationPair Name="%Moon_VolcanicB2_Title">Ein Erkundeter Mond [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_VolcanicB2_Desc">Vulkanischer Mond:
+Weitere Analysen haben viele dustreiche Mineraliengebiete offenbart und die effizientesten und einigermaßen sicheren Orte für die Erzgewinnung identifiziert.
+Obwohl die Bedingungen auf dem Mond rauh und immer noch relativ gefährlich sind, zahlt sich diese riskante Arbeit durchaus aus, und das System profitiert stark von der erhöhten Produktionskapazität.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_VolcanicB3_Title">Ein Entwickelter Mond [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_VolcanicB3_Desc">Vulkanischer Mond:
+Durch den Einsatz modernster Techniken in der nahezu unzerstörbaren Bauindustrie konnten viele Anlagen die Effizienz und den Ertrag ihres Betriebs drastisch steigern.
+Trotz der gestiegenen Aktivität waren die Sicherheitsdaten (für das Gebiet) noch nie besser, und die Arbeitsplätze im "Dynamic Environment Mining" waren noch nie so beliebt.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FrozenA2_Title">Ein Erkundeter Mond [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenA2_Desc">Frostmond:
+Nach umfangreicher Katalogisierung und Analyse verschiedener Datensätze sind die Kartographen-Teams zu einem etwas enttäuschenden Ergebnis gekommen.
+Auch wenn dieser entfernte Mond ein gewisses Maß an Wert hat, ist er doch weitaus geringer als ursprünglich angenommen. Es scheint hier einfach nicht viel langfristiges Potenzial zu geben.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FrozenA3_Title">Ein Entwickelter Mond [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenA3_Desc">Frostmond:
+Trotz der geringen Größe dieses gefrorenen Mondes reisen Forscher und Kolonisten weiterhin hierher. Bescheidene Investitionen haben im Laufe der Jahre zur Entwicklung dieses Forschungsparadieses beigetragen.
+Auch wenn er weder in der Wissenschaft noch als touristischer Hotspot eine große Rolle spielen wird, ist dieser Mond dennoch ein beliebtes Reiseziel der Einheimischen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FrozenB2_Title">Ein Erkundeter Mond [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenB2_Desc">Frostmond:
+Die ersten Einschätzungen stimmten mit ihrem Thesen überein, dass der Eismond eine ausgezeichnete Forschungsbasis und ein galaktisches Observatorium darstellen würde.
+Bereits jetzt wurden ernsthafte Investitionen in den Aufbau einer umfangreichen wissenschaftlichen Infrastruktur getätigt, die durch lokale Mineralvorkommen unterstützt wurden.
+Mit kontinuierlicher Entwicklungsunterstützung könnte dieser winzige Mond in verschiedenen Bereichen des wissenschaftlichen Fortschritts eine erhebliche Bedeutung erlangen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FrozenB3_Title">Ein Entwickelter Mond [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenB3_Desc">Frostmond:
+In Anbetracht des historischen Rekordniveaus der Fördermittel ist dieses Forschungsprojekt nicht gescheitert. Das hat zu unzähligen Durchbrüchen in mehreren bedeutenden Forschungsbereichen geführt. Dieser Erfolg wiederum hat zu noch mehr Investitionen und Entwicklung geführt.
+Jetzt ist dieser Mond ein wichtiger Mittelpunkt der Wissenschaft, mit ausgedehnten Gemeinden und umfangreichen unterstützenden Industrien und Infrastrukturen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FrozenC2_Title">Ein Erkundeter Mond [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenC2_Desc">Frostmond:
+Es wurde ursprünglich angenommen, dass dieser Mond ideal für bestimmte Arten von Wissenschaften sein würde, aber ansonsten nicht bemerkenswert sein würde.
+Die Analyseteams haben jedoch festgestellt, dass die meisten Strukturerze und Mineralien mit Dustkonzentrationen angereichert sind. Die Extraktion erweist sich in  größeren Maßstäben als etwas schwierig, aber es ist klar, dass hohe Erträge zu erwarten sind.
+Auf der anderen Seite scheinen die infundierten Erze für industrielle Zwecke ziemlich nutzlos zu sein.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FrozenC3_Title">Ein Entwickelter Mond [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenC3_Desc">Frostmond:
+Mit der groß angelegten Infrastruktur für die Gewinnung, Verarbeitung und Veredelung rund um den Mond werden Dustablagerungen nun endlich in größeren Mengen bearbeitet.
+Außerdem wurden erhebliche Investitionen in die verschiedenen Forschungszentren getätigt, und jetzt gedeihen auch diese Branchen auf diesem einst unscheinbaren Mond.</LocalizationPair>
+  
+ 	<LocalizationPair Name="%Moon_FertileA2_Title">Ein Erkundeter Mond [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileA2_Desc">Fruchtbarer Mond:
+Die einfache Versorgung von Siedlungen und das Sammeln von Ressourcen auf diesem bewohnbaren Mond ist ein großer Vorteil für die planetarische Wirtschaft. Reichlich Nährstoffe im Boden sorgen für hervorragende Ernteerträge, und die geringe Mondschwere sorgt für einen effizienten Abbau.
+Erwarten Sie in den kommenden Jahren mehr Migration und Entwicklung.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FertileA3_Title">Ein Entwickelter Mond [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileA3_Desc">Fruchtbarer Mond:
+Es ist keine Überraschung, dass das reiche Mondland im Laufe der Jahre Millionen neuer Einwohner angezogen hat. Der Mond bietet eine angenehme Umgebung, und die ausgedehnten Ackerflächen bieten weite offene Flächen, die frei von städtischer Verkehrsüberlastung sind.
+Während die jüngsten Urbanisierungsprojekte aufgrund der wachsenden Wirtschaft und der Nachfrage nach Wohnraum entstanden sind, ist ein Großteil des Mondlandes durch Gesetzesvorgaben für den Anbau reserviert.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FertileB2_Title">Ein Erkundeter Mond [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileB2_Desc">Fruchtbarer Mond:
+Während die Luft auf diesem Mond etwas dünner ist als das, was für die Landwirtschaft ideal wäre, beschwert sich auch niemand ernsthaft. Es stellt sich heraus, dass das Land überraschend reich an Mikrodustpartikeln ist, und es hat seine eigenen Sorten von Pilzarten, die sich gut angepasst haben.
+Es stimmt, dass der Mond etwas mineralarm ist, aber die geringe Schwerkraft bedeutet, dass der Import von Rohstoffen stark vereinfacht wird.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FertileB3_Title">Ein Entwickelter Mond [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileB3_Desc">Fruchtbarer Mond:
+Mit ein wenig Ermutigung durch staatliche Aufträge haben die Pilzfarmen ziemlich gut daran getan, eine leicht verpackbare, nährstoffreiche Nahrungsquelle für militärische Rationen bereitzustellen.
+Mit einer boomenden Wirtschaft und vielen dustbelasteten Landstrichen zeigt die Einwanderung keine Spur einer Abschwächung. Die robuste Infrastrukturentwicklung, die ursprünglich auf die Größe der Farmen ausgerichtet war, hat es ermöglicht, dass neue Städte scheinbar über Nacht entstehen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FertileC2_Title">Ein Erkundeter Mond [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileC2_Desc">Fruchtbarer Mond:
+Eine genauere Untersuchung der einzigartigen Ökologie dieses Mondes hat eine Sammlung von ungezähmten Pflanzen, Wildtieren und mikroskopischen Organismen offenbart.
+Mineralien sind leicht verfügbar, Nutzpflanzen gedeihen, und es gibt unzählige Möglichkeiten für biologische Studien. Es scheint, dass dieser Mond ein wenig von allem  zu bieten hat.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FertileC3_Title">Ein Entwickelter Mond [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileC3_Desc">Fruchtbarer Mond:
+Mit so vielen ökonomischen Perspektiven und einer starken Reisebranche sah die Zukunft dieses fruchtbaren Mondes immer rosig aus. Obwohl große Teile der Fläche dem Ackerland gewidmet sind, beginnen einige der städtischen Zentren, mit Metropolen auf viel größeren Welten zu konkurrieren.
+Die Popularität und das stetige Wachstum des Mondes lassen Ökonomen unglaubliche Renditen für die kommenden Jahrzehnte erwarten.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiA2_Title">Drei Erkundete Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiA2_Desc">Multiple Monde:
+Erste Untersuchungsergebnisse sowie die detaillierteren Studien haben ergeben, dass fast alle diese Monde hohe Konzentrationen an nützlichem Erz und Mineralien aufweisen. Viel mehr, als ursprünglich erwartet wurde, um genau zu sein.
+Als zusätzlichen Nebeneffekt unterstützt einer der Monde sogar ein ungewöhnliches Pilzwachstum, von dem man sich gut ernähren kann.
+Die Investition in langfristiges Wachstum hier wird sich auszahlen, und die Industriellen im Imperium sind mehr als glücklich, den Ball ins Rollen zu bringen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiA3_Title">Drei Entwickelte Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiA3_Desc">Multiple Monde:
+Es gab so viele Möglichkeiten für Bergbaurechte, Mineralverarbeitung, Verhüttung und Raffination, dass eine ganze Generation von Unternehmern obszön reich wurde.
+Dieses inzwischen ausgereifte Netzwerk der Industrialisierung unterstützt ein ganzes System verschiedener Fachbereiche und wird sich kontinuierlich verbessern.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiB2_Title">Drei Erkundete Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiB2_Desc">Multiple Monde:
+Die fachgerechte Analyse der umlaufenden Monde hat viele Einsatzmöglichkeiten für die Industrie ergeben, und das ist auch erwartet worden. Was nicht zu erwarten war, war die wirklich hohe Verbreitung einiger der selteneren Elemente, die in vielen Hightech-Anwendungen entscheidend sind.
+Diese Ablagerungen tragen bereits erheblich zum Dustwert des Systems bei. Mit der Weiterentwicklung der Infrastruktur und der Personalausstattung können diese Standorte für noch bessere Erträge erweitert werden.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiB3_Title">Drei Entwickelte Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiB3_Desc">Multiple Monde:
+Der erleichterte Zugang zu seltenen Mondelementen hat zu vielen neuen Industrien geführt, und es war nur konsequent, die Gewinnung und Verarbeitung weiter zu steigern, um der neuen Nachfrage gerecht zu werden.
+Mittlerweile sind die Mondbasen und -netze zu kompletten Städten gewachsen, die ihr eigenes Ökosystem umfassen und sogar spezielle "Wirtschaftszonen" mit eigenen Gesetzen und Vorschriften erfordern.
+Dies verkompliziert zwar die Bürokratie, aber niemand kann die Erträge der Branche als Ganzes leugnen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiC2_Title">Drei Erkundete Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiC2_Desc">Multiple Monde:
+Die Monde dieses Systems wurden untersucht, und sie zeigen auffallend große Vielfalt von Mineralien bis hin zur Archäologie und sogar einer dünnen Pseudoatmosphäre auf einem der Monde, die von äquatorialen Geysiren gehalten werden.
+Es gibt eine Fülle von Möglichkeiten, die genutzt werden können, wenn die notwendigen Investitionen getätigt werden, von denen neue und alte Wirtschaftsräume gleichermaßen profitieren können.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiC3_Title">Drei Entwickelte Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiC3_Desc">Multiple Monde:
+Der Mondlinienverkehr und die Frachtdienste boomen. Kein Wunder, bei all den unterschiedlichen Branchen, die sich aufgebaut haben.
+Jeder Mond hat mehrere Interessenschwerpunkte, und sie alle vernetzen sich aktiv, um die besten Angebote und Möglichkeiten in einem außergewöhnlich schnelllebigen Markt zu nutzen.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiD2_Title">Drei Erkundete Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiD2_Desc">Multiple Monde:
+Kartographische Aufzeichnungen zeigen eine Reihe von Möglichkeiten für die fortgeschrittene Wissenschaft unter den Monden. Es gibt auch viele Erzvorkommen, aber das eigentliche Verkaufsargument im Mondsystem ist das Potenzial für die Forschungsarbeiten.
+Die Koordinierung der Schwerindustrie mit Wissenschaftskolonien wird der Schlüssel zum langfristigen Wachstum des Gebiets sein.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiD3_Title">Drei Entwickelte Monde</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiD3_Desc">Multiple Monde:
+Jetzt, da die verschiedenen Mond-Ökonomien vollständig integriert sind, kommen Wissenschaft und Industrie in einem explosionsartigen Tempo voran.
+Die Bemühungen der Kolonie haben sich gelohnt, und die renommiertesten Universitätsstandorte des Systems befinden sich direkt hier unter den Monden.
+Diese Monde sind wirklich zu einer Erfolgsgeschichte der parallelen Wirtschaftsplanung und -entwicklung geworden.</LocalizationPair>
+
+  
+<!-- Discovered Temples -->
+
+        <LocalizationPair Name="%Moon_MoonTemple_Title">Mond Tempel [X]</LocalizationPair>
+        <LocalizationPair Name="%Moon_MoonTemple_SmSing_Desc">Kleiner Mond:
+Die Entdeckung einer verborgenen und gut erhaltenen Anlage der Endless auf diesem ungewöhnlichen Mond hat die Vorstellungskraft von fühlenden Wesen aus allen Ecken des Imperiums erfasst. 
+Die Durchschnittsbevölkerung hat in Bezug auf die Installation eine wahrhaft ehrfürchtige Haltung eingenommen, und sie ist umgangssprachlich als "Mondtempel der Endless" bekannt geworden. 
+Möglicherweise können mit einer umfangreichen Studie die Geheimnisse dieses massiven Komplexes enthüllt werden. Und vielleicht kann man sogar eines Tages die alten Maschinen wieder zum Leben erwecken.
+Eines ist jedoch sicher - Wissenschaftler im ganzen Reich werden viel zu tun haben, und für die nächsten Jahrzehnte beschäftigt sein.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MoonTemple_MdSing_Desc">Mittlerer Mond:
+Die Entdeckung einer verborgenen und gut erhaltenen Anlage der Endless auf diesem ungewöhnlichen Mond hat die Vorstellungskraft von fühlenden Wesen aus allen Ecken des Imperiums erfasst. 
+Die Durchschnittsbevölkerung hat in Bezug auf die Installation eine wahrhaft ehrfürchtige Haltung eingenommen, und sie ist umgangssprachlich als "Mondtempel der Endless" bekannt geworden. 
+Möglicherweise können mit einer umfangreichen Studie die Geheimnisse dieses massiven Komplexes enthüllt werden. Und vielleicht kann man sogar eines Tages die alten Maschinen wieder zum Leben erwecken.
+Eines ist jedoch sicher - Wissenschaftler im ganzen Reich werden viel zu tun haben, und für die nächsten Jahrzehnte beschäftigt sein.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MoonTemple_LgSing_Desc">Großer Mond:
+Die Entdeckung einer verborgenen und gut erhaltenen Anlage der Endless auf diesem ungewöhnlichen Mond hat die Vorstellungskraft von fühlenden Wesen aus allen Ecken des Imperiums erfasst. 
+Die Durchschnittsbevölkerung hat in Bezug auf die Installation eine wahrhaft ehrfürchtige Haltung eingenommen, und sie ist umgangssprachlich als "Mondtempel der Endless" bekannt geworden. 
+Möglicherweise können mit einer umfangreichen Studie die Geheimnisse dieses massiven Komplexes enthüllt werden. Und vielleicht kann man sogar eines Tages die alten Maschinen wieder zum Leben erwecken.
+Eines ist jedoch sicher - Wissenschaftler im ganzen Reich werden viel zu tun haben, und für die nächsten Jahrzehnte beschäftigt sein.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MoonTemple_Binary_Desc">Binär-Monde:
+Die Entdeckung einer verborgenen und gut erhaltenen Anlage der Endless auf diesem ungewöhnlichen Mond hat die Vorstellungskraft von fühlenden Wesen aus allen Ecken des Imperiums erfasst. 
+Die Durchschnittsbevölkerung hat in Bezug auf die Installation eine wahrhaft ehrfürchtige Haltung eingenommen, und sie ist umgangssprachlich als "Mondtempel der Endless" bekannt geworden. 
+Möglicherweise können mit einer umfangreichen Studie die Geheimnisse dieses massiven Komplexes enthüllt werden. Und vielleicht kann man sogar eines Tages die alten Maschinen wieder zum Leben erwecken.
+Eines ist jedoch sicher - Wissenschaftler im ganzen Reich werden viel zu tun haben, und für die nächsten Jahrzehnte beschäftigt sein.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MoonTemple_LgBinary_Desc">Große Binär-Monde:
+Die Entdeckung einer verborgenen und gut erhaltenen Anlage der Endless auf diesem ungewöhnlichen Mond hat die Vorstellungskraft von fühlenden Wesen aus allen Ecken des Imperiums erfasst. 
+Die Durchschnittsbevölkerung hat in Bezug auf die Installation eine wahrhaft ehrfürchtige Haltung eingenommen, und sie ist umgangssprachlich als "Mondtempel der Endless" bekannt geworden. 
+Möglicherweise können mit einer umfangreichen Studie die Geheimnisse dieses massiven Komplexes enthüllt werden. Und vielleicht kann man sogar eines Tages die alten Maschinen wieder zum Leben erwecken.
+Eines ist jedoch sicher - Wissenschaftler im ganzen Reich werden viel zu tun haben, und für die nächsten Jahrzehnte beschäftigt sein.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MoonTemple_Volcanic_Desc">Vulkanischer Mond:
+Die Entdeckung einer verborgenen und gut erhaltenen Anlage der Endless auf diesem ungewöhnlichen Mond hat die Vorstellungskraft von fühlenden Wesen aus allen Ecken des Imperiums erfasst. 
+Die Durchschnittsbevölkerung hat in Bezug auf die Installation eine wahrhaft ehrfürchtige Haltung eingenommen, und sie ist umgangssprachlich als "Mondtempel der Endless" bekannt geworden. 
+Möglicherweise können mit einer umfangreichen Studie die Geheimnisse dieses massiven Komplexes enthüllt werden. Und vielleicht kann man sogar eines Tages die alten Maschinen wieder zum Leben erwecken.
+Eines ist jedoch sicher - Wissenschaftler im ganzen Reich werden viel zu tun haben, und für die nächsten Jahrzehnte beschäftigt sein.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MoonTemple_Frozen_Desc">Frostmond:
+Die Entdeckung einer verborgenen und gut erhaltenen Anlage der Endless auf diesem ungewöhnlichen Mond hat die Vorstellungskraft von fühlenden Wesen aus allen Ecken des Imperiums erfasst. 
+Die Durchschnittsbevölkerung hat in Bezug auf die Installation eine wahrhaft ehrfürchtige Haltung eingenommen, und sie ist umgangssprachlich als "Mondtempel der Endless" bekannt geworden. 
+Möglicherweise können mit einer umfangreichen Studie die Geheimnisse dieses massiven Komplexes enthüllt werden. Und vielleicht kann man sogar eines Tages die alten Maschinen wieder zum Leben erwecken.
+Eines ist jedoch sicher - Wissenschaftler im ganzen Reich werden viel zu tun haben, und für die nächsten Jahrzehnte beschäftigt sein.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MoonTemple_Fertile_Desc">Fruchtbarer Mond:
+Die Entdeckung einer verborgenen und gut erhaltenen Anlage der Endless auf diesem ungewöhnlichen Mond hat die Vorstellungskraft von fühlenden Wesen aus allen Ecken des Imperiums erfasst. 
+Die Durchschnittsbevölkerung hat in Bezug auf die Installation eine wahrhaft ehrfürchtige Haltung eingenommen, und sie ist umgangssprachlich als "Mondtempel der Endless" bekannt geworden. 
+Möglicherweise können mit einer umfangreichen Studie die Geheimnisse dieses massiven Komplexes enthüllt werden. Und vielleicht kann man sogar eines Tages die alten Maschinen wieder zum Leben erwecken.
+Eines ist jedoch sicher - Wissenschaftler im ganzen Reich werden viel zu tun haben, und für die nächsten Jahrzehnte beschäftigt sein.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MoonTemple_Multi_Desc">Multiple Monde:
+Die Entdeckung einer verborgenen und gut erhaltenen Anlage der Endless auf diesem ungewöhnlichen Mond hat die Vorstellungskraft von fühlenden Wesen aus allen Ecken des Imperiums erfasst. 
+Die Durchschnittsbevölkerung hat in Bezug auf die Installation eine wahrhaft ehrfürchtige Haltung eingenommen, und sie ist umgangssprachlich als "Mondtempel der Endless" bekannt geworden. 
+Möglicherweise können mit einer umfangreichen Studie die Geheimnisse dieses massiven Komplexes enthüllt werden. Und vielleicht kann man sogar eines Tages die alten Maschinen wieder zum Leben erwecken.
+Eines ist jedoch sicher - Wissenschaftler im ganzen Reich werden viel zu tun haben, und für die nächsten Jahrzehnte beschäftigt sein.</LocalizationPair>
+
+
+<!-- Restored Temples -->
+
+        <LocalizationPair Name="%Moon_SmSingC3_TA_Title">[X]: Tiefgründiger Geist</LocalizationPair>
+        <LocalizationPair Name="%Moon_SmSingC3_TA_Desc">Kleiner Mond - Instandgesetzter Tempel:
+Durch die Zusammenarbeit mit Geschöpfen aus der ganzen Galaxie haben es Ihre Spitzenwissenschaftler geschafft, ein gewisses Maß an Einsatzfähigkeit in dieser einst leblosen Einrichtung wiederherzustellen, und haben ihre enorme Rechenleistung genutzt, um dem Reich zusätzliche Bandbreite zu verschaffen.
+Während Wissenschaftler weiterhin über die ursprüngliche Funktion des Komplexes diskutieren, scheint es, dass die alte Maschinen-KI berechnet wurde. Sie hat neue Erkenntnisse über frühere Entdeckungen gewonnen und bereits effiziente Wege gefunden, um Dust effizienter auf den galaktischen Märkten zu bewegen. 
+Darüber hinaus hat es neue Konzepte für alte Problembereiche entwickelt, die in Bürokratie und Geschichte verwickelt sind, und die Anwendung dieser Techniken auf die Anthropologie hat das Studium verlorener alter Kulturen wiederbelebt.
+Es besteht berechtigte Hoffnung durch zusätzliches Studium der äußerst komplexen Funktionsabläufe des Tempels die dadurch gewonnenen Erkenntnisse auf die verschiedensten kulturellen Probleme des Alltags zu übertragen.
+#52C9E7#Verbesserung: #FFFFFF#Historische Enklaven#REVERT# (benötigt Anomalie einer uralten Zivilization)</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_SmSingC4_TA_Title">[X]: Tiefgründiger Geist</LocalizationPair>
+        <LocalizationPair Name="%Moon_SmSingC4_TA_Desc">Kleiner Mond - Instandgesetzter und aufgewerteter Tempel:
+Nun, da mehr Tempelprozesse wiederhergestellt wurden, ist es dem komplizierten KI-Verstand des Tempels gelungen, kulturelle Fragen in einem breiten Themenspektrum kontinuierlich anzugehen.
+Tempel-Datenforschungstechniken haben so ständig neue Wege aufgedeckt, um Probleme anzugehen, so dass eine echte soziale Revolution im Reich stattgefunden hat.
+Neue Wege zur Nutzung der Enklavenforschung haben auch effektivere Methoden zur Untersuchung der Überreste der Endlesstechnologien hervorgebracht, und die hoch entwickelten Tempelfunktionen haben Unterraumdatenkanäle zu bestehenden Enklaven geöffnet. Die kontinuierliche Verarbeitung dieser Enklavendaten hat zu verschiedenen spürbaren Vorteilen im gesamten System geführt.
+#52C9E7#Verbesserung: #FFFFFF#Historische Enklaven#REVERT# (benötigt Anomalie einer uralten Zivilization.)
+#52C9E7#Verbesserung: #FFFFFF#Endless Enklaven#REVERT# (benötigt eine Anomalie der Endless)</LocalizationPair>
+
+<!-- Historical:
+
+Pre-galactic Architecture, Dust Ruins, Ancient Ruins, Deserted Cities, Humeris Insidentes, Husk of Knowledge, The Fallen Gardens, Seventeen Thousand Islands Bridges, Platform of Ys. -->
+
+<!-- Endless:
+
+Dust Ruins, Dust Lode, Cyber Flora, Microfactories, Husk of Knowledge, Spotora's Sanctum, Seventeen Thousand Islands Bridges, Platform of Ys. -->
+
+        <LocalizationPair Name="%Moon_MdSingC3_TB_Title">[X]: Daten-Sinfonie</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingC3_TB_Desc">Mittlerer Mond - Instandgesetzter Tempel:
+Von Anfang an war klar, dass es sich um eine große Halle der Wirtschaftsforschung handelte, die sich mit den Feinheiten des galaktischen Handels beschäftigte.
+Umfangreiche mechanische Mechanismen gepaart mit Quantencomputer-Arrays kombinieren sich, um Milliarden von Entitäten und Faktoren zu simulieren. Diese rohe Verarbeitungsleistung kann auch genutzt werden, um die Hacking-Fähigkeiten Ihres Imperiums zu erweitern.
+Sobald der Tempel mit aktuellen Daten der galaktischen Wirtschaft versorgt wurde, ging er an die Arbeit, um überwältigende Ergebnisse zu erzielen.
+Aber es gibt noch viel zu entdecken in diesem Tempel, wie zum Beispiel zusätzliche ökonomische Studien und ein weiterer Bereich, der sich der Erforschung galaktischer Ressourcen widmen soll.
+Mit der richtigen Technologie und Forschung können weitere Bereiche dieses weitläufigen Komplexes wiederhergestellt werden.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingC4_E_TB_Title">[X]: Daten-Sinfonie</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingC4_E_TB_Desc">Mond - Instandgesetzter und teilweise aufgewerteter Tempel:
+Nach der Wiederherstellung zusätzlicher Rechenressourcen erlebt die aktuelle Makroökonomie eine kleine Renaissance unter Verwendung der neuesten Theorien, die sich aus den komplexen Modellen ergeben.
+Dies hat es mehr Handelsgesellschaften ermöglicht, im Imperium zu gedeihen.
+Vielleicht ist es an der Zeit, Arbeit für die Wiederherstellung der ruhenden Wissenschaftsbereiche des Tempels zu leisten.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingC4_S_TB_Title">[X]: Daten-Sinfonie</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingC4_S_TB_Desc">Mond - Instandgesetzter und teilweise aufgewerteter Tempel:
+Nach der Wiederherstellung zusätzlicher Rechenressourcen erlebt die aktuelle Makroökonomie eine kleine Renaissance unter Verwendung der neuesten Theorien, die sich aus den komplexen Modellen ergeben.
+Dies hat es mehr Handelsgesellschaften ermöglicht, im Imperium zu gedeihen.
+Vielleicht ist es an der Zeit, Arbeit für die Wiederherstellung der ruhenden Wissenschaftsbereiche des Tempels zu leisten.
+#52C9E7#Verbesserung: #FFFFFF#Exotische Forschungslabore#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingC5_ES_TB_Title">[X]: Daten-Sinfonie</LocalizationPair>          
+        <LocalizationPair Name="%Moon_MdSingC5_ES_TB_Desc">Mond - Instandgesetzter und aufgewerteter Tempel:
+Einst waren viele Bereiche dieses Tempels unerforscht und enthielten viele Mysterien.
+Heute ist vieles besser verständlich, und Ihr Imperium hat große technologische Fortschritte im Wirtschaftsstudium gemacht, die es mehr Handelsunternehmen ermöglichen, erfolgreich zu sein. Die restaurierten Forschungstrakte haben Entwürfe enthüllt, die eine automatische Untersuchung der wichtigen Ressourcen in der Galaxie ermöglichen.
+#52C9E7#Verbesserung: #FFFFFF#Exotische Forschungslabore#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_BinaryD3_TC_Title">[X]: Uhrmacher [IndustryColored]</LocalizationPair>
+        <LocalizationPair Name="%Moon_BinaryD3_TC_Desc">Binäre Monde - Instandgesetzter Tempel:
+Es sieht nach einer riesigen uralten Fabrik aus. Deren Vorrichtungen scheinen erschreckend tief unter die Mondoberfläche zu reichen, und selbst Experten haben mehr Fragen als Antworten, wie das Design dieser fremden Struktur wirklich funktioniert.
+Aber es ist klar, dass sie nicht nur eine Aufgabe hat. Unglaublich, dass die Anlagen ihre Konfiguration ändern können - und es funktioniert immer noch. Allerdings dauert der Prozess einige Zeit.
+#FFFFFF#Derzeit ist diese Anlage für industrielle Anwendungen konfiguriert.#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Uhrmacher-Tochterunternehmen#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_BinaryD4_TC_Title">[X]: Uhrmacher [ScienceColored]</LocalizationPair>
+        <LocalizationPair Name="%Moon_BinaryD4_TC_Desc">Binäre Monde - Instandgesetzter Tempel:
+Es sieht nach einer riesigen uralten Fabrik aus. Deren Vorrichtungen scheinen erschreckend tief unter die Mondoberfläche zu reichen, und selbst Experten haben mehr Fragen als Antworten, wie das Design dieser fremden Struktur wirklich funktioniert.
+Aber es ist klar, dass sie nicht nur eine Aufgabe hat. Unglaublich, dass die Anlagen ihre Konfiguration ändern können - und es funktioniert immer noch. Allerdings dauert der Prozess einige Zeit.
+#FFFFFF#Derzeit ist diese Anlage für wissenschaftliche Anwendungen konfiguriert.#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Uhrmacher-Tochterunternehmen#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_BinaryD5_TC_Title">[X]: Uhrmacher #FFFFFF#[TradeEfficiency]#REVERT#</LocalizationPair>
+        <LocalizationPair Name="%Moon_BinaryD5_TC_Desc">Binäre Monde - Instandgesetzter Tempel:
+Es sieht nach einer riesigen uralten Fabrik aus. Deren Vorrichtungen scheinen erschreckend tief unter die Mondoberfläche zu reichen, und selbst Experten haben mehr Fragen als Antworten, wie das Design dieser fremden Struktur wirklich funktioniert.
+Aber es ist klar, dass sie nicht nur eine Aufgabe hat. Unglaublich, dass die Anlagen ihre Konfiguration ändern können - und es funktioniert immer noch. Allerdings dauert der Prozess einige Zeit.
+#FFFFFF#Derzeit ist diese Einrichtung so konfiguriert, dass sie Wissenschaft und Produktion Uhrmacher-Tochterunternehmen exportiert.#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Uhrmacher-Tochterunternehmen#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_BinaryD6_TC_Title">[X]: Uhrmacher [IndustryColored]</LocalizationPair>
+        <LocalizationPair Name="%Moon_BinaryD6_TC_Desc">Binäre Monde - Aufgewerteter Tempel:
+Dank umfangreicher Investitionen in die Erneuerung und das Studieren des Tempels wurden einige Fortschritte bei der Verbesserung der vielseitigen und erstaunlichen Funktionen des Tempels erzielt.
+Wie bereits erwähnt, kann dieser Tempel neu konfiguriert werden, um sich auf die unterschiedlichsten Aufgabenstellungen zu konzentrieren. Dieser Prozess dauert noch einige Zeit, aber die Ergebnisse werden nun verstärkt.
+#FFFFFF#Derzeit ist diese Anlage für industrielle Anwendungen konfiguriert.#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Uhrmacher-Tochterunternehmen#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_BinaryD7_TC_Title">[X]: Uhrmacher [ScienceColored]</LocalizationPair>
+        <LocalizationPair Name="%Moon_BinaryD7_TC_Desc">Binäre Monde - Aufgewerteter Tempel:
+Dank umfangreicher Investitionen in die Erneuerung und das Studieren des Tempels wurden einige Fortschritte bei der Verbesserung der vielseitigen und erstaunlichen Funktionen des Tempels erzielt.
+Wie bereits erwähnt, kann dieser Tempel neu konfiguriert werden, um sich auf die unterschiedlichsten Aufgabenstellungen zu konzentrieren. Dieser Prozess dauert noch einige Zeit, aber die Ergebnisse werden nun verstärkt.
+#FFFFFF#Derzeit ist diese Anlage für wissenschaftliche Anwendungen konfiguriert.#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Uhrmacher-Tochterunternehmen#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_BinaryD8_TC_Title">[X]: Uhrmacher #FFFFFF#[TradeEfficiency]#REVERT#</LocalizationPair>
+        <LocalizationPair Name="%Moon_BinaryD8_TC_Desc">Binäre Monde - Aufgewerteter Tempel:
+Dank umfangreicher Investitionen in die Erneuerung und das Studieren des Tempels wurden einige Fortschritte bei der Verbesserung der vielseitigen und erstaunlichen Funktionen des Tempels erzielt.
+Wie bereits erwähnt, kann dieser Tempel neu konfiguriert werden, um sich auf die unterschiedlichsten Aufgabenstellungen zu konzentrieren. Dieser Prozess dauert noch einige Zeit, aber die Ergebnisse werden nun verstärkt.
+#FFFFFF#Derzeit ist diese Einrichtung so konfiguriert, dass sie Wissenschaft und Produktion an das Uhrmacher-Tochterunternehmen exportiert.#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Uhrmacher-Tochterunternehmen#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_LgBinaryC3_TD_Title">[X]: Titan Wind</LocalizationPair>
+        <LocalizationPair Name="%Moon_LgBinaryC3_TD_Desc">Binäre Monde - Instandgesetzter Tempel:
+Nach intensiven Studien wurden viele Entdeckungen in Hinblick auf das ausgedehnte Netz von Stollen und mysteriösen Einrichtungen gemacht.
+Kolonnen fremdartiger Maschinen gewinnen nun Erz und Mineralien aus dem Mondkern. In riesigen unterirdischen Kuppeln werden transportable Nährstoffkapseln hergestellt.
+Engagierte Forscherteams haben einiges über die unterirdischen Warp-Verdrängungs-Logistik-Tunnel gelernt, und optimierte Reisetechniken werden bereits im ganzen Reich verbreitet.
+Pläne für den Bau riesiger Dustgewinnungsstrukturen, die die äußeren Schichten von Gasriesen abschöpfen sollen, sind in den Datenbanken zu finden.
+Durch mehr Studien könnten die Vorzüge des Tempelbetriebs erhöht werden.
+#52C9E7#Verbesserung: #FFFFFF#Gas-Riesen Erntemaschinen#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_LgBinaryC4_TD_Title">[X]: Titan Wind</LocalizationPair>
+        <LocalizationPair Name="%Moon_LgBinaryC4_TD_Desc">Binäre Monde - Instandgesetzter und aufgewerteter Tempel:
+Nach gründlichem Studium wurden die Bandbreite des Ertrags des Tempelbetriebs tatsächlich erhöht, was zu mehr Nahrung und Produktivität führte. Darüber hinaus haben es die Warp-Reisephysiker geschafft, die Reisegeschwindigkeit von Raumschiffen weiter zu erhöhen.
+Als weitere der endlosen Tunnel kartiert und erforscht waren, wurden weitere Tempelanlagen tief unter der Erde entdeckt.
+Einige dieser Gebiete waren der Erforschung des planetaren Terraformens gewidmet und beinhalteten genug ausgearbeitete Pläne, um Techniken zur Reparatur der Erschöpfung der Planeten durch Craver-Überausbeutung auszuarbeiten.
+#52C9E7#Verbesserung: #FFFFFF#Gas-Riesen Erntemaschinen#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Wiederherstellungs-Drohnen#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_VolcanicC3_TE_Title">[X]: Waffenfabrik der Endless</LocalizationPair>
+        <LocalizationPair Name="%Moon_VolcanicC3_TE_Desc">Vulkanischer Mond - Instandgesetzter Tempel:
+Obwohl noch ein Großteil des Tempels erforscht werden muss, handelte es sich eindeutig um eine Art Rüstungsbetrieb.
+Ihre Generäle haben bereits damit begonnen, den Tempel als Stützpunkt für fortgeschrittene Militäroperationen zu nutzen, und kleine spezialisierte Werftanlagen wurden online gestellt.
+Berichte der Restaurierungsteams haben auch zusätzliche Sektionen identifiziert, die dem Bau von Raumschiffen und der exotischen Forschung zur planetarischen Kriegsführung gewidmet werden könnten.
+Diese Bereiche werden jedoch große Anstrengungen bei der Wiederherstellung erfordern, um ihr Potenzial zu entfalten.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_VolcanicC4_S_TE_Title">[X]: Waffenfabrik der Endless</LocalizationPair>
+        <LocalizationPair Name="%Moon_VolcanicC4_S_TE_Desc">Vulkanischer Mond - Instandgesetzter und aufgewerteter Tempel:
+Nach der Sanierung der großen Produktionsanlagen kann hier der Raumschiffbau mit einer bisher nicht für möglich gehaltenen Effizienz abgeschlossen werden.
+Und doch gibt es noch mehr zu tun.
+Einige der unternehmungslustigeren Teams haben sich eine Möglichkeit ausgedacht, einige der Maschinen- und Konstruktionsverfahren zu nutzen, um die Schaffung von speziellen Montagezonen zu ermöglichen, die unmittelbar außerplanetarisch realisiert werden können.
+Andere riesige Korridore können noch zum Leben erweckt werden, und Ihre Experten sagen, dass es für Ihre globalen Kräfte Potenzial gibt, um wertvolle Gewinne zu erzielen.
+#52C9E7#Verbesserung: #FFFFFF#Schiffswerft Arbeitscamps#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_VolcanicC4_T_TE_Title">[X]: Waffenfabrik der Endless</LocalizationPair>
+        <LocalizationPair Name="%Moon_VolcanicC4_T_TE_Desc">Vulkanischer Mond - Instandgesetzter und teilweise aufgewerteter Tempel:
+Die Experten hatten Recht.
+Die neu sanierten Anlagen verfügen über endlose Datenbanken und Einblicke in die Theorie der planetarischen Kriegsführung und die fortgeschrittenen Materialwissenschaften.
+Bereits jetzt haben Trainingsprogramme begonnen, um die neuen Methoden und Technologien in Ihre Armeen zu integrieren. Und die Lektionen hier haben beeindruckende Fortschritte in der Kampfeffektivität erzielt.
+Und doch gibt es noch mehr zu tun.
+Andere riesige Areale dürften noch zum Leben erweckt werden, und Ihre Experten sagen, dass die Maschinen eingesetzt werden können, um die Effizienz des Raumschiffbaus erheblich zu steigern.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_VolcanicC4_ST_TE_Title">[X]: Waffenfabrik der Endless</LocalizationPair>
+        <LocalizationPair Name="%Moon_VolcanicC4_ST_TE_Desc">Vulkanischer Mond - Instandgesetzter und aufgewerteter Tempel:
+Nach erheblichen Mühen und unzähligen Stunden der Restaurierungsarbeiten wurde der größte Teil des Tempels in einen funktionsfähigen Zustand versetzt.
+Die Werften sind voll betriebsbereit, und ganzjährige Ausbildungsprogramme halten die Besatzung auf Trab.
+Darüber hinaus haben einige der unternehmungslustigeren Teams eine Möglichkeit gefunden, einige der Maschinen- und Konstruktionsverfahren zu nutzen, um die Schaffung von speziellen Montagezonen zu ermöglichen, die unmittelbar außerplanetarisch realisiert werden können. Andere riesige Areale können auch außerhalb der Welt errichtet werden.
+Tatsächlich ist dieser einst verlorene Tempel auf einem harten Vulkanmond zur bedeutendsten Militärbasis des gesamten Reiches - vielleicht sogar der Galaxie - geworden.
+#52C9E7#Verbesserung: #FFFFFF#Schiffswerft Arbeitscamps#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_FrozenD3_TF_Title">[X]: Erweiterte Perfektion</LocalizationPair>
+        <LocalizationPair Name="%Moon_FrozenD3_TF_Desc">Frostmond - Instandgesetzter Tempel:
+Theorien und Meinungen über den ursprünglichen Zweck dieser Struktur haben zu einigen interessanten, hochkarätigen Thesen unter führenden Forschern geführt. Gleichwohl gab es viele erfolgreiche Maßnahmen zur Wiederherstellung einiger der wichtigsten Funktionen.
+Die gewundenen Höhlen der Maschinen sind von allen möglichen Spezies aus dem ganzen Reich bevölkert worden, und sie haben eine unglaubliche kollektive Gesellschaft gebildet - es scheint, dass das Innenleben des Tempels irgendwie aktiv zum Wohlbefinden der verschiedenen Rassen beiträgt.
+Interessanterweise sieht es so aus, als ob die ungewöhnliche Tempel-KI irgendwie in der Lage ist, die Populationen hier zur Erweiterung der Dateneinrichtungen zu nutzen. Wie das funktioniert, ist ein Rätsel, aber es scheint keine spürbaren Nebenwirkungen zu geben.
+Die Technologie kann hier bereits zur Schaffung von Augmented-Reality-Entertainment-Netzwerken im planetarischen Maßstab eingesetzt werden, und es gibt immer noch einen Großteil des Tempels, der restauriert werden könnte.
+#52C9E7#Spezialisierung: #FFFFFF#Globale Unterhaltung#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_FrozenD4_TF_Title">[X]: Erweiterte Perfektion</LocalizationPair>
+        <LocalizationPair Name="%Moon_FrozenD4_TF_Desc">Frostmond - Instandgesetzter und aufgewerteter Tempel:
+Die unablässige Arbeit an der vollständigen Wiederherstellung dieses Tempels hat viele Funktionsbereiche des Tempels ausgeweitet.
+Die Produktivität der verschiedenen Bevölkerungsgruppen wurde noch präziser gebündelt, und die Scan-Arrays sind empfindlicher denn je.
+Darüber hinaus wurde eine völlig unerwartete Entdeckung gemacht: Eine Möglichkeit, automatisierte Drohnen zu benutzen, um ein planetarisches Ringsystem systematisch zu einem kleinen Mond zu verschmelzen.
+#52C9E7#Spezialisierung: #FFFFFF#Globale Unterhaltung#REVERT#
+#52C9E7#Anomalie: #FFFFFF#Umwandlung: Ringsystem zu Mond#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_FertileD3_TG_Title">[X]: Hochofen</LocalizationPair>
+        <LocalizationPair Name="%Moon_FertileD3_TG_Desc">Fruchtbarer Mond - Instandgesetzter Tempel:
+Die automatisierten Mechaniken dieses Mondtempels scheinen der Agrarwirtschaft und der Ernteerzeugung gewidmet zu sein, insbesondere in Bezug auf den außerplanetaren Vertrieb von Lebensmitteln. Endlose Korridore von Pflanzen-Aufzuchtbehältern und Verpackungsrobotern arbeiten nahtlos zusammen, um Schwärme von autonomen, raumtauglichen Auslieferungssystemen zu erzeugen.
+In Kombination mit außergewöhnlich gut ausgebauten Verkehrsnetzen können hier weit mehr Bürger leben und arbeiten als ursprünglich angenommen.
+Die Forscher haben auch eine Reihe von Technologien im Zusammenhang mit der orbitalen Hydroponik entdeckt, und die Ingenieure passen die Ergebnisse bereits in der Praxis an.
+Und doch verheißt der Tempel einiges mehr.
+Unter den riesigen technologischen Kavernen ist noch weitaus mehr zu tun, um die Funktionsfähigkeit wiederherzustellen. Da Teile des Tempels wieder zum Leben erwacht sind, wurde auch offenbart, dass ein nicht-funktionales Relikt im Orbit eigentlich ein Transportportal ist. Es scheint auch ausreichend Ersatzteile zu geben, um das Portal wiederherzustellen und vielleicht sogar ein weiteres zu bauen, wenn die richtigen Investitionen in die Forschung getätigt werden.
+#52C9E7#Verbesserung: #FFFFFF#Orbitale Hydrokulturen#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_FertileD4_TG_Title">[X]: Hochofen</LocalizationPair>
+        <LocalizationPair Name="%Moon_FertileD4_TG_Desc">Fruchtbarer Mond - Instandgesetzter und aufgewerteter Tempel:
+Nach einer gründlichen Überarbeitung durch Ingenieure und Forschungsteams ist das Orbitalportal wieder einsatzfähig.
+Dabei wurden viele Erkenntnisse gewonnen, und Wissenschaftler haben versichert, dass solche Portalreisen absolut sicher sind. Sogar Reisen zu anderen Portalkonstruktionen sind möglich, die angeblich unter anderen Fraktionen und den verschiedenen gesetzlosen Banden in der ganzen Galaxie existieren.
+Ebenfalls wiederhergestellt werden eine Reihe von Kernportalteilen - genug, um ein weiteres in einem entfernten System zu bauen. Leider gibt es nur genügend für eine Konstruktion.
+Die Tempelaufrüstungen haben auch eine Reihe anderer funktionaler Vorteile und Erkenntnisse realisiert, die die Nahrungsmittelproduktion und die Expansionsmöglichkeiten des Imperiums weiter erhöhen.
+#52C9E7#Verbesserung: #FFFFFF#Orbitale Hydrokulturen
+#52C9E7#Verbesserung: #FFFFFF#Tempel Portal#REVERT# (Einzigartig)</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_FertileE3_TH_Title">[X]: Quantum Befehl</LocalizationPair>
+        <LocalizationPair Name="%Moon_FertileE3_TH_Desc">Nachdem die Maschinen wieder in einen betriebsbereiten Zustand versetzt worden waren, starteten uralte Mechanismen eine Vielzahl bisher unbekannter Prozesse. Riesige Netzwerke pulsierten vor Aktivität, Chemikalien begannen, riesige Becken zu füllen, und Flotten von Robotern begannen aus Hunderten von wabenförmigen Buchten zu kommen. Über die fruchtbare Mondoberfläche hinweg wurden Arbeitsvorgänge aller Art automatisiert.
+Im Mittelpunkt steht ein ungewöhnlicher KI-Geist, der theoretische sozioökonomische Daten auf neuartige Weise zu sammeln und zu analysieren scheint, und die Analyse des Alien-Codes liefert bereits neue Techniken, um in Systemnetze einzudringen. Wiederherstellungsteams sagen, dass es noch eine Reihe zu untersuchender Aspekte gibt, die wahrscheinlich die analytischen Fähigkeiten des KI-Geistes verbessern werden.
+Darüber hinaus waren diese Teams in der Lage, erfolgreich Reverse-Engineer-Ausrüstungen zur automatischen Gewinnung und Verarbeitung von Monderz zu entwickeln, die im gesamten System eingesetzt werden.
+#52C9E7#Verbesserung: #FFFFFF#Monderz Koordinierung#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_FertileE4_TH_Title">[X]: Quantum Befehl</LocalizationPair>
+        <LocalizationPair Name="%Moon_FertileE4_TH_Desc">Fruchtbarer Mond - Instandgesetzter und aufgewerteter Tempel:
+Nachdem es gelungen ist, noch mehr vom Tempel wiederherzustellen, wurde klar, dass der KI-Geist seine Fähigkeiten erhöht hat.
+Bereits jetzt haben einfache, aber brillante Ideen die Verwaltungsstrukturen und die damit verbundene Bürokratie von ansonsten unabhängigen Gesetzen zu einer zusammenhängenden Struktur gestrafft. Die automatisierten Prozesse arbeiten mit den neuen Modellen besser denn je und werden ständig weiterentwickelt.
+Diese Upgrades werden eine bessere Gesamtführung des Imperiums und der Expansionsmöglichkeiten ermöglichen.
+#52C9E7#Verbesserung: #FFFFFF#Monderz Koordinierung#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MultiE3_TI_Title">[X]: Dust Archive</LocalizationPair>
+        <LocalizationPair Name="%Moon_MultiE3_TI_Desc">Multiple Monde - Instandgesetzter Tempel:
+Zusätzlich zu den geradezu magischen Auswirkungen der antiken Strukturen werden riesige Archive mit Teilen fragmentierter Geschichte wiederhergestellt. Oder vielleicht offenbart. Die Schnittstelle wird immer noch aktiv von einer spezialisierten KI gesteuert, und es scheint fast, als würde sie Informationen in einem bewusst kalkulierten Zeitfenster ausgeben.
+All diese (praktisch gesehen) mythischen Berichte und Geschichten haben angefangen, die breite Öffentlichkeit zu begeistern. Und viele, die nur zum Besuch angereist waren, finden sich auf unbestimmte Zeit in den Gemeinschaften wieder.
+Durch diese verschiedenen Bevölkerungsgruppen erreicht der Handel die äußersten Ecken des Reiches, wie ein zufälliges Dorf, das sich an der Kreuzung der wichtigsten Handelswege befindet.
+Es gibt noch mehr zu entdecken, und es sollte möglich sein, von den Zusammenkünften der Tempelbevölkerung zu profitieren, wenn die Bemühungen auf die weitere Wiederherstellung dieses Tempels gerichtet sind.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MultiE4_TI_Title">[X]: Dust Archive</LocalizationPair>
+        <LocalizationPair Name="%Moon_MultiE4_TI_Desc">Multiple Monde - Instandgesetzter und aufgewerteter Tempel:
+Jetzt, da sie zu offiziell sanktionierten Gemeinschaften geworden sind, gedeihen die verschiedenen Populationen hier weiterhin, während sie gleichzeitig erhöhte Dustgewinne mit sich bringen. Außerdem sind die Gemeinschaften hier ziemlich berühmt geworden, und ihre Geschäfte haben sich über die ganze Galaxie ausgedehnt.
+Dank des Einfallsreichtums der verschiedenen Gruppierungen und der Unterstützung durch den KI-Geist des Tempels ist ein interessantes Mediennetzwerk entstanden, das aus den Umlaufbahnen der Planetenmonde arbeitet.
+Dieses proprietäre System hilft, die neuesten Geschichten und Ereignisse der Tempelpopulationen im ganzen Reich zu verbreiten.
+#52C9E7#Verbesserung: #FFFFFF#Dust Archiv-Kultur-Netzwerk#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MultiF3_TJ_Title">[X]: Des Wächters Posten</LocalizationPair>
+        <LocalizationPair Name="%Moon_MultiF3_TJ_Desc">Multiple Monde - Instandgesetzter Tempel:
+Nachdem die Spitzenteams der "Restauratoren" (so nennen sie sich selbst) die ersten Impulse des Lebens von den dusthaltigen monolithischen Rechenzentren erhielten, wurden Kommunikationssignale aus einer Reihe von zuvor versteckten Strukturen auf den anderen Monden gesendet und empfangen.
+Eine weitere Analyse zeigt nun, dass es sich um eine militärische Einrichtung handeln könnte. Zumindest dient es zweifellos als exzellente Führungs- und Steuerungsstation sowie als unschätzbare Ressource für Flottenübungen und Ausbildungszwecke.
+Diese verbesserte Befehlsstruktur kann sofort für größere Flotten und zusätzliche Großunternehmen genutzt werden.
+Darüber hinaus scheinen eine Reihe von Energieprojektoren im Falle einer Bodeninvasion als orbitale Bombardierungswaffen einsetzbar zu sein, falls die notwendigen Schritte unternommen werden, um sie wieder in einen funktionsfähigen Zustand zu versetzen.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MultiF4_TJ_Title">[X]: Des Wächters Posten</LocalizationPair>
+        <LocalizationPair Name="%Moon_MultiF4_TJ_Desc">Multiple Monde - Instandgesetzter und aufgewerteter Tempel:
+Die Restauratoren haben es nicht nur geschafft, die riesigen Kanonen online zu bringen, sondern auch kleinere Versionen zu erstellen, die im gesamten Imperium gebaut werden können.
+Die Wiederherstellungsbemühungen haben auch die anderen Funktionen dieser gewaltigen Militärbasis erheblich verbessert, was zu einem erhöhten Ausbildungs- und Kommandopotenzial für konventionelle Flotten und Leviathane führte.
+#52C9E7#Verbesserung: #FFFFFF#Mond-Angriffsbasis#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_LgSingB3_TK_Title">[X]: Endlose Höhlen</LocalizationPair>
+        <LocalizationPair Name="%Moon_LgSingB3_TK_Desc">Großer Mond - Restaurierter Tempel:
+Ihre Restaurierungsexperten haben den Tempel endlich in einen funktionstüchtigen Zustand gebracht. Sie berichten, dass die Hauptschwierigkeit darin zu bestehen schien, dass sich die ursprüngliche Anlage in einem unfertigen Zustand befand. Aus welchem Grund auch immer, es sieht so aus, als hätten die Endless das Projekt aufgegeben. 
+Es scheint ausgedehnte Tunnelformationen zu geben, die in diesen großen Mond gegraben wurden und einen einfachen Zugang zu Mineralien bieten, und viele scheinen lebensraumähnliche Konstrukte zu haben. Schließlich hat das Team die grundlegende Theorie und Funktionsweise der stillgelegten Bohr- und Baumaschinen herausgefunden und sagt, dass sie mit einigen zusätzlichen Ressourcen wieder funktionsfähig gemacht werden können.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_LgSingB4_TK_Desc">Großer Mond - Restaurierter Tempel:
+Es gelang mit überragendem Erfolg, die alten Bohrgeräte zu reaktivieren. Langsam und unerbittlich arbeitend, wurden kilometerlange neue Tunnel tief in den Mond getrieben. Während dieser Prozess andauerte, wurden neue Automatisierungen ins Leben gerufen, die auf dem Weg dorthin zusätzliche Anbaukammern errichteten.
+Insgesamt wurde dadurch mehr Lebensraum geschaffen und der Zugang zu Nahrung und Mineralien noch weiter optimiert.
+Leider haben die Kernbohrer zahlreiche Ausfälle erlitten und können ihre Arbeit nicht fortsetzen.
+Die Ingenieur- und Wissenschaftsteams sind sich jedoch alle einig, dass dies auf das fortgeschrittene Alter der Ausrüstung zurückzuführen ist, und haben eine Reihe von Plänen für Verbesserungen und Reparaturen ausgearbeitet.</LocalizationPair>
+  
+        <LocalizationPair Name="%Moon_LgSingB5_TK_Desc">Großer Mond - Restaurierter Tempel:
+Die schlechte Nachricht ist, dass der weitere Abbau des Mondes während der meisten Zeit seit der Reaktivierung nur langsam voranschritt. Die gute Nachricht ist, dass der Tempel abermals offenbart, dass er immer noch voller Überraschungen steckt. Die Theorie ist, dass die häufigen Ausfälle die Herstellung weiterer Maschinen zur Erfüllung der Aufgabe ausgelöst haben. Neue Maschinen mit kleinerem und unbekanntem Design wurden geschaffen, um die Arbeit fortzusetzen.
+Endlose zusätzliche Meilen von Stollen wurden in den Mond gebohrt.
+Als zusätzlichen Bonus haben einige Mitglieder des Teams ausgearbeitet, wie man die fleißigen Bots  umprogrammiert, so dass sie im ganzen Reich eingesetzt werden können.
+#52C9E7#Verbesserung: #FFFFFF#Tempel - Roboteraußenposten#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_LgSingB6_TK_Desc">Großer Mond - Restaurierter Tempel:
+Nach längerem Bohren sind die ehrfurchtgebietenden Maschinen wieder zum Stillstand gekommen. Niemand kann definitiv sagen, was das Problem ist.
+Es hatte einige Versuche von nur kurzer Dauer gegeben, die Arbeit fortzusetzen. Es scheint, dass selbst diese erstaunlichen Maschinen ihre Grenzen erreicht haben.
+Nun, Ihre Projektleiter sagen, dass das Experiment vorbei ist und kein weiterer Grabungsversuch unternommen werden sollte, was auf einige beunruhigende Indikatoren für eine zunehmende geologische Instabilität hinweist.
+Aber einige der jüngeren Ingenieure haben sich einen kühnen Plan ausgedacht, um fortzufahren.
+#52C9E7#Verbesserung: #FFFFFF#Tempel - Roboteraußenposten#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_LgSingB7_TK_Title">Zerstörter Mond</LocalizationPair>
+        <LocalizationPair Name="%Moon_LgSingB7_TK_Desc">Als das "Ereignis" geschah, gab es praktisch keine Warnung. Als man erkannte, dass etwas schrecklich schief gelaufen war, war es viel zu spät, um etwas dagegen zu unternehmen.
+Es dauerte nur wenige Stunden, bis der Mond auseinander fiel, und die daraus resultierende Energiefreisetzung hatte katastrophale Auswirkungen auf den Planeten unter ihm.
+Nun ist der Mond nichts anderes als Millionen von Tonnen Weltraumschrott, von denen ein Großteil weiterhin auf den Planeten niederprasselt, während sich die restlichen Rückstände in der Umlaufbahn ablagern.
+Es wird viel zu untersuchen und aus diesem bitteren Unfall zu lernen geben, und vielleicht können die größeren Erzstücke noch zurückgewonnen werden.
+Aber das ist alles, was von dem übrig geblieben ist, was einst ein heller Mond am Nachthimmel war.</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MultiG3_TL_Title">[X]: Stellares Netzwerk</LocalizationPair>
+        <LocalizationPair Name="%Moon_MultiG3_TL_Desc">Multiple Monde - Restaurierter Tempel:
+Während es nicht ganz klar ist, was die Endless mit den Maschinen dieser Konstruktion erreichen wollten, ist es klar, dass es sich um eine groß angelegte Forschungs- und Sternwarte handelte.
+Datenbanken sind darauf ausgerichtet, zahlreiche entfernte Mondstrukturen in der gesamten Galaxie mit einer Art virtueller "Web"-Verbindung zu verbinden.
+Dadurch wird Dust abgesaugt, aber es scheint auch weiterreichende Konsequenzen zu haben. Es bleibt jedoch unbekannt, welche anderen Verwendungen diese Strukturen haben könnten.
+Mit Forschungs- und Ingenieurskunst kann mehr Arbeit geleistet werden, um zusätzliche Geheimnisse dieses Tempels aufzudecken.
+#52C9E7#Verbesserung: #FFFFFF#Netzwerk Zentrale#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MultiG4_TL_Title">[X]: Stellares Netzwerk</LocalizationPair>
+        <LocalizationPair Name="%Moon_MultiG4_TL_Desc">Multiple Monde - Restaurierter und aufgewerteter Tempel:
+Der größte Teil des Tempels wurde an dieser Stelle erforscht und katalogisiert. Es gibt noch viele offene Fragestellungen und Forschungsgebiete, aber der unmittelbar praktische Nutzen liegt auf der Hand.
+Und nach rastloser Restaurierung haben Wissenschaftler einen Weg gefunden, bestehende Netzwerk Verbindungen zu einer Art dezentralem galaktischen Observatorium auszubauen.
+Einige Gelehrte fordern mehr Vorsicht, aber der wissenschaftliche Wert für das Imperium ist klar, auch wenn es nicht vollständig erforscht ist, wie das Innenleben des Tempels alle Daten aufbereiten wird.
+#52C9E7#Verbesserung: #FFFFFF#Netzwerk Ortungszentrale
+#52C9E7#Verbesserung: #FFFFFF#Netzwerk-Ortungsgerät#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingD3_TM_Title">[X]: Breitbandverbindung</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingD3_TM_Desc">Mittlerer Mond - Restaurierter Tempel:
+Was zunächst wie getrennte Strukturen aussah, hat sich in der Tat als miteinander verbundene Knoten herausgestellt, die von diesem verlorenen Tempel zentralisiert wurden.
+Es wurde die Theorie aufgestellt, dass die verschiedenen Verbindungen und Tunnel eine beispiellose Funktionalität in Bezug auf verschiedene Endlessprojekte ermöglicht haben, aber niemand kann es mit Sicherheit sagen.
+Was auch immer ihr ursprünglicher Zweck ist, dieses mondgroße Netzwerk trägt wesentlich zu allen Bereichen der Planetenökonomie bei.
+In der  Leitzentrale wurden Pläne und Maschinen entdeckt, die eine hocheffiziente Gewinnung von wertvollen Erzen und Mineralien ermöglichen.
+Wenn die Restaurierungsarbeiten fortgesetzt werden dürfen, gehen Wissenschaftler und Ingenieure davon aus, dass sie mehr von dem Netzwerk und den Knoten in den Betriebszustand versetzen können, wodurch die Gewinne, die dieser Tempel bringt, steigen.
+#52C9E7#Verbesserung: #FFFFFF#Molekular-Extraktoren#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingD4_TM_Title">[X]: Breitbandverbindung</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingD4_TM_Desc">Mittlerer Mond - Restaurierter und in Teilen aufgewerteter Tempel:
+Während nicht annähernd so viele Knoten wie ursprünglich erhofft online gebracht werden konnten, konnten die Restaurierungsteams konkrete Fortschritte bei der Funktionalität des Tempels erzielen, und viele dieser Tunnel haben sich als bewohnbare Bereiche erwiesen.
+Während das theoretische Wissen zur Wiederherstellung der Knoten und Verbindungen verstanden wird, hat die Ära der uralten Ausrüstungsgegenstände Probleme aufgeworfen, die fortschrittliche Materialwissenschaften erfordern.
+Ingenieure haben einen Plan, um Restaurierungsprojekte erneut zu besuchen, sobald die Projekte zu einer Systempriorität werden.
+#52C9E7#Verbesserung: #FFFFFF#Molekular-Extraktoren#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_MdSingD5_TM_Title">[X]: Breitbandverbindung</LocalizationPair>
+        <LocalizationPair Name="%Moon_MdSingD5_TM_Desc">Mittlerer Mond - Restaurierter und aufgewerteter Tempel:
+Viele weitere alte Verbindungen und Knoten wurden wieder in einen funktionsfähigen Zustand gebracht, was die Produktivität des Tempels weiter erhöht hat und gleichzeitig als empfindliche Sensoranordnung für das System funktioniert.
+Es wurde ursprünglich angenommen, dass die Endless-Konstruktionen wahrscheinlich vollständig restauriert werden könnten, aber es gab viel zu viele Schäden an den kilometerlangen Tunneln und zahlreichen Knotenaußenposten.
+Während der Tempel nie wieder in den ursprünglichen Betriebszustand versetzt werden kann, haben die erneuerten Bereiche die Aufmerksamkeit der Öffentlichkeit auf sich gezogen und ein ganz neues Kapitel der Überlieferungsgeschichte hervorgebracht.
+#52C9E7#Verbesserung: #FFFFFF#Molekular-Extraktoren#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_SmSingD3_TN_Title">[X]: Kernspeicher [DefensiveMilitaryPower]</LocalizationPair>
+        <LocalizationPair Name="%Moon_SmSingD3_TN_Desc">Kleiner Mond - Restaurierter Tempel:
+Dieser antike Tempel ist im Wesentlichen ein riesiger Computer, wenn auch weitaus fortschrittlicher als alle anderen zuvor.
+Während ein Großteil des Komplexes verfallen ist, gibt es immer noch viele Bereiche, die sich in einem überraschend guten Zustand befinden. Bereits jetzt sind Teile funktionsfähig gemacht worden, die der Gesellschaft greifbare Vorteile bringen.
+Es scheint auch, dass diese Installation in der Lage ist, sich mit anderen alten Endless-Computeranlagen im ganzen Reich zu verbinden und einen Teil ihrer Energie für den sofortigen Gebrauch zu aktivieren und zuzuweisen.
+In seiner derzeitigen Konfiguration ist dieser Computer in der Lage, komplexe Datenanalysen durchzuführen, die ein fehlerhaftes und unbeständiges Verhalten der Datenkanäle erkennen können. Dies hat den Effekt, dass fremde Hacks verlangsamt und kompromittierte Populationen enthüllt werden.
+Mit vielen arbeitsintensiven Anpassungen kann dieser Computer jedoch neu konfiguriert werden, um alternative Funktionen bereitzustellen.
+#FFFFFF#Derzeit ist diese Einrichtung für Defensivoperationen konfiguriert.#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Zentralspeicher-Router#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_SmSingD4_TN_Title">[X]: Kernspeicher [ProcessingPower]</LocalizationPair>
+        <LocalizationPair Name="%Moon_SmSingD4_TN_Desc">Kleiner Mond - Restaurierter Tempel:
+Durch die Rekonfiguration der begrenzten Arbeitsarchitektur wird hier derzeit eine erhebliche Steigerung der Imperiumsbandbreite realisiert.
+Die Verarbeitung von Anfragen kann die Bandbreite von anderen Einrichtungen aggressiver zuweisen, und sekundäre Prozessoren wurden online gebracht.
+Dies wurde durch ein Neutasking von Speicher- und Netzwerkknoten erreicht, die zuvor für andere Funktionen verwendet wurden, so dass einige Funktionen in anderen Bereichen verloren gegangen sind.
+Ingenieure versichern Ihnen, dass der Tempel mit der richtigen Mittelausstattung nach Bedarf umgebaut werden kann.
+#FFFFFF#Derzeit ist diese Einrichtung für extra Bandbreite konfiguriert.#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Zentralspeicher-Router#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Moon_SmSingD5_TN_Title">[X]: Kernspeicher [Move]</LocalizationPair>
+        <LocalizationPair Name="%Moon_SmSingD5_TN_Desc">Kleiner Mond - Restaurierter Tempel:
+Durch die Verlagerung einiger Komponenten in andere Systeme und nicht unerhebliche Anpassungen an der Computerarchitektur und den Hardwareknoten wurden die Signalgeschwindigkeiten im gesamten Imperium erheblich beschleunigt.
+Dies geht natürlich mit dem Verlust einiger der anderen Funktionen des Tempels einher.
+Im Bedarfsfall ist dies vollständig reversibel, allerdings mit erheblichem Aufwand.
+#FFFFFF#Derzeit ist diese Einrichtung für erhöhte Hacking-Geschwindigkeit konfiguriert.#REVERT#
+#52C9E7#Verbesserung: #FFFFFF#Zentralspeicher-Router#REVERT#</LocalizationPair>
+
+
+ <!-- Reductions -->
+
+        <LocalizationPair Name="%Reduction_RestoreTemple_Title">Restauriere Mond-Tempel</LocalizationPair>
+        <LocalizationPair Name="%Reduction_RestoreTemple_Desc">Schlussendlich mit einem ganzheitlichen Konzept gerüstet, und dank der unermüdlichen Bemühungen von Experten und Hobbyforschern, ist ein Restaurierungsprojekt bereit, um mit diesem mysteriösen "Mondtempel" fortzufahren. 
+Mit Hilfe von speziell entwickelten KI-Konstruktionen hoffen die Projektleiter, bald über erste "Missions-Erfolge " berichten zu können. Welche Form auch immer das annehmen mag.</LocalizationPair>
+ 
+        <LocalizationPair Name="%Reduction_ExploreMoon_Title">Erkunde den Mond</LocalizationPair>
+        <LocalizationPair Name="%Reduction_ExploreMoon_Desc">Es ist mehr als eine gewöhnliche Expedition. Das Ziel dieser Bemühungen ist es, Kolonien zu bauen, alle anthropologischen oder archäologischen Überreste der Endless im Detail zu untersuchen und den Mond in eine Erweiterung des Planeten zu verwandeln.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_DevelopMoon_Title">Entwickle den Mond</LocalizationPair>
+        <LocalizationPair Name="%Reduction_DevelopMoon_Desc">Ein umfassendes Projekt zur vollständigen Modernisierung und Spezialisierung der Mondinfrastruktur, um den vollen Zugang zu all dem, was dieser Mond zu bieten hat zu erlangen. 
+Mit den neuesten Materialwissenschaften, Bautechniken und KI-Effizienz-Kartierungen kann dieser Mond zu einem florierenden und unverzichtbaren Standort im System werden.</LocalizationPair>
+ 
+<!-- Plural -->
+        <LocalizationPair Name="%Reduction_ExploreMoons_Title">Erkunde die Monde</LocalizationPair>
+        <LocalizationPair Name="%Reduction_ExploreMoons_Desc">Mehr als eine einfache Expedition, das Ziel dieser Bemühungen ist es, Kolonien zu bauen, alle anthropologischen oder archäologischen Überreste der Endless im Detail zu untersuchen und diese Monde in Erweiterungen des Planeten zu verwandeln.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_DevelopMoons_Title">Entwickle die Monde</LocalizationPair>
+        <LocalizationPair Name="%Reduction_DevelopMoons_Desc">Ein umfassendes Projekt zur vollständigen Modernisierung und Spezialisierung der Mondinfrastruktur, um all diese Monde vollständig zu nutzen. 
+Mit den neuesten Materialwissenschaften, Bautechniken und KI-Effizienz-Kartierungen können diese Monde zu blühenden und lebenswichtigen Standorten im System werden.</LocalizationPair>
+
+
+<!-- Cloaked Orb Reductions -->
+
+        <LocalizationPair Name="%Reduction_CloakedOrb_Title">Erkunde das uralte Mystische Gestirn</LocalizationPair>
+        <LocalizationPair Name="%Reduction_CloakedOrb_Desc">Offensichtlich sollte eine so fortschrittliche und mysteriöse Konstruktion im Detail untersucht werden.
+Dieses Projekt zielt darauf ab, die Erforschung des Zwecks und der Eigenschaften dieses uralten Mystischen Gestirns zu beginnen.</LocalizationPair>
+
+
+<!-- Temple Reductions -->
+
+        <LocalizationPair Name="%Reduction_UpgradeA_Title">Tiefgründiger Geist Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeA_Desc">Traditionelle kulturelle Spannungen und Gegebenheiten sind bekanntlich schwer zu korrigieren und zu begreifen.
+Die Tatsache, dass die Tempel-KI hier bereits vielversprechend ist, neue Ansätze zu finden, ist zu wichtig, um sie zu ignorieren.
+Dieses Projekt erfordert umfangreiche Studien und Restaurierungen, um den eigentlichen Sinn des Tempels zu optimieren.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeB_E_Title">Daten-Sinfonie Wirtschaftliche Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeB_E_Desc">Viele stillgelegte Trakte des Tempels könnten wiederhergestellt werden, um die wirtschaftliche Struktur des Tempels zu verbessern, und das wird sicherlich zu sofortigen Imperiumsgewinnen führen. Obwohl niemand mit Sicherheit sagen kann, was diese Gewinne sein werden.
+Die Arbeit sollte sich auf die Wiederherstellung der wirtschaftlichen Modellierungsbereiche dieses Tempels konzentrieren.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeB_S_Title">Daten-Sinfonie Wissenschaftliche Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeB_S_Desc">Einige der inaktiven Bereiche des Tempels scheinen der wissenschaftlichen Forschung gewidmet zu sein.
+Die Reaktivierung dieser Bereiche könnte einmal verlorenes Wissen aufdecken und wird sicherlich ein Segen für die Wissenschaft sein.
+Die Arbeit sollte sich auf die Wiederherstellung des wissenschaftlichen Bereichs dieses Tempels konzentrieren.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_TC_ConvertToInd_Title">Industrielle Wiederaufbereitung [IndustryColored]</LocalizationPair>
+        <LocalizationPair Name="%Reduction_TC_ConvertToInd_Desc">Nach der Inbetriebnahme wird diese alte Anlage den langsamen Prozess der Wiederaufbereitung für die Großindustrie beginnen.
+Mauern, Maschinen und ganze Gebäude ordnen sich neu und scheinen sich zum Wahnsinn zu verschwören, wenn jemand versucht, seine Muster zu studieren.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_TC_ConvertToSci_Title">Wissenschaftliche Wiederaufbereitung [ScienceColored]</LocalizationPair>
+        <LocalizationPair Name="%Reduction_TC_ConvertToSci_Desc">Mit der Zeit können die großen alten Fabriken für automatisierte galaktische und computergestützte Wissenschaften neu aufgesetzt werden.
+Wie ein lebender Organismus werden sich kolossale Gefäße und endlose Strukturen unbekannter Herkunft langsam zu einer völlig fremdartigen Konfiguration zusammenfügen.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_TC_ConvertToExp_Title">Export Wiederaufbereitung #FFFFFF#[TradeEfficiency]#REVERT#</LocalizationPair>
+        <LocalizationPair Name="%Reduction_TC_ConvertToExp_Desc">Die großen Konstrukte können damit beauftragt werden, sich selbst in logisch herausfordernde Konfigurationen zu manipulieren.
+Mit Hilfe der Dimensionstechnologie der Endless kann dieser Tempel kostengünstige Tochterunternehmen für Uhrmacher auf anderen Welten aktivieren und so Wissenschaft und Produktion effektiv "exportieren".
+Die esoterischen Theorien hinter diesen Prozessen sind kaum verstanden, aber sie funktionieren.
+Irgendwie.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeC_Title">Uhrmacher-Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeC_Desc">Indem man die Ressourcen des Imperiums für ein längeres Studium dieses Tempels einsetzt, hofft man, dass die byzantinischen Funktionen verbessert werden können.
+Dieses Projekt wird nicht billig sein, aber Wissenschaftler sagen, dass es weitreichende Auswirkungen auf das Imperium haben wird.</LocalizationPair>  
+
+        <LocalizationPair Name="%Reduction_UpgradeD_Title">Titan Wind - Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeD_Desc">Es gibt noch viele Bereiche in diesem Tempel zu erforschen, und ein fortgesetztes Studium wird seine verschiedenen momentanen Funktionen sicherlich verbessern.
+Mit dem Einsatz von speziell geschulten Experten soll dieses Projekt die beabsichtigten Ziele erreichen.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeE_S_Title">Waffenfabrik der Endless Schiffswerft-Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeE_S_Desc">Wenn die kleineren Arbeitsmaschinen etwas gezeigt haben, dann ist es, dass die riesigen ruhenden Werften und Manufakturen des Tempels das Potenzial haben, Flotten mit unglaublicher Geschwindigkeit zu produzieren.
+Die Arbeit sollte sich auf die Wiederherstellung der Produktions- und Werftbereiche dieses Tempels konzentrieren.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeE_T_Title">Waffenfabrik der Endless Kriegskunst-Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeE_T_Desc">Obwohl die Archive inaktiv und teilweise beschädigt sind, sind die Daten über die planetarische Kriegsführung von unschätzbarem Wert. Und Wissenschaftler sagen, dass diese Informationen mit der Zeit wiederherstellbar sein sollten.
+Die Arbeit sollte sich auf die Wiederherstellung der planetarischen Kriegsführungsdaten dieses Tempels konzentrieren.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeF_Title">Erweiterte Perfektion - Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeF_Desc">Mit dem richtigen Fachwissen und der geeigneten Technologie sind zahlreiche Anpassungen möglich.
+Dazu gehören die Optimierung der gegenwärtigen Koordination der verschiedenen Arten, die bereits im Tempel leben und arbeiten, die Verbesserung der Sensoren und die Wiederherstellung des riesigen Innenlebens des Tempels.
+Wer weiß, was aufgedeckt wird?</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_Ring_Title">Ringe in Mond umwandeln</LocalizationPair>
+        <LocalizationPair Name="%Reduction_Ring_Desc">Bewaffnet mit der exotischen Technologie des Tempels der erweiterten Perfektion, kann das Ringsystem dieses Planeten gesammelt und in einen kleinen Mond umgewandelt werden.
+Dies wird alle Vorteile der Mondindustrie und der Bevölkerung bringen, obwohl die schönen Ringe unwiderruflich verloren gehen werden.</LocalizationPair>  
+
+        <LocalizationPair Name="%Reduction_DestroyedMoon_Title">Wiederaufbau des zerstörten Mondes</LocalizationPair>
+        <LocalizationPair Name="%Reduction_DestroyedMoon_Desc"> Ohne die Technologie, die im Tempel der erweiterten Perfektion gefunden wurde, wäre die Mondkatastrophe vielleicht völlig unumkehrbar gewesen.
+Glücklicherweise kann nun die großflächige Verwüstung beseitigt werden, und die Trümmerringe können gesammelt und wieder zu einem Mond geformt werden.
+Der wiederaufgebaute Mond wird jedoch viel kleiner sein als das Original, und der Prozess wird eine ganze Weile dauern.</LocalizationPair>  
+
+        <LocalizationPair Name="%Reduction_UpgradeG_Title">Hochofen Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeG_Desc">Die kontinuierliche Wiederherstellung des Tempels ist von größter Bedeutung, und das Verständnis und die Wiederherstellung des uralten Portals wird weitreichende Auswirkungen auf das Imperium haben.
+Die Zuweisung spezieller Forschungs- und Ingenieurteams mit den erforderlichen Ressourcen ist eindeutig der richtige Weg.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeH_Title">Quantum Befehl - Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeH_Desc">Es gibt viel zu lernen von den automatisierten Tempelprozessen auf diesem Mond.
+Der KI-Geist hat bisher hervorragende Ergebnisse erzielt, und wenn weitere Upgrades realisiert werden können, müssen die Restaurierungsarbeiten hier Priorität haben.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeI_Title">Dust Archive Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeI_Desc">Die unverhofften Vorzüge der vielfältigen Gemeinschaften, die entstanden sind, sollten angenommen und gefördert werden.
+Solange es noch mehr von dem Tempel zu restaurieren gibt, kann diesen Gemeinschaften ebenso gut offizielle Unterstützung gewährt werden.
+Die kontinuierliche Wiederherstellung wird sicherlich zu einer Reihe von Mehrerlösen führen.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeJ_Title">Des Wächters Stütze - Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeJ_Desc">Die Aussicht auf die Wiederherstellung der großen Geschütze hat zu viel militärisches Potenzial, um es zu ignorieren.
+Restauratoren versichern Ihnen, dass sie wie beabsichtigt funktionieren werden, aber Vorsicht, Batterien dieser Größenordnung ausgestattet mit solch außergewöhnlicher Durchschlagskraft sollten nur als letztes Mittel zur Verteidigung verwendet werden.
+Und natürlich wird jede Arbeit im Tempel auch andere Funktionen verbessern.</LocalizationPair>
+  
+        <LocalizationPair Name="%Reduction_Dig3_Title">Beginne mit der Bohrung</LocalizationPair> <!-- Infinite Caverns -->
+        <LocalizationPair Name="%Reduction_Dig3_Desc">Sobald die notwendigen Ressourcen beschafft wurden, werden Ihre Wissenschafts- und Ingenieurteams ihren Plan zur Revitalisierung der alten Ausrüstung prüfen.
+Es ist weitgehend unbekannt, wie das Endergebnis aussehen wird, aber darum geht es in der Wissenschaft, oder?</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_Dig4_Title">Setze die Bohrung fort</LocalizationPair>
+        <LocalizationPair Name="%Reduction_Dig4_Desc">Jetzt, da klar ist, was die Maschinen leisten, bieten sie eine einzigartige Gelegenheit, die Produktivität des Planeten unten sowie zum Wohle des Systems als Ganzes zu steigern.
+Unter der Annahme, dass die Reparaturen wie geplant ablaufen und die Projektleiter alle Schikanen beseitigen können.
+Das Projekt muss fortgesetzt werden.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_Dig5_Title">Setze die Bohrung fort</LocalizationPair>
+        <LocalizationPair Name="%Reduction_Dig5_Desc">Die zusätzliche Arbeitsfähigkeit des mysteriösen Tempels ist eine Bestätigung dafür, dass sich das Werk weit innerhalb der Grenzen der Endlos-Technologie befindet - dafür wurden sie schließlich konzipiert.
+Die Maschinen sind noch nicht fertig, und mit ein wenig Hilfe können sie weitermachen.
+Sicher, die Fortsetzung des Projekts wird teuer sein, aber wer kann sagen, was der langfristige Nutzen sein wird? Vielleicht werden noch mehr Entdeckungen durch den Tempel offenbart.
+Grabt weiter.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_Dig6_Title">Setze die Bohrung fort</LocalizationPair>
+        <LocalizationPair Name="%Reduction_Dig6_Desc">Ja, die Arbeit ist gefährlich. In allem steckt ein Risiko. Der Trick ist, dieses Risiko zu kontrollieren.
+Es ist klar, dass die Projektleiter übermäßig vorsichtig sind und nicht bereit, das Risiko einzugehen, ihre lange Karriere zu ruinieren.
+Es ist verständlich.
+Es ist auch eine perfekte Gelegenheit, die Nachwuchskräfte sich selbst einbringen zu lassen.
+Lasst die Arbeit weitergehen!</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeL_Title">Stellares Netzwerk Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeL_Desc">Dieser Tempel scheint als Mittelpunkt der Endlessforschung konzipiert zu sein.
+Die Anstrengungen, mehr über den Tempel zu erfahren, werden sicherlich zu wertvollen Einsatzmöglichkeiten innerhalb des Reiches führen.
+Diese Forschung wird viel Aufwand und Kosten erfordern, aber sie muss durchgeführt werden.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeM1_Title">Breitbandverbindung Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeM1_Desc">Mit dem richtigen theoretischen Wissen ausgestattet, planen die Restaurierungsteams, die zahlreichen Knoten über dem Mond wieder zu verbinden.
+Mit etwas Glück enthüllt der Tempel vielleicht die Geheimnisse der Endless.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_UpgradeM2_Title">Breitbandverbindung Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%Reduction_UpgradeM2_Desc">Verbesserte Materialwissenschaften und Bautechniken sollen Reparaturen und Rekonstruktionen der weit verzweigten Tunnelsysteme, die die Knotenpunkte verbinden, ermöglichen. Hoffentlich können auch die nicht funktionierenden Knoten wieder funktionstüchtig gemacht werden.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_TN_ConvertTo3_Title">Verteidigungs-Modus</LocalizationPair>
+        <LocalizationPair Name="%Reduction_TN_ConvertTo3_Desc">Ingenieurteams werden beauftragt, den Tempel einmal mehr zu konfigurieren, um das lokale System auf Eindringlinge zu analysieren.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_TN_ConvertTo4_Title">Modus Erweiterte Bandbreite</LocalizationPair>
+        <LocalizationPair Name="%Reduction_TN_ConvertTo4_Desc">Dieses Projekt wird den Tempel neu konfigurieren, um die dem Imperium zur Verfügung stehende Bandbreite zu maximieren.</LocalizationPair>
+
+        <LocalizationPair Name="%Reduction_TN_ConvertTo5_Title">Modus Verbesserte Hackinggeschwindigkeit</LocalizationPair>
+        <LocalizationPair Name="%Reduction_TN_ConvertTo5_Desc">Ingenieure können die Geschwindigkeit beim Hacken von Imperien durch geschickte Verteilung der Tempeltechnologie erhöhen.</LocalizationPair>
+    
+  
+<!-- System Improvements -->
+
+        <LocalizationPair Name="%LunarInfrastructure_Title">Mond-Infrastruktur</LocalizationPair>
+        <LocalizationPair Name="%LunarInfrastructure_Desc">Viele unterschiedliche Projekte können durch Investitionen zu einer organisierten, auf die Mondsysteme spezialisierte Logistik gebündelt werden.
+Dies ermöglicht, dass auch privatwirtschaftliche Entwicklungsperspektiven gedeihen, wenn keine größeren Regierungsprojekte anstehen.
+Und natürlich ebnet diese Infrastruktur den Weg für die zukünftige Entwicklung in allen Bereichen.</LocalizationPair>
+
+        <LocalizationPair Name="%LunarDataNetwork_Title">Datennetzwerk des Mondes</LocalizationPair>
+        <LocalizationPair Name="%LunarDataNetwork_Desc">Dieses Netzwerk wissenschaftlicher Infrastruktur ist speziell für die Untersuchung von Monden und Anomalien im gesamten System konzipiert. Es nutzt automatisierte Mondhardware und Erfassungspunkte sowie umlaufende Satelliten, um Echtzeit-Signale kontinuierlich zu verarbeiten.
+Diese Netzwerke sind in der Lage, große Datenmengen schnell zu verarbeiten, einschließlich Inline-Puffer und redundanter Datenspeicherknoten. Sie passen sich automatisch an eine Vielzahl von dynamischen Umgebungen an.</LocalizationPair>
+
+        <LocalizationPair Name="%LunarTourism_Title">Mond Tourismus</LocalizationPair>
+        <LocalizationPair Name="%LunarTourism_Desc">Staatliche Gründungszuschüsse, die Hafeninfrastruktur und umfassende Reise- und Handelsbestimmungen können der Privatwirtschaft die Möglichkeit geben, sichere und zuverlässige Reiseziele zwischen den verschiedenen Monden anzubieten.
+Die zusätzlichen Steuereinnahmen decken die Bürokratiekosten, und die Bürger genießen mehr Bewegungsfreiheit innerhalb des Systems.</LocalizationPair>
+
+        <LocalizationPair Name="%LunarColonies_Title">Mond Kolonien</LocalizationPair>
+        <LocalizationPair Name="%LunarColonies_Desc">Fortschrittliche Bau- und Gemeindeentwicklungstechniken haben den Bau ausgedehnter Mondgemeinschaften in einer Weise ermöglicht, die bisher nicht denkbar war.
+Selbst winzige Monde können nun eingesetzt werden, um den Populationen einen stabilen und lebenswerten Raum zu bieten, und bestehende Kolonien werden von zusätzlichen bewohnbaren Flächen profitieren.</LocalizationPair>
+
+        <LocalizationPair Name="%MoonExploitation_Title">Mond Ausbaudrohnen</LocalizationPair>
+        <LocalizationPair Name="%MoonExploitation_Desc">Monde in den verschiedenen Planetensystemen bieten eine Fülle von Möglichkeiten. Durch die Nutzung eines umfassenden Netzwerks von Drohnen, die in der Lage sind, Ressourcen im ursprünglichen Zusammenhang zu analysieren, anpassungsfähig zu sein und sowohl in Echtzeit als auch vorausschauend zu koordinieren, kann ein Großteil des Ressourcenertrags eines Mondes durch vollständig automatisierte Prozesse generiert werden.</LocalizationPair>
+
+        <LocalizationPair Name="%HunterGuilds_Title">Jäger Gilden</LocalizationPair>
+        <LocalizationPair Name="%HunterGuilds_Desc">Einen verschollenen Endless Moon-Tempel oder Stützpunkt zu finden und zu plündern, ist eine große Ehre für jene Clans, denen es gelingt. Die Standorte und Details dieser Plünderungen werden als streng gehütete Geheimnisse behandelt, damit nicht ein anderer Clan Ansprüche geltend machen kann.
+Während dies als eine ziemlich selbstsüchtige Unternehmung angesehen werden kann, wird es aufgrund des potenziellen Nutzens für die Gesellschaft als Ganzes toleriert.
+Vom Imperium subventionierte Jäger Gilden können überall dort gegründet werden, wo diese Aktivität stattfindet, indem sie formelle Regelungen und Förderkonzepte bieten, um gemeinsam mit den Massenmedien Geschichten über die bedeutendsten Entdeckungen zu verbreiten. Natürlich geht dies auch mit Steuern und Abgaben einher, die sie dem Imperium einbringen werden.
+Achte auf Systeme, die diese Verbesserungen realisieren können, da es ein sicheres Zeichen dafür ist, dass es irgendwo da draußen geeigneter Standort.
+Aber wird ein Tempel erst einmal offiziell entdeckt, müssen die Jäger andere Stätten finden, um sie zu plündern und zu erkunden.</LocalizationPair>
+
+        <LocalizationPair Name="%LunarSanctuaries_Title">Mond-Refugien</LocalizationPair>
+        <LocalizationPair Name="%LunarSanctuaries_Desc">Es ist keine leichte Aufgabe, verborgene Korridore einzurichten, damit die Planeten-Refugien die lokalen Monde nutzen können.
+Aber die jüngsten Fortschritte in der nicht-materiellen Physik haben einen Weg zur Erschließung von Mineralien und zur Durchführung von Projekten der Mondwissenschaften eröffnet.
+Diese Erweiterungen der Refugien werden dem gesamten Imperium langfristig wichtige Vorteile bringen.</LocalizationPair>
+
+        <LocalizationPair Name="%EndlessTechInfiltration_Title">[X] Infiltrations-Portal</LocalizationPair>
+        <LocalizationPair Name="%EndlessTechInfiltration_Desc">Die Endless-Technologien, die in dieser Galaxie zu finden sind, unterscheiden sich deutlich von der der verschiedenen Spezies, die sie derzeit als ihre Heimstätte betrachten. Eine sorgfältige Analyse dieser Unterschiede ist entscheidend für ein besseres Verständnis.
+Durch passive Breitband-Analyse kosmischer Strings kann sich dieses Gateway auf die einzigartigen Frequenzen der Endless-Technologie einstellen und ermöglicht einen direkteren Zugang zu diesen Artefakten und deren Studium.
+Diese Verbesserung gilt für die folgenden Planetenanomalien:
+#FFFFFF#Entdeckte uralte Mystische Gestirne, sowohl ent- als auch unentdeckte Tempel der Endless, Ruinen des Wissens, Die Plattform von Ys, Spotoras Heiligtum#REVERT#</LocalizationPair>
+  
+  
+<!-- Planet Improvements -->
+
+        <LocalizationPair Name="%LunarMiningSpec_Title">Mond-Minen</LocalizationPair>
+        <LocalizationPair Name="%LunarMiningSpec_Desc">Die Schaffung von Anreizen für die lokale Industrie und die Bereitstellung universeller Mittel, um neue Projekte zu starten, kann zu beeindruckenden Produktionsgewinnen führen.
+Dieser aggressive Ansatz hat jedoch den geringfügigen Nebeneffekt, dass er die Effizienz der lokalen Wissenschaften beeinträchtigt.</LocalizationPair>
+
+        <LocalizationPair Name="%LunarResearchSpec_Title">Mond-Forschung</LocalizationPair>
+        <LocalizationPair Name="%LunarResearchSpec_Desc">Durch die Fokussierung der planetarischen Bemühungen auf das Mondsystem und die enge Unterstützung der verschiedenen wissenschaftlichen Institutionen können deutliche Fortschritte im gesamten Forschungsbereich erzielt werden.
+Diese Spezialisierung geht jedoch etwas zu Lasten der lokalen Industriewirtschaft.</LocalizationPair>
+
+<!-- Orb Granted Stuff -->
+
+        <LocalizationPair Name="%IndustrialLuxuryProcessing_Title">Industrielle Veredelung von Luxusressourcen</LocalizationPair>
+        <LocalizationPair Name="%IndustrialLuxuryProcessing_Desc">Neue Methoden der Materialveredelung haben eine Reihe von neuartigen Möglichkeiten zur Nutzung von Luxusressourcen rund um das Imperium hervorgebracht. Diese Zentren bieten die notwendige Infrastruktur für die Verarbeitung im großen Stil.</LocalizationPair>
+
+        <LocalizationPair Name="%ColdIndustry_Title">Tieftemperatur-Herstellung</LocalizationPair>
+        <LocalizationPair Name="%ColdIndustry_Desc">Viele neue Industrien haben Wege gefunden, kalte Umgebungen zu nutzen, um dieses spezialisierte Produktionsverfahren zu optimieren, das sonst in anderen, wärmeren Umgebungen unwirtschaftlich wäre.</LocalizationPair>
+
+        <LocalizationPair Name="%OrbIndustryUpgrade_Title">Uralte Mystische Gestirne - Industrielle Aufwertung</LocalizationPair>
+        <LocalizationPair Name="%OrbIndustryUpgrade_Desc">Industrielle Prozesse und Techniken, die mit Hilfe des Manufaktur-Himmelskörpers gewonnen werden, können in andere uralte Mystische Gestirne exportiert werden, was allen Industriezweigen einen deutlichen Impuls verleiht.</LocalizationPair>
+
+
+        <LocalizationPair Name="%StrategicApproval_Title">Verarbeitung exotischer Ressourcen</LocalizationPair>
+        <LocalizationPair Name="%StrategicApproval_Desc">Fortschritte in der Erzverarbeitung haben neue Wege zur Nutzung strategischer Ressourcen für den Heim- und Privatgebrauch realisiert, die den 3D-Druck im Haushalt auf ein neues Niveau der Benutzerfreundlichkeit heben. Dies kann den durchschnittlichen Lebensstandard deutlich anheben.</LocalizationPair>
+
+        <LocalizationPair Name="%ExtremeTours_Title">Agentur für Extremtourismus</LocalizationPair>
+        <LocalizationPair Name="%ExtremeTours_Desc">Jeder Planet hat seine eigenen unbarmherzigen Gebiete, und abenteuerlustige Individuen genießen die Chance, diesen Orten zu trotzen. Und die herausforderndsten Gebiete befinden sich auf öden, toxischen und lavalastigen Planeten.
+Technologien und Vorräte, die im Handelszentrum der Endless gefunden werden, bieten geeignete Hilfsmittel für die Erkundung dieser Gebiete, zusammen mit Filmteams, die diese Abenteuer dokumentieren.</LocalizationPair>
+
+        <LocalizationPair Name="%ExtremeToursBiophobic_Title">Agentur für Extremtourismus</LocalizationPair>
+        <LocalizationPair Name="%ExtremeToursBiophobic_Desc">Jeder Planet hat seine eigenen unbarmherzigen Gebiete, und abenteuerlustige Individuen genießen die Chance, diesen Orten zu trotzen. Und die herausforderndsten Gebiete für biophobische Bevölkerung befinden sich auf ozeanischen, terranischen, Wald- und Atollwelten.
+Technologien und Vorräte, die im Handelszentrum der Endless gefunden werden, bieten geeignete Hilfsmittel für die Erkundung dieser Gebiete, zusammen mit Filmteams, die diese Abenteuer dokumentieren.</LocalizationPair>
+
+        <LocalizationPair Name="%OrbDustUpgrade_Title">Uralte Mystische Gestirne - Finanzaufwertung</LocalizationPair>
+        <LocalizationPair Name="%OrbDustUpgrade_Desc">Marktanalyse-Computer und Simulationsmaschinerie aus dem Dust-Institut der Endless können durch Neukonfiguration alter Bereiche bestehender Himmelskörper dupliziert werden.</LocalizationPair>
+
+
+        <LocalizationPair Name="%HotScience_Title">Radiologische Geologie</LocalizationPair>
+        <LocalizationPair Name="%HotScience_Desc">Heiße und sengende Umgebungen bieten eine Fülle von Möglichkeiten für die Wissenschaft, indem sie neue Werkzeuge zur Nutzung intensiver Sonnenstrahlungseffekte einsetzen. Mit Hilfe der Chaos-Modellierung ist auch die geologische Instabilität für diese Art der Analyse besonders nützlich.</LocalizationPair>
+
+        <LocalizationPair Name="%GasGiantScience_Title">Gasriesen-Drohnen</LocalizationPair>
+        <LocalizationPair Name="%GasGiantScience_Desc">Diese fortschrittlichen, spezialisierten und vernetzten Drohnen können kontinuierlich automatisierte Forschungs- und Sammeltätigkeiten auf den riesigen Flächen der Gasriesen durchführen.</LocalizationPair>
+
+        <LocalizationPair Name="%OrbScienceUpgrade_Title">Himmelskörper-Forschungsaufwertung</LocalizationPair>
+        <LocalizationPair Name="%OrbScienceUpgrade_Desc">Durch die Umfunktionierung großflächiger Himmelskörper mit den Techniken des Forschungszentrums der Endless können viele groß angelegte Experimente automatisiert werden. Dies führt zu einer erhöhten wissenschaftlichen Kapazität im gesamten System.</LocalizationPair>
+  
+
+        <LocalizationPair Name="%ModuleOrbEngineProbe_Title">Erkundungs-Modul</LocalizationPair>
+        <LocalizationPair Name="%ModuleOrbEngineProbe_Desc">Moderne Miniaturisierungstechniken haben die Schaffung eines kompakten Antriebs- und Sondenmoduls ermöglicht.
+Die einzelnen Funktionen sind vielleicht nicht jeweils so leistungsfähig wie heutige Technologien, aber die Platzersparnis ist durchaus beeindruckend und ermöglicht neue Optionen für das Schiffsdesign.</LocalizationPair>
+
+        <LocalizationPair Name="%ModuleOrbScanner_Title">Langstrecken-Scanner</LocalizationPair>
+        <LocalizationPair Name="%ModuleOrbScanner_Desc">Quantenfeld-Sensornadeln ermöglichen extrem weitreichende Erfassungssysteme, die auf Erkundungsschiffen untergebracht werden können.</LocalizationPair>
+
+        <LocalizationPair Name="%GasGiantSpecInd_Title">Industrielle Ausbeutung von Gasriesen</LocalizationPair>
+        <LocalizationPair Name="%GasGiantSpecInd_Desc">Logistikdrohnen wurden für die komplexe Aufgabe der Gewinnung von Ressourcen aus Gasriesen umgerüstet, und viele dieser Nebenprodukte finden in allen Bereichen der Industrie Verwendung.
+Dieser Nutzungsplan konzentriert sich insbesondere auf Gase, die in der fortschrittlichen Fertigungsindustrie verwendet werden.</LocalizationPair>
+
+        <LocalizationPair Name="%GasGiantSpecSci_Title">Wissenschaftliche Ausbeutung von Gasriesen</LocalizationPair>
+        <LocalizationPair Name="%GasGiantSpecSci_Desc">Logistikdrohnen wurden für die komplexe Aufgabe der Gewinnung von Ressourcen aus Gasriesen umgerüstet, und viele dieser Nebenprodukte finden in allen Bereichen der Industrie Verwendung.
+Dieser Nutzungsplan konzentriert sich insbesondere auf das Sammeln von Daten und Proben für Forschungszwecke.</LocalizationPair>
+
+        <LocalizationPair Name="%GasGiantSpecGen_Title">Grundlegende Ausbeutung von Gasriesen</LocalizationPair>
+        <LocalizationPair Name="%GasGiantSpecGen_Desc">Logistikdrohnen wurden für die komplexe Aufgabe der Gewinnung von Ressourcen aus Gasriesen umgerüstet, und viele dieser Nebenprodukte finden in allen Bereichen der Industrie Verwendung.
+Dieser Nutzungsplan konzentriert sich auf das Sammeln einer breiten Palette von Dust und exotischen Gasen.</LocalizationPair>
+
+        <LocalizationPair Name="%OrbColonization_Title">Kolonisierung Uralter Planeten</LocalizationPair>
+        <LocalizationPair Name="%OrbColonization_Desc">Die fortschrittliche Organisation und Koordinierung von Lebensräumen, die auf dem künstlichen Mond Megalopolis zu finden ist, kann wiederbelebt und sogar an andere Himmelskörper angepasst werden. Millionen von Imperiumsbürgern können sich nun dauerhaft auf diesen großen Strukturen niederlassen, einschließlich größerer Kontingente von Sicherheits- und Militärkräften.</LocalizationPair>
+
+<!-- Temple Granted Improvements -->
+
+        <LocalizationPair Name="%HistoricalEnclave_Title">Historische Enklave</LocalizationPair>
+        <LocalizationPair Name="%HistoricalEnclave_Desc">Das Studium des Tempels des Tiefgründigen Geists hat neue Wege ermöglicht, alte Phänomene mit Hilfe von immersiver Forschung und speziellen KI-Konstrukten zu untersuchen.
+Diese Enklave ist auf das Studium alter Zivilisationen spezialisiert. Darüber hinaus tragen die Entdeckungen und Erkenntnisse hier auch zu einem breiteren kulturellen Verständnis der modernen Zivilisationen bei. 
+Diese Enklaven sind sowohl Forschungseinrichtungen als auch Touristenattraktionen, wobei die Gewinne aus Besichtigungen und Museumsbesuchen direkt in die Unterhaltskosten fließen.
+Diese Enklave bietet Langzeitstudien zu den folgenden Planetenanomalien:
+#FFFFFF#Prägalaktische Architektur, Dust-Ruinen, Uralte Ruinen, Verlassene Städte, Auf den Schultern von Riesen, Ruinen des Wissens, Die verlassenen Gärten, Die Brücke aus siebzehntausend Inseln, Die Plattform von Ys#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%EndlessEnclave_Title">Enklave der Endless</LocalizationPair>
+        <LocalizationPair Name="%EndlessEnclave_Desc">Das Studium des Tempels des Tiefgründigen Geists hat neue Wege ermöglicht, alte Phänomene mit Hilfe von immersiven Forschungen und spezialisierten KI-Konstrukten in speziellen Forschungseinrichtungen zu analysieren. 
+Diese Enklave ist auf das Studium der alten Endless-Technologien spezialisiert, und aufgrund der Anzahl der aktiven Experimente zu einem bestimmten Zeitpunkt bietet diese Studie oft unmittelbare praktische Vorteile und Erkenntnisse für die bestehende Industrie im System.
+Diese Enklave bietet langfristige Forschung zu den folgenden Planetenanomalien:
+#FFFFFF#Dust-Ruinen, Dust-Ader, Cyber-Flora, Mikrofabriken, Ruinen des Wissens, Spotoras Heiligtum, Die Brücke aus siebzehntausend Inseln, Die Plattform von Ys#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%ExoticResearchLab_Title">Laboratorien der exotischen Forschung</LocalizationPair>
+        <LocalizationPair Name="%ExoticResearchLab_Desc">Mit Hilfe der Forschung aus dem Tempel der Daten-Sinfonie sind diese automatisierten Einrichtungen in der Lage, kontinuierlich subatomare Forschungsstudien an den verschiedensten strategischen und luxuriösen Lagerstätten in der gesamten Galaxie durchzuführen.
+Die Arbeit ist mühsam und erzeugt riesige Datenmengen, die durchsucht werden müssen - daher ist eine Automatisierung der KI-Datenwissenschaft notwendig.
+Es ist ungewöhnlich, dass die Methoden langsam sind, aber niemand kann ihre allgemeine Wirksamkeit leugnen.</LocalizationPair>
+
+        <LocalizationPair Name="%WatchmakerChildFacility_Title">Uhrmacher-Tochterunternehmen</LocalizationPair>
+        <LocalizationPair Name="%WatchmakerChildFacility_Desc">Diese Anlage, die durch den Uhrmacher-Tempel ermöglicht wird, nutzt die Dimensionaltechnologie der Endless, um wertvolle Produktionsmaterialien zu erhalten und wissenschaftliche Daten über ein großdimensionales Netzwerk zu sammeln.
+Diese Einrichtungen sind eigentlich ziemlich preiswert, was sie für neu kolonisierte Systeme sehr nützlich macht, aber es ist notwendig, dass der Uhrmacher-Tempel für die Verwendung von "Export" konfiguriert ist.</LocalizationPair>
+
+        <LocalizationPair Name="%GasHarvesters_Title">Gas-Riesen Erntemaschinen</LocalizationPair>
+        <LocalizationPair Name="%GasHarvesters_Desc">Diese riesigen schwebenden Strukturen, die im Titan Wind entdeckt wurden, wurden entwickelt, um Spuren von Dust zu sammeln, indem sie die obere Atmosphäre von Gasriesen durchstreifen. Und im Laufe der Zeit sind sie in der Lage, den Dust in eine leicht verwertbare Form zu transformieren und wertvolle wissenschaftliche Daten zu liefern.
+Diese Erntemaschinen sind auch in der Lage, Lebensraum für eine ganze Reihe von Bürgern zu schaffen.</LocalizationPair>
+
+        <LocalizationPair Name="%RestorationDrones_Title">Restaurations-Drohnen</LocalizationPair>
+        <LocalizationPair Name="%RestorationDrones_Desc">Diese automatisierten Drohnen, die im Titan Wind entdeckt wurden, arbeiten daran, die Schäden an einem Planeten zu regenerieren, die durch Überausbeutung entstanden sind.
+Darüber hinaus trägt dieses riesige Bot-Netzwerk dazu bei, andere industrielle Anwendungen auf der ganzen Welt zu erleichtern.</LocalizationPair>
+
+        <LocalizationPair Name="%ShipyardWorkCamps_Title">Schiffswerft-Arbeiterlager</LocalizationPair>
+        <LocalizationPair Name="%ShipyardWorkCamps_Desc">Diese Konstruktionszonen wurden von einem der Restaurierungsteams der Waffenfabrik der Endless mit Insiderwissen und Maschinen aus den Werften des Tempels entworfen.
+Es stellt sich heraus, dass die notwendigen Arbeiten bei den Bevölkerungen des Imperiums sehr unbeliebt sind, aber es gibt viele kleinere Spezies, die davon überzeugt werden können, die Arbeit zu verrichten.
+Die Bedingungen in diesen Lagern sind mörderisch, aber die Arbeiten sind absolut notwendig für den Bau der notwendigen Teile für die Herstellung von Raumschiffen.</LocalizationPair>
+
+        <LocalizationPair Name="%OrbitalHydroponics_Title">Orbitale Hydrokulturen</LocalizationPair>
+        <LocalizationPair Name="%OrbitalHydroponics_Desc">Einblicke in die Endlesstechnologien, die aus dem Schmelzofentempel gewonnen wurden, haben die Errichtung dieser Orbitalanlagen ermöglicht.
+Die hier gezüchteten Kulturen zeigen einen beeindruckenden Nährstoffgehalt und eine außergewöhnliche Wachstumsreaktion durch den Einsatz von Techniken des Schwerelosigkeitsanbaus und der organischen Filtration, zusammen mit einem komplexen Zeitplan von Sonnenlichtzyklen.
+Einmal angebaut und geerntet, können Nahrungsmitteldrohnen sofort in jeden Bereich des Planeten versandt werden.</LocalizationPair>
+
+        <LocalizationPair Name="%TemplePortal_Title">Tempel Portal</LocalizationPair>
+        <LocalizationPair Name="%TemplePortal_Desc">Ingenieure haben genügend Kernteile aus dem Schmelzofentempel gesammelt, um ein einzelnes Portal zu bauen.
+Dies wird es Raumschiffen ermöglichen, zu anderen Portalen zu reisen, aber sobald das Portal errichtet wurde, kann diese Konstruktion nicht nochmals errichtet werden.</LocalizationPair>
+  
+        <LocalizationPair Name="%LunarOreDispatcher_Title">Automatisierte Erz-Logistik</LocalizationPair>
+        <LocalizationPair Name="%LunarOreDispatcher_Desc">Diese Maschinen bestehen aus autonomen Bots und Bergbauausrüstung und gewinnen wertvolle Erze, die dann in den Orbit gebracht werden.
+Von dort aus können sie problemlos zu jedem beliebigen Planeten im System geschickt werden.
+Diese relativ preiswerten Systeme wurden aus Teilen und Schaltplänen des Quantum Befehl Tempels nachgebildet und sind ideal für neue Kolonien mit Zugang zu Monden.</LocalizationPair>
+
+        <LocalizationPair Name="%LunarCultureNetwork_Title">Dustarchiv Kultur-Netzwerk</LocalizationPair>
+        <LocalizationPair Name="%LunarCultureNetwork_Desc">Die clevere Anordnung dieser benutzerdefinierten Netzwerkknoten über die Systemmonde hinweg ermöglicht den Zugang zu den jüngsten Bevölkerungsaktivitäten des Dustarchivtempels, und diese regelmäßigen Episoden und Live-Feeds sind im ganzen Reich sehr beliebt.
+Die Technologie, die in diese von der KI entworfenen Installationen involviert ist, ist ziemlich exotisch und so täuschend einfach, dass einige prominente Forscher zu Vorsicht raten, was die genauen Absichten ihres Designs und ihrer Verwendung betrifft.
+Dennoch kann niemand ihre unmittelbaren Vorteile für das Imperium leugnen.</LocalizationPair>
+
+        <LocalizationPair Name="%LunarStrikeBase_Title">Mond-Angriffsbasis</LocalizationPair>
+        <LocalizationPair Name="%LunarStrikeBase_Desc">Wissenschaftler und Ingenieure haben es geschafft, die auf Des Wächters Stütze wiederhergestellten Langstrecken-Bombardementwaffen zu rekonstruieren, wenn auch in kleinerem Maßstab.
+Diese Mondlandschaft wird im Falle einer Invasion Bodenunterstützung bieten und eine permanente militärische Präsenz auf dem Mond beherbergen.
+Darüber hinaus werden hier regelmäßig Trainingsübungen durchgeführt, was die Erfahrung der stationierten Flotten erhöht.</LocalizationPair>
+
+        <LocalizationPair Name="%EntertainmentSpec_Title">Globale Unterhaltung</LocalizationPair>
+        <LocalizationPair Name="%EntertainmentSpec_Desc">Mit den Techniken, die aus dem Tempel der Erweiterten Perfektion gelernt wurden, kann eine ganze Welt darauf ausgerichtet sein, Unterhaltung für das System zu bieten.
+Weite Gebiete sind Erholungsorten und touristischen Attraktionen gewidmet, und diese Erfahrungen sind universell verbunden und koordiniert.
+Darüber hinaus werden Augmented-Reality-Overlays weltweit eingesetzt, die einzigartige und nahtlose KI-überwachte Nutzererfahrungen und das spielerische Erleben jeder nur erdenklichen Aktivität, vom Alltäglichen bis zum Exotischen, ermöglichen.</LocalizationPair>
+
+        <LocalizationPair Name="%TempleBotOutpost_Title">Roboter Außenposten Tempel</LocalizationPair>
+        <LocalizationPair Name="%TempleBotOutpost_Desc">Unter Ausnutzung der schieren Anzahl von Arbeiter-Bots, die durch den Tempel der Endlosen Höhlen geschaffen wurden, wurde festgestellt, dass sie durch die Verlegung in ein neues Gebiet für eine Vielzahl verschiedener Einsatzzwecke neu beauftragt werden konnten, wovon alle Bereiche der Wirtschaft von der persönlichen bis zur gewerblichen Nutzung profitieren.
+Leider gibt es aber nur so viele Bots, wie man vorgefunden hat. Je mehr dieser Außenposten im Einsatz sind, desto weniger effektiv ist jeder einzelne.</LocalizationPair>
+
+        <LocalizationPair Name="%WebAnchor_Title">Netzwerk Ortungszentrale</LocalizationPair>
+        <LocalizationPair Name="%WebAnchor_Desc">Unter Verwendung von Schaltplänen aus dem Stellaren Netwerk Tempel haben es Ihre Ingenieurteams geschafft, eine Mondstruktur zu erstellen, die als Netzwerk Ortungszentrale gilt.
+Diese fremde Vorrichtung schafft eine Art dimensionale Verbindung zum Tempel und anderen Ortungszentralen. Eine der Nebenwirkungen dieser Verbindung ist, dass irgendwie lokale Dustessenz abgesaugt und zurück in den Tempel geschickt wird.
+Diese Struktur dient auch als Drehscheibe für exotische Forschung und ist ein Vorposten für natürliche Gemeinschaftsbeziehungen, wenn verschiedene Spezies zusammenkommen, um die seltsame Konstruktion zu bestaunen.</LocalizationPair>
+
+        <LocalizationPair Name="%WebBeacon_Title">Netzwerk-Ortungsgerät</LocalizationPair>
+        <LocalizationPair Name="%WebBeacon_Desc">Nachdem im Tempel des Stellaren Netzwerks weitere Geheimnisse aufgedeckt wurden, ist es nun möglich, bestehende Netzwerk-Ortungsgeräte zu aktualisieren.
+Je mehr dieser Geräte gebaut sind, desto mehr handeln sie in Harmonie, um die Galaxie zu beobachten und Wissenschaft zu generieren, die im Tempel verarbeitet werden soll.
+Die langfristigen Auswirkungen dieser Beobachtungen sind unklar, aber der unmittelbare Nutzen, den sie bieten, ist gut verstanden.</LocalizationPair>
+
+        <LocalizationPair Name="%MolecularExtractors_Title">Breitbandverbindung</LocalizationPair>
+        <LocalizationPair Name="%MolecularExtractors_Desc">Diese hochentwickelten Sammeltechniken nutzen die Technologie, die im Tempel der Breitbandverbindung entdeckt wurde.
+Durch die Verwendung riesiger Netzwerke von spezialisierten Nano-Bohrern und chemischen Mitteln wird die Effizienz der Ressourcengewinnung erheblich verbessert, indem Materialien auf molekularer Ebene extrahiert werden können.
+Leider ist dieser Prozess extrem teuer, und diese Abbaugebiete haben negative Auswirkungen auf die industrielle Produktion. Diese Kosten werden durch die zunehmende Anzahl strategischer Ressourcenstandorte noch verstärkt.</LocalizationPair>
+
+        <LocalizationPair Name="%CoreStackRouter_Title">Kernspeicher-Router</LocalizationPair>
+        <LocalizationPair Name="%CoreStackRouter_Desc">Durch die Extraktion redundanter oder ungenutzter Netzwerkkomponenten aus dem Kernspeicher-Tempel können hochentwickelte Systemrouter im gesamten Reich eingesetzt werden.
+Je mehr installiert sind, desto effektiver können die intelligenten Netzwerkroutinen immer effizientere Techniken und subtilere Nebenkanalanalysen nutzen, um Verbesserungen beim Hacking auf breiter Front zu realisieren.</LocalizationPair>
+
+
+<!-- Modules -->
+
+        <LocalizationPair Name="%ModuleSupportMoonExploration_Title">Mond-Erkundungsmodul</LocalizationPair>
+        <LocalizationPair Name="%ModuleSupportMoonExploration_Desc">Ermöglicht die Erforschung und Vermessung von Monden mit Helden- und Erkundungsschiffen.
+Dies ist natürlich nützlich, um fundierte Erkenntnisse über die besten potenziellen Systeme für neue Kolonien zu erhalten, kann aber auch die Anwesenheit eines Mond Tempels der Endless aufdecken.</LocalizationPair>
+	
+<!-- Added cloaked orb detection requirements to descriptions -->
+	
+	<!-- Added because this tooltip is missing in the game -->	
+
+        <LocalizationPair Name="%EmpireImprovementDetectionProbeLevel1Title">Antitarnsonden</LocalizationPair>	
+        <LocalizationPair Name="%EmpireImprovementDetectionProbeLevel1Description">Die Systemsonden können jetzt getarnte Schiffskörper und Anlagen aufspüren, bei denen Tarntechnologie der ersten Generation zum Einsatz kommt.	
+Die Entdeckung getarnter Uralter Himmelskörper ist mit der Antitarnstufe 1 und der Stufe 3 der Kuriositäten-Expeditionsstärke möglich.</LocalizationPair>	
+	
+        <LocalizationPair Name="%EmpireImprovementDetectionProbeLevel2Description">Die Sonden, die mit einer erweiterten Technologie zur Strahlungsverfolgung aufgerüstet wurden, können nun getarnte Schiffskörper und Anlagen aufspüren, bei denen Tarntechnologie der zweiten Generation zum Einsatz kommt.
+Die Entdeckung getarnter Uralter Himmelskörper ist mit der Antitarnstufe 1 und der Stufe 3 der Kuriositäten-Expeditionsstärke möglich.</LocalizationPair>	
+	
+        <LocalizationPair Name="%EmpireImprovementDetectionProbeLevel3Description">Vollständig mit den neuesten Neutrino-Emissions-Detektoren ausgestattet, können selbst die am sorgfältigsten getarnten Objekte entdeckt werden, bei denen Tarntechnologie der dritten Generation zum Einsatz kommt.
+Die Entdeckung getarnter Uralter Himmelskörper ist mit der Antitarnstufe 1 und der Stufe 3 der Kuriositäten-Expeditionsstärke möglich.</LocalizationPair>	
+	
+        <LocalizationPair Name="%EmpireImprovementCuriosityLevel2Description">Die Fähigkeit, über das hinauszugehen, was einfach nur Technologie ist, und sich in etwas Neues zu verwandeln - das lernt man, wenn man sich genügend mit den Relikten und Artefakten der Endless befasst. Welche seltsamen Energien sie auch immer manipuliert haben, Scanner, die auf ihrer Technologie basieren (auch wenn sie nur vage verstanden werden), sind weitaus effektiver.	
+Die Entdeckung getarnter Uralter Himmelskörper ist mit der Antitarnstufe 1 und der Stufe 3 der Kuriositäten-Expeditionsstärke möglich.</LocalizationPair>	
+	
+        <LocalizationPair Name="%EmpireImprovementCuriosityLevel3Description">Mithilfe psychohistorischer Techniken können Forscher verschiedenste Indizien zusammenführen und somit die wahrscheinlichste Entwicklungsgeschichte von Ortschaften rekonstruieren. Auf diese Weise können Expeditionen Kuriositäten von höherem Level entdecken.	
+Die Entdeckung getarnter Uralter Himmelskörper ist mit der Antitarnstufe 1 und der Stufe 3 der Kuriositäten-Expeditionsstärke möglich.</LocalizationPair>
+
+
+<!-- Custom Tooltips -->
+       
+       <LocalizationPair Name="%Blank_Tip"></LocalizationPair>
+
+       <LocalizationPair Name="%LRSpec_S_Tip">+10 [ScienceColored] auf: Planeten mit einem Mond</LocalizationPair>
+       <LocalizationPair Name="%LRSpec_rS_Tip">+1 [ScienceColored] pro [population] auf: erkundetem Mond</LocalizationPair>
+       <LocalizationPair Name="%LRSpec_BW_Tip">+5 [ProcessingPower] auf: Planeten mit einem entwickeltem Mond</LocalizationPair>
+       <LocalizationPair Name="%LRSpec_pI_Tip">-30% [IndustryColored] auf: Planet</LocalizationPair>
+
+       <LocalizationPair Name="%LMSpec_I_Tip">+15 [IndustryColored] auf: Planeten mit einem Mond</LocalizationPair>
+       <LocalizationPair Name="%LMSpec_rI_Tip">+1 [IndustryColored] pro [population] auf: erkundetem Mond</LocalizationPair>
+       <LocalizationPair Name="%LMSpec_rI2_Tip">+2 [IndustryColored] pro [population] auf: entwickeltem Mond</LocalizationPair>
+       <LocalizationPair Name="%LMSpec_pS_Tip">-30% [ScienceColored] auf: Planet</LocalizationPair>
+
+       <LocalizationPair Name="%LunarInf_I_Tip">+10 [IndustryColored] pro: Mond</LocalizationPair>
+       <LocalizationPair Name="%LunarInf_S_Tip">+2 [ScienceColored] pro [population] auf: Planeten mit einem erkundetem Mond</LocalizationPair>
+       <LocalizationPair Name="%LunarInf_D_Tip">+5% [DustColored] je entwickeltem Mond</LocalizationPair>
+       <LocalizationPair Name="%LunarInf_U_Tip">-6 [DustColored] pro: Mond</LocalizationPair>
+
+	   <LocalizationPair Name="%LDNetworks_M_Tip">+20 [ScienceColored] pro: Mond</LocalizationPair>
+       <LocalizationPair Name="%LDNetworks_S_Tip">+1% [ScienceColored] pro: Mond-Datennetzwerk im Imperium</LocalizationPair>
+ 
+       <LocalizationPair Name="%LunarTourism_D_Tip">+10 [DustColored] pro: erkundetem Mond</LocalizationPair>
+       <LocalizationPair Name="%LunarTourism_H_Tip">+5 [HappinessColored] pro: entwickeltem Mond</LocalizationPair>
+ 
+       <LocalizationPair Name="%LC_Pop_Tip">+1 Bevölkerungsplatz auf: Planeten mit einem erkundetem Mond</LocalizationPair>
+
+       <LocalizationPair Name="%SSIP2_Pop_Tip">+2 Bevölkerungsplätze auf: Planeten mit einem entwickelten Mond</LocalizationPair>
+
+       <LocalizationPair Name="%ETInf_S_Tip">+30 [ScienceColored] pro: Konstruktion der Endless im Imperium</LocalizationPair>
+       <LocalizationPair Name="%ETInf_I_Tip">+10 [PrestigeColored] pro: Konstruktion der Endless im Imperium</LocalizationPair>
+       <LocalizationPair Name="%ETInf_BW_Tip">+30 [ProcessingPower] pro: Konstruktion der Endless im Imperium</LocalizationPair>
+
+       <LocalizationPair Name="%DevelopMoon_Tip">Diese Verbesserung benötigt einen entwickelten Mond.
+Die Mond-Entwicklungstechnologie "Beschleuniger im Pev-Bereich" befindet sich im Forschungszweig WissenschaftErkundung Stufe 2.</LocalizationPair>
+       <LocalizationPair Name="%RestoreTemple_Tip">Diese Verbesserung benötigt einen Mondtempel, welcher einen entwickelten Mond voraussetzt.
+Die Mond-Entwicklungstechnologie "Beschleuniger im Pev-Bereich" befindet sich im Forschungszweig Wissenschaft&amp;Erkundung Stufe 2.</LocalizationPair>
+
+       <LocalizationPair Name="%OrbUpgradeI_F">+20 [FoodColored] auf: Planeten mit einem erkundeten Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%OrbUpgradeI_I">+50 [IndustryColored] auf: Planeten mit einem erkundeten Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%OrbUpgradeI_P">+10% [IndustryColored] pro: erkundetem Mystischen Gestirn</LocalizationPair>
+
+       <LocalizationPair Name="%OrbD_D_Tip">+0.5% [DustColored] auf: imperiumsweiten [DustColored] Vorrat</LocalizationPair>
+
+       <LocalizationPair Name="%OrbUpgradeD_D">+50 [DustColored] auf: Planeten mit einem erkundeten Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%OrbUpgradeD_P">+10% [DustColored] pro: erkundetem Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%OrbUpgradeD_I">+5 [PrestigeColored] pro: erkundetem Mystischen Gestirn</LocalizationPair>
+
+       <LocalizationPair Name="%OrbUpgradeS_S">+50 [ScienceColored] auf: Planeten mit einem erkundeten Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%OrbUpgradeS_P">+10% [ScienceColored] pro: erkundetem Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%OrbUpgradeS_B">+10 [ProcessingPower] pro: erkundetem Mystischen Gestirn</LocalizationPair>
+
+       <LocalizationPair Name="%GasSpecInd">+5 [IndustryColored] pro [population]
++3 [IndustryColored] pro [population] auf: nicht-kalt</LocalizationPair>
+
+       <LocalizationPair Name="%GasSpecSci">+5 [ScienceColored] pro [population]
++3 [ScienceColored] pro [population] auf: nicht-heiß</LocalizationPair>
+
+       <LocalizationPair Name="%GasSpecGen">+5 [DustColored] pro [population]
++5 [DustColored] pro [population] auf: nicht-heiß und nicht-kalt</LocalizationPair>
+
+       <LocalizationPair Name="%OrbColonization_P">+2 Bevölkerungsplätze auf: Planeten mit einem erkundeten Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%OrbColonization_M">+100 [SystemDefense]-Kapazität pro: erkundetem Mystischen Gestirn im System</LocalizationPair>
+
+       <LocalizationPair Name="%DeepMind_FIDSI_Tip">+2% [FIDSI] pro: Enklave im Imperium auf System</LocalizationPair>
+
+       <LocalizationPair Name="%TemplePortal_Tip">Ermöglicht die Teleportation von Flotten zwischen diesem System und einem anderen Portal.</LocalizationPair>
+ 
+       <LocalizationPair Name="%TempleInterest_Tip">+1% [DustColored] auf: imperiumsweiten [DustColored] Vorrat</LocalizationPair>
+ 
+      <LocalizationPair Name="%WatchmakerExport_Tip">+40 [IndustryColored] auf: Systeme mit einem Uhrmacher-Tochterunternehmen
++30 [ScienceColored] auf: Systeme mit einem Uhrmacher-Tochterunternehmen</LocalizationPair>
+       <LocalizationPair Name="%WatchmakerExport_Upgraded_Tip">+40 [IndustryColored] auf: Systeme mit einem Uhrmacher-Tochterunternehmen
++30 [ScienceColored] auf: Systeme mit einem Uhrmacher-Tochterunternehmen
++50% Ertrag auf: alle Uhrmacher-Tochterunternehmen.</LocalizationPair>
+
+       <LocalizationPair Name="%WatchmakerChild_I_Tip">+40 [IndustryColored] wenn der Uhrmacher-Tempel für die Verwendung von "Export" konfiguriert ist</LocalizationPair>
+       <LocalizationPair Name="%WatchmakerChild_S_Tip">+30 [ScienceColored] wenn der Uhrmacher-Tempel für die Verwendung von "Export" konfiguriert ist</LocalizationPair>
+
+       <LocalizationPair Name="%ExpandedBeauty_BW_Tip">+4 [ProcessingPower] pro [population] auf: dem Planeten</LocalizationPair>
+       <LocalizationPair Name="%ExpandedBeauty_BW2_Tip">+6 [ProcessingPower] pro [population] auf: dem Planeten</LocalizationPair>
+
+       <LocalizationPair Name="%CultureNetwork_I_Tip">+3 [PrestigeColored] pro [population]-Typ auf [X]: Dust Archive</LocalizationPair>
+
+       <LocalizationPair Name="%TempleBotOutpost_F_Tip">+30 [FoodColored] und -5 [FoodColored] pro: weiterem gebauten (wenigstens 5 [FoodColored]) Außenposten</LocalizationPair>
+       <LocalizationPair Name="%TempleBotOutpost_I_Tip">+30 [IndustryColored] und -5 [IndustryColored] pro: weiterem gebauten (wenigstens 5 [IndustryColored]) Außenposten</LocalizationPair>
+       <LocalizationPair Name="%TempleBotOutpost_FIDSI_Tip">+20% [FIDSI] und -5% [FIDSI] pro: weiterem gebauten (wenigstens 0% [FIDSI]) Außenposten</LocalizationPair>
+
+       <LocalizationPair Name="%WebAnchor_Tip">+50 [DustColored] auf das System mit [X]: Stellares Netzwerk</LocalizationPair>
+ 
+       <LocalizationPair Name="%WebBeacon_V_Tip">+3 Sichtweitenreichweite pro: Netzwerk-Ortungsgerät im Imperium</LocalizationPair>
+       <LocalizationPair Name="%WebBeacon_S1_Tip">+5 [ScienceColored] pro: Netzwerk-Ortungsgerät im Imperium</LocalizationPair>
+       <LocalizationPair Name="%WebBeacon_S2_Tip">+100 [ScienceColored] auf das System mit [X]: Stellares Netzwerk</LocalizationPair>
+
+       <LocalizationPair Name="%StellarWeb_D_Tip">+50 [DustColored] pro: Netzwerk Ortungszentrale im Imperium</LocalizationPair>
+       <LocalizationPair Name="%StellarWeb_S_Tip">+100 [ScienceColored] pro: Netzwerk-Ortungsgerät im Imperium</LocalizationPair>
+       <LocalizationPair Name="%StellarWeb_V_Tip">+10 Sichtweitenreichweite auf: System
++3 Sichtweitenreichweite pro: Netzwerk-Ortungsgerät im Imperium</LocalizationPair>
+
+       <LocalizationPair Name="%CoreStack_BW_Tip">+10 [ProcessingPower] pro: uraltem Mystischen Gestirn und Tempel der Endless im Imperium</LocalizationPair>
+       <LocalizationPair Name="%CoreStack_BW2_Tip">+20 [ProcessingPower] pro: uraltem Mystischen Gestirn und Tempel der Endless im Imperium</LocalizationPair>
+       <LocalizationPair Name="%CoreStack_Traitor_Tip">Enttarnt Schläfer Bevölkerung im System</LocalizationPair>
+       <LocalizationPair Name="%CoreStack_Vision_Tip">Setzt den Unsichtbarkeits-Entdeckungswert des Systems auf Stufe 3</LocalizationPair>
+       <LocalizationPair Name="%CoreStack_Hack_Tip">+30% Hacking-Geschwindigkeit auf: Imperium</LocalizationPair>
+
+       <LocalizationPair Name="%Router_H_Tip">+3% Hacking-Geschwindigkeit auf: Imperium</LocalizationPair>
+
+       <LocalizationPair Name="%HunterGuilds_D_Tip">+30 [DustColored] pro: unentdecktem Tempel oder getarntem Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%HunterGuilds_S_Tip">+20 [ScienceColored] pro: unentdecktem Tempel oder getarntem Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%HunterGuilds_I_Tip">+10 [PrestigeColored] pro: unentdecktem Tempel oder getarntem Mystischen Gestirn</LocalizationPair>
+       <LocalizationPair Name="%HunterGuilds_E_Tip">+75 [LifeForceColored] pro: unentdecktem Tempel oder getarntem Mystischen Gestirn</LocalizationPair>
+
+       <LocalizationPair Name="%HunterGuilds_Tip">+30 [DustColored] pro: unentdecktem Tempel oder getarntem Mystischen Gestirn
+ +20 [ScienceColored] pro: unentdecktem Tempel oder getarntem Mystischen Gestirn
+ +10 [PrestigeColored] pro: unentdecktem Tempel oder getarntem Mystischen Gestirn
+ +75 [LifeForceColored] pro: unentdecktem Tempel oder getarntem Mystischen Gestirn</LocalizationPair>
+
+
+<!-- Game Variable Lables -->
+
+       <LocalizationPair Name="%ExploredMoonsVar">Erkundeter Mond</LocalizationPair>
+       <LocalizationPair Name="%DevelopedMoonsVar">Entwickelter Mond</LocalizationPair>
+       <LocalizationPair Name="%WebAnchorsVar">Netzwerk Ortungszentrale im Imperium</LocalizationPair>
+       <LocalizationPair Name="%WebBeaconsVar">Netzwerk-Ortungsgerät im Imperium</LocalizationPair>
+       <LocalizationPair Name="%UndiscoveredMoonTemplesVar">Verborgener Tempelmond im System</LocalizationPair>
+       <LocalizationPair Name="%WatchmakerExportVar">Uhrmacher-Tempel in "Export"-Konfiguration</LocalizationPair>
+       <LocalizationPair Name="%LawUpkeepMultiplierVar">Unterhaltskosten des Gesetzes</LocalizationPair>
+       <LocalizationPair Name="%PopulationTypeCountTitle">[Population] Type auf dem Planeten</LocalizationPair>
+       <LocalizationPair Name="%BankAccountVar">[DustColored] </LocalizationPair>
+       <LocalizationPair Name="%EM_PlanetAnomalyVar">Anomalie</LocalizationPair>
+ 
+       <LocalizationPair Name="%PlanetImprovementApproval_Title">Zustimmungs-Spezialisierung</LocalizationPair>
+       <LocalizationPair Name="%PlanetImprovementGasFIDS_Title">WIND-Spezialisierung</LocalizationPair>
+       <LocalizationPair Name="%FailurePrerequisiteDescription">Keine Anomaliereduzierung verfügbar.</LocalizationPair>
+ 
+       <LocalizationPair Name="%SubCategoryLunarTitle">Mond</LocalizationPair>
+       <LocalizationPair Name="%SubCategoryHackingTitle">Hacking</LocalizationPair>
+       <LocalizationPair Name="%SubCategoryUmbralChoirTitle">Schemenchor</LocalizationPair>
+       
+       
+	<!--  "on Planet" labels for anomaly tooltips -->
+ <LocalizationPair Name="%5_PlanetFood">+5 [FoodColored] auf dem Planeten</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetFood">+10 [FoodColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetFood">+15 [FoodColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetFood">+20 [FoodColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%30_PlanetFood">+30 [FoodColored] auf Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetIndustry">+5 [IndustryColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetIndustry">+10 [IndustryColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetIndustry">+15 [IndustryColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetIndustry">+20 [IndustryColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%30_PlanetIndustry">+30 [IndustryColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%100_PlanetIndustry">+100 [IndustryColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%200_PlanetIndustry">+200 [IndustryColored] auf Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetDust">+5 [DustColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetDust">+10 [DustColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetDust">+15 [DustColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetDust">+20 [DustColored] auf Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetScience">+5 [ScienceColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetScience">+10 [ScienceColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetScience">+15 [ScienceColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetScience">+20 [ScienceColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%50_PlanetScience">+50 [ScienceColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%150_PlanetScience">+150 [ScienceColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%300_PlanetScience">+300 [ScienceColored] auf Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetPrestige">+5 [PrestigeColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetPrestige">+10 [PrestigeColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetPrestige">+15 [PrestigeColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetPrestige">+20 [PrestigeColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%30_PlanetPrestige">+30 [PrestigeColored] auf Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetFIDS">+5 [FIDSColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetFIDS">+10 [FIDSColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetFIDS">+15 [FIDSColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetFIDS">+20 [FIDSColored] auf Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetFIDSI">+5 [FIDSIColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetFIDSI">+10 [FIDSIColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetFIDSI">+15 [FIDSIColored] auf Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetFIDSI">+20 [FIDSIColored] auf Planet</LocalizationPair>
+
+
+<!-- Technology -->
+
+        <LocalizationPair Name="%Technology_RestoreTemples_Title">Mondtempel-Restaurierung</LocalizationPair>
+        <LocalizationPair Name="%Technology_RestoreTemples_Desc">Mit speziellen KI-Systemen und Frameworks, die für das Studium fremder Kulturen entwickelt wurden, können Forscher schließlich zusammenhängende Theorien bilden, die sich mit der Wiederherstellung und Analyse von Mondtempeln der Endless  befassen.
+Dies ermöglicht wahrscheinlichkeitsorientierte Modelle der am ehesten gangbaren Wege, auf die sich Tempelrestaurierungsprojekte konzentrieren sollten.
+#FFFFFF#Diese Verbesserung erfordert einen Mondtempel, der einen erforschten Mond erfordert.
+#FFEB96#Die Mond-Entwicklungstechnologie "Beschleuniger im Pev-Bereich" befindet sich im Forschungszweig Wissenschaft&amp;Erkundung Stufe 2.#REVERT#</LocalizationPair>
+
+        <LocalizationPair Name="%Technology_DevelopMoon_Title">Mond Entwicklung</LocalizationPair>
+        <LocalizationPair Name="%Technology_DevelopMoon_Desc">Hochwertige Materialien haben es neuen Techniken ermöglicht, die Ressourcen eines Mondes vollständig zu nutzen, sowohl an der Oberfläche als auch in der Tiefe. 
+Durch eine Kombination aus spezialisierten Strukturen, fortschrittlichem Bergbau und optimierter Aufbereitung sowie umfangreicher Infrastrukturentwicklung bleibt kein Weg der Ausbeutung unerforscht.
+#FFFFFF#Diese Verbesserung erfordert einen erforschten Mond.
+#FFEB96#Die Mond-Entwicklungstechnologie "Beschleuniger im Pev-Bereich" befindet sich im Forschungszweig Wissenschaft&amp;Erkundung Stufe 2.#REVERT#</LocalizationPair> 
+
+        <LocalizationPair Name="%EmpireImprovementMoonExplorationTitle">Mond-Erkundung</LocalizationPair>
+        <LocalizationPair Name="%EmpireImprovementMoonExplorationDescription">Es ist zwar einfach, auf einem Mond zu landen, aber für die vollständige Erkundung sind spezialisierte Teams erforderlich, die komplette Oberflächenkartierungen und Mineralienscans sowie eine vollständige Analyse der Mondumgebung durchführen.
+Diese Technologie ermöglicht auch die Installation von Spezialausrüstung auf Helden- und Erkundungsschiffen, die die Erforschung von Monden in fernen Sternensystemen ermöglicht.</LocalizationPair>
+
+</Datatable>

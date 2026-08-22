@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
+
+
+    <!-- ANOMALIES WEIGHT TABLES -->
+    <!-- a table for unique anomalies -->
+    <GalaxyGeneratorWeightTable Name="AnomalyGenerationUnique_Default">
+        <Entry Tag="PlanetAnomalyNaturalWonder1"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyNaturalWonder2"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyNaturalWonder3"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyNaturalWonder4"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyNaturalWonder5"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyNaturalWonder6"        Weight="10"/>
+    <!-- Temples -->
+   		<Entry Tag="Moon_SmSingC1_TA"       		Weight="10"/>
+        <Entry Tag="Moon_MdSingC1_TB"       		Weight="10"/> 
+        <Entry Tag="Moon_BinaryD1_TC"       		Weight="10"/>  		
+		<Entry Tag="Moon_LgBinaryC1_TD"       		Weight="10"/>
+		<Entry Tag="Moon_VolcanicC1_TE"       		Weight="10"/> 
+		<Entry Tag="Moon_FrozenD1_TF"       		Weight="10"/> 
+        <Entry Tag="Moon_FertileD1_TG"       		Weight="10"/> 
+        <Entry Tag="Moon_FertileE1_TH"       		Weight="10"/> 
+        <Entry Tag="Moon_MultiE1_TI"       			Weight="10"/> 
+        <Entry Tag="Moon_MultiF1_TJ"       			Weight="10"/> 
+        <Entry Tag="Moon_LgSingB1_TK"       		Weight="10"/> 
+        <Entry Tag="Moon_MultiG1_TL"       			Weight="10"/> 
+        <Entry Tag="Moon_MdSingD1_TM"       		Weight="10"/> 
+        <Entry Tag="Moon_SmSingD1_TN"       		Weight="10"/> 
+    </GalaxyGeneratorWeightTable>
+
+
+    <!-- a table for common  anomalies -->
+    <GalaxyGeneratorWeightTable Name="AnomalyGeneration_Default">	
+        <Entry Tag="Curiosity_PlanetAnomaly01"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly02"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly03"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly04"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly05"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly06"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly07"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly08"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly09"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly10"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly11"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly12"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly13"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly14"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly15"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly16"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly17"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly18"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly19"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly20"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly21"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly22"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly23"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly24"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly28"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly29"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly30"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly31"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly32"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly33"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly34"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly35"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly36"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly37"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly38"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly39"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly40"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly41"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly42"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly43"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly44"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly45"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly46"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly47"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly48"        Weight="10"/> <!--UPDATE5-->
+        <Entry Tag="Curiosity_PlanetAnomaly50"        Weight="30"/>
+        <Entry Tag="Curiosity_PlanetAnomaly51"        Weight="30"/>
+        <Entry Tag="Curiosity_PlanetAnomaly52"        Weight="25"/>
+        <Entry Tag="Curiosity_PlanetAnomaly53"        Weight="25"/>
+        <Entry Tag="Curiosity_PlanetAnomaly54"        Weight="25"/>
+        <Entry Tag="Curiosity_PlanetAnomaly55"        Weight="25"/>
+
+		<!-- Endless Moons -->
+        <Entry Tag="Curiosity_Moon_SmSingA1"       	  Weight="10"/>
+        <Entry Tag="Curiosity_Moon_SmSingB1"          Weight="8"/>
+        <Entry Tag="Curiosity_Moon_SmSingE1"          Weight="8"/>
+        <Entry Tag="Curiosity_Moon_FrozenA1"       	  Weight="18"/>
+        <Entry Tag="Curiosity_Moon_FrozenB1"       	  Weight="12"/>
+        <Entry Tag="Curiosity_CloakedOrb_I1_1"        Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_I2_1"        Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_I3_1"        Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_D1_1"        Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_D2_1"        Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_D3_1"        Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_S1_1"        Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_S2_1"        Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_S3_1"        Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_FIDS1_1"     Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_FIDS2_1"     Weight="6"/>
+        <Entry Tag="Curiosity_CloakedOrb_FIDS3_1"     Weight="6"/>
+        
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="AnomalyVisibleGeneration_Default">
+		<!-- EM: Lowered weights across the board -->
+    	<Entry Tag="PlanetAnomaly01"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly02"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly04"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly05"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly06"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly07"        Weight="10"/> <!-- EM: made more frequent -->
+        <Entry Tag="PlanetAnomaly08"        Weight="10"/> <!-- EM: made more frequent -->
+        <Entry Tag="PlanetAnomaly09"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly10"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly11"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly12"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly13"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly14"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly15"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly16"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly17"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly18"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly19"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly20"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly21"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly22"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly23"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly24"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly28"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly29"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly30"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly31"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly32"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly33"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly34"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly35"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly36"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly37"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly38"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly39"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly40"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly41"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly42"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly43"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly44"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly45"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly46"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly47"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly48"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly48"        Weight="4"/> <!--UPDATE5-->
+        <Entry Tag="PlanetAnomaly50"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly51"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly52"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly53"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly54"        Weight="4"/>
+        <Entry Tag="PlanetAnomaly55"        Weight="4"/>
+
+		<!-- Endless Moons -->
+		<!-- Cloaked Orbs weight="0" required to make curiosity version show up -->
+		<Entry Tag="CloakedOrb_I1_1"       			Weight="0"/> 
+		<Entry Tag="CloakedOrb_I2_1"       			Weight="0"/>
+		<Entry Tag="CloakedOrb_I3_1"       			Weight="0"/> 
+		<Entry Tag="CloakedOrb_D1_1"       			Weight="0"/> 
+		<Entry Tag="CloakedOrb_D2_1"       			Weight="0"/>
+		<Entry Tag="CloakedOrb_D3_1"       			Weight="0"/>
+		<Entry Tag="CloakedOrb_S1_1"       			Weight="0"/> 
+		<Entry Tag="CloakedOrb_S2_1"       			Weight="0"/> 
+		<Entry Tag="CloakedOrb_S3_1"       			Weight="0"/> 
+		<Entry Tag="CloakedOrb_FIDS1_1"       		Weight="0"/> 
+		<Entry Tag="CloakedOrb_FIDS2_1"       		Weight="0"/> 
+		<Entry Tag="CloakedOrb_FIDS3_1"       		Weight="0"/> 
+
+ 		<Entry Tag="Moon_SmSingA1"       			Weight="10"/> 
+        <Entry Tag="Moon_SmSingB1"       			Weight="10"/> 
+        <Entry Tag="Moon_SmSingE1"       			Weight="8"/> 
+        <Entry Tag="Moon_MdSingA1"       			Weight="11"/> 
+        <Entry Tag="Moon_MdSingE1"       			Weight="11"/>
+        <Entry Tag="Moon_MdSingF1"       			Weight="8"/> 
+        <Entry Tag="Moon_MdSingB1"       			Weight="2"/> 
+        <Entry Tag="Moon_LgSingA1"       			Weight="10"/> 
+        <Entry Tag="Moon_BinaryA1"        		    Weight="7"/>
+        <Entry Tag="Moon_BinaryB1"        		    Weight="7"/>
+        <Entry Tag="Moon_BinaryC1"        		    Weight="2"/>
+        <Entry Tag="Moon_LgBinaryA1"        		Weight="3"/>
+        <Entry Tag="Moon_LgBinaryB1"        	    Weight="3"/>
+        <Entry Tag="Moon_VolcanicA1"       			Weight="8"/>
+        <Entry Tag="Moon_VolcanicB1"       			Weight="8"/>
+        <Entry Tag="Moon_FrozenA1"       			Weight="8"/>
+        <Entry Tag="Moon_FrozenB1"       			Weight="8"/>
+        <Entry Tag="Moon_FrozenC1"       			Weight="2"/>
+		<Entry Tag="Moon_FertileA1"       			Weight="3"/> 
+		<Entry Tag="Moon_FertileB1"       			Weight="1"/> 
+		<Entry Tag="Moon_FertileC1"       			Weight="3"/> 
+		<Entry Tag="Moon_MultiA1"       			Weight="3"/>
+		<Entry Tag="Moon_MultiB1"       			Weight="2"/>
+		<Entry Tag="Moon_MultiC1"       			Weight="3"/>
+		<Entry Tag="Moon_MultiD1"       			Weight="3"/>
+						
+    </GalaxyGeneratorWeightTable>
+
+</Datatable>

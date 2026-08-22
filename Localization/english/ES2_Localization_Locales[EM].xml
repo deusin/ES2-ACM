@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
+
+<!-- Endless Moons 2.8.8 -->
+
+<!-- Debug -->
+  <LocalizationPair Name="TempleMoon">TEMPLE MOON</LocalizationPair> <!-- Temp title used to reveal moons that have temples -->
+  
+<!-- removes default mood appended tip - this saves space for descriptions -->
+  <LocalizationPair Name="%CategoryAnomalyQualityMoonDescription"> </LocalizationPair>
+
+ <!-- Base Moon Types-->
+	<LocalizationPair Name="%Moon_SmSing_Title">Small Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSing_Desc">A small moon orbits this planet from afar.
+It's too small to have much direct influence on the planet, but may still have valuable resources that can be exploited.
+#E3BDAC#Moons do not count as standard anomalies for gameplay purposes.#REVERT#</LocalizationPair>
+  
+	<LocalizationPair Name="%Moon_MdSing_Title">Medium Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSing_Desc">A typical sized moon orbits this planet and has enough mass to produce mild tidal forces.
+Astronomers and geologists report that this moon may be a good source of minerals and ore.
+#E3BDAC#Moons do not count as standard anomalies for gameplay purposes.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_LgSing_Title">Large Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgSing_Desc">The moon orbiting this planet is unusually large, and has had a number of interesting effects on the planet's development.
+More importantly, it promises to offer a wealth of resources for local industry, if properly developed.
+#E3BDAC#Moons do not count as standard anomalies for gameplay purposes.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Binary_Title">Binary Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_Binary_Desc">A pair of small moons orbit the planet, offering a number of applications to the local economy.
+With proper development, they can be quite useful to both bootstrap fledgling industry as well as support large-scale enterprises.
+#E3BDAC#Moons do not count as standard anomalies for gameplay purposes.#REVERT#
+#CC9600#Binary Moons count as 2 lunar anomalies.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_LgBinary_Title">Binary Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinary_Desc">This pair of moons is slightly larger than average, and have good potential to support a large industrial base, as well as providing a number of scientific opportunities.
+#E3BDAC#Moons do not count as standard anomalies for gameplay purposes.#REVERT#
+#CC9600#Binary Moons count as 2 lunar anomalies.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Volcanic_Title">Volcanic Moon [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_Volcanic_Desc">Whether due to frequent asteroid impacts or intense geological instability, the surface of this moon is a nightmare of volcanic activity.
+While hostile to colonization, it can be a great source of mineral wealth even without comprehensive scanning or exploration efforts.
+#E3BDAC#Moons do not count as standard anomalies for gameplay purposes.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Frozen_Title">Frozen Moon [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_Frozen_Desc">This small moon almost went unnoticed due to its rather distant orbit. Remarkably, it has a high concentration of normally liquid elements, but they are frozen solid due to near absolute zero temperatures.
+Advisors indicate the moon would make a good location for various research projects, and may even hold some mineral abundance.
+#E3BDAC#Moons do not count as standard anomalies for gameplay purposes.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Fertile_Title">Fertile Moon [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_Fertile_Desc">Quite a rare find, this moon is just large enough to have an atmosphere, and it has managed to develop a thriving ecosystem.
+With plenty of habitable space and arable land, this moon can eventually become home to millions of citizens.
+#E3BDAC#Moons do not count as standard anomalies for gameplay purposes.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_Multi_Title">Multiple Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_Multi_Desc">There are a number of moons in orbit around this planet, and they vary widely in size and composition.
+It's likely that a number of different resources will be available to aid the system, but detailed exploration missions will have to be undertaken to fully understand the lunar system environment.
+#E3BDAC#Moons do not count as standard anomalies for gameplay purposes.#REVERT#
+#CC9600#Multiple Moons count as 3 lunar anomalies.#REVERT#</LocalizationPair>
+
+
+<!-- Cloaked Orbs -->
+	<LocalizationPair Name="%CloakedOrb_Title">Celestial Orb [Politics]</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_Desc">For many years, scientists have noted the odd gravitational anomalies of this system, but could never pinpoint the cause. Finally, due to advanced scanners and anti-cloaking techniques, the culprit has been revealed:
+A massive cloaked structure distantly orbiting the planet.
+In essence, it's an ancient artificial moon. Vast swaths of dormant machinery encompass the surface, and colossal shafts already reveal a dazzling array of the inner workings.
+What functions this celestial orb served in the past are a great mystery, but it's clear this is an Endless construction of some kind.
+Researchers across the empire are already beginning to uncover many usable resources and technology, and this great watcher promises many secrets to uncover in the future.
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_I1_Title">[Politics]: Foundry</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_I1_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have been used for industrial refinement.
+Its low gravity is ideal manufacturing, and will provide a wealth of easily accessable ores and minerals for generations to come.
+Vast banks of machinery have been brought online and are already providing a significant boost to system industry, and many of these techniques use novel approaches to material processing.
+#52C9E7#Improvement: #FFFFFF#Industrial Luxury Processing#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_I2_Title">[Politics]: Shipyard</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_I2_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have been dedicated to starship production.
+Many gargantuan bays run through this artificial moon, and countless other ports litter the surface. Already, many construction areas have been brought online, ready to once again produce mighty fleets. Many areas are still habitable and now serve as a military base, complete with ship crew training facilities.
+Additionally, a number of innovative manufacturing techniques look appropriate for cold environments, and this knowledge can be immediately exported.
+#52C9E7#Improvement: #FFFFFF#Low-temperature Manufacturing#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_I3_Title">[Politics]: Manufactory</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_I3_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have been used for general industrial production.
+Miles of machine banks and robotic assembly lines have been found for almost every task imaginable. In addition, teams have found ways to restore many periphery systems, and a number of these systems and industrial improvements can be transfered and used in other celestial orbs.
+#52C9E7#Improvement: #FFFFFF#Celestial Orb Industrial Upgrade#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+
+	<LocalizationPair Name="%CloakedOrb_D1_Title">[Politics]: Vault</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_D1_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have been used to process and store unimaginable quantities of dust.
+While the vaults are mostly empty, it should be understood that there are still massive amounts that can be extracted and used to supplement systems across the empire. Not only that, but many of the supporting facilities and refineries are still working, leading to significant dust gains in the local system.
+A number of vaults also look to hold various results of exotic treatments of strategic resources. Techniques here have found surprising uses for these materials that could lead to quality of life improvements across the empire.
+#52C9E7#Improvement: #FFFFFF#Exotic Resource Processing#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_D2_Title">[Politics]: Trade Hub</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_D2_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have been a great center for galactic trade.
+Endless malls and forums are found throughout the structure, as well as vast supporting areas dedicated to storage, transport, and travel lodging.
+All this pre-existing infrastructure has even enabled whole new trading industries to spring up almost overnight, and technologies here have also been adapted to enable greater access to the most extreme environments of various planets.
+#52C9E7#Improvement: #FFFFFF#Extreme Tourism Agency#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_D3_Title">[Politics]: Dust Institute</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_D3_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have been built to analyze galactic markets and financial systems.
+Whole economies seem to have been modeled in an ever-changing environment for automated study, and much of this vast computing power can be put to other empire uses.
+Many of these market systems can be realized here, and in other orbs, should the necessary investments be made.
+#52C9E7#Improvement: #FFFFFF#Celestial Orb Financial Upgrade#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+
+	<LocalizationPair Name="%CloakedOrb_S1_Title">[Politics]: Archive</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_S1_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have been a massive repository of knowledge.
+While much of the data here is currently indecipherable, there are many new techniques and insights being discovered on a nearly daily basis. Some of these insights are already advancing the pace of research in the pure sciences.
+Also of note, are various techniques regarding the study of high-temperature worlds, and those with active geologies.
+#52C9E7#Improvement: #FFFFFF#Radiological Geology#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_S2_Title">[Politics]: Processing Array</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_S2_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to be a massive computing array.
+Much of the orb appears to be still functional, with immediate use for empire processing needs. While much of this great structure may never be fully explored, no-one can deny its utility, despite its age.
+Among the various databanks are designs for automated probes, and the advanced control algorithms to coordinate them within the environments of gas planets. These drones allow for robust and ongoing study of gas giants.
+#52C9E7#Improvement: #FFFFFF#Gas Giant Drones#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_S3_Title">[Politics]: Research Center</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_S3_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have been a central research laboratory.
+Countless automated experiments look to have been run here, and aside from a fractional minority of ongoing studies, the systems are largely defunct. That said, the data contained within this fantastical structure has the possibility to revolutionize contemporary science.
+Vast sensor arrays are still intact, and many experimental areas can be brought back online, tasked to now work for your empire.
+#52C9E7#Improvement: #FFFFFF#Celestial Orb Research Upgrade#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+
+	<LocalizationPair Name="%CloakedOrb_FIDS1_Title">[Politics]: Trove</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_FIDS1_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have machines for every purpose.
+While much of the wondrous equipment has been non-functional for untold generations, teams area already bringing various areas back to life.
+The varied nature and purpose of these systems seem to have applications for every area of empire life. Gains have been realized across the board.
+Additionally, there are plans for an ultra-compact advanced scout module, and sensitive long-range surveillance equipment.
+#52C9E7#Support Module: #FFFFFF#Scout Module#REVERT#
+#52C9E7#Support Module: #FFFFFF#Long-range Scanner#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+ 	<LocalizationPair Name="%CloakedOrb_FIDS2_Title">[Politics]: Frameworks</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_FIDS2_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to hold myriad systems for large-scale logistical support.
+The industrial scale of these operations lend themselves to be suited for any purpose the empire needs. And vast maintenance and control infrastructure can be utilized to support more behemoth operations.
+As a bonus, many key areas of the logistic drone network have led to insight on harvesting the bounty of gas giants.
+#52C9E7#Specialization: #FFFFFF#Gas Giant Exploitation#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+	<LocalizationPair Name="%CloakedOrb_FIDS3_Title">[Politics]: Megalopolis</LocalizationPair>
+	<LocalizationPair Name="%CloakedOrb_FIDS3_Desc">Once cloaked and hidden from the galaxy, this ancient celestial orb appears to have been mainly used for residential purposes.
+The fact that this massive orb was designed to be self-sufficient, means its processes can be utilized across the system for nearly every application, and this has increased the general system welfare dramatically.
+Areas are readily habitable now, and many of the dwelling architecture shows how these techniques could be adapted to other orbs.
+#52C9E7#Improvement: #FFFFFF#Celestial Orb Colonization#REVERT#
+#CC9600#Celestial Orbs count as both a lunar anomaly and a standard anomaly.#REVERT#</LocalizationPair>
+
+
+<!-- Moons -->
+	<LocalizationPair Name="%Moon_SmSingA2_Title">1 Explored Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingA2_Desc">Small Moon:
+This small moon has been fully explored, but has relatively little to offer in the way of resources. Survey reports state that it's unlikely to ever be of much value to system or planetary development. 
+Still, it offers an occasional distraction for those wanting to, "get away from it all."</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingA3_Title">1 Developed Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingA3_Desc">Small Moon:
+Increasing numbers of citizens traveling and making their residence here has led to more development of this moon.
+Though it will naver be an industrial hub, several specialized industries have sprung up to cater to the local system economy.</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_SmSingB2_Title">1 Explored Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingB2_Desc">Small Moon:
+Surveyors report that this small moon has a surprisingly high concentration of ores and other materials that will make a good source of resources for industrial development. 
+Perhaps with improved mining techniques, even more value could be had.</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingB3_Title">1 Developed Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingB3_Desc">Small Moon:
+Now fully developed, this once overlooked moon has become a major hub for industrial projects across the system thanks to abundant ores deep underground, including many rare silicates used in a variety of applications.</LocalizationPair>
+
+	<LocalizationPair Name="%Moon_SmSingE2_Title">1 Explored Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingE2_Desc">Small Moon:
+Exploration of this moon has discovered that, despite its small size, is has a number of areas ripe for exploitation, including some dust-rich craters. And researchers have already begun to plot prime areas for study.  </LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingE3_Title">1 Developed Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_SmSingE3_Desc">Small Moon:
+Due to generous funding and development, this small moon is contributing greatly to the system economy in a number of areas.
+Once thought to be too little to be of much interest, it has become quite an attractive destination for lunar tourists.</LocalizationPair>
+ 
+ 
+ 	<LocalizationPair Name="%Moon_MdSingA2_Title">1 Explored Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingA2_Desc">Medium Moon:
+Now that the major areas of the moon have been analyzed and charted, local planetary industries have begun to effectively tap into its mineral resources.
+With further investment in lunar development, industries across the system can benefit greatly.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_MdSingA3_Title">1 Developed Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingA3_Desc">Medium Moon:
+Aided by development and prospecting grants, lunar operations here have grown to an impressive size, greatly contributing to system industry and sciences, and will do so for generations to come.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MdSingB2_Title">1 Explored Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingB2_Desc">Medium Moon:
+Almost immediately after beginning to catalog this moon's various features, large concentrations of dust deposits were discovered lying just beneath the surface. Upon further analysis, it was also noted that most of the minerals are unsuited for large scale industry.
+While perhaps not a part of the original development plan, the more unusual features will be a welcome addition to trade and science.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_MdSingB3_Title">1 Developed Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingB3_Desc">Medium Moon:
+Owing to this moon's unusual dust concentrations, science and trade industries are now fully realizing the potential of this once ordinary looking moon.
+It now even sports a small, but popular, tourist industry. One that features weekend getaways for enthusiasts to "mine" for raw dust.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MdSingE2_Title">1 Explored Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingE2_Desc">Medium Moon:
+Surface scans have identified many areas of mineral concentrations, and somewhat unexpectedly, this moon is has numerous research opportunities due to unusual geological properties.
+Further development can realize gains in sciences as well as industry.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_MdSingE3_Title">1 Developed Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingE3_Desc">Medium Moon:
+After focused investment, this moon is now a well-established hub for material sciences and mineral extraction.
+As the system grows, expect this developed moon to scale operations to meet demand.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MdSingF2_Title">1 Explored Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingF2_Desc">Medium Moon:
+Detailed analysis on this moon has revealed it to be relatively diverse, offering a wealth of opportunity for all manner of industry, science, dust extraction, and even some exotic edibles.
+Development here can yield returns in a range of economic areas.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_MdSingF3_Title">1 Developed Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_MdSingF3_Desc">Medium Moon:
+Now hosting a bustling economy, this moon offeres a dazzling array of activities and opportunities, and its versatility attracts visitors from all parts of the empire.</LocalizationPair>
+
+
+ 	<LocalizationPair Name="%Moon_LgSingA2_Title">1 Explored Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgSingA2_Desc">Large Moon:
+Mining and industrial corporations were quick to bid on development rights even before full lunar explorations were commissioned. And it is now obvious to even the most die-hard hold-outs that this large moon holds much raw industrial potential.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_LgSingA3_Title">1 Developed Moon</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgSingA3_Desc">Large Moon:
+It is one thing to plan and anticipate long-term development, and quite another to finally realize that potential. As expected, this massive moon single-handedly drives large-scale industry across the system.
+Once mostly dedicated to mining operations, it now hosts sprawling lunar cities across and under the terrain, with amenities to attract the best and brightest industrialists from across the empire.</LocalizationPair>
+
+  
+ 	<LocalizationPair Name="%Moon_BinaryA2_Title">2 Explored Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryA2_Desc">Binary Moons:
+Even though individually small, together these moons are a plentiful source of easily accessable ores and minerals.
+Once fully developed, they will prove to be quite valuable to all manner of industrial projects.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_BinaryA3_Title">2 Developed Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryA3_Desc">Binary Moons:
+Due to the ease of mineral extraction, it was only natural for all manner of industry and manufacturing to spring up in the system.
+Now widely colonized, these twin moons are prime locations for large construction projects.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_BinaryB2_Title">2 Explored Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryB2_Desc">Binary Moons:
+Owing to their small size, stable orbits, and pristine landscapes, this pair of moons has excellent scientific potential.
+With some industrial development, they could also provide a rich source of minerals in the future.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_BinaryB3_Title">2 Developed Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryB3_Desc">Binary Moons:
+Once a few high-profile research projects made the original lunar science stations famous, it was only a matter of time before large research cities sprung up everywhere.
+Now these binary moons are known for top-quality university research and inexpensive mineral extraction.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_BinaryC2_Title">2 Explored Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryC2_Desc">Binary Moons:
+While it was expected that valuable minerals would be found on these moons, it took cartographers by surprise to find rich dust deposits on the smaller of the two.
+Additional funding and development can realize high profit margins, should efforts be focused in this area.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_BinaryC3_Title">2 Developed Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_BinaryC3_Desc">Binary Moons:
+At one time, these moons seemed rather ordinary. Now however, they are well known industrial trade hubs due to the miles of dust-rich veins throughout the regolith.
+No imperial project in the system is planned without consideration of lunar logistics opportunities.</LocalizationPair>
+	
+	
+	<LocalizationPair Name="%Moon_LgBinaryA2_Title">2 Explored Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinaryA2_Desc">Large Binary Moons:
+Though roughly the same size, these moons have vastly different geological characteristics.
+This will provide for many areas of study, as well as a rich source of ores and rare materials.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_LgBinaryA3_Title">2 Developed Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinaryA3_Desc">Large Binary Moons.
+Even after serious industrial crust-stripping, the mineral wealth on these moons shows no sigh of waning.
+More and more corporate operations have relocated to the area, and now the orbiting bodies have become permanet homes to millions.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_LgBinaryB2_Title">2 Explored Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinaryB2_Desc">Large Binary Moons:
+Exploration reports have now confirmed that in addition to mineral wealth, these moons also have numerous archaeological ruins scattered around the surface.
+While this is indeed fantastic news, already corporate lawyers are arguing about which areas should be allocated to industry, and which for research. </LocalizationPair>
+ 	<LocalizationPair Name="%Moon_LgBinaryB3_Title">2 Developed Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_LgBinaryB3_Desc">Large Binary Moons:
+Due to the ceaseless squabbling over land rights, government intervention was eventually required - lest everything grind to a halt.
+Even though neither the science nor industrial trades could agree on territory, government contracts and grant money placated enough of the top brass on either side, that large scale development could finally begin in earnest.
+Nowadays, one would hardly believe the tumultuous political history of the lunar colonies.</LocalizationPair>
+
+
+ 	<LocalizationPair Name="%Moon_VolcanicA2_Title">1 Explored Moon [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_VolcanicA2_Desc">Volcanic Moon:
+Now that extensive composition analyses have been completed, more intensive efforts can be made to harvest the raw production potential of this active moon.
+Industries around the system are expected to see a marked increase in productivity.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_VolcanicA3_Title">1 Developed Moon [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_VolcanicA3_Desc">Volcanic Moon:
+Using the latest techniques in near-indestructible construction and fabrication, many facilities have been able to drastically increase the efficiency and yields of their operations.
+Even with the increased activity, safety records (for the area) have never been better, and "Dynamic Environment Mining" jobs have never been more popular.</LocalizationPair>
+  
+ 	<LocalizationPair Name="%Moon_VolcanicB2_Title">1 Explored Moon [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_VolcanicB2_Desc">Volcanic Moon:
+Further analysis has revealed many dust-rich mineral areas, and has also identified the most efficient and reasonably safe places for ore extraction.
+Though conditions on the moon are harsh and still relatively dangerous, this hazardous work pays quite well, and the system is benefiting greatly from the increased production capacity.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_VolcanicB3_Title">1 Developed Moon [TemperatureHot]</LocalizationPair>
+	<LocalizationPair Name="%Moon_VolcanicB3_Desc">Volcanic Moon:
+Using the latest techniques in near-indestructible construction fabrication, many facilities have been able to drastically increase the efficiency and yields of their operations.
+Even with the increased activity, safety records (for the area) have never been better, and "Dynamic Environment Mining" jobs have never been more popular.</LocalizationPair>
+
+
+ 	<LocalizationPair Name="%Moon_FrozenA2_Title">1 Explored Moon [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenA2_Desc">Frozen Moon:
+After much cataloging and analyzing of various datasets, mapping teams have come to a somewhat disappointing conclusion.
+While, yes, this distant moon has some measure of value, it is far less than initially expected. There just doesn't seem to be much long-term potential here.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_FrozenA3_Title">1 Developed Moon [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenA3_Desc">Frozen Moon:
+Despite this frozen moon's small size, researchers and colonists continue to travel here. Modest investment over the years has contributed to the development of this research haven.
+While it will never be a major player in the sciences or as a tourist hot-spot, this moon is still a local favorite as a travel destination.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FrozenB2_Title">1 Explored Moon [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenB2_Desc">Frozen Moon:
+Initial estimates were correct in their suggestion that the icy moon would make an excellent research base and galactic observatory.
+Already, serious investment has begun in building extensive scientific infrastructure, and this development has been aided by local mineral deposits.
+With continued developmental support, this tiny moon could become quite significant in various fields of scientific advancement.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_FrozenB3_Title">1 Developed Moon [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenB3_Desc">Frozen Moon:
+With funding levels at an all-time high, no research project has gone for want. And this has led to countless breakthroughs in several prominent fields of study. This success, in turn, has led to even more investment and development.
+Now this moon stands as a major focal point for science, with sprawling communities, and extensive supporting industry and infrastructure.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FrozenC2_Title">1 Explored Moon [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenC2_Desc">Frozen Moon:
+It was originally assumed that this moon would be ideal for certain types of science, but be otherwise unremarkable.
+However, analysis teams have discovered that most of the structural ores and minerals are infused with concentrations of dust. Extraction is proving to be somewhat challenging on larger scales, but it's clear there is much value to be had.
+On the down side, the infused ores seem to be fairly useless for industrial purposes.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_FrozenC3_Title">1 Developed Moon [TemperatureCold]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FrozenC3_Desc">Frozen Moon:
+Now with large-scale extraction, processing, and refinement infrastructure in place around the moon, dust deposits are finally being worked in scalable quantities.
+Additionally, there's been heavy investment into the various research camps, and now those industries too, are thriving on this once unremarkable moon. </LocalizationPair>
+
+  
+ 	<LocalizationPair Name="%Moon_FertileA2_Title">1 Explored Moon [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileA2_Desc">Fertile Moon:
+The ease of maintaining settlements and gathering resources on this habitable moon is a major bonus to the planetary economy. Abundant nutrients in the soil make for excellent crop yields, and low lunar gravity makes for efficient mining.
+Expect to see more migration and development in the years to come.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_FertileA3_Title">1 Developed Moon [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileA3_Desc">Fertile Moon:
+It's no surprise that the rich lunar lands have attracted millions of new residents over the years. The moon provides a pleasant environment, and the extensive farmlands provide wide open spaces free of city congestion.
+While recent urbanization projects have sprung up due to the growing economy and demand for housing, much of the lunar land is reserved for crops by law.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FertileB2_Title">1 Explored Moon [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileB2_Desc">Fertile Moon:
+While the air on this moon is a little thiner than what would be ideal for farming, no one is really complaining either. It turns out that the land is suprisingly rich with micro dust particles, and it does have its own varieties of fungal crops that have adapted well.
+It's true that the moon is a bit mineral-poor, but the low gravity means importing raw materials is greatly simplified. </LocalizationPair>
+ 	<LocalizationPair Name="%Moon_FertileB3_Title">1 Developed Moon [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileB3_Desc">Fertile Moon:
+With a little encouragement from government contracts, the fungus farms have done quite well at providing readily packageable nutrient-rich food sources used in military rations.
+Now boasting a booming economy, and plenty of dust-infused lands, immigration shows no sign of slowing.
+The robust infrastructure development initially designed to scale the farms has allowed new cities to spring up seemingly overnight.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_FertileC2_Title">1 Explored Moon [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileC2_Desc">Fertile Moon:
+More careful study of this moon's unique ecology has revealed a treasure trove of untamed plants, wildlife, and microscopic organisms.
+Minerals are readily available, crop plants thrive, and there are endless opportunities for biological study. It seems this moon has a little bit for everybody.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_FertileC3_Title">1 Developed Moon [Rich]</LocalizationPair>
+	<LocalizationPair Name="%Moon_FertileC3_Desc">Fertile Moon:
+With so many economic opportunities and a strong travel industry, this fertile moon's future always looked bright. Though large portions of the surface are dedicated to farmland, some of the urban centers are beginning to rival major cities on much larger worlds.
+The popularity and steady growth of the moon have economists projecting unbelievable returns in the decades to come.</LocalizationPair>
+
+
+ 	<LocalizationPair Name="%Moon_MultiA2_Title">3 Explored Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiA2_Desc">Multiple Moons:
+Initial survey results, as well as the more detailed studies, have revealed that nearly all of these moons have heavy concentrations of useful ore and minerals. Much more than was initially expected, really.
+As an added bonus, one of the moons even supports some unusual fungal growth that is readily edible.
+Investing in long-term growth here will payback large dividends in productivity, and the industrialists in the empire are more than happy to get the ball rolling.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_MultiA3_Title">3 Developed Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiA3_Desc">Multiple Moons:
+There were so many opportunities for mining rights, mineral processing, smelting, and refining, that a whole generation of entrepreneurs became obscenely wealthy.
+Now fully developed, this network of industrialization supports a whole system of various trades, and will only continue to improve.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiB2_Title">3 Explored Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiB2_Desc">Multiple Moons:
+Specialized analysis of the orbiting moons has revealed many opportunities for industry, and this was expected. What wasn't expected, was the realitively high abundance of some of the rarer elements critical in many high-tech applications.
+These deposits are already contributing greatly to the dust value of the system. With further development in infrastructure and manpower, these sites can be scaled up for even better yields.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_MultiB3_Title">3 Developed Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiB3_Desc">Multiple Moons:
+Increased access to rare lunar elements have given rise to many new industries, and it was only natural to continue to increase extraction and processing to meet the new demand.
+Now, the lunar bases and networks have become complete cities in their own right, comprising its own ecosystem and even requiring special "economic zones" with their own sets of laws and regulations.
+While this complicates the bureaucracy, no one can deny the yields the industry produces as a whole.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiC2_Title">3 Explored Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiC2_Desc">Multiple Moons:
+The moons of this system have been studied, and they reveal great diversity from minerals, to archaeology, to even a thin pseudo-atmosphere on one of the moons being maintained by equatorial geysers.
+There are a wealth of opportunities to exploit, should the necessary investments be made, that can benefit new and old economies alike.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_MultiC3_Title">3 Developed Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiC3_Desc">Multiple Moons:
+Lunar transit and freight services are booming. And it's no wonder, with all the diverse industries that have built up.
+Each moon has multiple areas of interest, and they all actively network to take advantage the best deals and opportunities in an exceptionally fast-paced market.</LocalizationPair>
+
+ 	<LocalizationPair Name="%Moon_MultiD2_Title">3 Explored Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiD2_Desc">Multiple Moons:
+Cartography scans indicate a number of opportunities for advanced sciences amongst the moons. There's also plenty of ore abundance, but the real selling point in the lunar system is the potential for research.
+Coordinating the heavy industries to bootstrap science colonies will be key to the area's long-term growth.</LocalizationPair>
+ 	<LocalizationPair Name="%Moon_MultiD3_Title">3 Developed Moons</LocalizationPair>
+	<LocalizationPair Name="%Moon_MultiD3_Desc">Multiple Moons:
+Now that the various lunar economies are fully integrated, science and industry progress at a breakneck pace.
+Colony efforts have come to fruition, and the most prestigious university campuses in the system are right here amongst the moons.
+These moons have truly become a textbook success story of parallel economic planning and development.</LocalizationPair>
+
+  
+<!-- Discovered Temples -->
+  <LocalizationPair Name="%Moon_MoonTemple_Title">Moon Temple [X]</LocalizationPair>
+  <LocalizationPair Name="%Moon_MoonTemple_SmSing_Desc">Small Moon:
+The discovery of a hidden and well-preserved Endless facility on this unlikely moon has gripped the imagination of sentient beings from every corner of your empire. 
+The general populace has taken a veritable reverent attitude with regard to the installation, and it has become to be colloquially known as an "Endless Moon Temple." 
+Perhaps with extensive study, the secrets of this massive complex can be revealed. And maybe even someday the ancient machinery can be coaxed back to life.
+One thing is certain, however - scientists across the empire will have much to keep them busy for decades to come.</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MoonTemple_MdSing_Desc">Medium Moon:
+The discovery of a hidden and well-preserved Endless facility on this unlikely moon has gripped the imagination of sentient beings from every corner of your empire. 
+The general populace has taken a veritable reverent attitude with regard to the installation, and it has become to be colloquially known as an "Endless Moon Temple." 
+Perhaps with extensive study, the secrets of this massive complex can be revealed. And maybe even someday the ancient machinery can be coaxed back to life.
+One thing is certain, however - scientists across the empire will have much to keep them busy for decades to come.</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MoonTemple_LgSing_Desc">Large Moon:
+The discovery of a hidden and well-preserved Endless facility on this unlikely moon has gripped the imagination of sentient beings from every corner of your empire. 
+The general populace has taken a veritable reverent attitude with regard to the installation, and it has become to be colloquially known as an "Endless Moon Temple." 
+Perhaps with extensive study, the secrets of this massive complex can be revealed. And maybe even someday the ancient machinery can be coaxed back to life.
+One thing is certain, however - scientists across the empire will have much to keep them busy for decades to come.</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MoonTemple_Binary_Desc">Binary Moons:
+The discovery of a hidden and well-preserved Endless facility on this unlikely moon has gripped the imagination of sentient beings from every corner of your empire. 
+The general populace has taken a veritable reverent attitude with regard to the installation, and it has become to be colloquially known as an "Endless Moon Temple." 
+Perhaps with extensive study, the secrets of this massive complex can be revealed. And maybe even someday the ancient machinery can be coaxed back to life.
+One thing is certain, however - scientists across the empire will have much to keep them busy for decades to come.</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MoonTemple_LgBinary_Desc">Large Binary Moons:
+The discovery of a hidden and well-preserved Endless facility on this unlikely moon has gripped the imagination of sentient beings from every corner of your empire. 
+The general populace has taken a veritable reverent attitude with regard to the installation, and it has become to be colloquially known as an "Endless Moon Temple." 
+Perhaps with extensive study, the secrets of this massive complex can be revealed. And maybe even someday the ancient machinery can be coaxed back to life.
+One thing is certain, however - scientists across the empire will have much to keep them busy for decades to come.</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MoonTemple_Volcanic_Desc">Volcanic Moon:
+The discovery of a hidden and well-preserved Endless facility on this unlikely moon has gripped the imagination of sentient beings from every corner of your empire. 
+The general populace has taken a veritable reverent attitude with regard to the installation, and it has become to be colloquially known as an "Endless Moon Temple." 
+Perhaps with extensive study, the secrets of this massive complex can be revealed. And maybe even someday the ancient machinery can be coaxed back to life.
+One thing is certain, however - scientists across the empire will have much to keep them busy for decades to come.</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MoonTemple_Frozen_Desc">Frozen Moon:
+The discovery of a hidden and well-preserved Endless facility on this unlikely moon has gripped the imagination of sentient beings from every corner of your empire. 
+The general populace has taken a veritable reverent attitude with regard to the installation, and it has become to be colloquially known as an "Endless Moon Temple." 
+Perhaps with extensive study, the secrets of this massive complex can be revealed. And maybe even someday the ancient machinery can be coaxed back to life.
+One thing is certain, however - scientists across the empire will have much to keep them busy for decades to come.</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MoonTemple_Fertile_Desc">Fertile Moon:
+The discovery of a hidden and well-preserved Endless facility on this unlikely moon has gripped the imagination of sentient beings from every corner of your empire. 
+The general populace has taken a veritable reverent attitude with regard to the installation, and it has become to be colloquially known as an "Endless Moon Temple." 
+Perhaps with extensive study, the secrets of this massive complex can be revealed. And maybe even someday the ancient machinery can be coaxed back to life.
+One thing is certain, however - scientists across the empire will have much to keep them busy for decades to come.</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MoonTemple_Multi_Desc">Multiple Moons:
+The discovery of a hidden and well-preserved Endless facility on this unlikely moon has gripped the imagination of sentient beings from every corner of your empire. 
+The general populace has taken a veritable reverent attitude with regard to the installation, and it has become to be colloquially known as an "Endless Moon Temple." 
+Perhaps with extensive study, the secrets of this massive complex can be revealed. And maybe even someday the ancient machinery can be coaxed back to life.
+One thing is certain, however - scientists across the empire will have much to keep them busy for decades to come.</LocalizationPair>
+
+
+<!-- Restored Temples -->
+  <LocalizationPair Name="%Moon_SmSingC3_TA_Title">[X]: Deep Mind</LocalizationPair>
+  <LocalizationPair Name="%Moon_SmSingC3_TA_Desc">Small Moon - Restored Temple:
+By collaborating with beings from across the galaxy, your top scientists have managed to restore some measure of operation to this once lifeless facility, and have tapped its vast computing power to provide additional bandwith for the empire.
+While scholars continue to debate the original function of the complex, it seems that the ancient machine AI has been calculating. It has garnered new insights into past discoveries, and has already found efficient ways to move money on the galactic markets. 
+Additionally, it has come up with novel ideas to old problems mired in bureaucracy and history, and applying these techniques to anthropology has revitalized the study of lost ancient cultures.
+With additional study, more of the byzantine functions of the temple could be unleashed on the various cultural problems of the day.
+#52C9E7#Improvement: #FFFFFF#Historical Enclaves#REVERT# (Requires an anomaly of an ancient civilization.)</LocalizationPair>
+  <LocalizationPair Name="%Moon_SmSingC4_TA_Title">[X]: Deep Mind</LocalizationPair>
+  <LocalizationPair Name="%Moon_SmSingC4_TA_Desc">Small Moon - Restored and Upgraded Temple:
+Now that more temple processes have been restored, the complicated AI mind of the temple has been able to continuously address cultural issues across a broad swath of subjects.
+Temple data science techniques have so constantly revealed novel ways to address issues, that a veritable social revolution has been taking place in the empire.
+New ways of leveraging enclave research has also produced more effective ways to study the remains of Endless technology, and the higher temple functions have opened sub-space data channels to existing enclaves. Continuous processing of this enclave data has led to various tangible gains across the system.
+#52C9E7#Improvement: #FFFFFF#Historical Enclaves#REVERT# (Requires an anomaly of an ancient civilization.)
+#52C9E7#Improvement: #FFFFFF#Endless Enclaves#REVERT# (Requires an anomaly of the Endless.)</LocalizationPair>
+<!-- Historical:
+Pre-galactic Architecture, Dust Ruins, Ancient Ruins, Deserted Cities, Humeris Insidentes, Husk of Knowledge, The Fallen Gardens, Seventeen Thousand Islands Bridges, Platform of Ys, MoonTemple, Celestial Orb -->
+<!-- Endless:
+Dust Ruins, Dust Lode, Cyber Flora, Microfactories, Husk of Knowledge, Spotora's Sanctum, Seventeen Thousand Islands Bridges, Platform of Ys, MoonTemple, Celestial Orb -->
+
+  <LocalizationPair Name="%Moon_MdSingC3_TB_Title">[X]: Data Symphony</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingC3_TB_Desc">Medium Moon - Restored Temple:
+Right from the start, it was clear that this was once a great hall of economic study, dealing with the intricacies of galactic commerce.
+Vast mechanical mechanisms paired with quantum computing arrays combine to simulate billions of entities and factors at play, and this raw processing power can also be utilized to augment your empire's hacking capabilities.
+Once it was fed current data of the galactic economy, it went to work producing results that surprised everyone.
+But there is still much to uncover in this temple, such as additional economic study, and another area looks to be dedicated to the study of galactic resources.
+With the right technology and research, additional areas of this sprawling complex can be restored.</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingC4_E_TB_Title">[X]: Data Symphony</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingC4_E_TB_Desc">Medium Moon - Restored and Partially Upgraded Temple:
+Now that additional computing resources have been restored, current macroeconomics are undergoing a bit of a renaissance using the latest theories revealed by the complex models.
+This has allowed more trading companies to thrive in the empire.
+Perhaps it is time to allocate work to restoring the dormant science areas of the temple.</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingC4_S_TB_Title">[X]: Data Symphony</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingC4_S_TB_Desc">Medium Moon - Restored and Partially Upgraded Temple:
+Now that the research wings have been restored, the work once done here seems to involve ways of using exotic theories to automatically process and study the important resources of the galaxy. And this knowledge will allow the construction of specialized labs around your empire.
+There is still plenty of work to be done restoring this temple in the economic computing wings.
+#52C9E7#Improvement: #FFFFFF#Exotic Research Labs#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingC5_ES_TB_Title">[X]: Data Symphony</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingC5_ES_TB_Desc">Medium Moon - Restored and Upgraded Temple:
+Once, many areas of this temple were unexplored and contained many mysteries.
+Now, much more is understood, and your empire has seen great technological strides in the study of economics, allowing more trading companies to thrive. And the restored research wings have revealed designs that enable the automatic study of the important resources in the galaxy.
+#52C9E7#Improvement: #FFFFFF#Exotic Research Labs#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_BinaryD3_TC_Title">[X]: Watchmaker [IndustryColored]</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD3_TC_Desc">Binary Moons - Restored Temple:
+It looks to be a vast ancient factory of sorts. Its mechanisms seem to run frighteningly deep throughout the lunar mass, and even experts have more questions than answers as to how the design of this alien structure really works.
+But it's clear that it doesn't just have one function. Unbelievably, the machines can alter their configuration - and it still works. Though the process does take some time.
+#FFFFFF#Currently, this facility is configured for industrial applications.#REVERT#
+#52C9E7#Improvement: #FFFFFF#Watchmaker Child Facility#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD4_TC_Title">[X]: Watchmaker [ScienceColored]</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD4_TC_Desc">Binary Moons - Restored Temple:
+It looks to be a vast ancient laboratory of sorts. Its mechanisms seem to run frighteningly deep throughout the lunar mass, and even experts have more questions than answers as to how the design of this alien structure really works.
+But it's clear that it doesn't just have one function. Unbelievably, the machines can alter their configuration - and it still works. Though the process does take some time.
+#FFFFFF#Currently, this facility is configured for scientific applications.#REVERT#
+#52C9E7#Improvement: #FFFFFF#Watchmaker Child Facility#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD5_TC_Title">[X]: Watchmaker #FFFFFF#[TradeEfficiency]#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD5_TC_Desc">Binary Moons - Restored Temple:
+It looks to be a vast ancient laboratory of sorts. Its mechanisms seem to run frighteningly deep throughout the lunar mass, and even experts have more questions than answers as to how the design of this alien structure really works.
+But it's clear that it doesn't just have one function. Unbelievably, the machines can alter their configuration - and it still works. Though the process does take some time.
+#FFFFFF#Currently, this facility is configured to export science and production to Watchmaker Child Facilities.#REVERT#
+#52C9E7#Improvement: #FFFFFF#Watchmaker Child Facility#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_BinaryD6_TC_Title">[X]: Watchmaker [IndustryColored]</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD6_TC_Desc">Binary Moons - Upgraded Temple:
+Due to extensive investment in restoration and temple study, some progress has been made to improving the varied and miraculous temple functions.
+As before, this temple can be reconfigured to focus on different tasks. This process still takes some time, but results are now amplified.
+#FFFFFF#Currently, the facility is configured for industrial applications.#REVERT#
+#52C9E7#Improvement: #FFFFFF#Watchmaker Child Facility#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD7_TC_Title">[X]: Watchmaker [ScienceColored]</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD7_TC_Desc">Binary Moons - Upgraded Temple:
+Due to extensive investment in restoration and temple study, some progress has been made to improving the varied and miraculous temple functions.
+As before, this temple can be reconfigured to focus on different tasks. This process still takes some time, but results are now amplified.
+#FFFFFF#Currently, the facility is configured for scientific applications.#REVERT#
+#52C9E7#Improvement: #FFFFFF#Watchmaker Child Facility#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD8_TC_Title">[X]: Watchmaker #FFFFFF#[TradeEfficiency]#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_BinaryD8_TC_Desc">Binary Moons - Upgraded Temple:
+Due to extensive investment in restoration and temple study, some progress has been made to improving the varied and miraculous temple functions.
+As before, this temple can be reconfigured to focus on different tasks. This process still takes some time, but results are now amplified.
+#FFFFFF#Currently, the facility is configured to export science and production to Watchmaker Child Facilities.#REVERT#
+#52C9E7#Improvement: #FFFFFF#Watchmaker Child Facility#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_LgBinaryC3_TD_Title">[X]: Titan Wind</LocalizationPair>
+  <LocalizationPair Name="%Moon_LgBinaryC3_TD_Desc">Binary Moons - Restored Temple:
+After intensive study and effort, many discoveries have been made with regard to these sprawling networks of tunnels and mysterious facilities.
+Glorious columns of alien machinery now effortlessly extract ore and minerals from the lunar core. And in other sections, vast underground domes manufacture transportable nutrient pods.
+No one is really sure of all the science behind it, but dedicated research teams have learned a trick or two about the underground warp-displacement logistic tunnels, and improved travel techniques are already being disseminated throughout the empire.
+Also found within the databases, are plans for constructing giant dust-harvesting structures designed to skim the outer layers of gas giants.
+With more study, benefits from temple operations could be increased.
+#52C9E7#Improvement: #FFFFFF#Gas Giant Harvesters#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_LgBinaryC4_TD_Title">[X]: Titan Wind</LocalizationPair>
+  <LocalizationPair Name="%Moon_LgBinaryC4_TD_Desc">Binary Moons - Restored and Upgraded Temple:
+After much diligent study, temple operations have indeed been increased, granting increased food and productivity. In addition, warp travel physicists have further managed to increase starship travel speed.
+As more of the endless tunnels were charted and explored, other sub-temple facilities were discovered deep underground.
+Some of these areas were dedicated to the study of planet terraforming, and had enough finished plans to work out techniques to repair the depletion of planets caused by Craver over-exploitation.
+#52C9E7#Improvement: #FFFFFF#Gas Giant Harvesters#REVERT#
+#52C9E7#Improvement: #FFFFFF#Restoration Drones#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_VolcanicC3_TE_Title">[X]: Hunter's Reach</LocalizationPair>
+  <LocalizationPair Name="%Moon_VolcanicC3_TE_Desc">Volcanic Moon - Restored Temple:
+While much of the temple remains to be explored, this was clearly a military installation of sorts.
+Already, your generals have begun to utilize the temple as a base for advanced army operations, and small specialized shipyard manufactories have been brought on-line.
+Reports from the restoration teams have also identified additional sections that could be dedicated to the construction of starships and exotic research into planetary warfare.
+However, these areas will require much effort into their restoration to realize their potential.</LocalizationPair>
+  <LocalizationPair Name="%Moon_VolcanicC4_S_TE_Title">[X]: Hunter's Reach</LocalizationPair>
+  <LocalizationPair Name="%Moon_VolcanicC4_S_TE_Desc">Volcanic Moon - Restored and Partially Upgraded Temple:
+Now that the great manufacturing halls have been restored, starship construction can be completed here with an efficiency not previously thought possible.
+And yet, there is still more work to be done.
+Some of the more enterprising teams have come up with a way to use some of the machinery and construction pipeline techniques to enable the creation of dedicated construction zones that can be organized off-world immediately.
+Other vast corridors may still be brought back to life, and your experts say that there is potential for your planetary forces to realize valuable gains.
+#52C9E7#Improvement: #FFFFFF#Shipyard Work Camps#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_VolcanicC4_T_TE_Title">[X]: Hunter's Reach</LocalizationPair>
+  <LocalizationPair Name="%Moon_VolcanicC4_T_TE_Desc">Volcanic Moon - Restored and Partially Upgraded Temple:
+The experts were right.
+The newly restored areas have endless databanks and insights into planetary warfare theory and advanced material sciences.
+Already, training programs have started to integrate the new techniques and technology throughout your armies. And the lessons here have realized impressive gains in combat effectiveness.
+And yet, there is still more work to be done.
+Other vast areas may still be brought back to life, and your experts say that the machines can be used to greatly increase the efficiency of starship construction.</LocalizationPair>
+  <LocalizationPair Name="%Moon_VolcanicC4_ST_TE_Title">[X]: Hunter's Reach</LocalizationPair>
+  <LocalizationPair Name="%Moon_VolcanicC4_ST_TE_Desc">Volcanic Moon - Restored and Upgraded Temple:
+After great expense, and countless hours of restoration efforts, most of the temple has been brought to functional status.
+The shipyards are fully operational, and year-round training programs keep troops at peak performance.
+Additionally, some of the more enterprising teams have come up with a way to use some of the machinery and construction pipeline techniques to enable the creation of dedicated construction zones that can be organized off-world immediately.
+Indeed, this once lost temple on a harsh volcanic moon has become the most preeminent military base in all the empire - perhaps even the galaxy.
+#52C9E7#Improvement: #FFFFFF#Shipyard Work Camps#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_FrozenD3_TF_Title">[X]: Expanded Beauty</LocalizationPair>
+  <LocalizationPair Name="%Moon_FrozenD3_TF_Desc">Frozen Moon - Restored Temple:
+Theories and opinions as to the original purpose of this structure have led to some notorious arguments amongst leading researchers. That said, there's been successful work restoring some of the major functions.
+The winding caverns of machinery have become populated by all manner of species from across the empire, and they have formed an improbable collective society - It seems the inner workings of the temple somehow actively contributes to the wellbeing of the diverse races.
+Of note, it looks like the unusual temple AI is somehow able to utilize the populations here to augment data facilities. How this works is a mystery, but there doesn't appear to be any noticeable side-effects.
+Technology here can already be applied to creating augmented reality entertainment networks on a planetary scale, and there's still more of the temple to be restored.
+#52C9E7#Specialization: #FFFFFF#Global Entertainment#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_FrozenD4_TF_Title">[X]: Expanded Beauty</LocalizationPair>
+  <LocalizationPair Name="%Moon_FrozenD4_TF_Desc">Frozen Moon - Restored and Upgraded Temple:
+The tireless work of fully restoring this temple has increased many areas of the temple functions.
+The productivity of the diverse population has been more closely unified, and the scanning arrays are more sensitive than ever.
+Furthermore, a completely unexpected discovery has been revealed: A way to use automated drones to systematically coalesce a planetary ring system into a small moon.
+#52C9E7#Specialization: #FFFFFF#Global Entertainment#REVERT#
+#52C9E7#Anomaly: #FFFFFF#Ring to Moon Transformation#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_FertileD3_TG_Title">[X]: Metal Hearth</LocalizationPair>
+  <LocalizationPair Name="%Moon_FertileD3_TG_Desc">Fertile Moon - Restored Temple:
+The mechanisms of this lunar temple seem to be dedicated to farming and crop production specifically in ways to ship food off-world. Endless hallways of growing pods and packaging robotics work seamlessly in creating swarms of autonomous space-capable delivery systems.
+This, combined with vast transport networks, mean far more citizens can live and work here than originally anticipated.
+Researchers have also uncovered a number of technologies related to orbital hydroponics, and engineers are already adapting the findings into practical applications.
+And still, the temple promises more. Among the vast technological caverns, there is still much more to restore to working order. As parts of the temple were coaxed back to life, it was also revealed that a non-functional relic in orbit is actually a transport portal of some kind. There also appears to be enough parts to restore the portal, and perhaps even build another, if the right investments in research are made.
+#52C9E7#Improvement: #FFFFFF#Orbital Hydroponics#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_FertileD4_TG_Title">[X]: Metal Hearth</LocalizationPair>
+  <LocalizationPair Name="%Moon_FertileD4_TG_Desc">Fertile Moon - Restored and Upgraded Temple:
+After much hard work by engineers and research teams, the orbital portal has been restored to working condition.
+Much has been learned in the process, and scientists have made assurances that such portal travel is perfectly safe. Even allowing travel to other portal designs rumored to exist among other factions and the various lawless gangs across the galaxy.
+Also recovered are a number of core portal parts - enough to build another in a distant system. Unfortunately, there's only enough for one construction.
+The temple upgrades have also realized a number of other functional gains and insights, further increasing food production and empire expansion opportunities.
+#52C9E7#Improvement: #FFFFFF#Orbital Hydroponics
+#52C9E7#Improvement: #FFFFFF#Temple Portal#REVERT# (Unique)</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_FertileE3_TH_Title">[X]: Quantum Order</LocalizationPair>
+  <LocalizationPair Name="%Moon_FertileE3_TH_Desc">Fertile Moon - Restored Temple:
+Once the ancient machinery had been brought back to working condition, ancient mechanisms came alive. Vast networks hummed with activity, chemicals began to fill giant vats, and fleets of bots started issuing from hundreds of honeycomb bays. All across the fertile lunar surface, automated processes began.
+At the center of it all is an AI mind that seems to gather and analyze socio-economic data in novel ways, and analysis of the alien code has already provided new techniques to penetrate networks. Restoration teams say there are still a number of areas to investigate that will likely improve the AI mind's abilities.
+Additionally, these teams have been able to successfully reverse-engineer equipment to automatically mine and process lunar ore to be dispatched around the system.
+#52C9E7#Improvement: #FFFFFF#Lunar Ore Dispatchers#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_FertileE4_TH_Title">[X]: Quantum Order</LocalizationPair>
+  <LocalizationPair Name="%Moon_FertileE4_TH_Desc">Fertile Moon - Restored and Upgraded Temple:
+After successfully restoring much more of the temple, it's clear that the AI mind has increased its capabilities.
+Already, simple, but brilliant, ideas have streamlined the governance and bureaucracy of otherwise unrelated laws into a cohesive structure. And the automated processes are working better than ever with the new models, and have been continuously undergoing regular upgrades.
+These upgrades will allow better overall empire governance and expansion opportunities.
+#52C9E7#Improvement: #FFFFFF#Lunar Ore Dispatchers#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MultiE3_TI_Title">[X]: Dust Archive</LocalizationPair>
+  <LocalizationPair Name="%Moon_MultiE3_TI_Desc">Multiple Moons - Restored Temple:
+In addition to the almost magical workings of the ancient structures, vast archives filled with bits of fragmented history are being recovered. Or perhaps revealed. The interface is an awakened AI mind, and it almost seems to dole out information at a deliberate pace.
+These nearly mythical accounts and stories have begun to call to the public. And many that had only come to vist, find themselves joining the communities indefinitely.
+And it is through these diverse communities that trade reaches the furthest corners of the empire, like an accidental village that finds itself at the crossroads of major trade routes.
+There's more to discover, and it should be possible to capitalize on the gatherings of the temple population, should efforts be directed into further restoring this temple.</LocalizationPair>
+  <LocalizationPair Name="%Moon_MultiE4_TI_Title">[X]: Dust Archive</LocalizationPair>
+  <LocalizationPair Name="%Moon_MultiE4_TI_Desc">Multiple Moons - Restored and Upgraded Temple:
+Now turned into officially sanctioned communities, the diverse populations here continue to thrive, while bringing in increased dust gains to match. Furthermore, the communities here have become quite famous, and their stores have spread across the galaxy.
+Owing to ingenuity of the groups, and perhaps some help from the temple AI mind, an interesting media network has been developed that works from the orbits of planetary moons.
+This proprietary system helps spread the latest stories and happenings of the temple populations around the empire.
+#52C9E7#Improvement: #FFFFFF#Dust Archive Culture Network#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MultiF3_TJ_Title">[X]: Guardian's Post</LocalizationPair>
+  <LocalizationPair Name="%Moon_MultiF3_TJ_Desc">Multiple Moons - Restored Temple:
+Once the elite teams of "Restorationers" (That's what they call themselves.) got the first stirrings of life from the dusty monolithic processor banks, communication signals were sent, and received, from a number of previously hidden structures on the other moons.
+Further analysis now indicates that this may have been a military facility. At least it certainly serves as an excellent command and control base, as well as an invaluable resource for fleet exercises and training.
+This improved command structure can be immediately used for increased fleet sizes and additional behemoth operations.
+Additionally, a number of energy projectors look to have utility as orbital bombardment weapons in the event of a ground invasion, should the necessary steps be taken to restore them to working order.</LocalizationPair>
+  <LocalizationPair Name="%Moon_MultiF4_TJ_Title">[X]: Guardian's Post</LocalizationPair>
+  <LocalizationPair Name="%Moon_MultiF4_TJ_Desc">Multiple Moons - Restored and Upgraded Temple:
+Not only have the restorationers managed to bring the giant cannons online, but have also been able to recreate smaller versions that can be built across the empire.
+The restoration efforts have additionally made many improvements to the other functions of this formidable military base, leading to increased training and command potential for conventional fleets and behemoths alike. 
+#52C9E7#Improvement: #FFFFFF#Lunar Strike Base#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_LgSingB3_TK_Title">[X]: Infinite Caverns</LocalizationPair>
+  <LocalizationPair Name="%Moon_LgSingB3_TK_Desc">Large Moon - Restored Temple:
+Your teams of restoration experts have finally brought the temple to some kind of operational status. They report that the main difficulty seemed to be that the original facility was in an uncompleted state. For whatever reason, it looks like the Endless had abandoned the project.
+Nevertheless, there is much value here. There seem to be vast lengths of tunnels dug into this large moon providing some easy mineral access, and many seem to have habitat-like constructions. In addition, working order has been restored to automated growing chambers, and these are already providing edible food.
+Lastly, the team has figured out the basic theory and operation of the abandoned drilling and construction machinery, and say that with some resources, it can be made functional again.</LocalizationPair>
+  <LocalizationPair Name="%Moon_LgSingB4_TK_Desc">Large Moon - Restored Temple:
+There was complete success in reactivating the ancient drilling equipment. Working slowly and relentlessly, miles of new tunnels have been made deep into the moon. As this process continued, new automations came to life erecting additional growing chambers along the way.
+All in all, this has created more living space, as well as providing even more access to food and minerals.
+Unfortunately, the hulking drilling machines have suffered numerous breakdowns, and are unable to continue their work.
+However, the engineering and science teams all agree that this is due to the advanced age of the equipment, and have devised a number of plans to make improvements and repairs.</LocalizationPair>
+  <LocalizationPair Name="%Moon_LgSingB5_TK_Desc">Large Moon - Restored Temple:
+The continued mining of the moon had progressed slowly during much of the time since re-activation, and there's been no end of problems on the work itself. However, the temple once again revealed it's still full of surprises. The frequent stoppages seem to have triggered the production of additional machines to complete the task. New machines of a smaller design have been created by the tens-of-thousands to continue the work. And continue, they did.
+Endless additional miles of tunnel have been bored into the moon. They've gone so deep, and so far beyond anyone's expectations, that many members of the teams are urging caution, saying that it's only prudent to examine the work in more detail before attempting to continue. However, others counter, there's no way to effectively explore everything with more than cursory analysis.
+As an added bonus, some clever members of the team have worked out how to reprogram the industrious bots for other tasks and locations, allowing for their use across the empire.
+#52C9E7#Improvement: #FFFFFF#Temple Bot Outpost#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_LgSingB6_TK_Desc">Large Moon - Restored Temple:
+After prolonged drilling, the awe-inspiring machines have once again come to a halt. No one can definitively say what the problem is, but there are many proposed hypotheses.
+There had been a few attempts to continue the work, but these revivals were short-lived. It seems even these amazing machines have reached their limit.
+Now, your project leaders say the experiment is over, and no more digging should be attempted, pointing to some troubling indicators of increasing geologic instability.
+But a few of the younger engineers have come up with an audacious plan to continue.
+Leadership is extremely vocal to condemn the idea as unworkable and pointless. But candidly, a few have confided to you that the plan really could work, but there's also tremendous risks of catastrophic failure.
+#52C9E7#Improvement: #FFFFFF#Temple Bot Outpost#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_LgSingB7_TK_Title">Destroyed Moon</LocalizationPair>
+  <LocalizationPair Name="%Moon_LgSingB7_TK_Desc">When the "event" happend, there was practically no warning. By the time it was realized that something had gone terribly wrong, it was much too late to do anything about it.
+It only took a few hours for the moon to come apart, and the resulting energy release has had a catastrophic effect on the planet below.
+Now, the moon is nothing more than millions of tons of space rubble, much of which continues to rain down upon the planet, while the reset settles into an orbit of ringed debris.
+There will be much to study and learn from this grim accident, and perhaps the larger chunks of ore can be harvested.
+But that's about all that remains of what was once a pale moon in the night sky.</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MultiG3_TL_Title">[X]: Stellar Web</LocalizationPair>
+  <LocalizationPair Name="%Moon_MultiG3_TL_Desc">Multiple Moons - Restored Temple:
+While it's not entirely clear what the Endless hoped to accomplish with the machinery of this structure, it's clear that this was a large scale research and observatory of some kind.
+Databanks are geared to link many distant lunar structures across the galaxy with a type of virtual "web" connection.
+This manages to extract dust, but also looks to have larger implications as well. However, it remains unknown what other purposes these structures might have.
+With research and engineering prowess, more work can be done to uncover additional mysteries of this temple.
+#52C9E7#Improvement: #FFFFFF#Web Anchor#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_MultiG4_TL_Title">[X]: Stellar Web</LocalizationPair>
+  <LocalizationPair Name="%Moon_MultiG4_TL_Desc">Multiple Moons - Restored and Upgraded Temple:
+Most of the temple has been explored and cataloged at this point. There are still many questions and areas of study, but the more immediate practical uses are understood.
+And after tireless restoration efforts, scientists have discovered a way to upgrade existing Web Anchors into a sort of distributed galactic observatory.
+Some scholars urge more caution, but the science value to the empire is clear, even if it's not fully understood how the inner workings of the temple will process all the data.
+#52C9E7#Improvement: #FFFFFF#Web Anchor
+#52C9E7#Improvement: #FFFFFF#Web Beacon#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_MdSingD3_TM_Title">[X]: Distributed Linkage</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingD3_TM_Desc">Medium Moon - Restored Temple:
+What at first appeared to be separate structures, has in fact turned out to be interconnected nodes centralized by this lost temple.
+It's been theorized that the various links and tunnels have enabled unprecedented functionality with regard to various Endless projects, but no one can really say for sure.
+Whatever their original purpose, this moon-sized network contributes greatly to every area of the planet's economy.
+In the central hub, plans and machinery have been discovered that allow ultra-efficient extraction of valuable ores and minerals.
+If restoration work is allowed to continue, scientists and engineers figure they can bring more of the network and nodes to operational status, thereby increasing the gains this temple provides.
+#52C9E7#Improvement: #FFFFFF#Molecular Extractors#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingD4_TM_Title">[X]: Distributed Linkage</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingD4_TM_Desc">Medium Moon - Restored and Partially Upgraded Temple:
+While not nearly as many nodes were able to be brought online as originally hoped, restoration teams have been able to produce concrete gains in temple functionality, and many of these tunnels have been found to be suitable as habitable areas.
+While the theoretical knowledge to restore the nodes and connections is understood, the age of the ancient equipment has presented problems requiring advanced materials sciences.
+Engineers have a plan to revisit restoration projects, once the projects become a system priority.
+#52C9E7#Improvement: #FFFFFF#Molecular Extractors#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingD5_TM_Title">[X]: Distributed Linkage</LocalizationPair>
+  <LocalizationPair Name="%Moon_MdSingD5_TM_Desc">Medium Moon - Restored and Upgraded Temple:
+Many more ancient connections and nodes have been brought back to some kind of working order, and this has further increased the productivity of the temple, while also functioning as a sensitive sensor array for the system.
+It was once thought that perhaps the Endless constructions could be fully restored, but there's been far too much degradation of the miles of tunnels and numerous node outposts.
+While the temple will never return to original operational status, the renewed areas have captured the public's attention and have spawned a whole new genere of lore.
+#52C9E7#Improvement: #FFFFFF#Molecular Extractors#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Moon_SmSingD3_TN_Title">[X]: Core Stack [DefensiveMilitaryPower]</LocalizationPair>
+  <LocalizationPair Name="%Moon_SmSingD3_TN_Desc">Small Moon - Restored Temple:
+This ancient temple is essentially a giant computer, though far more advanced than anything else seen before.
+While much of the complex is derelict, there are still many areas that are in surprisingly good condition. Already, parts have been brought to working order that are providing tangible benefits to society.
+It also appears that this installation is able to connect with other ancient Endless computing facilities around the empire, activating and allocating some of their power for immediate use.
+In its present configuration, this computer is able to perform complex data-analysis that can spot errant and inconsistant behavior of data channels. This has the effect of slowing foreign hacks and revealing compromised populations.
+However, with many labor-intensive adjustments, this computer can be re-configured to provide alternate functions.
+#FFFFFF#Currently, this facility is configured for defensive operations.#REVERT#
+#52C9E7#Improvement: #FFFFFF#Core Stack Router#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_SmSingD4_TN_Title">[X]: Core Stack [ProcessingPower]</LocalizationPair>
+  <LocalizationPair Name="%Moon_SmSingD4_TN_Desc">Small Moon - Restored Temple:
+By reconfiguring the limited working architecture, a sizable boost to empire bandwidth is currently realized here.
+Processing requests are able to more aggressively allocate bandwidth from other facilities, and secondary processors have been brought online.
+This has been accomplished by re-tasking storage and network nodes previously used for other functions, so some functionality has been lost in other areas.
+Engineers assure you that, with the proper funding, the temple can be reconfigured as needed.
+#FFFFFF#Currently, this facility is configured for extra bandwidth.#REVERT#
+#52C9E7#Improvement: #FFFFFF#Core Stack Router#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Moon_SmSingD5_TN_Title">[X]: Core Stack [Move]</LocalizationPair>
+  <LocalizationPair Name="%Moon_SmSingD5_TN_Desc">Small Moon - Restored Temple:
+By relocating some equipment to other systems, and making significant changes to the computing architecture and hardware nodes, signal speeds across the empire have been sped up dramatically.
+This, of course, comes at the loss of some of the other functions of the temple.
+If need be, this is completely reversible, all-be-it at significant expense.
+#FFFFFF#Currently, this facility is configured to boost hack travel speed.#REVERT#
+#52C9E7#Improvement: #FFFFFF#Core Stack Router#REVERT#</LocalizationPair>
+
+
+ <!-- Reductions -->
+  <LocalizationPair Name="%Reduction_RestoreTemple_Title">Restore Moon Temple</LocalizationPair>
+  <LocalizationPair Name="%Reduction_RestoreTemple_Desc">Finally armed with a comprehensive plan, and thanks to the tireless efforts of professional and amateur researchers alike, a restoration project is ready to proceed on this mysterious "Moon Temple." 
+Aided by specially built AI constructs, project leaders hope to soon report, "Mission success!" Whatever form that may take. </LocalizationPair>
+ 
+  <LocalizationPair Name="%Reduction_ExploreMoon_Title">Explore Moon</LocalizationPair>
+  <LocalizationPair Name="%Reduction_ExploreMoon_Desc">More than a simple expedition, the goal of this effort is to build colonies, study in detail any anthropological or archaeological remains of the Endless, and turn the moon into an extension of the planet.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_DevelopMoon_Title">Develop Moon</LocalizationPair>
+  <LocalizationPair Name="%Reduction_DevelopMoon_Desc">A comprehensive project to completely modernize and specialize lunar infrastructure to fully access all this moon has to offer. 
+Using the latest material sciences, construction techniques, and AI efficiency mapping, this moon can become a thriving and vital location in the system. </LocalizationPair>
+	<!-- Plural -->
+  <LocalizationPair Name="%Reduction_ExploreMoons_Title">Explore Moons</LocalizationPair>
+  <LocalizationPair Name="%Reduction_ExploreMoons_Desc">More than a simple expedition, the goal of this effort is to build colonies, study in detail any anthropological or archaeological remains of the Endless, and turn these moons into extensions of the planet.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_DevelopMoons_Title">Develop Moons</LocalizationPair>
+  <LocalizationPair Name="%Reduction_DevelopMoons_Desc">A comprehensive project to completely modernize and specialize lunar infrastructure to fully access all these moons have to offer. 
+Using the latest material sciences, construction techniques, and AI efficiency mapping, these moons can become thriving and vital locations in the system. </LocalizationPair>
+
+
+<!-- Cloaked Orb Reductions -->
+  <LocalizationPair Name="%Reduction_CloakedOrb_Title">Explore Celestial Orb</LocalizationPair>
+  <LocalizationPair Name="%Reduction_CloakedOrb_Desc">Clearly such an advanced and mysterious construction should be explored in detail.
+This project seeks to begin investigation into the purpose and properties of this ancient celestial orb.</LocalizationPair>
+
+
+<!-- Temple Reductions -->
+  <LocalizationPair Name="%Reduction_UpgradeA_Title">Deep Mind Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeA_Desc">Long-standing cultural difficulties and realities have been notoriously difficult to change and study.
+The fact that the temple AI has already shown promise in finding new approaches here is too important to ignore.
+This project calls for extensive study and restoration to upgrade the temple mind.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_UpgradeB_E_Title">Data Symphony Economy Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeB_E_Desc">Many dormant wings of the temple could be restored to increase the economic modeling being done by the temple, and this is certain to lead to immediate empire gains. Though nobody can say for certain just what those gains will be.
+Work should be focused on restoring the economy modeling areas of this temple.</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeB_S_Title">Data Symphony Science Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeB_S_Desc">Some of the inactive areas of the temple seem to be dedicated to scientific study.
+Reactivating these areas could reveal once long lost knowledge, and is certain to be a boon to scientific endeavors.
+Work should be focused on restoring the science area of this temple.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_TC_ConvertToInd_Title">Retask for Industry [IndustryColored]</LocalizationPair>
+  <LocalizationPair Name="%Reduction_TC_ConvertToInd_Desc">Once instructed, this ancient facility will begin the slow process of retasking for large-scale industry.
+Walls, machinery, and whole buildings rearrange themselves, seeming to conspire to madness anyone who tries to study their patterns.</LocalizationPair>  
+  <LocalizationPair Name="%Reduction_TC_ConvertToSci_Title">Retask for Science [ScienceColored]</LocalizationPair>
+  <LocalizationPair Name="%Reduction_TC_ConvertToSci_Desc">Given time, the great ancient factories can be retasked for automated galactic and computational sciences.
+Like a living organism, colossal tumblers and endless structures of unknown manufacture will slowly reassemble into a wholly alien configuration.</LocalizationPair>
+  <LocalizationPair Name="%Reduction_TC_ConvertToExp_Title">Retask for Export #FFFFFF#[TradeEfficiency]#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%Reduction_TC_ConvertToExp_Desc">The great structures can be tasked to manipulate themselves into logic-defying configurations.
+Using Endless dimensional technology, this temple can activate inexpensive Watchmaker Child Facilities on other worlds, effectively "exporting" science and production.
+The esoteric theories behind these processes are barely understood, but they work.
+Somehow.</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeC_Title">Watchmaker Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeC_Desc">By dedicating empire resources to prolonged study of this temple, it is hoped that the byzantine functions can be improved.
+This project won't be cheap, but scientists say it will have far reaching implications for the empire.</LocalizationPair>  
+
+  <LocalizationPair Name="%Reduction_UpgradeD_Title">Titan Wind Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeD_Desc">There are many areas yet to explore in this temple, and continued study is sure to improve its various current functions.
+With the use of specially trained experts, this project aims to complete both goals.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_UpgradeE_S_Title">Hunter's Reach Shipyard Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeE_S_Desc">If the smaller construction machines have shown anything, it's that the vast dormant shipyards and manufactories of the temple have the potential to churn out fleets at incredulous rates.
+Work should be focused on restoring the manufacturing and shipyard areas of this temple.</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeE_T_Title">Hunter's Reach Warfare Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeE_T_Desc">Though the archives are inactive and partially corrupt, the data pertaining to planetary warfare is invaluable. And scientists say this information should be recoverable, given time.
+Work should be focused on restoring the planetary warfare data of this temple.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_UpgradeF_Title">Expanded Beauty Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeF_Desc">With the right expertise and technology, there are a number of upgrades to be made.
+These include capitalizing on the current cooperation of the various species already living and working in the temple, optimizing sensors, and restoring more of the temple's vast inner workings.
+Who knows what will be uncovered?</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_Ring_Title">Convert Rings to Moon</LocalizationPair>
+  <LocalizationPair Name="%Reduction_Ring_Desc">Armed with the exotic technology of the Expanded Beauty temple, this planet's ring system can be collected and converted into a small moon.
+This will provide all the benefits of lunar industry and population, though the beautiful rings will be irrevocably lost.</LocalizationPair>  
+
+  <LocalizationPair Name="%Reduction_DestroyedMoon_Title">Rebuild Destroyed Moon</LocalizationPair>
+  <LocalizationPair Name="%Reduction_DestroyedMoon_Desc">If it wasn't for the technology found in the Expanded Beauty temple, the lunar disaster may have been completely unrecoverable.
+Fortunately, the wide-scale devestation can now be cleaned up, and the debris rings can be collected and once again formed into a moon.
+However, the rebuilt moon will be much smaller than the original, and the process will take quite a bit of time.</LocalizationPair>  
+
+  <LocalizationPair Name="%Reduction_UpgradeG_Title">Metal Hearth Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeG_Desc">Continuing restoration of the temple is paramount, and understanding and restoring the ancient portal will have far-reaching implications for the empire.
+Assigning special research and engineering teams with the necessary resources is clearly the way forward.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_UpgradeH_Title">Quantum Order Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeH_Desc">There is much to learn from the automated temple processes on this moon.
+The AI mind has been yielding excellent results so far, and if further upgrades are to be realized, restoration work here needs to be given priority.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_UpgradeI_Title">Dust Archive Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeI_Desc">The unexpected benefits of the diverse communities that have sprung up should be embraced and encouraged.
+As long as there's more of the temple to restore, official support might as well be given to these communities.
+Continued restoration is sure to lead to various increased gains.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_UpgradeJ_Title">Guardian's Post Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeJ_Desc">The prospect of restoring the great guns has too much military potential to ignore.
+Restorationers assure you they will work as intended, but caution you that batteries of this magnitude and exotic power should only be used as a last resort defensive weapon.
+And naturally, any work done in the temple is bound to improve other functions as well.</LocalizationPair>
+  
+  <LocalizationPair Name="%Reduction_Dig3_Title">Begin Drilling</LocalizationPair> <!-- Infinite Caverns -->
+  <LocalizationPair Name="%Reduction_Dig3_Desc">Once the necessary resources have been procured, your science and engineering teams will attempt their plan of revitalizing the ancient equipment.
+It's largely unknown what the end result will be, but that's what science is all about, right?</LocalizationPair>
+  <LocalizationPair Name="%Reduction_Dig4_Title">Continue Drilling</LocalizationPair>
+  <LocalizationPair Name="%Reduction_Dig4_Desc">Now that it's clear what the machines do, they present a unique opportunity to increase the productivity of the planet below, as well as for the good of the system as a whole.
+Assuming that the repairs go as planned and project leaders can iron out any hiccups along the way.
+The project must continue.</LocalizationPair>
+  <LocalizationPair Name="%Reduction_Dig5_Title">Continue Drilling</LocalizationPair>
+  <LocalizationPair Name="%Reduction_Dig5_Desc">The additional working capacity created by the mysterious temple is a confirmation that the work is well within the limits of Endless technology - this is what they were designed for, after all.
+The machines aren't done just yet, and with a little help, they can continue.
+Sure, continuing the project will be expensive, but who can say what the long-term benefits will be? Perhaps even more discoveries are about to be revealed by the temple.
+Keep digging.</LocalizationPair>
+  <LocalizationPair Name="%Reduction_Dig6_Title">Continue Drilling</LocalizationPair>
+  <LocalizationPair Name="%Reduction_Dig6_Desc">Yes, the work is dangerous. There's risk in everything. The trick is managing that risk.
+It's clear that project leaders are being overly cautious, not willing to risk tarnishing their long careers.
+It's understandable.
+It's also is a perfect opportunity to let the junior members establish themselves.
+Let the work continue!</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_UpgradeL_Title">Stellar Web Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeL_Desc">This temple seems to be designed as a focal point for Endless research.
+Dedicating efforts to learning more about the temple will surely lead to valuable applications within the empire.
+This research will take much effort and expense, but it must be done.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_UpgradeM1_Title">Distributed Linkage Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeM1_Desc">Armed with the proper theoretical knowledge, restoration teams plan to reconnect the numerous nodes across the moon.
+With a little luck, perhaps the temple will reveal the secrets of the Endless.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_UpgradeM2_Title">Distributed Linkage Upgrade</LocalizationPair>
+  <LocalizationPair Name="%Reduction_UpgradeM2_Desc">Improved material sciences and construction techniques should enable repairs and reconstruction of the miles of tunnels connecting the nodes. Hopefully, the non-functional nodes can be restored to working order as well.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_TN_ConvertTo3_Title">Defensive Mode</LocalizationPair>
+  <LocalizationPair Name="%Reduction_TN_ConvertTo3_Desc">Engineer teams will be assigned to once-again configure the temple to analyze the local system for intrusions.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_TN_ConvertTo4_Title">Increased Bandwidth Mode</LocalizationPair>
+  <LocalizationPair Name="%Reduction_TN_ConvertTo4_Desc">This project will reconfigure the temple to maximize the bandwidth available to the empire.</LocalizationPair>
+
+  <LocalizationPair Name="%Reduction_TN_ConvertTo5_Title">Boosted Hack Speed Mode</LocalizationPair>
+  <LocalizationPair Name="%Reduction_TN_ConvertTo5_Desc">Engineers can increase empire hacking travel speed with clever distribution of temple technology.</LocalizationPair>
+    
+  
+<!-- System Improvements -->
+  <LocalizationPair Name="%LunarInfrastructure_Title">Lunar Infrastructure</LocalizationPair>
+  <LocalizationPair Name="%LunarInfrastructure_Desc">Many disperate projects can be supported by investing in organized logistics specialized to the lunar systems.
+This allows expanded private development opportunities to flourish in the absence of larger government projects.
+And naturally, this infrastructure paves the way for future development across the board.</LocalizationPair>
+
+  <LocalizationPair Name="%LunarDataNetwork_Title">Lunar Data Network</LocalizationPair>
+  <LocalizationPair Name="%LunarDataNetwork_Desc">This network of science infrastructure is specifically designed for the study of moons and anomalies throughout system. It uses automated lunar hardware and collection points, as well as orbiting satellites to continuously process real-time signals.
+These networks are capable of rapidly handeling huge volumes of data, includes in-line buffers, and redundant data storage nodes. They can be adjusted on-the-fly should local conditions change, and will automatically adapt to a wide range of dynamic environments.</LocalizationPair>
+
+  <LocalizationPair Name="%LunarTourism_Title">Lunar Tourism</LocalizationPair>
+  <LocalizationPair Name="%LunarTourism_Desc">Government start-up grants, port infrastructure, and comprehensive travel and trade regulations can create the opportunity for private industries to offer safe and reliable tourist destinations among the various moons.
+The extra tax revenue more than covers the bureaucratic costs, and citizens can enjoy increased freedom of movement around the system.</LocalizationPair>
+
+  <LocalizationPair Name="%LunarColonies_Title">Lunar Colonies</LocalizationPair>
+  <LocalizationPair Name="%LunarColonies_Desc">Advanced construction and community development techniques have allowed for the construction of extensive lunar communities in ways not previously possible.
+Even tiny moons can now be employed to provide a stable and livable space for populations, and existing colonies will benefit from additional livable areas.</LocalizationPair>
+
+  <LocalizationPair Name="%MoonExploitation_Title">Moon Exploitation Drones</LocalizationPair>
+  <LocalizationPair Name="%MoonExploitation_Desc">Moons in the various planetary systems offer a wealth of opportunity. By utilizing a comprehensive network of drones capable of in-situ resource analysis, adaptable capabilities, with both real-time and predictive coordination, much of a moon's resource yield can be gathered by completely automated processes.</LocalizationPair>
+
+  <LocalizationPair Name="%HunterGuilds_Title">Hunter Guilds</LocalizationPair>
+  <LocalizationPair Name="%HunterGuilds_Desc">Finding and raiding a lost Endless Moon Temple or base is a great honor for the clans that manage to do so. The locations and specifics of these raids are kept as highly guarded secrets, lest some other clan move in on their claim.
+While this can be viewed as a fairly selfish activity, it's tolerated due to the potential benefits to the society as a whole.
+Empire subsidized Hunter Guilds can be created anywhere this activity is taking place, providing formal regulation and support frameworks, along with media to spread tales of the greatest discoveries. Naturally, this also comes along with the taxation and tributes they will bring to the empire.
+Keep an eye out for systems that can build this improvement, as it's a sure sign that there's a suitable location somewhere in the system.
+But if a temple is ever formally discovered, the hunters will have to find other places to raid and explore.</LocalizationPair>
+
+  <LocalizationPair Name="%LunarSanctuaries_Title">Lunar Sanctuaries</LocalizationPair>
+  <LocalizationPair Name="%LunarSanctuaries_Desc">Setting up hidden channels to allow planet sanctuaries to exploit local moons is no easy task.
+But recent advances in non-corporeal physics have provided a way to access minerals and conduct lunar science projects.
+These sanctuary extensions will provide vital long-term befefits to the empire as a whole.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessTechInfiltration_Title">[X] Infiltration Gateway</LocalizationPair>
+  <LocalizationPair Name="%EndlessTechInfiltration_Desc">Endless technology left across this galaxy is quite different from that of the various races that currently claim it as their home. And carefull investigation of these differences are critical to greater understanding.
+Using wide-band passive analysis of cosmic stings, this gateway can tune into the unique frequencies of Endless technology, and allows a more direct way to access and study these artifacts.
+This improvement applies to the following planet anomalies:
+#FFFFFF#Discovered Celestial Orbs, discovered and undiscovered Endless Temples, Husk of Knowledge, Platform of Ys, Spotora's Sanctum#REVERT#</LocalizationPair>
+  
+  
+<!-- Planet Improvements -->
+  <LocalizationPair Name="%LunarMiningSpec_Title">Lunar Mining</LocalizationPair>
+  <LocalizationPair Name="%LunarMiningSpec_Desc">Offering incentives to local industry and providing universal means to bootstrap new projects can yield impressive gains in production.
+This agressive approach has the minor side-effect of hindering local sciences, however.</LocalizationPair>
+
+  <LocalizationPair Name="%LunarResearchSpec_Title">Lunar Research</LocalizationPair>
+  <LocalizationPair Name="%LunarResearchSpec_Desc">By focusing planetary efforts on the lunar system and closely supporting the various scientific institutions, marked gains in overall research progress can be realized.
+This specialization does come somewhat at the expense of the local industrial economy.</LocalizationPair>
+
+
+<!-- Orb Granted Stuff -->
+  <LocalizationPair Name="%IndustrialLuxuryProcessing_Title">Industrial Luxury Processing</LocalizationPair>
+  <LocalizationPair Name="%IndustrialLuxuryProcessing_Desc">New methods of material refinement have yielded a number of novel ways to utilize luxury resources around the empire. These centers provide the necessary infrastructure for large-scale processing.</LocalizationPair>
+
+  <LocalizationPair Name="%ColdIndustry_Title">Low-temperature Manufacturing</LocalizationPair>
+  <LocalizationPair Name="%ColdIndustry_Desc">Many new industries have found ways to utilize cold environments to scale-up this specialized manufacturing that would otherwise be cost ineffective in other, warmer environments.</LocalizationPair>
+
+  <LocalizationPair Name="%OrbIndustryUpgrade_Title">Celestial Orb Industrial Upgrade</LocalizationPair>
+  <LocalizationPair Name="%OrbIndustryUpgrade_Desc">Industrial processes and techniques gained from the Manufactory orb can be exported to other celestial orbs, giving a boost to all areas of industry.</LocalizationPair>
+
+
+  <LocalizationPair Name="%StrategicApproval_Title">Exotic Resource Processing</LocalizationPair>
+  <LocalizationPair Name="%StrategicApproval_Desc">Advances in ore processing have realized new ways to use strategic resources for home and personal use, upgrading household 3D-printing to new levels of utility. This can raise the average standard of living markedly.</LocalizationPair>
+
+  <LocalizationPair Name="%ExtremeTours_Title">Extreme Tourism Agency</LocalizationPair>
+  <LocalizationPair Name="%ExtremeTours_Desc">Every planet has its own unforgiving areas, and adventurous individuals relish the chance to brave those locations. And the most challenging areas are on barren, toxic, and lava type planets.
+Technology and supplies found in the Endless Trade Hub orb provides practical means for exploring those areas, along with new tech for film crews to chronicle those adventures.</LocalizationPair>
+
+  <LocalizationPair Name="%ExtremeToursBiophobic_Title">Extreme Tourism Agency</LocalizationPair>
+  <LocalizationPair Name="%ExtremeToursBiophobic_Desc">Every planet has its own unforgiving areas, and adventurous individuals relish the chance to brave those locations. And the most challenging areas for biophobic populations are on ocean, terran, forest, and atoll worlds.
+Technology and supplies found in the Endless Trade Hub provides practical means for exploring those areas, along with film crews to chronicle those adventures.</LocalizationPair>
+
+  <LocalizationPair Name="%OrbDustUpgrade_Title">Celestial Orb Financial Upgrade</LocalizationPair>
+  <LocalizationPair Name="%OrbDustUpgrade_Desc">Market analysis computers and simulation machinery from the Dust Institute orb can be duplicated by re-configuring ancient areas of existing celestial orbs.</LocalizationPair>
+
+
+  <LocalizationPair Name="%HotScience_Title">Radiological Geology</LocalizationPair>
+  <LocalizationPair Name="%HotScience_Desc">Hot and scorching environments offer a wealth of opportunity for sciences by using new tools for utilizing intense solar radiation effects. With the aid of chaos-modeling, geological instability is also particularly usefully for this sort of analysis.</LocalizationPair>
+
+  <LocalizationPair Name="%GasGiantScience_Title">Gas Giant Drones</LocalizationPair>
+  <LocalizationPair Name="%GasGiantScience_Desc">These advanced, specialized, and networked drones can continuously perform automated research and collection on the vast scale of gas giants.</LocalizationPair>
+
+  <LocalizationPair Name="%OrbScienceUpgrade_Title">Celestial Orb Research Upgrade</LocalizationPair>
+  <LocalizationPair Name="%OrbScienceUpgrade_Desc">By converting large areas of celestial orbs using techniques found on the Endless Research Center, many large-scale experiments can be automated. This will result in increased science capacity around the system.</LocalizationPair>
+  
+
+  <LocalizationPair Name="%ModuleOrbEngineProbe_Title">Scout Module</LocalizationPair>
+  <LocalizationPair Name="%ModuleOrbEngineProbe_Desc">Advanced miniaturization techniques have allowed the creation of a compact engine and probe module.
+The separate functions might not each be as capable as modern technologies, but the space savings is quite impressive and can allow for new ship design possibilities.</LocalizationPair>
+
+  <LocalizationPair Name="%ModuleOrbScanner_Title">Long-range Scanner</LocalizationPair>
+  <LocalizationPair Name="%ModuleOrbScanner_Desc">Quantum field sensor needles allow for extremely long-range detection platforms that are able to be contained on exploration vessels.</LocalizationPair>
+
+  <LocalizationPair Name="%GasGiantSpecInd_Title">Gas Giant Industry Exploitation</LocalizationPair>
+  <LocalizationPair Name="%GasGiantSpecInd_Desc">Logistics drones have been converted to the difficult task of extracting resources from gas giants, and many of these by-products have uses in all ares of industry.
+In particular, this utilization plan is focused on gasses used in advanced manufacturing.</LocalizationPair>
+
+  <LocalizationPair Name="%GasGiantSpecSci_Title">Gas Giant Science Exploitation</LocalizationPair>
+  <LocalizationPair Name="%GasGiantSpecSci_Desc">Logistics drones have been converted to the difficult task of extracting resources from gas giants, and many of these by-products have uses in all areas of industry.
+In particular, this utilization plan is focused on gathering data and samples for research purposes.</LocalizationPair>
+
+  <LocalizationPair Name="%GasGiantSpecGen_Title">Gas Giant General Exploitation</LocalizationPair>
+  <LocalizationPair Name="%GasGiantSpecGen_Desc">Logistics drones have been converted to the difficult task of extracting resources from gas giants, and many of these by-products have uses in all ares of industry.
+This utilization plan is focused on collecting a wide range of dust and exotic gasses.</LocalizationPair>
+
+  <LocalizationPair Name="%OrbColonization_Title">Celestial Orb Colonization</LocalizationPair>
+  <LocalizationPair Name="%OrbColonization_Desc">The advanced organization and coordination of living spaces found in the artificial moon Megalopolis can be revitalized, and even adapted to other celestial orbs. Millions of empire citizens can now take up permanent residence on these great structures, including larger contingents of security and military forces.</LocalizationPair>
+    
+
+
+<!-- Temple Granted Improvements -->
+  <LocalizationPair Name="%HistoricalEnclave_Title">Historical Enclave</LocalizationPair>
+  <LocalizationPair Name="%HistoricalEnclave_Desc">Studies of the Deep Mind temple has enabled new ways to study ancient phenomena using immersive research and speciality AI constructs.
+This enclave is specialized towards the study of ancient civilizations. Furthermore, the discoveries and insights here contribute to a broader cultural understanting of modern civilizations as well. 
+These enclaves are both research institutes and tourist attractions, with profits from tours and museums going directly towards maintenance costs.
+This enclave offers long-term study of the following planet anomalies:
+#FFFFFF#Pre-galactic Architecture, Dust Ruins, Ancient Ruins, Deserted Cities, Humeris Insidentes, Husk of Knowledge, The Fallen Gardens, Seventeen Thousand Islands Bridges, Platform of Ys, Moon Temple, Celestial Orb#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessEnclave_Title">Endless Enclave</LocalizationPair>
+  <LocalizationPair Name="%EndlessEnclave_Desc">Studies of the Deep Mind temple has enabled new ways to study ancient phenomena using immersive research and speciality AI constructs within dedicated research enclaves. 
+This enclave is specialized towards the study of ancient Endless technology, and due to the number of active experiments at any given time, this study often provides immediate practical benefits and insights to existing industry in the system.
+This enclave offers long-term research of the following planet anomalies:
+#FFFFFF#Dust Ruins, Dust Lode, Cyber Flora, Microfactories, Husk of Knowledge, Spotora's Sanctum, Seventeen Thousand Islands Bridges, Platform of Ys, Moon Temple, Celestial Orb#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%ExoticResearchLab_Title">Exotic Research Labs</LocalizationPair>
+  <LocalizationPair Name="%ExoticResearchLab_Desc">Using research from the Data Symphony temple, these automated facilities are able to continuously run sub-atomic research trials on the various strategic and luxury deposits found throughout the galaxy.
+The work is painstaking, and generates vast amounts of data to sift through - hence the need for AI data science automation.
+It's unusual methods are slow, but no one can deny their overall effectiveness.</LocalizationPair>
+
+  <LocalizationPair Name="%WatchmakerChildFacility_Title">Watchmaker Child Facility</LocalizationPair>
+  <LocalizationPair Name="%WatchmakerChildFacility_Desc">This facility, made possible by the Watchmaker temple, uses Endless dimensional technology to receive valuable production materials, as well as collect science data across a large dimensional network.
+These facilities are actually fairly inexpensive, making them quite useful on newly colonized systems, but it does require the Watchmaker temple to be configured for "Export" to function.</LocalizationPair>
+
+  <LocalizationPair Name="%GasHarvesters_Title">Gas Giant Harvesters</LocalizationPair>
+  <LocalizationPair Name="%GasHarvesters_Desc">Discovered in Titan Wind, these giant floating structures are designed to collect trace dust elements by skimming the upper atmosphere of gas giants. And over time, they are able to convert this dust into a readily usable form, as well as provide valuable scientific data.
+These harvesters are also able to provide living space for quite a number of citizens.</LocalizationPair>
+
+  <LocalizationPair Name="%RestorationDrones_Title">Restoration Drones</LocalizationPair>
+  <LocalizationPair Name="%RestorationDrones_Desc">Discovered in Titan Wind, these automated drones work to repair and rejuvenate damage done to a planet due to over-exploitation.
+In addition, this vast bot network helps to facilitate other industrial applications across the planet.</LocalizationPair>
+
+  <LocalizationPair Name="%ShipyardWorkCamps_Title">Shipyard Work Camps</LocalizationPair>
+  <LocalizationPair Name="%ShipyardWorkCamps_Desc">These construction zones were devised by one of the restoration teams at Hunter's Reach using insights and machinery from the temple's shipyards.
+It turns out that the necessary work is highly unpopular with the populations of the empire, however there are plenty of minor races that can be persuaded to do the work.
+Conditions are grueling in these bare-bones camps, but they are highly efficient at building the necessary parts for starship construction.</LocalizationPair>
+
+  <LocalizationPair Name="%OrbitalHydroponics_Title">Orbital Hydroponics</LocalizationPair>
+  <LocalizationPair Name="%OrbitalHydroponics_Desc">Insight into Endless technology uncovered from the Metal Hearth temple has allowed the construction of these orbital facilities.
+Crops grown here show impressive nutrient content and extraordinary growth response by utilizing zero-gravity growing and organic filtration techniques, along with a complex schedule of sunlight cycles.
+Once grown and harvested, food-pods can be instantly dispatched to any area of the planet below.</LocalizationPair>
+
+  <LocalizationPair Name="%TemplePortal_Title">Temple Portal</LocalizationPair>
+  <LocalizationPair Name="%TemplePortal_Desc">Engineers have collected enough core parts from the Metal Hearth temple to construct a single portal.
+This will allow starships to travel to other portals, but once built, this structure cannot be built again.</LocalizationPair>
+  
+  <LocalizationPair Name="%LunarOreDispatcher_Title">Lunar Ore Dispatchers</LocalizationPair>
+  <LocalizationPair Name="%LunarOreDispatcher_Desc">Consisting of autonomous bots and mining equipment, these machines extract valuable ores and then launch them into orbit.
+From there, they can easily be dispatched to any planet in the system.
+These relatively inexpensive systems were reverse-engineered from parts and schematics found in the Quantum Order temple, and are ideal for new colonies with access to moons.</LocalizationPair>
+
+  <LocalizationPair Name="%LunarCultureNetwork_Title">Dust Archive Culture Network</LocalizationPair>
+  <LocalizationPair Name="%LunarCultureNetwork_Desc">Clever arrangement of these custom network nodes across system moons brings access to the latest population activities of the Dust Archive temple, and these regular episodes and live feeds are much loved across the empire.
+The technology involved in these AI-designed installations is fairly exotic and so deceptively simple, that some prominent researchers advise caution as to the exact intentions of their design and usage.
+Still, no one can deny their immediate benefits to the empire.</LocalizationPair>
+
+  <LocalizationPair Name="%LunarStrikeBase_Title">Lunar Strike Base</LocalizationPair>
+  <LocalizationPair Name="%LunarStrikeBase_Desc">Scientists and engineers have managed to recreate the long range bombardment weapons restored on Guardian's Post, albeit at a smaller scale.
+This lunar installation will provide ground support in the event of an invasion, as well as housing a permanent military presence on the moon.
+In addition, regular training exercises are administered here, increasing the experience of stationed fleets.</LocalizationPair>
+
+  <LocalizationPair Name="%EntertainmentSpec_Title">Global Entertainment</LocalizationPair>
+  <LocalizationPair Name="%EntertainmentSpec_Desc">Using techniques learned from the Expanded Beauty temple, a whole world can be geared to providing entertainment for the system.
+Vast areas are dedicated to resorts and tourist attractions, and these experiences are universally connected and coordinated.
+Additionally, augmented reality overlays are applied planet-wide, allowing for unique and seamless AI-monitored experiences and gamification of every activity imaginable, from the mundane to the exotic.</LocalizationPair>
+
+  <LocalizationPair Name="%TempleBotOutpost_Title">Temple Bot Outpost</LocalizationPair>
+  <LocalizationPair Name="%TempleBotOutpost_Desc">Exploiting the sheer number of worker bots created by the Infinite Caverns temple, it was found that by relocating them to a new area, they could be retasked for a multitude of different uses, benefiting all areas of the economy from personal to commercial use.
+Unfortunately, however, there are only so many bots to go around. So the more of these outposts that are in use, the less effective each one is.</LocalizationPair>
+
+  <LocalizationPair Name="%WebAnchor_Title">Web Anchor</LocalizationPair>
+  <LocalizationPair Name="%WebAnchor_Desc">Using schematics from temple Stellar Web, your engineering teams have managed to create a lunar structure deemed a Web Anchor.
+This alien device creates a sort of dimensional linkage to the temple and other anchors. One of the side-effects of this linkage is that somehow local dust essence is extracted and sent back to the temple.
+This structure also serves as a hub for exotic research, and is a natural community relations outpost as various cultures come together to wonder at the strange construction.</LocalizationPair>
+  
+  <LocalizationPair Name="%WebBeacon_Title">Web Beacon</LocalizationPair>
+  <LocalizationPair Name="%WebBeacon_Desc">Now that more secrets have been uncovered at the Stellar Web temple, it's possible to upgrade existing Web Anchors.
+The more of these devices that are constructed, the more they act in harmony to observe the galaxy and generate science to be processed at the temple.
+The long-term implications of these observations are unclear, but the immediate benefits they provide are well understood.</LocalizationPair>
+
+  <LocalizationPair Name="%MolecularExtractors_Title">Molecular Extractors</LocalizationPair>
+  <LocalizationPair Name="%MolecularExtractors_Desc">These advanced collection techniques utilize technology discovered in the Distributed Linkage temple.
+Using vast networks of specialized nano drills and chemical agents, resource collection efficiency is greatly improved by being able to extract materials at a molecular level.
+Unfortunately, this process is extremely expensive. These extraction sites have a negative impact on industrial production, and this cost is magnified by the number of strategic resource sites.</LocalizationPair>
+
+  <LocalizationPair Name="%CoreStackRouter_Title">Core Stack Router</LocalizationPair>
+  <LocalizationPair Name="%CoreStackRouter_Desc">By extracting redundant or unused networking components from the Core Stack temple, ultra-advanced system routers can be deployed across the empire.
+As more are installed, the smart networking routines can use increasingly efficient techniques and subtle side-channel analysis to realize hacking improvements across the board.</LocalizationPair>
+
+
+<!-- Modules -->
+  <LocalizationPair Name="%ModuleSupportMoonExploration_Title">Moon Exploration Module</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportMoonExploration_Desc">Allows the exploration and survey of moons using hero and exploration ships.
+This is naturally useful to get good information on the best potential systems for new colonies, but can also reveal the presence of an Endless Moon Temple.</LocalizationPair>
+
+<!-- Added cloaked orb detection requirements to descriptions -->
+	<!-- Added because this tooltip is missing in the game -->
+  <LocalizationPair Name="%EmpireImprovementDetectionProbeLevel1Title">Anti-Cloaking Probe</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementDetectionProbeLevel1Description">System probes can now detect cloaked vessels and structures employing first-generation cloaking tech.
+Detection of cloaked Celestial Orbs is possible with Cloak Detection level 1 and Curiosity Expedition Power level 3.</LocalizationPair>
+
+  <LocalizationPair Name="%EmpireImprovementDetectionProbeLevel2Description">Upgraded with a full-suite of radiation-tracking technology, probes can now detect cloaked vessels and structures employing secondary level cloaking tech.
+Detection of cloaked Celestial Orbs is possible with Cloak Detection level 1 and Curiosity Expedition Power level 3.</LocalizationPair>
+
+  <LocalizationPair Name="%EmpireImprovementDetectionProbeLevel3Description">Fully enhanced with the latest neutrino-emission detectors, even the most carefully disguised vessels employing tertiary-level cloaking tech can be discovered.
+Detection of cloaked Celestial Orbs is possible with Cloak Detection level 1 and Curiosity Expedition Power level 3.</LocalizationPair>
+
+  <LocalizationPair Name="%EmpireImprovementCuriosityLevel2Description">The ability to go beyond what is simply technology into something stranger -- that is what one learns with enough exposure to Endless relics and artifacts. Whatever strange energies they manipulated, scanners based on their technology (even if only vaguely understood) are far more effective.
+Detection of cloaked Celestial Orbs is possible with Cloak Detection level 1 and Curiosity Expedition Power level 3.</LocalizationPair>
+
+  <LocalizationPair Name="%EmpireImprovementCuriosityLevel3Description">Using psychohistory techniques, explorers can piece together diverse pieces of evidence and reconstruct the likely past of places. This enables Expeditions to discover higher level Curiosities.
+Detection of cloaked Celestial Orbs is possible with Cloak Detection level 1 and Curiosity Expedition Power level 3.</LocalizationPair>
+
+
+
+<!-- Custom Tooltips -->
+ <LocalizationPair Name="%Blank_Tip"></LocalizationPair>
+
+ <LocalizationPair Name="%LRSpec_S_Tip">+10 [ScienceColored] on Planets with a Moon</LocalizationPair>
+ <LocalizationPair Name="%LRSpec_rS_Tip">+1 [ScienceColored] per [Population] per Explored Moon</LocalizationPair>
+ <LocalizationPair Name="%LRSpec_BW_Tip">+5 [ProcessingPower] on Planets with a Developed Moon</LocalizationPair>
+ <LocalizationPair Name="%LRSpec_pI_Tip">-30% [IndustryColored] on Planet</LocalizationPair>
+
+ <LocalizationPair Name="%LMSpec_I_Tip">+15 [IndustryColored] on Planets with a Moon</LocalizationPair>
+ <LocalizationPair Name="%LMSpec_rI_Tip">+1 [IndustryColored] per [Population] per Explored Moon</LocalizationPair>
+ <LocalizationPair Name="%LMSpec_rI2_Tip">+2 [IndustryColored] per [Population] per Developed Moon</LocalizationPair>
+ <LocalizationPair Name="%LMSpec_pS_Tip">-30% [ScienceColored] on Planet</LocalizationPair>
+
+ <LocalizationPair Name="%LunarInf_I_Tip">+10 [IndustryColored] per Moon</LocalizationPair>
+ <LocalizationPair Name="%LunarInf_S_Tip">+2 [ScienceColored] per [Population] on Planets with an Explored Moon</LocalizationPair>
+ <LocalizationPair Name="%LunarInf_D_Tip">+5% [DustColored] per Developed Moon</LocalizationPair>
+ <LocalizationPair Name="%LunarInf_U_Tip">-6 [DustColored] per Moon</LocalizationPair>
+
+ <LocalizationPair Name="%LDNetworks_M_Tip">+20 [ScienceColored] per Moon</LocalizationPair>
+ <LocalizationPair Name="%LDNetworks_S_Tip">+1% [ScienceColored] per Lunar Data Network in Empire</LocalizationPair>
+ 
+ <LocalizationPair Name="%LunarTourism_D_Tip">+10 [DustColored] per Explored Moon</LocalizationPair>
+ <LocalizationPair Name="%LunarTourism_H_Tip">+5 [HappinessColored] per Developed Moon</LocalizationPair>
+ 
+ <LocalizationPair Name="%LC_Pop_Tip">+1 Population Slot on Planets with an Explored Moon</LocalizationPair>
+
+ <LocalizationPair Name="%SSIP2_Pop_Tip">+2 Population Slots on Planets with a Developed Moon</LocalizationPair>
+
+ <LocalizationPair Name="%ETInf_S_Tip">+30 [ScienceColored] per Endless Structure in Empire</LocalizationPair>
+ <LocalizationPair Name="%ETInf_I_Tip">+10 [PrestigeColored] per Endless Structure in Empire</LocalizationPair>
+ <LocalizationPair Name="%ETInf_BW_Tip">+30 [ProcessingPower] per Endless Structure in Empire</LocalizationPair>
+
+ <LocalizationPair Name="%DevelopMoon_Tip">This improvement requires an explored moon.
+Explore Moon technology is located in Pev-Scale Accelerators of Science Tier 2.</LocalizationPair>
+ <LocalizationPair Name="%RestoreTemple_Tip">This improvement requires a moon temple, which requires an explored moon.
+Explore Moon technology is located in Pev-Scale Accelerators of Science Tier 2.</LocalizationPair>
+
+
+ <LocalizationPair Name="%OrbUpgradeI_F">+20 [FoodColored] on Planets with an Explored Celestial Orb</LocalizationPair>
+ <LocalizationPair Name="%OrbUpgradeI_I">+50 [IndustryColored] on Planets with an Explored Celestial Orb</LocalizationPair>
+ <LocalizationPair Name="%OrbUpgradeI_P">+10% [IndustryColored] per Explored Celestial Orb</LocalizationPair>
+ 
+ <LocalizationPair Name="%OrbD_D_Tip">+0.5% [DustColored] of Empire [DustColored] stock on Empire</LocalizationPair>
+ 
+ <LocalizationPair Name="%OrbUpgradeD_D">+50 [DustColored] on Planets with an Explored Celestial Orb</LocalizationPair>
+ <LocalizationPair Name="%OrbUpgradeD_P">+10% [DustColored] per Explored Celestial Orb</LocalizationPair>
+ <LocalizationPair Name="%OrbUpgradeD_I">+5 [PrestigeColored] per Explored Celestial Orb</LocalizationPair>
+
+ <LocalizationPair Name="%OrbUpgradeS_S">+50 [ScienceColored] on Planets with an Explored Celestial Orb</LocalizationPair>
+ <LocalizationPair Name="%OrbUpgradeS_P">+10% [ScienceColored] per Explored Celestial Orb</LocalizationPair>
+ <LocalizationPair Name="%OrbUpgradeS_B">+10 [ProcessingPower] per Explored Celestial Orb</LocalizationPair>
+
+ <LocalizationPair Name="%GasSpecInd">+5 [IndustryColored] per [Population]
++3 [IndustryColored] per [Population] on non-Cold</LocalizationPair>
+
+ <LocalizationPair Name="%GasSpecSci">+5 [ScienceColored] per [Population]
++3 [ScienceColored] per [Population] on non-Hot</LocalizationPair>
+
+ <LocalizationPair Name="%GasSpecGen">+5 [DustColored] per [Population]
++5 [DustColored] per [Population] on non-Hot, and non-Cold</LocalizationPair>
+
+ <LocalizationPair Name="%OrbColonization_P">+2 Population Slots on Planets with an Explored Celestial Orb</LocalizationPair>
+ <LocalizationPair Name="%OrbColonization_M">+100 [SystemDefense] capacity per Explored Celestial Orb on System</LocalizationPair>
+
+
+ <LocalizationPair Name="%DeepMind_FIDSI_Tip">+2% [FIDSI] per Enclave in Empire on System</LocalizationPair>
+
+ <LocalizationPair Name="%TemplePortal_Tip">Allows the teleportation of fleets between this system and another portal</LocalizationPair>
+ 
+ <LocalizationPair Name="%TempleInterest_Tip">+1% [DustColored] of Empire [DustColored] stock on Empire</LocalizationPair>
+ 
+ <LocalizationPair Name="%WatchmakerExport_Tip">+40 [IndustryColored] on Systems with a Watchmaker Child Facility
++30 [ScienceColored] on Systems with a Watchmaker Child Facility</LocalizationPair>
+ <LocalizationPair Name="%WatchmakerExport_Upgraded_Tip">+40 [IndustryColored] on Systems with a Watchmaker Child Facility
++30 [ScienceColored] on Systems with a Watchmaker Child Facility
++50% output to all Watchmaker Child Facilities.</LocalizationPair>
+
+ <LocalizationPair Name="%WatchmakerChild_I_Tip">+40 [IndustryColored] if the Watchmaker Temple is in the Export configuration</LocalizationPair>
+ <LocalizationPair Name="%WatchmakerChild_S_Tip">+30 [ScienceColored] if the Watchmaker Temple is in the Export configuration</LocalizationPair>
+
+ <LocalizationPair Name="%ExpandedBeauty_BW_Tip">+4 [ProcessingPower] per [Population] on Planet on Empire</LocalizationPair>
+ <LocalizationPair Name="%ExpandedBeauty_BW2_Tip">+6 [ProcessingPower] per [Population] on Planet on Empire</LocalizationPair>
+
+ <LocalizationPair Name="%CultureNetwork_I_Tip">+3 [PrestigeColored] per [Population] Type on [X]: Dust Archive</LocalizationPair>
+
+ <LocalizationPair Name="%TempleBotOutpost_F_Tip">+30 [FoodColored] -5 [FoodColored] per other built (Min 5 [FoodColored])</LocalizationPair>
+ <LocalizationPair Name="%TempleBotOutpost_I_Tip">+30 [IndustryColored] -5 [IndustryColored] per other built (Min 5 [IndustryColored])</LocalizationPair>
+ <LocalizationPair Name="%TempleBotOutpost_FIDSI_Tip">+20% [FIDSI] -5% [FIDSI] per other built (Min 0% [FIDSI])</LocalizationPair>
+
+ <LocalizationPair Name="%WebAnchor_Tip">+50 [DustColored] on the System with [X]: Stellar Web</LocalizationPair>
+ 
+ <LocalizationPair Name="%WebBeacon_V_Tip">+3 Vision range per Web Beacon in Empire</LocalizationPair>
+ <LocalizationPair Name="%WebBeacon_S1_Tip">+5 [ScienceColored] per Web Beacon in Empire</LocalizationPair>
+ <LocalizationPair Name="%WebBeacon_S2_Tip">+100 [ScienceColored] on the System with [X]: Stellar Web</LocalizationPair>
+
+ <LocalizationPair Name="%StellarWeb_D_Tip">+50 [DustColored] per Web Anchor in Empire</LocalizationPair>
+ <LocalizationPair Name="%StellarWeb_S_Tip">+100 [ScienceColored] per Web Beacon in Empire</LocalizationPair>
+ <LocalizationPair Name="%StellarWeb_V_Tip">+10 Vision range on System
++3 Vision range per Web Beacon in Empire</LocalizationPair>
+
+ <LocalizationPair Name="%CoreStack_BW_Tip">+10 [ProcessingPower] per Celestial Orb and Endless Temple in Empire</LocalizationPair>
+ <LocalizationPair Name="%CoreStack_BW2_Tip">+20 [ProcessingPower] per Celestial Orb and Endless Temple in Empire</LocalizationPair>
+ <LocalizationPair Name="%CoreStack_Traitor_Tip">Reveals sleeper populations on System</LocalizationPair>
+ <LocalizationPair Name="%CoreStack_Vision_Tip">Sets system anti-cloak to level 3</LocalizationPair>
+<LocalizationPair Name="%CoreStack_Hack_Tip">+30% Hack Travel Speed on Empire</LocalizationPair>
+
+ <LocalizationPair Name="%Router_H_Tip">+3% Hacking Speed on Empire</LocalizationPair>
+
+ <LocalizationPair Name="%HunterGuilds_D_Tip">+30 [DustColored] per Undiscovered Temple or Cloaked Orb</LocalizationPair>
+ <LocalizationPair Name="%HunterGuilds_S_Tip">+20 [ScienceColored] per Undiscovered Temple or Cloaked Orb</LocalizationPair>
+ <LocalizationPair Name="%HunterGuilds_I_Tip">+10 [PrestigeColored] per Undiscovered Temple or Cloaked Orb</LocalizationPair>
+ <LocalizationPair Name="%HunterGuilds_E_Tip">+75 [LifeForceColored] per Undiscovered Temple or Cloaked Orb</LocalizationPair>
+ 
+ <LocalizationPair Name="%HunterGuilds_Tip">+30 [DustColored] per Undiscovered Temple or Cloaked Orb
++20 [ScienceColored] per Undiscovered Temple or Cloaked Orb
++10 [PrestigeColored] per Undiscovered Temple or Cloaked Orb
++75 [LifeForceColored] per Undiscovered Temple or Cloaked Orb</LocalizationPair>
+
+
+<!-- Game Variable Lables -->
+ <LocalizationPair Name="%ExploredMoonsVar">Explored Moon</LocalizationPair>
+ <LocalizationPair Name="%DevelopedMoonsVar">Developed Moon</LocalizationPair>
+ <LocalizationPair Name="%WebAnchorsVar">Web Anchor in Empire</LocalizationPair>
+ <LocalizationPair Name="%WebBeaconsVar">Web Beacon in Empire</LocalizationPair>
+ <LocalizationPair Name="%UndiscoveredMoonTemplesVar">Hidden Moon Temple in System</LocalizationPair>
+ <LocalizationPair Name="%WatchmakerExportVar">Watchmaker Temple in Export configuration</LocalizationPair>
+ <LocalizationPair Name="%LawUpkeepMultiplierVar">Law upkeep cost</LocalizationPair>
+ <LocalizationPair Name="%PopulationTypeCountTitle">[Population] Type on Planet</LocalizationPair>
+ <LocalizationPair Name="%BankAccountVar">[DustColored] </LocalizationPair>
+ <LocalizationPair Name="%EM_PlanetAnomalyVar">Anomaly</LocalizationPair>
+ 
+ <LocalizationPair Name="%PlanetImprovementApproval_Title">Approval specialization</LocalizationPair>
+ <LocalizationPair Name="%PlanetImprovementGasFIDS_Title">FIDS specialization</LocalizationPair>
+ <LocalizationPair Name="%FailurePrerequisiteDescription">No anomaly reductions available.</LocalizationPair>
+ 
+ <LocalizationPair Name="%SubCategoryLunarTitle">Lunar</LocalizationPair>
+ <LocalizationPair Name="%SubCategoryHackingTitle">Hacking</LocalizationPair>
+ <LocalizationPair Name="%SubCategoryUmbralChoirTitle">Umbral Choir</LocalizationPair>
+ 
+<!--  "on Planet" labels for anomaly tooltips -->
+ <LocalizationPair Name="%5_PlanetFood">+5 [FoodColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetFood">+10 [FoodColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetFood">+15 [FoodColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetFood">+20 [FoodColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%30_PlanetFood">+30 [FoodColored] on Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetIndustry">+5 [IndustryColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetIndustry">+10 [IndustryColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetIndustry">+15 [IndustryColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetIndustry">+20 [IndustryColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%30_PlanetIndustry">+30 [IndustryColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%100_PlanetIndustry">+100 [IndustryColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%200_PlanetIndustry">+200 [IndustryColored] on Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetDust">+5 [DustColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetDust">+10 [DustColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetDust">+15 [DustColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetDust">+20 [DustColored] on Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetScience">+5 [ScienceColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetScience">+10 [ScienceColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetScience">+15 [ScienceColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetScience">+20 [ScienceColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%50_PlanetScience">+50 [ScienceColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%150_PlanetScience">+150 [ScienceColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%300_PlanetScience">+300 [ScienceColored] on Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetPrestige">+5 [PrestigeColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetPrestige">+10 [PrestigeColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetPrestige">+15 [PrestigeColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetPrestige">+20 [PrestigeColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%30_PlanetPrestige">+30 [PrestigeColored] on Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetFIDS">+5 [FIDSColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetFIDS">+10 [FIDSColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetFIDS">+15 [FIDSColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetFIDS">+20 [FIDSColored] on Planet</LocalizationPair>
+ 
+ <LocalizationPair Name="%5_PlanetFIDSI">+5 [FIDSIColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%10_PlanetFIDSI">+10 [FIDSIColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%15_PlanetFIDSI">+15 [FIDSIColored] on Planet</LocalizationPair>
+ <LocalizationPair Name="%20_PlanetFIDSI">+20 [FIDSIColored] on Planet</LocalizationPair>
+ 
+
+<!-- Technology -->
+  <LocalizationPair Name="%Technology_RestoreTemples_Title">Moon Temple Restoration</LocalizationPair>
+  <LocalizationPair Name="%Technology_RestoreTemples_Desc">Using dedicated AI systems and specialized frameworks developed for studying alien cultures, researchers can finally form cohesive theories dedicated to the restoration and analysis of Endless Moon Temples.
+This allows probabilistic models of the most likely avenues temple restoration projects should focus on.
+#FFFFFF#This improvement requires a moon temple, which requires an explored moon.
+#FFEB96#Moon Exploration technology is located in Pev-Scale Accelerators of Science Tier 2.#REVERT#</LocalizationPair>
+
+  <LocalizationPair Name="%Technology_DevelopMoon_Title">Moon Development</LocalizationPair>
+  <LocalizationPair Name="%Technology_DevelopMoon_Desc">Superior materials have allowed new techniques to fully harvest a moon's resources, both on the surface and deep underground. 
+Through a combination of specialized structures, advanced mining and processing, and extensive infrastructure development, no avenue of exploitation is left unexplored. 
+#FFFFFF#This improvement requires an explored moon.
+#FFEB96#Moon Exploration technology is located in Pev-Scale Accelerators of Science Tier 2.#REVERT#</LocalizationPair> 
+
+  <LocalizationPair Name="%EmpireImprovementMoonExplorationTitle">Moon Exploration</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementMoonExplorationDescription">While it is easy to simply land on a moon, complete exploration requires dedicated teams to perform complete surface mapping and mineral scans, as well as a full analysis of the lunar environment.
+This technology also allows the installation of specialized equipment on hero and exploration ships, allowing the exploration of moons in distant star systems.</LocalizationPair>
+
+</Datatable>

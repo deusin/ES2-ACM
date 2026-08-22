@@ -1,0 +1,1656 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    
+<!-- moon anomaly color -->
+    <ExtendedGuiElement Name="CategoryAnomalyQualityMoon">
+        <Title>%CategoryAnomalyQualityMoonTitle</Title>
+        <Description>%CategoryAnomalyQualityMoonDescription</Description>
+        <Color Red="204" Green="150" Blue="0" Alpha="255"/>
+    </ExtendedGuiElement>
+
+<!-- SubCategories -->
+    <ExtendedGuiElement Name="SubCategoryLunar">
+        <Title>%SubCategoryLunarTitle</Title>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="SubCategoryHacking">
+        <Title>%SubCategoryHackingTitle</Title>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="SubCategoryUmbralChoir">
+        <Title>%SubCategoryUmbralChoirTitle</Title>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="PlanetImprovementApproval">
+        <Title>%PlanetImprovementApproval_Title</Title>
+        <Color Red="241" Green="104" Blue="206" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="PlanetImprovementGasFIDS">
+        <Title>%PlanetImprovementGasFIDS_Title</Title>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+
+    
+<!-- Tech -->        
+	<ExtendedGuiElement Name="TechScreen_MoonExploration">
+        <Title>%EmpireImprovementMoonExplorationTitle</Title>
+        <Description>%EmpireImprovementMoonExplorationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="EmpireImprovementMoonSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementMoonLarge" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%EmpireImprovementMoonExplorationTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="TechScreen_RestoreTemples">
+        <Title>%Technology_RestoreTemples_Title</Title>
+        <Description>%Technology_RestoreTemples_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementAnomalyReductionSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementAnomalyReductionLarge" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%RestoreTemple_Tip</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+        
+    <ExtendedGuiElement Name="TechScreen_DevelopMoon">
+        <Title>%Technology_DevelopMoon_Title</Title>
+        <Description>%Technology_DevelopMoon_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="PlanetAnomaly25Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%DevelopMoon_Tip</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="TechScreen_ModuleMoonExploration">
+        <Title>%ModuleSupportMoonExploration_Title</Title>
+        <Description>%ModuleSupportMoonExploration_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Modules/ModuleSupportJuggernautTerraformer1" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="EmpireImprovementDetectionProbeLevel1">
+        <Title>%EmpireImprovementDetectionProbeLevel1Title</Title>
+        <Description>%EmpireImprovementDetectionProbeLevel1Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementDetectionProbeLevel1Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementDetectionProbeLevel1Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+        
+<!-- Planet Specilizations -->
+    <ExtendedGuiElement Name="EntertainmentSpec">
+        <Title>%EntertainmentSpec_Title</Title>
+        <Description>%EntertainmentSpec_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EntertainmentSpec_Small" />
+            <Icon Size="Large" Path="Gui/EntertainmentSpec_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+	<ExtendedGuiElement Name="LunarResearchSpec">
+        <Title>%LunarResearchSpec_Title</Title>
+        <Description>%LunarResearchSpec_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/LunarResearchSpec_Small" />
+            <Icon Size="Large" Path="Gui/LunarResearchSpec_Large" />
+        </Icons>
+        <Color Red="82" Green="201" Blue="231" Alpha="255" />
+    </ExtendedGuiElement>
+
+	<ExtendedGuiElement Name="LunarMiningSpec">
+        <Title>%LunarMiningSpec_Title</Title>
+        <Description>%LunarMiningSpec_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/LunarMiningSpec_Small" />
+            <Icon Size="Large" Path="Gui/LunarMiningSpec_Large" />
+        </Icons>
+        <Color Red="223" Green="130" Blue="105" Alpha="255" />
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="GasGiantSpecInd">
+        <Title>%GasGiantSpecInd_Title</Title>
+        <Description>%GasGiantSpecInd_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/GasGiantSpecInd_Small" />
+            <Icon Size="Large" Path="Gui/GasGiantSpecInd_Large" />
+        </Icons>
+        <Color Red="223" Green="130" Blue="105" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="GasGiantSpecSci">
+        <Title>%GasGiantSpecSci_Title</Title>
+        <Description>%GasGiantSpecSci_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/GasGiantSpecSci_Small" />
+            <Icon Size="Large" Path="Gui/GasGiantSpecSci_Large" />
+        </Icons>
+        <Color Red="82" Green="201" Blue="231" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="GasGiantSpecGen">
+        <Title>%GasGiantSpecGen_Title</Title>
+        <Description>%GasGiantSpecGen_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/GasGiantSpecGen_Small" />
+            <Icon Size="Large" Path="Gui/GasGiantSpecGen_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    
+<!-- Modules -->
+    <ExtendedGuiElement Name="ModuleSupportMoonExploration">
+        <Title>%ModuleSupportMoonExploration_Title</Title>
+        <Description>%ModuleSupportMoonExploration_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/ModuleMoonExploration" />
+        </Icons>
+        <Sounds>
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+        </Sounds>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ModuleOrbEngineProbe">
+        <Title>%ModuleOrbEngineProbe_Title</Title>
+        <Description>%ModuleOrbEngineProbe_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/ModuleOrbEngineProbe" />
+        </Icons>
+        <Sounds>
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+        </Sounds>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="ModuleOrbScanner">
+        <Title>%ModuleOrbScanner_Title</Title>
+        <Description>%ModuleOrbScanner_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/ModuleOrbScanner" />
+        </Icons>
+        <Sounds>
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+        </Sounds>
+    </ExtendedGuiElement>
+
+    
+    
+<!-- Cloaked Orbs -->
+    <ExtendedGuiElement Name="CloakedOrb_I1_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_I1_2">
+        <Title>%CloakedOrb_I1_Title</Title>
+        <Description>%CloakedOrb_I1_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CloakedOrb_I2_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_I2_2">
+        <Title>%CloakedOrb_I2_Title</Title>
+        <Description>%CloakedOrb_I2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CloakedOrb_I3_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_I3_2">
+        <Title>%CloakedOrb_I3_Title</Title>
+        <Description>%CloakedOrb_I3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+
+    <ExtendedGuiElement Name="CloakedOrb_D1_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_D1_2">
+        <Title>%CloakedOrb_D1_Title</Title>
+        <Description>%CloakedOrb_D1_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CloakedOrb_D2_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_D2_2">
+        <Title>%CloakedOrb_D2_Title</Title>
+        <Description>%CloakedOrb_D2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CloakedOrb_D3_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_D3_2">
+        <Title>%CloakedOrb_D3_Title</Title>
+        <Description>%CloakedOrb_D3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+
+    <ExtendedGuiElement Name="CloakedOrb_S1_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_S1_2">
+        <Title>%CloakedOrb_S1_Title</Title>
+        <Description>%CloakedOrb_S1_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CloakedOrb_S2_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_S2_2">
+        <Title>%CloakedOrb_S2_Title</Title>
+        <Description>%CloakedOrb_S2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CloakedOrb_S3_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_S3_2">
+        <Title>%CloakedOrb_S3_Title</Title>
+        <Description>%CloakedOrb_S3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+
+    <ExtendedGuiElement Name="CloakedOrb_FIDS1_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_FIDS1_2">
+        <Title>%CloakedOrb_FIDS1_Title</Title>
+        <Description>%CloakedOrb_FIDS1_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CloakedOrb_FIDS2_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_FIDS2_2">
+        <Title>%CloakedOrb_FIDS2_Title</Title>
+        <Description>%CloakedOrb_FIDS2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="CloakedOrb_FIDS3_1">
+        <Title>%CloakedOrb_Title</Title>
+        <Description>%CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="CloakedOrb_FIDS3_2">
+        <Title>%CloakedOrb_FIDS3_Title</Title>
+        <Description>%CloakedOrb_FIDS3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+
+<!-- Moons -->
+    <ExtendedGuiElement Name="Moon_SmSingA1">
+        <Title>%Moon_SmSing_Title</Title>
+        <Description>%Moon_SmSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingA2">
+        <Title>%Moon_SmSingA2_Title</Title>
+        <Description>%Moon_SmSingA2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingA3">
+        <Title>%Moon_SmSingA3_Title</Title>
+        <Description>%Moon_SmSingA3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_SmSingB1">
+        <Title>%Moon_SmSing_Title</Title>
+        <Description>%Moon_SmSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingB2">
+        <Title>%Moon_SmSingB2_Title</Title>
+        <Description>%Moon_SmSingB2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingB3">
+        <Title>%Moon_SmSingB3_Title</Title>
+        <Description>%Moon_SmSingB3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_SmSingE1">
+        <Title>%Moon_SmSing_Title</Title>
+        <Description>%Moon_SmSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingE2">
+        <Title>%Moon_SmSingE2_Title</Title>
+        <Description>%Moon_SmSingE2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingE3">
+        <Title>%Moon_SmSingE3_Title</Title>
+        <Description>%Moon_SmSingE3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+    
+    <ExtendedGuiElement Name="Moon_MdSingA1">
+        <Title>%Moon_MdSing_Title</Title>
+        <Description>%Moon_MdSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingA2">
+        <Title>%Moon_MdSingA2_Title</Title>
+        <Description>%Moon_MdSingA2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingA3">
+        <Title>%Moon_MdSingA3_Title</Title>
+        <Description>%Moon_MdSingA3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_MdSingE1">
+        <Title>%Moon_MdSing_Title</Title>
+        <Description>%Moon_MdSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingE2">
+        <Title>%Moon_MdSingE2_Title</Title>
+        <Description>%Moon_MdSingE2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingE3">
+        <Title>%Moon_MdSingE3_Title</Title>
+        <Description>%Moon_MdSingE3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_MdSingF1">
+        <Title>%Moon_MdSing_Title</Title>
+        <Description>%Moon_MdSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingF2">
+        <Title>%Moon_MdSingF2_Title</Title>
+        <Description>%Moon_MdSingF2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingF3">
+        <Title>%Moon_MdSingF3_Title</Title>
+        <Description>%Moon_MdSingF3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_MdSingB1">
+        <Title>%Moon_MdSing_Title</Title>
+        <Description>%Moon_MdSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingB2">
+        <Title>%Moon_MdSingB2_Title</Title>
+        <Description>%Moon_MdSingB2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingB3">
+        <Title>%Moon_MdSingB3_Title</Title>
+        <Description>%Moon_MdSingB3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    
+    
+    <ExtendedGuiElement Name="Moon_LgSingA1">
+        <Title>%Moon_LgSing_Title</Title>
+        <Description>%Moon_LgSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonLarge_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgSingA2">
+        <Title>%Moon_LgSingA2_Title</Title>
+        <Description>%Moon_LgSingA2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonLarge_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgSingA3">
+        <Title>%Moon_LgSingA3_Title</Title>
+        <Description>%Moon_LgSingA3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonLarge_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_BinaryA1">
+        <Title>%Moon_Binary_Title</Title>
+        <Description>%Moon_Binary_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryA2">
+        <Title>%Moon_BinaryA2_Title</Title>
+        <Description>%Moon_BinaryA2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryA3">
+        <Title>%Moon_BinaryA3_Title</Title>
+        <Description>%Moon_BinaryA3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_BinaryB1">
+        <Title>%Moon_Binary_Title</Title>
+        <Description>%Moon_Binary_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryB2">
+        <Title>%Moon_BinaryB2_Title</Title>
+        <Description>%Moon_BinaryB2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryB3">
+        <Title>%Moon_BinaryB3_Title</Title>
+        <Description>%Moon_BinaryB3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_BinaryC1">
+        <Title>%Moon_Binary_Title</Title>
+        <Description>%Moon_Binary_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryC2">
+        <Title>%Moon_BinaryC2_Title</Title>
+        <Description>%Moon_BinaryC2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryC3">
+        <Title>%Moon_BinaryC3_Title</Title>
+        <Description>%Moon_BinaryC3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+
+    <ExtendedGuiElement Name="Moon_LgBinaryA1">
+        <Title>%Moon_LgBinary_Title</Title>
+        <Description>%Moon_LgBinary_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgBinaryA2">
+        <Title>%Moon_LgBinaryA2_Title</Title>
+        <Description>%Moon_LgBinaryA2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgBinaryA3">
+        <Title>%Moon_LgBinaryA3_Title</Title>
+        <Description>%Moon_LgBinaryA3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_LgBinaryB1">
+        <Title>%Moon_LgBinary_Title</Title>
+        <Description>%Moon_LgBinary_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgBinaryB2">
+        <Title>%Moon_LgBinaryB2_Title</Title>
+        <Description>%Moon_LgBinaryB2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgBinaryB3">
+        <Title>%Moon_LgBinaryB3_Title</Title>
+        <Description>%Moon_LgBinaryB3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_VolcanicA1">
+        <Title>%Moon_Volcanic_Title</Title>
+        <Description>%Moon_Volcanic_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonVolcanic_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_VolcanicA2">
+        <Title>%Moon_VolcanicA2_Title</Title>
+        <Description>%Moon_VolcanicA2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonVolcanic_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_VolcanicA3">
+        <Title>%Moon_VolcanicA3_Title</Title>
+        <Description>%Moon_VolcanicA3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonVolcanic_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_VolcanicB1">
+        <Title>%Moon_Volcanic_Title</Title>
+        <Description>%Moon_Volcanic_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonVolcanic_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_VolcanicB2">
+        <Title>%Moon_VolcanicB2_Title</Title>
+        <Description>%Moon_VolcanicB2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonVolcanic_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_VolcanicB3">
+        <Title>%Moon_VolcanicB3_Title</Title>
+        <Description>%Moon_VolcanicB3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonVolcanic_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+
+    <ExtendedGuiElement Name="Moon_FrozenA1">
+        <Title>%Moon_Frozen_Title</Title>
+        <Description>%Moon_Frozen_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FrozenA2">
+        <Title>%Moon_FrozenA2_Title</Title>
+        <Description>%Moon_FrozenA2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FrozenA3">
+        <Title>%Moon_FrozenA3_Title</Title>
+        <Description>%Moon_FrozenA3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_FrozenB1">
+        <Title>%Moon_Frozen_Title</Title>
+        <Description>%Moon_Frozen_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FrozenB2">
+        <Title>%Moon_FrozenB2_Title</Title>
+        <Description>%Moon_FrozenB2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FrozenB3">
+        <Title>%Moon_FrozenB3_Title</Title>
+        <Description>%Moon_FrozenB3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_FrozenC1">
+        <Title>%Moon_Frozen_Title</Title>
+        <Description>%Moon_Frozen_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FrozenC2">
+        <Title>%Moon_FrozenC2_Title</Title>
+        <Description>%Moon_FrozenC2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FrozenC3">
+        <Title>%Moon_FrozenC3_Title</Title>
+        <Description>%Moon_FrozenC3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+
+    <ExtendedGuiElement Name="Moon_FertileA1">
+        <Title>%Moon_Fertile_Title</Title>
+        <Description>%Moon_Fertile_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileA2">
+        <Title>%Moon_FertileA2_Title</Title>
+        <Description>%Moon_FertileA2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileA3">
+        <Title>%Moon_FertileA3_Title</Title>
+        <Description>%Moon_FertileA3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_FertileB1">
+        <Title>%Moon_Fertile_Title</Title>
+        <Description>%Moon_Fertile_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileB2">
+        <Title>%Moon_FertileB2_Title</Title>
+        <Description>%Moon_FertileB2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileB3">
+        <Title>%Moon_FertileB3_Title</Title>
+        <Description>%Moon_FertileB3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_FertileC1">
+        <Title>%Moon_Fertile_Title</Title>
+        <Description>%Moon_Fertile_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileC2">
+        <Title>%Moon_FertileC2_Title</Title>
+        <Description>%Moon_FertileC2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileC3">
+        <Title>%Moon_FertileC3_Title</Title>
+        <Description>%Moon_FertileC3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+
+    <ExtendedGuiElement Name="Moon_MultiA1">
+        <Title>%Moon_Multi_Title</Title>
+        <Description>%Moon_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiA2">
+        <Title>%Moon_MultiA2_Title</Title>
+        <Description>%Moon_MultiA2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiA3">
+        <Title>%Moon_MultiA3_Title</Title>
+        <Description>%Moon_MultiA3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_MultiB1">
+        <Title>%Moon_Multi_Title</Title>
+        <Description>%Moon_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiB2">
+        <Title>%Moon_MultiB2_Title</Title>
+        <Description>%Moon_MultiB2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiB3">
+        <Title>%Moon_MultiB3_Title</Title>
+        <Description>%Moon_MultiB3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_MultiC1">
+        <Title>%Moon_Multi_Title</Title>
+        <Description>%Moon_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiC2">
+        <Title>%Moon_MultiC2_Title</Title>
+        <Description>%Moon_MultiC2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiC3">
+        <Title>%Moon_MultiC3_Title</Title>
+        <Description>%Moon_MultiC3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_MultiD1">
+        <Title>%Moon_Multi_Title</Title>
+        <Description>%Moon_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiD2">
+        <Title>%Moon_MultiD2_Title</Title>
+        <Description>%Moon_MultiD2_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiD3">
+        <Title>%Moon_MultiD3_Title</Title>
+        <Description>%Moon_MultiD3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+    </ExtendedGuiElement>
+
+
+<!-- Temples -->    
+    <ExtendedGuiElement Name="Moon_SmSingC1_TA">
+        <Title>%Moon_SmSing_Title</Title>
+        <Description>%Moon_SmSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonSmall_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingC2_TA">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_SmSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingC3_TA">
+        <Title>%Moon_SmSingC3_TA_Title</Title>
+        <Description>%Moon_SmSingC3_TA_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingC4_TA">
+        <Title>%Moon_SmSingC4_TA_Title</Title>
+        <Description>%Moon_SmSingC4_TA_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_MdSingC1_TB">
+        <Title>%Moon_MdSing_Title</Title>
+        <Description>%Moon_MdSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingC2_TB">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_MdSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingC3_TB">
+        <Title>%Moon_MdSingC3_TB_Title</Title>
+        <Description>%Moon_MdSingC3_TB_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingC4_E_TB">
+        <Title>%Moon_MdSingC4_E_TB_Title</Title>
+        <Description>%Moon_MdSingC4_E_TB_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingC4_S_TB">
+        <Title>%Moon_MdSingC4_S_TB_Title</Title>
+        <Description>%Moon_MdSingC4_S_TB_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingC5_ES_TB">
+        <Title>%Moon_MdSingC5_ES_TB_Title</Title>
+        <Description>%Moon_MdSingC5_ES_TB_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_BinaryD1_TC">
+        <Title>%Moon_Binary_Title</Title>
+        <Description>%Moon_Binary_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryD2_TC">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_Binary_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryD3_TC">
+        <Title>%Moon_BinaryD3_TC_Title</Title>
+        <Description>%Moon_BinaryD3_TC_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryD4_TC">
+        <Title>%Moon_BinaryD4_TC_Title</Title>
+        <Description>%Moon_BinaryD4_TC_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryD5_TC">
+        <Title>%Moon_BinaryD5_TC_Title</Title>
+        <Description>%Moon_BinaryD5_TC_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryD6_TC">
+        <Title>%Moon_BinaryD6_TC_Title</Title>
+        <Description>%Moon_BinaryD6_TC_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryD7_TC">
+        <Title>%Moon_BinaryD7_TC_Title</Title>
+        <Description>%Moon_BinaryD7_TC_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_BinaryD8_TC">
+        <Title>%Moon_BinaryD8_TC_Title</Title>
+        <Description>%Moon_BinaryD8_TC_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_LgBinaryC1_TD">
+        <Title>%Moon_LgBinary_Title</Title>
+        <Description>%Moon_LgBinary_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly26Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgBinaryC2_TD">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_LgBinary_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgBinaryC3_TD">
+        <Title>%Moon_LgBinaryC3_TD_Title</Title>
+        <Description>%Moon_LgBinaryC3_TD_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgBinaryC4_TD">
+        <Title>%Moon_LgBinaryC4_TD_Title</Title>
+        <Description>%Moon_LgBinaryC4_TD_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_VolcanicC1_TE">
+        <Title>%Moon_Volcanic_Title</Title>
+        <Description>%Moon_Volcanic_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonVolcanic_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_VolcanicC2_TE">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_Volcanic_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_VolcanicC3_TE">
+        <Title>%Moon_VolcanicC3_TE_Title</Title>
+        <Description>%Moon_VolcanicC3_TE_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_VolcanicC4_S_TE">
+        <Title>%Moon_VolcanicC4_S_TE_Title</Title>
+        <Description>%Moon_VolcanicC4_S_TE_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_VolcanicC4_T_TE">
+        <Title>%Moon_VolcanicC4_T_TE_Title</Title>
+        <Description>%Moon_VolcanicC4_T_TE_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_VolcanicC4_ST_TE">
+        <Title>%Moon_VolcanicC4_ST_TE_Title</Title>
+        <Description>%Moon_VolcanicC4_ST_TE_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_FrozenD1_TF">
+        <Title>%Moon_Frozen_Title</Title>
+        <Description>%Moon_Frozen_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFrozen_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FrozenD2_TF">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_Frozen_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FrozenD3_TF">
+        <Title>%Moon_FrozenD3_TF_Title</Title>
+        <Description>%Moon_FrozenD3_TF_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FrozenD4_TF">
+        <Title>%Moon_FrozenD4_TF_Title</Title>
+        <Description>%Moon_FrozenD4_TF_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_FertileD1_TG">
+        <Title>%Moon_Fertile_Title</Title>
+        <Description>%Moon_Fertile_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileD2_TG">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_Fertile_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileD3_TG">
+        <Title>%Moon_FertileD3_TG_Title</Title>
+        <Description>%Moon_FertileD3_TG_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileD4_TG">
+        <Title>%Moon_FertileD4_TG_Title</Title>
+        <Description>%Moon_FertileD4_TG_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_FertileE1_TH">
+        <Title>%Moon_Fertile_Title</Title>
+        <Description>%Moon_Fertile_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonFertile_Large" />
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileE2_TH">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_Fertile_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileE3_TH">
+        <Title>%Moon_FertileE3_TH_Title</Title>
+        <Description>%Moon_FertileE3_TH_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_FertileE4_TH">
+        <Title>%Moon_FertileE4_TH_Title</Title>
+        <Description>%Moon_FertileE4_TH_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_MultiE1_TI">
+        <Title>%Moon_Multi_Title</Title>
+        <Description>%Moon_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiE2_TI">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiE3_TI">
+        <Title>%Moon_MultiE3_TI_Title</Title>
+        <Description>%Moon_MultiE3_TI_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiE4_TI">
+        <Title>%Moon_MultiE4_TI_Title</Title>
+        <Description>%Moon_MultiE4_TI_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_MultiF1_TJ">
+        <Title>%Moon_Multi_Title</Title>
+        <Description>%Moon_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiF2_TJ">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly" />
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiF3_TJ">
+        <Title>%Moon_MultiF3_TJ_Title</Title>
+        <Description>%Moon_MultiF3_TJ_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiF4_TJ">
+        <Title>%Moon_MultiF4_TJ_Title</Title>
+        <Description>%Moon_MultiF4_TJ_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_LgSingB1_TK">
+        <Title>%Moon_LgSing_Title</Title>
+        <Description>%Moon_LgSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Gui/MoonLarge_Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgSingB2_TK">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly" />
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgSingB3_TK">
+        <Title>%Moon_LgSingB3_TK_Title</Title>
+        <Description>%Moon_LgSingB3_TK_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgSingB4_TK">
+        <Title>%Moon_LgSingB3_TK_Title</Title>
+        <Description>%Moon_LgSingB4_TK_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgSingB5_TK">
+        <Title>%Moon_LgSingB3_TK_Title</Title>
+        <Description>%Moon_LgSingB5_TK_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgSingB6_TK">
+        <Title>%Moon_LgSingB3_TK_Title</Title>
+        <Description>%Moon_LgSingB6_TK_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_LgSingB7_TK">
+        <Title>%Moon_LgSingB7_TK_Title</Title>
+        <Description>%Moon_LgSingB7_TK_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/SpecialNodes/SpecialNodeAsteroidFieldLarge"/>
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_MultiG1_TL">
+        <Title>%Moon_Multi_Title</Title>
+        <Description>%Moon_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly27Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiG2_TL">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_Multi_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly" />
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiG3_TL">
+        <Title>%Moon_MultiG3_TL_Title</Title>
+        <Description>%Moon_MultiG3_TL_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MultiG4_TL">
+        <Title>%Moon_MultiG4_TL_Title</Title>
+        <Description>%Moon_MultiG4_TL_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="Moon_MdSingD1_TM">
+        <Title>%Moon_MdSing_Title</Title>
+        <Description>%Moon_MdSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingD2_TM">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_MdSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly" />
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingD3_TM">
+        <Title>%Moon_MdSingD3_TM_Title</Title>
+        <Description>%Moon_MdSingD3_TM_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingD4_TM">
+        <Title>%Moon_MdSingD4_TM_Title</Title>
+        <Description>%Moon_MdSingD4_TM_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_MdSingD5_TM">
+        <Title>%Moon_MdSingD5_TM_Title</Title>
+        <Description>%Moon_MdSingD5_TM_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="Moon_SmSingD1_TN">
+        <Title>%Moon_SmSing_Title</Title>
+        <Description>%Moon_SmSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large"/>
+        </Icons>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingD2_TN">
+        <Title>%Moon_MoonTemple_Title</Title>
+        <Description>%Moon_MoonTemple_SmSing_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly" />
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingD3_TN">
+        <Title>%Moon_SmSingD3_TN_Title</Title>
+        <Description>%Moon_SmSingD3_TN_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingD4_TN">
+        <Title>%Moon_SmSingD4_TN_Title</Title>
+        <Description>%Moon_SmSingD4_TN_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="Moon_SmSingD5_TN">
+        <Title>%Moon_SmSingD5_TN_Title</Title>
+        <Description>%Moon_SmSingD5_TN_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Gui/MoonTempleR2_Large" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    
+    
+</Datatable>
