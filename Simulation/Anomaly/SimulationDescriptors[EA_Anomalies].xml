@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: the PlanetAnomaly base descriptor is identical to Endless Moons' copy in SimulationDescriptors[EM_Anomaly].xml and removed here. -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
      
      
-	<SimulationDescriptor Name="PlanetAnomaly" Type="PlanetAnomaly" /> <!-- Cancel default PlanetAnomaly for counting for Endless Moons -->
+<!-- Cancel default PlanetAnomaly for counting for Endless Moons -->
 
 
 <!-- Anomalies -->

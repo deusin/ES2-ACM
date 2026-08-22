@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: AnomalyReduction25-27(+Alt) moved to Endless Moons' ConstructibleElement_AnomalyReductions[EM].xml (1-turn "Explore Moon"). -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/AnomalyReductionDefinition.xsd">
 
@@ -169,65 +170,11 @@
     </AnomalyReductionDefinition>
 
     <!-- MOON EXPLORATION -->
-    <AnomalyReductionDefinition Name="AnomalyReduction25" Category="CategoryAnomalyReduction">
-        <CustomCost ResourceName="SystemProduction">960 * (1 + Property(StockLocation, @../ClassEmpire, ReductionModifier)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, BuildingProductionCostReduction)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, GameSpeedProductionCostReduction))</CustomCost>
-        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
-        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyMoonExploration</TechnologyPrerequisite>
-        <InterpreterPrerequisite Flags="Prerequisite,Disable">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-    <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-        <BaseAnomaly Name="PlanetAnomaly25"/>
-        <ResultAnomaly Name="PlanetAnomaly25Reduced"/>
-    </AnomalyReductionDefinition>
 
-    <AnomalyReductionDefinition Name="AnomalyReduction25Alt" Category="CategoryAnomalyReduction">
-        <CustomCost ResourceName="SystemProduction">960 * (1 + Property(StockLocation, @../ClassEmpire, ReductionModifier)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, BuildingProductionCostReduction)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, GameSpeedProductionCostReduction))</CustomCost>
-        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
-        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyMoonExploration</TechnologyPrerequisite>
-        <InterpreterPrerequisite Flags="Prerequisite,Disable">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-    <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-        <BaseAnomaly Name="PlanetAnomaly25Alt"/>
-        <ResultAnomaly Name="PlanetAnomaly25Explored"/>
-    </AnomalyReductionDefinition>
 
-    <AnomalyReductionDefinition Name="AnomalyReduction26" Category="CategoryAnomalyReduction">
-        <CustomCost ResourceName="SystemProduction">960 * (1 + Property(StockLocation, @../ClassEmpire, ReductionModifier)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, BuildingProductionCostReduction)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, GameSpeedProductionCostReduction))</CustomCost>
-        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
-        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyMoonExploration</TechnologyPrerequisite>
-        <InterpreterPrerequisite Flags="Prerequisite,Disable">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-    <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-        <BaseAnomaly Name="PlanetAnomaly26"/>
-        <ResultAnomaly Name="PlanetAnomaly26Reduced"/>
-    </AnomalyReductionDefinition>
 
-    <AnomalyReductionDefinition Name="AnomalyReduction26Alt" Category="CategoryAnomalyReduction">
-        <CustomCost ResourceName="SystemProduction">960 * (1 + Property(StockLocation, @../ClassEmpire, ReductionModifier)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, BuildingProductionCostReduction)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, GameSpeedProductionCostReduction))</CustomCost>
-        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
-        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyMoonExploration</TechnologyPrerequisite>
-        <InterpreterPrerequisite Flags="Prerequisite,Disable">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-        <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-        <BaseAnomaly Name="PlanetAnomaly26Alt"/>
-        <ResultAnomaly Name="PlanetAnomaly26Explored"/>
-    </AnomalyReductionDefinition>
 
-    <AnomalyReductionDefinition Name="AnomalyReduction27" Category="CategoryAnomalyReduction">
-        <CustomCost ResourceName="SystemProduction">960 * (1 + Property(StockLocation, @../ClassEmpire, ReductionModifier)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, BuildingProductionCostReduction)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, GameSpeedProductionCostReduction))</CustomCost>
-        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
-        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyMoonExploration</TechnologyPrerequisite>
-        <InterpreterPrerequisite Flags="Prerequisite,Disable">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-        <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-        <BaseAnomaly Name="PlanetAnomaly27"/>
-        <ResultAnomaly Name="PlanetAnomaly27Reduced"/>
-    </AnomalyReductionDefinition>
 
-    <AnomalyReductionDefinition Name="AnomalyReduction27Alt" Category="CategoryAnomalyReduction">
-        <CustomCost ResourceName="SystemProduction">960 * (1 + Property(StockLocation, @../ClassEmpire, ReductionModifier)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, BuildingProductionCostReduction)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, GameSpeedProductionCostReduction))</CustomCost>
-        <PathPrerequisite Flags="MustntHaveAffinity,Prerequisite,Discard">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
-        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyMoonExploration</TechnologyPrerequisite>
-        <InterpreterPrerequisite Flags="Prerequisite,Disable">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-        <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
-        <BaseAnomaly Name="PlanetAnomaly27Alt"/>
-        <ResultAnomaly Name="PlanetAnomaly27Explored"/>
-    </AnomalyReductionDefinition>
 
     <!--  UC MIXED ANOMALIES  -->
     <AnomalyReductionDefinition Name="AnomalyReduction52" Category="CategoryAnomalyReduction">

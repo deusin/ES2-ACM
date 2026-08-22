@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: StarSystemImprovementMoonExploitation1 and StarSystemImprovementPopulationSlot2 are Endless Moons' versions in ConstructibleElement_Industry[EM_StarSystemImprovements].xml. -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
 
   <!--**********************-->
@@ -1424,21 +1425,6 @@
   </StarSystemImprovementDefinition>
 
   <!--Moonbase Alpha-->
-  <StarSystemImprovementDefinition Name="StarSystemImprovementMoonExploitation1" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt">
-    <SupervisorGain Name="Science" />
-    <Tags>NoBailiff</Tags>
-    <Cost ResourceName="SystemProduction">1120</Cost>
-    <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
-    <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/PlanetMoon</PathPrerequisite>
-    <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementMoonExploitation1,!FastForwardedImprovement</PathPrerequisite>
-	<PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementMoonExploitation1UmbralChoir,!FastForwardedImprovement</PathPrerequisite>
-    <PathPrerequisite       Inverted="true"    Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>
-    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyMoonExploration</TechnologyPrerequisite>
-    <SimulationDescriptorReference Name="StarSystemImprovementMoonExploitation1" />
-	<SimulationDescriptorReference Name="ClassImprovementRequiresLunarAnomaly" />
-    <SimulationDescriptorReference Name="ScienceConstruction" />
-    <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1" />
-  </StarSystemImprovementDefinition>
 
   <!--**********************-->
   <!--***TIER 4 BUILDINGS***-->
@@ -2178,20 +2164,6 @@
   </StarSystemImprovementDefinition>
 
   <!--Lunar Suburbs-->
-  <StarSystemImprovementDefinition Name="StarSystemImprovementPopulationSlot2" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt">
-    <SupervisorGain Name="Population" />
-    <Cost ResourceName="SystemProduction">1120</Cost>
-    <PathPrerequisite Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
-    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementPopulationSlot2,!FastForwardedImprovement</PathPrerequisite>
-    <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/ClassColonizedPlanet,PlanetMoon</PathPrerequisite>
-    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>
-    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>
-    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyPopulationSlots</TechnologyPrerequisite>
-    <SimulationDescriptorReference Name="StarSystemImprovementPopulationSlot2" />
-	<SimulationDescriptorReference Name="ClassImprovementRequiresLunarAnomaly" />
-    <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5Normal" />
-    <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionPopulationSlot1" />
-  </StarSystemImprovementDefinition>
 
   <!--Advanced System Battery-->
   <StarSystemImprovementDefinition Name="StarSystemImprovementCitadelSpaceBattle2" SubCategory="SubCategoryDefense">

@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal', 'afhs')]
+    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal', 'afhs', 'em', 'ea')]
     [string]$Mod,
 
     # Stage and show the diff in the worktree but do not commit or remove the worktree.
@@ -40,7 +40,7 @@ $WorktreeRoot = 'C:\Users\Kenny\source\worktrees'
 # KeepIcon  = whether to import the mod's preview image (only ESG, whose icon ACM's baseline carries).
 # Icon      = the preview image's name when it is not ModIcon.png.
 # Extra     = additional renames for non-game files worth keeping as reference.
-# Rename    = optional scriptblock (relative path -> relative path) applied to every other file
+# Rename    = optional scriptblock (relative path -> relative path, or $null to skip) applied to every other file
 #             (index and Extra renames take precedence). Used when a mod's file names collide with
 #             ACM's; the renamed paths must still match a FilePath pattern in ACM.xml (see elp).
 $Mods = @{
@@ -120,6 +120,52 @@ $Mods = @{
                             '^Simulation\\HullDefinition\[FHEROSpure\]\.xml$'              { return 'Simulation\Battles\HullDefinitions[AFHS].xml' }
                             '^Simulation\\SimulationDescriptors\[FHEROSpure\]\.xml$'       { return 'Simulation\SimulationDescriptors[AFHS].xml' }
                             '^Simulation\\(.+)\[FHEROSpure\]\.xml$'                       { return "Simulation\Battles\$($Matches[1])[AFHS].xml" }
+                            default                                                       { return $rel }
+                        }
+                    } }
+    # Endless Moons / Endless Anomalies: suffix [EM] / [EA] on ACM's paths (their files carry EM_/EA_ prefixes).
+    # Master keeps ESG's versions of every vanilla anomaly (the *[OriginalAnomalies] files are deleted), owns the
+    # three anomaly weight tables in Galaxy\WeightTableDefinitions[ACM_Anomalies].xml and ports EM's galaxy-size
+    # anomaly counts into ESG's WorldSettingDefinitions.xml - see README.
+    em         = @{ Id = '1316786885'; Index = 'EndlessMoons.xml';         IndexAs = $null;     KeepIcon = $false
+                    Extra = @{ 'Info.txt' = 'Documentation\EndlessMoons-Info.txt'; 'Spoilers.txt' = 'Documentation\EndlessMoons-Spoilers.txt' }
+                    Rename = {
+                        param($rel)
+                        switch -Regex ($rel) {
+                            '^GalaxyGenerator\\EM_WeightTableDefinitions\.xml$'          { return 'Galaxy\WeightTableDefinitions[EM].xml' }
+                            '^Gui\\EM_GuiElements\[Element\]\.xml$'                     { return 'GUI\GUIElements[EM].xml' }
+                            '^Gui\\EM_GuiElements\[(.+)\]\.xml$'                        { return "GUI\GUIElements[EM_$($Matches[1])].xml" }
+                            '^Gui\\EM_GuiTooltipDescriptions\.xml$'                     { return 'GUI\GuiTooltipDescriptions[EM].xml' }
+                            '^Localization\\([^\\]+)\\EM_Localization\.xml$'          { return "Localization\$($Matches[1])\ES2_Localization_Locales[EM].xml" }
+                            '^Quests\\EM_QuestDefinitions\.xml$'                        { return 'Quests\QuestDefinitions[EM].xml' }
+                            '^Settings\\EM_WorldSettings\.xml$'                         { return 'Settings\WorldSettingDefinitions[EM].xml' }
+                            '^Simulation\\EM_AnomalyDefinitions\.xml$'                  { return 'Simulation\Anomaly\AnomalyDefinitions[EM].xml' }
+                            '^Simulation\\EM_ConstructableElement\[(.+)\]\.xml$'        { return "Simulation\ConstructibleElement_Industry[EM_$($Matches[1])].xml" }
+                            '^Simulation\\EM_ConstructibleElement_AnomalyReductions\.xml$' { return 'Simulation\Anomaly\ConstructibleElement_AnomalyReductions[EM].xml' }
+                            '^Simulation\\EM_ModuleDefinitions\.xml$'                   { return 'Simulation\Battles\ModuleDefinitions[EM].xml' }
+                            '^Simulation\\EM_SimulationDescriptors\.xml$'               { return 'Simulation\SimulationDescriptors[EM].xml' }
+                            '^Simulation\\EM_SimulationDescriptors\[(.+)\]\.xml$'       { return "Simulation\Anomaly\SimulationDescriptors[EM_$($Matches[1])].xml" }
+                            '^Simulation\\EM_TechnologyLinkDefinitions\[(.+)\]\.xml$'   { return "Simulation\ConstructibleElement_Science[EM_$($Matches[1])].xml" }
+                            '^Simulation\\EM_(.+)\.xml$'                                 { return "Simulation\$($Matches[1])[EM].xml" }
+                            default                                                       { return $rel }
+                        }
+                    } }
+    ea         = @{ Id = '3257341334'; Index = 'EndlessAnomalies.xml';     IndexAs = $null;     KeepIcon = $false; Extra = @{}
+                    Rename = {
+                        param($rel)
+                        switch -Regex ($rel) {
+                            'copy\.xml$'                                                 { return $null }   # stray EA-EM combined table, not loaded by the mod
+                            '^GalaxyGenerator\\EA_WeightTableDefinitions\.xml$'          { return 'Galaxy\WeightTableDefinitions[EA].xml' }
+                            '^GUI\\EA_GuiElements\[Element\]\.xml$'                     { return 'GUI\GUIElements[EA].xml' }
+                            '^GUI\\EA_GuiElements\[(.+)\]\.xml$'                        { return "GUI\GUIElements[EA_$($Matches[1])].xml" }
+                            '^GUI\\EA_GuiPlanetStatsModifiers\.xml$'                    { return 'GUI\GuiPlanetStatsModifiers[EA].xml' }
+                            '^Localization\\([^\\]+)\\EA_Localization\.xml$'          { return "Localization\$($Matches[1])\ES2_Localization_Locales[EA].xml" }
+                            '^Simulation\\EA_AnomalyDefinitions\.xml$'                  { return 'Simulation\Anomaly\AnomalyDefinitions[EA].xml' }
+                            '^Simulation\\EA_AnomalyDefinitions\[(.+)\]\.xml$'          { return "Simulation\Anomaly\AnomalyDefinitions[EA_$($Matches[1])].xml" }
+                            '^Simulation\\EA_ConstructableElement\[(.+)\]\.xml$'        { return "Simulation\ConstructibleElement_Industry[EA_$($Matches[1])].xml" }
+                            '^Simulation\\EA_ConstructibleElement_AnomalyReductions\.xml$' { return 'Simulation\Anomaly\ConstructibleElement_AnomalyReductions[EA].xml' }
+                            '^Simulation\\EA_SimulationDescriptors\[(.+)\]\.xml$'       { return "Simulation\Anomaly\SimulationDescriptors[EA_$($Matches[1])].xml" }
+                            '^Simulation\\EA_(.+)\.xml$'                                 { return "Simulation\$($Matches[1])[EA].xml" }
                             default                                                       { return $rel }
                         }
                     } }
@@ -212,7 +258,7 @@ try {
         }
         elseif (($rel -eq 'ModIcon.png' -or $rel -eq $m.Icon) -and -not $m.KeepIcon) { continue }
         elseif ($m.Extra.ContainsKey($rel)) { $rel = $m.Extra[$rel] }
-        elseif ($m.Rename) { $rel = & $m.Rename $rel }
+        elseif ($m.Rename) { $rel = & $m.Rename $rel; if (-not $rel) { continue } }  # Rename returning $null skips the file
 
         $dest = Join-Path $wt $rel
         New-Item -ItemType Directory -Force -Path (Split-Path $dest -Parent) | Out-Null

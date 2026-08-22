@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 	<RuntimeModule Name="ACM" Type="Extension" Version="1.6">
 		<Title>Amradyr Collective Mods</Title>
@@ -14,10 +14,11 @@ Folded in:
 - Samus Aran 1.0 - the bounty hunter hero with her own skill trees (New Game > Advanced > ACM Settings lets you turn her off)
 - Arkon Portal - custom-faction trait that lets you build fleet-teleportation portals without the Vaulters affinity (toggle in ACM Settings; its 500-point cheat trait is left out)
 - Arkon Faction Hero Ships [ESG] - heroes fly medium faction ships instead of the small hero hulls
+- Endless Moons 3.1.2 - many more moon types, lunar improvements, Endless moon temples and celestial orbs
+- Endless Anomalies 1.1.3 - over 100 new anomalies
 - Eldritch faction trait category (own content)
 
 Do NOT run the workshop versions of the mods above alongside ACM - they are already inside it and would override the merged copies.
-Plays well alongside Endless Moons and Endless Anomalies.
 
 Credit to the original authors. I resolved the conflicts between them and fixed the bugs I found along the way.
 
@@ -29,7 +30,7 @@ https://github.com/deusin/ES2-ACM
 		<Author>Lord Deusin Amradyr</Author>
 		<Homepage></Homepage>
 		<PreviewImageFile>ACM.png</PreviewImageFile>
-		<ReleaseNotes>Arkon Faction Hero Ships folded in (disable the workshop item - it was overriding the Minor Heroes Reimagined and Political Skill Tree hero definitions). Arkon Portal folded in behind an Enable Arkon Portal toggle (disable the workshop item; its 500-point trait is not included). Samus Aran 1.0 folded back in, with an Enable Samus Aran toggle under New Game > Advanced > ACM Settings (disable the workshop Samus mod). Minor Heroes Reimagined [ESG+PST] 0.2 merged in (unique skill trees for every minor-faction hero, Plocynos minor faction). 2026-08: Endless Legend Populations 4.5 merged in (12 Endless Legend minor factions; do not also run the workshop copy, it crashes ACM). ESG refreshed to the 2026-05-31 workshop drop; Useful Skill Colours 2.2 (Political Skill Tree skills now tinted by Mastery); Samus removed - enable the Samus Aran workshop mod alongside ACM.</ReleaseNotes>
+		<ReleaseNotes>Endless Moons 3.1.2 and Endless Anomalies 1.1.3 folded in (disable both workshop items): ESG keeps its versions of the vanilla anomalies, the moon mechanics are Endless Moons', the anomaly weight tables are merged. Arkon Faction Hero Ships folded in (disable the workshop item - it was overriding the Minor Heroes Reimagined and Political Skill Tree hero definitions). Arkon Portal folded in behind an Enable Arkon Portal toggle (disable the workshop item; its 500-point trait is not included). Samus Aran 1.0 folded back in, with an Enable Samus Aran toggle under New Game > Advanced > ACM Settings (disable the workshop Samus mod). Minor Heroes Reimagined [ESG+PST] 0.2 merged in (unique skill trees for every minor-faction hero, Plocynos minor faction). 2026-08: Endless Legend Populations 4.5 merged in (12 Endless Legend minor factions; do not also run the workshop copy, it crashes ACM). ESG refreshed to the 2026-05-31 workshop drop; Useful Skill Colours 2.2 (Political Skill Tree skills now tinted by Mastery); Samus removed - enable the Samus Aran workshop mod alongside ACM.</ReleaseNotes>
 		<Tags>AI,Balance,Buildings,Heroes,Gameplay,Improvements,MajorFactions,MinorFactions,Multiplayer,Other,Quests,Technologies,Terrain,Units,UI</Tags>
 		<Plugins>
 			<!-- Registry -->
@@ -298,6 +299,14 @@ https://github.com/deusin/ES2-ACM
 				<FilePath>Simulation/Battles/HullDefinitions[*].xml</FilePath>
 			</DatabasePlugin>
 
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiTooltipDescription, Assembly-CSharp-firstpass">
+				<FilePath>GUI/GuiTooltipDescriptions[*].xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="GuiPlanetStatsModifier, Assembly-CSharp">
+				<FilePath>GUI/GuiPlanetStatsModifiers[*].xml</FilePath>
+			</DatabasePlugin>
+
 			<DatabasePlugin DataType="ShipDesignTemplateDefinition, Assembly-CSharp">
 				<FilePath>Simulation/Battles/ShipDesignTemplateDefinitions[*].xml</FilePath>
 			</DatabasePlugin>
@@ -357,6 +366,7 @@ https://github.com/deusin/ES2-ACM
 				<FilePath>Simulation/ConstructibleElement_AnomalyReductions[*].xml</FilePath>
 				<FilePath>Simulation/Anomaly/ConstructibleElement_AnomalyEnhancements.xml</FilePath>
 				<FilePath>Simulation/Anomaly/ConstructibleElement_AnomalyReductions.xml</FilePath>
+				<FilePath>Simulation/Anomaly/ConstructibleElement_AnomalyReductions[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="RecipeIngredientDefinition, Assembly-CSharp">

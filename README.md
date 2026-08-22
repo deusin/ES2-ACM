@@ -1,4 +1,4 @@
-﻿# Amradyr Collective Mods (ACM) for Endless Space 2
+# Amradyr Collective Mods (ACM) for Endless Space 2
 
 A personal modpack that merges mods which are incompatible by default — they redefine the same
 definitions, and ES2 resolves duplicates by load order (last loaded wins each definition wholesale,
@@ -17,6 +17,8 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 | **Samus Aran 1.0** (Ghoulvarine) — Terran admiral with her own skill trees; `*[Samus]*` files, New Game toggle | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | 2025-05-31 | `upstream/samus` |
 | **Arkon Portal** (Arkon) — custom-faction trait for fleet-teleportation portals; `*[Arkon]*` files, New Game toggle | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | 2019-09-04 | `upstream/arkonportal` |
 | **Arkon Faction Hero Ships [ESG] 1.0.4** (Arkon) — heroes fly medium faction ships; `*[AFHS]*` files | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | 2025-12-17 | `upstream/afhs` |
+| **Endless Moons 3.1.2** (Tychonoir) — many moon types, lunar improvements, moon temples and celestial orbs; `*[EM]*` files | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | 2024-11-11 | `upstream/em` |
+| **Endless Anomalies 1.1.3** — over 100 new anomalies; `*[EA]*` files | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | 2024-11-13 | `upstream/ea` |
 | Eldritch faction trait category | own content | | |
 
 Each vendor branch holds the pristine workshop drop exactly as downloaded (before any ACM patching), so the
@@ -26,8 +28,8 @@ links are the place to check for updates; `.\tools\Check-Upstream.ps1` does it f
 
 ## Play set
 
-Enable ACM plus these workshop mods. Mods not listed here (More Traits, Political Skill Trees,
-Useful Skill Colours, the quest example) are already inside ACM or unwanted — leave them disabled.
+Everything listed below is now inside ACM: enable **ACM alone**. (More Traits, Political Skill Trees, Useful Skill
+Colours and the quest example are also inside or unwanted — leave every workshop item disabled.)
 
 | Mod | Workshop id | Overlap with ACM (`tools/Find-Conflicts.ps1`) | Notes |
 |---|---|---|---|
@@ -35,8 +37,8 @@ Useful Skill Colours, the quest example) are already inside ACM or unwanted — 
 | Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | all its definitions | Already inside ACM (with a New Game toggle) — do not run the workshop item as well; it would bring the 500-point trait back. |
 | Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | 27 `FactionTrait` + `ClassColonizedStarSystem` | **Do not use the workshop item** — its `ClassColonizedStarSystem` replaces ESG's and the game crashes on the first colonisation (`ColonizationThresholdFIDSBonus` missing). ELP is already inside ACM. |
 | Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | 38 `HeroDefinition`, `MinorFactions` table, USC GUI | Already inside ACM — do not run the workshop item as well. |
-| Endless Moons | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | 90 (75 descriptors, 6 anomaly reductions, 3 weight tables, 2 anomalies, 2 improvements) | |
-| Endless Anomalies | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | 126 (51 `AnomalyDefinition`, 73 descriptors, 2 weight tables) | its own note: load **after** Endless Moons |
+| Endless Moons | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | 90 (vanilla anomalies, 3 weight tables, moon improvements, galaxy sizes) | Already inside ACM — do not run the workshop item as well. |
+| Endless Anomalies | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | 126 (51 vanilla anomalies, 73 descriptors, 2 weight tables) | Already inside ACM — do not run the workshop item as well. |
 | Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | all 97 `HeroDefinition`s | Already inside ACM — do not run the workshop item as well; loaded after ACM it replaces every hero with its ESG 1.5 copy (no Political Skill Trees / Minor Heroes Reimagined trees). |
 
 Overlap counts are the definitions the later-loaded mod will override. Re-run the checker after any
@@ -128,6 +130,24 @@ One icon path typo fixed (`UNF_RXP_Large` → `UNF_EXP_Large`, Unfallen explorer
 The english, french and spanish string files had stray Latin-1 bytes (not well-formed XML — the game would have dropped the whole file); re-saved as UTF-8.
 Always on — a hero has a single ship reference, so there is nothing a New Game setting could switch.
 
+## Endless Moons and Endless Anomalies inside ACM
+
+Both mods rebalance the vanilla anomalies that ESG already reworked (ESG splits every anomaly into a base descriptor plus an
+upgradeable `…Regular` one), and both carry the same anomaly weight tables. Merge policy, redone on every `em`/`ea`/`esg` merge:
+
+| Area | Decision |
+|---|---|
+| Vanilla anomalies (definitions + descriptors) | **ESG's**. `SimulationDescriptors[EM_OriginalAnomalies]`, `SimulationDescriptors[EA_OriginalAnomalies]`, `AnomalyDefinitions[EA_OriginalAnomalies]` deleted; `PlanetAnomaly07/08` removed from `AnomalyDefinitions[EM]`; `PlanetAnomaly10` removed from `GuiPlanetStatsModifiers[EA]`. Endless Moons' versions of the vanilla moons 25–27 (+Alt) stay — ESG does not define them. |
+| Moon mechanics | **Endless Moons'**: `AnomalyReduction25–27(+Alt)` (1-turn Explore Moon), `StarSystemImprovementMoonExploitation1` (disabled, replaced by the lunar improvements), `StarSystemImprovementPopulationSlot2` (needs a developed moon), `StarSystemImprovementCuriosity5` descriptor (15 research + 2 vision per moon). ESG's copies removed from its files. |
+| `HistoricalEnclave` / `EndlessEnclave` | Endless Anomalies' (the author says to load EA after EM); removed from `[EM_StarSystemImprovements]`. |
+| Anomaly weight tables | ACM-owned `Galaxy/WeightTableDefinitions[ACM_Anomalies].xml`: ESG entries + EM entries + EA entries; vanilla tags take EA's weight where EA rebalanced it, else EM's, else ESG's; the vanilla moons EM removes are removed. The three tables deleted from ESG's `WeightTableDefinitions.xml`. |
+| Galaxy sizes | ESG's `WorldSettingDefinitions.xml` kept; `AnomaliesVisibleQuantity` scaled by EM's ratio to vanilla per size (×1.33 Tiny … ×2 Huge) and EM's `UniquePlanetQuantity` / `WondersMaxQuantity` added. `WorldSettingDefinitions[EM]` deleted. |
+| Duplicates | `EndlessMoonsEnabled` descriptor (ESG already has it) and `PlanetAnomaly` (identical in EM and EA) removed from the EM / EA files; `CategoryAnomalyQualityMoon` keeps ESG's colour; empty `[EM_Quadrants]` tech file deleted. |
+
+ESG carries hooks for Endless Moons (`OwnedMoons`, `EndlessMoonsEnabled`), and EM's start quest tags every empire with that
+descriptor. `ACM.xml` gained `GuiTooltipDescription` and `GuiPlanetStatsModifier` plugins and an anomaly-reductions wildcard.
+Endless Moons is English/German, Endless Anomalies English only.
+
 ## Working on the mod
 
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
@@ -136,8 +156,8 @@ Always on — a hero has a single ship reference, so there is nothing a New Game
 - Is anything out of date? `.\tools\Check-Upstream.ps1` (`-Notes` adds the authors' change notes newer than our
   drop). It needs no downloads, so the folded-in workshop items can stay unsubscribed; resubscribe one only to
   refresh it.
-- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr|samus|arkonportal|afhs>`, then
-  `git merge upstream/esg`. `elp` / `mhr` / `samus` / `arkonportal` / `afhs` imports land the drop on the `[ELP]` / `[MHR]` / `[Samus]` / `[Arkon]` / `[AFHS]` paths above.
+- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr|samus|arkonportal|afhs|em|ea>`, then
+  `git merge upstream/esg`. `elp` / `mhr` / `samus` / `arkonportal` / `afhs` / `em` / `ea` imports land the drop on the `[ELP]` / `[MHR]` / `[Samus]` / `[Arkon]` / `[AFHS]` / `[EM]` / `[EA]` paths above.
   Details, conflict conventions and gotchas are in `CLAUDE.md`.
 - `.\tools\Find-Conflicts.ps1 -Mod <workshop id>` reports which definitions a workshop mod shares with ACM.
 
@@ -150,4 +170,5 @@ Always on — a hero has a single ship reference, so there is nothing a New Game
   Populations 4.5 merged in (renamed `[ELP]` files, four data fixes) after the workshop item crashed game start. Minor Heroes Reimagined
   [ESG+PST] 0.2 merged in the same way. Samus Aran 1.0 folded back in behind the first ACM New Game toggle
   (`Enable Samus Aran`); Arkon Portal folded in behind a second one, minus its 500-point trait. Arkon Faction Hero Ships
-  folded in (always on) — it had been overriding every hero definition from the play set.
+  folded in (always on) — it had been overriding every hero definition from the play set. Endless Moons and Endless
+  Anomalies folded in (always on): ESG's anomalies win, Endless Moons' moon mechanics win, weight tables merged.

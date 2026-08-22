@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: EndlessMoonsEnabled is already declared by ESG (SimulationDescriptors[Empire].xml). StarSystemImprovementCuriosity5 here replaces ESG's (removed there). -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
   
   	<!-- Value changed to 1.1 because basevalue = 1 in ClassEmpire, used with requiring orb detection at 1.1 -->
@@ -15,7 +16,7 @@
       <Modifier TargetProperty="DetectionProbeVisionStrength"     Value="3"  Operation="Force" Path="ClassEmpire" Priority="3"/>
     </SimulationDescriptor>
     
-	<SimulationDescriptor Name="EndlessMoonsEnabled" Type="FactionTrait"/> <!-- for compatibilty with ESG Balance Mod -->
+<!-- for compatibilty with ESG Balance Mod -->
     
 
 	 <SimulationDescriptor Name="LunarInfrastructure" Type="StarSystemImprovement">

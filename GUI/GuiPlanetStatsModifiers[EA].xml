@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: the PlanetAnomaly10 entry described Endless Anomalies' rebalanced version; ACM keeps ESG's anomaly. -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GuiPlanetStatsModifier.xsd">
 
     <!--
@@ -31,9 +32,6 @@
 
 
     <!-- Ice-10 - FIXED --> 
-    <GuiPlanetStatsModifier Name="PlanetAnomaly10">
-        <StatModifier Name="AtmosphereTemperature" Add="-10" />
-    </GuiPlanetStatsModifier>
 
 <!-- New anomalies --> 
     <GuiPlanetStatsModifier Name="PlanetAnomaly_MinimalRotation">

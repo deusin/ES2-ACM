@@ -1,12 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: CategoryAnomalyQualityMoon keeps ESG's colour (GUIElements[Categories].xml). -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
     
 <!-- moon anomaly color -->
-    <ExtendedGuiElement Name="CategoryAnomalyQualityMoon">
-        <Title>%CategoryAnomalyQualityMoonTitle</Title>
-        <Description>%CategoryAnomalyQualityMoonDescription</Description>
-        <Color Red="204" Green="150" Blue="0" Alpha="255"/>
-    </ExtendedGuiElement>
 
 <!-- SubCategories -->
     <ExtendedGuiElement Name="SubCategoryLunar">

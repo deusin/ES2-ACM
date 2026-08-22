@@ -24,6 +24,7 @@
     </ItemDefinition>
   </WorldSettingDefinition>
 
+  <!-- ACM: AnomaliesVisibleQuantity scaled by Endless Moons' ratio to vanilla (x1.33..2.0) and its UniquePlanetQuantity/WondersMaxQuantity added, per size. -->
   <WorldSettingDefinition Name="GalaxySize" Default="Small">
     <ItemDefinition Name="Tiny">
 <!--idk what this is-->
@@ -60,7 +61,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">3</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">31</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">20</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">26</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">1</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">5</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">16</KeyValuePair>
     </ItemDefinition>
 
@@ -86,7 +89,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">6</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">67</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">40</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">54</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">2</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">8</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">32</KeyValuePair>
     </ItemDefinition>
 
@@ -112,7 +117,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">9</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">101</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">60</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">98</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">3</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">9</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">48</KeyValuePair>
     </ItemDefinition>
 
@@ -138,7 +145,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">12</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">134</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">80</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">147</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">4</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">10</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">64</KeyValuePair>
     </ItemDefinition>
 
@@ -164,7 +173,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">15</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">165</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">100</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">199</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">5</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">12</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">80</KeyValuePair>
     </ItemDefinition>
 
@@ -190,7 +201,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">22</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">201</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">120</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">252</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">6</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">14</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">96</KeyValuePair>
     </ItemDefinition>
 
@@ -216,7 +229,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">21</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">232</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">140</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">306</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">7</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">16</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">112</KeyValuePair>
     </ItemDefinition>
     
@@ -241,7 +256,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">0</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">31</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">20</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">26</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">1</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">5</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">16</KeyValuePair>
     </ItemDefinition>
     
@@ -266,7 +283,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">0</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">67</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">40</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">54</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">2</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">8</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">32</KeyValuePair>
     </ItemDefinition>
 
@@ -291,7 +310,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">0</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">101</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">60</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">98</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">3</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">9</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">48</KeyValuePair>
     </ItemDefinition>
     
@@ -316,7 +337,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">0</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">134</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">80</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">147</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">4</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">10</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">64</KeyValuePair>
     </ItemDefinition>
     
@@ -341,7 +364,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">0</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">165</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">100</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">199</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">5</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">12</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">80</KeyValuePair>
     </ItemDefinition>
     
@@ -366,7 +391,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">0</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">201</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">120</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">252</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">6</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">14</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">96</KeyValuePair>
     </ItemDefinition>
     
@@ -391,7 +418,9 @@
       <KeyValuePair Key="StrategicResourceRareQuantity">0</KeyValuePair>
 
       <KeyValuePair Key="LootQuantity">232</KeyValuePair>
-      <KeyValuePair Key="AnomaliesVisibleQuantity">140</KeyValuePair>
+      <KeyValuePair Key="AnomaliesVisibleQuantity">306</KeyValuePair>
+      <KeyValuePair Key="UniquePlanetQuantity">7</KeyValuePair>
+      <KeyValuePair Key="WondersMaxQuantity">16</KeyValuePair>
       <KeyValuePair Key="AnomaliesQuantity">112</KeyValuePair>
     </ItemDefinition>
   </WorldSettingDefinition>

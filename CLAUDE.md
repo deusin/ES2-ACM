@@ -1,4 +1,4 @@
-﻿# ES2 ACM — Amradyr Collective Mods
+# ES2 ACM — Amradyr Collective Mods
 
 Personal fork-and-merge modpack for Endless Space 2 (Kenny + their son). ESG is the base; other
 mods that are incompatible with it (they redefine the same definitions) are merged in by hand.
@@ -22,8 +22,8 @@ Start Claude Code sessions **from this folder**.
 | More Traits (`upstream/moretraits`) | [932777803](https://steamcommunity.com/sharedfiles/filedetails/?id=932777803) | merged |
 | Political Skill Trees (`upstream/poltrees`) | [2856109167](https://steamcommunity.com/sharedfiles/filedetails/?id=2856109167) | merged |
 | Samus Aran | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | merged as `*[Samus]*` files (vendor branch `upstream/samus`), gated by the `EnableSamus` New Game setting; never also run the workshop item |
-| Endless Moons | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | run alongside (see README for overlaps) |
-| Endless Anomalies | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | run alongside, load after Endless Moons |
+| Endless Moons | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | merged as `*[EM]*` files (vendor branch `upstream/em`), always on; merge policy in README |
+| Endless Anomalies | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | merged as `*[EA]*` files (vendor branch `upstream/ea`), always on; merge policy in README |
 | Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | merged as `*[ELP]*` files (vendor branch `upstream/elp`); never also run the workshop item — its `ClassColonizedStarSystem` crashes ACM |
 | Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | merged as `*[MHR]*` files (vendor branch `upstream/mhr`); partial ESG/USC copies grafted, see README |
 | Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | merged as `*[Arkon]*` files (vendor branch `upstream/arkonportal`), gated by `EnableArkonPortal`; 500-point trait dropped; never also run the workshop item |
@@ -31,7 +31,7 @@ Start Claude Code sessions **from this folder**.
 
 ## Lifecycle: refreshing an upstream mod
 
-Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus, arkonportal, afhs hold the pristine workshop
+Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus, arkonportal, afhs, em, ea hold the pristine workshop
 drops (moretraits/poltrees were baselined with `git merge -s ours`, so their next import merges 3-way).
 `.\tools\Check-Upstream.ps1` asks the Steam API which of them has updated since its last import (`-Notes`
 prints the workshop change notes newer than the drop; fetch Steam pages directly with curl/Invoke-WebRequest,
@@ -80,6 +80,9 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
   full ESG-1.5 copy of all 97 heroes: graft only each hero's `<ShipDesign>` into `Simulation/HeroDefinitions.xml`
   (and ESG merges must keep those `AFHER*` references), then delete it (modify/delete conflict = the cue). Not
   toggleable: a hero has one `ShipDesign` reference and the client fails the recruit order if it is missing.
+- **EM / EA** (suffixes `[EM]`, `[EA]`). Vanilla anomalies stay ESG's, moon mechanics are EM's, the three anomaly
+  weight tables are ACM-owned in `Galaxy/WeightTableDefinitions[ACM_Anomalies].xml`, galaxy sizes are ESG's with EM's
+  anomaly counts — the README table lists every deleted/trimmed drop file; modify/delete conflicts on them are the cue.
 - **ACM New Game toggles** live in `Settings/GameSettingDefinitions[ACM].xml` + `GUI/GUIElements[ACM_Settings].xml`
   + `Localization/english/ES2_Localization_Locales[ACM].xml`, and the `AdvancedSettingsACMSettings` group in
   `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file, single definition — re-add the group after every ESG

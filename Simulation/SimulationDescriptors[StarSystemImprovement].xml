@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: StarSystemImprovementCuriosity5 is Endless Moons' version in SimulationDescriptors[EM].xml (15 research + 2 vision per moon). -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
 
@@ -332,9 +333,6 @@
   </SimulationDescriptor>
 
   <!-- LUNAR SURVEILLANCE STATION -->
-  <SimulationDescriptor Name="StarSystemImprovementCuriosity5" Type="StarSystemImprovement">
-    <BinaryModifier TargetProperty="SystemResearch" Operation="Addition" Left="125" BinaryOperation="Multiplication" Right="$(OwnedMoons)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
-  </SimulationDescriptor>
 
   <!-- ############################################################################# -->
   <!-- #################################  Tier 0   ################################# -->

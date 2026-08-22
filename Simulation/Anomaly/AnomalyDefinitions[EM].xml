@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: PlanetAnomaly07/08 (ring anomalies) removed - ESG's upgradeable versions apply; vanilla moons 25-27 below are Endless Moons' versions. -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/AnomalyDefinition.xsd">
 
 <!-- Revised anomalies type to allow reduction (Can't be quality positive or reduction options are disabled) -->
     <!-- Antonov Ring -->
-    <AnomalyDefinition Name="PlanetAnomaly07" Quality="Mixed">
-        <SimulationDescriptorReference Name="PlanetAnomaly07"/>
-        <SimulationDescriptorReference Name="PlanetAnomalyRing"/>
-        <EncounterEntityReference Name="PlanetAnomaly07"/>
-        <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
-            <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
-            <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
-            <PlanetFilterNot>PlanetAnomalyRing</PlanetFilterNot>
-        </GeneratorInfo>
-    </AnomalyDefinition>
 
     <!-- Huygens Rings  -->
-    <AnomalyDefinition Name="PlanetAnomaly08" Quality="Mixed">
-        <SimulationDescriptorReference Name="PlanetAnomaly08"/>
-        <SimulationDescriptorReference Name="PlanetAnomalyRing"/>
-        <EncounterEntityReference Name="PlanetAnomaly08"/>
-        <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
-            <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
-            <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
-            <PlanetFilterNot>PlanetAnomalyRing</PlanetFilterNot>
-        </GeneratorInfo>
-    </AnomalyDefinition>
     
     
     <!-- Prevents placement of original moons if another mod overwrites WeightTableDefinitions -->
