@@ -1299,4 +1299,5 @@ Through a combination of specialized structures, advanced mining and processing,
   <LocalizationPair Name="%EmpireImprovementMoonExplorationDescription">While it is easy to simply land on a moon, complete exploration requires dedicated teams to perform complete surface mapping and mineral scans, as well as a full analysis of the lunar environment.
 This technology also allows the installation of specialized equipment on hero and exploration ships, allowing the exploration of moons in distant star systems.</LocalizationPair>
 
+  <LocalizationPair Name="%Moon_TM_Title">Endless Moons</LocalizationPair><!-- ACM: key used by the EndlessMoonsEnabled GUI element but never defined upstream -->
 </Datatable>

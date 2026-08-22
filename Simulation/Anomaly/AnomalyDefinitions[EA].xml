@@ -527,12 +527,12 @@
 <AnomalyDefinition Name="ShiftingGround" Quality="Negative">
     <SimulationDescriptorReference Name="ShiftingGround"/>
     <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
-    <SimulationDescriptorReference Name="AnomalyTypeGround"/>
+    <SimulationDescriptorReference Name="PlanetAnomalyGround"/><!-- ACM: upstream referenced the undefined AnomalyTypeGround -->
     <GeneratorInfo>
         <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
         <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
-        <PlanetFilterNot>AnomalyTypeGround</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomalyGround</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
         <PlanetFilterNot>CraterScarred</PlanetFilterNot>
@@ -558,10 +558,10 @@
         <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
         <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
-        <PlanetFilterNot>AnomalyTypeGround</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomalyGround</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
-        <PlanetFilterNot>AnomalyTypeGround</PlanetFilterNot>
+        <PlanetFilterNot>PlanetAnomalyGround</PlanetFilterNot>
         <PlanetFilterNot>ShiftingGround</PlanetFilterNot>
         <PlanetFilterNot>Curiosity_ShiftingGround</PlanetFilterNot>
     </GeneratorInfo>
@@ -1054,7 +1054,7 @@
     </GeneratorInfo>
 </AnomalyDefinition>
 <AnomalyDefinition Name="HiddenVaults_R" Quality="Reduced">
-    <SimulationDescriptorReference Name="CHiddenVaults_R"/>
+    <SimulationDescriptorReference Name="HiddenVaults_R"/><!-- ACM: upstream typo CHiddenVaults_R -->
     <EncounterEntityReference Name="PlanetAnomalyReduced"/>
     <GeneratorInfo/>
 </AnomalyDefinition>

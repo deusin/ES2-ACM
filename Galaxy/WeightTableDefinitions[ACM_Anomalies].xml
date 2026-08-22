@@ -87,7 +87,7 @@
     <Entry Tag="Curiosity_DangerousFlora" Weight="10"/>
     <Entry Tag="Curiosity_NaturalIsotopes" Weight="10"/>
     <Entry Tag="Curiosity_DustInfusedLife" Weight="10"/>
-    <Entry Tag="Curiosity_CrystallineWorld" Weight="5"/>
+    <!-- ACM: Curiosity_CrystallineWorld dropped - Endless Anomalies defines no such curiosity -->
     <Entry Tag="Curiosity_LayeredAtmosphere" Weight="10"/>
     <Entry Tag="Curiosity_ExtremePressure" Weight="10"/>
     <Entry Tag="Curiosity_LivingMantle" Weight="10"/>
@@ -138,7 +138,7 @@
     <Entry Tag="Curiosity_PersistantLichen" Weight="10"/>
     <Entry Tag="Curiosity_AncientRamparts" Weight="8"/>
     <Entry Tag="Curiosity_MimickingChorus" Weight="5"/>
-    <Entry Tag="Curiosity_CreepingAlgea" Weight="10"/>
+    <Entry Tag="Curiosity_CreepingAlgae" Weight="10"/>
     <Entry Tag="Curiosity_MushroomCaves" Weight="8"/>
     <Entry Tag="Curiosity_PoisonedGround" Weight="5"/>
     <Entry Tag="Curiosity_ToxicSludge" Weight="7"/>
