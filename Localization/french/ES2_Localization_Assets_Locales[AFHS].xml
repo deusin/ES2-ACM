@@ -108,8 +108,8 @@
     <LocalizationPair Name="%AFHERSophonsATTHeroTitle">Vengeur</LocalizationPair>
     <LocalizationPair Name="%AFHERTerransATTHeroTitle">Le Courage</LocalizationPair>
     <LocalizationPair Name="%AFHERTimeLordsATTHeroTitle">Dimension</LocalizationPair>
-    <LocalizationPair Name="%AFHERUnfallenATTHeroTitle">Racine d'étrangleur</LocalizationPair>
-    <LocalizationPair Name="%AFHERCraversATTHeroTitle">Prédateur</LocalizationPair>
+    <LocalizationPair Name="%AFHERUnfallenATTHeroTitle">Racine d'Ã©trangleur</LocalizationPair>
+    <LocalizationPair Name="%AFHERCraversATTHeroTitle">PrÃ©dateur</LocalizationPair>
     <LocalizationPair Name="%AFHERVenetiansATTHeroTitle">Majusan</LocalizationPair>
     <LocalizationPair Name="%AFHERVampirilisATTHeroTitle">Ransulo</LocalizationPair>
     <LocalizationPair Name="%AFHERVaultersATTHeroTitle">Pevelo</LocalizationPair>
@@ -119,8 +119,8 @@
 <!-- DEFENDER -->
     <LocalizationPair Name="%AFHERSophonsDEFHeroTitle">Relout</LocalizationPair>
     <LocalizationPair Name="%AFHERTerransDEFHeroTitle">Le Brave</LocalizationPair>
-    <LocalizationPair Name="%AFHERHoratioDEFHeroTitle">Pureté</LocalizationPair>
-    <LocalizationPair Name="%AFHERTimeLordsDEFHeroTitle">Zéro</LocalizationPair>
+    <LocalizationPair Name="%AFHERHoratioDEFHeroTitle">PuretÃ©</LocalizationPair>
+    <LocalizationPair Name="%AFHERTimeLordsDEFHeroTitle">ZÃ©ro</LocalizationPair>
     <LocalizationPair Name="%AFHERUnfallenDEFHeroTitle">Purassi</LocalizationPair>
     <LocalizationPair Name="%AFHERCraversDEFHeroTitle">Faim</LocalizationPair>
     <LocalizationPair Name="%AFHERVaultersDEFHeroTitle">Wendolui</LocalizationPair>
@@ -136,7 +136,7 @@
     <LocalizationPair Name="%AFHERTemplarsSUPHeroTitle">Asenas</LocalizationPair>
 <!-- EXPLORER -->
     <LocalizationPair Name="%AFHERSophonsEXPHeroTitle">Vanaup</LocalizationPair>
-    <LocalizationPair Name="%AFHERHoratioEXPHeroTitle">Sans Défaut</LocalizationPair>
+    <LocalizationPair Name="%AFHERHoratioEXPHeroTitle">Sans DÃ©faut</LocalizationPair>
     <LocalizationPair Name="%AFHERUnfallenEXPHeroTitle">Retharyan</LocalizationPair>
     <LocalizationPair Name="%AFHERCraversEXPHeroTitle">Chasseur</LocalizationPair>
     <LocalizationPair Name="%AFHERVenetiansEXPHeroTitle">Benliffa</LocalizationPair>
@@ -217,24 +217,24 @@
     <LocalizationPair Name="%AFHEREndlessQuestATTMedium01CraversDescription">INFO PLACEHOLDER</LocalizationPair>
     <LocalizationPair Name="%AFHERQuestTER1_MediumAttackerTitle">Chevalier de Justice</LocalizationPair>
     <LocalizationPair Name="%AFHERQuestTER2_MediumSupporterTitle">Porteur de la Foi</LocalizationPair>
-    <LocalizationPair Name="%AFHERQuestTER3_MediumExplorerTitle">Porteur de Lumiére</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuestTER3_MediumExplorerTitle">Porteur de LumiÃ©re</LocalizationPair>
     <LocalizationPair Name="%AFHERQuestTER1_MediumAttackerDescription">INFO PLACEHOLDER</LocalizationPair>
     <LocalizationPair Name="%AFHERQuestTER2_MediumSupporterDescription">INFO PLACEHOLDER</LocalizationPair>
     <LocalizationPair Name="%AFHERQuestTER3_MediumExplorerDescription">INFO PLACEHOLDER</LocalizationPair>
     <LocalizationPair Name="%AFHERQuest1ATTMedium01HoratioTitle">PLACEHOLDER</LocalizationPair>
     <LocalizationPair Name="%AFHERQuest1ATTMedium01HoratioDescription">INFO PLACEHOLDER</LocalizationPair>
-    <LocalizationPair Name="%AFHERQ1HORHeroTitle">Joyau de Pureté</LocalizationPair>
+    <LocalizationPair Name="%AFHERQ1HORHeroTitle">Joyau de PuretÃ©</LocalizationPair>
     <LocalizationPair Name="%AFHERQ1HORHeroDescription">INFO PLACEHOLDER</LocalizationPair>
-    <LocalizationPair Name="%AFHEREndlessQuest_MediumAttackerTitle">Écho du Destin</LocalizationPair>
+    <LocalizationPair Name="%AFHEREndlessQuest_MediumAttackerTitle">Ã‰cho du Destin</LocalizationPair>
     <LocalizationPair Name="%AFHEREndlessQuest_MediumAttackerDescription">INFO PLACEHOLDER</LocalizationPair>
     <LocalizationPair Name="%AFHEREndlessQuest_MediumDefenderTitle">Flammes du Destin</LocalizationPair>
     <LocalizationPair Name="%AFHEREndlessQuest_MediumDefenderDescription">INFO PLACEHOLDER</LocalizationPair>
     <LocalizationPair Name="%AFHERQ1TERHeroTitle">Chevalier de Justice</LocalizationPair>
     <LocalizationPair Name="%AFHERQ2TERHeroTitle">Porteur de la Foi</LocalizationPair>
-    <LocalizationPair Name="%AFHERQ3TERHeroTitle">Porteur de Lumiére</LocalizationPair>
+    <LocalizationPair Name="%AFHERQ3TERHeroTitle">Porteur de LumiÃ©re</LocalizationPair>
     <LocalizationPair Name="%AFHERQuest1TERHeroTitle">Chevalier de Justice</LocalizationPair>
     <LocalizationPair Name="%AFHERQuest2TERHeroTitle">Porteur de la Foi</LocalizationPair>
-    <LocalizationPair Name="%AFHERQuest3TERHeroTitle">Porteur de Lumiére</LocalizationPair>
+    <LocalizationPair Name="%AFHERQuest3TERHeroTitle">Porteur de LumiÃ©re</LocalizationPair>
 <!-- #DLC1# -->
 <!-- #The Pirate Leader Fleet -->
     <LocalizationPair Name="%PIRLEDSMLATTTitle">Chien Dragon</LocalizationPair>
@@ -242,8 +242,8 @@
     <LocalizationPair Name="%PIRLEDSMLATT_SmallAttackerTitle">Chien Dragon</LocalizationPair>
     <LocalizationPair Name="%PIRLEDMEDATT_MediumAttackerTitle">Cerberus</LocalizationPair>
 <!-- missing info in base game-->
-    <LocalizationPair Name="%ModuleSupportExplorationQuest01Title">Sondes arméliorées Horatio</LocalizationPair>
-    <LocalizationPair Name="%PopulationQuest05-Failed">Avec la disparition du dernier Cravers dans l'empire, le probléme s'est résolu ...</LocalizationPair>
+    <LocalizationPair Name="%ModuleSupportExplorationQuest01Title">Sondes armÃ©liorÃ©es Horatio</LocalizationPair>
+    <LocalizationPair Name="%PopulationQuest05-Failed">Avec la disparition du dernier Cravers dans l'empire, le problÃ©me s'est rÃ©solu ...</LocalizationPair>
 <!-- The Academy Quest Coop 03 A -->
     <!-- the hulls -->
     <LocalizationPair Name="%ACDHERMEDATTTitle">Purge Sombre</LocalizationPair>
@@ -254,8 +254,8 @@
     <LocalizationPair Name="%ACDHERMEDATT_MediumAttackerTitle">Purge Sombre</LocalizationPair>
     <LocalizationPair Name="%ACDHERCARRIER_LargeCarrierTitle">Destin Sombre</LocalizationPair>
 <!-- Quest Exploration08 addition-->
-    <LocalizationPair Name="%ExplorationQuest08Choice01Outcome">Un étrange spectacle accueille l'équipe expéditionnaire au deuxième site. Le drone est en partie enfoui dans le marais, près d'un vaisseau abandonné. Vu la végétation qui enserre l'épave, elle est là depuis longtemps. Vous ne trouvez aucun signe de l'équipage, mais parvenez à réactiver l'appareil. Il fera un bon ajout à vos flottes. Les plans du navire pourraient également être extraits des anciennes banques de mémoire informatique.</LocalizationPair>
+    <LocalizationPair Name="%ExplorationQuest08Choice01Outcome">Un Ã©trange spectacle accueille l'Ã©quipe expÃ©ditionnaire au deuxiÃ¨me site. Le drone est en partie enfoui dans le marais, prÃ¨s d'un vaisseau abandonnÃ©. Vu la vÃ©gÃ©tation qui enserre l'Ã©pave, elle est lÃ  depuis longtemps. Vous ne trouvez aucun signe de l'Ã©quipage, mais parvenez Ã  rÃ©activer l'appareil. Il fera un bon ajout Ã  vos flottes. Les plans du navire pourraient Ã©galement Ãªtre extraits des anciennes banques de mÃ©moire informatique.</LocalizationPair>
 <!-- Quest Exploration05 addition -->
-    <LocalizationPair Name="%ExplorationQuest05-Description">Vu le cataclysme imminent, le besoin de déplacer les Horatio est évident. Heureusement, cette « belle » trouvaille devrait apporter son lot de profits. Y compris les plans de construction du navire spécial Horatio.</LocalizationPair>
+    <LocalizationPair Name="%ExplorationQuest05-Description">Vu le cataclysme imminent, le besoin de dÃ©placer les Horatio est Ã©vident. Heureusement, cette Â« belle Â» trouvaille devrait apporter son lot de profits. Y compris les plans de construction du navire spÃ©cial Horatio.</LocalizationPair>
 
 </Datatable>

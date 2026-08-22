@@ -16,6 +16,7 @@ Merged in (credit to the original authors — I resolve conflicts and fix bugs):
 | **Minor Heroes Reimagined [ESG+PST] 0.2** (mdel) — a skill tree per minor-faction hero, Plocynos minor faction; `*[MHR]*` files | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | 2026-07-25 | `upstream/mhr` |
 | **Samus Aran 1.0** (Ghoulvarine) — Terran admiral with her own skill trees; `*[Samus]*` files, New Game toggle | [3268328942](https://steamcommunity.com/sharedfiles/filedetails/?id=3268328942) | 2025-05-31 | `upstream/samus` |
 | **Arkon Portal** (Arkon) — custom-faction trait for fleet-teleportation portals; `*[Arkon]*` files, New Game toggle | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | 2019-09-04 | `upstream/arkonportal` |
+| **Arkon Faction Hero Ships [ESG] 1.0.4** (Arkon) — heroes fly medium faction ships; `*[AFHS]*` files | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | 2025-12-17 | `upstream/afhs` |
 | Eldritch faction trait category | own content | | |
 
 Each vendor branch holds the pristine workshop drop exactly as downloaded (before any ACM patching), so the
@@ -36,7 +37,7 @@ Useful Skill Colours, the quest example) are already inside ACM or unwanted — 
 | Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | 38 `HeroDefinition`, `MinorFactions` table, USC GUI | Already inside ACM — do not run the workshop item as well. |
 | Endless Moons | [1316786885](https://steamcommunity.com/sharedfiles/filedetails/?id=1316786885) | 90 (75 descriptors, 6 anomaly reductions, 3 weight tables, 2 anomalies, 2 improvements) | |
 | Endless Anomalies | [3257341334](https://steamcommunity.com/sharedfiles/filedetails/?id=3257341334) | 126 (51 `AnomalyDefinition`, 73 descriptors, 2 weight tables) | its own note: load **after** Endless Moons |
-| Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | all 97 `HeroDefinition`s | built on ESG 1.5 hero defs; loading it after ACM replaces ESG 1.6's hero definitions with Arkon's versions |
+| Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | all 97 `HeroDefinition`s | Already inside ACM — do not run the workshop item as well; loaded after ACM it replaces every hero with its ESG 1.5 copy (no Political Skill Trees / Minor Heroes Reimagined trees). |
 
 Overlap counts are the definitions the later-loaded mod will override. Re-run the checker after any
 upstream refresh; the full report with names is one command away.
@@ -115,6 +116,18 @@ re-encoded from windows-1250 to UTF-8.
 discarded; the "ARK - Teleportation portal" trait stays selectable in the faction editor (faction traits cannot see game
 settings) but then does nothing.
 
+## Arkon Faction Hero Ships inside ACM
+
+Hulls, ship designs, design templates, battle action, descriptors, GUI, droplists and strings carry an `[AFHS]` suffix
+(`Simulation/Battles/*[AFHS].xml`, `GUI/GUIElements[AFHS].xml`, `Quests/Droplists/Droplists[AFHS].xml`, …); `ACM.xml`
+gained a `ShipDesignTemplateDefinition` plugin. The drop's `HeroDefinition` file (all 97 heroes, built on ESG 1.5) is
+not kept: only each hero's `<ShipDesign>` reference is grafted into ACM's `Simulation/HeroDefinitions.xml`, and Samus
+gets `AFHERTerrans_MediumAttacker`. Its `HeroShip_Revive` battle action and two Academy-quest droplists replace the
+vanilla ones on purpose (hero faction ships must revive too). Seven files re-encoded from windows-1250 to UTF-8.
+One icon path typo fixed (`UNF_RXP_Large` → `UNF_EXP_Large`, Unfallen explorer hull).
+The english, french and spanish string files had stray Latin-1 bytes (not well-formed XML — the game would have dropped the whole file); re-saved as UTF-8.
+Always on — a hero has a single ship reference, so there is nothing a New Game setting could switch.
+
 ## Working on the mod
 
 - This folder is the git working tree **and** the folder ES2 loads (`Documents\Endless Space 2\Community`).
@@ -123,8 +136,8 @@ settings) but then does nothing.
 - Is anything out of date? `.\tools\Check-Upstream.ps1` (`-Notes` adds the authors' change notes newer than our
   drop). It needs no downloads, so the folded-in workshop items can stay unsubscribed; resubscribe one only to
   refresh it.
-- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr|samus|arkonportal>`, then
-  `git merge upstream/esg`. `elp` / `mhr` / `samus` / `arkonportal` imports land the drop on the `[ELP]` / `[MHR]` / `[Samus]` / `[Arkon]` paths above.
+- Refreshing an upstream mod: resubscribe so Steam downloads it, `.\tools\Import-Upstream.ps1 -Mod <esg|usc|moretraits|poltrees|elp|mhr|samus|arkonportal|afhs>`, then
+  `git merge upstream/esg`. `elp` / `mhr` / `samus` / `arkonportal` / `afhs` imports land the drop on the `[ELP]` / `[MHR]` / `[Samus]` / `[Arkon]` / `[AFHS]` paths above.
   Details, conflict conventions and gotchas are in `CLAUDE.md`.
 - `.\tools\Find-Conflicts.ps1 -Mod <workshop id>` reports which definitions a workshop mod shares with ACM.
 
@@ -136,4 +149,5 @@ settings) but then does nothing.
   workshop mod (its skill trees had been copied into the `[Eldritch]` files). Endless Legend
   Populations 4.5 merged in (renamed `[ELP]` files, four data fixes) after the workshop item crashed game start. Minor Heroes Reimagined
   [ESG+PST] 0.2 merged in the same way. Samus Aran 1.0 folded back in behind the first ACM New Game toggle
-  (`Enable Samus Aran`); Arkon Portal folded in behind a second one, minus its 500-point trait.
+  (`Enable Samus Aran`); Arkon Portal folded in behind a second one, minus its 500-point trait. Arkon Faction Hero Ships
+  folded in (always on) — it had been overriding every hero definition from the play set.

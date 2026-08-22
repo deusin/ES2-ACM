@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Datatable>
 
@@ -583,7 +583,7 @@
     <Description>%HullHeroSmall02ExplorerDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Textures/SHP/UNF_EXP_Small" />
-      <Icon Size="Large" Path="Textures/SHP/UNF_RXP_Large" />
+      <Icon Size="Large" Path="Textures/SHP/UNF_EXP_Large" /><!-- ACM: upstream typo UNF_RXP -->
     </Icons>
   </GuiElement>
 <!-- # Attacker # -->

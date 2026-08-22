@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal')]
+    [ValidateSet('esg', 'usc', 'moretraits', 'poltrees', 'elp', 'mhr', 'samus', 'arkonportal', 'afhs')]
     [string]$Mod,
 
     # Stage and show the diff in the worktree but do not commit or remove the worktree.
@@ -104,6 +104,23 @@ $Mods = @{
                             '^Simulation\\TechnologyDefinitions\[PORTAL\]\.xml$'   { return 'Simulation\ConstructibleElement_Science[Arkon].xml' }
                             '^Simulation\\(.+)\[PORTAL\]\.xml$'                   { return "Simulation\$($Matches[1])[Arkon].xml" }
                             default                                               { return $rel }
+                        }
+                    } }
+    # Arkon Faction Hero Ships [ESG]: suffix [AFHS] on ACM's Battles paths. Its HeroDefinition file (all 97
+    # heroes, built on ESG 1.5) lands as HeroDefinitions[AFHS_Heroes].xml; master grafts only the ShipDesign
+    # reference of each hero into HeroDefinitions.xml and deletes it.
+    afhs       = @{ Id = '3175229111'; Index = 'ArkonFHEROSpure.xml';      IndexAs = $null;     KeepIcon = $false; Icon = 'Icon.png'; Extra = @{}
+                    Rename = {
+                        param($rel)
+                        switch -Regex ($rel) {
+                            '^Gui\\GuiElements\[FHEROSpure\]\.xml$'                        { return 'GUI\GUIElements[AFHS].xml' }
+                            '^Localization\\([^\\]+)\\(ES2_Localization_.+)\.xml$'         { return "Localization\$($Matches[1])\$($Matches[2])[AFHS].xml" }
+                            '^Quests\\Droplists\\Droplists\[FHEROSpure\]\.xml$'           { return 'Quests\Droplists\Droplists[AFHS].xml' }
+                            '^Simulation\\HeroDefinition\[FHEROSpure\]\.xml$'              { return 'Simulation\HeroDefinitions[AFHS_Heroes].xml' }
+                            '^Simulation\\HullDefinition\[FHEROSpure\]\.xml$'              { return 'Simulation\Battles\HullDefinitions[AFHS].xml' }
+                            '^Simulation\\SimulationDescriptors\[FHEROSpure\]\.xml$'       { return 'Simulation\SimulationDescriptors[AFHS].xml' }
+                            '^Simulation\\(.+)\[FHEROSpure\]\.xml$'                       { return "Simulation\Battles\$($Matches[1])[AFHS].xml" }
+                            default                                                       { return $rel }
                         }
                     } }
     mhr        = @{ Id = '3771413185'; Index = 'MinorHeroesReimaginedESGPST.xml'; IndexAs = $null; KeepIcon = $false; Extra = @{}

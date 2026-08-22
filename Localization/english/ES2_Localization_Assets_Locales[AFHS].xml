@@ -254,7 +254,7 @@
     <LocalizationPair Name="%ACDHERMEDATT_MediumAttackerTitle">Dark Purge</LocalizationPair>
     <LocalizationPair Name="%ACDHERCARRIER_LargeCarrierTitle">Dark Fate</LocalizationPair>
 <!-- Quest Exploration08 addition-->
-    <LocalizationPair Name="%ExplorationQuest08Choice01Outcome">A strange sight greets the expedition team at the second site. The drone is partially sunk in swampland, close to another abandoned vessel. From the tangled growths ensnaring the vessel, it's clear it's been here a long time. You find no sign of any crew, but do manage to reactivate the craft. It'll make a useful addition to your fleets. The ship's blueprints could also be extracted from the old computer memory banks.</LocalizationPair>
+    <LocalizationPair Name="%ExplorationQuest08Choice01Outcome">A strange sight greets the expedition team at the second site. The drone is partially sunk in swampland, close to another abandoned vessel. From the tangled growths ensnaring the vessel, it's clear it's been here a long time. You find no sign of any crew, but do manage to reactivate the craft. It'll make a useful addition to your fleets.Â The ship's blueprints could also be extracted from the old computer memory banks.</LocalizationPair>
 <!-- Quest Exploration05 addition -->
     <LocalizationPair Name="%ExplorationQuest05-Description">Given the imminent cataclysm, the need to relocate the Horatio enclave is clear. Fortunately, the "beautiful" ones should bring some useful benefits too. Including the construction plans of the special Horatio ship.</LocalizationPair>
 <!-- CuriosityEffect -->

@@ -107,8 +107,8 @@
     <!-- MAVROS Hero -->
     <LocalizationPair Name="%AFHERSophonsATTHeroTitle">Vengador</LocalizationPair>
     <LocalizationPair Name="%AFHERTerransATTHeroTitle">El Coraje</LocalizationPair>
-    <LocalizationPair Name="%AFHERTimeLordsATTHeroTitle">DimensiÛn</LocalizationPair>
-    <LocalizationPair Name="%AFHERUnfallenATTHeroTitle">RaÌz Estranguladora</LocalizationPair>
+    <LocalizationPair Name="%AFHERTimeLordsATTHeroTitle">Dimensi√≥n</LocalizationPair>
+    <LocalizationPair Name="%AFHERUnfallenATTHeroTitle">Ra√≠z Estranguladora</LocalizationPair>
     <LocalizationPair Name="%AFHERCraversATTHeroTitle">Depredador</LocalizationPair>
     <LocalizationPair Name="%AFHERVenetiansATTHeroTitle">Majusan</LocalizationPair>
     <LocalizationPair Name="%AFHERVampirilisATTHeroTitle">Ransulo</LocalizationPair>
@@ -127,8 +127,8 @@
 <!-- SUPPORTER -->
     <LocalizationPair Name="%AFHERSophonsSUPHeroTitle">Zuroloa</LocalizationPair>
     <LocalizationPair Name="%AFHERTerransSUPHeroTitle">El Firme</LocalizationPair>
-    <LocalizationPair Name="%AFHERHoratioSUPHeroTitle">PerfecciÛn</LocalizationPair>
-    <LocalizationPair Name="%AFHERTimeLordsSUPHeroTitle">Cu·ntico</LocalizationPair>
+    <LocalizationPair Name="%AFHERHoratioSUPHeroTitle">Perfecci√≥n</LocalizationPair>
+    <LocalizationPair Name="%AFHERTimeLordsSUPHeroTitle">Cu√°ntico</LocalizationPair>
     <LocalizationPair Name="%AFHERVenetiansSUPHeroTitle">Rutulo</LocalizationPair>
     <LocalizationPair Name="%AFHERVampirilisSUPHeroTitle">Vasadila</LocalizationPair>
     <LocalizationPair Name="%AFHERMajorHisshosSUPHeroTitle">Essoloss</LocalizationPair>
@@ -237,13 +237,13 @@
     <LocalizationPair Name="%AFHERQuest3TERHeroTitle">Portador de la luz</LocalizationPair>
 <!-- #DLC1# -->
 <!-- #The Pirate Leader Fleet -->
-    <LocalizationPair Name="%PIRLEDSMLATTTitle">Perro dragÛn</LocalizationPair>
+    <LocalizationPair Name="%PIRLEDSMLATTTitle">Perro drag√≥n</LocalizationPair>
     <LocalizationPair Name="%PIRLEDMEDATTTitle">Cerberus</LocalizationPair>
-    <LocalizationPair Name="%PIRLEDSMLATT_SmallAttackerTitle">Perro dragÛn</LocalizationPair>
+    <LocalizationPair Name="%PIRLEDSMLATT_SmallAttackerTitle">Perro drag√≥n</LocalizationPair>
     <LocalizationPair Name="%PIRLEDMEDATT_MediumAttackerTitle">Cerberus</LocalizationPair>
 <!-- missing info in base game-->
     <LocalizationPair Name="%ModuleSupportExplorationQuest01Title">Sondas mejoradas Horatio</LocalizationPair>
-    <LocalizationPair Name="%PopulationQuest05-Failed">Con la desapariciÛn del ˙ltimo Craver en el Imperio, el problema se resolviÛ solo ...</LocalizationPair>
+    <LocalizationPair Name="%PopulationQuest05-Failed">Con la desaparici√≥n del √∫ltimo Craver en el Imperio, el problema se resolvi√≥ solo ...</LocalizationPair>
 <!-- The Academy Quest Coop 03 A -->
     <!-- the hulls -->
     <LocalizationPair Name="%ACDHERMEDATTTitle">Purga Oscura</LocalizationPair>
@@ -254,8 +254,8 @@
     <LocalizationPair Name="%ACDHERMEDATT_MediumAttackerTitle">Purga Oscura</LocalizationPair>
     <LocalizationPair Name="%ACDHERCARRIER_LargeCarrierTitle">Destino Oscuro</LocalizationPair>
 <!-- Quest Exploration08 addition-->
-    <LocalizationPair Name="%ExplorationQuest08Choice01Outcome">En el segundo emplazamiento, la expediciÛn se encuentra una escena de lo m·s extraÒa. El dron est· parcialmente hundido en una ciÈnaga, cerca de otra nave abandonada. Por la flora enmaraÒada que envuelve la nave, est· claro que lleva ahÌ mucho tiempo. No hallas rastros de tripulaciÛn alguna, pero logras reactivar la nave. Ser· un gran aÒadido para tu flota. Los planos de la nave tambiÈn podrÌan extraerse de los viejos bancos de memoria de las computadoras.</LocalizationPair>
+    <LocalizationPair Name="%ExplorationQuest08Choice01Outcome">En el segundo emplazamiento, la expedici√≥n se encuentra una escena de lo m√°s extra√±a. El dron est√° parcialmente hundido en una ci√©naga, cerca de otra nave abandonada. Por la flora enmara√±ada que envuelve la nave, est√° claro que lleva ah√≠ mucho tiempo. No hallas rastros de tripulaci√≥n alguna, pero logras reactivar la nave. Ser√° un gran a√±adido para tu flota. Los planos de la nave tambi√©n podr√≠an extraerse de los viejos bancos de memoria de las computadoras.</LocalizationPair>
 <!-- Quest Exploration05 addition -->
-    <LocalizationPair Name="%ExplorationQuest05-Description">Dado el cataclismo inminente, est· claro que es necesario reubicar el enclave Horatio. Por suerte, los "hermosos" deberÌan traer consigo algunas ventajas. Incluidos los planos de construcciÛn del barco especial Horatio.</LocalizationPair>
+    <LocalizationPair Name="%ExplorationQuest05-Description">Dado el cataclismo inminente, est√° claro que es necesario reubicar el enclave Horatio. Por suerte, los "hermosos" deber√≠an traer consigo algunas ventajas. Incluidos los planos de construcci√≥n del barco especial Horatio.</LocalizationPair>
 
 </Datatable>

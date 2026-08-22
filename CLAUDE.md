@@ -27,11 +27,11 @@ Start Claude Code sessions **from this folder**.
 | Endless Legend Populations | [1816492263](https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263) | merged as `*[ELP]*` files (vendor branch `upstream/elp`); never also run the workshop item — its `ClassColonizedStarSystem` crashes ACM |
 | Minor Heroes Reimagined [ESG+PST] | [3771413185](https://steamcommunity.com/sharedfiles/filedetails/?id=3771413185) | merged as `*[MHR]*` files (vendor branch `upstream/mhr`); partial ESG/USC copies grafted, see README |
 | Arkon Portal | [1788325573](https://steamcommunity.com/sharedfiles/filedetails/?id=1788325573) | merged as `*[Arkon]*` files (vendor branch `upstream/arkonportal`), gated by `EnableArkonPortal`; 500-point trait dropped; never also run the workshop item |
-| Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | run alongside (overrides all HeroDefinitions) |
+| Arkon Faction Hero Ships [ESG] | [3175229111](https://steamcommunity.com/sharedfiles/filedetails/?id=3175229111) | merged as `*[AFHS]*` files (vendor branch `upstream/afhs`), always on; never also run the workshop item |
 
 ## Lifecycle: refreshing an upstream mod
 
-Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus, arkonportal hold the pristine workshop
+Vendor branches `upstream/<mod>` for esg, usc, moretraits, poltrees, elp, mhr, samus, arkonportal, afhs hold the pristine workshop
 drops (moretraits/poltrees were baselined with `git merge -s ours`, so their next import merges 3-way).
 `.\tools\Check-Upstream.ps1` asks the Steam API which of them has updated since its last import (`-Notes`
 prints the workshop change notes newer than the drop; fetch Steam pages directly with curl/Invoke-WebRequest,
@@ -76,6 +76,10 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
 - **Arkon Portal** (suffix `[Arkon]`). On every `upstream/arkonportal` merge re-remove `FactionTraitPPOINTS` (trait,
   descriptor, GUI element, `PPOINTS` locale lines, `500_Trait_Points.png`) and keep the `EnableArkonPortal`
   prerequisites on `ConstructibleElement_Industry[Arkon]` / `ConstructibleElement_Science[Arkon]`.
+- **AFHS** (suffix `[AFHS]`, files under `Simulation/Battles/`). The drop's `HeroDefinitions[AFHS_Heroes].xml` is a
+  full ESG-1.5 copy of all 97 heroes: graft only each hero's `<ShipDesign>` into `Simulation/HeroDefinitions.xml`
+  (and ESG merges must keep those `AFHER*` references), then delete it (modify/delete conflict = the cue). Not
+  toggleable: a hero has one `ShipDesign` reference and the client fails the recruit order if it is missing.
 - **ACM New Game toggles** live in `Settings/GameSettingDefinitions[ACM].xml` + `GUI/GUIElements[ACM_Settings].xml`
   + `Localization/english/ES2_Localization_Locales[ACM].xml`, and the `AdvancedSettingsACMSettings` group in
   `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file, single definition — re-add the group after every ESG

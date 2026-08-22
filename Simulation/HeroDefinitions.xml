@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- ACM: every hero's <ShipDesign> comes from Arkon Faction Hero Ships (AFHER* medium faction ships, Simulation/Battles/*[AFHS].xml). -->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
 
   <!-- SOPHONS -->
@@ -12,7 +13,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics01"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERSophons_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeSophons"/>
@@ -30,7 +31,7 @@
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERSophons_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeSophons"/>
@@ -48,7 +49,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics03"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERSophons_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreePacifist"/>
     <SkillTree Name="HeroSkillTreeSophons"/>
@@ -67,7 +68,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERSophons_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeSophons"/>
@@ -85,7 +86,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics03"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERSophons_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeSophons"/>
@@ -104,7 +105,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics04"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERTerrans_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeTerrans"/>
@@ -122,7 +123,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics06"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERTerrans_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeTerrans"/>
@@ -139,7 +140,7 @@
    <Class Name="HeroClassAdmiral"/>
    <Politics Name="HeroPolitics03"/>
 
-   <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+   <ShipDesign Name="AFHERTerrans_MediumAttacker"/>
 
    <SkillTree Name="HeroSkillTreePacifist"/>
    <SkillTree Name="HeroSkillTreeTerrans"/>
@@ -157,7 +158,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics01"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter_Slow"/>
+    <ShipDesign Name="AFHERTerrans_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeTerrans"/>
@@ -174,7 +175,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERTerrans_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeTerrans"/>
@@ -191,7 +192,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics06"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERQuestTER1_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeTerrans"/>
@@ -209,7 +210,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics03"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERQuestTER2_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreePacifist"/>
     <SkillTree Name="HeroSkillTreeTerrans"/>
@@ -226,7 +227,7 @@
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics02"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERQuestTER3_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeTerrans"/>
@@ -245,7 +246,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics04"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERHoratio_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeHoratio"/>
@@ -262,7 +263,7 @@
 		<Class Name="HeroClassAdventurer"/>
 		<Politics Name="HeroPolitics02"/>
 
-		<ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+		<ShipDesign Name="AFHERHoratio_MediumExplorer"/>
 
 		<SkillTree Name="HeroSkillTreeScientist"/>
 		<SkillTree Name="HeroSkillTreeHoratio"/>
@@ -280,7 +281,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics06"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERHoratio_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeHoratio"/>
@@ -298,7 +299,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERHoratio_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeHoratio"/>
@@ -315,7 +316,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics06"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERQuest1HOR_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeHoratio"/>
@@ -334,7 +335,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics01"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERTimeLords_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeTimeLords"/>
@@ -352,7 +353,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics03"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERTimeLords_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreePacifist"/>
     <SkillTree Name="HeroSkillTreeTimeLords"/>
@@ -369,7 +370,7 @@
 		<Class Name="HeroClassAdmiral"/>
 		<Politics Name="HeroPolitics06"/>
 
-		<ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+		<ShipDesign Name="AFHERTimeLords_MediumAttacker"/>
 
 		<SkillTree Name="HeroSkillTreeMilitarist"/>
 		<SkillTree Name="HeroSkillTreeTimeLords"/>
@@ -387,7 +388,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERTimeLords_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeTimeLords"/>
@@ -403,7 +404,7 @@
     <Affinity Name="HeroAffinityVirus"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics05"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeVirus"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -421,7 +422,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics02"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERUnfallen_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeUnfallen"/>
@@ -439,7 +440,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics03"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter_Slow"/>
+    <ShipDesign Name="AFHERUnfallen_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreePacifist"/>
     <SkillTree Name="HeroSkillTreeUnfallen"/>
@@ -456,7 +457,7 @@
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics04"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERUnfallen_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeUnfallen"/>
@@ -473,7 +474,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics06"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERUnfallen_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeUnfallen"/>
@@ -491,7 +492,7 @@
       <Class Name="HeroClassAdmiral"/>
       <Politics Name="HeroPolitics05"/>
 
-      <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+      <ShipDesign Name="AFHERCravers_MediumAttacker"/>
 
       <SkillTree Name="HeroSkillTreeReligious"/>
       <SkillTree Name="HeroSkillTreeCravers"/>
@@ -509,7 +510,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics01"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERCravers_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreePacifist"/>
     <SkillTree Name="HeroSkillTreeCravers"/>
@@ -527,7 +528,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics06"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker_Slow"/>
+    <ShipDesign Name="AFHERCravers_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeCravers"/>
@@ -545,7 +546,7 @@
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics02"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERCravers_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeCravers"/>
@@ -563,7 +564,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics01"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERCravers_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeCravers"/>
@@ -582,7 +583,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHEREndlessQuest_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeEndless"/>
@@ -601,7 +602,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics04"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERVenetians_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeVenetians"/>
@@ -618,7 +619,7 @@
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics02"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERVenetians_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeVenetians"/>
@@ -635,7 +636,7 @@
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics03"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERVenetians_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreePacifist"/>
     <SkillTree Name="HeroSkillTreeVenetians"/>
@@ -653,7 +654,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics01"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERVenetians_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeVenetians"/>
@@ -670,7 +671,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERVenetians_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeVenetians"/>
@@ -689,7 +690,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics04"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERVampirilis_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeVampirilis"/>
@@ -706,7 +707,7 @@
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERVampirilis_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeVampirilis"/>
@@ -723,7 +724,7 @@
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics02"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERVampirilis_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeVampirilis"/>
@@ -741,7 +742,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics06"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERVampirilis_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeVampirilis"/>
@@ -760,7 +761,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERVampirilis_MediumAttacker"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeEndless"/>
@@ -781,7 +782,7 @@
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics02"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERVaulters_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeVaulters"/>
@@ -798,7 +799,7 @@
         <Class Name="HeroClassAdventurer"/>
         <Politics Name="HeroPolitics03"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+        <ShipDesign Name="AFHERVaulters_MediumExplorer"/>
 
         <SkillTree Name="HeroSkillTreePacifist"/>
         <SkillTree Name="HeroSkillTreeVaulters"/>
@@ -815,7 +816,7 @@
         <Class Name="HeroClassAdventurer"/>
         <Politics Name="HeroPolitics04"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+        <ShipDesign Name="AFHERVaulters_MediumExplorer"/>
 
         <SkillTree Name="HeroSkillTreeEcologist"/>
         <SkillTree Name="HeroSkillTreeVaulters"/>
@@ -832,7 +833,7 @@
         <Class Name="HeroClassAdmiral"/>
         <Politics Name="HeroPolitics06"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+        <ShipDesign Name="AFHERVaulters_MediumAttacker"/>
 
         <SkillTree Name="HeroSkillTreeMilitarist"/>
         <SkillTree Name="HeroSkillTreeVaulters"/>
@@ -848,7 +849,7 @@
     <Affinity Name="HeroAffinitySistersOfMercy"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics05"/>
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERVaulters_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeSistersOfMercy"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
@@ -862,7 +863,7 @@
     <Affinity Name="HeroAffinityOpbot"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERVaulters_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeOpbot"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
@@ -876,7 +877,7 @@
     <Affinity Name="HeroAffinityAmoeba"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics03"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreePacifist"/>
     <SkillTree Name="HeroSkillTreeAmoeba"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -890,7 +891,7 @@
     <Affinity Name="HeroAffinityFluffpetal"/>
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics06"/>
-    <ShipDesign Name="ShipDesignHeroSmall01AttackerPirate"/>
+    <ShipDesign Name="AFHERMinFacSP2_MediumAttacker"/>
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeFluffpetal"/>
     <SkillTree Name="HeroSkillTreeAdmiral"/>
@@ -907,7 +908,7 @@
         <Class Name="HeroClassAdmiral"/>
         <Politics Name="HeroPolitics06"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+        <ShipDesign Name="AFHERMajorHisshos_MediumAttacker"/>
 
         <SkillTree Name="HeroSkillTreeMilitarist"/>
         <SkillTree Name="HeroSkillTreeMajorHisshos"/>
@@ -924,7 +925,7 @@
         <Class Name="HeroClassAdventurer"/>
         <Politics Name="HeroPolitics02"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+        <ShipDesign Name="AFHERMajorHisshos_MediumExplorer"/>
 
         <SkillTree Name="HeroSkillTreeScientist"/>
         <SkillTree Name="HeroSkillTreeMajorHisshos"/>
@@ -942,7 +943,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERMajorHisshos_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeMajorHisshos"/>
@@ -959,7 +960,7 @@
         <Class Name="HeroClassAdmiral"/>
         <Politics Name="HeroPolitics01"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+        <ShipDesign Name="AFHERMajorHisshos_MediumAttacker"/>
 
         <SkillTree Name="HeroSkillTreeIndustrialist"/>
         <SkillTree Name="HeroSkillTreeMajorHisshos"/>
@@ -975,7 +976,7 @@
     <Affinity Name="HeroAffinityIllo"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics05"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeIllo"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -992,7 +993,7 @@
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERUmbralChoir_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeUmbralChoir"/>
@@ -1011,7 +1012,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics03"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERUmbralChoir_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreePacifist"/>
     <SkillTree Name="HeroSkillTreeUmbralChoir"/>
@@ -1029,7 +1030,7 @@
         <Class Name="HeroClassAdmiral"/>
         <Politics Name="HeroPolitics06"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+        <ShipDesign Name="AFHERUmbralChoir_MediumAttacker"/>
 
         <SkillTree Name="HeroSkillTreeMilitarist"/>
         <SkillTree Name="HeroSkillTreeUmbralChoir"/>
@@ -1047,7 +1048,7 @@
         <Class Name="HeroClassAdventurer"/>
         <Politics Name="HeroPolitics02"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+        <ShipDesign Name="AFHERUmbralChoir_MediumExplorer"/>
 
         <SkillTree Name="HeroSkillTreeScientist"/>
         <SkillTree Name="HeroSkillTreeUmbralChoir"/>
@@ -1062,7 +1063,7 @@
     <Affinity Name="HeroAffinityPilgrims"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERUmbralChoir_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreePilgrims"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -1080,7 +1081,7 @@
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics05"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERTemplars_MediumExplorer"/>
 
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeTemplars"/>
@@ -1099,7 +1100,7 @@
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics04"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERTemplars_MediumSupporter"/>
 
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeTemplars"/>
@@ -1115,7 +1116,7 @@
     <Affinity Name="HeroAffinityRemnant"/>
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics06"/>
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERTemplars_MediumAttacker"/>
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeRemnant"/>
     <SkillTree Name="HeroSkillTreeAdmiral"/>
@@ -1129,7 +1130,7 @@
     <Affinity Name="HeroAffinityKalTikMas"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERTemplars_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeKalTikMas"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1145,7 +1146,7 @@
         <Class Name="HeroClassAdventurer"/>
         <Politics Name="HeroPolitics03"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+        <ShipDesign Name="AFHERTemplars_MediumExplorer"/>
 
         <SkillTree Name="HeroSkillTreePacifist"/>
         <SkillTree Name="HeroSkillTreeTemplars"/>
@@ -1161,7 +1162,7 @@
     <Affinity Name="HeroAffinityOraculars"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics05"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeOraculars"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -1176,7 +1177,7 @@
     <Affinity Name="HeroAffinityAmoeba"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERMinorFactionINS_MediumSupport"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeAmoeba"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
@@ -1190,7 +1191,7 @@
     <Affinity Name="HeroAffinityKalgeros"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics05"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeKalgeros"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -1204,7 +1205,7 @@
     <Affinity Name="HeroAffinityBots"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics04"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeBots"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1218,7 +1219,7 @@
     <Affinity Name="HeroAffinityDeuyivans"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERMinorFactionINS_MediumSupport"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeDeuyivans"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
@@ -1232,7 +1233,7 @@
     <Affinity Name="HeroAffinityHaroshem"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics04"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeHaroshem"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -1246,7 +1247,7 @@
     <Affinity Name="HeroAffinityHaroshem"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeHaroshem"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1260,7 +1261,7 @@
     <Affinity Name="HeroAffinityHisshos"/>
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics06"/>
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERPirates_MediumAttacker"/>
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeHisshos"/>
     <SkillTree Name="HeroSkillTreeAdmiral"/>
@@ -1274,7 +1275,7 @@
     <Affinity Name="HeroAffinityMavros"/>
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics01"/>
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERSophons_MediumAttacker"/>
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeMavros"/>
     <SkillTree Name="HeroSkillTreeAdmiral"/>
@@ -1288,7 +1289,7 @@
     <Affinity Name="HeroAffinityPilgrims"/>
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics05"/>
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERPirates_MediumAttacker"/>
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreePilgrims"/>
     <SkillTree Name="HeroSkillTreeAdmiral"/>
@@ -1303,7 +1304,7 @@
     <Affinity Name="HeroAffinityZvali"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeZvali"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -1317,7 +1318,7 @@
     <Affinity Name="HeroAffinityTikanan"/>
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics06"/>
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERPirates_MediumAttacker"/>
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeTikanan"/>
     <SkillTree Name="HeroSkillTreeAdmiral"/>
@@ -1331,7 +1332,7 @@
     <Affinity Name="HeroAffinityGnashasts"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics06"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeMilitarist"/>
     <SkillTree Name="HeroSkillTreeGnashasts"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1345,7 +1346,7 @@
     <Affinity Name="HeroAffinityEyders"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics05"/>
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERMinorFactionINS_MediumSupport"/>
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeEyders"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
@@ -1359,7 +1360,7 @@
     <Affinity Name="HeroAffinityNiris"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics04"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeNiris"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -1373,7 +1374,7 @@
     <Affinity Name="HeroAffinityBhagabas"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics03"/>
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERMinorFactionINS_MediumSupport"/>
     <SkillTree Name="HeroSkillTreePacifist"/>
     <SkillTree Name="HeroSkillTreeBhagabas"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
@@ -1387,7 +1388,7 @@
     <Affinity Name="HeroAffinityRemnant"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics01"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeRemnant"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1401,7 +1402,7 @@
     <Affinity Name="HeroAffinityPulsos"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics01"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreePulsos"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1417,7 +1418,7 @@
 		<Class Name="HeroClassAdventurer"/>
 		<Politics Name="HeroPolitics04"/>
 
-		<ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+		<ShipDesign Name="AFHEREndlessQuest_MediumDefender"/>
 
 		<SkillTree Name="HeroSkillTreeEcologist"/>
 		<SkillTree Name="HeroSkillTreeEndless"/>
@@ -1432,7 +1433,7 @@
     <Affinity Name="HeroAffinityFluffpetal"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics01"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeFluffpetal"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1455,7 +1456,7 @@
     <Affinity Name="HeroAffinityGreenman"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERMinorFactionINS_MediumSupport"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeGreenman"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
@@ -1469,7 +1470,7 @@
     <Affinity Name="HeroAffinityGreenman"/>
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics04"/>
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERPirates_MediumAttacker"/>
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeGreenman"/>
     <SkillTree Name="HeroSkillTreeAdmiral"/>
@@ -1485,7 +1486,7 @@
     <Affinity Name="HeroAffinityBasryxo"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeBasryxo"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -1500,7 +1501,7 @@
     <Affinity Name="HeroAffinityArchivist"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeArchivist"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1514,7 +1515,7 @@
     <Affinity Name="HeroAffinityPlocynos"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics04"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreePlocynos"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -1528,7 +1529,7 @@
     <Affinity Name="HeroAffinitySowers"/>
     <Class Name="HeroClassAdministrator"/>
     <Politics Name="HeroPolitics05"/>
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
     <SkillTree Name="HeroSkillTreeReligious"/>
     <SkillTree Name="HeroSkillTreeSowers"/>
     <SkillTree Name="HeroSkillTreeAdministrator"/>
@@ -1542,7 +1543,7 @@
     <Affinity Name="HeroAffinityKalTikMas"/>
     <Class Name="HeroClassAdmiral"/>
     <Politics Name="HeroPolitics04"/>
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="AFHERPirates_MediumAttacker"/>
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeKalTikMas"/>
     <SkillTree Name="HeroSkillTreeAdmiral"/>
@@ -1556,7 +1557,7 @@
     <Affinity Name="HeroAffinitySefaloros"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics01"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeIndustrialist"/>
     <SkillTree Name="HeroSkillTreeSefaloros"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1570,7 +1571,7 @@
     <Affinity Name="HeroAffinityGalvrans"/>
     <Class Name="HeroClassCorporate"/>
     <Politics Name="HeroPolitics02"/>
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="AFHERMinorFactionINS_MediumSupport"/>
     <SkillTree Name="HeroSkillTreeScientist"/>
     <SkillTree Name="HeroSkillTreeGalvrans"/>
     <SkillTree Name="HeroSkillTreeCorporate"/>
@@ -1584,7 +1585,7 @@
     <Affinity Name="HeroAffinityHarmony"/>
     <Class Name="HeroClassAdventurer"/>
     <Politics Name="HeroPolitics04"/>
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="AFHERMinorFactionPRM_MediumExplorer"/>
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeHarmony"/>
     <SkillTree Name="HeroSkillTreeAdventurer"/>
@@ -1601,7 +1602,7 @@
     <!--Ecologist-->
     <Politics Name="HeroPolitics04"/>
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="AFHERMinorFactionADV_MediumDefender"/>
 
     <SkillTree Name="HeroSkillTreeEcologist"/>
     <SkillTree Name="HeroSkillTreeVaulters"/>
