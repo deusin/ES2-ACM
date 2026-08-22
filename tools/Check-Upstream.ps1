@@ -10,11 +10,21 @@
   downloaded. To refresh one that changed: subscribe/let Steam download it, then
   .\tools\Import-Upstream.ps1 -Mod <mod> and git merge upstream/<mod>.
 
+.PARAMETER Notes
+  Also fetch each mod's workshop change-log page and print the author's notes for updates newer than
+  the imported drop (with -All, print every note). Steam's change-log dates omit the year for the
+  current year, so January entries right after a year change may be mis-dated by one year.
+
 .EXAMPLE
   .\tools\Check-Upstream.ps1
+  .\tools\Check-Upstream.ps1 -Notes
+  .\tools\Check-Upstream.ps1 -Notes -All
 #>
 [CmdletBinding()]
-param()
+param(
+    [switch]$Notes,
+    [switch]$All
+)
 
 $ErrorActionPreference = 'Stop'
 $RepoRoot = Split-Path $PSScriptRoot -Parent
@@ -60,3 +70,36 @@ $rows = foreach ($mod in $Mods.Keys) {
     }
 }
 $rows | Format-Table -AutoSize -Wrap
+
+if (-not $Notes) { return }
+
+foreach ($row in $rows) {
+    $id = $Mods[$row.Mod]
+    $since = if ($row.Imported -ne '-') { [datetime]::ParseExact($row.Imported, 'yyyy-MM-dd', $null) } else { [datetime]::MinValue }
+    try {
+        $html = (Invoke-WebRequest -UseBasicParsing -UserAgent 'Mozilla/5.0' -Uri "https://steamcommunity.com/sharedfiles/filedetails/changelog/$id").Content
+    }
+    catch { Write-Warning "$($row.Mod): could not fetch change log ($($_.Exception.Message))"; continue }
+
+    $entries = [regex]::Matches($html, '<div class="changelog headline">(.*?)</div>\s*<p id="\d+">(.*?)</p>', 'Singleline')
+    Write-Host ''
+    Write-Host "=== $($row.Title) ($($row.Mod), imported $($row.Imported)) - $($entries.Count) change-log entries"
+    $shown = 0
+    foreach ($e in $entries) {
+        $head = [regex]::Replace($e.Groups[1].Value, '<[^>]+>', '') -replace '\s+', ' '
+        $head = $head.Trim()
+        # "Update: May 31 @ 8:15am" (current year) or "Update: Dec 12, 2025 @ 3:36pm"
+        $date = $null
+        if ($head -match 'Update:\s+(\w+ \d+)(?:, (\d{4}))? @') {
+            $y = if ($Matches[2]) { $Matches[2] } else { (Get-Date).Year }
+            try { $date = [datetime]::ParseExact("$($Matches[1]) $y", 'MMM d yyyy', [cultureinfo]::InvariantCulture) } catch { }
+        }
+        if (-not $All -and $date -and $date.Date -le $since.Date) { continue }
+        $text = [System.Net.WebUtility]::HtmlDecode(($e.Groups[2].Value -replace '<br\s*/?>', "`n" -replace '<[^>]+>', '')).Trim()
+        Write-Host ''
+        Write-Host "--- $head"
+        Write-Host $text
+        $shown++
+    }
+    if ($shown -eq 0) { Write-Host '(no notes newer than the imported drop)' }
+}
