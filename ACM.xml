@@ -2,22 +2,26 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 	<RuntimeModule Name="ACM" Type="Extension" Version="1.6">
 		<Title>Amradyr Collective Mods</Title>
-		<Description>Mod collection combined and integrated
+		<Description>Mod collection combined and integrated into one module - no load-order juggling, no duplicate definitions.
 
-ESG 1.6
-More Traits (including fixes)
-Political Skill Trees
-Useful Skill Colors
-...
-  More to come and perhaps some custom factions
+Folded in:
+- ESG 1.6 (Endless Space Gaming) - the base
+- Useful Skill Colours [ESG] 2.2 - skill icons tinted by Mastery
+- More Traits (including fixes)
+- Political Skill Trees
+- Endless Legend Populations 4.5 - the twelve Endless Legend races (plus the Urkan) as minor factions
+- Minor Heroes Reimagined [ESG+PST] 0.2 - a unique skill tree for every minor-faction hero, plus the Plocynos minor faction
+- Eldritch faction trait category (own content)
 
-Credit to original authors from above. I mostly resolved conflicts and fixed bugs.
+Do NOT run the workshop versions of the mods above alongside ACM - they are already inside it and would override the merged copies.
+Plays well alongside Samus Aran, Endless Moons, Endless Anomalies, Arkon Portal and Arkon Faction Hero Ships.
 
-Built for myself and my son, might be useful for others
-You're welcome to report any issues you encounter or request an interesting integration
+Credit to the original authors. I resolved the conflicts between them and fixed the bugs I found along the way.
+
+Built for myself and my son, might be useful for others.
+You're welcome to report any issues you encounter or request an interesting integration.
 
 https://github.com/deusin/ES2-ACM
-		
 		</Description>
 		<Author>Lord Deusin Amradyr</Author>
 		<Homepage></Homepage>
