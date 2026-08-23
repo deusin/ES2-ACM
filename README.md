@@ -194,7 +194,10 @@ One infinite star-system improvement (`StarSystemImprovementKaizenRejuvenation`,
 planet in the system is depleted) that removes depletion points at one per turn per population on each planet. Folded in as
 `*[Kaizen]*` files with no changes except the `EnableKaizenRejuvenation,True` gate on the improvement (New Game toggle,
 default on) and the dropped override of vanilla's `%PlanetNotDepletedTitle` string. The drop's `StarSystemImprovements.xml`
-is renamed to `ConstructibleElement_Industry[Kaizen].xml` so ESG's existing `FilePath` pattern loads it.
+is renamed to `ConstructibleElement_Industry[Kaizen].xml` so ESG's existing `FilePath` pattern loads it. Two improvements are
+grafted from *Depletion No More* ([3569604608](https://steamcommunity.com/sharedfiles/filedetails/?id=3569604608), a 2025
+re-upload of Kaizen with the same effect): the improvement requires Climate Engineering (`TechnologyTerraformation2`, Science &
+Exploration stage 4) and carries `SupervisorGain -1` on every yield so AI governors never queue it. Don't run either workshop item.
 
 ## Working on the mod
 

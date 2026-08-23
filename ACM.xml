@@ -18,7 +18,7 @@ Folded in:
 - Endless Anomalies 1.1.3 - over 100 new anomalies
 - Deep Space Mining 1.3.6 - special nodes (asteroid fields, black holes, nebulae...) that yield strategic resources
 - Worthy Deeds 0.33 - every empire that meets a Deed's condition completes it and gets all its rewards, no race (toggle in ACM Settings; wonders stay unique)
-- Kaizen Rejuvenation 1.2.0 - infinite system improvement that reverses Cravers planet depletion (toggle in ACM Settings)
+- Kaizen Rejuvenation 1.2.0 - infinite system improvement that reverses Cravers planet depletion, with Depletion No More's tech gate and AI-governor fix (toggle in ACM Settings)
 - Eldritch faction trait category (own content)
 
 Do NOT run the workshop versions of the mods above alongside ACM - they are already inside it and would override the merged copies.

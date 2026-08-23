@@ -98,7 +98,8 @@ git merge upstream/esg                    # 3-way merge into master; resolve onl
   conflicts = the cue). Every regular deed exists twice: original with `EnableWorthyDeeds,False`, `_WD` copy with `True` — an ESG
   merge touching `QuestDefinitions[Deeds].xml`/`Droplists[Reward].xml` means regenerate, and re-add the `False` gates ESG's file loses.
 - **Kaizen** (suffix `[Kaizen]`). Four files; on merge keep the `EnableKaizenRejuvenation` gate on
-  `ConstructibleElement_Industry[Kaizen]` and drop the `%PlanetNotDepletedTitle` line from its loc file.
+  `ConstructibleElement_Industry[Kaizen]` plus the grafted Depletion No More lines (`SupervisorGain -1` ×7, `TechnologyTerraformation2`
+  prerequisite), and drop the `%PlanetNotDepletedTitle` line from its loc file. Depletion No More (3569604608) is the same mod re-uploaded; not a vendor branch.
 - **ACM New Game toggles** live in `Settings/GameSettingDefinitions[ACM].xml` + `GUI/GUIElements[ACM_Settings].xml`
   + `Localization/english/ES2_Localization_Locales[ACM].xml`, and the `AdvancedSettingsACMSettings` group in
   `GUI/Screens/GUIElements[NewGameScreen].xml` (an ESG file, single definition — re-add the group after every ESG

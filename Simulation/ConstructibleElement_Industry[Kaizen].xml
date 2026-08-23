@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/IndustryConstructibleElement.xsd">
 
     <StarSystemImprovementDefinition Name="StarSystemImprovementKaizenRejuvenation" SubCategory="StarSystemImprovementKaizenRejuvenationSub" >
         <AIGain RessourceName="ResourceConverter">
             <Tag>IndustryConverter</Tag>
         </AIGain>
+        <!-- ACM: grafted from Depletion No More (workshop 3569604608): keep AI governors from queueing it -->
+        <SupervisorGain   Name="Food"     Weight="-1"  />
+        <SupervisorGain   Name="Industry" Weight="-1"  />
+        <SupervisorGain   Name="Dust"     Weight="-1"  />
+        <SupervisorGain   Name="Science"  Weight="-1"  />
+        <SupervisorGain   Name="Approval" Weight="-1"  />
+        <SupervisorGain   Name="Prestige" Weight="-1"  />
+        <SupervisorGain   Name="Military" Weight="-1"  />
 
         <Tags>NoBuyout</Tags>
 
@@ -15,6 +23,8 @@
         <GameSettingPrerequisite Flags="Prerequisite,Discard">EnableKaizenRejuvenation,True</GameSettingPrerequisite>
         <InterpreterPrerequisite Flags="Prerequisite,Discard">SumProperty(Context,@ClassColonizedStarSystem/ClassPlanet, PlanetDepletionPoints) gt 0</InterpreterPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,!AffinityGameplayCravers</PathPrerequisite>
+        <!-- ACM: grafted from Depletion No More: requires Climate Engineering (Science & Exploration stage 4) -->
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyTerraformation2</TechnologyPrerequisite>
     </StarSystemImprovementDefinition>
 
 </Datatable>
