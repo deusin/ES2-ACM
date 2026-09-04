@@ -7,6 +7,7 @@
     <Modifier TargetProperty="HackingWarpSpeed"     Value="0.20"  Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
     <Modifier TargetProperty="HackingNonWarpSpeed"  Value="0.20"  Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
     <Modifier TargetProperty="HackingNodeSpeed"     Value="0.20"  Operation="Percent" Path="ClassEmpire"/>
+    <Modifier TargetProperty="MaximumHackingOperationsCount" Operation="Addition" Value="1" Path="ClassEmpire"/>
   </SimulationDescriptor>
 
 <!-- UNIQUE HERO SKILLS -->
