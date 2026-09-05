@@ -13,7 +13,7 @@
   <!-- ELDRITCH CRESCENT ANOMALIES -->
 
   <LocalizationPair Name="%PlanetAnomalyEldritch1Title">Whispering Lattice</LocalizationPair>
-  <LocalizationPair Name="%PlanetAnomalyEldritch1Description">The structural lattice of this Crescent murmurs constantly in a language no one taught it. Researchers who transcribe the whispers publish astonishing papers, then request transfers.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch1Description">The structural lattice of this Crescent murmurs constantly in a language no one taught it. Little of it survives transcription — but let the whispers ride an intrusion into a foreign network, and they arrive early, knowing the passwords.</LocalizationPair>
 
   <LocalizationPair Name="%PlanetAnomalyEldritch2Title">Abyssal Dust Font</LocalizationPair>
   <LocalizationPair Name="%PlanetAnomalyEldritch2Description">Dust seeps upward through this Crescent's floor from a place that, by every measurement, is not there. Accountants have learned not to ask where the ledger balances from.</LocalizationPair>
@@ -32,6 +32,10 @@
   <LocalizationPair Name="%PlanetAnomalyEldritch5Description">Something feeds in the non-space between this Crescent's angles. Meals go missing. Ideas go missing. The corners of rooms are wider than they should be, and getting wider.</LocalizationPair>
   <LocalizationPair Name="%PlanetAnomalyEldritch5EnhancedTitle">Sated Angles</LocalizationPair>
   <LocalizationPair Name="%PlanetAnomalyEldritch5EnhancedDescription">Fed deliberately and well, the thing between the angles has begun leaving gifts: answers to unasked questions, Dust in tidy stacks, and a contentment that settles over the Crescent like a warm shadow.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyEldritch2InterestTip">+0.5% [DustColored] of Empire [DustColored] stock on Empire</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch3EnhancedXPTip">+5 Experience per turn on the Hero assigned to this System</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch5PortalTip">Allows the teleportation of fleets between this system and another portal</LocalizationPair>
 
   <LocalizationPair Name="%ToEnhancePlanetAnomalyEldritch3Title">Harmonize the Chorus</LocalizationPair>
   <LocalizationPair Name="%ToEnhancePlanetAnomalyEldritch3Description">Teach the mimic the true song, note by patient note, until it sings with the Choir instead of at it.</LocalizationPair>

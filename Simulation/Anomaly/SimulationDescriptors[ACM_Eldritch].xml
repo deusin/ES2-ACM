@@ -5,10 +5,13 @@
        Calibrated against the DLC3 Crescent anomalies (PlanetAnomaly50-55) and Endless Anomalies'
        Enhanced versions of them. -->
 
-  <!-- Whispering Lattice: the Crescent's frame murmurs forbidden knowledge -->
+  <!-- Whispering Lattice: the murmurs ride the empire's intrusions - science traded for hack speed -->
   <SimulationDescriptor Name="PlanetAnomalyEldritch1" Type="PlanetAnomaly" >
-    <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     Value="3" Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     Value="1" Operation="Addition" Path="ClassPlanet"/>
     <Modifier TargetProperty="PlanetInitialPrestigePerPopulation"    Value="1" Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="HackingWarpSpeed"     Value="0.10"  Operation="Percent" Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="HackingNonWarpSpeed"  Value="0.10"  Operation="Percent" Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="HackingNodeSpeed"     Value="0.10"  Operation="Percent" Path="../ClassEmpire"/>
     <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
   </SimulationDescriptor>
 
@@ -16,6 +19,7 @@
   <SimulationDescriptor Name="PlanetAnomalyEldritch2" Type="PlanetAnomaly" >
     <Modifier TargetProperty="PlanetInitialDustPerPopulation"        Value="3" Operation="Addition" Path="ClassPlanet"/>
     <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     Value="1" Operation="Addition" Path="ClassPlanet"/>
+    <BinaryModifier TargetProperty="EmpireMoney" Operation="Addition" Left=".005" BinaryOperation="Percent" Right="$(BankAccount)" Path="../ClassEmpire" SearchValueFromPath="true" TooltipOverride="%PlanetAnomalyEldritch2InterestTip"/>
     <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
   </SimulationDescriptor>
 
@@ -31,6 +35,7 @@
     <Modifier TargetProperty="PlanetInitialPrestigePerPopulation"    Value="3"   Operation="Addition" Path="ClassPlanet"/>
     <BinaryModifier TargetProperty="Happiness"      Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)"/>
     <Modifier TargetProperty="HappinessRaw"         Operation="Addition" Value="1" TooltipHidden="true" />
+    <Modifier TargetProperty="ExperiencePerTurn"    Value="5" Operation="Addition" Path="./ClassColonizedStarSystem/ClassHero,HeroAssigned" TooltipOverride="%PlanetAnomalyEldritch3EnhancedXPTip"/>
     <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
   </SimulationDescriptor>
 
@@ -44,6 +49,7 @@
   <SimulationDescriptor Name="PlanetAnomalyEldritch4Enhanced" Type="PlanetAnomaly" >
     <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    Value="5"  Operation="Addition" Path="ClassPlanet"/>
     <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     Value="1"  Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="ShipProductionCostReduction"           Value="-0.1" Operation="Addition" Path="./ClassColonizedStarSystem"/>
     <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
   </SimulationDescriptor>
 
@@ -61,6 +67,8 @@
     <Modifier TargetProperty="PlanetInitialDustPerPopulation"        Value="2"  Operation="Addition" Path="ClassPlanet"/>
     <BinaryModifier TargetProperty="Happiness"      Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)"/>
     <Modifier TargetProperty="HappinessRaw"         Operation="Addition" Value="1" TooltipHidden="true" />
+    <Modifier TargetProperty="HasPortal"      Operation="Addition" Value="1" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem" TooltipOverride="%PlanetAnomalyEldritch5PortalTip"/>
+    <Modifier TargetProperty="CanUsePortals"  Operation="Addition" Value="1" Path="../ClassEmpire" TooltipHidden="true"/>
     <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
   </SimulationDescriptor>
 
