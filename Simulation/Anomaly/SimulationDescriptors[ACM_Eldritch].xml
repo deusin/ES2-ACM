@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+  <!-- ACM: effects for the eldritch Crescent anomalies (AnomalyDefinitions[ACM_Eldritch].xml).
+       Calibrated against the DLC3 Crescent anomalies (PlanetAnomaly50-55) and Endless Anomalies'
+       Enhanced versions of them. -->
+
+  <!-- Whispering Lattice: the Crescent's frame murmurs forbidden knowledge -->
+  <SimulationDescriptor Name="PlanetAnomalyEldritch1" Type="PlanetAnomaly" >
+    <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     Value="3" Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="PlanetInitialPrestigePerPopulation"    Value="1" Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Abyssal Dust Font: Dust wells up from somewhere beneath the geometry -->
+  <SimulationDescriptor Name="PlanetAnomalyEldritch2" Type="PlanetAnomaly" >
+    <Modifier TargetProperty="PlanetInitialDustPerPopulation"        Value="3" Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     Value="1" Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Mimicking Chorus: something sings the Choir's song back, slightly wrong -->
+  <SimulationDescriptor Name="PlanetAnomalyEldritch3" Type="PlanetAnomaly" >
+    <Modifier TargetProperty="PlanetInitialPrestigePerPopulation"    Value="2"   Operation="Addition" Path="ClassPlanet"/>
+    <BinaryModifier TargetProperty="Happiness"      Operation="Addition" Left="-1" BinaryOperation="Multiplication" Right="$(Population)"/>
+    <Modifier TargetProperty="HappinessRaw"         Operation="Addition" Value="-1" TooltipHidden="true" />
+    <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <!-- Harmonized Chorus: taught the true song, it sings with the Choir -->
+  <SimulationDescriptor Name="PlanetAnomalyEldritch3Enhanced" Type="PlanetAnomaly" >
+    <Modifier TargetProperty="PlanetInitialPrestigePerPopulation"    Value="3"   Operation="Addition" Path="ClassPlanet"/>
+    <BinaryModifier TargetProperty="Happiness"      Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)"/>
+    <Modifier TargetProperty="HappinessRaw"         Operation="Addition" Value="1" TooltipHidden="true" />
+    <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Achronal Folds: work proceeds in hours that do not exist -->
+  <SimulationDescriptor Name="PlanetAnomalyEldritch4" Type="PlanetAnomaly" >
+    <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    Value="3"  Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="PlanetInitialFoodPerPopulation"        Value="-2" Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <!-- Mastered Folds: the folds mapped, the lost hours reclaimed -->
+  <SimulationDescriptor Name="PlanetAnomalyEldritch4Enhanced" Type="PlanetAnomaly" >
+    <Modifier TargetProperty="PlanetInitialIndustryPerPopulation"    Value="5"  Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     Value="1"  Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Hungering Angles: something feeds in the non-space between the Crescent's angles -->
+  <SimulationDescriptor Name="PlanetAnomalyEldritch5" Type="PlanetAnomaly" >
+    <Modifier TargetProperty="PlanetInitialFoodPerPopulation"        Value="-1" Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     Value="-1" Operation="Addition" Path="ClassPlanet"/>
+    <BinaryModifier TargetProperty="Happiness"      Operation="Addition" Left="-1" BinaryOperation="Multiplication" Right="$(Population)"/>
+    <Modifier TargetProperty="HappinessRaw"         Operation="Addition" Value="-1" TooltipHidden="true" />
+    <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <!-- Sated Angles: fed deliberately, it reciprocates - a negative anomaly turned positive -->
+  <SimulationDescriptor Name="PlanetAnomalyEldritch5Enhanced" Type="PlanetAnomaly" >
+    <Modifier TargetProperty="PlanetInitialSciencePerPopulation"     Value="2"  Operation="Addition" Path="ClassPlanet"/>
+    <Modifier TargetProperty="PlanetInitialDustPerPopulation"        Value="2"  Operation="Addition" Path="ClassPlanet"/>
+    <BinaryModifier TargetProperty="Happiness"      Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)"/>
+    <Modifier TargetProperty="HappinessRaw"         Operation="Addition" Value="1" TooltipHidden="true" />
+    <Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+</Datatable>

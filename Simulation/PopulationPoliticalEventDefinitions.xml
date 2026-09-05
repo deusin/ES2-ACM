@@ -451,4 +451,19 @@
   <PopulationPoliticalEventDefinition Name="PopulationPoliticalEventColonizationGasBurning"  Category="PoliticalEventColonization" Scale="System" Duration="20" Power="1">
     <Politics Name="Politics01"/>
   </PopulationPoliticalEventDefinition>
+  <!-- ACM: eldritch Crescent anomaly enhancements (ConstructibleElement_AnomalyReductions[ACM_Eldritch].xml) -->
+  <PopulationPoliticalEventDefinition Name="PopulationPoliticalEventEnhancedAnomalyEldritch3" Category="PoliticalEventConstruction" Scale="System" Duration="20" Power="2">
+    <Tags>Construction</Tags>
+    <Politics Name="Politics04"/>
+  </PopulationPoliticalEventDefinition>
+
+  <PopulationPoliticalEventDefinition Name="PopulationPoliticalEventEnhancedAnomalyEldritch4" Category="PoliticalEventConstruction" Scale="System" Duration="20" Power="2">
+    <Tags>Construction</Tags>
+    <Politics Name="Politics04"/>
+  </PopulationPoliticalEventDefinition>
+
+  <PopulationPoliticalEventDefinition Name="PopulationPoliticalEventEnhancedAnomalyEldritch5" Category="PoliticalEventConstruction" Scale="System" Duration="20" Power="2">
+    <Tags>Construction</Tags>
+    <Politics Name="Politics04"/>
+  </PopulationPoliticalEventDefinition>
 </Datatable>

@@ -58,6 +58,12 @@
     <Entry Tag="Curiosity_PlanetAnomaly53" Weight="25"/>
     <Entry Tag="Curiosity_PlanetAnomaly54" Weight="25"/>
     <Entry Tag="Curiosity_PlanetAnomaly55" Weight="25"/>
+    <!-- ACM: eldritch Crescent anomalies (AnomalyDefinitions[ACM_Eldritch].xml) -->
+    <Entry Tag="Curiosity_PlanetAnomalyEldritch1" Weight="25"/>
+    <Entry Tag="Curiosity_PlanetAnomalyEldritch2" Weight="25"/>
+    <Entry Tag="Curiosity_PlanetAnomalyEldritch3" Weight="20"/>
+    <Entry Tag="Curiosity_PlanetAnomalyEldritch4" Weight="20"/>
+    <Entry Tag="Curiosity_PlanetAnomalyEldritch5" Weight="20"/>
     <!-- Endless Moons -->
     <Entry Tag="Curiosity_Moon_SmSingA1" Weight="10"/>
     <Entry Tag="Curiosity_Moon_SmSingB1" Weight="8"/>
@@ -249,6 +255,12 @@
     <Entry Tag="PlanetAnomaly53" Weight="4"/>
     <Entry Tag="PlanetAnomaly54" Weight="4"/>
     <Entry Tag="PlanetAnomaly55" Weight="4"/>
+    <!-- ACM: eldritch Crescent anomalies (AnomalyDefinitions[ACM_Eldritch].xml) -->
+    <Entry Tag="PlanetAnomalyEldritch1" Weight="4"/>
+    <Entry Tag="PlanetAnomalyEldritch2" Weight="4"/>
+    <Entry Tag="PlanetAnomalyEldritch3" Weight="4"/>
+    <Entry Tag="PlanetAnomalyEldritch4" Weight="4"/>
+    <Entry Tag="PlanetAnomalyEldritch5" Weight="4"/>
     <!-- Endless Moons -->
     <Entry Tag="CloakedOrb_I1_1" Weight="0"/>
     <Entry Tag="CloakedOrb_I2_1" Weight="0"/>

@@ -10,6 +10,38 @@
   <LocalizationPair Name="%FactionTraitEldritchHeroDescription">Start with an Eldritch Hero.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitEldritchHeroEffect">Start with an Eldritch Hero.</LocalizationPair>
 
+  <!-- ELDRITCH CRESCENT ANOMALIES -->
+
+  <LocalizationPair Name="%PlanetAnomalyEldritch1Title">Whispering Lattice</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch1Description">The structural lattice of this Crescent murmurs constantly in a language no one taught it. Researchers who transcribe the whispers publish astonishing papers, then request transfers.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyEldritch2Title">Abyssal Dust Font</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch2Description">Dust seeps upward through this Crescent's floor from a place that, by every measurement, is not there. Accountants have learned not to ask where the ledger balances from.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyEldritch3Title">Mimicking Chorus</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch3Description">Something in the hollow spaces of this Crescent sings the Choir's song back — a half-beat late, and very slightly wrong. Outsiders find the effect magnetic. Residents find it hard to sleep.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch3EnhancedTitle">Harmonized Chorus</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch3EnhancedDescription">Taught the true song at last, the presence in the hollow spaces now sings in perfect unison with the Choir. The duet is the loveliest sound in the galaxy, and only slightly older than it.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyEldritch4Title">Achronal Folds</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch4Description">In certain corridors of this Crescent, shifts end before they begin and quotas fill themselves in hours that do not exist. The crops, unfortunately, also experience seasons that do not exist.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch4EnhancedTitle">Mastered Folds</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch4EnhancedDescription">The folds have been charted, scheduled, and unionized. Work now flows through the impossible hours without losing so much as a harvest, and the overtime paperwork is filed yesterday.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyEldritch5Title">Hungering Angles</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch5Description">Something feeds in the non-space between this Crescent's angles. Meals go missing. Ideas go missing. The corners of rooms are wider than they should be, and getting wider.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch5EnhancedTitle">Sated Angles</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEldritch5EnhancedDescription">Fed deliberately and well, the thing between the angles has begun leaving gifts: answers to unasked questions, Dust in tidy stacks, and a contentment that settles over the Crescent like a warm shadow.</LocalizationPair>
+
+  <LocalizationPair Name="%ToEnhancePlanetAnomalyEldritch3Title">Harmonize the Chorus</LocalizationPair>
+  <LocalizationPair Name="%ToEnhancePlanetAnomalyEldritch3Description">Teach the mimic the true song, note by patient note, until it sings with the Choir instead of at it.</LocalizationPair>
+
+  <LocalizationPair Name="%ToEnhancePlanetAnomalyEldritch4Title">Master the Folds</LocalizationPair>
+  <LocalizationPair Name="%ToEnhancePlanetAnomalyEldritch4Description">Chart every impossible hour and put it on the schedule. Time is only a problem for those who insist on experiencing it in order.</LocalizationPair>
+
+  <LocalizationPair Name="%ToEnhancePlanetAnomalyEldritch5Title">Feed the Angles</LocalizationPair>
+  <LocalizationPair Name="%ToEnhancePlanetAnomalyEldritch5Description">Stop rationing what it takes and start offering what it wants. A fed god is a friendly god, or at least a generous one.</LocalizationPair>
+
   <!-- CUSTOM HERO DATA -->
 
   <!-- CUSTOM HERO SKILLS -->

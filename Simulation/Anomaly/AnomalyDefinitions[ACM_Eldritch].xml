@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/AnomalyDefinition.xsd">
+
+    <!-- ACM: eldritch-themed Crescent-only anomalies. Like the DLC3 Crescent anomalies
+         (PlanetAnomaly50-55), they exclude every real planet type so only PlanetTypeFake
+         (the Umbral Choir Crescent) is eligible. Enhanced versions are placed only by the
+         AnomalyEnhancementEldritch* constructions (ConstructibleElement_AnomalyReductions[ACM_Eldritch].xml). -->
+
+    <!-- Whispering Lattice -->
+    <AnomalyDefinition Name="PlanetAnomalyEldritch1" Quality="Positive">
+        <SimulationDescriptorReference Name="PlanetAnomalyEldritch1"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasCold</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasTemperate</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasWarm</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasHot</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasBurning</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasFrozen</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <!-- Abyssal Dust Font -->
+    <AnomalyDefinition Name="PlanetAnomalyEldritch2" Quality="Positive">
+        <SimulationDescriptorReference Name="PlanetAnomalyEldritch2"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasCold</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasTemperate</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasWarm</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasHot</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasBurning</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasFrozen</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+
+    <!-- Mimicking Chorus -->
+    <AnomalyDefinition Name="PlanetAnomalyEldritch3" Quality="Mixed">
+        <SimulationDescriptorReference Name="PlanetAnomalyEldritch3"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasCold</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasTemperate</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasWarm</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasHot</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasBurning</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasFrozen</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="PlanetAnomalyEldritch3Enhanced" Quality="Upgraded">
+        <SimulationDescriptorReference Name="PlanetAnomalyEldritch3Enhanced"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyUpgraded"/>
+        <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+    </AnomalyDefinition>
+
+    <!-- Achronal Folds -->
+    <AnomalyDefinition Name="PlanetAnomalyEldritch4" Quality="Mixed">
+        <SimulationDescriptorReference Name="PlanetAnomalyEldritch4"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasCold</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasTemperate</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasWarm</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasHot</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasBurning</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasFrozen</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="PlanetAnomalyEldritch4Enhanced" Quality="Upgraded">
+        <SimulationDescriptorReference Name="PlanetAnomalyEldritch4Enhanced"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyUpgraded"/>
+        <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+    </AnomalyDefinition>
+
+    <!-- Hungering Angles -->
+    <AnomalyDefinition Name="PlanetAnomalyEldritch5" Quality="Negative">
+        <SimulationDescriptorReference Name="PlanetAnomalyEldritch5"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyNegative"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBarren</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeIce</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasCold</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArctic</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSnow</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeBoreal</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTundra</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasTemperate</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSteppes</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeOcean</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTerran</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeForest</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeMonsoon</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeSwamp</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAtoll</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeTropical</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeVeldt</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeJungle</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasWarm</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeArid</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDesert</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasHot</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeAsh</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeLava</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasBurning</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeGasFrozen</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="PlanetAnomalyEldritch5Enhanced" Quality="Upgraded">
+        <SimulationDescriptorReference Name="PlanetAnomalyEldritch5Enhanced"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyUpgraded"/>
+        <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+    </AnomalyDefinition>
+
+</Datatable>

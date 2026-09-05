@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/AnomalyReductionDefinition.xsd">
+
+  <!-- ACM: enhancement constructions for the eldritch Crescent anomalies, cloned from
+       Endless Anomalies' ConstructibleElement_AnomalyEnhancements.xml. Same cost and tech
+       gate (Anomaly Reduction 2). Note AnomalyEnhancementEldritch5 turns the negative
+       Hungering Angles into the positive Sated Angles rather than merely reducing it. -->
+
+  <!-- Mimicking Chorus -> Harmonized Chorus -->
+  <AnomalyReductionDefinition Name="AnomalyEnhancementEldritch3" Category="CategoryAnomalyReduction">
+    <CustomCost ResourceName="SystemProduction">1280 * (1 + Property(StockLocation, @../ClassEmpire, ReductionModifier)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, BuildingProductionCostReduction)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, GameSpeedProductionCostReduction))</CustomCost>
+    <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+
+    <InterpreterPrerequisite Flags="Prerequisite,Disable">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
+    <PopulationEvent Name="PopulationPoliticalEventEnhancedAnomalyEldritch3"/>
+    <BaseAnomaly Name="PlanetAnomalyEldritch3"/>
+    <ResultAnomaly Name="PlanetAnomalyEldritch3Enhanced"/>
+  </AnomalyReductionDefinition>
+
+  <!-- Achronal Folds -> Mastered Folds -->
+  <AnomalyReductionDefinition Name="AnomalyEnhancementEldritch4" Category="CategoryAnomalyReduction">
+    <CustomCost ResourceName="SystemProduction">1280 * (1 + Property(StockLocation, @../ClassEmpire, ReductionModifier)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, BuildingProductionCostReduction)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, GameSpeedProductionCostReduction))</CustomCost>
+    <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+
+    <InterpreterPrerequisite Flags="Prerequisite,Disable">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
+    <PopulationEvent Name="PopulationPoliticalEventEnhancedAnomalyEldritch4"/>
+    <BaseAnomaly Name="PlanetAnomalyEldritch4"/>
+    <ResultAnomaly Name="PlanetAnomalyEldritch4Enhanced"/>
+  </AnomalyReductionDefinition>
+
+  <!-- Hungering Angles -> Sated Angles (negative becomes positive) -->
+  <AnomalyReductionDefinition Name="AnomalyEnhancementEldritch5" Category="CategoryAnomalyReduction">
+    <CustomCost ResourceName="SystemProduction">1280 * (1 + Property(StockLocation, @../ClassEmpire, ReductionModifier)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, BuildingProductionCostReduction)) * (1 - Property(StockLocation, @ClassColonizedStarSystem, GameSpeedProductionCostReduction))</CustomCost>
+    <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+
+    <InterpreterPrerequisite Flags="Prerequisite,Disable">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'../ClassEmpire',IsAIControlled) eq 0</InterpreterPrerequisite>
+    <PopulationEvent Name="PopulationPoliticalEventEnhancedAnomalyEldritch5"/>
+    <BaseAnomaly Name="PlanetAnomalyEldritch5"/>
+    <ResultAnomaly Name="PlanetAnomalyEldritch5Enhanced"/>
+  </AnomalyReductionDefinition>
+
+</Datatable>

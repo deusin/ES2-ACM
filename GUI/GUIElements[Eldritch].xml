@@ -28,6 +28,130 @@
         </TooltipElement>
     </ExtendedGuiElement>
 
+  <!-- ELDRITCH CRESCENT ANOMALIES (icons reused from Endless Anomalies / vanilla) -->
+
+  <ExtendedGuiElement Name="PlanetAnomalyEldritch1">
+    <Title>%PlanetAnomalyEldritch1Title</Title>
+    <Description>%PlanetAnomalyEldritch1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Gui/GhostWhisps_Large"/>
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetAnomalyEldritch2">
+    <Title>%PlanetAnomalyEldritch2Title</Title>
+    <Description>%PlanetAnomalyEldritch2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Gui/DustLuminescence_Large"/>
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetAnomalyEldritch3">
+    <Title>%PlanetAnomalyEldritch3Title</Title>
+    <Description>%PlanetAnomalyEldritch3Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Gui/MimickingChorus_Large"/>
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="PlanetAnomalyEldritch3Enhanced">
+    <Title>%PlanetAnomalyEldritch3EnhancedTitle</Title>
+    <Description>%PlanetAnomalyEldritch3EnhancedDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Gui/MimickingChorus_Large"/>
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetAnomalyEldritch4">
+    <Title>%PlanetAnomalyEldritch4Title</Title>
+    <Description>%PlanetAnomalyEldritch4Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Gui/TimeFlux_Large"/>
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="PlanetAnomalyEldritch4Enhanced">
+    <Title>%PlanetAnomalyEldritch4EnhancedTitle</Title>
+    <Description>%PlanetAnomalyEldritch4EnhancedDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Gui/TimeFlux_Large"/>
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetAnomalyEldritch5">
+    <Title>%PlanetAnomalyEldritch5Title</Title>
+    <Description>%PlanetAnomalyEldritch5Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Gui/NullPlains_Large"/>
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+  <!-- Sated Angles: the fed void glows - different picture from the base anomaly on purpose -->
+  <ExtendedGuiElement Name="PlanetAnomalyEldritch5Enhanced">
+    <Title>%PlanetAnomalyEldritch5EnhancedTitle</Title>
+    <Description>%PlanetAnomalyEldritch5EnhancedDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Gui/GlowingPlains_Large"/>
+    </Icons>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Enhancement constructions -->
+
+  <GuiElement Name="AnomalyEnhancementEldritch3">
+    <Title>%ToEnhancePlanetAnomalyEldritch3Title</Title>
+    <Description>%ToEnhancePlanetAnomalyEldritch3Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly" />
+      <Icon Size="Large" Path="Gui/MimickingChorus_Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancementEldritch4">
+    <Title>%ToEnhancePlanetAnomalyEldritch4Title</Title>
+    <Description>%ToEnhancePlanetAnomalyEldritch4Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly" />
+      <Icon Size="Large" Path="Gui/TimeFlux_Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="AnomalyEnhancementEldritch5">
+    <Title>%ToEnhancePlanetAnomalyEldritch5Title</Title>
+    <Description>%ToEnhancePlanetAnomalyEldritch5Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Anomaly" />
+      <Icon Size="Large" Path="Gui/NullPlains_Large" />
+      <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Population events for the enhancements (shared generic title, as Endless Anomalies does) -->
+
+  <ExtendedGuiElement Name="PopulationPoliticalEventEnhancedAnomalyEldritch3">
+    <Title>%PopulationPoliticalEventEnhancedAnomalyTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="PopulationPoliticalEventEnhancedAnomalyEldritch4">
+    <Title>%PopulationPoliticalEventEnhancedAnomalyTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="PopulationPoliticalEventEnhancedAnomalyEldritch5">
+    <Title>%PopulationPoliticalEventEnhancedAnomalyTitle</Title>
+  </ExtendedGuiElement>
+
   <!-- Custom Hero Data -->
 
 <!-- CUSTOM HERO SKILLS -->
